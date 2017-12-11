@@ -8,6 +8,10 @@ var respecConfig = {
       name: "TNO Geologische Dienst Nederland",
       url: "https://www.tno.nl/nl/",
     },
+    {
+      name: "Geonovum",
+      url: "https://www.geonovum.nl", 
+    },  
   ],
   shortName: "bro-gar",
   pubDomain: "bro",
