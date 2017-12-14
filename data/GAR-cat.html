@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "Grondwatersamenstellingsonderzoek (GAR)" door Imvertor OS 1.35.0 op December 11, 2017 at 15:28:20.
+   "Grondwatersamenstellingsonderzoek (GAR)" door Imvertor OS 1.36.3 op December 14, 2017 at 15:33:00.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i>arjan@linkedmatter.com</i> en geef de code 
-   <i>"Domeinmodel-GrondwatersamenstellingsonderzoekGAR-0.1-0-20171207-20171211-162822"</i> door. 
+   <i>"Domeinmodel-GrondwatersamenstellingsonderzoekGAR-0.1-0-20171207-20171214-163302"</i> door. 
    Voor inhoudelijke fouten neem contact op met het modellenteam: <i>github@basisregistratieondergrond.nl</i>.
    
 </p>
@@ -107,26 +107,26 @@
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_attribute_Model_Grondwatersamenstellingsonderzoek_kwaliteitsnorm">kwaliteitsnorm</a>
+                  <a class="link" href="#detail_attribute_Model_Grondwatersamenstellingsonderzoek_onderzoeksnorm">onderzoeksnorm</a>
                   
                </td>
                <td>De norm die omschrijft volgens welke afspraken, specificaties en/of criteria het GAR
                   is uitgevoerd.
                </td>
                <td>
-                  <a class="link" href="#global_class_Model_Kwaliteitsnorm">Kwaliteitsnorm</a>
+                  <a class="link" href="#global_class_Model_Onderzoeksnorm">Onderzoeksnorm</a>
                   
                </td>
                <td>1</td>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_attribute_Model_Grondwatersamenstellingsonderzoek_typeringGrondwater">typering grondwater</a>
+                  <a class="link" href="#detail_attribute_Model_Grondwatersamenstellingsonderzoek_typeGrondwater">type grondwater</a>
                   
                </td>
                <td></td>
                <td>
-                  <a class="link" href="#global_class_Model_TyperingGrondwater">TyperingGrondwater</a>
+                  <a class="link" href="#global_class_Model_TypeGrondwater">TypeGrondwater</a>
                   
                </td>
                <td>1</td>
@@ -202,7 +202,7 @@
                   <a class="link" href="#detail_association_Model_Grondwatersamenstellingsonderzoek">bestaat uit</a>
                   
                   
-                  <a class="link" href="#global_class_Model_Monstername">Monstername</a>
+                  <a class="link" href="#global_class_Model_Veldonderzoek">Veldonderzoek</a>
                   
                   [ 1 ]
                   
@@ -237,8 +237,8 @@
    </section>
    
    <div id="">&nbsp;</div>
-   <section id="global_class_Model_Monstername">
-      <h2>Objecttype Monstername</h2>
+   <section id="global_class_Model_ResultaatVeldwaarneming">
+      <h2>Objecttype Resultaat veldwaarneming</h2>
       
       <table>
          <colgroup width="30%"></colgroup>
@@ -246,7 +246,7 @@
          <tbody>
             <tr>
                <th>Naam</th>
-               <td>Monstername</td>
+               <td>Resultaat veldwaarneming</td>
             </tr>
             <tr>
                <th>Alternatieve naam</th>
@@ -303,7 +303,150 @@
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_attribute_Model_Monstername_datumMonstername">datum monstername</a>
+                  <a class="link" href="#detail_attribute_Model_ResultaatVeldwaarneming_gLDHD">GLDHD</a>
+                  
+               </td>
+               <td></td>
+               <td>
+                  <a class="link" href="#global_class_Model_Getalswaarde3">Getalswaarde3</a>
+                  
+               </td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>
+                  <a class="link" href="#detail_attribute_Model_ResultaatVeldwaarneming_hCO3">HCO3</a>
+                  
+               </td>
+               <td></td>
+               <td>
+                  <a class="link" href="#global_class_Model_Getalswaarde41">Getalswaarde4.1</a>
+                  
+               </td>
+               <td>0 .. 1</td>
+            </tr>
+            <tr>
+               <td>
+                  <a class="link" href="#detail_attribute_Model_ResultaatVeldwaarneming_o2">O2</a>
+                  
+               </td>
+               <td></td>
+               <td>
+                  <a class="link" href="#global_class_Model_Getalswaarde22">Getalswaarde2.2</a>
+                  
+               </td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>
+                  <a class="link" href="#detail_attribute_Model_ResultaatVeldwaarneming_pH">pH</a>
+                  
+               </td>
+               <td></td>
+               <td>
+                  <a class="link" href="#global_class_Model_Getalswaarde11">Getalswaarde1.1</a>
+                  
+               </td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>
+                  <a class="link" href="#detail_attribute_Model_ResultaatVeldwaarneming_t">T</a>
+                  
+               </td>
+               <td></td>
+               <td>
+                  <a class="link" href="#global_class_Model_Getalswaarde21">Getalswaarde2.1</a>
+                  
+               </td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>
+                  <a class="link" href="#detail_attribute_Model_ResultaatVeldwaarneming_troebelheid">Troebelheid</a>
+                  
+               </td>
+               <td></td>
+               <td>
+                  <a class="link" href="#global_class_Model_Getalswaarde3">Getalswaarde3</a>
+                  
+               </td>
+               <td>1</td>
+            </tr>
+         </tbody>
+      </table>
+      
+      
+   </section>
+   
+   <div id="">&nbsp;</div>
+   <section id="global_class_Model_Veldonderzoek">
+      <h2>Objecttype Veldonderzoek</h2>
+      
+      <table>
+         <colgroup width="30%"></colgroup>
+         <colgroup width="70%"></colgroup>
+         <tbody>
+            <tr>
+               <th>Naam</th>
+               <td>Veldonderzoek</td>
+            </tr>
+            <tr>
+               <th>Alternatieve naam</th>
+               <td></td>
+            </tr>
+            <tr>
+               <th>Herkomst</th>
+               <td>BRO</td>
+            </tr>
+            <tr>
+               <th>Definitie</th>
+               <td></td>
+            </tr>
+            <tr>
+               <th>Herkomst definitie</th>
+               <td>BRO</td>
+            </tr>
+            <tr>
+               <th>Datum opname</th>
+               <td></td>
+            </tr>
+            <tr>
+               <th>Unieke aanduiding</th>
+               <td></td>
+            </tr>
+            <tr>
+               <th>Populatie</th>
+               <td></td>
+            </tr>
+            <tr>
+               <th>Indicatie kwaliteit</th>
+               <td></td>
+            </tr>
+            <tr>
+               <th>Indicatie abstract object</th>
+               <td>Nee</td>
+            </tr>
+         </tbody>
+      </table>
+      
+      <h3>Overzicht attributen</h3>
+      
+      <table>
+         <colgroup width="30%"></colgroup>
+         <colgroup width="50%"></colgroup>
+         <colgroup width="10%"></colgroup>
+         <colgroup width="10%"></colgroup>
+         <tbody>
+            <tr>
+               <th>Attribuutnaam</th>
+               <th>Definitie</th>
+               <th>Formaat</th>
+               <th>Card</th>
+            </tr>
+            <tr>
+               <td>
+                  <a class="link" href="#detail_attribute_Model_Veldonderzoek_datumVeldonderzoek">datum veldonderzoek</a>
                   
                </td>
                <td>De datum waarop de bemonstering is uitgevoerd.</td>
@@ -315,35 +458,35 @@
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_attribute_Model_Monstername_bemonsteringsnorm">bemonsteringsnorm</a>
+                  <a class="link" href="#detail_attribute_Model_Veldonderzoek_veldonderzoeknorm">veldonderzoeknorm</a>
                   
                </td>
                <td>Benoemt de norm waarin eisen en voorgeschreven werkwijze ten aanzien van bemonstering
                   is vastgelegd.
                </td>
                <td>
-                  <a class="link" href="#global_class_Model_Bemonsteringsprotocol">Bemonsteringsprotocol</a>
+                  <a class="link" href="#global_class_Model_Veldonderzoekprotocol">Veldonderzoekprotocol</a>
                   
                </td>
                <td>1</td>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_attribute_Model_Monstername_afwijkingBemonsteringsnorm">afwijking bemonsteringsnorm</a>
+                  <a class="link" href="#detail_attribute_Model_Veldonderzoek_afwijkingVeldonderzoeknorm">afwijking veldonderzoeknorm</a>
                   
                </td>
                <td>Tijdens bemonstering geconstateerde/uitgevoerde afwijkingen ten opzichte van de opgegeven
                   bemonsteringsnorm.
                </td>
                <td>
-                  <a class="link" href="#global_class_Model_AfwijkingBemonsteringsnorm">AfwijkingBemonsteringsnorm</a>
+                  <a class="link" href="#global_class_Model_AfwijkingVeldonderzoeknorm">AfwijkingVeldonderzoeknorm</a>
                   
                </td>
                <td>0 .. 1</td>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_attribute_Model_Monstername_omstandigheden">omstandigheden</a>
+                  <a class="link" href="#detail_attribute_Model_Veldonderzoek_omstandigheden">omstandigheden</a>
                   
                </td>
                <td>Tijdens bemonstering geconstateerde/uitgevoerde afwijkingen ten opzichte van de opgegeven
@@ -357,7 +500,7 @@
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_attribute_Model_Monstername_uitvoerderMonstername">uitvoerder monstername</a>
+                  <a class="link" href="#detail_attribute_Model_Veldonderzoek_uitvoerderMonstername">uitvoerder monstername</a>
                   
                </td>
                <td>Identificatie die de organisatie die verantwoordelijk is voor uitvoering van de monstername
@@ -386,13 +529,13 @@
             </tr>
             <tr>
                <td>
-                  Monstername
+                  Veldonderzoek
                   [ 1 ]
                   
-                  <a class="link" href="#detail_association_Model_Monstername">leidt tot</a>
+                  <a class="link" href="#detail_association_Model_Veldonderzoek">leidt tot</a>
                   
                   
-                  <a class="link" href="#global_class_Model_ResultaatVeldmonsterwaarneming">Resultaat veldmonsterwaarneming </a>
+                  <a class="link" href="#global_class_Model_ResultaatVeldwaarneming">Resultaat veldwaarneming </a>
                   
                   [ 1 ]
                   
@@ -412,149 +555,6 @@
          box wordt beschouwd in de context van de BRO. De uitvoeringsrichtlijn van het grondwateronderzoek
          bevat alle noodzakelijke informatie met betrekking tot de uitgevoerde veldwerk procedure.
       </section>
-      
-   </section>
-   
-   <div id="">&nbsp;</div>
-   <section id="global_class_Model_ResultaatVeldmonsterwaarneming">
-      <h2>Objecttype Resultaat veldmonsterwaarneming</h2>
-      
-      <table>
-         <colgroup width="30%"></colgroup>
-         <colgroup width="70%"></colgroup>
-         <tbody>
-            <tr>
-               <th>Naam</th>
-               <td>Resultaat veldmonsterwaarneming</td>
-            </tr>
-            <tr>
-               <th>Alternatieve naam</th>
-               <td></td>
-            </tr>
-            <tr>
-               <th>Herkomst</th>
-               <td>BRO</td>
-            </tr>
-            <tr>
-               <th>Definitie</th>
-               <td></td>
-            </tr>
-            <tr>
-               <th>Herkomst definitie</th>
-               <td>BRO</td>
-            </tr>
-            <tr>
-               <th>Datum opname</th>
-               <td></td>
-            </tr>
-            <tr>
-               <th>Unieke aanduiding</th>
-               <td></td>
-            </tr>
-            <tr>
-               <th>Populatie</th>
-               <td></td>
-            </tr>
-            <tr>
-               <th>Indicatie kwaliteit</th>
-               <td></td>
-            </tr>
-            <tr>
-               <th>Indicatie abstract object</th>
-               <td>Nee</td>
-            </tr>
-         </tbody>
-      </table>
-      
-      <h3>Overzicht attributen</h3>
-      
-      <table>
-         <colgroup width="30%"></colgroup>
-         <colgroup width="50%"></colgroup>
-         <colgroup width="10%"></colgroup>
-         <colgroup width="10%"></colgroup>
-         <tbody>
-            <tr>
-               <th>Attribuutnaam</th>
-               <th>Definitie</th>
-               <th>Formaat</th>
-               <th>Card</th>
-            </tr>
-            <tr>
-               <td>
-                  <a class="link" href="#detail_attribute_Model_ResultaatVeldmonsterwaarneming_gLDHD">GLDHD</a>
-                  
-               </td>
-               <td></td>
-               <td>
-                  <a class="link" href="#global_class_Model_Getalswaarde3">Getalswaarde3</a>
-                  
-               </td>
-               <td>1</td>
-            </tr>
-            <tr>
-               <td>
-                  <a class="link" href="#detail_attribute_Model_ResultaatVeldmonsterwaarneming_hCO3">HCO3</a>
-                  
-               </td>
-               <td></td>
-               <td>
-                  <a class="link" href="#global_class_Model_Getalswaarde41">Getalswaarde4.1</a>
-                  
-               </td>
-               <td>0 .. 1</td>
-            </tr>
-            <tr>
-               <td>
-                  <a class="link" href="#detail_attribute_Model_ResultaatVeldmonsterwaarneming_o2">O2</a>
-                  
-               </td>
-               <td></td>
-               <td>
-                  <a class="link" href="#global_class_Model_Getalswaarde22">Getalswaarde2.2</a>
-                  
-               </td>
-               <td>1</td>
-            </tr>
-            <tr>
-               <td>
-                  <a class="link" href="#detail_attribute_Model_ResultaatVeldmonsterwaarneming_pH">pH</a>
-                  
-               </td>
-               <td></td>
-               <td>
-                  <a class="link" href="#global_class_Model_Getalswaarde11">Getalswaarde1.1</a>
-                  
-               </td>
-               <td>1</td>
-            </tr>
-            <tr>
-               <td>
-                  <a class="link" href="#detail_attribute_Model_ResultaatVeldmonsterwaarneming_t">T</a>
-                  
-               </td>
-               <td></td>
-               <td>
-                  <a class="link" href="#global_class_Model_Getalswaarde21">Getalswaarde2.1</a>
-                  
-               </td>
-               <td>1</td>
-            </tr>
-            <tr>
-               <td>
-                  <a class="link" href="#detail_attribute_Model_ResultaatVeldmonsterwaarneming_troebelheid">Troebelheid</a>
-                  
-               </td>
-               <td></td>
-               <td>
-                  <a class="link" href="#global_class_Model_Getalswaarde3">Getalswaarde3</a>
-                  
-               </td>
-               <td>1</td>
-            </tr>
-         </tbody>
-      </table>
-      
       
    </section>
    
@@ -3249,8 +3249,8 @@
 <section id="">
    <h1>Codelists </h1>
    
-   <section id="global_class_Model_AfwijkingBemonsteringsnorm" class="notoc">
-      <h2>Codelist AfwijkingBemonsteringsnorm</h2>
+   <section id="global_class_Model_AfwijkingVeldonderzoeknorm" class="notoc">
+      <h2>Codelist AfwijkingVeldonderzoeknorm</h2>
       
       <table>
          <colgroup width="30%"></colgroup>
@@ -3258,47 +3258,7 @@
          <tbody>
             <tr>
                <th>Naam</th>
-               <td>AfwijkingBemonsteringsnorm</td>
-            </tr>
-            <tr>
-               <th>Alternatieve naam</th>
-               <td></td>
-            </tr>
-            <tr>
-               <th>Herkomst</th>
-               <td></td>
-            </tr>
-            <tr>
-               <th>Definitie</th>
-               <td></td>
-            </tr>
-            <tr>
-               <th>Herkomst definitie</th>
-               <td></td>
-            </tr>
-            <tr>
-               <th>Datum opname</th>
-               <td></td>
-            </tr>
-            <tr>
-               <th>Data locatie</th>
-               <td></td>
-            </tr>
-         </tbody>
-      </table>
-      
-   </section>
-   
-   <section id="global_class_Model_Bemonsteringsprotocol" class="notoc">
-      <h2>Codelist Bemonsteringsprotocol</h2>
-      
-      <table>
-         <colgroup width="30%"></colgroup>
-         <colgroup width="70%"></colgroup>
-         <tbody>
-            <tr>
-               <th>Naam</th>
-               <td>Bemonsteringsprotocol</td>
+               <td>AfwijkingVeldonderzoeknorm</td>
             </tr>
             <tr>
                <th>Alternatieve naam</th>
@@ -3367,10 +3327,6 @@
          </tbody>
       </table>
       
-      <section id="" class="notoc">
-         <h5>Toelichting</h5>NB Uitwerking ligt bij GMN
-      </section>
-      
    </section>
    
    <section id="global_class_Model_KaderInwinning" class="notoc">
@@ -3411,15 +3367,10 @@
          </tbody>
       </table>
       
-      <section id="" class="notoc">
-         <h5>Toelichting</h5>NB Scope: KRW, LMG, PMG, meetnet verdroging [toetsen GMN].
-         Regels: per net en per binnen dit net gedefinieerd meetprogramma.
-      </section>
-      
    </section>
    
-   <section id="global_class_Model_Kwaliteitsnorm" class="notoc">
-      <h2>Codelist Kwaliteitsnorm</h2>
+   <section id="global_class_Model_Onderzoeksnorm" class="notoc">
+      <h2>Codelist Onderzoeksnorm</h2>
       
       <table>
          <colgroup width="30%"></colgroup>
@@ -3427,7 +3378,47 @@
          <tbody>
             <tr>
                <th>Naam</th>
-               <td>Kwaliteitsnorm</td>
+               <td>Onderzoeksnorm</td>
+            </tr>
+            <tr>
+               <th>Alternatieve naam</th>
+               <td></td>
+            </tr>
+            <tr>
+               <th>Herkomst</th>
+               <td></td>
+            </tr>
+            <tr>
+               <th>Definitie</th>
+               <td></td>
+            </tr>
+            <tr>
+               <th>Herkomst definitie</th>
+               <td></td>
+            </tr>
+            <tr>
+               <th>Datum opname</th>
+               <td></td>
+            </tr>
+            <tr>
+               <th>Data locatie</th>
+               <td></td>
+            </tr>
+         </tbody>
+      </table>
+      
+   </section>
+   
+   <section id="global_class_Model_TypeGrondwater" class="notoc">
+      <h2>Codelist TypeGrondwater</h2>
+      
+      <table>
+         <colgroup width="30%"></colgroup>
+         <colgroup width="70%"></colgroup>
+         <tbody>
+            <tr>
+               <th>Naam</th>
+               <td>TypeGrondwater</td>
             </tr>
             <tr>
                <th>Alternatieve naam</th>
@@ -3498,8 +3489,8 @@
       
    </section>
    
-   <section id="global_class_Model_TyperingGrondwater" class="notoc">
-      <h2>Codelist TyperingGrondwater</h2>
+   <section id="global_class_Model_Veldonderzoekprotocol" class="notoc">
+      <h2>Codelist Veldonderzoekprotocol</h2>
       
       <table>
          <colgroup width="30%"></colgroup>
@@ -3507,7 +3498,7 @@
          <tbody>
             <tr>
                <th>Naam</th>
-               <td>TyperingGrondwater</td>
+               <td>Veldonderzoekprotocol</td>
             </tr>
             <tr>
                <th>Alternatieve naam</th>
@@ -3535,10 +3526,6 @@
             </tr>
          </tbody>
       </table>
-      
-      <section id="" class="notoc">
-         <h5>Toelichting</h5>NB indeling toetsen en relateren aan (oa) bereiken
-      </section>
       
    </section>
    
@@ -3683,7 +3670,7 @@
             </tr>
             <tr>
                <th>Definitie</th>
-               <td>De toegepaste transformatie voor afleiding van de gestandaardiseerde positie.</td>
+               <td></td>
             </tr>
             <tr>
                <th>Herkomst definitie</th>
@@ -4290,8 +4277,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_Grondwatersamenstellingsonderzoek_kwaliteitsnorm" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Grondwatersamenstellingsonderzoek">Grondwatersamenstellingsonderzoek</a> kwaliteitsnorm
+      <section id="detail_attribute_Model_Grondwatersamenstellingsonderzoek_onderzoeksnorm" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_Grondwatersamenstellingsonderzoek">Grondwatersamenstellingsonderzoek</a> onderzoeksnorm
          </h4>
          
          <table>
@@ -4300,7 +4287,7 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>kwaliteitsnorm</td>
+                  <td>onderzoeksnorm</td>
                </tr>
                <tr>
                   <th>Herkomst</th>
@@ -4358,7 +4345,7 @@
                </tr>
                <tr>
                   <th>Formaat</th>
-                  <td>Kwaliteitsnorm</td>
+                  <td>Onderzoeksnorm</td>
                </tr>
                <tr>
                   <th>Indicatie afleidbaar</th>
@@ -4369,8 +4356,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_Grondwatersamenstellingsonderzoek_typeringGrondwater" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Grondwatersamenstellingsonderzoek">Grondwatersamenstellingsonderzoek</a> typering grondwater
+      <section id="detail_attribute_Model_Grondwatersamenstellingsonderzoek_typeGrondwater" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_Grondwatersamenstellingsonderzoek">Grondwatersamenstellingsonderzoek</a> type grondwater
          </h4>
          
          <table>
@@ -4379,7 +4366,7 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>typering grondwater</td>
+                  <td>type grondwater</td>
                </tr>
                <tr>
                   <th>Herkomst</th>
@@ -4435,7 +4422,7 @@
                </tr>
                <tr>
                   <th>Formaat</th>
-                  <td>TyperingGrondwater</td>
+                  <td>TypeGrondwater</td>
                </tr>
                <tr>
                   <th>Indicatie afleidbaar</th>
@@ -4818,7 +4805,7 @@
                <tr>
                   <th>Gerelateerd obecttype</th>
                   <td>
-                     <a class="link" href="#global_class_Model_Monstername">Monstername</a>
+                     <a class="link" href="#global_class_Model_Veldonderzoek">Veldonderzoek</a>
                      
                   </td>
                </tr>
@@ -4903,11 +4890,11 @@
    </section>
    
    <div id="">&nbsp;</div>
-   <section id="detail_class_Model_Monstername">
-      <h3>Objecttype Monstername</h3>
+   <section id="detail_class_Model_ResultaatVeldwaarneming">
+      <h3>Objecttype Resultaat veldwaarneming</h3>
       
-      <section id="detail_attribute_Model_Monstername_datumMonstername" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Monstername">Monstername</a> datum monstername
+      <section id="detail_attribute_Model_ResultaatVeldwaarneming_gLDHD" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_ResultaatVeldwaarneming">Resultaat veldwaarneming</a> GLDHD
          </h4>
          
          <table>
@@ -4916,7 +4903,475 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>datum monstername</td>
+                  <td>GLDHD</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Datum opname</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Indicatie authentiek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Regels</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Patroon</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>Getalswaarde3</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      
+      <section id="detail_attribute_Model_ResultaatVeldwaarneming_hCO3" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_ResultaatVeldwaarneming">Resultaat veldwaarneming</a> HCO3
+         </h4>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>HCO3</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Datum opname</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>0 .. 1</td>
+               </tr>
+               <tr>
+                  <th>Indicatie authentiek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Regels</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Patroon</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>Getalswaarde4.1</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      
+      <section id="detail_attribute_Model_ResultaatVeldwaarneming_o2" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_ResultaatVeldwaarneming">Resultaat veldwaarneming</a> O2
+         </h4>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>O2</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Datum opname</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Indicatie authentiek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Regels</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Patroon</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>Getalswaarde2.2</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      
+      <section id="detail_attribute_Model_ResultaatVeldwaarneming_pH" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_ResultaatVeldwaarneming">Resultaat veldwaarneming</a> pH
+         </h4>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>pH</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Datum opname</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Indicatie authentiek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Regels</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Patroon</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>Getalswaarde1.1</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      
+      <section id="detail_attribute_Model_ResultaatVeldwaarneming_t" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_ResultaatVeldwaarneming">Resultaat veldwaarneming</a> T
+         </h4>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>T</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Datum opname</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Indicatie authentiek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Regels</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Patroon</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>Getalswaarde2.1</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      
+      <section id="detail_attribute_Model_ResultaatVeldwaarneming_troebelheid" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_ResultaatVeldwaarneming">Resultaat veldwaarneming</a> Troebelheid
+         </h4>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Troebelheid</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Datum opname</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Indicatie authentiek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Regels</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Patroon</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>Getalswaarde3</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      
+   </section>
+   
+   <div id="">&nbsp;</div>
+   <section id="detail_class_Model_Veldonderzoek">
+      <h3>Objecttype Veldonderzoek</h3>
+      
+      <section id="detail_attribute_Model_Veldonderzoek_datumVeldonderzoek" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_Veldonderzoek">Veldonderzoek</a> datum veldonderzoek
+         </h4>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>datum veldonderzoek</td>
                </tr>
                <tr>
                   <th>Herkomst</th>
@@ -4983,8 +5438,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_Monstername_bemonsteringsnorm" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Monstername">Monstername</a> bemonsteringsnorm
+      <section id="detail_attribute_Model_Veldonderzoek_veldonderzoeknorm" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_Veldonderzoek">Veldonderzoek</a> veldonderzoeknorm
          </h4>
          
          <table>
@@ -4993,7 +5448,7 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>bemonsteringsnorm</td>
+                  <td>veldonderzoeknorm</td>
                </tr>
                <tr>
                   <th>Herkomst</th>
@@ -5051,7 +5506,7 @@
                </tr>
                <tr>
                   <th>Formaat</th>
-                  <td>Bemonsteringsprotocol</td>
+                  <td>Veldonderzoekprotocol</td>
                </tr>
                <tr>
                   <th>Indicatie afleidbaar</th>
@@ -5062,8 +5517,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_Monstername_afwijkingBemonsteringsnorm" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Monstername">Monstername</a> afwijking bemonsteringsnorm
+      <section id="detail_attribute_Model_Veldonderzoek_afwijkingVeldonderzoeknorm" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_Veldonderzoek">Veldonderzoek</a> afwijking veldonderzoeknorm
          </h4>
          
          <table>
@@ -5072,7 +5527,7 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>afwijking bemonsteringsnorm</td>
+                  <td>afwijking veldonderzoeknorm</td>
                </tr>
                <tr>
                   <th>Herkomst</th>
@@ -5130,7 +5585,7 @@
                </tr>
                <tr>
                   <th>Formaat</th>
-                  <td>AfwijkingBemonsteringsnorm</td>
+                  <td>AfwijkingVeldonderzoeknorm</td>
                </tr>
                <tr>
                   <th>Indicatie afleidbaar</th>
@@ -5141,8 +5596,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_Monstername_omstandigheden" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Monstername">Monstername</a> omstandigheden
+      <section id="detail_attribute_Model_Veldonderzoek_omstandigheden" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_Veldonderzoek">Veldonderzoek</a> omstandigheden
          </h4>
          
          <table>
@@ -5220,8 +5675,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_Monstername_uitvoerderMonstername" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Monstername">Monstername</a> uitvoerder monstername
+      <section id="detail_attribute_Model_Veldonderzoek_uitvoerderMonstername" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_Veldonderzoek">Veldonderzoek</a> uitvoerder monstername
          </h4>
          
          <table>
@@ -5299,8 +5754,8 @@
          
       </section>
       
-      <section id="detail_association_Model_Monstername" class="notoc">
-         <h4>Relatiesoort details <a href="#global_class_Model_Monstername">Monstername</a> leidt tot
+      <section id="detail_association_Model_Veldonderzoek" class="notoc">
+         <h4>Relatiesoort details <a href="#global_class_Model_Veldonderzoek">Veldonderzoek</a> leidt tot
          </h4>
          
          
@@ -5363,477 +5818,9 @@
                <tr>
                   <th>Gerelateerd obecttype</th>
                   <td>
-                     <a class="link" href="#global_class_Model_ResultaatVeldmonsterwaarneming">Resultaat veldmonsterwaarneming </a>
+                     <a class="link" href="#global_class_Model_ResultaatVeldwaarneming">Resultaat veldwaarneming </a>
                      
                   </td>
-               </tr>
-            </tbody>
-         </table>
-         
-      </section>
-      
-   </section>
-   
-   <div id="">&nbsp;</div>
-   <section id="detail_class_Model_ResultaatVeldmonsterwaarneming">
-      <h3>Objecttype Resultaat veldmonsterwaarneming</h3>
-      
-      <section id="detail_attribute_Model_ResultaatVeldmonsterwaarneming_gLDHD" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_ResultaatVeldmonsterwaarneming">Resultaat veldmonsterwaarneming</a> GLDHD
-         </h4>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>GLDHD</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Herkomst definitie</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Datum opname</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie in onderzoek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Aanduiding strijdigheid/nietigheid</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <th>Indicatie authentiek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Regels</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Patroon</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>Getalswaarde3</td>
-               </tr>
-               <tr>
-                  <th>Indicatie afleidbaar</th>
-                  <td>Nee</td>
-               </tr>
-            </tbody>
-         </table>
-         
-      </section>
-      
-      <section id="detail_attribute_Model_ResultaatVeldmonsterwaarneming_hCO3" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_ResultaatVeldmonsterwaarneming">Resultaat veldmonsterwaarneming</a> HCO3
-         </h4>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>HCO3</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Herkomst definitie</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Datum opname</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie in onderzoek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Aanduiding strijdigheid/nietigheid</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>0 .. 1</td>
-               </tr>
-               <tr>
-                  <th>Indicatie authentiek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Regels</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Patroon</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>Getalswaarde4.1</td>
-               </tr>
-               <tr>
-                  <th>Indicatie afleidbaar</th>
-                  <td>Nee</td>
-               </tr>
-            </tbody>
-         </table>
-         
-      </section>
-      
-      <section id="detail_attribute_Model_ResultaatVeldmonsterwaarneming_o2" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_ResultaatVeldmonsterwaarneming">Resultaat veldmonsterwaarneming</a> O2
-         </h4>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>O2</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Herkomst definitie</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Datum opname</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie in onderzoek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Aanduiding strijdigheid/nietigheid</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <th>Indicatie authentiek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Regels</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Patroon</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>Getalswaarde2.2</td>
-               </tr>
-               <tr>
-                  <th>Indicatie afleidbaar</th>
-                  <td>Nee</td>
-               </tr>
-            </tbody>
-         </table>
-         
-      </section>
-      
-      <section id="detail_attribute_Model_ResultaatVeldmonsterwaarneming_pH" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_ResultaatVeldmonsterwaarneming">Resultaat veldmonsterwaarneming</a> pH
-         </h4>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>pH</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Herkomst definitie</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Datum opname</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie in onderzoek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Aanduiding strijdigheid/nietigheid</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <th>Indicatie authentiek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Regels</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Patroon</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>Getalswaarde1.1</td>
-               </tr>
-               <tr>
-                  <th>Indicatie afleidbaar</th>
-                  <td>Nee</td>
-               </tr>
-            </tbody>
-         </table>
-         
-      </section>
-      
-      <section id="detail_attribute_Model_ResultaatVeldmonsterwaarneming_t" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_ResultaatVeldmonsterwaarneming">Resultaat veldmonsterwaarneming</a> T
-         </h4>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>T</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Herkomst definitie</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Datum opname</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie in onderzoek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Aanduiding strijdigheid/nietigheid</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <th>Indicatie authentiek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Regels</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Patroon</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>Getalswaarde2.1</td>
-               </tr>
-               <tr>
-                  <th>Indicatie afleidbaar</th>
-                  <td>Nee</td>
-               </tr>
-            </tbody>
-         </table>
-         
-      </section>
-      
-      <section id="detail_attribute_Model_ResultaatVeldmonsterwaarneming_troebelheid" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_ResultaatVeldmonsterwaarneming">Resultaat veldmonsterwaarneming</a> Troebelheid
-         </h4>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>Troebelheid</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Herkomst definitie</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Datum opname</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie in onderzoek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Aanduiding strijdigheid/nietigheid</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <th>Indicatie authentiek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Regels</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Patroon</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>Getalswaarde3</td>
-               </tr>
-               <tr>
-                  <th>Indicatie afleidbaar</th>
-                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
@@ -9950,11 +9937,11 @@
    
    
    
-   <section id="detail_class_Model_AfwijkingBemonsteringsnorm" class="notoc">
-      <h3>Codelist AfwijkingBemonsteringsnorm</h3>
+   <section id="detail_class_Model_AfwijkingVeldonderzoeknorm" class="notoc">
+      <h3>Codelist AfwijkingVeldonderzoeknorm</h3>
       
-      <section id="detail_attribute_Model_AfwijkingBemonsteringsnorm_afwijkendePomp" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingBemonsteringsnorm">AfwijkingBemonsteringsnorm</a> AfwijkendePomp
+      <section id="detail_attribute_Model_AfwijkingVeldonderzoeknorm_afwijkendePomp" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingVeldonderzoeknorm">AfwijkingVeldonderzoeknorm</a> AfwijkendePomp
          </h4>
          
          <table>
@@ -10030,8 +10017,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_AfwijkingBemonsteringsnorm_slechtlopendePeilbuisBelucht" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingBemonsteringsnorm">AfwijkingBemonsteringsnorm</a> Slechtlopende peilbuis / belucht
+      <section id="detail_attribute_Model_AfwijkingVeldonderzoeknorm_slechtlopendePeilbuisBelucht" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingVeldonderzoeknorm">AfwijkingVeldonderzoeknorm</a> Slechtlopende peilbuis / belucht
          </h4>
          
          <table>
@@ -10107,8 +10094,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_AfwijkingBemonsteringsnorm_slechtlopendePeilbuisNietBelucht" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingBemonsteringsnorm">AfwijkingBemonsteringsnorm</a> Slechtlopende peilbuis / niet belucht
+      <section id="detail_attribute_Model_AfwijkingVeldonderzoeknorm_slechtlopendePeilbuisNietBelucht" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingVeldonderzoeknorm">AfwijkingVeldonderzoeknorm</a> Slechtlopende peilbuis / niet belucht
          </h4>
          
          <table>
@@ -10184,8 +10171,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_AfwijkingBemonsteringsnorm_afwijkendeSlang" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingBemonsteringsnorm">AfwijkingBemonsteringsnorm</a> AfwijkendeSlang
+      <section id="detail_attribute_Model_AfwijkingVeldonderzoeknorm_afwijkendeSlang" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingVeldonderzoeknorm">AfwijkingVeldonderzoeknorm</a> AfwijkendeSlang
          </h4>
          
          <table>
@@ -10261,8 +10248,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_AfwijkingBemonsteringsnorm_eGVInstabiel" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingBemonsteringsnorm">AfwijkingBemonsteringsnorm</a> EGVInstabiel
+      <section id="detail_attribute_Model_AfwijkingVeldonderzoeknorm_eGVInstabiel" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingVeldonderzoeknorm">AfwijkingVeldonderzoeknorm</a> EGVInstabiel
          </h4>
          
          <table>
@@ -10338,8 +10325,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_AfwijkingBemonsteringsnorm_pHInstabiel" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingBemonsteringsnorm">AfwijkingBemonsteringsnorm</a> pHInstabiel
+      <section id="detail_attribute_Model_AfwijkingVeldonderzoeknorm_pHInstabiel" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingVeldonderzoeknorm">AfwijkingVeldonderzoeknorm</a> pHInstabiel
          </h4>
          
          <table>
@@ -10415,8 +10402,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_AfwijkingBemonsteringsnorm_dalingGWS200" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingBemonsteringsnorm">AfwijkingBemonsteringsnorm</a> dalingGWS&gt;200
+      <section id="detail_attribute_Model_AfwijkingVeldonderzoeknorm_dalingGWS200" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingVeldonderzoeknorm">AfwijkingVeldonderzoeknorm</a> dalingGWS&gt;200
          </h4>
          
          <table>
@@ -10492,8 +10479,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_AfwijkingBemonsteringsnorm_afwijkendFilter" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingBemonsteringsnorm">AfwijkingBemonsteringsnorm</a> AfwijkendFilter
+      <section id="detail_attribute_Model_AfwijkingVeldonderzoeknorm_afwijkendFilter" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingVeldonderzoeknorm">AfwijkingVeldonderzoeknorm</a> AfwijkendFilter
          </h4>
          
          <table>
@@ -10569,8 +10556,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_AfwijkingBemonsteringsnorm_afwijkendeFles" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingBemonsteringsnorm">AfwijkingBemonsteringsnorm</a> AfwijkendeFles
+      <section id="detail_attribute_Model_AfwijkingVeldonderzoeknorm_afwijkendeFles" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingVeldonderzoeknorm">AfwijkingVeldonderzoeknorm</a> AfwijkendeFles
          </h4>
          
          <table>
@@ -10646,8 +10633,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_AfwijkingBemonsteringsnorm_afwijkendGekoeld" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingBemonsteringsnorm">AfwijkingBemonsteringsnorm</a> afwijkendGekoeld
+      <section id="detail_attribute_Model_AfwijkingVeldonderzoeknorm_afwijkendGekoeld" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingVeldonderzoeknorm">AfwijkingVeldonderzoeknorm</a> afwijkendGekoeld
          </h4>
          
          <table>
@@ -10723,8 +10710,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_AfwijkingBemonsteringsnorm_metOnderdrukBemonsterd" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingBemonsteringsnorm">AfwijkingBemonsteringsnorm</a> metOnderdrukBemonsterd
+      <section id="detail_attribute_Model_AfwijkingVeldonderzoeknorm_metOnderdrukBemonsterd" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingVeldonderzoeknorm">AfwijkingVeldonderzoeknorm</a> metOnderdrukBemonsterd
          </h4>
          
          <table>
@@ -10800,8 +10787,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_AfwijkingBemonsteringsnorm_windGedraaid" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingBemonsteringsnorm">AfwijkingBemonsteringsnorm</a> windGedraaid
+      <section id="detail_attribute_Model_AfwijkingVeldonderzoeknorm_windGedraaid" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingVeldonderzoeknorm">AfwijkingVeldonderzoeknorm</a> windGedraaid
          </h4>
          
          <table>
@@ -10877,8 +10864,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_AfwijkingBemonsteringsnorm_afwijkendeConserveringGebruikt" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingBemonsteringsnorm">AfwijkingBemonsteringsnorm</a> afwijkende conservering gebruikt
+      <section id="detail_attribute_Model_AfwijkingVeldonderzoeknorm_afwijkendeConserveringGebruikt" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingVeldonderzoeknorm">AfwijkingVeldonderzoeknorm</a> afwijkende conservering gebruikt
          </h4>
          
          <table>
@@ -10888,165 +10875,6 @@
                <tr>
                   <th>Naam</th>
                   <td>afwijkende conservering gebruikt</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Herkomst definitie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Datum opname</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie in onderzoek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Aanduiding strijdigheid/nietigheid</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <th>Indicatie authentiek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Regels</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Patroon</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>[TODO: ]</td>
-               </tr>
-               <tr>
-                  <th>Indicatie afleidbaar</th>
-                  <td>Nee</td>
-               </tr>
-            </tbody>
-         </table>
-         
-      </section>
-      
-   </section>
-   
-   <section id="detail_class_Model_Bemonsteringsprotocol" class="notoc">
-      <h3>Codelist Bemonsteringsprotocol</h3>
-      
-      <section id="detail_attribute_Model_Bemonsteringsprotocol_nta8017" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Bemonsteringsprotocol">Bemonsteringsprotocol</a> nta8017
-         </h4>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>nta8017</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Herkomst definitie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Datum opname</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie in onderzoek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Aanduiding strijdigheid/nietigheid</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <th>Indicatie authentiek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Regels</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Patroon</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>[TODO: ]</td>
-               </tr>
-               <tr>
-                  <th>Indicatie afleidbaar</th>
-                  <td>Nee</td>
-               </tr>
-            </tbody>
-         </table>
-         
-      </section>
-      
-      <section id="detail_attribute_Model_Bemonsteringsprotocol_nen5744A1" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Bemonsteringsprotocol">Bemonsteringsprotocol</a> nen5744/A1
-         </h4>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>nen5744/A1</td>
                </tr>
                <tr>
                   <th>Herkomst</th>
@@ -12126,11 +11954,11 @@
       
    </section>
    
-   <section id="detail_class_Model_Kwaliteitsnorm" class="notoc">
-      <h3>Codelist Kwaliteitsnorm</h3>
+   <section id="detail_class_Model_Onderzoeksnorm" class="notoc">
+      <h3>Codelist Onderzoeksnorm</h3>
       
-      <section id="detail_attribute_Model_Kwaliteitsnorm_draaiboekKRW" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Kwaliteitsnorm">Kwaliteitsnorm</a> draaiboekKRW
+      <section id="detail_attribute_Model_Onderzoeksnorm_draaiboekKRW" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_Onderzoeksnorm">Onderzoeksnorm</a> draaiboekKRW
          </h4>
          
          <table>
@@ -12206,8 +12034,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_Kwaliteitsnorm_draaiboekPMB" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Kwaliteitsnorm">Kwaliteitsnorm</a> draaiboekPMB
+      <section id="detail_attribute_Model_Onderzoeksnorm_draaiboekPMB" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_Onderzoeksnorm">Onderzoeksnorm</a> draaiboekPMB
          </h4>
          
          <table>
@@ -12217,6 +12045,473 @@
                <tr>
                   <th>Naam</th>
                   <td>draaiboekPMB</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Datum opname</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Indicatie authentiek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Regels</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Patroon</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>[TODO: ]</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      
+   </section>
+   
+   <section id="detail_class_Model_TypeGrondwater" class="notoc">
+      <h3>Codelist TypeGrondwater</h3>
+      
+      <section id="detail_attribute_Model_TypeGrondwater_zoet" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_TypeGrondwater">TypeGrondwater</a> zoet
+         </h4>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>zoet</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Datum opname</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Indicatie authentiek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Regels</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Patroon</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>[TODO: ]</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      
+      <section id="detail_attribute_Model_TypeGrondwater_zoetBrak" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_TypeGrondwater">TypeGrondwater</a> zoetBrak
+         </h4>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>zoetBrak</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Datum opname</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Indicatie authentiek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Regels</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Patroon</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>[TODO: ]</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      
+      <section id="detail_attribute_Model_TypeGrondwater_brakZoet" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_TypeGrondwater">TypeGrondwater</a> brakZoet
+         </h4>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>brakZoet</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Datum opname</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Indicatie authentiek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Regels</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Patroon</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>[TODO: ]</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      
+      <section id="detail_attribute_Model_TypeGrondwater_brakZout" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_TypeGrondwater">TypeGrondwater</a> brakZout
+         </h4>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>brakZout</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Datum opname</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Indicatie authentiek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Regels</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Patroon</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>[TODO: ]</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      
+      <section id="detail_attribute_Model_TypeGrondwater_zout" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_TypeGrondwater">TypeGrondwater</a> zout
+         </h4>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>zout</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Datum opname</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Indicatie authentiek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Regels</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Patroon</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>[TODO: ]</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      
+      <section id="detail_attribute_Model_TypeGrondwater_hyperhalien" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_TypeGrondwater">TypeGrondwater</a> hyperhalien
+         </h4>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>hyperhalien</td>
                </tr>
                <tr>
                   <th>Herkomst</th>
@@ -12444,11 +12739,11 @@
       
    </section>
    
-   <section id="detail_class_Model_TyperingGrondwater" class="notoc">
-      <h3>Codelist TyperingGrondwater</h3>
+   <section id="detail_class_Model_Veldonderzoekprotocol" class="notoc">
+      <h3>Codelist Veldonderzoekprotocol</h3>
       
-      <section id="detail_attribute_Model_TyperingGrondwater_zoet" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_TyperingGrondwater">TyperingGrondwater</a> zoet
+      <section id="detail_attribute_Model_Veldonderzoekprotocol_nta8017" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_Veldonderzoekprotocol">Veldonderzoekprotocol</a> nta8017
          </h4>
          
          <table>
@@ -12457,7 +12752,7 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>zoet</td>
+                  <td>nta8017</td>
                </tr>
                <tr>
                   <th>Herkomst</th>
@@ -12524,8 +12819,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_TyperingGrondwater_zoetBrak" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_TyperingGrondwater">TyperingGrondwater</a> zoetBrak
+      <section id="detail_attribute_Model_Veldonderzoekprotocol_nen5744A1" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_Veldonderzoekprotocol">Veldonderzoekprotocol</a> nen5744/A1
          </h4>
          
          <table>
@@ -12534,315 +12829,7 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>zoetBrak</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Herkomst definitie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Datum opname</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie in onderzoek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Aanduiding strijdigheid/nietigheid</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <th>Indicatie authentiek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Regels</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Patroon</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>[TODO: ]</td>
-               </tr>
-               <tr>
-                  <th>Indicatie afleidbaar</th>
-                  <td>Nee</td>
-               </tr>
-            </tbody>
-         </table>
-         
-      </section>
-      
-      <section id="detail_attribute_Model_TyperingGrondwater_brakZoet" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_TyperingGrondwater">TyperingGrondwater</a> brakZoet
-         </h4>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>brakZoet</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Herkomst definitie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Datum opname</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie in onderzoek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Aanduiding strijdigheid/nietigheid</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <th>Indicatie authentiek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Regels</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Patroon</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>[TODO: ]</td>
-               </tr>
-               <tr>
-                  <th>Indicatie afleidbaar</th>
-                  <td>Nee</td>
-               </tr>
-            </tbody>
-         </table>
-         
-      </section>
-      
-      <section id="detail_attribute_Model_TyperingGrondwater_brakZout" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_TyperingGrondwater">TyperingGrondwater</a> brakZout
-         </h4>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>brakZout</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Herkomst definitie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Datum opname</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie in onderzoek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Aanduiding strijdigheid/nietigheid</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <th>Indicatie authentiek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Regels</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Patroon</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>[TODO: ]</td>
-               </tr>
-               <tr>
-                  <th>Indicatie afleidbaar</th>
-                  <td>Nee</td>
-               </tr>
-            </tbody>
-         </table>
-         
-      </section>
-      
-      <section id="detail_attribute_Model_TyperingGrondwater_zout" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_TyperingGrondwater">TyperingGrondwater</a> zout
-         </h4>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>zout</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Herkomst definitie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Datum opname</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie in onderzoek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Aanduiding strijdigheid/nietigheid</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <th>Indicatie authentiek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Regels</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Patroon</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>[TODO: ]</td>
-               </tr>
-               <tr>
-                  <th>Indicatie afleidbaar</th>
-                  <td>Nee</td>
-               </tr>
-            </tbody>
-         </table>
-         
-      </section>
-      
-      <section id="detail_attribute_Model_TyperingGrondwater_hyperhalien" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_TyperingGrondwater">TyperingGrondwater</a> hyperhalien
-         </h4>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>hyperhalien</td>
+                  <td>nen5744/A1</td>
                </tr>
                <tr>
                   <th>Herkomst</th>
@@ -14092,7 +14079,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Correctie van het kwaliteitsregime</td>
+                  <td></td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -14169,7 +14156,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Correctie van de administratieve gegevens</td>
+                  <td></td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -14246,7 +14233,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Correctie van de gegevens uit het sondeeronderzoek</td>
+                  <td></td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -14400,7 +14387,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Correctie van de brondocument gekozen bij het registreren van het object.</td>
+                  <td></td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -14477,9 +14464,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Correctie van de bronhouder niet n.a.v. een door de registratiebeheerder gestart onderzoek,
-                     maar n.a.v. eigen inzicht.
-                  </td>
+                  <td></td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -14556,7 +14541,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Correctie naar aanleiding van een door de registratiebeheerder gestart onderzoek</td>
+                  <td></td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -15105,12 +15090,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>De gegevens zijn getransformeerd van RD naar ETRS89, gebruikmakend van de transformatie
-                     RDNAPTRANS?, versie 2008. De hoogte is onbekend, bij transformatie is uitgegaan van
-                     0 m NAP.
-                     RDNAPTRANS? is de officiële transformatie tussen RD/NAP en ETRS89 afkomstig van het
-                     Kadaster.
-                  </td>
+                  <td></td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -15962,7 +15942,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>De gegevens zijn aangeleverd in het kader van archiefoverdracht.</td>
+                  <td></td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -16973,9 +16953,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Locatie bepaald aan de hand van de grootschalige basiskaart van Nederland (tegenwoordig
-                     BGT), afwijking onbekend.
-                  </td>
+                  <td></td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -17052,7 +17030,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Meting d.m.v. Global Positioning System, afwijking onbekend.</td>
+                  <td></td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -17129,10 +17107,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Locatie bepaald aan de hand van niet-digitale kaart, afwijking onbekend. Een grootschalige
-                     kaart is een kaart met een schaalgrootte niet kleiner dan 1:10.000 (bijvoorbeeld 1:500,
-                     1:5.000 of 1:10.000).
-                  </td>
+                  <td></td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -17209,10 +17184,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Locatie bepaald aan de hand van niet-digitale kaart, afwijking onbekend. Een kleinschalige
-                     kaart is een kaart met een schaalgrootte kleiner dan 1:10.000 (bijvoorbeeld 1:25.000,
-                     1:50.000 of 1:100.000).
-                  </td>
+                  <td></td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -17289,7 +17261,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Locatie bepaald aan de hand van niet-digitale kaart, afwijking onbekend.</td>
+                  <td></td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -17366,7 +17338,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Het is onbekend op welke manier de locatie bepaald is.</td>
+                  <td></td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -18295,7 +18267,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Positie bepaald m.b.v. Actueel Hoogtebestand Nederland, versie 1 van 1996-2003.</td>
+                  <td></td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -18372,7 +18344,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Er is geen positie bepaald.</td>
+                  <td></td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -18449,7 +18421,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Meting d.m.v. Global Positioning System, afwijking onbekend.</td>
+                  <td></td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -18526,7 +18498,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Positie bepaald aan de hand van niet-digitale kaart, afwijking onbekend.</td>
+                  <td></td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -18603,7 +18575,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Het is onbekend op welke manier de maaiveldpositie bepaald is.</td>
+                  <td></td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
