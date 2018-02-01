@@ -1,15 +1,191 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "Grondwatersamenstellingsonderzoek (GAR)" door Imvertor OS 1.36.3 op January 17, 2018 at 08:56:00.
+   "Grondwatersamenstellingsonderzoek (GAR)" door Imvertor OS 1.36.3 op February 1, 2018 at 10:36:01.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i>arjan@linkedmatter.com</i> en geef de code 
-   <i>"Domeinmodel-GrondwatersamenstellingsonderzoekGAR-0.1-0-20171207-20180117-095602"</i> door. 
+   <i>"Domeinmodel-GrondwatersamenstellingsonderzoekGAR-0.1-0-20171207-20180201-113602"</i> door. 
    Voor inhoudelijke fouten neem contact op met het modellenteam: <i>github@basisregistratieondergrond.nl</i>.
    
 </p>
 <section id="">
    <h1>Objecttypen </h1>
+   
+   <div id="">&nbsp;</div>
+   <section id="global_class_Model_Coherentiekarakteristiek">
+      <h2>Objecttype Coherentiekarakteristiek</h2>
+      
+      <table>
+         <colgroup width="30%"></colgroup>
+         <colgroup width="70%"></colgroup>
+         <tbody>
+            <tr>
+               <th>Naam</th>
+               <td>Coherentiekarakteristiek</td>
+            </tr>
+            <tr>
+               <th>Alternatieve naam</th>
+               <td></td>
+            </tr>
+            <tr>
+               <th>Herkomst</th>
+               <td>BRO</td>
+            </tr>
+            <tr>
+               <th>Definitie</th>
+               <td>Afgeleide berekeningen als karakterisering of tbv input voor synthese</td>
+            </tr>
+            <tr>
+               <th>Herkomst definitie</th>
+               <td>BRO</td>
+            </tr>
+            <tr>
+               <th>Datum opname</th>
+               <td></td>
+            </tr>
+            <tr>
+               <th>Unieke aanduiding</th>
+               <td></td>
+            </tr>
+            <tr>
+               <th>Populatie</th>
+               <td></td>
+            </tr>
+            <tr>
+               <th>Indicatie kwaliteit</th>
+               <td></td>
+            </tr>
+            <tr>
+               <th>Indicatie abstract object</th>
+               <td>Nee</td>
+            </tr>
+         </tbody>
+      </table>
+      
+      <h3>Overzicht attributen</h3>
+      
+      <table>
+         <colgroup width="30%"></colgroup>
+         <colgroup width="50%"></colgroup>
+         <colgroup width="10%"></colgroup>
+         <colgroup width="10%"></colgroup>
+         <tbody>
+            <tr>
+               <th>Attribuutnaam</th>
+               <th>Definitie</th>
+               <th>Formaat</th>
+               <th>Card</th>
+            </tr>
+            <tr>
+               <td>
+                  <a class="link" href="#detail_attribute_Model_Coherentiekarakteristiek_afwijkingBicarbonaatgehalte">afwijking bicarbonaatgehalte</a>
+                  
+               </td>
+               <td></td>
+               <td>
+                  <a class="link" href="#global_class_Model_Getalswaarde22">Getalswaarde2.2</a>
+                  
+               </td>
+               <td>0 .. 1</td>
+            </tr>
+            <tr>
+               <td>
+                  <a class="link" href="#detail_attribute_Model_Coherentiekarakteristiek_afwijkingGeleidbaarheid">afwijking geleidbaarheid</a>
+                  
+               </td>
+               <td>De uitkomst van de vergelijking tusen EGV veld en lab</td>
+               <td>
+                  <a class="link" href="#global_class_Model_Getalswaarde22">Getalswaarde2.2</a>
+                  
+               </td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>
+                  <a class="link" href="#detail_attribute_Model_Coherentiekarakteristiek_afwijkingZuurgraad">afwijking zuurgraad</a>
+                  
+               </td>
+               <td>De uitkomst van de vergelijking tusen pH veld en lab.</td>
+               <td>
+                  <a class="link" href="#global_class_Model_Getalswaarde22">Getalswaarde2.2</a>
+                  
+               </td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>
+                  <a class="link" href="#detail_attribute_Model_Coherentiekarakteristiek_ijzerEnNitraatAanwezig">ijzer en nitraat aanwezig</a>
+                  
+               </td>
+               <td></td>
+               <td>
+                  <a class="link" href="#global_class_Model_IndicatieJaNee">IndicatieJaNee</a>
+                  
+               </td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>
+                  <a class="link" href="#detail_attribute_Model_Coherentiekarakteristiek_ionenbalans">ionenbalans</a>
+                  
+               </td>
+               <td>De uitkomst van de ionenbalans (kan zowel positief als negatief zijn)</td>
+               <td>
+                  <a class="link" href="#global_class_Model_Getalswaarde22">Getalswaarde2.2</a>
+                  
+               </td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>
+                  <a class="link" href="#detail_attribute_Model_Coherentiekarakteristiek_nitraatEnAmmoniumAanwezig">nitraat en ammonium aanwezig</a>
+                  
+               </td>
+               <td></td>
+               <td>
+                  <a class="link" href="#global_class_Model_IndicatieJaNee">IndicatieJaNee</a>
+                  
+               </td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>
+                  <a class="link" href="#detail_attribute_Model_Coherentiekarakteristiek_relatieZuurgraadLabEnAluminium">relatie zuurgraad lab en aluminium</a>
+                  
+               </td>
+               <td></td>
+               <td>
+                  <a class="link" href="#global_class_Model_IndicatieJaNee">IndicatieJaNee</a>
+                  
+               </td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>
+                  <a class="link" href="#detail_attribute_Model_Coherentiekarakteristiek_relatieZuurgraadLabEnBicarbonaatgehalteLab">relatie zuurgraad lab en bicarbonaatgehalte lab</a>
+                  
+               </td>
+               <td></td>
+               <td>
+                  <a class="link" href="#global_class_Model_IndicatieJaNee">IndicatieJaNee</a>
+                  
+               </td>
+               <td>1</td>
+            </tr>
+         </tbody>
+      </table>
+      
+      
+      <section id="" class="notoc">
+         <h5>Toelichting</h5>[wordt wellicht hernoemd naar Kwaliteitsscore of Kwaliteitsgegevens of Kwaliteitskenmerken
+         Kwaliteitsberekeningen]. Het betreft een verzameling afgeleide berekeningen die het
+         GAR karakteriseren. Deze worden door de BRO bepaald. Tav types kengetallen: 1) Verhouding
+         gaat om een deling van twee [sets van] parameters, waarbij de uitkomst positief of
+         negatief kan zijn. 2) Relatie betreft een toetsing van twee metingen aan vaststaande
+         grenzen waarbij de uitkomst waar of niet waar is.
+      </section>
+      
+   </section>
    
    <div id="">&nbsp;</div>
    <section id="global_class_Model_Deelmonster">
@@ -100,20 +276,6 @@
                </td>
                <td>1</td>
             </tr>
-            <tr>
-               <td>
-                  <a class="link" href="#detail_attribute_Model_Deelmonster_uitvoerderBemonstering">uitvoerder bemonstering</a>
-                  
-               </td>
-               <td>Identificatie die de organisatie die verantwoordelijk is voor uitvoering van het veldonderzoek
-                  heeft in het Handelsregister.
-               </td>
-               <td>
-                  <a class="link" href="#global_class_Model_KvKNummer">KvK-nummer</a>
-                  
-               </td>
-               <td>1</td>
-            </tr>
          </tbody>
       </table>
       
@@ -139,7 +301,7 @@
                   
                   <a class="link" href="#global_class_Model_Laboratoriumonderzoek">Laboratoriumonderzoek</a>
                   
-                  [ 1 .. 2 ]
+                  [ 1 ]
                   
                </td>
                <td></td>
@@ -270,24 +432,27 @@
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_attribute_Model_Grondwatersamenstellingsonderzoek_onderzoeksnorm">onderzoeksnorm</a>
+                  <a class="link" href="#detail_attribute_Model_Grondwatersamenstellingsonderzoek_onderzoeksprocedure">onderzoeksprocedure</a>
                   
                </td>
                <td>De norm die omschrijft volgens welke afspraken, specificaties en/of criteria het GAR
                   is uitgevoerd.
                </td>
                <td>
-                  <a class="link" href="#global_class_Model_Onderzoeksnorm">Onderzoeksnorm</a>
+                  <a class="link" href="#global_class_Model_Onderzoeksprocedure">Onderzoeksprocedure</a>
                   
                </td>
                <td>1</td>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_attribute_Model_Grondwatersamenstellingsonderzoek_rapportagedatum">rapportagedatum</a>
+                  <a class="link" href="#detail_attribute_Model_Grondwatersamenstellingsonderzoek_rapportagedatumLabonderzoek">rapportagedatum labonderzoek</a>
                   
                </td>
-               <td>De datum waarop het GAR door de bronhouder is geaccepteerd.</td>
+               <td>De datum waarop het complete resultaat van het labonderzoek is gerapporteerd aan de
+                  bronhouder.
+                  (was: datum waarop het GAR door de bronhouder is geaccepteerd).
+               </td>
                <td>
                   <a class="link" href="#global_class_Model_Datum">Datum</a>
                   
@@ -360,7 +525,7 @@
                   
                   <a class="link" href="#global_class_Model_Laboratoriumonderzoek">Laboratoriumonderzoek</a>
                   
-                  [ 1 .. 2 ]
+                  [ 1 ]
                   
                </td>
                <td></td>
@@ -373,7 +538,7 @@
                   <a class="link" href="#detail_association_Model_Grondwatersamenstellingsonderzoek">heeft</a>
                   
                   
-                  <a class="link" href="#global_class_Model_Karakterisatie">Karakterisatie</a>
+                  <a class="link" href="#global_class_Model_Coherentiekarakteristiek">Coherentiekarakteristiek</a>
                   
                   [ 1 ]
                   
@@ -403,182 +568,6 @@
          <h5>Toelichting</h5>Met doel wordt bedoeld de onderzoeksvraag die is geformuleerd op basis van een hoger
          doel, om te komen tot het bepalen van een specifiek set parameters op basis van inhoudelijke
          of project gerichte criteria. Dit hogere doel ligt vast bij het grondwatermonitoringnet.
-      </section>
-      
-   </section>
-   
-   <div id="">&nbsp;</div>
-   <section id="global_class_Model_Karakterisatie">
-      <h2>Objecttype Karakterisatie</h2>
-      
-      <table>
-         <colgroup width="30%"></colgroup>
-         <colgroup width="70%"></colgroup>
-         <tbody>
-            <tr>
-               <th>Naam</th>
-               <td>Karakterisatie</td>
-            </tr>
-            <tr>
-               <th>Alternatieve naam</th>
-               <td></td>
-            </tr>
-            <tr>
-               <th>Herkomst</th>
-               <td>BRO</td>
-            </tr>
-            <tr>
-               <th>Definitie</th>
-               <td>Afgeleide berekeningen als karakterisering of tbv input voor synthese</td>
-            </tr>
-            <tr>
-               <th>Herkomst definitie</th>
-               <td>BRO</td>
-            </tr>
-            <tr>
-               <th>Datum opname</th>
-               <td></td>
-            </tr>
-            <tr>
-               <th>Unieke aanduiding</th>
-               <td></td>
-            </tr>
-            <tr>
-               <th>Populatie</th>
-               <td></td>
-            </tr>
-            <tr>
-               <th>Indicatie kwaliteit</th>
-               <td></td>
-            </tr>
-            <tr>
-               <th>Indicatie abstract object</th>
-               <td>Nee</td>
-            </tr>
-         </tbody>
-      </table>
-      
-      <h3>Overzicht attributen</h3>
-      
-      <table>
-         <colgroup width="30%"></colgroup>
-         <colgroup width="50%"></colgroup>
-         <colgroup width="10%"></colgroup>
-         <colgroup width="10%"></colgroup>
-         <tbody>
-            <tr>
-               <th>Attribuutnaam</th>
-               <th>Definitie</th>
-               <th>Formaat</th>
-               <th>Card</th>
-            </tr>
-            <tr>
-               <td>
-                  <a class="link" href="#detail_attribute_Model_Karakterisatie_afwijkingGLDHD">afwijking GLDHD</a>
-                  
-               </td>
-               <td>De uitkomst van de vergelijking tusen EGV veld en lab</td>
-               <td>
-                  <a class="link" href="#global_class_Model_Getalswaarde22">Getalswaarde2.2</a>
-                  
-               </td>
-               <td>1</td>
-            </tr>
-            <tr>
-               <td>
-                  <a class="link" href="#detail_attribute_Model_Karakterisatie_afwijkingHCO3">afwijking HCO3</a>
-                  
-               </td>
-               <td></td>
-               <td>
-                  <a class="link" href="#global_class_Model_Getalswaarde22">Getalswaarde2.2</a>
-                  
-               </td>
-               <td>0 .. 1</td>
-            </tr>
-            <tr>
-               <td>
-                  <a class="link" href="#detail_attribute_Model_Karakterisatie_afwijkingPH">afwijking pH</a>
-                  
-               </td>
-               <td>De uitkomst van de vergelijking tusen pH veld en lab.</td>
-               <td>
-                  <a class="link" href="#global_class_Model_Getalswaarde22">Getalswaarde2.2</a>
-                  
-               </td>
-               <td>1</td>
-            </tr>
-            <tr>
-               <td>
-                  <a class="link" href="#detail_attribute_Model_Karakterisatie_feEnNO3Aanwezig">Fe en NO3 aanwezig</a>
-                  
-               </td>
-               <td></td>
-               <td>
-                  <a class="link" href="#global_class_Model_IndicatieJaNee">IndicatieJaNee</a>
-                  
-               </td>
-               <td>1</td>
-            </tr>
-            <tr>
-               <td>
-                  <a class="link" href="#detail_attribute_Model_Karakterisatie_ionenbalans">ionenbalans</a>
-                  
-               </td>
-               <td>De uitkomst van de ionenbalans (kan zowel positief als negatief zijn)</td>
-               <td>
-                  <a class="link" href="#global_class_Model_Getalswaarde22">Getalswaarde2.2</a>
-                  
-               </td>
-               <td>1</td>
-            </tr>
-            <tr>
-               <td>
-                  <a class="link" href="#detail_attribute_Model_Karakterisatie_nO3EnNH4Aanwezig">NO3 en NH4 aanwezig</a>
-                  
-               </td>
-               <td></td>
-               <td>
-                  <a class="link" href="#global_class_Model_IndicatieJaNee">IndicatieJaNee</a>
-                  
-               </td>
-               <td>1</td>
-            </tr>
-            <tr>
-               <td>
-                  <a class="link" href="#detail_attribute_Model_Karakterisatie_relatiePHLabEnAl">relatie pH lab en Al</a>
-                  
-               </td>
-               <td></td>
-               <td>
-                  <a class="link" href="#global_class_Model_IndicatieJaNee">IndicatieJaNee</a>
-                  
-               </td>
-               <td>1</td>
-            </tr>
-            <tr>
-               <td>
-                  <a class="link" href="#detail_attribute_Model_Karakterisatie_relatiePHLabEnHCO3Lab">relatie pH lab en HCO3 lab</a>
-                  
-               </td>
-               <td></td>
-               <td>
-                  <a class="link" href="#global_class_Model_IndicatieJaNee">IndicatieJaNee</a>
-                  
-               </td>
-               <td>1</td>
-            </tr>
-         </tbody>
-      </table>
-      
-      
-      <section id="" class="notoc">
-         <h5>Toelichting</h5>[wordt wellicht hernoemd naar Kwaliteitsscore of Kwaliteitsgegevens of Kwaliteitskenmerken
-         Kwaliteitsberekeningen]. Het betreft een verzameling afgeleide berekeningen die het
-         GAR karakteriseren. Deze worden door de BRO bepaald. Tav types kengetallen: 1) Verhouding
-         gaat om een deling van twee [sets van] parameters, waarbij de uitkomst positief of
-         negatief kan zijn. 2) Relatie betreft een toetsing van twee metingen aan vaststaande
-         grenzen waarbij de uitkomst waar of niet waar is.
       </section>
       
    </section>
@@ -683,7 +672,7 @@
                   <a class="link" href="#detail_association_Model_Laboratoriumonderzoek">bestaat uit</a>
                   
                   
-                  <a class="link" href="#global_class_Model_Laboratoriumwaarneming">Laboratoriumwaarneming</a>
+                  <a class="link" href="#global_class_Model_ResultaatLaboratoriumwaarneming">Resultaat laboratoriumwaarneming</a>
                   
                   [ 1 .. * ]
                   
@@ -697,8 +686,8 @@
    </section>
    
    <div id="">&nbsp;</div>
-   <section id="global_class_Model_Laboratoriumwaarneming">
-      <h2>Objecttype Laboratoriumwaarneming</h2>
+   <section id="global_class_Model_ResultaatLaboratoriumwaarneming">
+      <h2>Objecttype Resultaat laboratoriumwaarneming</h2>
       
       <table>
          <colgroup width="30%"></colgroup>
@@ -706,7 +695,7 @@
          <tbody>
             <tr>
                <th>Naam</th>
-               <td>Laboratoriumwaarneming</td>
+               <td>Resultaat laboratoriumwaarneming</td>
             </tr>
             <tr>
                <th>Alternatieve naam</th>
@@ -781,19 +770,19 @@
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_attribute_Model_Laboratoriumwaarneming_afwijkingLaboratoriumnorm">afwijking laboratoriumnorm</a>
+                  <a class="link" href="#detail_attribute_Model_ResultaatLaboratoriumwaarneming_afwijkingLaboratoriumprocedure">afwijking laboratoriumprocedure</a>
                   
                </td>
                <td>Afwijkingen van het geaccrediteerde proces.</td>
                <td>
-                  <a class="link" href="#global_class_Model_AfwijkingLaboratoriumnorm">AfwijkingLaboratoriumnorm</a>
+                  <a class="link" href="#global_class_Model_AfwijkingLaboratoriumprocedure">AfwijkingLaboratoriumprocedure</a>
                   
                </td>
                <td>0 .. 1</td>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_attribute_Model_Laboratoriumwaarneming_analysemethode">analysemethode</a>
+                  <a class="link" href="#detail_attribute_Model_ResultaatLaboratoriumwaarneming_analysemethode">analysemethode</a>
                   
                </td>
                <td>De [geaccrediteerde ] methode waarmee een parameter geanalyseerd wordt/is</td>
@@ -805,7 +794,7 @@
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_attribute_Model_Laboratoriumwaarneming_datumAnalyse">datum analyse</a>
+                  <a class="link" href="#detail_attribute_Model_ResultaatLaboratoriumwaarneming_datumAnalyse">datum analyse</a>
                   
                </td>
                <td>Datum waarop de analyse van de parameter voltooid is</td>
@@ -817,7 +806,7 @@
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_attribute_Model_Laboratoriumwaarneming_omstandigheden">omstandigheden</a>
+                  <a class="link" href="#detail_attribute_Model_ResultaatLaboratoriumwaarneming_omstandigheden">omstandigheden</a>
                   
                </td>
                <td>Overige afwijkingen.</td>
@@ -829,7 +818,7 @@
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_attribute_Model_Laboratoriumwaarneming_rapportagegrens">rapportagegrens</a>
+                  <a class="link" href="#detail_attribute_Model_ResultaatLaboratoriumwaarneming_rapportagegrens">rapportagegrens</a>
                   
                </td>
                <td>De rapportagrens behorend bij de uitgevoerde analyse en analysemethode.</td>
@@ -841,7 +830,7 @@
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_attribute_Model_Laboratoriumwaarneming_typeMonsterfractie">type monsterfractie</a>
+                  <a class="link" href="#detail_attribute_Model_ResultaatLaboratoriumwaarneming_typeMonsterfractie">type monsterfractie</a>
                   
                </td>
                <td>Typering van de monsterfractie waarin de parameter is gemeten.</td>
@@ -977,7 +966,7 @@
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_attribute_Model_ResultaatVeldwaarneming_bicarbonaat">bicarbonaat</a>
+                  <a class="link" href="#detail_attribute_Model_ResultaatVeldwaarneming_bicarbonaatgehalte">bicarbonaatgehalte</a>
                   
                </td>
                <td>De massaconcentratie van bicarbonaat in het gefiltreerde deel van het grondwatermonster.</td>
@@ -1049,7 +1038,7 @@
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_attribute_Model_ResultaatVeldwaarneming_zuurstof">zuurstof</a>
+                  <a class="link" href="#detail_attribute_Model_ResultaatVeldwaarneming_zuurstofgehalte">zuurstofgehalte</a>
                   
                </td>
                <td>De massaconcentratie van zuurstof in het gefiltreerde deel van het grondwatermonster.</td>
@@ -1144,7 +1133,7 @@
                   
                </td>
                <td>Tijdens bemonstering geconstateerde/uitgevoerde afwijkingen ten opzichte van de opgegeven
-                  veldonderzoeknorm.
+                  veldonderzoeknorm en overige bijzonderheden.
                </td>
                <td>
                   <a class="link" href="#global_class_Model_AfwijkingVeldonderzoeknorm">AfwijkingVeldonderzoeknorm</a>
@@ -1166,15 +1155,17 @@
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_attribute_Model_Veldonderzoek_omstandigheden">omstandigheden</a>
+                  <a class="link" href="#detail_attribute_Model_Veldonderzoek_uitvoerder">uitvoerder</a>
                   
                </td>
-               <td>Andere afwijkingen, welke niet in een protocol beschreven staan.</td>
+               <td>Identificatie die de organisatie die verantwoordelijk is voor uitvoering van het veldonderzoek
+                  heeft in het Handelsregister.
+               </td>
                <td>
-                  <a class="link" href="#global_class_Model_Tekst200">Tekst200</a>
+                  <a class="link" href="#global_class_Model_KvKNummer">KvK-nummer</a>
                   
                </td>
-               <td>0 .. 1</td>
+               <td>1</td>
             </tr>
             <tr>
                <td>
@@ -3605,8 +3596,8 @@
 <section id="">
    <h1>Codelists </h1>
    
-   <section id="global_class_Model_AfwijkingLaboratoriumnorm" class="notoc">
-      <h2>Codelist AfwijkingLaboratoriumnorm</h2>
+   <section id="global_class_Model_AfwijkingLaboratoriumprocedure" class="notoc">
+      <h2>Codelist AfwijkingLaboratoriumprocedure</h2>
       
       <table>
          <colgroup width="30%"></colgroup>
@@ -3614,7 +3605,7 @@
          <tbody>
             <tr>
                <th>Naam</th>
-               <td>AfwijkingLaboratoriumnorm</td>
+               <td>AfwijkingLaboratoriumprocedure</td>
             </tr>
             <tr>
                <th>Alternatieve naam</th>
@@ -3845,8 +3836,8 @@
       
    </section>
    
-   <section id="global_class_Model_Onderzoeksnorm" class="notoc">
-      <h2>Codelist Onderzoeksnorm</h2>
+   <section id="global_class_Model_Onderzoeksprocedure" class="notoc">
+      <h2>Codelist Onderzoeksprocedure</h2>
       
       <table>
          <colgroup width="30%"></colgroup>
@@ -3854,7 +3845,7 @@
          <tbody>
             <tr>
                <th>Naam</th>
-               <td>Onderzoeksnorm</td>
+               <td>Onderzoeksprocedure</td>
             </tr>
             <tr>
                <th>Alternatieve naam</th>
@@ -4594,6 +4585,664 @@
    
    
    <div id="">&nbsp;</div>
+   <section id="detail_class_Model_Coherentiekarakteristiek">
+      <h3>Objecttype Coherentiekarakteristiek</h3>
+      
+      <section id="detail_attribute_Model_Coherentiekarakteristiek_afwijkingBicarbonaatgehalte" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_Coherentiekarakteristiek">Coherentiekarakteristiek</a> afwijking bicarbonaatgehalte
+         </h4>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>afwijking bicarbonaatgehalte</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Datum opname</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>0 .. 1</td>
+               </tr>
+               <tr>
+                  <th>Indicatie authentiek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Regels</th>
+                  <td>Het gegeven is alleen aanwezig als HCO3 zowel in het veld als in het lab is gemeten</td>
+               </tr>
+               <tr>
+                  <th>Patroon</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>Getalswaarde2.2</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <section id="" class="notoc">
+            <h5>Toelichting</h5>Een verandering van de HCO3 kan komen door neerslagvorming, microbiële metabolisme
+            van organische zuren, afbraak van organisch materiaal, of andere chemische veranderingen
+            tijdens transport, verwerking en behandeling.
+         </section>
+         
+      </section>
+      
+      <section id="detail_attribute_Model_Coherentiekarakteristiek_afwijkingGeleidbaarheid" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_Coherentiekarakteristiek">Coherentiekarakteristiek</a> afwijking geleidbaarheid
+         </h4>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>afwijking geleidbaarheid</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>De uitkomst van de vergelijking tusen EGV veld en lab</td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Datum opname</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Indicatie authentiek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Regels</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Patroon</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>Getalswaarde2.2</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <section id="" class="notoc">
+            <h5>Toelichting</h5>Een verschil tussen de gemeten EGV in het veld en in het lab kan een indicatie zijn
+            dat er neerslag heeft plaatsgehad tijdens de transport. Dit kan een indicator zijn
+            van onevenwichtigheden in de concentraties en verlies van bepaalde ionen.
+         </section>
+         
+      </section>
+      
+      <section id="detail_attribute_Model_Coherentiekarakteristiek_afwijkingZuurgraad" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_Coherentiekarakteristiek">Coherentiekarakteristiek</a> afwijking zuurgraad
+         </h4>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>afwijking zuurgraad</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>De uitkomst van de vergelijking tusen pH veld en lab.</td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Datum opname</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Indicatie authentiek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Regels</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Patroon</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>Getalswaarde2.2</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <section id="" class="notoc">
+            <h5>Toelichting</h5>Een verandering van de pH kan komen door neerslagvorming, microbiële metabolisme van
+            organische zuren, afbraak van organisch materiaal, of andere chemische veranderingen
+            tijdens transport, verwerking en behandeling.
+         </section>
+         
+      </section>
+      
+      <section id="detail_attribute_Model_Coherentiekarakteristiek_ijzerEnNitraatAanwezig" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_Coherentiekarakteristiek">Coherentiekarakteristiek</a> ijzer en nitraat aanwezig
+         </h4>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>ijzer en nitraat aanwezig</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Datum opname</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Indicatie authentiek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Regels</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Patroon</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>IndicatieJaNee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      
+      <section id="detail_attribute_Model_Coherentiekarakteristiek_ionenbalans" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_Coherentiekarakteristiek">Coherentiekarakteristiek</a> ionenbalans
+         </h4>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>ionenbalans</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>De uitkomst van de ionenbalans (kan zowel positief als negatief zijn)</td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Datum opname</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Indicatie authentiek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Regels</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Patroon</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>Getalswaarde2.2</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <section id="" class="notoc">
+            <h5>Toelichting</h5>De uitkomst geeft de mate van betrouwbaarheid weer van het grondwatersamenstellingsonderzoek.
+            Alle ionen zijn in het lab bepaald. Berekend cf NEN6530. Stoffen afkomstig uit VPTP
+            [NEN doet hier geen bruikbare uitspraak over] en Al, uitgangspunt dat deze altijd
+            gemeten zijn. Al is toegevoegd omdat deze belangrijk is voor zoet water en bij lage
+            pH (
+         </section>
+         
+      </section>
+      
+      <section id="detail_attribute_Model_Coherentiekarakteristiek_nitraatEnAmmoniumAanwezig" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_Coherentiekarakteristiek">Coherentiekarakteristiek</a> nitraat en ammonium aanwezig
+         </h4>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>nitraat en ammonium aanwezig</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Datum opname</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Indicatie authentiek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Regels</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Patroon</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>IndicatieJaNee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <section id="" class="notoc">
+            <h5>Toelichting</h5>Nitraat (NO3) en ammonium (HN4) zijn een chemische consistentie echtpaar dat eventuele
+            fouten in de analyse of mogelijke vermenging aangeven.
+         </section>
+         
+      </section>
+      
+      <section id="detail_attribute_Model_Coherentiekarakteristiek_relatieZuurgraadLabEnAluminium" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_Coherentiekarakteristiek">Coherentiekarakteristiek</a> relatie zuurgraad lab en aluminium
+         </h4>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>relatie zuurgraad lab en aluminium</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Datum opname</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Indicatie authentiek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Regels</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Patroon</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>IndicatieJaNee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      
+      <section id="detail_attribute_Model_Coherentiekarakteristiek_relatieZuurgraadLabEnBicarbonaatgehalteLab" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_Coherentiekarakteristiek">Coherentiekarakteristiek</a> relatie zuurgraad lab en bicarbonaatgehalte lab
+         </h4>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>relatie zuurgraad lab en bicarbonaatgehalte lab</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Datum opname</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Indicatie authentiek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Regels</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Patroon</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>IndicatieJaNee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <section id="" class="notoc">
+            <h5>Toelichting</h5>pH en HCO3 zijn een chemische consistentie echtpaar dat eventuele fouten in de analyse
+            of mogelijke vermenging aangeven. Geldt ook voor Ca en Mg.
+         </section>
+         
+      </section>
+      
+   </section>
+   
+   <div id="">&nbsp;</div>
    <section id="detail_class_Model_Deelmonster">
       <h3>Objecttype Deelmonster</h3>
       
@@ -4751,85 +5400,6 @@
          
       </section>
       
-      <section id="detail_attribute_Model_Deelmonster_uitvoerderBemonstering" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Deelmonster">Deelmonster</a> uitvoerder bemonstering
-         </h4>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>uitvoerder bemonstering</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td>Identificatie die de organisatie die verantwoordelijk is voor uitvoering van het veldonderzoek
-                     heeft in het Handelsregister.
-                  </td>
-               </tr>
-               <tr>
-                  <th>Herkomst definitie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Datum opname</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie in onderzoek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Aanduiding strijdigheid/nietigheid</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <th>Indicatie authentiek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Regels</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Patroon</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>KvK-nummer</td>
-               </tr>
-               <tr>
-                  <th>Indicatie afleidbaar</th>
-                  <td>Nee</td>
-               </tr>
-            </tbody>
-         </table>
-         
-      </section>
-      
       <section id="detail_association_Model_Deelmonster" class="notoc">
          <h4>Relatiesoort details <a href="#global_class_Model_Deelmonster">Deelmonster</a> is input voor
          </h4>
@@ -4881,7 +5451,7 @@
                </tr>
                <tr>
                   <th>Indicatie kardinaliteit</th>
-                  <td>1 .. 2</td>
+                  <td>1</td>
                </tr>
                <tr>
                   <th>Indicatie authentiek</th>
@@ -5219,8 +5789,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_Grondwatersamenstellingsonderzoek_onderzoeksnorm" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Grondwatersamenstellingsonderzoek">Grondwatersamenstellingsonderzoek</a> onderzoeksnorm
+      <section id="detail_attribute_Model_Grondwatersamenstellingsonderzoek_onderzoeksprocedure" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_Grondwatersamenstellingsonderzoek">Grondwatersamenstellingsonderzoek</a> onderzoeksprocedure
          </h4>
          
          <table>
@@ -5229,7 +5799,7 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>onderzoeksnorm</td>
+                  <td>onderzoeksprocedure</td>
                </tr>
                <tr>
                   <th>Herkomst</th>
@@ -5287,7 +5857,7 @@
                </tr>
                <tr>
                   <th>Formaat</th>
-                  <td>Onderzoeksnorm</td>
+                  <td>Onderzoeksprocedure</td>
                </tr>
                <tr>
                   <th>Indicatie afleidbaar</th>
@@ -5298,8 +5868,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_Grondwatersamenstellingsonderzoek_rapportagedatum" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Grondwatersamenstellingsonderzoek">Grondwatersamenstellingsonderzoek</a> rapportagedatum
+      <section id="detail_attribute_Model_Grondwatersamenstellingsonderzoek_rapportagedatumLabonderzoek" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_Grondwatersamenstellingsonderzoek">Grondwatersamenstellingsonderzoek</a> rapportagedatum labonderzoek
          </h4>
          
          <table>
@@ -5308,7 +5878,7 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>rapportagedatum</td>
+                  <td>rapportagedatum labonderzoek</td>
                </tr>
                <tr>
                   <th>Herkomst</th>
@@ -5316,7 +5886,10 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>De datum waarop het GAR door de bronhouder is geaccepteerd.</td>
+                  <td>De datum waarop het complete resultaat van het labonderzoek is gerapporteerd aan de
+                     bronhouder.
+                     (was: datum waarop het GAR door de bronhouder is geaccepteerd).
+                  </td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -5655,7 +6228,7 @@
                </tr>
                <tr>
                   <th>Indicatie kardinaliteit</th>
-                  <td>1 .. 2</td>
+                  <td>1</td>
                </tr>
                <tr>
                   <th>Indicatie authentiek</th>
@@ -5741,7 +6314,7 @@
                <tr>
                   <th>Gerelateerd obecttype</th>
                   <td>
-                     <a class="link" href="#global_class_Model_Karakterisatie">Karakterisatie</a>
+                     <a class="link" href="#global_class_Model_Coherentiekarakteristiek">Coherentiekarakteristiek</a>
                      
                   </td>
                </tr>
@@ -5820,664 +6393,6 @@
                </tr>
             </tbody>
          </table>
-         
-      </section>
-      
-   </section>
-   
-   <div id="">&nbsp;</div>
-   <section id="detail_class_Model_Karakterisatie">
-      <h3>Objecttype Karakterisatie</h3>
-      
-      <section id="detail_attribute_Model_Karakterisatie_afwijkingGLDHD" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Karakterisatie">Karakterisatie</a> afwijking GLDHD
-         </h4>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>afwijking GLDHD</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td>De uitkomst van de vergelijking tusen EGV veld en lab</td>
-               </tr>
-               <tr>
-                  <th>Herkomst definitie</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Datum opname</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie in onderzoek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Aanduiding strijdigheid/nietigheid</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <th>Indicatie authentiek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Regels</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Patroon</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>Getalswaarde2.2</td>
-               </tr>
-               <tr>
-                  <th>Indicatie afleidbaar</th>
-                  <td>Nee</td>
-               </tr>
-            </tbody>
-         </table>
-         
-         <section id="" class="notoc">
-            <h5>Toelichting</h5>Een verschil tussen de gemeten EGV in het veld en in het lab kan een indicatie zijn
-            dat er neerslag heeft plaatsgehad tijdens de transport. Dit kan een indicator zijn
-            van onevenwichtigheden in de concentraties en verlies van bepaalde ionen.
-         </section>
-         
-      </section>
-      
-      <section id="detail_attribute_Model_Karakterisatie_afwijkingHCO3" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Karakterisatie">Karakterisatie</a> afwijking HCO3
-         </h4>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>afwijking HCO3</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Herkomst definitie</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Datum opname</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie in onderzoek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Aanduiding strijdigheid/nietigheid</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>0 .. 1</td>
-               </tr>
-               <tr>
-                  <th>Indicatie authentiek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Regels</th>
-                  <td>Het gegeven is alleen aanwezig als HCO3 zowel in het veld als in het lab is gemeten</td>
-               </tr>
-               <tr>
-                  <th>Patroon</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>Getalswaarde2.2</td>
-               </tr>
-               <tr>
-                  <th>Indicatie afleidbaar</th>
-                  <td>Nee</td>
-               </tr>
-            </tbody>
-         </table>
-         
-         <section id="" class="notoc">
-            <h5>Toelichting</h5>Een verandering van de HCO3 kan komen door neerslagvorming, microbiële metabolisme
-            van organische zuren, afbraak van organisch materiaal, of andere chemische veranderingen
-            tijdens transport, verwerking en behandeling.
-         </section>
-         
-      </section>
-      
-      <section id="detail_attribute_Model_Karakterisatie_afwijkingPH" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Karakterisatie">Karakterisatie</a> afwijking pH
-         </h4>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>afwijking pH</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td>De uitkomst van de vergelijking tusen pH veld en lab.</td>
-               </tr>
-               <tr>
-                  <th>Herkomst definitie</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Datum opname</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie in onderzoek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Aanduiding strijdigheid/nietigheid</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <th>Indicatie authentiek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Regels</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Patroon</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>Getalswaarde2.2</td>
-               </tr>
-               <tr>
-                  <th>Indicatie afleidbaar</th>
-                  <td>Nee</td>
-               </tr>
-            </tbody>
-         </table>
-         
-         <section id="" class="notoc">
-            <h5>Toelichting</h5>Een verandering van de pH kan komen door neerslagvorming, microbiële metabolisme van
-            organische zuren, afbraak van organisch materiaal, of andere chemische veranderingen
-            tijdens transport, verwerking en behandeling.
-         </section>
-         
-      </section>
-      
-      <section id="detail_attribute_Model_Karakterisatie_feEnNO3Aanwezig" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Karakterisatie">Karakterisatie</a> Fe en NO3 aanwezig
-         </h4>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>Fe en NO3 aanwezig</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Herkomst definitie</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Datum opname</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie in onderzoek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Aanduiding strijdigheid/nietigheid</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <th>Indicatie authentiek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Regels</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Patroon</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>IndicatieJaNee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie afleidbaar</th>
-                  <td>Nee</td>
-               </tr>
-            </tbody>
-         </table>
-         
-      </section>
-      
-      <section id="detail_attribute_Model_Karakterisatie_ionenbalans" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Karakterisatie">Karakterisatie</a> ionenbalans
-         </h4>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>ionenbalans</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td>De uitkomst van de ionenbalans (kan zowel positief als negatief zijn)</td>
-               </tr>
-               <tr>
-                  <th>Herkomst definitie</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Datum opname</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie in onderzoek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Aanduiding strijdigheid/nietigheid</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <th>Indicatie authentiek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Regels</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Patroon</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>Getalswaarde2.2</td>
-               </tr>
-               <tr>
-                  <th>Indicatie afleidbaar</th>
-                  <td>Nee</td>
-               </tr>
-            </tbody>
-         </table>
-         
-         <section id="" class="notoc">
-            <h5>Toelichting</h5>De uitkomst geeft de mate van betrouwbaarheid weer van het grondwatersamenstellingsonderzoek.
-            Alle ionen zijn in het lab bepaald. Berekend cf NEN6530. Stoffen afkomstig uit VPTP
-            [NEN doet hier geen bruikbare uitspraak over] en Al, uitgangspunt dat deze altijd
-            gemeten zijn. Al is toegevoegd omdat deze belangrijk is voor zoet water en bij lage
-            pH (
-         </section>
-         
-      </section>
-      
-      <section id="detail_attribute_Model_Karakterisatie_nO3EnNH4Aanwezig" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Karakterisatie">Karakterisatie</a> NO3 en NH4 aanwezig
-         </h4>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>NO3 en NH4 aanwezig</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Herkomst definitie</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Datum opname</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie in onderzoek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Aanduiding strijdigheid/nietigheid</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <th>Indicatie authentiek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Regels</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Patroon</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>IndicatieJaNee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie afleidbaar</th>
-                  <td>Nee</td>
-               </tr>
-            </tbody>
-         </table>
-         
-         <section id="" class="notoc">
-            <h5>Toelichting</h5>NO3 en HN4 zijn een chemische consistentie echtpaar dat eventuele fouten in de analyse
-            of mogelijke vermenging aangeven.
-         </section>
-         
-      </section>
-      
-      <section id="detail_attribute_Model_Karakterisatie_relatiePHLabEnAl" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Karakterisatie">Karakterisatie</a> relatie pH lab en Al
-         </h4>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>relatie pH lab en Al</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Herkomst definitie</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Datum opname</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie in onderzoek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Aanduiding strijdigheid/nietigheid</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <th>Indicatie authentiek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Regels</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Patroon</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>IndicatieJaNee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie afleidbaar</th>
-                  <td>Nee</td>
-               </tr>
-            </tbody>
-         </table>
-         
-      </section>
-      
-      <section id="detail_attribute_Model_Karakterisatie_relatiePHLabEnHCO3Lab" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Karakterisatie">Karakterisatie</a> relatie pH lab en HCO3 lab
-         </h4>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>relatie pH lab en HCO3 lab</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Herkomst definitie</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Datum opname</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie in onderzoek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Aanduiding strijdigheid/nietigheid</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <th>Indicatie authentiek</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Regels</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Patroon</th>
-                  <td></td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>IndicatieJaNee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie afleidbaar</th>
-                  <td>Nee</td>
-               </tr>
-            </tbody>
-         </table>
-         
-         <section id="" class="notoc">
-            <h5>Toelichting</h5>pH en HCO3 zijn een chemische consistentie echtpaar dat eventuele fouten in de analyse
-            of mogelijke vermenging aangeven. Geldt ook voor Ca en Mg.
-         </section>
          
       </section>
       
@@ -6628,7 +6543,7 @@
                <tr>
                   <th>Gerelateerd obecttype</th>
                   <td>
-                     <a class="link" href="#global_class_Model_Laboratoriumwaarneming">Laboratoriumwaarneming</a>
+                     <a class="link" href="#global_class_Model_ResultaatLaboratoriumwaarneming">Resultaat laboratoriumwaarneming</a>
                      
                   </td>
                </tr>
@@ -6640,11 +6555,11 @@
    </section>
    
    <div id="">&nbsp;</div>
-   <section id="detail_class_Model_Laboratoriumwaarneming">
-      <h3>Objecttype Laboratoriumwaarneming</h3>
+   <section id="detail_class_Model_ResultaatLaboratoriumwaarneming">
+      <h3>Objecttype Resultaat laboratoriumwaarneming</h3>
       
-      <section id="detail_attribute_Model_Laboratoriumwaarneming_afwijkingLaboratoriumnorm" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Laboratoriumwaarneming">Laboratoriumwaarneming</a> afwijking laboratoriumnorm
+      <section id="detail_attribute_Model_ResultaatLaboratoriumwaarneming_afwijkingLaboratoriumprocedure" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_ResultaatLaboratoriumwaarneming">Resultaat laboratoriumwaarneming</a> afwijking laboratoriumprocedure
          </h4>
          
          <table>
@@ -6653,7 +6568,7 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>afwijking laboratoriumnorm</td>
+                  <td>afwijking laboratoriumprocedure</td>
                </tr>
                <tr>
                   <th>Herkomst</th>
@@ -6709,7 +6624,7 @@
                </tr>
                <tr>
                   <th>Formaat</th>
-                  <td>AfwijkingLaboratoriumnorm</td>
+                  <td>AfwijkingLaboratoriumprocedure</td>
                </tr>
                <tr>
                   <th>Indicatie afleidbaar</th>
@@ -6724,8 +6639,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_Laboratoriumwaarneming_analysemethode" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Laboratoriumwaarneming">Laboratoriumwaarneming</a> analysemethode
+      <section id="detail_attribute_Model_ResultaatLaboratoriumwaarneming_analysemethode" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_ResultaatLaboratoriumwaarneming">Resultaat laboratoriumwaarneming</a> analysemethode
          </h4>
          
          <table>
@@ -6805,8 +6720,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_Laboratoriumwaarneming_datumAnalyse" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Laboratoriumwaarneming">Laboratoriumwaarneming</a> datum analyse
+      <section id="detail_attribute_Model_ResultaatLaboratoriumwaarneming_datumAnalyse" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_ResultaatLaboratoriumwaarneming">Resultaat laboratoriumwaarneming</a> datum analyse
          </h4>
          
          <table>
@@ -6888,7 +6803,7 @@
       </section>
       
       <section id="detail_class_Model_Laboratoriumparameter" class="notoc">
-         <h4>Gegevensgroeptype details <a href="#global_class_Model_Laboratoriumwaarneming">Laboratoriumwaarneming</a> Laboratoriumparameter
+         <h4>Gegevensgroeptype details <a href="#global_class_Model_ResultaatLaboratoriumwaarneming">Resultaat laboratoriumwaarneming</a> Laboratoriumparameter
          </h4>
          
          <table>
@@ -7186,8 +7101,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_Laboratoriumwaarneming_laboratoriumresultaat" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Laboratoriumwaarneming">Laboratoriumwaarneming</a> laboratoriumresultaat
+      <section id="detail_attribute_Model_ResultaatLaboratoriumwaarneming_laboratoriumresultaat" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_ResultaatLaboratoriumwaarneming">Resultaat laboratoriumwaarneming</a> laboratoriumresultaat
          </h4>
          
          <table>
@@ -7263,8 +7178,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_Laboratoriumwaarneming_omstandigheden" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Laboratoriumwaarneming">Laboratoriumwaarneming</a> omstandigheden
+      <section id="detail_attribute_Model_ResultaatLaboratoriumwaarneming_omstandigheden" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_ResultaatLaboratoriumwaarneming">Resultaat laboratoriumwaarneming</a> omstandigheden
          </h4>
          
          <table>
@@ -7340,8 +7255,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_Laboratoriumwaarneming_rapportagegrens" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Laboratoriumwaarneming">Laboratoriumwaarneming</a> rapportagegrens
+      <section id="detail_attribute_Model_ResultaatLaboratoriumwaarneming_rapportagegrens" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_ResultaatLaboratoriumwaarneming">Resultaat laboratoriumwaarneming</a> rapportagegrens
          </h4>
          
          <table>
@@ -7426,8 +7341,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_Laboratoriumwaarneming_typeMonsterfractie" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Laboratoriumwaarneming">Laboratoriumwaarneming</a> type monsterfractie
+      <section id="detail_attribute_Model_ResultaatLaboratoriumwaarneming_typeMonsterfractie" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_ResultaatLaboratoriumwaarneming">Resultaat laboratoriumwaarneming</a> type monsterfractie
          </h4>
          
          <table>
@@ -7514,8 +7429,8 @@
    <section id="detail_class_Model_ResultaatVeldwaarneming">
       <h3>Objecttype Resultaat veldwaarneming</h3>
       
-      <section id="detail_attribute_Model_ResultaatVeldwaarneming_bicarbonaat" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_ResultaatVeldwaarneming">Resultaat veldwaarneming</a> bicarbonaat
+      <section id="detail_attribute_Model_ResultaatVeldwaarneming_bicarbonaatgehalte" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_ResultaatVeldwaarneming">Resultaat veldwaarneming</a> bicarbonaatgehalte
          </h4>
          
          <table>
@@ -7524,7 +7439,7 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>bicarbonaat</td>
+                  <td>bicarbonaatgehalte</td>
                </tr>
                <tr>
                   <th>Herkomst</th>
@@ -7980,8 +7895,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_ResultaatVeldwaarneming_zuurstof" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_ResultaatVeldwaarneming">Resultaat veldwaarneming</a> zuurstof
+      <section id="detail_attribute_Model_ResultaatVeldwaarneming_zuurstofgehalte" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_ResultaatVeldwaarneming">Resultaat veldwaarneming</a> zuurstofgehalte
          </h4>
          
          <table>
@@ -7990,7 +7905,7 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>zuurstof</td>
+                  <td>zuurstofgehalte</td>
                </tr>
                <tr>
                   <th>Herkomst</th>
@@ -8082,7 +7997,7 @@
                <tr>
                   <th>Definitie</th>
                   <td>Tijdens bemonstering geconstateerde/uitgevoerde afwijkingen ten opzichte van de opgegeven
-                     veldonderzoeknorm.
+                     veldonderzoeknorm en overige bijzonderheden.
                   </td>
                </tr>
                <tr>
@@ -8219,8 +8134,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_Veldonderzoek_omstandigheden" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Veldonderzoek">Veldonderzoek</a> omstandigheden
+      <section id="detail_attribute_Model_Veldonderzoek_uitvoerder" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_Veldonderzoek">Veldonderzoek</a> uitvoerder
          </h4>
          
          <table>
@@ -8229,7 +8144,7 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>omstandigheden</td>
+                  <td>uitvoerder</td>
                </tr>
                <tr>
                   <th>Herkomst</th>
@@ -8237,7 +8152,9 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Andere afwijkingen, welke niet in een protocol beschreven staan.</td>
+                  <td>Identificatie die de organisatie die verantwoordelijk is voor uitvoering van het veldonderzoek
+                     heeft in het Handelsregister.
+                  </td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -8269,7 +8186,7 @@
                </tr>
                <tr>
                   <th>Indicatie kardinaliteit</th>
-                  <td>0 .. 1</td>
+                  <td>1</td>
                </tr>
                <tr>
                   <th>Indicatie authentiek</th>
@@ -8285,7 +8202,7 @@
                </tr>
                <tr>
                   <th>Formaat</th>
-                  <td>Tekst200</td>
+                  <td>KvK-nummer</td>
                </tr>
                <tr>
                   <th>Indicatie afleidbaar</th>
@@ -12837,6 +12754,83 @@
          
       </section>
       
+      <section id="detail_attribute_Model_AfwijkingVeldonderzoeknorm_teLageTemperatuur" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingVeldonderzoeknorm">AfwijkingVeldonderzoeknorm</a> teLageTemperatuur
+         </h4>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>teLageTemperatuur</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Datum opname</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Indicatie authentiek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Regels</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Patroon</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>[TODO: ]</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      
       <section id="detail_attribute_Model_AfwijkingVeldonderzoeknorm_windGedraaid" class="notoc">
          <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingVeldonderzoeknorm">AfwijkingVeldonderzoeknorm</a> windGedraaid
          </h4>
@@ -12848,6 +12842,83 @@
                <tr>
                   <th>Naam</th>
                   <td>windGedraaid</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Datum opname</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Indicatie authentiek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Regels</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Patroon</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>[TODO: ]</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      
+      <section id="detail_attribute_Model_AfwijkingVeldonderzoeknorm_windstil" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_AfwijkingVeldonderzoeknorm">AfwijkingVeldonderzoeknorm</a> windstil
+         </h4>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>windstil</td>
                </tr>
                <tr>
                   <th>Herkomst</th>
@@ -13773,11 +13844,11 @@
       
    </section>
    
-   <section id="detail_class_Model_Onderzoeksnorm" class="notoc">
-      <h3>Codelist Onderzoeksnorm</h3>
+   <section id="detail_class_Model_Onderzoeksprocedure" class="notoc">
+      <h3>Codelist Onderzoeksprocedure</h3>
       
-      <section id="detail_attribute_Model_Onderzoeksnorm_draaiboekKRW" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Onderzoeksnorm">Onderzoeksnorm</a> draaiboekKRW
+      <section id="detail_attribute_Model_Onderzoeksprocedure_draaiboekKRW" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_Onderzoeksprocedure">Onderzoeksprocedure</a> draaiboekKRW
          </h4>
          
          <table>
@@ -13853,8 +13924,8 @@
          
       </section>
       
-      <section id="detail_attribute_Model_Onderzoeksnorm_draaiboekPMG" class="notoc">
-         <h4>Attribuutsoort details <a href="#global_class_Model_Onderzoeksnorm">Onderzoeksnorm</a> draaiboekPMG
+      <section id="detail_attribute_Model_Onderzoeksprocedure_draaiboekPMG" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_class_Model_Onderzoeksprocedure">Onderzoeksprocedure</a> draaiboekPMG
          </h4>
          
          <table>
