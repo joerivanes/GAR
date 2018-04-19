@@ -1,16 +1,98 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "Grondwatersamenstellingsonderzoek (GAR)" door 1.42.4 - EVALUATION VERSION, PLEASE REGISTER! op March 29, 2018 at 14:22:46.
+   "Grondwatersamenstellingsonderzoek (GAR)" door 1.42.4 - EVALUATION VERSION, PLEASE REGISTER! op April 19, 2018 at 11:47:07.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i>arjan@linkedmatter.com</i> en geef de code 
-   <i>"Domeinmodel-GrondwatersamenstellingsonderzoekGAR-0.1-0-20180315-20180329-162247"</i> door. 
+   <i>"Domeinmodel-GrondwatersamenstellingsonderzoekGAR-0.1-0-20180315-20180419-134708"</i> door. 
    Voor inhoudelijke fouten neem contact op met het modellenteam: <i>github@basisregistratieondergrond.nl</i>.
    
 </p><a class="anchor" name="global_package_Model"></a><section id="global_package_Model">
    <h3>Domein Model</h3>
    <section id="">
       <h4>Objecttypen </h4>
+      <a class="anchor" name="graph_EAID_161FA1ED_4217_4735_BFA8_EC93200FFA67"></a><a class="anchor" name="global_class_Model_Bemonsteringsapparaat"></a><section id="global_class_Model_Bemonsteringsapparaat">
+         <h5>Objecttype Bemonsteringsapparaat</h5>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Bemonsteringsapparaat</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>De specificaties van het apparaat dat gebruikt is voor het bemonsteren van het grondwater.</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>NB het is nog de vraag of de slang waarmee bemonsterd is, en de pomp waarmee het grondwater
+                     is opgepompt, als onderdeel van één 'apparaat' kunnen worden beschouwd. De noemer
+                     'apparaat' lijkt op het eerste gzicht wel een goede verzamelplek voor gegevens over
+                     slang en pomp. Maar heeft bv een onderwaterpomp ook een slang waarvan we het type
+                     willen vastleggen? Of geldt dit gegeven alleen voor slangenpomp:
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h6>Overzicht attributen</h6>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="50%"></colgroup>
+            <colgroup width="10%"></colgroup>
+            <colgroup width="10%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Attribuutnaam</th>
+                  <th>Definitie</th>
+                  <th>Formaat</th>
+                  <th>Card</th>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Model_Bemonsteringsapparaat_typeSlang">type slang</a>
+                     
+                  </td>
+                  <td></td>
+                  <td>
+                     <a class="link" href="#global_class_Model_TypeSlang">TypeSlang</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Model_Bemonsteringsapparaat_slangHergebruikt">slang hergebruikt</a>
+                     
+                  </td>
+                  <td>Indicatie of de slang nieuw is danwel een al eerder gebruikte slang.</td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Model_Bemonsteringsapparaat_typePomp">type pomp</a>
+                     
+                  </td>
+                  <td></td>
+                  <td>
+                     <a class="link" href="#global_class_Model_TypePomp">TypePomp</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         
+      </section>
       <a class="anchor" name="graph_EAID_851C4E53_F320_4841_A53D_B3FB8D74D572"></a><a class="anchor" name="global_class_Model_Coherentiekarakteristiek"></a><section id="global_class_Model_Coherentiekarakteristiek">
          <h5>Objecttype Coherentiekarakteristiek</h5>
          
@@ -161,93 +243,6 @@
          
          
       </section>
-      <a class="anchor" name="graph_EAID_95191716_B565_4903_8C51_BFF486C9DAAF"></a><a class="anchor" name="global_class_Model_Deelmonster"></a><section id="global_class_Model_Deelmonster">
-         <h5>Objecttype Deelmonster</h5>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>Deelmonster</td>
-               </tr>
-            </tbody>
-         </table>
-         
-         <h6>Overzicht attributen</h6>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="50%"></colgroup>
-            <colgroup width="10%"></colgroup>
-            <colgroup width="10%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Attribuutnaam</th>
-                  <th>Definitie</th>
-                  <th>Formaat</th>
-                  <th>Card</th>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Model_Deelmonster_datumBemonstering">datum bemonstering</a>
-                     
-                  </td>
-                  <td></td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_DatumTijd">DatumTijd</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Model_Deelmonster_bemonsteringsnorm">bemonsteringsnorm</a>
-                     
-                  </td>
-                  <td></td>
-                  <td>
-                     <a class="link" href="#global_class_Model_Veldonderzoekprocedure">Veldonderzoekprocedure</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-            </tbody>
-         </table>
-         
-         
-         <h6>Overzicht relaties</h6>
-         
-         
-         <table>
-            <colgroup width="50%"></colgroup>
-            <colgroup width="50%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Rol naam met kardinaliteiten</th>
-                  <th>Definitie</th>
-               </tr>
-               <tr>
-                  <td>
-                     Deelmonster
-                     [ 1 ]
-                     
-                     <a class="link" href="#detail_association_Model_Deelmonster">is input voor</a>
-                     
-                     
-                     <a class="link" href="#global_class_Model_Laboratoriumonderzoek">Laboratoriumonderzoek</a>
-                     
-                     [ 1 ]
-                     
-                  </td>
-                  <td></td>
-               </tr>
-            </tbody>
-         </table>
-         
-         
-      </section>
       <a class="anchor" name="graph_EAID_BAB5C8A8_2997_4fbe_BE80_A531990FF2FE"></a><a class="anchor" name="global_class_Model_Grondwatersamenstellingsonderzoek"></a><section id="global_class_Model_Grondwatersamenstellingsonderzoek">
          <h5>Objecttype Grondwatersamenstellingsonderzoek</h5>
          
@@ -343,26 +338,9 @@
                      <a class="link" href="#detail_attribute_Model_Grondwatersamenstellingsonderzoek_typeGrondwater">type grondwater</a>
                      
                   </td>
-                  <td>De aard van het grondwater, geclassificeerd op basis van saliniteit.
-                     NB 'Chloridegehalte' is misschien een betere term?
-                  </td>
+                  <td>De aard van het grondwater, geclassificeerd op basis van chloridegehalte.</td>
                   <td>
                      <a class="link" href="#global_class_Model_TypeGrondwater">TypeGrondwater</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Model_Grondwatersamenstellingsonderzoek_rapportagedatumLabonderzoek">rapportagedatum labonderzoek</a>
-                     
-                  </td>
-                  <td>De datum waarop het complete resultaat van het labonderzoek is gerapporteerd aan de
-                     bronhouder.
-                     (was: datum waarop het grondwatersamenstellingsonderzoek door de bronhouder is geaccepteerd).
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_Datum">Datum</a>
                      
                   </td>
                   <td>1</td>
@@ -447,7 +425,7 @@
                      
                      <a class="link" href="#global_class_Model_Laboratoriumonderzoek">Laboratoriumonderzoek</a>
                      
-                     [ 1 ]
+                     [ 1 .. * ]
                      
                   </td>
                   <td></td>
@@ -523,6 +501,20 @@
                   <td>Het laboratorium dat verantwoordelijk is voor de uitgevoerde laboratoriumwaarnemingen.</td>
                   <td>
                      <a class="link" href="#global_class_Brocommon_KvKNummer">KvK-nummer</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Model_Laboratoriumonderzoek_rapportagedatumLabonderzoek">rapportagedatum labonderzoek</a>
+                     
+                  </td>
+                  <td>De datum waarop het complete resultaat van het labonderzoek is gerapporteerd aan de
+                     bronhouder.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_Datum">Datum</a>
                      
                   </td>
                   <td>1</td>
@@ -781,8 +773,8 @@
                <tr>
                   <th>Toelichting</th>
                   <td>NB de lijst van uitkomsten die in de BRO worden opgenomen, is nog niet definitief:
-                     van TROEBHD moet nog getoest worden of het haalbaar is deze op te nemen, en hetzelfde
-                     geldt voor CI (Chloride), nu niet op deze lijst maar een mogelijke toevoeging.
+                     van 'troebelheid' moet nog getoest worden of het haalbaar is deze op te nemen, en
+                     hetzelfde geldt voor CI (Chloride), nu niet op deze lijst maar een mogelijke toevoeging.
                   </td>
                </tr>
             </tbody>
@@ -807,8 +799,8 @@
                      <a class="link" href="#detail_attribute_Model_ResultaatVeldwaarneming_geleidbaarheid">geleidbaarheid</a>
                      
                   </td>
-                  <td>De elektrische geleidbaarheid van het gefiltreerde danwel ongefiltreerde grondwatermonster,
-                     omgerekend naar de referentietemperatuur van 25 graden.
+                  <td>De elektrische geleidbaarheid (ook wel EGV, EC) van het gefiltreerde danwel ongefiltreerde
+                     grondwatermonster.
                   </td>
                   <td>
                      <a class="link" href="#global_class_Brocommon_Getalswaarde3">Getalswaarde3</a>
@@ -958,12 +950,14 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_Model_Veldonderzoek_veldonderzoekprocedure">veldonderzoekprocedure</a>
+                     <a class="link" href="#detail_attribute_Model_Veldonderzoek_bemonsteringskprocedure">bemonsteringskprocedure</a>
                      
                   </td>
-                  <td>De procedure die aangeeft onder welke afspraken de bemonstering is uitgevoerd.</td>
+                  <td>De procedure die aangeeft onder welke afspraken de bemonstering cq het veldonderzoek
+                     is uitgevoerd.
+                  </td>
                   <td>
-                     <a class="link" href="#global_class_Model_Veldonderzoekprocedure">Veldonderzoekprocedure</a>
+                     <a class="link" href="#global_class_Model_Bemonsteringsprocedure">Bemonsteringsprocedure</a>
                      
                   </td>
                   <td>1</td>
@@ -994,6 +988,20 @@
                      <a class="link" href="#global_class_Brocommon_KvKNummer">KvK-nummer</a>
                      
                   </td>
+                  <td>0 .. 1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Model_Veldonderzoek_rapportagedatumVeldonderzoek">rapportagedatum veldonderzoek</a>
+                     
+                  </td>
+                  <td>De datum waarop het complete resultaat van het veldonderzoek is gerapporteerd aan
+                     de bronhouder.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_Datum">Datum</a>
+                     
+                  </td>
                   <td>1</td>
                </tr>
             </tbody>
@@ -1016,10 +1024,10 @@
                      Veldonderzoek
                      [ 1 ]
                      
-                     <a class="link" href="#detail_association_Model_Veldonderzoek">leidt tot</a>
+                     <a class="link" href="#detail_association_Model_Veldonderzoek_bemonsteringsapparaat">bemonsterd met: bemonsteringsapparaat</a>
                      
                      
-                     <a class="link" href="#global_class_Model_ResultaatVeldwaarneming">Resultaat veldwaarneming</a>
+                     <a class="link" href="#global_class_Model_Bemonsteringsapparaat">Bemonsteringsapparaat</a>
                      
                      [ 1 ]
                      
@@ -1034,9 +1042,9 @@
                      <a class="link" href="#detail_association_Model_Veldonderzoek">leidt tot</a>
                      
                      
-                     <a class="link" href="#global_class_Model_Deelmonster">Deelmonster</a>
+                     <a class="link" href="#global_class_Model_ResultaatVeldwaarneming">Resultaat veldwaarneming</a>
                      
-                     [ 2 .. * ]
+                     [ 1 ]
                      
                   </td>
                   <td></td>
@@ -1061,6 +1069,10 @@
             </tr>
             <tr>
                <th><a class="anchor" name="global_class_Model_Analysemethode"></a><a class="link" href="#detail_class_Model_Analysemethode">Analysemethode</a></th>
+               <td></td>
+            </tr>
+            <tr>
+               <th><a class="anchor" name="global_class_Model_Bemonsteringsprocedure"></a><a class="link" href="#detail_class_Model_Bemonsteringsprocedure">Bemonsteringsprocedure</a></th>
                <td></td>
             </tr>
             <tr>
@@ -1092,7 +1104,11 @@
                <td></td>
             </tr>
             <tr>
-               <th><a class="anchor" name="global_class_Model_Veldonderzoekprocedure"></a><a class="link" href="#detail_class_Model_Veldonderzoekprocedure">Veldonderzoekprocedure</a></th>
+               <th><a class="anchor" name="global_class_Model_TypePomp"></a><a class="link" href="#detail_class_Model_TypePomp">TypePomp</a></th>
+               <td></td>
+            </tr>
+            <tr>
+               <th><a class="anchor" name="global_class_Model_TypeSlang"></a><a class="link" href="#detail_class_Model_TypeSlang">TypeSlang</a></th>
                <td></td>
             </tr>
          </tbody>
@@ -1105,6 +1121,141 @@
    <section id="">
       <h4>Attribuut- en relatiesoort details</h4>
       
+      <a class="anchor" name="detail_class_Model_Bemonsteringsapparaat"></a><section id="detail_class_Model_Bemonsteringsapparaat">
+         <h6>Objecttype Bemonsteringsapparaat</h6>
+         <a class="anchor" name="detail_attribute_Model_Bemonsteringsapparaat_typeSlang"></a><section id="detail_attribute_Model_Bemonsteringsapparaat_typeSlang">
+            <h7>Attribuutsoort details <a href="#global_class_Model_Bemonsteringsapparaat">Bemonsteringsapparaat</a> type slang
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>type slang</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>TypeSlang</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Model_Bemonsteringsapparaat_slangHergebruikt"></a><section id="detail_attribute_Model_Bemonsteringsapparaat_slangHergebruikt">
+            <h7>Attribuutsoort details <a href="#global_class_Model_Bemonsteringsapparaat">Bemonsteringsapparaat</a> slang hergebruikt
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>slang hergebruikt</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>Indicatie of de slang nieuw is danwel een al eerder gebruikte slang.</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>In de praktijk zal een slang alleen worden hergebruikt als het geen gevolgen voor
+                        het monster heeft i.e. bij schoon grondwater. Bij monstername in het kader van milieu
+                        mag men de slang niet hergebruiken.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>IndicatieJaNee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Model_Bemonsteringsapparaat_typePomp"></a><section id="detail_attribute_Model_Bemonsteringsapparaat_typePomp">
+            <h7>Attribuutsoort details <a href="#global_class_Model_Bemonsteringsapparaat">Bemonsteringsapparaat</a> type pomp
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>type pomp</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>TypePomp</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         
+      </section>
       <a class="anchor" name="detail_class_Model_Coherentiekarakteristiek"></a><section id="detail_class_Model_Coherentiekarakteristiek">
          <h6>Objecttype Coherentiekarakteristiek</h6>
          <a class="anchor" name="detail_attribute_Model_Coherentiekarakteristiek_ionenbalans"></a><section id="detail_attribute_Model_Coherentiekarakteristiek_ionenbalans">
@@ -1551,118 +1702,6 @@
          </section>
          
       </section>
-      <a class="anchor" name="detail_class_Model_Deelmonster"></a><section id="detail_class_Model_Deelmonster">
-         <h6>Objecttype Deelmonster</h6>
-         <a class="anchor" name="detail_attribute_Model_Deelmonster_datumBemonstering"></a><section id="detail_attribute_Model_Deelmonster_datumBemonstering">
-            <h7>Attribuutsoort details <a href="#global_class_Model_Deelmonster">Deelmonster</a> datum bemonstering
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>datum bemonstering</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>DatumTijd</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Model_Deelmonster_bemonsteringsnorm"></a><section id="detail_attribute_Model_Deelmonster_bemonsteringsnorm">
-            <h7>Attribuutsoort details <a href="#global_class_Model_Deelmonster">Deelmonster</a> bemonsteringsnorm
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>bemonsteringsnorm</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Veldonderzoekprocedure</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_association_Model_Deelmonster"></a><section id="detail_association_Model_Deelmonster">
-            <h7>Relatiesoort details <a href="#global_class_Model_Deelmonster">Deelmonster</a> is input voor
-            </h7>
-            
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>is input voor</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Gerelateerd obecttype</th>
-                     <td>
-                        <a class="link" href="#global_class_Model_Laboratoriumonderzoek">Laboratoriumonderzoek</a>
-                        
-                     </td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         
-      </section>
       <a class="anchor" name="detail_class_Model_Grondwatersamenstellingsonderzoek"></a><section id="detail_class_Model_Grondwatersamenstellingsonderzoek">
          <h6>Objecttype Grondwatersamenstellingsonderzoek</h6>
          <a class="anchor" name="detail_attribute_Model_Grondwatersamenstellingsonderzoek_kaderAanlevering"></a><section id="detail_attribute_Model_Grondwatersamenstellingsonderzoek_kaderAanlevering">
@@ -1839,9 +1878,7 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De aard van het grondwater, geclassificeerd op basis van saliniteit.
-                        NB 'Chloridegehalte' is misschien een betere term?
-                     </td>
+                     <td>De aard van het grondwater, geclassificeerd op basis van chloridegehalte.</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -1862,61 +1899,6 @@
                   <tr>
                      <th>Formaat</th>
                      <td>TypeGrondwater</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Model_Grondwatersamenstellingsonderzoek_rapportagedatumLabonderzoek"></a><section id="detail_attribute_Model_Grondwatersamenstellingsonderzoek_rapportagedatumLabonderzoek">
-            <h7>Attribuutsoort details <a href="#global_class_Model_Grondwatersamenstellingsonderzoek">Grondwatersamenstellingsonderzoek</a> rapportagedatum labonderzoek
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>rapportagedatum labonderzoek</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De datum waarop het complete resultaat van het labonderzoek is gerapporteerd aan de
-                        bronhouder.
-                        (was: datum waarop het grondwatersamenstellingsonderzoek door de bronhouder is geaccepteerd).
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Datum</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -2129,7 +2111,7 @@
                   </tr>
                   <tr>
                      <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
+                     <td>1 .. *</td>
                   </tr>
                   <tr>
                      <th>Gerelateerd obecttype</th>
@@ -2217,6 +2199,64 @@
                   <tr>
                      <th>Formaat</th>
                      <td>KvK-nummer</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Model_Laboratoriumonderzoek_rapportagedatumLabonderzoek"></a><section id="detail_attribute_Model_Laboratoriumonderzoek_rapportagedatumLabonderzoek">
+            <h7>Attribuutsoort details <a href="#global_class_Model_Laboratoriumonderzoek">Laboratoriumonderzoek</a> rapportagedatum labonderzoek
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>rapportagedatum labonderzoek</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De datum waarop het complete resultaat van het labonderzoek is gerapporteerd aan de
+                        bronhouder.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>(was: datum waarop het grondwatersamenstellingsonderzoek door de bronhouder is geaccepteerd).</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Datum</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -2842,13 +2882,21 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De elektrische geleidbaarheid van het gefiltreerde danwel ongefiltreerde grondwatermonster,
-                        omgerekend naar de referentietemperatuur van 25 graden.
+                     <td>De elektrische geleidbaarheid (ook wel EGV, EC) van het gefiltreerde danwel ongefiltreerde
+                        grondwatermonster.
                      </td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>LET OP: deze waarde moet worden omgerekend naar de referentietemperatuur van 25 graden.
+                        Het resultaat hiervan, dus de omgerekende waarde, wordt aangeleverd aan de BRO. De
+                        apparatuur waarmee elektrische geleidbaarheid wordt gemeten in het veld rekent doorgaans
+                        zelf om naar de waarde bij 25 graden.
+                     </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -3059,10 +3107,6 @@
                      <td>BRO</td>
                   </tr>
                   <tr>
-                     <th>Toelichting</th>
-                     <td>TROEBHD staat voor 'troebelheid'.</td>
-                  </tr>
-                  <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Nee</td>
                   </tr>
@@ -3249,8 +3293,8 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_Model_Veldonderzoek_veldonderzoekprocedure"></a><section id="detail_attribute_Model_Veldonderzoek_veldonderzoekprocedure">
-            <h7>Attribuutsoort details <a href="#global_class_Model_Veldonderzoek">Veldonderzoek</a> veldonderzoekprocedure
+         <a class="anchor" name="detail_attribute_Model_Veldonderzoek_bemonsteringskprocedure"></a><section id="detail_attribute_Model_Veldonderzoek_bemonsteringskprocedure">
+            <h7>Attribuutsoort details <a href="#global_class_Model_Veldonderzoek">Veldonderzoek</a> bemonsteringskprocedure
             </h7>
             
             <table>
@@ -3259,11 +3303,13 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>veldonderzoekprocedure</td>
+                     <td>bemonsteringskprocedure</td>
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De procedure die aangeeft onder welke afspraken de bemonstering is uitgevoerd.</td>
+                     <td>De procedure die aangeeft onder welke afspraken de bemonstering cq het veldonderzoek
+                        is uitgevoerd.
+                     </td>
                   </tr>
                   <tr>
                      <th>Toelichting</th>
@@ -3292,7 +3338,7 @@
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>Veldonderzoekprocedure</td>
+                     <td>Bemonsteringsprocedure</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -3380,7 +3426,7 @@
                   </tr>
                   <tr>
                      <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
+                     <td>0 .. 1</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -3389,6 +3435,88 @@
                   <tr>
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Model_Veldonderzoek_rapportagedatumVeldonderzoek"></a><section id="detail_attribute_Model_Veldonderzoek_rapportagedatumVeldonderzoek">
+            <h7>Attribuutsoort details <a href="#global_class_Model_Veldonderzoek">Veldonderzoek</a> rapportagedatum veldonderzoek
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>rapportagedatum veldonderzoek</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De datum waarop het complete resultaat van het veldonderzoek is gerapporteerd aan
+                        de bronhouder.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Datum</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_association_Model_Veldonderzoek_bemonsteringsapparaat"></a><section id="detail_association_Model_Veldonderzoek_bemonsteringsapparaat">
+            <h7>Relatiesoort details <a href="#global_class_Model_Veldonderzoek">Veldonderzoek</a> bemonsterd met: bemonsteringsapparaat
+            </h7>
+            
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>bemonsterd met: bemonsteringsapparaat</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Gerelateerd obecttype</th>
+                     <td>
+                        <a class="link" href="#global_class_Model_Bemonsteringsapparaat">Bemonsteringsapparaat</a>
+                        
+                     </td>
                   </tr>
                </tbody>
             </table>
@@ -3415,34 +3543,6 @@
                      <th>Gerelateerd obecttype</th>
                      <td>
                         <a class="link" href="#global_class_Model_ResultaatVeldwaarneming">Resultaat veldwaarneming</a>
-                        
-                     </td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_association_Model_Veldonderzoek"></a><section id="detail_association_Model_Veldonderzoek">
-            <h7>Relatiesoort details <a href="#global_class_Model_Veldonderzoek">Veldonderzoek</a> leidt tot
-            </h7>
-            
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>leidt tot</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>2 .. *</td>
-                  </tr>
-                  <tr>
-                     <th>Gerelateerd obecttype</th>
-                     <td>
-                        <a class="link" href="#global_class_Model_Deelmonster">Deelmonster</a>
                         
                      </td>
                   </tr>
@@ -3486,6 +3586,45 @@
             </tbody>
          </table>
          
+         
+      </section>
+      <a class="anchor" name="detail_class_Model_Bemonsteringsprocedure"></a><section id="detail_class_Model_Bemonsteringsprocedure">
+         <h6>Codelijst details <a href="#"></a> Bemonsteringsprocedure
+         </h6>
+         
+         <table>
+            <colgroup width="40%"></colgroup>
+            <colgroup width="60%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <table>
+            <colgroup width="10%"></colgroup>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="60%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Code</th>
+                  <th>Naam</th>
+                  <th>Definitie</th>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>nen5744/A1</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>nta8017</td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
          
       </section>
       <a class="anchor" name="detail_class_Model_BijzonderhedenVeldonderzoek"></a><section id="detail_class_Model_BijzonderhedenVeldonderzoek">
@@ -3535,22 +3674,12 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>EGVInstabiel</td>
+                  <td>EGVMoeilijkTeBepalen</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>pHInstabiel</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>dalingGrondwaterstand</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>AfwijkendFilter</td>
+                  <td>DalingGrondwaterstand</td>
                   <td></td>
                </tr>
                <tr>
@@ -3575,12 +3704,17 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>TeLageTemperatuur</td>
+                  <td>TeLageOmgevingstemperatuur</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>Luchtverontreiniging</td>
+                  <td>TeLagePH</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>ContaminatieDoorVerbrandingsmotor</td>
                   <td></td>
                </tr>
                <tr>
@@ -3699,6 +3833,11 @@
                <tr>
                   <td></td>
                   <td>KRWOM</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>Monitoring verdroging</td>
                   <td></td>
                </tr>
             </tbody>
@@ -3839,8 +3978,8 @@
          </table>
          
       </section>
-      <a class="anchor" name="detail_class_Model_Veldonderzoekprocedure"></a><section id="detail_class_Model_Veldonderzoekprocedure">
-         <h6>Codelijst details <a href="#"></a> Veldonderzoekprocedure
+      <a class="anchor" name="detail_class_Model_TypePomp"></a><section id="detail_class_Model_TypePomp">
+         <h6>Codelijst details <a href="#"></a> TypePomp
          </h6>
          
          <table>
@@ -3866,12 +4005,56 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>nen5744/A1</td>
+                  <td>onderwaterpomp</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>nta8017</td>
+                  <td>slangenpomp</td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      <a class="anchor" name="detail_class_Model_TypeSlang"></a><section id="detail_class_Model_TypeSlang">
+         <h6>Codelijst details <a href="#"></a> TypeSlang
+         </h6>
+         
+         <table>
+            <colgroup width="40%"></colgroup>
+            <colgroup width="60%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <table>
+            <colgroup width="10%"></colgroup>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="60%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Code</th>
+                  <th>Naam</th>
+                  <th>Definitie</th>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>polyethyleen</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>teflon</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>polypropyleen</td>
                   <td></td>
                </tr>
             </tbody>
