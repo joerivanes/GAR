@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.42.4 - EVALUATION VERSION, PLEASE REGISTER!"
-      generator-date="2018-04-19T11:47:07Z">
+      generator-date="2018-04-19T12:53:16Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="OVERVIEW-OBJECTTYPE">
          <section name="Bemonsteringsapparaat"
@@ -758,7 +758,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                         <item type="detail"
                               idref="detail_attribute_Model_ResultaatVeldwaarneming_zuurstofgehalte">zuurstofgehalte</item>
                      </item>
-                     <item>De massaconcentratie van zuurstof in het gefiltreerde deel van het grondwatermonster.</item>
+                     <item>De massaconcentratie van zuurstof in het grondwatermonster.</item>
                      <item>
                         <item type="global" idref="global_class_Brocommon_Getalswaarde22">Getalswaarde2.2</item>
                      </item>
@@ -2909,7 +2909,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>De massaconcentratie van zuurstof in het gefiltreerde deel van het grondwatermonster.</item>
+                        <item>De massaconcentratie van zuurstof in het grondwatermonster.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
