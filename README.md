@@ -1,6 +1,8 @@
-# [Grondwatersamenstellingsonderzoek (Groundwater analysis report/GAR)](https://broprogramma.github.io/GAR)
+# Grondwatersamenstellingsonderzoek (Groundwater analysis report/GAR)
 
-Repository voor het ontwikkelen van de gegevenscatalogus GAR.
+Repository voor het ontwikkelen van de gegevenscatalogus GAR. De werkversie van deze gegevenscatalogus is hier te bekijken: 
+
+https://broprogramma.github.io/GAR
 
 ## WAARSCHUWING 
 Deze repository bevat op dit moment slechts een werkversie van de gegevenscatalogus GAR die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen consultatieversie, maar een document in wording waarvan de inhoud onvolledig is, incorrect kan zijn en op elk moment kan wijzigen. Hoofdstuk vijf is automatisch gegenereerd uit een UML model dat nog in ontwikkeling is.
