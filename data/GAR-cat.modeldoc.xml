@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.42.4 - EVALUATION VERSION, PLEASE REGISTER!"
-      generator-date="2018-04-19T13:55:40Z">
+      generator-date="2018-04-26T09:45:01Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="OVERVIEW-OBJECTTYPE">
          <section name="Bemonsteringsapparaat"
@@ -16,9 +16,17 @@
                   <item>Naam</item>
                   <item>Bemonsteringsapparaat</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
                   <item>De specificaties van het apparaat dat gebruikt is voor het bemonsteren van het grondwater.</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
                </part>
                <part type="CFG-DOC-TOELICHTING">
                   <item>Toelichting</item>
@@ -37,7 +45,7 @@
                         <item type="detail"
                               idref="detail_attribute_Model_Bemonsteringsapparaat_typeSlang">type slang</item>
                      </item>
-                     <item/>
+                     <item>Het type slang dat is gebruikt voor bemonsteren.</item>
                      <item>
                         <item type="global" idref="global_class_Model_TypeSlang">TypeSlang</item>
                      </item>
@@ -57,9 +65,20 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_Model_Bemonsteringsapparaat_typePomp">type pomp</item>
+                              idref="detail_attribute_Model_Bemonsteringsapparaat_typePompTijdensAfpompen">type pomp tijdens afpompen</item>
                      </item>
-                     <item/>
+                     <item>Het pomptype dat is gebruikt voor afpompen.</item>
+                     <item>
+                        <item type="global" idref="global_class_Model_TypePomp">TypePomp</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_Bemonsteringsapparaat_typePompTijdensBemonstering">type pomp tijdens bemonstering</item>
+                     </item>
+                     <item>Het pomptype dat is gebruikt voor bemonsteren.</item>
                      <item>
                         <item type="global" idref="global_class_Model_TypePomp">TypePomp</item>
                      </item>
@@ -654,14 +673,14 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                </content>
             </section>
          </section>
-         <section name="Resultaat veldwaarneming"
+         <section name="Resultaat veldmetingen"
                   type="OBJECTTYPE"
-                  id="global_class_Model_ResultaatVeldwaarneming"
+                  id="global_class_Model_ResultaatVeldmetingen"
                   uuid="EAID_842A7CA1_C8F1_4165_A1C4_90E8FA408109">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>Resultaat veldwaarneming</item>
+                  <item>Resultaat veldmetingen</item>
                </part>
                <part type="CFG-DOC-HERKOMST">
                   <item>Herkomst</item>
@@ -690,9 +709,9 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_Model_ResultaatVeldwaarneming_geleidbaarheid">geleidbaarheid</item>
+                              idref="detail_attribute_Model_ResultaatVeldmetingen_geleidbaarheid">geleidbaarheid</item>
                      </item>
-                     <item>De elektrische geleidbaarheid (ook wel EGV, EC) van het gefiltreerde danwel ongefiltreerde grondwatermonster.</item>
+                     <item>De elektrische geleidbaarheid (ook wel EGV, EC) van het grondwatermonster.</item>
                      <item>
                         <item type="global" idref="global_class_Brocommon_Getalswaarde3">Getalswaarde3</item>
                      </item>
@@ -701,20 +720,20 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_Model_ResultaatVeldwaarneming_bicarbonaatgehalte">bicarbonaatgehalte</item>
+                              idref="detail_attribute_Model_ResultaatVeldmetingen_bicarbonaatgehalte">bicarbonaatgehalte</item>
                      </item>
-                     <item>De massaconcentratie van bicarbonaat in het gefiltreerde deel van het grondwatermonster.</item>
+                     <item>De massaconcentratie van bicarbonaat in het grondwatermonster.</item>
                      <item>
                         <item type="global" idref="global_class_Model_Getalswaarde41">Getalswaarde4.1</item>
                      </item>
-                     <item>0 .. 1</item>
+                     <item>1</item>
                   </part>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_Model_ResultaatVeldwaarneming_zuurgraad">zuurgraad</item>
+                              idref="detail_attribute_Model_ResultaatVeldmetingen_zuurgraad">zuurgraad</item>
                      </item>
-                     <item>De zuurgraad (pH) van het gefiltreerde danwel ongefiltreerde grondwatermonster.</item>
+                     <item>De zuurgraad (pH) van het grondwatermonster.</item>
                      <item>
                         <item type="global" idref="global_class_Brocommon_Getalswaarde11">Getalswaarde1.1</item>
                      </item>
@@ -723,7 +742,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_Model_ResultaatVeldwaarneming_temperatuur">temperatuur</item>
+                              idref="detail_attribute_Model_ResultaatVeldmetingen_temperatuur">temperatuur</item>
                      </item>
                      <item>De temperatuur van het grondwatermonster.</item>
                      <item>
@@ -734,7 +753,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_Model_ResultaatVeldwaarneming_troebelheid">troebelheid</item>
+                              idref="detail_attribute_Model_ResultaatVeldmetingen_troebelheid">troebelheid</item>
                      </item>
                      <item>De mate van helderheid van het ongefiltreerde grondwatermonster.</item>
                      <item>
@@ -745,7 +764,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_Model_ResultaatVeldwaarneming_grondwaterstand">grondwaterstand</item>
+                              idref="detail_attribute_Model_ResultaatVeldmetingen_grondwaterstand">grondwaterstand</item>
                      </item>
                      <item>De stand van het grondwater in meters ten opzichte van de bovenkant van de monitoringsbuis.</item>
                      <item>
@@ -756,13 +775,13 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_Model_ResultaatVeldwaarneming_zuurstofgehalte">zuurstofgehalte</item>
+                              idref="detail_attribute_Model_ResultaatVeldmetingen_zuurstofgehalte">zuurstofgehalte</item>
                      </item>
                      <item>De massaconcentratie van zuurstof in het grondwatermonster.</item>
                      <item>
                         <item type="global" idref="global_class_Brocommon_Getalswaarde22">Getalswaarde2.2</item>
                      </item>
-                     <item>0 .. 1</item>
+                     <item>1</item>
                   </part>
                </content>
             </section>
@@ -884,7 +903,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                            <item type="detail" idref="detail_association_Model_Veldonderzoek">leidt tot</item>
                         </item>
                         <item>
-                           <item type="global" idref="global_class_Model_ResultaatVeldwaarneming">Resultaat veldwaarneming</item>
+                           <item type="global" idref="global_class_Model_ResultaatVeldmetingen">Resultaat veldmetingen</item>
                         </item>
                         <item>[ 1 ]</item>
                      </item>
@@ -918,7 +937,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                            <item type="detail" idref="detail_association_Model_Veldonderzoek">leidt tot</item>
                         </item>
                         <item>
-                           <item type="global" idref="global_class_Model_ResultaatVeldwaarneming">Resultaat veldwaarneming</item>
+                           <item type="global" idref="global_class_Model_ResultaatVeldmetingen">Resultaat veldmetingen</item>
                         </item>
                         <item>[ 1 ]</item>
                      </item>
@@ -1020,6 +1039,18 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                         <item>Naam</item>
                         <item>type slang</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Het type slang dat is gebruikt voor bemonsteren.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het is relevant voor de beoordeling van de kwaliteit van het monster om te weten welk type slang is gebruikt.</item>
+                     </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
@@ -1035,6 +1066,10 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -1055,13 +1090,21 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                         <item>Naam</item>
                         <item>slang hergebruikt</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>Indicatie of de slang nieuw is danwel een al eerder gebruikte slang.</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>In de praktijk zal een slang alleen worden hergebruikt als het geen gevolgen voor het monster heeft i.e. bij schoon grondwater. Bij monstername in het kader van milieu mag men de slang niet hergebruiken.</item>
+                        <item>In de praktijk zal een slang alleen worden hergebruikt als het geen gevolgen voor het monster heeft i.e. bij schoon grondwater. Bij monstername in het kader van milieu mag men de slang bijvoorbeeld niet hergebruiken.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1078,6 +1121,10 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -1089,14 +1136,30 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      </part>
                   </content>
                </section>
-               <section name="type pomp"
+               <section name="type pomp tijdens afpompen"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Bemonsteringsapparaat_typePomp"
-                        id-global="global_attribute_Model_Bemonsteringsapparaat_typePomp">
+                        id="detail_attribute_Model_Bemonsteringsapparaat_typePompTijdensAfpompen"
+                        id-global="global_attribute_Model_Bemonsteringsapparaat_typePompTijdensAfpompen">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>type pomp</item>
+                        <item>type pomp tijdens afpompen</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Het pomptype dat is gebruikt voor afpompen.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het is relevant voor de beoordeling van de kwaliteit van het monster om te weten welk type pomp is gebruikt. De NTA8017 schrijft dan ook voor dat het gebruikte pomptype tijdens afpompen en bemonstering (dit kan evt. verschillend zijn en dit zijn dan ook twee verschillende gegevens voor de BRO) moet worden genoteerd op het veldformulier.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1113,6 +1176,65 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>TypePomp</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="type pomp tijdens bemonstering"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Bemonsteringsapparaat_typePompTijdensBemonstering"
+                        id-global="global_attribute_Model_Bemonsteringsapparaat_typePompTijdensBemonstering">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>type pomp tijdens bemonstering</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Het pomptype dat is gebruikt voor bemonsteren.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het is relevant voor de beoordeling van de kwaliteit van het monster om te weten welk type pomp is gebruikt. De NTA8017 schrijft dan ook voor dat het gebruikte pomptype tijdens afpompen en bemonstering (dit kan evt. verschillend zijn en dit zijn dan ook twee verschillende gegevens voor de BRO) moet worden genoteerd op het veldformulier.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -1555,6 +1677,10 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>KaderAanlevering</item>
@@ -1601,6 +1727,10 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -1649,6 +1779,10 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Onderzoeksprocedure</item>
@@ -1687,6 +1821,10 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -1735,6 +1873,10 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>IndicatieJaNee</item>
@@ -1782,6 +1924,10 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>IndicatieJaNee</item>
@@ -1828,6 +1974,10 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -2608,14 +2758,14 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                   </content>
                </section>
             </section>
-            <section name="Resultaat veldwaarneming"
+            <section name="Resultaat veldmetingen"
                      type="OBJECTTYPE"
-                     id="detail_class_Model_ResultaatVeldwaarneming"
-                     id-global="global_class_Model_ResultaatVeldwaarneming">
+                     id="detail_class_Model_ResultaatVeldmetingen"
+                     id-global="global_class_Model_ResultaatVeldmetingen">
                <section name="geleidbaarheid"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_ResultaatVeldwaarneming_geleidbaarheid"
-                        id-global="global_attribute_Model_ResultaatVeldwaarneming_geleidbaarheid">
+                        id="detail_attribute_Model_ResultaatVeldmetingen_geleidbaarheid"
+                        id-global="global_attribute_Model_ResultaatVeldmetingen_geleidbaarheid">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2627,7 +2777,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>De elektrische geleidbaarheid (ook wel EGV, EC) van het gefiltreerde danwel ongefiltreerde grondwatermonster.</item>
+                        <item>De elektrische geleidbaarheid (ook wel EGV, EC) van het grondwatermonster.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -2639,7 +2789,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
                         <item>Indicatie materiële historie</item>
@@ -2652,6 +2802,10 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -2665,8 +2819,8 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                </section>
                <section name="bicarbonaatgehalte"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_ResultaatVeldwaarneming_bicarbonaatgehalte"
-                        id-global="global_attribute_Model_ResultaatVeldwaarneming_bicarbonaatgehalte">
+                        id="detail_attribute_Model_ResultaatVeldmetingen_bicarbonaatgehalte"
+                        id-global="global_attribute_Model_ResultaatVeldmetingen_bicarbonaatgehalte">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2678,7 +2832,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>De massaconcentratie van bicarbonaat in het gefiltreerde deel van het grondwatermonster.</item>
+                        <item>De massaconcentratie van bicarbonaat in het grondwatermonster.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -2686,54 +2840,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Getalswaarde4.1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="zuurgraad"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_ResultaatVeldwaarneming_zuurgraad"
-                        id-global="global_attribute_Model_ResultaatVeldwaarneming_zuurgraad">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>zuurgraad</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De zuurgraad (pH) van het gefiltreerde danwel ongefiltreerde grondwatermonster.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
                         <item>Indicatie materiële historie</item>
@@ -2747,6 +2854,61 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Getalswaarde4.1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="zuurgraad"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_ResultaatVeldmetingen_zuurgraad"
+                        id-global="global_attribute_Model_ResultaatVeldmetingen_zuurgraad">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>zuurgraad</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De zuurgraad (pH) van het grondwatermonster.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Getalswaarde1.1</item>
@@ -2759,8 +2921,8 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                </section>
                <section name="temperatuur"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_ResultaatVeldwaarneming_temperatuur"
-                        id-global="global_attribute_Model_ResultaatVeldwaarneming_temperatuur">
+                        id="detail_attribute_Model_ResultaatVeldmetingen_temperatuur"
+                        id-global="global_attribute_Model_ResultaatVeldmetingen_temperatuur">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2780,7 +2942,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
                         <item>Indicatie materiële historie</item>
@@ -2794,6 +2956,10 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Getalswaarde2.1</item>
@@ -2806,8 +2972,8 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                </section>
                <section name="troebelheid"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_ResultaatVeldwaarneming_troebelheid"
-                        id-global="global_attribute_Model_ResultaatVeldwaarneming_troebelheid">
+                        id="detail_attribute_Model_ResultaatVeldmetingen_troebelheid"
+                        id-global="global_attribute_Model_ResultaatVeldmetingen_troebelheid">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2841,6 +3007,10 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Getalswaarde3</item>
@@ -2853,8 +3023,8 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                </section>
                <section name="grondwaterstand"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_ResultaatVeldwaarneming_grondwaterstand"
-                        id-global="global_attribute_Model_ResultaatVeldwaarneming_grondwaterstand">
+                        id="detail_attribute_Model_ResultaatVeldmetingen_grondwaterstand"
+                        id-global="global_attribute_Model_ResultaatVeldmetingen_grondwaterstand">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2884,6 +3054,10 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Getalswaarde2.2</item>
@@ -2896,8 +3070,8 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                </section>
                <section name="zuurstofgehalte"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_ResultaatVeldwaarneming_zuurstofgehalte"
-                        id-global="global_attribute_Model_ResultaatVeldwaarneming_zuurstofgehalte">
+                        id="detail_attribute_Model_ResultaatVeldmetingen_zuurstofgehalte"
+                        id-global="global_attribute_Model_ResultaatVeldmetingen_zuurstofgehalte">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2917,11 +3091,11 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>Zuurstof wordt in het veld gemeten in een doorstroomcel. Soms is het niet mogelijk om een doorstroomcel te gebruiken, met name bij de aanwezigheid van drijf- en zaklagen. In dat geval wordt zuurstof niet gemeten. Zuurstof wordt ook niet in het veld gemeten bij grondwaterkwaliteitsonderzoek in het kader van het meetprogramma voor het beleidsmeetnet Verdroging. Om deze redenen is het attribuut optioneel gemaakt.</item>
+                        <item>Zuurstof wordt in het veld bijna altijd gemeten in een doorstroomcel. Soms is het niet mogelijk om een doorstroomcel te gebruiken, met name bij de aanwezigheid van drijf- en zaklagen. In dat geval wordt zuurstof niet gemeten, maar wordt er geen waarde bij het gegeven opgenomen met een reden waarom deze waarde afwezig is.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
                         <item>Indicatie materiële historie</item>
@@ -2933,7 +3107,11 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -2979,6 +3157,10 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Datum</item>
@@ -3022,6 +3204,10 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Bemonsteringsprocedure</item>
@@ -3061,6 +3247,10 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                         <item>Indicatie kardinaliteit</item>
                         <item>0 .. *</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>BijzonderhedenVeldonderzoek</item>
@@ -3099,6 +3289,10 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -3146,6 +3340,10 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -3210,7 +3408,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                         <item>Gerelateerd obecttype</item>
                         <item>
-                           <item type="global" idref="global_class_Model_ResultaatVeldwaarneming">Resultaat veldwaarneming</item>
+                           <item type="global" idref="global_class_Model_ResultaatVeldmetingen">Resultaat veldmetingen</item>
                         </item>
                      </part>
                   </content>
@@ -3226,7 +3424,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                         <item>Gerelateerd obecttype</item>
                         <item>
-                           <item type="global" idref="global_class_Model_ResultaatVeldwaarneming">Resultaat veldwaarneming</item>
+                           <item type="global" idref="global_class_Model_ResultaatVeldmetingen">Resultaat veldmetingen</item>
                         </item>
                      </part>
                   </content>
@@ -3350,12 +3548,12 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                   </part>
                   <part>
                      <item/>
-                     <item>TeLageOmgevingstemperatuur</item>
+                     <item>LageOmgevingstemperatuur</item>
                      <item/>
                   </part>
                   <part>
                      <item/>
-                     <item>TeLagePH</item>
+                     <item>LagePH</item>
                      <item/>
                   </part>
                   <part>
