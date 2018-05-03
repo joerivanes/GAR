@@ -3,8 +3,8 @@
       subpath="Domein model/Grondwatersamenstellingsonderzoek (GAR)/20180315"
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
-      generator-version="1.42.4 - EVALUATION VERSION, PLEASE REGISTER!"
-      generator-date="2018-04-26T09:52:34Z">
+      generator-version="1.43.3 - EVALUATION VERSION, PLEASE REGISTER!"
+      generator-date="2018-05-03T13:00:40Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="OVERVIEW-OBJECTTYPE">
          <section name="Bemonsteringsapparaat"
@@ -959,19 +959,19 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                <item id="global_class_Model_Analysemethode"
                      uuid="EAID_6B5F91C3_BF93_42d1_AB47_CE089D0A9CA1"
                      idref="detail_class_Model_Analysemethode">Analysemethode</item>
-               <item/>
+               <item>De methode waarmee de parameter geanalyseerd is.</item>
             </part>
             <part>
                <item id="global_class_Model_Bemonsteringsprocedure"
                      uuid="EAID_70E0DAEF_4FE0_4902_B2F1_17870B44D732"
                      idref="detail_class_Model_Bemonsteringsprocedure">Bemonsteringsprocedure</item>
-               <item/>
+               <item>Lijst van mogelijke procedures die gehanteerd worden bij de uitvoering van de bemonstering van grondwater.</item>
             </part>
             <part>
                <item id="global_class_Model_BijzonderhedenVeldonderzoek"
                      uuid="EAID_A836FA74_F811_46fe_A7D8_A7BF10DF5411"
                      idref="detail_class_Model_BijzonderhedenVeldonderzoek">BijzonderhedenVeldonderzoek</item>
-               <item/>
+               <item>Lijst van de mogelijke bijzonderheden die zich kunnen voordoen tijdens de bemonstering en die relevant kunnen zijn voor het verdere onderzoek.</item>
             </part>
             <part>
                <item id="global_class_Model_KaderAanlevering"
@@ -1001,7 +1001,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                <item id="global_class_Model_TypeGrondwater"
                      uuid="EAID_26D76F2A_F01A_46fb_A20C_F43132995E62"
                      idref="detail_class_Model_TypeGrondwater">TypeGrondwater</item>
-               <item/>
+               <item>Classificatie van het grondwater op basis van saliniteit.</item>
             </part>
             <part>
                <item id="global_class_Model_TypeMonsterfractie"
@@ -1712,6 +1712,10 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
                      </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het kader van inwinning hangt samen met het meetnet en het meetprogramma waarbinnen het grondwatersamenstellingsonderzoek is uitgevoerd.</item>
+                     </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
@@ -2014,6 +2018,18 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                         <item>Naam</item>
                         <item>bestaat uit</item>
                      </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
@@ -2051,6 +2067,18 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                         <item>Naam</item>
                         <item>bestaat uit</item>
                      </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1 .. *</item>
@@ -2087,6 +2115,18 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>heeft</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -2228,6 +2268,18 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>bestaat uit</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -2743,6 +2795,15 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                         <item>Naam</item>
                         <item>laboratoriumresultaat</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De door het laboratorium bepaalde en bronhouder gevalideerde waarde van een parameter.</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>De gemeten concentratie wordt gerapoprteerd in een bepaalde eenheid met een uniform aantal significante waarden binnen een bepaald bereik.
+NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet nog worden vastgesteld wat het juiste datatype is.</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
@@ -3141,6 +3202,10 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                         <item>Definitie</item>
                         <item>De datum waarop het veldonderzoek is uitgevoerd.</item>
                      </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Deze datum is voor gebruikers de belangrijkste datum, omdat dit de datum is waarop meetresultaten betrekking hebben. Ook voor het laboratoriumonderzoek is deze datum belangrijk omdat tussen de bemonsteringsdatum en laboratoriumanalyse slechts een beperkte periode mag liggen.</item>
+                     </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
@@ -3274,6 +3339,10 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                         <item>Definitie</item>
                         <item>Identificatie die de organisatie die verantwoordelijk is voor uitvoering van het veldonderzoek heeft in het Handelsregister.</item>
                      </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</item>
+                     </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
@@ -3380,6 +3449,18 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                         <item>Naam</item>
                         <item>bemonsterd met: bemonsteringsapparaat</item>
                      </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
@@ -3417,6 +3498,18 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                         <item>Naam</item>
                         <item>leidt tot</item>
                      </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
@@ -3451,7 +3544,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De methode waarmee de parameter geanalyseerd is.</item>
                   </part>
                </content>
                <!--removed empty content-->
@@ -3463,7 +3556,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Lijst van mogelijke procedures die gehanteerd worden bij de uitvoering van de bemonstering van grondwater.</item>
                   </part>
                </content>
                <content>
@@ -3489,7 +3582,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Lijst van de mogelijke bijzonderheden die zich kunnen voordoen tijdens de bemonstering en die relevant kunnen zijn voor het verdere onderzoek.</item>
                   </part>
                </content>
                <content>
@@ -3705,7 +3798,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Classificatie van het grondwater op basis van saliniteit.</item>
                   </part>
                </content>
                <content>
