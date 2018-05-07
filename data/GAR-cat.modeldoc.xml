@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.44.2"
-      generator-date="2018-05-07T12:49:40Z">
+      generator-date="2018-05-07T13:27:46Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -3675,7 +3675,8 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
             <section name="AfwijkingLaboratoriumprocedure"
                      type="DETAIL-CODELIST"
                      id="detail_class_Model_AfwijkingLaboratoriumprocedure"
-                     id-global="global_class_Model_AfwijkingLaboratoriumprocedure">
+                     id-global="global_class_Model_AfwijkingLaboratoriumprocedure"
+                     uuid="EAID_5F2B46A4_2D63_4758_8807_1990D86B52A9">
                <content>
                   <part>
                      <item>Definitie</item>
@@ -3687,7 +3688,8 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
             <section name="Analysemethode"
                      type="DETAIL-CODELIST"
                      id="detail_class_Model_Analysemethode"
-                     id-global="global_class_Model_Analysemethode">
+                     id-global="global_class_Model_Analysemethode"
+                     uuid="EAID_6B5F91C3_BF93_42d1_AB47_CE089D0A9CA1">
                <content>
                   <part>
                      <item>Definitie</item>
@@ -3699,7 +3701,8 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
             <section name="Bemonsteringsprocedure"
                      type="DETAIL-CODELIST"
                      id="detail_class_Model_Bemonsteringsprocedure"
-                     id-global="global_class_Model_Bemonsteringsprocedure">
+                     id-global="global_class_Model_Bemonsteringsprocedure"
+                     uuid="EAID_70E0DAEF_4FE0_4902_B2F1_17870B44D732">
                <content>
                   <part>
                      <item>Definitie</item>
@@ -3725,7 +3728,8 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
             <section name="BijzonderhedenVeldonderzoek"
                      type="DETAIL-CODELIST"
                      id="detail_class_Model_BijzonderhedenVeldonderzoek"
-                     id-global="global_class_Model_BijzonderhedenVeldonderzoek">
+                     id-global="global_class_Model_BijzonderhedenVeldonderzoek"
+                     uuid="EAID_A836FA74_F811_46fe_A7D8_A7BF10DF5411">
                <content>
                   <part>
                      <item>Definitie</item>
@@ -3811,7 +3815,8 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
             <section name="KaderAanlevering"
                      type="DETAIL-CODELIST"
                      id="detail_class_Model_KaderAanlevering"
-                     id-global="global_class_Model_KaderAanlevering">
+                     id-global="global_class_Model_KaderAanlevering"
+                     uuid="EAID_9063B4F0_3C20_4f15_83F7_899158BB7A04">
                <content>
                   <part>
                      <item>Definitie</item>
@@ -3862,7 +3867,8 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
             <section name="KaderInwinning"
                      type="DETAIL-CODELIST"
                      id="detail_class_Model_KaderInwinning"
-                     id-global="global_class_Model_KaderInwinning">
+                     id-global="global_class_Model_KaderInwinning"
+                     uuid="EAID_8FB8CA25_3693_4afd_97FD_E927245409F1">
                <content>
                   <part>
                      <item>Definitie</item>
@@ -3903,7 +3909,8 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
             <section name="LabParameter"
                      type="DETAIL-CODELIST"
                      id="detail_class_Model_LabParameter"
-                     id-global="global_class_Model_LabParameter">
+                     id-global="global_class_Model_LabParameter"
+                     uuid="EAID_97F1A772_FE0D_4360_B353_3A8A62DEDDAE">
                <content>
                   <part>
                      <item>Definitie</item>
@@ -3915,7 +3922,8 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
             <section name="Onderzoeksprocedure"
                      type="DETAIL-CODELIST"
                      id="detail_class_Model_Onderzoeksprocedure"
-                     id-global="global_class_Model_Onderzoeksprocedure">
+                     id-global="global_class_Model_Onderzoeksprocedure"
+                     uuid="EAID_87DAEC10_9C87_484f_BC99_BF11C8DE4387">
                <content>
                   <part>
                      <item>Definitie</item>
@@ -3941,7 +3949,8 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
             <section name="TypeGrondwater"
                      type="DETAIL-CODELIST"
                      id="detail_class_Model_TypeGrondwater"
-                     id-global="global_class_Model_TypeGrondwater">
+                     id-global="global_class_Model_TypeGrondwater"
+                     uuid="EAID_26D76F2A_F01A_46fb_A20C_F43132995E62">
                <content>
                   <part>
                      <item>Definitie</item>
@@ -3967,7 +3976,8 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
             <section name="TypeMonsterfractie"
                      type="DETAIL-CODELIST"
                      id="detail_class_Model_TypeMonsterfractie"
-                     id-global="global_class_Model_TypeMonsterfractie">
+                     id-global="global_class_Model_TypeMonsterfractie"
+                     uuid="EAID_59F14DE2_3A01_4755_81BD_CAE7688E38F1">
                <content>
                   <part>
                      <item>Definitie</item>
@@ -3993,7 +4003,8 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
             <section name="TypePomp"
                      type="DETAIL-CODELIST"
                      id="detail_class_Model_TypePomp"
-                     id-global="global_class_Model_TypePomp">
+                     id-global="global_class_Model_TypePomp"
+                     uuid="EAID_6D75EE04_4F2A_45c7_AAF6_281FE776BE4E">
                <content>
                   <part>
                      <item>Definitie</item>
@@ -4019,7 +4030,8 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
             <section name="TypeSlang"
                      type="DETAIL-CODELIST"
                      id="detail_class_Model_TypeSlang"
-                     id-global="global_class_Model_TypeSlang">
+                     id-global="global_class_Model_TypeSlang"
+                     uuid="EAID_1A7489B9_55B3_4f76_ACA0_7B6F5A055C03">
                <content>
                   <part>
                      <item>Definitie</item>
@@ -6299,7 +6311,8 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
             <section name="Registratiestatus"
                      type="DETAIL-CODELIST"
                      id="detail_class_Brocommon_Registratiestatus"
-                     id-global="global_class_Brocommon_Registratiestatus">
+                     id-global="global_class_Brocommon_Registratiestatus"
+                     uuid="EAID_104D1298_880E_4ae4_AB27_E1DF1AD62CDB">
                <content>
                   <part>
                      <item>Definitie</item>
@@ -6332,7 +6345,8 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
             <section name="IndicatieJaNee"
                      type="DETAIL-ENUMERATION"
                      id="detail_class_Brocommon_IndicatieJaNee"
-                     id-global="global_class_Brocommon_IndicatieJaNee">
+                     id-global="global_class_Brocommon_IndicatieJaNee"
+                     uuid="EAID_FC106C5C_E11E_4465_AD79_F855FE7A57EB">
                <content>
                   <part>
                      <item>Definitie</item>
@@ -6358,7 +6372,8 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
             <section name="IndicatieJaNeeOnbekend"
                      type="DETAIL-ENUMERATION"
                      id="detail_class_Brocommon_IndicatieJaNeeOnbekend"
-                     id-global="global_class_Brocommon_IndicatieJaNeeOnbekend">
+                     id-global="global_class_Brocommon_IndicatieJaNeeOnbekend"
+                     uuid="EAID_910E172F_EB8C_47ce_8BC2_8C3C50CD52C7">
                <content>
                   <part>
                      <item>Definitie</item>
@@ -6389,7 +6404,8 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
             <section name="Kwaliteitsregime"
                      type="DETAIL-ENUMERATION"
                      id="detail_class_Brocommon_Kwaliteitsregime"
-                     id-global="global_class_Brocommon_Kwaliteitsregime">
+                     id-global="global_class_Brocommon_Kwaliteitsregime"
+                     uuid="EAID_0F674ADC_D7F9_445a_BE42_A976FAD26804">
                <content>
                   <part>
                      <item>Definitie</item>
