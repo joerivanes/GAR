@@ -3,8 +3,8 @@
       subpath="Conceptual model/Grondwatersamenstellingsonderzoek (GAR)/20180315"
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
-      generator-version="1.44.2"
-      generator-date="2018-05-07T13:27:46Z">
+      generator-version="1.44.1"
+      generator-date="2018-05-15T08:40:07Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -433,6 +433,16 @@
                   <itemtype/>
                   <itemtype type="ROLE-NAME"/>
                   <itemtype type="ROLE-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>Grondwatersamenstellingsonderzoek</item>
+                        <item>is specialisatie van</item>
+                        <item>
+                           <item type="global" idref="global_class_Brocommon_Registratieobject">Registratieobject</item>
+                        </item>
+                     </item>
+                     <item/>
+                  </part>
                   <part>
                      <item>
                         <item>Grondwatersamenstellingsonderzoek</item>
@@ -3363,7 +3373,7 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
                      </part>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
-                        <item>De datum ligt niet na de rapportagedatum labonderzoek bij de entiteit Resultaat laboratoriumwaarneming.</item>
+                        <item>De datum ligt niet na de rapportagedatum labonderzoek bij de entiteit Laboratoriumonderzoek.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -3559,7 +3569,7 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
                      </part>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
-                        <item>De datum ligt niet na de rapportagedatum labonderzoek bij de entiteit Laboratoriumonderziek</item>
+                        <item>De datum ligt niet na de rapportagedatum labonderzoek bij de entiteit Laboratoriumonderzoek</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
