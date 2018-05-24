@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.43.3"
-      generator-date="2018-05-22T13:51:46Z">
+      generator-date="2018-05-24T07:38:02Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -1029,12 +1029,6 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      uuid="EAID_87DAEC10_9C87_484f_BC99_BF11C8DE4387"
                      idref="detail_class_Model_Onderzoeksprocedure">Onderzoeksprocedure</item>
                <item/>
-            </part>
-            <part>
-               <item id="global_class_Model_TypeGrondwater"
-                     uuid="EAID_26D76F2A_F01A_46fb_A20C_F43132995E62"
-                     idref="detail_class_Model_TypeGrondwater">TypeGrondwater</item>
-               <item>Classificatie van het grondwater op basis van saliniteit.</item>
             </part>
             <part>
                <item id="global_class_Model_TypeMonsterfractie"
@@ -3606,7 +3600,7 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
                   </part>
                   <part>
                      <item/>
-                     <item>EGVInstabiel</item>
+                     <item>EGVMoeilijkTeBepalen</item>
                      <item/>
                   </part>
                   <part>
@@ -3762,32 +3756,6 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
                   <part>
                      <item/>
                      <item>handboekPMG</item>
-                     <item/>
-                  </part>
-               </content>
-            </section>
-            <section name="TypeGrondwater"
-                     type="DETAIL-CODELIST"
-                     id="detail_class_Model_TypeGrondwater"
-                     id-global="global_class_Model_TypeGrondwater">
-               <content>
-                  <part>
-                     <item>Definitie</item>
-                     <item>Classificatie van het grondwater op basis van saliniteit.</item>
-                  </part>
-               </content>
-               <content>
-                  <itemtype type="CODE"/>
-                  <itemtype type="NAME"/>
-                  <itemtype type="DEFINITION"/>
-                  <part>
-                     <item/>
-                     <item>zoet</item>
-                     <item/>
-                  </part>
-                  <part>
-                     <item/>
-                     <item>zout</item>
                      <item/>
                   </part>
                </content>
