@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "Grondwatersamenstellingsonderzoek (GAR)" door 1.43.3 op May 24, 2018 at 07:38:02.
+   "Grondwatersamenstellingsonderzoek (GAR)" door 1.43.3 op May 31, 2018 at 13:56:16.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i>arjan@linkedmatter.com</i> en geef de code 
-   <i>"Conceptualmodel-GrondwatersamenstellingsonderzoekGAR-0.1-0-20180315-20180524-093804"</i> door. 
+   <i>"Conceptualmodel-GrondwatersamenstellingsonderzoekGAR-0.1-0-20180315-20180531-155617"</i> door. 
    Voor inhoudelijke fouten neem contact op met het modellenteam: <i>github@basisregistratieondergrond.nl</i>.
    
 </p><a class="anchor" name="global_package_Model"></a><section id="global_package_Model">
@@ -16,7 +16,7 @@
          <area shape="rect" coords="948,622,1278,455" alt="" href="#graph_EAID_851C4E53_F320_4841_A53D_B3FB8D74D572">
          <area shape="rect" coords="559,839,922,655" alt="" href="#graph_EAID_0ADEB093_BDEB_47f4_B5B0_8E0E0A003E0D">
          <area shape="rect" coords="559,544,823,455" alt="" href="#graph_EAID_438F8C26_FF54_4aff_AD7F_C6521BD69D2D">
-         <area shape="rect" coords="272,808,503,654" alt="" href="#graph_EAID_842A7CA1_C8F1_4165_A1C4_90E8FA408109">
+         <area shape="rect" coords="272,821,503,654" alt="" href="#graph_EAID_842A7CA1_C8F1_4165_A1C4_90E8FA408109">
          <area shape="rect" coords="109,583,450,455" alt="" href="#graph_EAID_2F5089D1_4361_456b_8D24_ED2114330AAD">
          <area shape="rect" coords="559,391,823,208" alt="" href="#graph_EAID_BAB5C8A8_2997_4fbe_BE80_A531990FF2FE"></map><p><b>Domeinmodel BRO GAR - overzicht</b></p>
    </div>
@@ -48,13 +48,6 @@
                <tr>
                   <th>Herkomst definitie</th>
                   <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Toelichting</th>
-                  <td>Met doel wordt bedoeld de onderzoeksvraag die is geformuleerd op basis van een hoger
-                     doel, om te komen tot het bepalen van een specifiek set parameters op basis van inhoudelijke
-                     of project gerichte criteria. Dit hogere doel ligt vast bij het grondwatermonitoringnet.
-                  </td>
                </tr>
             </tbody>
          </table>
@@ -127,10 +120,12 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_Model_1Grondwatersamenstellingsonderzoek_geneesmiddelenOnderzocht">geneesmiddelen onderzocht</a>
+                     <a class="link" href="#detail_attribute_Model_1Grondwatersamenstellingsonderzoek_farmaceutischeStoffenOnderzocht">farmaceutische stoffen onderzocht</a>
                      
                   </td>
-                  <td>Aanduiding die aangeeft of in het onderzoek geneesmiddelen zijn onderzocht.</td>
+                  <td>Aanduiding die aangeeft of in het onderzoek farmaceutische stoffen, zoals geneesmiddelen,
+                     zijn onderzocht.
+                  </td>
                   <td>
                      <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
                      
@@ -294,20 +289,6 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_Model_2Veldonderzoek_bijzonderheidVeldonderzoek">bijzonderheid veldonderzoek</a>
-                     
-                  </td>
-                  <td>De in het veld geconstateerde bijzonderheden voor zover die relevant zijn voor het
-                     beoordelen van de resultaten van het onderzoek.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_Model_BijzonderhedenVeldonderzoek">BijzonderhedenVeldonderzoek</a>
-                     
-                  </td>
-                  <td>0 .. *</td>
-               </tr>
-               <tr>
-                  <td>
                      <a class="link" href="#detail_attribute_Model_2Veldonderzoek_uitvoerder">uitvoerder</a>
                      
                   </td>
@@ -322,10 +303,24 @@
                </tr>
                <tr>
                   <td>
+                     <a class="link" href="#detail_attribute_Model_2Veldonderzoek_bijzonderheidVeldonderzoek">bijzonderheid veldonderzoek</a>
+                     
+                  </td>
+                  <td>Een in het veld geconstateerde bijzonderheid die relevant is voor het beoordelen van
+                     de resultaten van het onderzoek.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_Model_BijzonderhedenVeldonderzoek">BijzonderhedenVeldonderzoek</a>
+                     
+                  </td>
+                  <td>0 .. *</td>
+               </tr>
+               <tr>
+                  <td>
                      <a class="link" href="#detail_attribute_Model_2Veldonderzoek_rapportagedatumVeldonderzoek">rapportagedatum veldonderzoek</a>
                      
                   </td>
-                  <td>De datum waarop het resultaat van het veldonderzoek aan de bronhouder is gerapporteerd.</td>
+                  <td>De datum waarop het resultaat van het veldonderzoek aan de opdrachtgever is gerapporteerd.</td>
                   <td>
                      <a class="link" href="#global_class_Brocommon_Datum">Datum</a>
                      
@@ -553,7 +548,7 @@
                      <a class="link" href="#global_class_Model_Getalswaarde21">Getalswaarde2.1</a>
                      
                   </td>
-                  <td>1</td>
+                  <td>0 .. 1</td>
                </tr>
                <tr>
                   <td>
@@ -590,6 +585,18 @@
                      
                   </td>
                   <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Model_4ResultaatVeldmetingen_temperatuurInSitu">temperatuur in situ</a>
+                     
+                  </td>
+                  <td>De in situ gemeten temperatuur van het grondwater.</td>
+                  <td>
+                     <a class="link" href="#global_class_Model_Getalswaarde21">Getalswaarde2.1</a>
+                     
+                  </td>
+                  <td>0 .. 1</td>
                </tr>
             </tbody>
          </table>
@@ -1353,8 +1360,8 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_Model_1Grondwatersamenstellingsonderzoek_geneesmiddelenOnderzocht"></a><section id="detail_attribute_Model_1Grondwatersamenstellingsonderzoek_geneesmiddelenOnderzocht">
-            <h7>Attribuutsoort details <a href="#global_class_Model_1Grondwatersamenstellingsonderzoek">1-Grondwatersamenstellingsonderzoek</a> geneesmiddelen onderzocht
+         <a class="anchor" name="detail_attribute_Model_1Grondwatersamenstellingsonderzoek_farmaceutischeStoffenOnderzocht"></a><section id="detail_attribute_Model_1Grondwatersamenstellingsonderzoek_farmaceutischeStoffenOnderzocht">
+            <h7>Attribuutsoort details <a href="#global_class_Model_1Grondwatersamenstellingsonderzoek">1-Grondwatersamenstellingsonderzoek</a> farmaceutische stoffen onderzocht
             </h7>
             
             <table>
@@ -1363,7 +1370,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>geneesmiddelen onderzocht</td>
+                     <td>farmaceutische stoffen onderzocht</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -1371,7 +1378,9 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>Aanduiding die aangeeft of in het onderzoek geneesmiddelen zijn onderzocht.</td>
+                     <td>Aanduiding die aangeeft of in het onderzoek farmaceutische stoffen, zoals geneesmiddelen,
+                        zijn onderzocht.
+                     </td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -1692,56 +1701,6 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_Model_2Veldonderzoek_bijzonderheidVeldonderzoek"></a><section id="detail_attribute_Model_2Veldonderzoek_bijzonderheidVeldonderzoek">
-            <h7>Attribuutsoort details <a href="#global_class_Model_2Veldonderzoek">2-Veldonderzoek</a> bijzonderheid veldonderzoek
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>bijzonderheid veldonderzoek</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De in het veld geconstateerde bijzonderheden voor zover die relevant zijn voor het
-                        beoordelen van de resultaten van het onderzoek.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. *</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Ja</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>BijzonderhedenVeldonderzoek</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
          <a class="anchor" name="detail_attribute_Model_2Veldonderzoek_uitvoerder"></a><section id="detail_attribute_Model_2Veldonderzoek_uitvoerder">
             <h7>Attribuutsoort details <a href="#global_class_Model_2Veldonderzoek">2-Veldonderzoek</a> uitvoerder
             </h7>
@@ -1786,13 +1745,77 @@
                   </tr>
                   <tr>
                      <th>Regels</th>
-                     <td>De onderneming moet binnen de basisregistratie ondergrond bekend zijn als bemonsteraar
-                        van grondwater.
+                     <td>De onderneming moet binnen de basisregistratie ondergrond bekend zijn als uitvoerder
+                        van grondwateronderzoek.
                      </td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
                      <td>KvK-nummer</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Model_2Veldonderzoek_bijzonderheidVeldonderzoek"></a><section id="detail_attribute_Model_2Veldonderzoek_bijzonderheidVeldonderzoek">
+            <h7>Attribuutsoort details <a href="#global_class_Model_2Veldonderzoek">2-Veldonderzoek</a> bijzonderheid veldonderzoek
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>bijzonderheid veldonderzoek</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>Een in het veld geconstateerde bijzonderheid die relevant is voor het beoordelen van
+                        de resultaten van het onderzoek.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Wanneer er relevante bijzonderheden zijn opgetreden is het gegeven eenmaal per bijzonderheid
+                        aanwezig; in het andere geval ontbreekt het.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. *</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>BijzonderhedenVeldonderzoek</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -1820,7 +1843,7 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De datum waarop het resultaat van het veldonderzoek aan de bronhouder is gerapporteerd.</td>
+                     <td>De datum waarop het resultaat van het veldonderzoek aan de opdrachtgever is gerapporteerd.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -2153,16 +2176,6 @@
                      <td>BRO</td>
                   </tr>
                   <tr>
-                     <th>Toelichting</th>
-                     <td>De apparatuur waarmee elektrische geleidbaarheid wordt gemeten in het veld rekent
-                        doorgaans zelf om naar de waarde bij 25 graden.
-                        LET OP: In het veld wordt meestal de eenheid µs/cm gebruikt, maar bij een hoge waarde
-                        schakelt de apparatuur mogelijk automatisch naar een andere eenheid (van µs/cm naar
-                        mS/cm bijv). Deze waarde moet dan omgerekend worden naar µs/cm voor aanlevering aan
-                        de BRO.
-                     </td>
-                  </tr>
-                  <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Ja</td>
                   </tr>
@@ -2184,13 +2197,13 @@
                   </tr>
                   <tr>
                      <th>Regels</th>
-                     <td>Door een probleem met de meetapparatuur kan het voorkomen dat het elektrisch geleidingsvermogen
-                        niet bepaald is. Alleen in dat geval heeft het attribuut geen waarde.
+                     <td>Door een probleem met de meetapparatuur kan het voorkomen dat het elektrisch geleidingsvermogen]niet
+                        bepaald is. Alleen in dat geval heeft het attribuut geen waarde.
                      </td>
                   </tr>
                   <tr>
                      <th>Patroon</th>
-                     <td>Getal tussen 0 en 65.000 in µs/cm</td>
+                     <td>Getal tussen 0 en 65.000 in µS/cm</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -2227,6 +2240,12 @@
                   <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Door uiteenlopende oorzaken kan het voorkomen dat het bicarbonaatgehalte niet bepaald
+                        is. Alleen in dat geval heeft het attribuut geen waarde.
+                     </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -2322,7 +2341,7 @@
                   </tr>
                   <tr>
                      <th>Patroon</th>
-                     <td>Getal tussen 3,3 en 10</td>
+                     <td>Getal tussen 3 en 10</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -2362,7 +2381,7 @@
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
-                     <td>Ja</td>
+                     <td>Nee</td>
                   </tr>
                   <tr>
                      <th>Indicatie materiële historie</th>
@@ -2374,15 +2393,22 @@
                   </tr>
                   <tr>
                      <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
+                     <td>0 .. 1</td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
                      <td>Ja</td>
                   </tr>
                   <tr>
+                     <th>Regels</th>
+                     <td>Wanneer  het attribuut kader inwinning van de entiteit Grondwatersamenstellingsonderzoek
+                        de waarde Monitoring verdroging heeft, ontbreekt het gegeven. Verder is het gegeven
+                        alleen aanwezig als het gegeven temperatuur in situ ontbreekt.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Patroon</th>
-                     <td>Getal tussen 4 en 99,9 in graden Celsius</td>
+                     <td>Getal tussen 4 en 30  in graden Celsius</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -2415,7 +2441,7 @@
                   <tr>
                      <th>Toelichting</th>
                      <td>De grondwaterstand ten opzichte van bovenkant buis wordt gezien als 'diepte': hoe
-                        dieper de grondwaterstand des te hoger de waarde. Dit gegeven is optioneel, omdat
+                        dieper de grondwaterstand des te hoger de waarde. Dit gegeven kan ontbreken, omdat
                         er niet altijd sprake is van een monitoringbuis. De grondwaterstand in meters ten
                         opzichte van NAP kan omgerekend worden aan de hand van gegevens van de grondwatermonitoringsput.
                      </td>
@@ -2439,6 +2465,13 @@
                   <tr>
                      <th>Indicatie authentiek</th>
                      <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>Wanneer het rmeetpunt waaraan de entiteit Grondwatersamenstellingsonderzoek is gekoppeld,
+                        een filter in een monitoringsbuis is, is het gegeven aanwezig; in het andere geval
+                        ontbreekt het. 
+                     </td>
                   </tr>
                   <tr>
                      <th>Patroon</th>
@@ -2547,9 +2580,9 @@
                   <tr>
                      <th>Toelichting</th>
                      <td>Zuurstof wordt in het veld bijna altijd gemeten in een doorstroomcel. Soms is het
-                        niet mogelijk om een doorstroomcel te gebruiken, met name bij de aanwezigheid van
-                        drijf- en zaklagen. In dat geval wordt zuurstof niet gemeten, en wordt er geen waarde
-                        bij het gegeven opgenomen met een reden waarom deze waarde afwezig is.
+                        niet mogelijk om een doorstroomcel te gebruiken. In dat geval wordt zuurstof niet
+                        gemeten, en wordt er geen waarde bij het gegeven opgenomen met een reden waarom deze
+                        waarde afwezig is.
                      </td>
                   </tr>
                   <tr>
@@ -2574,8 +2607,8 @@
                   </tr>
                   <tr>
                      <th>Regels</th>
-                     <td>Door een probleem met de meetapparatuur kan het voorkomen dat het zuurstofgehalte
-                        niet bepaald is. Alleen in dat geval heeft het attribuut geen waarde.
+                     <td>Wanneer  het attribuut kader inwinning van de entiteit Grondwatersamenstellingsonderzoek
+                        de waarde Monitoring verdroging heeft, ontbreekt het gegeven.
                      </td>
                   </tr>
                   <tr>
@@ -2585,6 +2618,73 @@
                   <tr>
                      <th>Formaat</th>
                      <td>Getalswaarde2.2</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Model_4ResultaatVeldmetingen_temperatuurInSitu"></a><section id="detail_attribute_Model_4ResultaatVeldmetingen_temperatuurInSitu">
+            <h7>Attribuutsoort details <a href="#global_class_Model_4ResultaatVeldmetingen">4-Resultaat veldmetingen</a> temperatuur in situ
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>temperatuur in situ</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De in situ gemeten temperatuur van het grondwater.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>Wanneer  het attribuut kader inwinning van de entiteit Grondwatersamenstellingsonderzoek
+                        de waarde Monitoring verdroging heeft, ontbreekt het gegeven. Verder is het gegeven
+                        alleen aanwezig als het gegeven temperatuur ontbreekt.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Patroon</th>
+                     <td>Getal tussen 4 en 30 in graden Celsius</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Getalswaarde2.1</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -4329,7 +4429,7 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_Brocommon_1Registratieobject_aanleverendeInstantie">aanleverendeInstantie</a>
+                     <a class="link" href="#detail_attribute_Brocommon_1Registratieobject_dataleverancier">dataleverancier</a>
                      
                   </td>
                   <td>De identificatie die de organisatie die het object aan de basisregistratie ondergrond
@@ -4348,31 +4448,7 @@
                   </td>
                   <td>De aanduiding van de kwaliteitseis waaraan de gegevens van het object voldoen.</td>
                   <td>
-                     <a class="link" href="#global_class_Brocommon_IndicatieJaNeeOnbekend">IndicatieJaNeeOnbekend</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Brocommon_1Registratieobject_nieuw1">nieuw1</a>
-                     
-                  </td>
-                  <td></td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_Aantal1">Aantal1</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Brocommon_1Registratieobject_nieuw2">nieuw2</a>
-                     
-                  </td>
-                  <td></td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_Aantal2">Aantal2</a>
+                     <a class="link" href="#global_class_Brocommon_Kwaliteitsregime">Kwaliteitsregime</a>
                      
                   </td>
                   <td>1</td>
@@ -4460,7 +4536,7 @@
                      
                   </td>
                   <td>De datum en het tijdstip waarop alle gegevens van het object in de registratie ondergrond
-                     zijn opgenomen en er geen nieuwe gegevens meer ter registratie kunnen worden aangeboden.
+                     zijn opgenomen.
                   </td>
                   <td>
                      <a class="link" href="#global_class_Brocommon_DatumTijd">DatumTijd</a>
@@ -4487,7 +4563,7 @@
                      <a class="link" href="#detail_attribute_Brocommon_2Registratiegeschiedenis_tijdstipLaatsteCorrectie">tijdstip laatste correctie</a>
                      
                   </td>
-                  <td>De datum en het tijdstip waarop de laatste correctie in de gegevens van het object
+                  <td>De datum en het tijdstip waarop de laatste verbetering in de gegevens van het object
                      is doorgevoerd.
                   </td>
                   <td>
@@ -4526,20 +4602,6 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_Brocommon_2Registratiegeschiedenis_uitRegistratieGenomen">uit registratie genomen</a>
-                     
-                  </td>
-                  <td>De aanduiding die aangeeft of de gegevens van het object door de registerbeheerder
-                     uit de registratie ondergrond zijn verwijderd.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
                      <a class="link" href="#detail_attribute_Brocommon_2Registratiegeschiedenis_tijdstipUitRegistratieGenomen">tijdstip uit registratie genomen</a>
                      
                   </td>
@@ -4555,7 +4617,7 @@
                      <a class="link" href="#detail_attribute_Brocommon_2Registratiegeschiedenis_weerInRegistratieGenomen">weer in registratie genomen</a>
                      
                   </td>
-                  <td>De datum en het tijdstip waarop het object in de registratie ondergrond is opgenomen,
+                  <td>De aanduiding die aangeeft of het object in de registratie ondergrond is opgenomen,
                      nadat het eerder uit registratie was genomen.
                   </td>
                   <td>
@@ -4577,6 +4639,20 @@
                      
                   </td>
                   <td>0 .. 1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Brocommon_2Registratiegeschiedenis_uitRegistratieGenomen">uit registratie genomen</a>
+                     
+                  </td>
+                  <td>De aanduiding die aangeeft of de gegevens van het object door de registerbeheerder
+                     uit registratie zijn genomen.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
+                     
+                  </td>
+                  <td>1</td>
                </tr>
             </tbody>
          </table>
@@ -4952,7 +5028,7 @@
                      </td>
                      <td></td>
                      <td>
-                        Integer
+                        <a class="link" href="#global_class_Brocommon_Decimal">Decimal</a>
                         
                      </td>
                      <td>1</td>
@@ -5011,7 +5087,7 @@
                      </td>
                      <td></td>
                      <td>
-                        Integer
+                        <a class="link" href="#global_class_Brocommon_Decimal">Decimal</a>
                         
                      </td>
                      <td>1</td>
@@ -5129,7 +5205,7 @@
                      </td>
                      <td></td>
                      <td>
-                        Integer
+                        <a class="link" href="#global_class_Brocommon_Decimal">Decimal</a>
                         
                      </td>
                      <td>1</td>
@@ -5688,8 +5764,8 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_Brocommon_1Registratieobject_aanleverendeInstantie"></a><section id="detail_attribute_Brocommon_1Registratieobject_aanleverendeInstantie">
-            <h7>Attribuutsoort details <a href="#global_class_Brocommon_1Registratieobject">1-Registratieobject</a> aanleverendeInstantie
+         <a class="anchor" name="detail_attribute_Brocommon_1Registratieobject_dataleverancier"></a><section id="detail_attribute_Brocommon_1Registratieobject_dataleverancier">
+            <h7>Attribuutsoort details <a href="#global_class_Brocommon_1Registratieobject">1-Registratieobject</a> dataleverancier
             </h7>
             
             <table>
@@ -5698,7 +5774,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>aanleverendeInstantie</td>
+                     <td>dataleverancier</td>
                   </tr>
                   <tr>
                      <th>Definitie</th>
@@ -5768,87 +5844,7 @@
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>IndicatieJaNeeOnbekend</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Brocommon_1Registratieobject_nieuw1"></a><section id="detail_attribute_Brocommon_1Registratieobject_nieuw1">
-            <h7>Attribuutsoort details <a href="#global_class_Brocommon_1Registratieobject">1-Registratieobject</a> nieuw1
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>nieuw1</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Aantal1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Brocommon_1Registratieobject_nieuw2"></a><section id="detail_attribute_Brocommon_1Registratieobject_nieuw2">
-            <h7>Attribuutsoort details <a href="#global_class_Brocommon_1Registratieobject">1-Registratieobject</a> nieuw2
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>nieuw2</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Aantal2</td>
+                     <td>Kwaliteitsregime</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -6013,7 +6009,14 @@
                   <tr>
                      <th>Definitie</th>
                      <td>De datum en het tijdstip waarop alle gegevens van het object in de registratie ondergrond
-                        zijn opgenomen en er geen nieuwe gegevens meer ter registratie kunnen worden aangeboden.
+                        zijn opgenomen.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Het gegeven is alleen aanwezig als alle aan te leveren gegevens zijn geregistreerd.
+                        Na dit tijdstip kunnen geen nieuwe gegevens meer ter registratie worden aangeboden.
+                        Wel kunnen fouten in de registratie worden verbeterd.
                      </td>
                   </tr>
                   <tr>
@@ -6104,7 +6107,7 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De datum en het tijdstip waarop de laatste correctie in de gegevens van het object
+                     <td>De datum en het tijdstip waarop de laatste verbetering in de gegevens van het object
                         is doorgevoerd.
                      </td>
                   </tr>
@@ -6228,52 +6231,6 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_Brocommon_2Registratiegeschiedenis_uitRegistratieGenomen"></a><section id="detail_attribute_Brocommon_2Registratiegeschiedenis_uitRegistratieGenomen">
-            <h7>Attribuutsoort details <a href="#global_class_Brocommon_2Registratiegeschiedenis">2-Registratiegeschiedenis</a> uit registratie genomen
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>uit registratie genomen</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De aanduiding die aangeeft of de gegevens van het object door de registerbeheerder
-                        uit de registratie ondergrond zijn verwijderd.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>IndicatieJaNee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
          <a class="anchor" name="detail_attribute_Brocommon_2Registratiegeschiedenis_tijdstipUitRegistratieGenomen"></a><section id="detail_attribute_Brocommon_2Registratiegeschiedenis_tijdstipUitRegistratieGenomen">
             <h7>Attribuutsoort details <a href="#global_class_Brocommon_2Registratiegeschiedenis">2-Registratiegeschiedenis</a> tijdstip uit registratie genomen
             </h7>
@@ -6332,7 +6289,7 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De datum en het tijdstip waarop het object in de registratie ondergrond is opgenomen,
+                     <td>De aanduiding die aangeeft of het object in de registratie ondergrond is opgenomen,
                         nadat het eerder uit registratie was genomen.
                      </td>
                   </tr>
@@ -6401,6 +6358,74 @@
                   <tr>
                      <th>Formaat</th>
                      <td>DatumTijd</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Brocommon_2Registratiegeschiedenis_uitRegistratieGenomen"></a><section id="detail_attribute_Brocommon_2Registratiegeschiedenis_uitRegistratieGenomen">
+            <h7>Attribuutsoort details <a href="#global_class_Brocommon_2Registratiegeschiedenis">2-Registratiegeschiedenis</a> uit registratie genomen
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>uit registratie genomen</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De aanduiding die aangeeft of de gegevens van het object door de registerbeheerder
+                        uit registratie zijn genomen.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Wanneer de registerbeheerder een object uit registratie heeft genomen, zijn de gegevens
+                        niet langer beschikbaar voor andere afnemers dan bronhouder en dataleverancier. De
+                        registerbeheerder zal een object alleen bij hoge uitzondering uit registratie nemen
+                        en alleen na akkoord van de bronhouder. Aan de beslissing gaat een proces van zorgvuldige
+                        afweging vooraf en dat komt tot uitdrukking in de regel dat een object slechts een
+                        keer uit registratie kan worden genomen.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>IndicatieJaNee</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -6650,7 +6675,7 @@
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>Integer</td>
+                     <td>Decimal</td>
                   </tr>
                </tbody>
             </table>
@@ -6702,7 +6727,7 @@
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>Integer</td>
+                     <td>Decimal</td>
                   </tr>
                </tbody>
             </table>
@@ -6806,7 +6831,7 @@
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>Integer</td>
+                     <td>Decimal</td>
                   </tr>
                </tbody>
             </table>
