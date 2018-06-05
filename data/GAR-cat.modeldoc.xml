@@ -3,8 +3,8 @@
       subpath="Conceptual model/Grondwatersamenstellingsonderzoek (GAR)/20180315"
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
-      generator-version="1.45.0"
-      generator-date="2018-05-31T13:59:25Z">
+      generator-version="1.45.1"
+      generator-date="2018-06-05T17:58:37Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -93,7 +93,7 @@
                         <item type="detail"
                               idref="detail_attribute_Model_1Grondwatersamenstellingsonderzoek_onderzoeksprocedure">onderzoeksprocedure</item>
                      </item>
-                     <item>De procedure die omschrijft onder welke afspraken het grondwaterstamenstellingsonderzoek is uitgevoerd.</item>
+                     <item>De procedure die omschrijft onder welke afspraken het grondwatersamenstellingsonderzoek is uitgevoerd.</item>
                      <item>
                         <item type="global" idref="global_class_Model_Onderzoeksprocedure">Onderzoeksprocedure</item>
                      </item>
@@ -1241,7 +1241,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>De procedure die omschrijft onder welke afspraken het grondwaterstamenstellingsonderzoek is uitgevoerd.</item>
+                        <item>De procedure die omschrijft onder welke afspraken het grondwatersamenstellingsonderzoek is uitgevoerd.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -2147,7 +2147,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      </part>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
-                        <item>Door een probleem met de meetapparatuur kan het voorkomen dat het elektrisch geleidingsvermogen]niet bepaald is. Alleen in dat geval heeft het attribuut geen waarde.</item>
+                        <item>Door een probleem met de meetapparatuur kan het voorkomen dat het elektrisch geleidingsvermogen niet bepaald is. Alleen in dat geval heeft het attribuut geen waarde.</item>
                      </part>
                      <part type="CFG-DOC-PATROON">
                         <item>Patroon</item>
@@ -2328,7 +2328,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      </part>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
-                        <item>Wanneer  het attribuut kader inwinning van de entiteit Grondwatersamenstellingsonderzoek de waarde Monitoring verdroging heeft, ontbreekt het gegeven. Verder is het gegeven alleen aanwezig als het gegeven temperatuur in situ ontbreekt.</item>
+                        <item>Wanneer het attribuut kader inwinning van de entiteit Grondwatersamenstellingsonderzoek de waarde Monitoring verdroging heeft, ontbreekt het gegeven. Verder is het gegeven alleen aanwezig als het gegeven temperatuur in situ ontbreekt.</item>
                      </part>
                      <part type="CFG-DOC-PATROON">
                         <item>Patroon</item>
@@ -2444,6 +2444,10 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                         <item>Indicatie authentiek</item>
                         <item>Ja</item>
                      </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Door een probleem met de meetapparatuur kan het voorkomen dat de troebelheid niet bepaald is. Alleen in dat geval heeft het attribuut geen waarde.</item>
+                     </part>
                      <part type="CFG-DOC-PATROON">
                         <item>Patroon</item>
                         <item>Getal tussen 0 en 50 in NTU</item>
@@ -2481,7 +2485,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>Zuurstof wordt in het veld bijna altijd gemeten in een doorstroomcel. Soms is het niet mogelijk om een doorstroomcel te gebruiken. In dat geval wordt zuurstof niet gemeten, en wordt er geen waarde bij het gegeven opgenomen met een reden waarom deze waarde afwezig is.</item>
+                        <item>Door een probleem met de meetapparatuur kan het voorkomen dat het zuurstofgehalte niet bepaald is. In dat geval heeft het attribuut geen waarde</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -2505,7 +2509,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      </part>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
-                        <item>Wanneer  het attribuut kader inwinning van de entiteit Grondwatersamenstellingsonderzoek de waarde Monitoring verdroging heeft, ontbreekt het gegeven.</item>
+                        <item>Wanneer het attribuut kader inwinning van de entiteit Grondwatersamenstellingsonderzoek de waarde Monitoring verdroging heeft, ontbreekt het gegeven.</item>
                      </part>
                      <part type="CFG-DOC-PATROON">
                         <item>Patroon</item>
@@ -2564,7 +2568,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      </part>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
-                        <item>Wanneer  het attribuut kader inwinning van de entiteit Grondwatersamenstellingsonderzoek de waarde Monitoring verdroging heeft, ontbreekt het gegeven. Verder is het gegeven alleen aanwezig als het gegeven temperatuur ontbreekt.</item>
+                        <item>Wanneer het attribuut kader inwinning van de entiteit Grondwatersamenstellingsonderzoek de waarde Monitoring verdroging heeft, ontbreekt het gegeven. Verder is het gegeven alleen aanwezig als het gegeven temperatuur ontbreekt.</item>
                      </part>
                      <part type="CFG-DOC-PATROON">
                         <item>Patroon</item>
