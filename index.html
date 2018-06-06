@@ -49,9 +49,6 @@
     <section id="intro-GAR">
       <h3>Het onderzoek</h3>
       <p>Een <em>grondwatersamenstellingsonderzoek</em> is een activiteit gericht op het onderzoeken van de samenstelling / kwaliteit van een grondwatermonster uit een bepaald meetpunt, op basis van een opdracht door een bronhouder, waarbij een deel van het onderzoek in het veld wordt verricht, en het overige deel in één of meerdere laboratoria.</p>
-      <div class="issue" data-number="8">
-        <p>Er is een relatie tussen het grondwatersamenstellingsonderzoek en een meetpunt (de abstractie van de grondwaterput of bron waar het onderzoek is gedaan) in een grondwatermonitoringsnet. Hoe deze relatie precies wordt gemodelleerd en gerealiseerd moet nog worden afgestemd. </p>
-      </div>
       <p>Zo’n onderzoek gaat als volgt te werk: </p>
       <ol>
         <li>Bij een grondwatermonitoringput of een natuurlijke bron, die geabstraheerd is als een meetpunt in een grondwatermonitoringnet, wordt water afgenomen door het op te pompen. </li>
@@ -67,11 +64,15 @@
       </div>
       <p>Informatie over <em>grondwatermonitoringput</em> is als apart BRO registratieobject gedefinieerd en is beschreven in de <a href="https://bro.pleio.nl/file/view/55288182/catalogus-grondwatermonitoringput">Catalogus Grondwatermonitoringput</a>.</p>
       <p>Informatie over het <em>grondwatermonitoringnet</em> waarin putten en bronnen als abstract meetpunt zijn opgenomen, is ook een apart registratieobject dat op dit moment wordt gedefinieerd. Hiervoor is nog geen catalogus beschikbaar.</p>
+      <div class="issue" data-number="8">
+        <p>Er is een relatie tussen het grondwatersamenstellingsonderzoek en een meetpunt (de abstractie van de grondwaterput of bron waar het onderzoek is gedaan) in een grondwatermonitoringsnet. Hoe deze relatie precies wordt gemodelleerd en gerealiseerd moet nog worden afgestemd. </p>
+      </div>
       <p>Elk grondwatersamenstellingsonderzoek wordt uitgevoerd met een bepaald doel. Het <em>kader aanlevering</em> is het juridische of bestuurlijk kader van waaruit het onderzoek is gedaan en is aangeleverd aan de BRO; het <em>kader inwinning</em> is het doel waarvoor het onderzoek uitgevoerd is binnen het gestelde kader. Het onderzoek wordt, volgens afspraak tussen opdrachtgever (de <em>bronhouder</em> die in de BRO voor elk registratieobject wordt vastgelegd) en opdrachtnemer(s), uitgevoerd conform bepaalde specificaties. Deze <em>onderzoeksprocedure</em> is het document dat omschrijft volgens welke afspraken, specificaties en/of criteria het onderzoek is uitgevoerd. Tenslotte worden de indicaties <em>bestrijdingsmiddelen onderzocht</em> en <em>farmaceutische stoffen onderzocht</em> vastgelegd die aangeven of deze onderzoeken zijn uitgevoerd. Deze indicaties zijn opgenomen omdat ze een globale karakterisering van de inhoud van het onderzoek geven en gebruikerswaarde hebben bij uitgifte.</p>
     </section>
     <section id="intro-veldonderzoek">
       <h3>Monstername en veldonderzoek</h3>
-      <p>Monstername is het proces dat loopt vanaf het oppompen van grondwater tot aanlevering van de labmonsters aan het laboratorium. Het nemen van monsters gebeurt op een bepaalde datum die wordt vastgelegd in de BRO, de <em>datum veldonderzoek</em>, en volgens een bepaalde <em>bemonsteringsprocedure</em> waarin de eisen en voorgeschreven werkwijze ten aanzien van bemonstering zijn vastgelegd. Ook deze gehanteerde norm plus eventuele <em>bijzonderheden veldonderzoek</em> en gegevens over het gebruikte materiaal, samengevat in de entiteit <em>Bemonsteringsapparaat</em>, worden in de BRO vastgelegd. </p>
+      <p>Monstername is het proces dat loopt vanaf het oppompen van grondwater tot aanlevering van de labmonsters aan het laboratorium. Het nemen van monsters gebeurt op een bepaalde datum die wordt vastgelegd in de BRO, de <em>datum veldonderzoek</em>, en volgens een bepaalde <em>bemonsteringsprocedure</em> waarin de eisen en voorgeschreven werkwijze ten aanzien van bemonstering zijn vastgelegd. Ook deze gehanteerde norm plus eventuele <em>bijzonderheden veldonderzoek</em> worden in de BRO vastgelegd in de entiteit <em>Veldonderzoek</em>.</p>
+      <p>Gegevens over het het <em>type pomp</em> en het <em>type slang</em> dat tijdens de bemonstering wordt gebruikt worden vastgelegd in entiteit <em>Bemonsteringsapparaat</em>, worden in de BRO vastgelegd. </p>
       <aside class="note">
         <p>Over het proces van monstername zijn nog veel meer details te bedenken die men zou kunnen vastleggen, maar deze zijn niet in de BRO opgenomen. Deze details zijn weggelaten omdat die voor interne processen wellicht relevant zijn, maar geen hoge hergebruikswaarde hebben. Dit geldt bijvoorbeeld voor:</p>
        <ul>
@@ -80,6 +81,9 @@
         <li>de naam van de monsternemer (tevens privacygevoelig!)</li>
       </ul>
       </aside>
+      <div class="issue" data-number="3">
+        <p>De mogelijke waarden van de codelijst BijzonderhedenVeldonderzoek zijn getoetst bij experts. Deze is klaar voor review. </p>
+      </div>
       <p>Het labmonster wordt veelal in meerdere flessen (deelmonsters) verpakt en getransporteerd naar het laboratorium voor onderzoek. In het veld wordt ook een aantal parameters bepaald. Een aantal van deze waarnemingen wordt in de BRO vastgelegd omdat deze hergebruikswaarde hebben: ze geven een algemene indruk over het bemonsterde grondwater, de meetresultaten worden gebruikt in bepaalde controles, of de bepaling in het veld levert een betrouwbaarder resultaat op dan een bepaling in het laboratorium. Veldwaarnemingen die worden geregistreerd in de BRO zijn bepaald aan de hand van opgepompt grondwater of op basis van in situ waarnemingen. De veldparameters die in de BRO worden opgenomen zijn <em>elektrisch geleidingsvermogen</em>, <em>bicarbonaat</em>, <em>zuurstofgehalte</em>, <em>zuurgraad</em>, <em>temperatuur</em> (al dan niet in situ), <em>grondwaterstand</em>, en <em>troebelheid</em>. Deze gegevens worden vastgelegd in de entiteit <em>Resultaat veldmetingen</em>.</p>
       <aside class="issue" data-number="15">
         <P>De regels voor het ontbreken van veldmetingen zijn toegevoegd.</p>
@@ -90,9 +94,6 @@
       <aside class="note">
         <p>Door de voortschrijdende techniek (bijvoorbeeld nieuwe en verbeterde sensoren) zijn er steeds meer mogelijkheden voor het doen van waarnemingen over de grondwaterkwaliteit in het veld. Hier is in dit informatiemodel geen rekening mee gehouden; de scope is vooralsnog beperkt tot wat er in het kader van KRW, LMG en PMG gemeten wordt; deze monitoringsnetten maken nog geen gebruik van sensoren.</p>
       </aside>
-      <div class="issue" data-number="3">
-        <p>De mogelijke waarden van de codelijst BijzonderhedenVeldonderzoek zijn getoetst bij experts. Deze is klaar voor review. </p>
-      </div>
       <div class="issue" data-number="11">
         <p>De waarde van de veldparameter 'elektrisch geleidingsvermogen' is opgenomen als omgerekende waarde naar een referentietemperatuur van 25 graden, ervan uitgaande dat de meetapparatuur deze berekening uitvoert </p>
       </div>
