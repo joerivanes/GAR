@@ -3,8 +3,8 @@
       subpath="Conceptual model/Grondwatersamenstellingsonderzoek (GAR)/20180315"
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
-      generator-version="1.45.1"
-      generator-date="2018-06-05T17:58:37Z">
+      generator-version="1.45.3"
+      generator-date="2018-06-25T07:02:08Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -997,6 +997,10 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
             </section>
          </section>
       </section>
+      <!--removed empty content-->
+      <!--removed empty content-->
+      <!--removed empty content-->
+      <!--removed empty content-->
       <section type="OVERVIEW-PRIMITIVEDATATYPE">
          <section name="CASnummer"
                   type="PRIMITIVEDATATYPE"
@@ -1113,7 +1117,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
             </part>
          </content>
       </section>
-      <section type="OVERVIEW-ENUMERATION"><!--removed empty content--></section>
+      <!--removed empty content-->
       <section type="DETAILS">
          <section type="DETAILS-OBJECTTYPE">
             <section name="1-Grondwatersamenstellingsonderzoek"
@@ -1379,14 +1383,14 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      </part>
                   </content>
                </section>
-               <section name="heeft: geschiedenis"
+               <section name="heeft"
                         type="DETAIL-ASSOCIATION"
                         id="detail_association_Model_1Grondwatersamenstellingsonderzoek_geschiedenis"
                         id-global="global_association_Model_1Grondwatersamenstellingsonderzoek_geschiedenis">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>heeft: geschiedenis</item>
+                        <item>heeft</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -1402,7 +1406,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                   <content approach="target">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>heeft: geschiedenis</item>
+                        <item>heeft</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1839,14 +1843,14 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      </part>
                   </content>
                </section>
-               <section name="bemonsterd met: bemonsteringsapparaat"
+               <section name="bemonsterd met"
                         type="DETAIL-ASSOCIATION"
                         id="detail_association_Model_2Veldonderzoek_bemonsteringsapparaat"
                         id-global="global_association_Model_2Veldonderzoek_bemonsteringsapparaat">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>bemonsterd met: bemonsteringsapparaat</item>
+                        <item>bemonsterd met</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -1862,7 +1866,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                   <content approach="target">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>bemonsterd met: bemonsteringsapparaat</item>
+                        <item>bemonsterd met</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -3649,7 +3653,11 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
                </section>
             </section>
          </section>
-         <section type="DETAILS-PRIMITIVEDATATYPE"/>
+         <!--removed empty content-->
+         <!--removed empty content-->
+         <!--removed empty content-->
+         <!--removed empty content-->
+         <!--removed empty content-->
          <section type="DETAILS-CODELIST">
             <section name="AfwijkingLaboratoriumprocedure"
                      type="DETAIL-CODELIST"
@@ -3694,7 +3702,11 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
                      <item>De methode waarmee de parameter geanalyseerd is.</item>
                   </part>
                </content>
-               <!--removed empty content-->
+               <content>
+                  <itemtype type="CODE"/>
+                  <itemtype type="NAME"/>
+                  <itemtype type="DEFINITION"/>
+               </content>
             </section>
             <section name="Bemonsteringsprocedure"
                      type="DETAIL-CODELIST"
@@ -3885,7 +3897,11 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
                      <item/>
                   </part>
                </content>
-               <!--removed empty content-->
+               <content>
+                  <itemtype type="CODE"/>
+                  <itemtype type="NAME"/>
+                  <itemtype type="DEFINITION"/>
+               </content>
             </section>
             <section name="Onderzoeksprocedure"
                      type="DETAIL-CODELIST"
@@ -4001,6 +4017,7 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
                </content>
             </section>
          </section>
+         <!--removed empty content-->
       </section>
    </section>
    <section type="DOMAIN" name="brocommon" id="global_package_Brocommon">
@@ -4244,6 +4261,9 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
             </section>
          </section>
       </section>
+      <!--removed empty content-->
+      <!--removed empty content-->
+      <!--removed empty content-->
       <section type="OVERVIEW-STRUCTUREDDATATYPE">
          <section name="Aantal1"
                   type="STRUCTUREDDATATYPE"
@@ -5595,7 +5615,10 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
                </section>
             </section>
          </section>
-         <section type="DETAILS-STRUCTUREDDATATYPE">
+         <!--removed empty content-->
+         <!--removed empty content-->
+         <!--removed empty content-->
+         <section type="DETAILS-STRUCTUREDDATATYPE"><!--removed empty content-->
             <section name="Aantal2"
                      type="GESTRUCTUREERD DATATYPE"
                      id="detail_class_Brocommon_Aantal2"
@@ -6193,7 +6216,7 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
                </section>
             </section>
          </section>
-         <section type="DETAILS-PRIMITIVEDATATYPE"/>
+         <!--removed empty content-->
          <section type="DETAILS-CODELIST">
             <section name="Registratiestatus"
                      type="DETAIL-CODELIST"
