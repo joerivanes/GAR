@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "Grondwatersamenstellingsonderzoek (GAR)" door 1.45.3 op June 25, 2018 at 07:02:08.
+   "Grondwatersamenstellingsonderzoek (GAR)" door 1.45.3 op June 25, 2018 at 08:19:34.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i>arjan@linkedmatter.com</i> en geef de code 
-   <i>"Conceptualmodel-GrondwatersamenstellingsonderzoekGAR-0.1-0-20180315-20180625-090209"</i> door. 
+   <i>"Conceptualmodel-GrondwatersamenstellingsonderzoekGAR-0.1-0-20180315-20180625-101935"</i> door. 
    
 </p><a class="anchor" name="global_package_Model"></a><section id="global_package_Model">
    <h3>Domein Model</h3>
@@ -83,6 +83,32 @@
                </tr>
                <tr>
                   <td>
+                     <a class="link" href="#detail_attribute_Model_1Grondwatersamenstellingsonderzoek_bestrijdingsmiddelenOnderzocht">bestrijdingsmiddelen onderzocht</a>
+                     
+                  </td>
+                  <td>De aanduiding die aangeeft of in het onderzoek bestrijdingsmiddelen zijn onderzocht.</td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Model_1Grondwatersamenstellingsonderzoek_farmaceutischeStoffenOnderzocht">farmaceutische stoffen onderzocht</a>
+                     
+                  </td>
+                  <td>Aanduiding die aangeeft of in het onderzoek farmaceutische stoffen, zoals geneesmiddelen,
+                     zijn onderzocht.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
                      <a class="link" href="#detail_attribute_Model_1Grondwatersamenstellingsonderzoek_kaderAanlevering">kader aanlevering</a>
                      
                   </td>
@@ -117,32 +143,6 @@
                   </td>
                   <td>
                      <a class="link" href="#global_class_Model_Onderzoeksprocedure">Onderzoeksprocedure</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Model_1Grondwatersamenstellingsonderzoek_bestrijdingsmiddelenOnderzocht">bestrijdingsmiddelen onderzocht</a>
-                     
-                  </td>
-                  <td>De aanduiding die aangeeft of in het onderzoek bestrijdingsmiddelen zijn onderzocht.</td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Model_1Grondwatersamenstellingsonderzoek_farmaceutischeStoffenOnderzocht">farmaceutische stoffen onderzocht</a>
-                     
-                  </td>
-                  <td>Aanduiding die aangeeft of in het onderzoek farmaceutische stoffen, zoals geneesmiddelen,
-                     zijn onderzocht.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
                      
                   </td>
                   <td>1</td>
@@ -289,18 +289,6 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_Model_2Veldonderzoek_datumVeldonderzoek">datum veldonderzoek</a>
-                     
-                  </td>
-                  <td>De datum waarop het veldonderzoek is uitgevoerd.</td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_Datum">Datum</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
                      <a class="link" href="#detail_attribute_Model_2Veldonderzoek_bemonsteringsprocedure">bemonsteringsprocedure</a>
                      
                   </td>
@@ -312,20 +300,6 @@
                      
                   </td>
                   <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Model_2Veldonderzoek_uitvoerder">uitvoerder</a>
-                     
-                  </td>
-                  <td>De identificatie die de organisatie die verantwoordelijk is voor de uitvoering van
-                     het veldonderzoek, als onderneming in het Handelsregister heeft.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_KvKNummer">KvK-nummer</a>
-                     
-                  </td>
-                  <td>0 .. 1</td>
                </tr>
                <tr>
                   <td>
@@ -343,6 +317,18 @@
                </tr>
                <tr>
                   <td>
+                     <a class="link" href="#detail_attribute_Model_2Veldonderzoek_datumVeldonderzoek">datum veldonderzoek</a>
+                     
+                  </td>
+                  <td>De datum waarop het veldonderzoek is uitgevoerd.</td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_Datum">Datum</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
                      <a class="link" href="#detail_attribute_Model_2Veldonderzoek_rapportagedatumVeldonderzoek">rapportagedatum veldonderzoek</a>
                      
                   </td>
@@ -352,6 +338,20 @@
                      
                   </td>
                   <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Model_2Veldonderzoek_uitvoerder">uitvoerder</a>
+                     
+                  </td>
+                  <td>De identificatie die de organisatie die verantwoordelijk is voor de uitvoering van
+                     het veldonderzoek, als onderneming in het Handelsregister heeft.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_KvKNummer">KvK-nummer</a>
+                     
+                  </td>
+                  <td>0 .. 1</td>
                </tr>
             </tbody>
          </table>
@@ -445,18 +445,6 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_Model_3Bemonsteringsapparaat_typeSlang">type slang</a>
-                     
-                  </td>
-                  <td>Het type slang dat is gebruikt voor bemonsteren.</td>
-                  <td>
-                     <a class="link" href="#global_class_Model_TypeSlang">TypeSlang</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
                      <a class="link" href="#detail_attribute_Model_3Bemonsteringsapparaat_slangHergebruikt">slang hergebruikt</a>
                      
                   </td>
@@ -475,6 +463,18 @@
                   <td>Het pomptype dat is gebruikt voor bemonsteren.</td>
                   <td>
                      <a class="link" href="#global_class_Model_TypePomp">TypePomp</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Model_3Bemonsteringsapparaat_typeSlang">type slang</a>
+                     
+                  </td>
+                  <td>Het type slang dat is gebruikt voor bemonsteren.</td>
+                  <td>
+                     <a class="link" href="#global_class_Model_TypeSlang">TypeSlang</a>
                      
                   </td>
                   <td>1</td>
@@ -528,6 +528,18 @@
                </tr>
                <tr>
                   <td>
+                     <a class="link" href="#detail_attribute_Model_4ResultaatVeldmetingen_bicarbonaatgehalte">bicarbonaatgehalte</a>
+                     
+                  </td>
+                  <td>De massaconcentratie van bicarbonaat in het grondwater.</td>
+                  <td>
+                     <a class="link" href="#global_class_Model_Getalswaarde41">Getalswaarde4.1</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
                      <a class="link" href="#detail_attribute_Model_4ResultaatVeldmetingen_elektrischGeleidingsvermogen">elektrisch geleidingsvermogen</a>
                      
                   </td>
@@ -542,27 +554,15 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_Model_4ResultaatVeldmetingen_bicarbonaatgehalte">bicarbonaatgehalte</a>
+                     <a class="link" href="#detail_attribute_Model_4ResultaatVeldmetingen_grondwaterstand">grondwaterstand</a>
                      
                   </td>
-                  <td>De massaconcentratie van bicarbonaat in het grondwater.</td>
+                  <td>De stand van het grondwater ten opzichte van de bovenkant van de monitoringsbuis.</td>
                   <td>
-                     <a class="link" href="#global_class_Model_Getalswaarde41">Getalswaarde4.1</a>
+                     <a class="link" href="#global_class_Brocommon_Getalswaarde22">Getalswaarde2.2</a>
                      
                   </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Model_4ResultaatVeldmetingen_zuurgraad">zuurgraad</a>
-                     
-                  </td>
-                  <td>De zuurgraad van het grondwater.</td>
-                  <td>
-                     <a class="link" href="#global_class_Model_Getalswaarde21">Getalswaarde2.1</a>
-                     
-                  </td>
-                  <td>1</td>
+                  <td>0 .. 1</td>
                </tr>
                <tr>
                   <td>
@@ -578,12 +578,12 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_Model_4ResultaatVeldmetingen_grondwaterstand">grondwaterstand</a>
+                     <a class="link" href="#detail_attribute_Model_4ResultaatVeldmetingen_temperatuurInSitu">temperatuur in situ</a>
                      
                   </td>
-                  <td>De stand van het grondwater ten opzichte van de bovenkant van de monitoringsbuis.</td>
+                  <td>De in situ gemeten temperatuur van het grondwater.</td>
                   <td>
-                     <a class="link" href="#global_class_Brocommon_Getalswaarde22">Getalswaarde2.2</a>
+                     <a class="link" href="#global_class_Model_Getalswaarde21">Getalswaarde2.1</a>
                      
                   </td>
                   <td>0 .. 1</td>
@@ -602,6 +602,18 @@
                </tr>
                <tr>
                   <td>
+                     <a class="link" href="#detail_attribute_Model_4ResultaatVeldmetingen_zuurgraad">zuurgraad</a>
+                     
+                  </td>
+                  <td>De zuurgraad van het grondwater.</td>
+                  <td>
+                     <a class="link" href="#global_class_Model_Getalswaarde21">Getalswaarde2.1</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
                      <a class="link" href="#detail_attribute_Model_4ResultaatVeldmetingen_zuurstofgehalte">zuurstofgehalte</a>
                      
                   </td>
@@ -611,18 +623,6 @@
                      
                   </td>
                   <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Model_4ResultaatVeldmetingen_temperatuurInSitu">temperatuur in situ</a>
-                     
-                  </td>
-                  <td>De in situ gemeten temperatuur van het grondwater.</td>
-                  <td>
-                     <a class="link" href="#global_class_Model_Getalswaarde21">Getalswaarde2.1</a>
-                     
-                  </td>
-                  <td>0 .. 1</td>
                </tr>
             </tbody>
          </table>
@@ -680,18 +680,6 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_Model_5Laboratoriumonderzoek_verantwoordelijkLaboratorium">verantwoordelijk laboratorium</a>
-                     
-                  </td>
-                  <td>Het laboratorium dat verantwoordelijk is voor de uitgevoerde laboratoriumwaarnemingen.</td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_KvKNummer">KvK-nummer</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
                      <a class="link" href="#detail_attribute_Model_5Laboratoriumonderzoek_rapportagedatumLabonderzoek">rapportagedatum labonderzoek</a>
                      
                   </td>
@@ -700,6 +688,18 @@
                   </td>
                   <td>
                      <a class="link" href="#global_class_Brocommon_Datum">Datum</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Model_5Laboratoriumonderzoek_verantwoordelijkLaboratorium">verantwoordelijk laboratorium</a>
+                     
+                  </td>
+                  <td>Het laboratorium dat verantwoordelijk is voor de uitgevoerde laboratoriumwaarnemingen.</td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_KvKNummer">KvK-nummer</a>
                      
                   </td>
                   <td>1</td>
@@ -804,48 +804,12 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_Model_6ResultaatLaboratoriumwaarneming_datumAnalyse">datum analyse</a>
-                     
-                  </td>
-                  <td>Datum waarop de analyse van de parameter voltooid is</td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_Datum">Datum</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Model_6ResultaatLaboratoriumwaarneming_typeMonsterfractie">type monsterfractie</a>
-                     
-                  </td>
-                  <td>Typering van de monsterfractie waarin de parameter is gemeten.</td>
-                  <td>
-                     <a class="link" href="#global_class_Model_TypeMonsterfractie">TypeMonsterfractie</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
                      <a class="link" href="#detail_attribute_Model_6ResultaatLaboratoriumwaarneming_afwijkingLaboratoriumprocedure">afwijking laboratoriumprocedure</a>
                      
                   </td>
                   <td>Afwijkingen van het geaccrediteerde proces.</td>
                   <td>
                      <a class="link" href="#global_class_Model_AfwijkingLaboratoriumprocedure">AfwijkingLaboratoriumprocedure</a>
-                     
-                  </td>
-                  <td>0 .. 1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Model_6ResultaatLaboratoriumwaarneming_omstandigheden">omstandigheden</a>
-                     
-                  </td>
-                  <td>Overige afwijkingen.</td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_Tekst200">Tekst200</a>
                      
                   </td>
                   <td>0 .. 1</td>
@@ -864,12 +828,48 @@
                </tr>
                <tr>
                   <td>
+                     <a class="link" href="#detail_attribute_Model_6ResultaatLaboratoriumwaarneming_datumAnalyse">datum analyse</a>
+                     
+                  </td>
+                  <td>Datum waarop de analyse van de parameter voltooid is</td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_Datum">Datum</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Model_6ResultaatLaboratoriumwaarneming_omstandigheden">omstandigheden</a>
+                     
+                  </td>
+                  <td>Overige afwijkingen.</td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_Tekst200">Tekst200</a>
+                     
+                  </td>
+                  <td>0 .. 1</td>
+               </tr>
+               <tr>
+                  <td>
                      <a class="link" href="#detail_attribute_Model_6ResultaatLaboratoriumwaarneming_rapportagegrens">rapportagegrens</a>
                      
                   </td>
                   <td>De rapportagrens behorend bij de uitgevoerde analyse en analysemethode.</td>
                   <td>
                      REAL
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Model_6ResultaatLaboratoriumwaarneming_typeMonsterfractie">type monsterfractie</a>
+                     
+                  </td>
+                  <td>Typering van de monsterfractie waarin de parameter is gemeten.</td>
+                  <td>
+                     <a class="link" href="#global_class_Model_TypeMonsterfractie">TypeMonsterfractie</a>
                      
                   </td>
                   <td>1</td>
@@ -893,12 +893,12 @@
                </tr>
                <tr>
                   <td>- 
-                     <a class="link" href="#detail_attribute_Model_8Laboratoriumparameter_parameternaam">parameternaam</a>
+                     <a class="link" href="#detail_attribute_Model_8Laboratoriumparameter_aquocode">aquocode</a>
                      
                   </td>
-                  <td>Naam van de parameter die in het laboratorium is gemeten.</td>
+                  <td>Aquocode van de laboratoriumparameter.</td>
                   <td>
-                     <a class="link" href="#global_class_Model_LabParameter">LabParameter</a>
+                     <a class="link" href="#global_class_Model_Code">Code</a>
                      
                   </td>
                   <td>1</td>
@@ -917,12 +917,12 @@
                </tr>
                <tr>
                   <td>- 
-                     <a class="link" href="#detail_attribute_Model_8Laboratoriumparameter_aquocode">aquocode</a>
+                     <a class="link" href="#detail_attribute_Model_8Laboratoriumparameter_parameternaam">parameternaam</a>
                      
                   </td>
-                  <td>Aquocode van de laboratoriumparameter.</td>
+                  <td>Naam van de parameter die in het laboratorium is gemeten.</td>
                   <td>
-                     <a class="link" href="#global_class_Model_Code">Code</a>
+                     <a class="link" href="#global_class_Model_LabParameter">LabParameter</a>
                      
                   </td>
                   <td>1</td>
@@ -984,22 +984,24 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_Model_9Coherentiekarakteristiek_ionenbalans">ionenbalans</a>
+                     <a class="link" href="#detail_attribute_Model_9Coherentiekarakteristiek_afwijkingBicarbonaatgehalte">afwijking bicarbonaatgehalte</a>
                      
                   </td>
-                  <td>De uitkomst van de ionenbalans (kan zowel positief als negatief zijn)</td>
+                  <td>De uitkomst van de vergelijking tussen het bicarbonaatgehalte veld en lab</td>
                   <td>
                      <a class="link" href="#global_class_Brocommon_Getalswaarde22">Getalswaarde2.2</a>
                      
                   </td>
-                  <td>1</td>
+                  <td>0 .. 1</td>
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_Model_9Coherentiekarakteristiek_afwijkingGeleidbaarheid">afwijking geleidbaarheid</a>
+                     <a class="link" href="#detail_attribute_Model_9Coherentiekarakteristiek_afwijkingElektrischGeleidingsvermogen">afwijking elektrisch geleidingsvermogen</a>
                      
                   </td>
-                  <td>De uitkomst van de vergelijking tusen EGV veld en lab</td>
+                  <td>De uitkomst van de vergelijking tussen elektrische geleidbaarheid (ook wel EGV, EC)
+                     veld en lab
+                  </td>
                   <td>
                      <a class="link" href="#global_class_Brocommon_Getalswaarde22">Getalswaarde2.2</a>
                      
@@ -1011,7 +1013,7 @@
                      <a class="link" href="#detail_attribute_Model_9Coherentiekarakteristiek_afwijkingZuurgraad">afwijking zuurgraad</a>
                      
                   </td>
-                  <td>De uitkomst van de vergelijking tusen pH veld en lab.</td>
+                  <td>De uitkomst van de vergelijking tussen zuurgraad veld en lab.</td>
                   <td>
                      <a class="link" href="#global_class_Brocommon_Getalswaarde22">Getalswaarde2.2</a>
                      
@@ -1020,24 +1022,26 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_Model_9Coherentiekarakteristiek_afwijkingBicarbonaatgehalte">afwijking bicarbonaatgehalte</a>
-                     
-                  </td>
-                  <td></td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_Getalswaarde22">Getalswaarde2.2</a>
-                     
-                  </td>
-                  <td>0 .. 1</td>
-               </tr>
-               <tr>
-                  <td>
                      <a class="link" href="#detail_attribute_Model_9Coherentiekarakteristiek_ijzerEnNitraatAanwezig">ijzer en nitraat aanwezig</a>
                      
                   </td>
-                  <td></td>
+                  <td>Een controle op de aanwezigheid van zowel ijzer als nitraat</td>
                   <td>
                      <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Model_9Coherentiekarakteristiek_ionenbalans">ionenbalans</a>
+                     
+                  </td>
+                  <td>De uitkomst van de vergelijking van de som van kationen en anionen (kan zowel positief
+                     als negatief zijn)
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_Getalswaarde22">Getalswaarde2.2</a>
                      
                   </td>
                   <td>1</td>
@@ -1047,19 +1051,7 @@
                      <a class="link" href="#detail_attribute_Model_9Coherentiekarakteristiek_nitraatEnAmmoniumAanwezig">nitraat en ammonium aanwezig</a>
                      
                   </td>
-                  <td></td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Model_9Coherentiekarakteristiek_relatieZuurgraadLabEnBicarbonaatgehalteLab">relatie zuurgraad lab en bicarbonaatgehalte lab</a>
-                     
-                  </td>
-                  <td></td>
+                  <td>Een controle op de aanwezigheid van zowel nitraat als ammonium</td>
                   <td>
                      <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
                      
@@ -1071,7 +1063,19 @@
                      <a class="link" href="#detail_attribute_Model_9Coherentiekarakteristiek_relatieZuurgraadLabEnAluminium">relatie zuurgraad lab en aluminium</a>
                      
                   </td>
-                  <td></td>
+                  <td>Een controle op de aanwezigheid van aluminium in combinatie met de zuurgraad</td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Model_9Coherentiekarakteristiek_relatieZuurgraadLabEnBicarbonaatgehalteLab">relatie zuurgraad lab en bicarbonaatgehalte lab</a>
+                     
+                  </td>
+                  <td>Een controle op de aanwezigheid van bicarbonaat in combinatie met de zuurgraad</td>
                   <td>
                      <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
                      
@@ -1213,6 +1217,120 @@
       
       <a class="anchor" name="detail_class_Model_1Grondwatersamenstellingsonderzoek"></a><section id="detail_class_Model_1Grondwatersamenstellingsonderzoek">
          <h6>Objecttype 1-Grondwatersamenstellingsonderzoek</h6>
+         <a class="anchor" name="detail_attribute_Model_1Grondwatersamenstellingsonderzoek_bestrijdingsmiddelenOnderzocht"></a><section id="detail_attribute_Model_1Grondwatersamenstellingsonderzoek_bestrijdingsmiddelenOnderzocht">
+            <h7>Attribuutsoort details <a href="#global_class_Model_1Grondwatersamenstellingsonderzoek">1-Grondwatersamenstellingsonderzoek</a> bestrijdingsmiddelen onderzocht
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>bestrijdingsmiddelen onderzocht</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De aanduiding die aangeeft of in het onderzoek bestrijdingsmiddelen zijn onderzocht.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>IndicatieJaNee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Model_1Grondwatersamenstellingsonderzoek_farmaceutischeStoffenOnderzocht"></a><section id="detail_attribute_Model_1Grondwatersamenstellingsonderzoek_farmaceutischeStoffenOnderzocht">
+            <h7>Attribuutsoort details <a href="#global_class_Model_1Grondwatersamenstellingsonderzoek">1-Grondwatersamenstellingsonderzoek</a> farmaceutische stoffen onderzocht
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>farmaceutische stoffen onderzocht</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>Aanduiding die aangeeft of in het onderzoek farmaceutische stoffen, zoals geneesmiddelen,
+                        zijn onderzocht.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>IndicatieJaNee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
          <a class="anchor" name="detail_attribute_Model_1Grondwatersamenstellingsonderzoek_kaderAanlevering"></a><section id="detail_attribute_Model_1Grondwatersamenstellingsonderzoek_kaderAanlevering">
             <h7>Attribuutsoort details <a href="#global_class_Model_1Grondwatersamenstellingsonderzoek">1-Grondwatersamenstellingsonderzoek</a> kader aanlevering
             </h7>
@@ -1391,120 +1509,6 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_Model_1Grondwatersamenstellingsonderzoek_bestrijdingsmiddelenOnderzocht"></a><section id="detail_attribute_Model_1Grondwatersamenstellingsonderzoek_bestrijdingsmiddelenOnderzocht">
-            <h7>Attribuutsoort details <a href="#global_class_Model_1Grondwatersamenstellingsonderzoek">1-Grondwatersamenstellingsonderzoek</a> bestrijdingsmiddelen onderzocht
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>bestrijdingsmiddelen onderzocht</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De aanduiding die aangeeft of in het onderzoek bestrijdingsmiddelen zijn onderzocht.</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Ja</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>IndicatieJaNee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Model_1Grondwatersamenstellingsonderzoek_farmaceutischeStoffenOnderzocht"></a><section id="detail_attribute_Model_1Grondwatersamenstellingsonderzoek_farmaceutischeStoffenOnderzocht">
-            <h7>Attribuutsoort details <a href="#global_class_Model_1Grondwatersamenstellingsonderzoek">1-Grondwatersamenstellingsonderzoek</a> farmaceutische stoffen onderzocht
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>farmaceutische stoffen onderzocht</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>Aanduiding die aangeeft of in het onderzoek farmaceutische stoffen, zoals geneesmiddelen,
-                        zijn onderzocht.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Ja</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>IndicatieJaNee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
          <a class="anchor" name="detail_association_Model_1Grondwatersamenstellingsonderzoek_geschiedenis"></a><section id="detail_association_Model_1Grondwatersamenstellingsonderzoek_geschiedenis">
             <h7>Relatiesoort details <a href="#global_class_Model_1Grondwatersamenstellingsonderzoek">1-Grondwatersamenstellingsonderzoek</a> heeft
             </h7>
@@ -1669,66 +1673,6 @@
       </section>
       <a class="anchor" name="detail_class_Model_2Veldonderzoek"></a><section id="detail_class_Model_2Veldonderzoek">
          <h6>Objecttype 2-Veldonderzoek</h6>
-         <a class="anchor" name="detail_attribute_Model_2Veldonderzoek_datumVeldonderzoek"></a><section id="detail_attribute_Model_2Veldonderzoek_datumVeldonderzoek">
-            <h7>Attribuutsoort details <a href="#global_class_Model_2Veldonderzoek">2-Veldonderzoek</a> datum veldonderzoek
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>datum veldonderzoek</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De datum waarop het veldonderzoek is uitgevoerd.</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>Deze datum is voor gebruikers de belangrijkste datum, omdat dit de datum is waarop
-                        meetresultaten betrekking hebben. Ook voor het laboratoriumonderzoek is deze datum
-                        belangrijk omdat tussen de bemonsteringsdatum en laboratoriumanalyse slechts een beperkte
-                        periode mag liggen.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Ja</td>
-                  </tr>
-                  <tr>
-                     <th>Regels</th>
-                     <td>De datum ligt niet na de rapportagedatum veldonderzoek.</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Datum</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
          <a class="anchor" name="detail_attribute_Model_2Veldonderzoek_bemonsteringsprocedure"></a><section id="detail_attribute_Model_2Veldonderzoek_bemonsteringsprocedure">
             <h7>Attribuutsoort details <a href="#global_class_Model_2Veldonderzoek">2-Veldonderzoek</a> bemonsteringsprocedure
             </h7>
@@ -1779,66 +1723,6 @@
                   <tr>
                      <th>Formaat</th>
                      <td>Bemonsteringsprocedure</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Model_2Veldonderzoek_uitvoerder"></a><section id="detail_attribute_Model_2Veldonderzoek_uitvoerder">
-            <h7>Attribuutsoort details <a href="#global_class_Model_2Veldonderzoek">2-Veldonderzoek</a> uitvoerder
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>uitvoerder</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De identificatie die de organisatie die verantwoordelijk is voor de uitvoering van
-                        het veldonderzoek, als onderneming in het Handelsregister heeft.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Ja</td>
-                  </tr>
-                  <tr>
-                     <th>Regels</th>
-                     <td>De onderneming moet binnen de basisregistratie ondergrond bekend zijn als uitvoerder
-                        van grondwateronderzoek.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>KvK-nummer</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -1912,6 +1796,66 @@
             </table>
             
          </section>
+         <a class="anchor" name="detail_attribute_Model_2Veldonderzoek_datumVeldonderzoek"></a><section id="detail_attribute_Model_2Veldonderzoek_datumVeldonderzoek">
+            <h7>Attribuutsoort details <a href="#global_class_Model_2Veldonderzoek">2-Veldonderzoek</a> datum veldonderzoek
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>datum veldonderzoek</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De datum waarop het veldonderzoek is uitgevoerd.</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Deze datum is voor gebruikers de belangrijkste datum, omdat dit de datum is waarop
+                        meetwaarden betrekking hebben. Ook voor het laboratoriumonderzoek is deze datum belangrijk
+                        omdat tussen de bemonsteringsdatum en laboratoriumanalyse slechts een beperkte periode
+                        mag liggen.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>De datum ligt niet na de rapportagedatum veldonderzoek.</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Datum</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
          <a class="anchor" name="detail_attribute_Model_2Veldonderzoek_rapportagedatumVeldonderzoek"></a><section id="detail_attribute_Model_2Veldonderzoek_rapportagedatumVeldonderzoek">
             <h7>Attribuutsoort details <a href="#global_class_Model_2Veldonderzoek">2-Veldonderzoek</a> rapportagedatum veldonderzoek
             </h7>
@@ -1963,6 +1907,66 @@
                   <tr>
                      <th>Formaat</th>
                      <td>Datum</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Model_2Veldonderzoek_uitvoerder"></a><section id="detail_attribute_Model_2Veldonderzoek_uitvoerder">
+            <h7>Attribuutsoort details <a href="#global_class_Model_2Veldonderzoek">2-Veldonderzoek</a> uitvoerder
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>uitvoerder</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De identificatie die de organisatie die verantwoordelijk is voor de uitvoering van
+                        het veldonderzoek, als onderneming in het Handelsregister heeft.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>De onderneming moet binnen de basisregistratie ondergrond bekend zijn als uitvoerder
+                        van grondwateronderzoek.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>KvK-nummer</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -2056,64 +2060,6 @@
       </section>
       <a class="anchor" name="detail_class_Model_3Bemonsteringsapparaat"></a><section id="detail_class_Model_3Bemonsteringsapparaat">
          <h6>Objecttype 3-Bemonsteringsapparaat</h6>
-         <a class="anchor" name="detail_attribute_Model_3Bemonsteringsapparaat_typeSlang"></a><section id="detail_attribute_Model_3Bemonsteringsapparaat_typeSlang">
-            <h7>Attribuutsoort details <a href="#global_class_Model_3Bemonsteringsapparaat">3-Bemonsteringsapparaat</a> type slang
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>type slang</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>Het type slang dat is gebruikt voor bemonsteren.</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>Het is relevant voor de beoordeling van de kwaliteit van het monster om te weten welk
-                        type slang is gebruikt.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Ja</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>TypeSlang</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
          <a class="anchor" name="detail_attribute_Model_3Bemonsteringsapparaat_slangHergebruikt"></a><section id="detail_attribute_Model_3Bemonsteringsapparaat_slangHergebruikt">
             <h7>Attribuutsoort details <a href="#global_class_Model_3Bemonsteringsapparaat">3-Bemonsteringsapparaat</a> slang hergebruikt
             </h7>
@@ -2232,12 +2178,8 @@
             </table>
             
          </section>
-         
-      </section>
-      <a class="anchor" name="detail_class_Model_4ResultaatVeldmetingen"></a><section id="detail_class_Model_4ResultaatVeldmetingen">
-         <h6>Objecttype 4-Resultaat veldmetingen</h6>
-         <a class="anchor" name="detail_attribute_Model_4ResultaatVeldmetingen_elektrischGeleidingsvermogen"></a><section id="detail_attribute_Model_4ResultaatVeldmetingen_elektrischGeleidingsvermogen">
-            <h7>Attribuutsoort details <a href="#global_class_Model_4ResultaatVeldmetingen">4-Resultaat veldmetingen</a> elektrisch geleidingsvermogen
+         <a class="anchor" name="detail_attribute_Model_3Bemonsteringsapparaat_typeSlang"></a><section id="detail_attribute_Model_3Bemonsteringsapparaat_typeSlang">
+            <h7>Attribuutsoort details <a href="#global_class_Model_3Bemonsteringsapparaat">3-Bemonsteringsapparaat</a> type slang
             </h7>
             
             <table>
@@ -2246,25 +2188,25 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>elektrisch geleidingsvermogen</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
+                     <td>type slang</td>
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De elektrische geleidbaarheid (ook wel EGV, EC) van het grondwater, omgerekend naar
-                        de referentietemperatuur van 25 graden.
-                     </td>
+                     <td>Het type slang dat is gebruikt voor bemonsteren.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
                   </tr>
                   <tr>
+                     <th>Toelichting</th>
+                     <td>Het is relevant voor de beoordeling van de kwaliteit van het monster om te weten welk
+                        type slang is gebruikt.
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Mogelijk geen waarde</th>
-                     <td>Ja</td>
+                     <td>Nee</td>
                   </tr>
                   <tr>
                      <th>Indicatie materiële historie</th>
@@ -2283,18 +2225,8 @@
                      <td>Ja</td>
                   </tr>
                   <tr>
-                     <th>Regels</th>
-                     <td>Door een probleem met de meetapparatuur kan het voorkomen dat het elektrisch geleidingsvermogen
-                        niet bepaald is. Alleen in dat geval heeft het attribuut geen waarde.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Patroon</th>
-                     <td>Getal tussen 0 en 65.000 in µS/cm</td>
-                  </tr>
-                  <tr>
                      <th>Formaat</th>
-                     <td>Getalswaarde5</td>
+                     <td>TypeSlang</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -2304,6 +2236,10 @@
             </table>
             
          </section>
+         
+      </section>
+      <a class="anchor" name="detail_class_Model_4ResultaatVeldmetingen"></a><section id="detail_class_Model_4ResultaatVeldmetingen">
+         <h6>Objecttype 4-Resultaat veldmetingen</h6>
          <a class="anchor" name="detail_attribute_Model_4ResultaatVeldmetingen_bicarbonaatgehalte"></a><section id="detail_attribute_Model_4ResultaatVeldmetingen_bicarbonaatgehalte">
             <h7>Attribuutsoort details <a href="#global_class_Model_4ResultaatVeldmetingen">4-Resultaat veldmetingen</a> bicarbonaatgehalte
             </h7>
@@ -2376,8 +2312,8 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_Model_4ResultaatVeldmetingen_zuurgraad"></a><section id="detail_attribute_Model_4ResultaatVeldmetingen_zuurgraad">
-            <h7>Attribuutsoort details <a href="#global_class_Model_4ResultaatVeldmetingen">4-Resultaat veldmetingen</a> zuurgraad
+         <a class="anchor" name="detail_attribute_Model_4ResultaatVeldmetingen_elektrischGeleidingsvermogen"></a><section id="detail_attribute_Model_4ResultaatVeldmetingen_elektrischGeleidingsvermogen">
+            <h7>Attribuutsoort details <a href="#global_class_Model_4ResultaatVeldmetingen">4-Resultaat veldmetingen</a> elektrisch geleidingsvermogen
             </h7>
             
             <table>
@@ -2386,7 +2322,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>zuurgraad</td>
+                     <td>elektrisch geleidingsvermogen</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -2394,7 +2330,9 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De zuurgraad van het grondwater.</td>
+                     <td>De elektrische geleidbaarheid (ook wel EGV, EC) van het grondwater, omgerekend naar
+                        de referentietemperatuur van 25 graden.
+                     </td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -2422,84 +2360,17 @@
                   </tr>
                   <tr>
                      <th>Regels</th>
-                     <td>Door een probleem met de meetapparatuur kan het voorkomen dat de zuurgraad niet bepaald
-                        is. Alleen in dat geval heeft het attribuut geen waarde.
+                     <td>Door een probleem met de meetapparatuur kan het voorkomen dat het elektrisch geleidingsvermogen
+                        niet bepaald is. Alleen in dat geval heeft het attribuut geen waarde.
                      </td>
                   </tr>
                   <tr>
                      <th>Patroon</th>
-                     <td>Getal tussen 3 en 10</td>
+                     <td>Getal tussen 0 en 65.000 in µS/cm</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>Getalswaarde2.1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Model_4ResultaatVeldmetingen_temperatuur"></a><section id="detail_attribute_Model_4ResultaatVeldmetingen_temperatuur">
-            <h7>Attribuutsoort details <a href="#global_class_Model_4ResultaatVeldmetingen">4-Resultaat veldmetingen</a> temperatuur
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>temperatuur</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De temperatuur van het opgepompte grondwater.</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Ja</td>
-                  </tr>
-                  <tr>
-                     <th>Regels</th>
-                     <td>Wanneer het attribuut kader inwinning van de entiteit Grondwatersamenstellingsonderzoek
-                        de waarde Monitoring verdroging heeft, ontbreekt het gegeven. Verder is het gegeven
-                        alleen aanwezig als het gegeven temperatuur in situ ontbreekt.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Patroon</th>
-                     <td>Getal tussen 4 en 30  in graden Celsius</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Getalswaarde2.1</td>
+                     <td>Getalswaarde5</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -2576,6 +2447,140 @@
             </table>
             
          </section>
+         <a class="anchor" name="detail_attribute_Model_4ResultaatVeldmetingen_temperatuur"></a><section id="detail_attribute_Model_4ResultaatVeldmetingen_temperatuur">
+            <h7>Attribuutsoort details <a href="#global_class_Model_4ResultaatVeldmetingen">4-Resultaat veldmetingen</a> temperatuur
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>temperatuur</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De temperatuur van het opgepompte grondwater.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>Wanneer het attribuut kader inwinning van de entiteit Grondwatersamenstellingsonderzoek
+                        de waarde Monitoring verdroging heeft, ontbreekt het gegeven. Verder is het gegeven
+                        alleen aanwezig als het gegeven temperatuur in situ ontbreekt.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Patroon</th>
+                     <td>Getal tussen 4 en 30  in graden Celsius</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Getalswaarde2.1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Model_4ResultaatVeldmetingen_temperatuurInSitu"></a><section id="detail_attribute_Model_4ResultaatVeldmetingen_temperatuurInSitu">
+            <h7>Attribuutsoort details <a href="#global_class_Model_4ResultaatVeldmetingen">4-Resultaat veldmetingen</a> temperatuur in situ
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>temperatuur in situ</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De in situ gemeten temperatuur van het grondwater.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>Wanneer het attribuut kader inwinning van de entiteit Grondwatersamenstellingsonderzoek
+                        de waarde Monitoring verdroging heeft, ontbreekt het gegeven. Verder is het gegeven
+                        alleen aanwezig als het gegeven temperatuur ontbreekt.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Patroon</th>
+                     <td>Getal tussen 4 en 30 in graden Celsius</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Getalswaarde2.1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
          <a class="anchor" name="detail_attribute_Model_4ResultaatVeldmetingen_troebelheid"></a><section id="detail_attribute_Model_4ResultaatVeldmetingen_troebelheid">
             <h7>Attribuutsoort details <a href="#global_class_Model_4ResultaatVeldmetingen">4-Resultaat veldmetingen</a> troebelheid
             </h7>
@@ -2606,7 +2611,7 @@
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
+                     <td>Ja</td>
                   </tr>
                   <tr>
                      <th>Indicatie materiële historie</th>
@@ -2637,6 +2642,72 @@
                   <tr>
                      <th>Formaat</th>
                      <td>Getalswaarde3</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Model_4ResultaatVeldmetingen_zuurgraad"></a><section id="detail_attribute_Model_4ResultaatVeldmetingen_zuurgraad">
+            <h7>Attribuutsoort details <a href="#global_class_Model_4ResultaatVeldmetingen">4-Resultaat veldmetingen</a> zuurgraad
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>zuurgraad</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De zuurgraad van het grondwater.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>Door een probleem met de meetapparatuur kan het voorkomen dat de zuurgraad niet bepaald
+                        is. Alleen in dat geval heeft het attribuut geen waarde.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Patroon</th>
+                     <td>Getal tussen 3 en 10</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Getalswaarde2.1</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -2718,129 +2789,10 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_Model_4ResultaatVeldmetingen_temperatuurInSitu"></a><section id="detail_attribute_Model_4ResultaatVeldmetingen_temperatuurInSitu">
-            <h7>Attribuutsoort details <a href="#global_class_Model_4ResultaatVeldmetingen">4-Resultaat veldmetingen</a> temperatuur in situ
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>temperatuur in situ</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De in situ gemeten temperatuur van het grondwater.</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Ja</td>
-                  </tr>
-                  <tr>
-                     <th>Regels</th>
-                     <td>Wanneer het attribuut kader inwinning van de entiteit Grondwatersamenstellingsonderzoek
-                        de waarde Monitoring verdroging heeft, ontbreekt het gegeven. Verder is het gegeven
-                        alleen aanwezig als het gegeven temperatuur ontbreekt.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Patroon</th>
-                     <td>Getal tussen 4 en 30 in graden Celsius</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Getalswaarde2.1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
          
       </section>
       <a class="anchor" name="detail_class_Model_5Laboratoriumonderzoek"></a><section id="detail_class_Model_5Laboratoriumonderzoek">
          <h6>Objecttype 5-Laboratoriumonderzoek</h6>
-         <a class="anchor" name="detail_attribute_Model_5Laboratoriumonderzoek_verantwoordelijkLaboratorium"></a><section id="detail_attribute_Model_5Laboratoriumonderzoek_verantwoordelijkLaboratorium">
-            <h7>Attribuutsoort details <a href="#global_class_Model_5Laboratoriumonderzoek">5-Laboratoriumonderzoek</a> verantwoordelijk laboratorium
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>verantwoordelijk laboratorium</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>Het laboratorium dat verantwoordelijk is voor de uitgevoerde laboratoriumwaarnemingen.</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>KvK-nummer</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
          <a class="anchor" name="detail_attribute_Model_5Laboratoriumonderzoek_rapportagedatumLabonderzoek"></a><section id="detail_attribute_Model_5Laboratoriumonderzoek_rapportagedatumLabonderzoek">
             <h7>Attribuutsoort details <a href="#global_class_Model_5Laboratoriumonderzoek">5-Laboratoriumonderzoek</a> rapportagedatum labonderzoek
             </h7>
@@ -2895,6 +2847,58 @@
             </table>
             
          </section>
+         <a class="anchor" name="detail_attribute_Model_5Laboratoriumonderzoek_verantwoordelijkLaboratorium"></a><section id="detail_attribute_Model_5Laboratoriumonderzoek_verantwoordelijkLaboratorium">
+            <h7>Attribuutsoort details <a href="#global_class_Model_5Laboratoriumonderzoek">5-Laboratoriumonderzoek</a> verantwoordelijk laboratorium
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>verantwoordelijk laboratorium</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>Het laboratorium dat verantwoordelijk is voor de uitgevoerde laboratoriumwaarnemingen.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>KvK-nummer</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
          <a class="anchor" name="detail_association_Model_5Laboratoriumonderzoek"></a><section id="detail_association_Model_5Laboratoriumonderzoek">
             <h7>Relatiesoort details <a href="#global_class_Model_5Laboratoriumonderzoek">5-Laboratoriumonderzoek</a> bestaat uit
             </h7>
@@ -2939,6 +2943,118 @@
       </section>
       <a class="anchor" name="detail_class_Model_6ResultaatLaboratoriumwaarneming"></a><section id="detail_class_Model_6ResultaatLaboratoriumwaarneming">
          <h6>Objecttype 6-Resultaat laboratoriumwaarneming</h6>
+         <a class="anchor" name="detail_attribute_Model_6ResultaatLaboratoriumwaarneming_afwijkingLaboratoriumprocedure"></a><section id="detail_attribute_Model_6ResultaatLaboratoriumwaarneming_afwijkingLaboratoriumprocedure">
+            <h7>Attribuutsoort details <a href="#global_class_Model_6ResultaatLaboratoriumwaarneming">6-Resultaat laboratoriumwaarneming</a> afwijking laboratoriumprocedure
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>afwijking laboratoriumprocedure</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>Afwijkingen van het geaccrediteerde proces.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Allen relevante afwijkingen tbv hergebruik.</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>AfwijkingLaboratoriumprocedure</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Model_6ResultaatLaboratoriumwaarneming_analysemethode"></a><section id="detail_attribute_Model_6ResultaatLaboratoriumwaarneming_analysemethode">
+            <h7>Attribuutsoort details <a href="#global_class_Model_6ResultaatLaboratoriumwaarneming">6-Resultaat laboratoriumwaarneming</a> analysemethode
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>analysemethode</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De [geaccrediteerde ] methode waarmee een parameter geanalyseerd wordt/is</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Gaat om de methode, bv GCMS, niet om een specifiek apparaat.</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Analysemethode</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
          <a class="anchor" name="detail_attribute_Model_6ResultaatLaboratoriumwaarneming_datumAnalyse"></a><section id="detail_attribute_Model_6ResultaatLaboratoriumwaarneming_datumAnalyse">
             <h7>Attribuutsoort details <a href="#global_class_Model_6ResultaatLaboratoriumwaarneming">6-Resultaat laboratoriumwaarneming</a> datum analyse
             </h7>
@@ -2988,6 +3104,354 @@
                   <tr>
                      <th>Formaat</th>
                      <td>Datum</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_class_Model_8Laboratoriumparameter"></a><section id="detail_class_Model_8Laboratoriumparameter">
+            <h7>Gegevensgroeptype details <a href="#global_class_Model_6ResultaatLaboratoriumwaarneming">6-Resultaat laboratoriumwaarneming</a> 8-Laboratoriumparameter
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>8-Laboratoriumparameter</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De door het laboratorium bepaalde en bronhouder gevalideerde waarde van een parameter.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            <a class="anchor" name="detail_attribute_Model_8Laboratoriumparameter_aquocode"></a><section id="detail_attribute_Model_8Laboratoriumparameter_aquocode" class="notoc">
+               <h8>Attribuutsoort aquocode  8-Laboratoriumparameter</h8>
+               
+               <table>
+                  <tbody>
+                     <tr></tr>
+                     <tr>
+                        <th>Naam</th>
+                        <td>aquocode</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Definitie</th>
+                        <td>Aquocode van de laboratoriumparameter.</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>De aquocode is uniek voor elke stof. Voor nieuwe opkomende stoffen kan een nieuwe
+                           aquacode worden aangevraagd.
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie materiële historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie formele historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Formaat</th>
+                        <td>Code</td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+            </section>
+            <a class="anchor" name="detail_attribute_Model_8Laboratoriumparameter_cASNummer"></a><section id="detail_attribute_Model_8Laboratoriumparameter_cASNummer" class="notoc">
+               <h8>Attribuutsoort CAS-nummer  8-Laboratoriumparameter</h8>
+               
+               <table>
+                  <tbody>
+                     <tr></tr>
+                     <tr>
+                        <th>Naam</th>
+                        <td>CAS-nummer</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Definitie</th>
+                        <td>Chemical Abstracts Service nummer van de laboratoriumparameter.</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Alleen chemische parameters hebben een CAS-nummer. Een Chemical Abstracts Service
+                           nummer is uniek voor elke parameter. Voor bv somparameters ontbreekt het CAS-nummer.
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie materiële historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie formele historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie kardinaliteit</th>
+                        <td>0 .. 1</td>
+                     </tr>
+                     <tr>
+                        <th>Regels</th>
+                        <td>Een Chemical Abstracts Service nummer is uniek voor elke parameter. </td>
+                     </tr>
+                     <tr>
+                        <th>Formaat</th>
+                        <td>CASnummer</td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+            </section>
+            <a class="anchor" name="detail_attribute_Model_8Laboratoriumparameter_parameternaam"></a><section id="detail_attribute_Model_8Laboratoriumparameter_parameternaam" class="notoc">
+               <h8>Attribuutsoort parameternaam  8-Laboratoriumparameter</h8>
+               
+               <table>
+                  <tbody>
+                     <tr></tr>
+                     <tr>
+                        <th>Naam</th>
+                        <td>parameternaam</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Definitie</th>
+                        <td>Naam van de parameter die in het laboratorium is gemeten.</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie materiële historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie formele historie</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Formaat</th>
+                        <td>LabParameter</td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+            </section>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Model_6ResultaatLaboratoriumwaarneming_laboratoriumresultaat"></a><section id="detail_attribute_Model_6ResultaatLaboratoriumwaarneming_laboratoriumresultaat">
+            <h7>Attribuutsoort details <a href="#global_class_Model_6ResultaatLaboratoriumwaarneming">6-Resultaat laboratoriumwaarneming</a> laboratoriumresultaat
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>laboratoriumresultaat</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De door het laboratorium bepaalde en bronhouder gevalideerde waarde van een parameter.</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>De gemeten concentratie wordt gerapoprteerd in een bepaalde eenheid met een uniform
+                        aantal significante waarden binnen een bepaald bereik.
+                        NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet nog
+                        worden vastgesteld wat het juiste datatype is.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Getalswaarde3.3</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Model_6ResultaatLaboratoriumwaarneming_omstandigheden"></a><section id="detail_attribute_Model_6ResultaatLaboratoriumwaarneming_omstandigheden">
+            <h7>Attribuutsoort details <a href="#global_class_Model_6ResultaatLaboratoriumwaarneming">6-Resultaat laboratoriumwaarneming</a> omstandigheden
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>omstandigheden</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>Overige afwijkingen.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Tekst200</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Model_6ResultaatLaboratoriumwaarneming_rapportagegrens"></a><section id="detail_attribute_Model_6ResultaatLaboratoriumwaarneming_rapportagegrens">
+            <h7>Attribuutsoort details <a href="#global_class_Model_6ResultaatLaboratoriumwaarneming">6-Resultaat laboratoriumwaarneming</a> rapportagegrens
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>rapportagegrens</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De rapportagrens behorend bij de uitgevoerde analyse en analysemethode.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Deze is er altijd per parameter en wordt standaard bij het resultaat meegeleverd.
+                        Detectielimiet is bij het lab bekend, maar wordt niet standaard geleverd. Meetwaarden
+                        tussen detectielimiet en rapportagegrens kunnen in bijzondere gevallen geleverd worden.
+                        Deze meetwaarden zijn echter minder betrouwbaar dan meetwaarden boven rapportagegrens.
+                        Gebruik ervan is 'op eigen risico'; het laboratorium neemt hier geen verantwoording
+                        voor.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>REAL</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -3055,472 +3519,12 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_Model_6ResultaatLaboratoriumwaarneming_afwijkingLaboratoriumprocedure"></a><section id="detail_attribute_Model_6ResultaatLaboratoriumwaarneming_afwijkingLaboratoriumprocedure">
-            <h7>Attribuutsoort details <a href="#global_class_Model_6ResultaatLaboratoriumwaarneming">6-Resultaat laboratoriumwaarneming</a> afwijking laboratoriumprocedure
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>afwijking laboratoriumprocedure</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>Afwijkingen van het geaccrediteerde proces.</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>Allen relevante afwijkingen tbv hergebruik.</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>AfwijkingLaboratoriumprocedure</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Model_6ResultaatLaboratoriumwaarneming_omstandigheden"></a><section id="detail_attribute_Model_6ResultaatLaboratoriumwaarneming_omstandigheden">
-            <h7>Attribuutsoort details <a href="#global_class_Model_6ResultaatLaboratoriumwaarneming">6-Resultaat laboratoriumwaarneming</a> omstandigheden
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>omstandigheden</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>Overige afwijkingen.</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Tekst200</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Model_6ResultaatLaboratoriumwaarneming_analysemethode"></a><section id="detail_attribute_Model_6ResultaatLaboratoriumwaarneming_analysemethode">
-            <h7>Attribuutsoort details <a href="#global_class_Model_6ResultaatLaboratoriumwaarneming">6-Resultaat laboratoriumwaarneming</a> analysemethode
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>analysemethode</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De [geaccrediteerde ] methode waarmee een parameter geanalyseerd wordt/is</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>Gaat om de methode, bv GCMS, niet om een specifiek apparaat.</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Analysemethode</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Model_6ResultaatLaboratoriumwaarneming_rapportagegrens"></a><section id="detail_attribute_Model_6ResultaatLaboratoriumwaarneming_rapportagegrens">
-            <h7>Attribuutsoort details <a href="#global_class_Model_6ResultaatLaboratoriumwaarneming">6-Resultaat laboratoriumwaarneming</a> rapportagegrens
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>rapportagegrens</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De rapportagrens behorend bij de uitgevoerde analyse en analysemethode.</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>Deze is er altijd per parameter en wordt standaard bij het resultaat meegeleverd.
-                        Detectielimiet is bij het lab bekend, maar wordt niet standaard geleverd. Meetresultaten
-                        tussen detectielimiet en rapportagegrens kunnen in bijzondere gevallen geleverd worden.
-                        Deze meetresultaten zijn echter minder betrouwbaar dan meetresultaten boven rapportagegrens.
-                        Gebruik ervan is 'op eigen risico'; het laboratorium neemt hier geen verantwoording
-                        voor.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>REAL</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_class_Model_8Laboratoriumparameter"></a><section id="detail_class_Model_8Laboratoriumparameter">
-            <h7>Gegevensgroeptype details <a href="#global_class_Model_6ResultaatLaboratoriumwaarneming">6-Resultaat laboratoriumwaarneming</a> 8-Laboratoriumparameter
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>8-Laboratoriumparameter</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De door het laboratorium bepaalde en bronhouder gevalideerde waarde van een parameter.</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            <a class="anchor" name="detail_attribute_Model_8Laboratoriumparameter_parameternaam"></a><section id="detail_attribute_Model_8Laboratoriumparameter_parameternaam" class="notoc">
-               <h8>Attribuutsoort parameternaam  8-Laboratoriumparameter</h8>
-               
-               <table>
-                  <tbody>
-                     <tr></tr>
-                     <tr>
-                        <th>Naam</th>
-                        <td>parameternaam</td>
-                     </tr>
-                     <tr>
-                        <th>Herkomst</th>
-                        <td>BRO</td>
-                     </tr>
-                     <tr>
-                        <th>Definitie</th>
-                        <td>Naam van de parameter die in het laboratorium is gemeten.</td>
-                     </tr>
-                     <tr>
-                        <th>Herkomst definitie</th>
-                        <td>BRO</td>
-                     </tr>
-                     <tr>
-                        <th>Mogelijk geen waarde</th>
-                        <td>Nee</td>
-                     </tr>
-                     <tr>
-                        <th>Indicatie materiële historie</th>
-                        <td>Nee</td>
-                     </tr>
-                     <tr>
-                        <th>Indicatie formele historie</th>
-                        <td>Nee</td>
-                     </tr>
-                     <tr>
-                        <th>Indicatie kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Formaat</th>
-                        <td>LabParameter</td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section>
-            <a class="anchor" name="detail_attribute_Model_8Laboratoriumparameter_cASNummer"></a><section id="detail_attribute_Model_8Laboratoriumparameter_cASNummer" class="notoc">
-               <h8>Attribuutsoort CAS-nummer  8-Laboratoriumparameter</h8>
-               
-               <table>
-                  <tbody>
-                     <tr></tr>
-                     <tr>
-                        <th>Naam</th>
-                        <td>CAS-nummer</td>
-                     </tr>
-                     <tr>
-                        <th>Herkomst</th>
-                        <td>BRO</td>
-                     </tr>
-                     <tr>
-                        <th>Definitie</th>
-                        <td>Chemical Abstracts Service nummer van de laboratoriumparameter.</td>
-                     </tr>
-                     <tr>
-                        <th>Herkomst definitie</th>
-                        <td>BRO</td>
-                     </tr>
-                     <tr>
-                        <th>Toelichting</th>
-                        <td>Alleen chemische parameters hebben een CAS-nummer. Een Chemical Abstracts Service
-                           nummer is uniek voor elke parameter. Voor bv somparameters ontbreekt het CAS-nummer.
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Mogelijk geen waarde</th>
-                        <td>Nee</td>
-                     </tr>
-                     <tr>
-                        <th>Indicatie materiële historie</th>
-                        <td>Nee</td>
-                     </tr>
-                     <tr>
-                        <th>Indicatie formele historie</th>
-                        <td>Nee</td>
-                     </tr>
-                     <tr>
-                        <th>Indicatie kardinaliteit</th>
-                        <td>0 .. 1</td>
-                     </tr>
-                     <tr>
-                        <th>Regels</th>
-                        <td>Een Chemical Abstracts Service nummer is uniek voor elke parameter. </td>
-                     </tr>
-                     <tr>
-                        <th>Formaat</th>
-                        <td>CASnummer</td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section>
-            <a class="anchor" name="detail_attribute_Model_8Laboratoriumparameter_aquocode"></a><section id="detail_attribute_Model_8Laboratoriumparameter_aquocode" class="notoc">
-               <h8>Attribuutsoort aquocode  8-Laboratoriumparameter</h8>
-               
-               <table>
-                  <tbody>
-                     <tr></tr>
-                     <tr>
-                        <th>Naam</th>
-                        <td>aquocode</td>
-                     </tr>
-                     <tr>
-                        <th>Herkomst</th>
-                        <td>BRO</td>
-                     </tr>
-                     <tr>
-                        <th>Definitie</th>
-                        <td>Aquocode van de laboratoriumparameter.</td>
-                     </tr>
-                     <tr>
-                        <th>Herkomst definitie</th>
-                        <td>BRO</td>
-                     </tr>
-                     <tr>
-                        <th>Toelichting</th>
-                        <td>De aquocode is uniek voor elke stof. Voor nieuwe opkomende stoffen kan een nieuwe
-                           aquacode worden aangevraagd.
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Mogelijk geen waarde</th>
-                        <td>Nee</td>
-                     </tr>
-                     <tr>
-                        <th>Indicatie materiële historie</th>
-                        <td>Nee</td>
-                     </tr>
-                     <tr>
-                        <th>Indicatie formele historie</th>
-                        <td>Nee</td>
-                     </tr>
-                     <tr>
-                        <th>Indicatie kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Formaat</th>
-                        <td>Code</td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Model_6ResultaatLaboratoriumwaarneming_laboratoriumresultaat"></a><section id="detail_attribute_Model_6ResultaatLaboratoriumwaarneming_laboratoriumresultaat">
-            <h7>Attribuutsoort details <a href="#global_class_Model_6ResultaatLaboratoriumwaarneming">6-Resultaat laboratoriumwaarneming</a> laboratoriumresultaat
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>laboratoriumresultaat</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De door het laboratorium bepaalde en bronhouder gevalideerde waarde van een parameter.</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>De gemeten concentratie wordt gerapoprteerd in een bepaalde eenheid met een uniform
-                        aantal significante waarden binnen een bepaald bereik.
-                        NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet nog
-                        worden vastgesteld wat het juiste datatype is.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Getalswaarde3.3</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
          
       </section>
       <a class="anchor" name="detail_class_Model_9Coherentiekarakteristiek"></a><section id="detail_class_Model_9Coherentiekarakteristiek">
          <h6>Objecttype 9-Coherentiekarakteristiek</h6>
-         <a class="anchor" name="detail_attribute_Model_9Coherentiekarakteristiek_ionenbalans"></a><section id="detail_attribute_Model_9Coherentiekarakteristiek_ionenbalans">
-            <h7>Attribuutsoort details <a href="#global_class_Model_9Coherentiekarakteristiek">9-Coherentiekarakteristiek</a> ionenbalans
+         <a class="anchor" name="detail_attribute_Model_9Coherentiekarakteristiek_afwijkingBicarbonaatgehalte"></a><section id="detail_attribute_Model_9Coherentiekarakteristiek_afwijkingBicarbonaatgehalte">
+            <h7>Attribuutsoort details <a href="#global_class_Model_9Coherentiekarakteristiek">9-Coherentiekarakteristiek</a> afwijking bicarbonaatgehalte
             </h7>
             
             <table>
@@ -3529,7 +3533,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>ionenbalans</td>
+                     <td>afwijking bicarbonaatgehalte</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -3537,7 +3541,7 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De uitkomst van de ionenbalans (kan zowel positief als negatief zijn)</td>
+                     <td>De uitkomst van de vergelijking tussen het bicarbonaatgehalte veld en lab</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -3545,11 +3549,9 @@
                   </tr>
                   <tr>
                      <th>Toelichting</th>
-                     <td>De uitkomst geeft de mate van betrouwbaarheid weer van het grondwatersamenstellingsonderzoek.
-                        Alle ionen zijn in het lab bepaald. Berekend cf NEN6530. Stoffen afkomstig uit VPTP
-                        [NEN doet hier geen bruikbare uitspraak over] en Al, uitgangspunt dat deze altijd
-                        gemeten zijn. Al is toegevoegd omdat deze belangrijk is voor zoet water en bij lage
-                        pH (
+                     <td>Een verandering van de HCO3 kan komen door neerslagvorming, microbiële metabolisme
+                        van organische zuren, afbraak van organisch materiaal, of andere chemische veranderingen
+                        tijdens transport, verwerking en behandeling.
                      </td>
                   </tr>
                   <tr>
@@ -3566,7 +3568,21 @@
                   </tr>
                   <tr>
                      <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>ja</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>Het gegeven is alleen aanwezig als bicarbonaat (HCO3) zowel in het veld als in het
+                        lab is gemeten
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Patroon</th>
+                     <td>%</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -3580,8 +3596,8 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_Model_9Coherentiekarakteristiek_afwijkingGeleidbaarheid"></a><section id="detail_attribute_Model_9Coherentiekarakteristiek_afwijkingGeleidbaarheid">
-            <h7>Attribuutsoort details <a href="#global_class_Model_9Coherentiekarakteristiek">9-Coherentiekarakteristiek</a> afwijking geleidbaarheid
+         <a class="anchor" name="detail_attribute_Model_9Coherentiekarakteristiek_afwijkingElektrischGeleidingsvermogen"></a><section id="detail_attribute_Model_9Coherentiekarakteristiek_afwijkingElektrischGeleidingsvermogen">
+            <h7>Attribuutsoort details <a href="#global_class_Model_9Coherentiekarakteristiek">9-Coherentiekarakteristiek</a> afwijking elektrisch geleidingsvermogen
             </h7>
             
             <table>
@@ -3590,7 +3606,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>afwijking geleidbaarheid</td>
+                     <td>afwijking elektrisch geleidingsvermogen</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -3598,7 +3614,9 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De uitkomst van de vergelijking tusen EGV veld en lab</td>
+                     <td>De uitkomst van de vergelijking tussen elektrische geleidbaarheid (ook wel EGV, EC)
+                        veld en lab
+                     </td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -3606,14 +3624,14 @@
                   </tr>
                   <tr>
                      <th>Toelichting</th>
-                     <td>Een verschil tussen de gemeten EGV in het veld en in het lab kan een indicatie zijn
-                        dat er neerslag heeft plaatsgehad tijdens de transport. Dit kan een indicator zijn
-                        van onevenwichtigheden in de concentraties en verlies van bepaalde ionen.
+                     <td>Een verschil tussen de gemeten EGV (EC) in het veld en in het lab kan een indicatie
+                        zijn dat er neerslag heeft plaatsgehad tijdens de transport. Dit kan een indicator
+                        zijn van onevenwichtigheden in de concentraties en verlies van bepaalde ionen.
                      </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
+                     <td>Ja</td>
                   </tr>
                   <tr>
                      <th>Indicatie materiële historie</th>
@@ -3626,6 +3644,20 @@
                   <tr>
                      <th>Indicatie kardinaliteit</th>
                      <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>ja</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>Door een probleem met de meetapparatuur kan het voorkomen dat het elektrisch geleidingsvermogen
+                        in het veld niet is bepaald. Alleen in dat geval heeft het attribuut geen waarde.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Patroon</th>
+                     <td>%</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -3657,7 +3689,7 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De uitkomst van de vergelijking tusen pH veld en lab.</td>
+                     <td>De uitkomst van de vergelijking tussen zuurgraad veld en lab.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -3672,7 +3704,7 @@
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
+                     <td>Ja</td>
                   </tr>
                   <tr>
                      <th>Indicatie materiële historie</th>
@@ -3687,63 +3719,18 @@
                      <td>1</td>
                   </tr>
                   <tr>
-                     <th>Formaat</th>
-                     <td>Getalswaarde2.2</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Model_9Coherentiekarakteristiek_afwijkingBicarbonaatgehalte"></a><section id="detail_attribute_Model_9Coherentiekarakteristiek_afwijkingBicarbonaatgehalte">
-            <h7>Attribuutsoort details <a href="#global_class_Model_9Coherentiekarakteristiek">9-Coherentiekarakteristiek</a> afwijking bicarbonaatgehalte
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>afwijking bicarbonaatgehalte</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>Een verandering van de HCO3 kan komen door neerslagvorming, microbiële metabolisme
-                        van organische zuren, afbraak van organisch materiaal, of andere chemische veranderingen
-                        tijdens transport, verwerking en behandeling.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
+                     <th>Indicatie authentiek</th>
+                     <td>ja</td>
                   </tr>
                   <tr>
                      <th>Regels</th>
-                     <td>Het gegeven is alleen aanwezig als HCO3 zowel in het veld als in het lab is gemeten</td>
+                     <td>Door een probleem met de meetapparatuur kan het voorkomen dat de zuurgraad in het
+                        veld niet is bepaald. Alleen in dat geval heeft het attribuut geen waarde.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Patroon</th>
+                     <td>%</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -3774,8 +3761,19 @@
                      <td>BRO</td>
                   </tr>
                   <tr>
+                     <th>Definitie</th>
+                     <td>Een controle op de aanwezigheid van zowel ijzer als nitraat</td>
+                  </tr>
+                  <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Gezamenlijk voorkomen van opgelost ijzer (&gt;0.5 mg/l) en nitraat (&gt; 1 mg NO3/l). Opgelost
+                        ijzer komt in deze concentraties alleen in anoxische milieus voor (als ijzer(II);
+                        nitraatconcentraties &gt;1 mg/l duiden op (sub)oxisch milieu. Overigens kan in zure (pH
+                     </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -3794,8 +3792,82 @@
                      <td>1</td>
                   </tr>
                   <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>ja</td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
                      <td>IndicatieJaNee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Model_9Coherentiekarakteristiek_ionenbalans"></a><section id="detail_attribute_Model_9Coherentiekarakteristiek_ionenbalans">
+            <h7>Attribuutsoort details <a href="#global_class_Model_9Coherentiekarakteristiek">9-Coherentiekarakteristiek</a> ionenbalans
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>ionenbalans</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De uitkomst van de vergelijking van de som van kationen en anionen (kan zowel positief
+                        als negatief zijn)
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>De uitkomst geeft de mate van betrouwbaarheid weer van het grondwatersamenstellingsonderzoek.
+                        Alle ionen zijn in het lab bepaald. Berekend conform NEN6530. De gebruikte stoffen
+                        conform het Validatieprotocol PMB, Versie 0.3 d.d. 23-06-2016 dat deel uitmaakt van
+                        het Handboek Monitoring Grondwaterkwaliteit KRW, provincies en RIVM. (2017)?
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>ja</td>
+                  </tr>
+                  <tr>
+                     <th>Patroon</th>
+                     <td>%</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Getalswaarde2.2</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -3822,13 +3894,19 @@
                      <td>BRO</td>
                   </tr>
                   <tr>
+                     <th>Definitie</th>
+                     <td>Een controle op de aanwezigheid van zowel nitraat als ammonium</td>
+                  </tr>
+                  <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Toelichting</th>
-                     <td>Nitraat (NO3) en ammonium (HN4) zijn een chemische consistentie echtpaar dat eventuele
-                        fouten in de analyse of mogelijke vermenging aangeven.
+                     <td>Gezamenlijk voorkomen van Nitraat (NO3) (&gt;0.5 mg/l) en ammonium (HN4) (&gt; 2 mg/l) of
+                        wanneer ammonium groter is dan de nitraatconcentratie bij NO3 &gt;0.5 mg/l. Nitraat en
+                        ammonium zijn een chemische consistentie echtpaar dat eventuele fouten in de analyse
+                        of mogelijke vermenging aangeven.
                      </td>
                   </tr>
                   <tr>
@@ -3848,58 +3926,8 @@
                      <td>1</td>
                   </tr>
                   <tr>
-                     <th>Formaat</th>
-                     <td>IndicatieJaNee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Model_9Coherentiekarakteristiek_relatieZuurgraadLabEnBicarbonaatgehalteLab"></a><section id="detail_attribute_Model_9Coherentiekarakteristiek_relatieZuurgraadLabEnBicarbonaatgehalteLab">
-            <h7>Attribuutsoort details <a href="#global_class_Model_9Coherentiekarakteristiek">9-Coherentiekarakteristiek</a> relatie zuurgraad lab en bicarbonaatgehalte lab
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>relatie zuurgraad lab en bicarbonaatgehalte lab</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>pH en HCO3 zijn een chemische consistentie echtpaar dat eventuele fouten in de analyse
-                        of mogelijke vermenging aangeven. Geldt ook voor Ca en Mg.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
+                     <th>Indicatie authentiek</th>
+                     <td>ja</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -3930,8 +3958,21 @@
                      <td>BRO</td>
                   </tr>
                   <tr>
+                     <th>Definitie</th>
+                     <td>Een controle op de aanwezigheid van aluminium in combinatie met de zuurgraad</td>
+                  </tr>
+                  <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Concentratie Aluminium &gt; 2,5 mg/l bij 5,5 8,5 begint de aluminium concentratie doorgaans
+                        weer op te lopen, maar dit komt in Nederlands grondwater nauwelijks voor. Een hogere
+                        aluminiumconcentratie dan de grenswaarde bij het opgegeven pH bereik kan wijzen op
+                        een onvolkomen filtratie over 0.45 um (onjuiste filtratie, meer aluminium aanwezig
+                        dan verwacht).
+                     </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -3948,6 +3989,73 @@
                   <tr>
                      <th>Indicatie kardinaliteit</th>
                      <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>ja</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>IndicatieJaNee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Model_9Coherentiekarakteristiek_relatieZuurgraadLabEnBicarbonaatgehalteLab"></a><section id="detail_attribute_Model_9Coherentiekarakteristiek_relatieZuurgraadLabEnBicarbonaatgehalteLab">
+            <h7>Attribuutsoort details <a href="#global_class_Model_9Coherentiekarakteristiek">9-Coherentiekarakteristiek</a> relatie zuurgraad lab en bicarbonaatgehalte lab
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>relatie zuurgraad lab en bicarbonaatgehalte lab</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>Een controle op de aanwezigheid van bicarbonaat in combinatie met de zuurgraad</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Concentratie bicarbonaat &gt; 15 mg/l bij zuurgraad  50mg/l bij zuurgraad &lt; 5,5.Zuurgraag
+                        (pH) en bicarbonaat (HCO3) zijn een chemische consistentie echtpaar dat eventuele
+                        fouten in de analyse of mogelijke vermenging aangeven.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>ja</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -4002,12 +4110,12 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>AfwijkendeFles</td>
+                  <td>AfwijkendeConserveringGebruikt</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>AfwijkendeConserveringGebruikt</td>
+                  <td>AfwijkendeFles</td>
                   <td></td>
                </tr>
             </tbody>
@@ -4110,26 +4218,6 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>MonsterBelucht</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>FilterBelucht</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>EGVMoeilijkTeBepalen</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>TeveelDalingGrondwaterstand</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
                   <td>AfwijkendFilter</td>
                   <td></td>
                </tr>
@@ -4146,6 +4234,26 @@
                <tr>
                   <td></td>
                   <td>ContaminatieDoorVerbrandingsmotor</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>EGVMoeilijkTeBepalen</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>FilterBelucht</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>MonsterBelucht</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>TeveelDalingGrondwaterstand</td>
                   <td></td>
                </tr>
             </tbody>
@@ -4179,17 +4287,7 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>landelijk grondwaterbeheer</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>provinciaal grondwaterbeheer</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>natuurbeheer</td>
+                  <td>drinkwaterwet</td>
                   <td></td>
                </tr>
                <tr>
@@ -4199,12 +4297,22 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>richtlijn KRW 2000/60</td>
+                  <td>landelijk grondwaterbeheer</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>drinkwaterwet</td>
+                  <td>natuurbeheer</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>provinciaal grondwaterbeheer</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>richtlijn KRW 2000/60</td>
                   <td></td>
                </tr>
                <tr>
@@ -4243,12 +4351,7 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>LMG</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>PMGKwaliteit2014_2018</td>
+                  <td>KRWOM</td>
                   <td></td>
                </tr>
                <tr>
@@ -4258,12 +4361,17 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>KRWOM</td>
+                  <td>LMG</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
                   <td>Monitoring verdroging</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>PMGKwaliteit2014_2018</td>
                   <td></td>
                </tr>
             </tbody>
@@ -4445,12 +4553,12 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>teflon</td>
+                  <td>polypropyleen</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>polypropyleen</td>
+                  <td>teflon</td>
                   <td></td>
                </tr>
             </tbody>
@@ -4532,21 +4640,6 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_Brocommon_1Registratieobject_objectIDBronhouder">object-ID bronhouder</a>
-                     
-                  </td>
-                  <td>De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen
-                     administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie
-                     ondergrond.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_Tekst100">Tekst100</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
                      <a class="link" href="#detail_attribute_Brocommon_1Registratieobject_dataleverancier">dataleverancier</a>
                      
                   </td>
@@ -4567,6 +4660,21 @@
                   <td>De aanduiding van de kwaliteitseis waaraan de gegevens van het object voldoen.</td>
                   <td>
                      <a class="link" href="#global_class_Brocommon_Kwaliteitsregime">Kwaliteitsregime</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Brocommon_1Registratieobject_objectIDBronhouder">object-ID bronhouder</a>
+                     
+                  </td>
+                  <td>De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen
+                     administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie
+                     ondergrond.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_Tekst100">Tekst100</a>
                      
                   </td>
                   <td>1</td>
@@ -4610,60 +4718,6 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_Brocommon_2Registratiegeschiedenis_tijdstipRegistratieObject">tijdstip registratie object</a>
-                     
-                  </td>
-                  <td>De datum en het tijdstip waarop voor het eerst gegevens van het object in de registratie
-                     ondergrond zijn opgenomen.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_DatumTijd">DatumTijd</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Brocommon_2Registratiegeschiedenis_registratiestatus">registratiestatus</a>
-                     
-                  </td>
-                  <td>De actuele fase van registratie waarin het object zich bevindt.</td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_Registratiestatus">Registratiestatus</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Brocommon_2Registratiegeschiedenis_tijdstipLaatsteAanvulling">tijdstip laatste aanvulling</a>
-                     
-                  </td>
-                  <td>De datum en het tijdstip waarop de laatste aanvulling op de gegevens in de registratie
-                     ondergrond is doorgevoerd.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_DatumTijd">DatumTijd</a>
-                     
-                  </td>
-                  <td>0 .. 1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Brocommon_2Registratiegeschiedenis_tijdstipVoltooiingRegistratie">tijdstip voltooiing registratie</a>
-                     
-                  </td>
-                  <td>De datum en het tijdstip waarop alle gegevens van het object in de registratie ondergrond
-                     zijn opgenomen.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_DatumTijd">DatumTijd</a>
-                     
-                  </td>
-                  <td>0 .. 1</td>
-               </tr>
-               <tr>
-                  <td>
                      <a class="link" href="#detail_attribute_Brocommon_2Registratiegeschiedenis_gecorrigeerd">gecorrigeerd</a>
                      
                   </td>
@@ -4675,20 +4729,6 @@
                      
                   </td>
                   <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Brocommon_2Registratiegeschiedenis_tijdstipLaatsteCorrectie">tijdstip laatste correctie</a>
-                     
-                  </td>
-                  <td>De datum en het tijdstip waarop de laatste verbetering in de gegevens van het object
-                     is doorgevoerd.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_DatumTijd">DatumTijd</a>
-                     
-                  </td>
-                  <td>0 .. 1</td>
                </tr>
                <tr>
                   <td>
@@ -4720,6 +4760,60 @@
                </tr>
                <tr>
                   <td>
+                     <a class="link" href="#detail_attribute_Brocommon_2Registratiegeschiedenis_registratiestatus">registratiestatus</a>
+                     
+                  </td>
+                  <td>De actuele fase van registratie waarin het object zich bevindt.</td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_Registratiestatus">Registratiestatus</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Brocommon_2Registratiegeschiedenis_tijdstipLaatsteAanvulling">tijdstip laatste aanvulling</a>
+                     
+                  </td>
+                  <td>De datum en het tijdstip waarop de laatste aanvulling op de gegevens in de registratie
+                     ondergrond is doorgevoerd.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_DatumTijd">DatumTijd</a>
+                     
+                  </td>
+                  <td>0 .. 1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Brocommon_2Registratiegeschiedenis_tijdstipLaatsteCorrectie">tijdstip laatste correctie</a>
+                     
+                  </td>
+                  <td>De datum en het tijdstip waarop de laatste verbetering in de gegevens van het object
+                     is doorgevoerd.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_DatumTijd">DatumTijd</a>
+                     
+                  </td>
+                  <td>0 .. 1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Brocommon_2Registratiegeschiedenis_tijdstipRegistratieObject">tijdstip registratie object</a>
+                     
+                  </td>
+                  <td>De datum en het tijdstip waarop voor het eerst gegevens van het object in de registratie
+                     ondergrond zijn opgenomen.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_DatumTijd">DatumTijd</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
                      <a class="link" href="#detail_attribute_Brocommon_2Registratiegeschiedenis_tijdstipUitRegistratieGenomen">tijdstip uit registratie genomen</a>
                      
                   </td>
@@ -4732,17 +4826,17 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_Brocommon_2Registratiegeschiedenis_weerInRegistratieGenomen">weer in registratie genomen</a>
+                     <a class="link" href="#detail_attribute_Brocommon_2Registratiegeschiedenis_tijdstipVoltooiingRegistratie">tijdstip voltooiing registratie</a>
                      
                   </td>
-                  <td>De aanduiding die aangeeft of het object in de registratie ondergrond is opgenomen,
-                     nadat het eerder uit registratie was genomen.
+                  <td>De datum en het tijdstip waarop alle gegevens van het object in de registratie ondergrond
+                     zijn opgenomen.
                   </td>
                   <td>
-                     <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
+                     <a class="link" href="#global_class_Brocommon_DatumTijd">DatumTijd</a>
                      
                   </td>
-                  <td>1</td>
+                  <td>0 .. 1</td>
                </tr>
                <tr>
                   <td>
@@ -4765,6 +4859,20 @@
                   </td>
                   <td>De aanduiding die aangeeft of de gegevens van het object door de registerbeheerder
                      uit registratie zijn genomen.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Brocommon_2Registratiegeschiedenis_weerInRegistratieGenomen">weer in registratie genomen</a>
+                     
+                  </td>
+                  <td>De aanduiding die aangeeft of het object in de registratie ondergrond is opgenomen,
+                     nadat het eerder uit registratie was genomen.
                   </td>
                   <td>
                      <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
@@ -5086,24 +5194,24 @@
                   </tr>
                   <tr>
                      <td>
-                        <a class="link" href="#detail_attribute_Brocommon_Duur2_waarde">waarde</a>
-                        
-                     </td>
-                     <td></td>
-                     <td>
-                        Integer
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <td>
                         <a class="link" href="#detail_attribute_Brocommon_Duur2_eenheid">eenheid</a>
                         
                      </td>
                      <td></td>
                      <td>
                         CHARACTERSTRING
+                        
+                     </td>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a class="link" href="#detail_attribute_Brocommon_Duur2_waarde">waarde</a>
+                        
+                     </td>
+                     <td></td>
+                     <td>
+                        Integer
                         
                      </td>
                      <td>1</td>
@@ -5145,24 +5253,24 @@
                   </tr>
                   <tr>
                      <td>
-                        <a class="link" href="#detail_attribute_Brocommon_Getalswaarde11_waarde">waarde</a>
-                        
-                     </td>
-                     <td></td>
-                     <td>
-                        <a class="link" href="#global_class_Brocommon_Decimal">Decimal</a>
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <td>
                         <a class="link" href="#detail_attribute_Brocommon_Getalswaarde11_eenheid">eenheid</a>
                         
                      </td>
                      <td></td>
                      <td>
                         CHARACTERSTRING
+                        
+                     </td>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a class="link" href="#detail_attribute_Brocommon_Getalswaarde11_waarde">waarde</a>
+                        
+                     </td>
+                     <td></td>
+                     <td>
+                        <a class="link" href="#global_class_Brocommon_Decimal">Decimal</a>
                         
                      </td>
                      <td>1</td>
@@ -5204,24 +5312,24 @@
                   </tr>
                   <tr>
                      <td>
-                        <a class="link" href="#detail_attribute_Brocommon_Getalswaarde22_waarde">waarde</a>
-                        
-                     </td>
-                     <td></td>
-                     <td>
-                        <a class="link" href="#global_class_Brocommon_Decimal">Decimal</a>
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <td>
                         <a class="link" href="#detail_attribute_Brocommon_Getalswaarde22_eenheid">eenheid</a>
                         
                      </td>
                      <td></td>
                      <td>
                         CHARACTERSTRING
+                        
+                     </td>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a class="link" href="#detail_attribute_Brocommon_Getalswaarde22_waarde">waarde</a>
+                        
+                     </td>
+                     <td></td>
+                     <td>
+                        <a class="link" href="#global_class_Brocommon_Decimal">Decimal</a>
                         
                      </td>
                      <td>1</td>
@@ -5263,24 +5371,24 @@
                   </tr>
                   <tr>
                      <td>
-                        <a class="link" href="#detail_attribute_Brocommon_Getalswaarde3_waarde">waarde</a>
-                        
-                     </td>
-                     <td></td>
-                     <td>
-                        Integer
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <td>
                         <a class="link" href="#detail_attribute_Brocommon_Getalswaarde3_eenheid">eenheid</a>
                         
                      </td>
                      <td></td>
                      <td>
                         CHARACTERSTRING
+                        
+                     </td>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a class="link" href="#detail_attribute_Brocommon_Getalswaarde3_waarde">waarde</a>
+                        
+                     </td>
+                     <td></td>
+                     <td>
+                        Integer
                         
                      </td>
                      <td>1</td>
@@ -5322,24 +5430,24 @@
                   </tr>
                   <tr>
                      <td>
-                        <a class="link" href="#detail_attribute_Brocommon_Getalswaarde33_waarde">waarde</a>
-                        
-                     </td>
-                     <td></td>
-                     <td>
-                        <a class="link" href="#global_class_Brocommon_Decimal">Decimal</a>
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <td>
                         <a class="link" href="#detail_attribute_Brocommon_Getalswaarde33_eenheid">eenheid</a>
                         
                      </td>
                      <td></td>
                      <td>
                         CHARACTERSTRING
+                        
+                     </td>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a class="link" href="#detail_attribute_Brocommon_Getalswaarde33_waarde">waarde</a>
+                        
+                     </td>
+                     <td></td>
+                     <td>
+                        <a class="link" href="#global_class_Brocommon_Decimal">Decimal</a>
                         
                      </td>
                      <td>1</td>
@@ -5381,24 +5489,24 @@
                   </tr>
                   <tr>
                      <td>
-                        <a class="link" href="#detail_attribute_Brocommon_Getalswaarde4_waarde">waarde</a>
-                        
-                     </td>
-                     <td></td>
-                     <td>
-                        Integer
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <td>
                         <a class="link" href="#detail_attribute_Brocommon_Getalswaarde4_eenheid">eenheid</a>
                         
                      </td>
                      <td></td>
                      <td>
                         CHARACTERSTRING
+                        
+                     </td>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a class="link" href="#detail_attribute_Brocommon_Getalswaarde4_waarde">waarde</a>
+                        
+                     </td>
+                     <td></td>
+                     <td>
+                        Integer
                         
                      </td>
                      <td>1</td>
@@ -5440,24 +5548,24 @@
                   </tr>
                   <tr>
                      <td>
-                        <a class="link" href="#detail_attribute_Brocommon_Getalswaarde5_waarde">waarde</a>
-                        
-                     </td>
-                     <td></td>
-                     <td>
-                        Integer
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <td>
                         <a class="link" href="#detail_attribute_Brocommon_Getalswaarde5_eenheid">eenheid</a>
                         
                      </td>
                      <td></td>
                      <td>
                         CHARACTERSTRING
+                        
+                     </td>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a class="link" href="#detail_attribute_Brocommon_Getalswaarde5_waarde">waarde</a>
+                        
+                     </td>
+                     <td></td>
+                     <td>
+                        Integer
                         
                      </td>
                      <td>1</td>
@@ -5858,53 +5966,6 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_Brocommon_1Registratieobject_objectIDBronhouder"></a><section id="detail_attribute_Brocommon_1Registratieobject_objectIDBronhouder">
-            <h7>Attribuutsoort details <a href="#global_class_Brocommon_1Registratieobject">1-Registratieobject</a> object-ID bronhouder
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>object-ID bronhouder</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen
-                        administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie
-                        ondergrond.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Tekst100</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
          <a class="anchor" name="detail_attribute_Brocommon_1Registratieobject_dataleverancier"></a><section id="detail_attribute_Brocommon_1Registratieobject_dataleverancier">
             <h7>Attribuutsoort details <a href="#global_class_Brocommon_1Registratieobject">1-Registratieobject</a> dataleverancier
             </h7>
@@ -5995,12 +6056,8 @@
             </table>
             
          </section>
-         
-      </section>
-      <a class="anchor" name="detail_class_Brocommon_2Registratiegeschiedenis"></a><section id="detail_class_Brocommon_2Registratiegeschiedenis">
-         <h6>Objecttype 2-Registratiegeschiedenis</h6>
-         <a class="anchor" name="detail_attribute_Brocommon_2Registratiegeschiedenis_tijdstipRegistratieObject"></a><section id="detail_attribute_Brocommon_2Registratiegeschiedenis_tijdstipRegistratieObject">
-            <h7>Attribuutsoort details <a href="#global_class_Brocommon_2Registratiegeschiedenis">2-Registratiegeschiedenis</a> tijdstip registratie object
+         <a class="anchor" name="detail_attribute_Brocommon_1Registratieobject_objectIDBronhouder"></a><section id="detail_attribute_Brocommon_1Registratieobject_objectIDBronhouder">
+            <h7>Attribuutsoort details <a href="#global_class_Brocommon_1Registratieobject">1-Registratieobject</a> object-ID bronhouder
             </h7>
             
             <table>
@@ -6009,12 +6066,13 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>tijdstip registratie object</td>
+                     <td>object-ID bronhouder</td>
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De datum en het tijdstip waarop voor het eerst gegevens van het object in de registratie
-                        ondergrond zijn opgenomen.
+                     <td>De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen
+                        administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie
+                        ondergrond.
                      </td>
                   </tr>
                   <tr>
@@ -6032,6 +6090,148 @@
                   <tr>
                      <th>Indicatie kardinaliteit</th>
                      <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Tekst100</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         
+      </section>
+      <a class="anchor" name="detail_class_Brocommon_2Registratiegeschiedenis"></a><section id="detail_class_Brocommon_2Registratiegeschiedenis">
+         <h6>Objecttype 2-Registratiegeschiedenis</h6>
+         <a class="anchor" name="detail_attribute_Brocommon_2Registratiegeschiedenis_gecorrigeerd"></a><section id="detail_attribute_Brocommon_2Registratiegeschiedenis_gecorrigeerd">
+            <h7>Attribuutsoort details <a href="#global_class_Brocommon_2Registratiegeschiedenis">2-Registratiegeschiedenis</a> gecorrigeerd
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>gecorrigeerd</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De aanduiding die aangeeft of er een verbetering in de gegevens van het object in
+                        de registratie ondergrond heeft plaatsgevonden.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>IndicatieJaNee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Brocommon_2Registratiegeschiedenis_inOnderzoek"></a><section id="detail_attribute_Brocommon_2Registratiegeschiedenis_inOnderzoek">
+            <h7>Attribuutsoort details <a href="#global_class_Brocommon_2Registratiegeschiedenis">2-Registratiegeschiedenis</a> in onderzoek
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>in onderzoek</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De aanduiding die aangeeft of het object door de registerbeheerder in onderzoek is
+                        genomen.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>IndicatieJaNee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Brocommon_2Registratiegeschiedenis_inOnderzoekSinds"></a><section id="detail_attribute_Brocommon_2Registratiegeschiedenis_inOnderzoekSinds">
+            <h7>Attribuutsoort details <a href="#global_class_Brocommon_2Registratiegeschiedenis">2-Registratiegeschiedenis</a> in onderzoek sinds
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>in onderzoek sinds</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De datum en het tijdstip waarop de registerbeheerder het object in onderzoek heeft
+                        genomen.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -6135,105 +6335,6 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_Brocommon_2Registratiegeschiedenis_tijdstipVoltooiingRegistratie"></a><section id="detail_attribute_Brocommon_2Registratiegeschiedenis_tijdstipVoltooiingRegistratie">
-            <h7>Attribuutsoort details <a href="#global_class_Brocommon_2Registratiegeschiedenis">2-Registratiegeschiedenis</a> tijdstip voltooiing registratie
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>tijdstip voltooiing registratie</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De datum en het tijdstip waarop alle gegevens van het object in de registratie ondergrond
-                        zijn opgenomen.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>Het gegeven is alleen aanwezig als alle aan te leveren gegevens zijn geregistreerd.
-                        Na dit tijdstip kunnen geen nieuwe gegevens meer ter registratie worden aangeboden.
-                        Wel kunnen fouten in de registratie worden verbeterd.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>DatumTijd</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Brocommon_2Registratiegeschiedenis_gecorrigeerd"></a><section id="detail_attribute_Brocommon_2Registratiegeschiedenis_gecorrigeerd">
-            <h7>Attribuutsoort details <a href="#global_class_Brocommon_2Registratiegeschiedenis">2-Registratiegeschiedenis</a> gecorrigeerd
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>gecorrigeerd</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De aanduiding die aangeeft of er een verbetering in de gegevens van het object in
-                        de registratie ondergrond heeft plaatsgevonden.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>IndicatieJaNee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
          <a class="anchor" name="detail_attribute_Brocommon_2Registratiegeschiedenis_tijdstipLaatsteCorrectie"></a><section id="detail_attribute_Brocommon_2Registratiegeschiedenis_tijdstipLaatsteCorrectie">
             <h7>Attribuutsoort details <a href="#global_class_Brocommon_2Registratiegeschiedenis">2-Registratiegeschiedenis</a> tijdstip laatste correctie
             </h7>
@@ -6280,8 +6381,8 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_Brocommon_2Registratiegeschiedenis_inOnderzoek"></a><section id="detail_attribute_Brocommon_2Registratiegeschiedenis_inOnderzoek">
-            <h7>Attribuutsoort details <a href="#global_class_Brocommon_2Registratiegeschiedenis">2-Registratiegeschiedenis</a> in onderzoek
+         <a class="anchor" name="detail_attribute_Brocommon_2Registratiegeschiedenis_tijdstipRegistratieObject"></a><section id="detail_attribute_Brocommon_2Registratiegeschiedenis_tijdstipRegistratieObject">
+            <h7>Attribuutsoort details <a href="#global_class_Brocommon_2Registratiegeschiedenis">2-Registratiegeschiedenis</a> tijdstip registratie object
             </h7>
             
             <table>
@@ -6290,12 +6391,12 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>in onderzoek</td>
+                     <td>tijdstip registratie object</td>
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De aanduiding die aangeeft of het object door de registerbeheerder in onderzoek is
-                        genomen.
+                     <td>De datum en het tijdstip waarop voor het eerst gegevens van het object in de registratie
+                        ondergrond zijn opgenomen.
                      </td>
                   </tr>
                   <tr>
@@ -6313,52 +6414,6 @@
                   <tr>
                      <th>Indicatie kardinaliteit</th>
                      <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>IndicatieJaNee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Brocommon_2Registratiegeschiedenis_inOnderzoekSinds"></a><section id="detail_attribute_Brocommon_2Registratiegeschiedenis_inOnderzoekSinds">
-            <h7>Attribuutsoort details <a href="#global_class_Brocommon_2Registratiegeschiedenis">2-Registratiegeschiedenis</a> in onderzoek sinds
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>in onderzoek sinds</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De datum en het tijdstip waarop de registerbeheerder het object in onderzoek heeft
-                        genomen.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -6416,8 +6471,8 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_Brocommon_2Registratiegeschiedenis_weerInRegistratieGenomen"></a><section id="detail_attribute_Brocommon_2Registratiegeschiedenis_weerInRegistratieGenomen">
-            <h7>Attribuutsoort details <a href="#global_class_Brocommon_2Registratiegeschiedenis">2-Registratiegeschiedenis</a> weer in registratie genomen
+         <a class="anchor" name="detail_attribute_Brocommon_2Registratiegeschiedenis_tijdstipVoltooiingRegistratie"></a><section id="detail_attribute_Brocommon_2Registratiegeschiedenis_tijdstipVoltooiingRegistratie">
+            <h7>Attribuutsoort details <a href="#global_class_Brocommon_2Registratiegeschiedenis">2-Registratiegeschiedenis</a> tijdstip voltooiing registratie
             </h7>
             
             <table>
@@ -6426,12 +6481,19 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>weer in registratie genomen</td>
+                     <td>tijdstip voltooiing registratie</td>
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De aanduiding die aangeeft of het object in de registratie ondergrond is opgenomen,
-                        nadat het eerder uit registratie was genomen.
+                     <td>De datum en het tijdstip waarop alle gegevens van het object in de registratie ondergrond
+                        zijn opgenomen.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Het gegeven is alleen aanwezig als alle aan te leveren gegevens zijn geregistreerd.
+                        Na dit tijdstip kunnen geen nieuwe gegevens meer ter registratie worden aangeboden.
+                        Wel kunnen fouten in de registratie worden verbeterd.
                      </td>
                   </tr>
                   <tr>
@@ -6448,11 +6510,11 @@
                   </tr>
                   <tr>
                      <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
+                     <td>0 .. 1</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>IndicatieJaNee</td>
+                     <td>DatumTijd</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -6563,6 +6625,52 @@
                   <tr>
                      <th>Indicatie authentiek</th>
                      <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>IndicatieJaNee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Brocommon_2Registratiegeschiedenis_weerInRegistratieGenomen"></a><section id="detail_attribute_Brocommon_2Registratiegeschiedenis_weerInRegistratieGenomen">
+            <h7>Attribuutsoort details <a href="#global_class_Brocommon_2Registratiegeschiedenis">2-Registratiegeschiedenis</a> weer in registratie genomen
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>weer in registratie genomen</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De aanduiding die aangeeft of het object in de registratie ondergrond is opgenomen,
+                        nadat het eerder uit registratie was genomen.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -6749,30 +6857,6 @@
       </section>
       <a class="anchor" name="detail_class_Brocommon_Duur2"></a><section id="detail_class_Brocommon_Duur2">
          <h6>Gestructureerd datatype Duur2</h6>
-         <a class="anchor" name="detail_attribute_Brocommon_Duur2_waarde"></a><section id="detail_attribute_Brocommon_Duur2_waarde">
-            <h7>Data element details <a href="#global_class_Brocommon_Duur2">Duur2</a> waarde
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>waarde</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Integer</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
          <a class="anchor" name="detail_attribute_Brocommon_Duur2_eenheid"></a><section id="detail_attribute_Brocommon_Duur2_eenheid">
             <h7>Data element details <a href="#global_class_Brocommon_Duur2">Duur2</a> eenheid
             </h7>
@@ -6797,12 +6881,8 @@
             </table>
             
          </section>
-         
-      </section>
-      <a class="anchor" name="detail_class_Brocommon_Getalswaarde11"></a><section id="detail_class_Brocommon_Getalswaarde11">
-         <h6>Gestructureerd datatype Getalswaarde1.1</h6>
-         <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde11_waarde"></a><section id="detail_attribute_Brocommon_Getalswaarde11_waarde">
-            <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde11">Getalswaarde1.1</a> waarde
+         <a class="anchor" name="detail_attribute_Brocommon_Duur2_waarde"></a><section id="detail_attribute_Brocommon_Duur2_waarde">
+            <h7>Data element details <a href="#global_class_Brocommon_Duur2">Duur2</a> waarde
             </h7>
             
             <table>
@@ -6819,12 +6899,16 @@
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>Decimal</td>
+                     <td>Integer</td>
                   </tr>
                </tbody>
             </table>
             
          </section>
+         
+      </section>
+      <a class="anchor" name="detail_class_Brocommon_Getalswaarde11"></a><section id="detail_class_Brocommon_Getalswaarde11">
+         <h6>Gestructureerd datatype Getalswaarde1.1</h6>
          <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde11_eenheid"></a><section id="detail_attribute_Brocommon_Getalswaarde11_eenheid">
             <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde11">Getalswaarde1.1</a> eenheid
             </h7>
@@ -6849,12 +6933,8 @@
             </table>
             
          </section>
-         
-      </section>
-      <a class="anchor" name="detail_class_Brocommon_Getalswaarde22"></a><section id="detail_class_Brocommon_Getalswaarde22">
-         <h6>Gestructureerd datatype Getalswaarde2.2</h6>
-         <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde22_waarde"></a><section id="detail_attribute_Brocommon_Getalswaarde22_waarde">
-            <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde22">Getalswaarde2.2</a> waarde
+         <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde11_waarde"></a><section id="detail_attribute_Brocommon_Getalswaarde11_waarde">
+            <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde11">Getalswaarde1.1</a> waarde
             </h7>
             
             <table>
@@ -6877,6 +6957,10 @@
             </table>
             
          </section>
+         
+      </section>
+      <a class="anchor" name="detail_class_Brocommon_Getalswaarde22"></a><section id="detail_class_Brocommon_Getalswaarde22">
+         <h6>Gestructureerd datatype Getalswaarde2.2</h6>
          <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde22_eenheid"></a><section id="detail_attribute_Brocommon_Getalswaarde22_eenheid">
             <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde22">Getalswaarde2.2</a> eenheid
             </h7>
@@ -6901,12 +6985,8 @@
             </table>
             
          </section>
-         
-      </section>
-      <a class="anchor" name="detail_class_Brocommon_Getalswaarde3"></a><section id="detail_class_Brocommon_Getalswaarde3">
-         <h6>Gestructureerd datatype Getalswaarde3</h6>
-         <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde3_waarde"></a><section id="detail_attribute_Brocommon_Getalswaarde3_waarde">
-            <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde3">Getalswaarde3</a> waarde
+         <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde22_waarde"></a><section id="detail_attribute_Brocommon_Getalswaarde22_waarde">
+            <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde22">Getalswaarde2.2</a> waarde
             </h7>
             
             <table>
@@ -6923,12 +7003,16 @@
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>Integer</td>
+                     <td>Decimal</td>
                   </tr>
                </tbody>
             </table>
             
          </section>
+         
+      </section>
+      <a class="anchor" name="detail_class_Brocommon_Getalswaarde3"></a><section id="detail_class_Brocommon_Getalswaarde3">
+         <h6>Gestructureerd datatype Getalswaarde3</h6>
          <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde3_eenheid"></a><section id="detail_attribute_Brocommon_Getalswaarde3_eenheid">
             <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde3">Getalswaarde3</a> eenheid
             </h7>
@@ -6953,12 +7037,8 @@
             </table>
             
          </section>
-         
-      </section>
-      <a class="anchor" name="detail_class_Brocommon_Getalswaarde33"></a><section id="detail_class_Brocommon_Getalswaarde33">
-         <h6>Gestructureerd datatype Getalswaarde3.3</h6>
-         <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde33_waarde"></a><section id="detail_attribute_Brocommon_Getalswaarde33_waarde">
-            <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde33">Getalswaarde3.3</a> waarde
+         <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde3_waarde"></a><section id="detail_attribute_Brocommon_Getalswaarde3_waarde">
+            <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde3">Getalswaarde3</a> waarde
             </h7>
             
             <table>
@@ -6975,12 +7055,16 @@
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>Decimal</td>
+                     <td>Integer</td>
                   </tr>
                </tbody>
             </table>
             
          </section>
+         
+      </section>
+      <a class="anchor" name="detail_class_Brocommon_Getalswaarde33"></a><section id="detail_class_Brocommon_Getalswaarde33">
+         <h6>Gestructureerd datatype Getalswaarde3.3</h6>
          <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde33_eenheid"></a><section id="detail_attribute_Brocommon_Getalswaarde33_eenheid">
             <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde33">Getalswaarde3.3</a> eenheid
             </h7>
@@ -7005,12 +7089,8 @@
             </table>
             
          </section>
-         
-      </section>
-      <a class="anchor" name="detail_class_Brocommon_Getalswaarde4"></a><section id="detail_class_Brocommon_Getalswaarde4">
-         <h6>Gestructureerd datatype Getalswaarde4</h6>
-         <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde4_waarde"></a><section id="detail_attribute_Brocommon_Getalswaarde4_waarde">
-            <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde4">Getalswaarde4</a> waarde
+         <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde33_waarde"></a><section id="detail_attribute_Brocommon_Getalswaarde33_waarde">
+            <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde33">Getalswaarde3.3</a> waarde
             </h7>
             
             <table>
@@ -7027,12 +7107,16 @@
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>Integer</td>
+                     <td>Decimal</td>
                   </tr>
                </tbody>
             </table>
             
          </section>
+         
+      </section>
+      <a class="anchor" name="detail_class_Brocommon_Getalswaarde4"></a><section id="detail_class_Brocommon_Getalswaarde4">
+         <h6>Gestructureerd datatype Getalswaarde4</h6>
          <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde4_eenheid"></a><section id="detail_attribute_Brocommon_Getalswaarde4_eenheid">
             <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde4">Getalswaarde4</a> eenheid
             </h7>
@@ -7057,12 +7141,8 @@
             </table>
             
          </section>
-         
-      </section>
-      <a class="anchor" name="detail_class_Brocommon_Getalswaarde5"></a><section id="detail_class_Brocommon_Getalswaarde5">
-         <h6>Gestructureerd datatype Getalswaarde5</h6>
-         <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde5_waarde"></a><section id="detail_attribute_Brocommon_Getalswaarde5_waarde">
-            <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde5">Getalswaarde5</a> waarde
+         <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde4_waarde"></a><section id="detail_attribute_Brocommon_Getalswaarde4_waarde">
+            <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde4">Getalswaarde4</a> waarde
             </h7>
             
             <table>
@@ -7085,6 +7165,10 @@
             </table>
             
          </section>
+         
+      </section>
+      <a class="anchor" name="detail_class_Brocommon_Getalswaarde5"></a><section id="detail_class_Brocommon_Getalswaarde5">
+         <h6>Gestructureerd datatype Getalswaarde5</h6>
          <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde5_eenheid"></a><section id="detail_attribute_Brocommon_Getalswaarde5_eenheid">
             <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde5">Getalswaarde5</a> eenheid
             </h7>
@@ -7104,6 +7188,30 @@
                   <tr>
                      <th>Formaat</th>
                      <td>CHARACTERSTRING</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde5_waarde"></a><section id="detail_attribute_Brocommon_Getalswaarde5_waarde">
+            <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde5">Getalswaarde5</a> waarde
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>waarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Integer</td>
                   </tr>
                </tbody>
             </table>
@@ -7321,12 +7429,12 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>geregistreerd</td>
+                  <td>aangevuld</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>aangevuld</td>
+                  <td>geregistreerd</td>
                   <td></td>
                </tr>
                <tr>
