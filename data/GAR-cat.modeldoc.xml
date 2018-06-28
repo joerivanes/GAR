@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.45.3"
-      generator-date="2018-06-28T12:00:31Z">
+      generator-date="2018-06-28T12:22:19Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -3290,7 +3290,7 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>Een verandering van de HCO3 kan komen door neerslagvorming, microbiële metabolisme van organische zuren, afbraak van organisch materiaal, of andere chemische veranderingen tijdens transport, verwerking en behandeling. De volgende formule is gehanteerd:((HCO3-veld ? HCO3-lab) / (HCO3-veld + HCO3-lab)/2 ) * 100 [%]</item>
+                        <item>Een verandering van de HCO3 kan komen door neerslagvorming, microbiële metabolisme van organische zuren, afbraak van organisch materiaal, of andere chemische veranderingen tijdens transport, verwerking en behandeling. De volgende formule is gehanteerd:((HCO3-veld - HCO3-lab) / (HCO3-veld + HCO3-lab)/2 ) * 100 [%]</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -3350,7 +3350,7 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
                         <item>Een verschil tussen de in het veld en in het lab gemeten EGV (EC) kan een indicatie zijn dat er neerslag heeft plaatsgehad tijdens transport. Dit kan een indicator zijn van onevenwichtigheden in de concentraties en verlies van bepaalde ionen. De voglende formule is gehanteerd:
-((EC-veld ? EC-lab) / (EC-veld + EC-lab)/2 ) * 100 [%]</item>
+((EC-veld - EC-lab) / (EC-veld + EC-lab)/2 ) * 100 [%]</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -3410,7 +3410,7 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
                         <item>Een verandering van de pH kan komen door neerslagvorming, microbiële metabolisme van organische zuren, afbraak van organisch materiaal, of andere chemische veranderingen tijdens transport, verwerking en behandeling. De volgende formulie is gehanteerd:
-((pH-veld ? pH-lab) / (pH-veld + pH-lab)/2 ) * 100 [%]</item>
+((pH-veld - pH-lab) / (pH-veld + pH-lab)/2 ) * 100 [%]</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -3469,7 +3469,7 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>Dit gaat over het gezamenlijk voorkomen van opgelost ijzer en nitraat, zoals beschreven in rapport KWR 2015.068, Validatie grondwaterkwaliteitsdata en beschrijving KRW grondwaterlichamen Zeeland, oktober 2015. De waarde is ?ja? als de concentratie opgelost ijzer &gt; 0,5 mg/l en tevens de concentratie nitraat &gt; 1 mg NO3/l. Opgelost ijzer komt in deze concentraties alleen in anoxische milieus voor (als ijzer(II). Nitraatconcentraties &gt;1 mg/l duiden op (sub)oxisch milieu. Overigens kan in zure (pH</item>
+                        <item>Dit gaat over het gezamenlijk voorkomen van opgelost ijzer en nitraat, zoals beschreven in rapport KWR 2015.068, Validatie grondwaterkwaliteitsdata en beschrijving KRW grondwaterlichamen Zeeland, oktober 2015. De waarde is 'ja' als de concentratie opgelost ijzer &gt; 0,5 mg/l en tevens de concentratie nitraat &gt; 1 mg NO3/l. Opgelost ijzer komt in deze concentraties alleen in anoxische milieus voor (als ijzer(II). Nitraatconcentraties &gt;1 mg/l duiden op (sub)oxisch milieu. Overigens kan in zure (pH &lt; 5), oxische milieus ijzer wel voorkomen in relatief hoge concentraties als ijzer(III).</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -3579,7 +3579,7 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>Dit gaat over het gezamenlijk voorkomen van nitraat (NO3) en ammonium (HN4) zoals beschreven in het Validatieprotocol PMB, Versie 0.3 d.d. 23-06-2016 dat deel uitmaakt van het Handboek Monitoring Grondwaterkwaliteit KRW, provincies en RIVM (2017). De waarde is ?ja? als de concentratie NO3 &gt; 0.5 mg/l en tevens de concentratie HN4 &gt; 2 mg/l. Nitraat en ammonium zijn een chemische consistentie echtpaar dat eventuele fouten in de analyse of mogelijke vermenging aangeeft.</item>
+                        <item>Dit gaat over het gezamenlijk voorkomen van nitraat (NO3) en ammonium (HN4) zoals beschreven in het Validatieprotocol PMB, Versie 0.3 d.d. 23-06-2016 dat deel uitmaakt van het Handboek Monitoring Grondwaterkwaliteit KRW, provincies en RIVM (2017). De waarde is 'ja' als de concentratie NO3 &gt; 0.5 mg/l en tevens de concentratie HN4 &gt; 2 mg/l. Nitraat en ammonium zijn een chemische consistentie echtpaar dat eventuele fouten in de analyse of mogelijke vermenging aangeeft.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -3634,7 +3634,7 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>Aluminium komt alleen in zure milieus in hoge concentraties voor; bij pH&gt;8,5 begint de aluminium concentratie doorgaans weer op te lopen, maar dit komt in Nederlands grondwater nauwelijks voor. De waarde is ?ja? als de concentratie aluminium &gt; 2,5 mg/l bij 5,5  8,5. Dit is conform rapport KWR 2015.068, Validatie grondwaterkwaliteitsdata en beschrijving KRW grondwaterlichamen Zeeland, oktober 2015. Een hogere aluminiumconcentratie dan de grenswaarde bij het opgegeven pH bereik kan wijzen op een onvolkomen filtratie over 0,45 um (onjuiste filtratie, meer aluminium aanwezig dan verwacht).</item>
+                        <item>Aluminium komt alleen in zure milieus in hoge concentraties voor; bij pH&gt;8,5 begint de aluminium concentratie doorgaans weer op te lopen, maar dit komt in Nederlands grondwater nauwelijks voor. De waarde is 'ja' als de concentratie aluminium &gt; 2,5 mg/l bij 5,5  8,5. Dit is conform rapport KWR 2015.068, Validatie grondwaterkwaliteitsdata en beschrijving KRW grondwaterlichamen Zeeland, oktober 2015. Een hogere aluminiumconcentratie dan de grenswaarde bij het opgegeven pH bereik kan wijzen op een onvolkomen filtratie over 0,45 um (onjuiste filtratie, meer aluminium aanwezig dan verwacht).</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -3689,7 +3689,7 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>Dit gaat overde aanwezigheid van bicarbonaat bij een lage zuurgraad, zoals beschreven in het Validatieprotocol PMB, Versie 0.3 d.d. 23-06-2016 dat deel uitmaakt van het Handboek Monitoring Grondwaterkwaliteit KRW, provincies en RIVM (2017). De waarde is ?ja? als de concentratie bicarbonaat &gt; 15 mg/l bij zuurgraad  50mg/l bij zuurgraad &lt; 5,5. Zuurgraad (pH) en bicarbonaat (HCO3) zijn een chemische consistentie echtpaar dat eventuele fouten in de analyse of mogelijke vermenging aangeeft.</item>
+                        <item>Dit gaat overde aanwezigheid van bicarbonaat bij een lage zuurgraad, zoals beschreven in het Validatieprotocol PMB, Versie 0.3 d.d. 23-06-2016 dat deel uitmaakt van het Handboek Monitoring Grondwaterkwaliteit KRW, provincies en RIVM (2017). De waarde is 'ja' als de concentratie bicarbonaat &gt; 15 mg/l bij zuurgraad  50mg/l bij zuurgraad &lt; 5,5. Zuurgraad (pH) en bicarbonaat (HCO3) zijn een chemische consistentie echtpaar dat eventuele fouten in de analyse of mogelijke vermenging aangeeft.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>

@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "Grondwatersamenstellingsonderzoek (GAR)" door 1.45.3 op June 28, 2018 at 12:00:31.
+   "Grondwatersamenstellingsonderzoek (GAR)" door 1.45.3 op June 28, 2018 at 12:22:19.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i>arjan@linkedmatter.com</i> en geef de code 
-   <i>"Conceptualmodel-GrondwatersamenstellingsonderzoekGAR-0.1-0-20180315-20180628-140032"</i> door. 
+   <i>"Conceptualmodel-GrondwatersamenstellingsonderzoekGAR-0.1-0-20180315-20180628-142220"</i> door. 
    
 </p><a class="anchor" name="global_package_Model"></a><section id="global_package_Model">
    <h3>Domein Model</h3>
@@ -3555,7 +3555,7 @@
                      <td>Een verandering van de HCO3 kan komen door neerslagvorming, microbiële metabolisme
                         van organische zuren, afbraak van organisch materiaal, of andere chemische veranderingen
                         tijdens transport, verwerking en behandeling. De volgende formule is gehanteerd:((HCO3-veld
-                        ? HCO3-lab) / (HCO3-veld + HCO3-lab)/2 ) * 100 [%]
+                        - HCO3-lab) / (HCO3-veld + HCO3-lab)/2 ) * 100 [%]
                      </td>
                   </tr>
                   <tr>
@@ -3628,7 +3628,7 @@
                         zijn dat er neerslag heeft plaatsgehad tijdens transport. Dit kan een indicator zijn
                         van onevenwichtigheden in de concentraties en verlies van bepaalde ionen. De voglende
                         formule is gehanteerd:
-                        ((EC-veld ? EC-lab) / (EC-veld + EC-lab)/2 ) * 100 [%]
+                        ((EC-veld - EC-lab) / (EC-veld + EC-lab)/2 ) * 100 [%]
                      </td>
                   </tr>
                   <tr>
@@ -3700,7 +3700,7 @@
                      <td>Een verandering van de pH kan komen door neerslagvorming, microbiële metabolisme van
                         organische zuren, afbraak van organisch materiaal, of andere chemische veranderingen
                         tijdens transport, verwerking en behandeling. De volgende formulie is gehanteerd:
-                        ((pH-veld ? pH-lab) / (pH-veld + pH-lab)/2 ) * 100 [%]
+                        ((pH-veld - pH-lab) / (pH-veld + pH-lab)/2 ) * 100 [%]
                      </td>
                   </tr>
                   <tr>
@@ -3769,10 +3769,11 @@
                      <th>Toelichting</th>
                      <td>Dit gaat over het gezamenlijk voorkomen van opgelost ijzer en nitraat, zoals beschreven
                         in rapport KWR 2015.068, Validatie grondwaterkwaliteitsdata en beschrijving KRW grondwaterlichamen
-                        Zeeland, oktober 2015. De waarde is ?ja? als de concentratie opgelost ijzer &gt; 0,5
+                        Zeeland, oktober 2015. De waarde is 'ja' als de concentratie opgelost ijzer &gt; 0,5
                         mg/l en tevens de concentratie nitraat &gt; 1 mg NO3/l. Opgelost ijzer komt in deze concentraties
                         alleen in anoxische milieus voor (als ijzer(II). Nitraatconcentraties &gt;1 mg/l duiden
-                        op (sub)oxisch milieu. Overigens kan in zure (pH
+                        op (sub)oxisch milieu. Overigens kan in zure (pH &lt; 5), oxische milieus ijzer wel voorkomen
+                        in relatief hoge concentraties als ijzer(III).
                      </td>
                   </tr>
                   <tr>
@@ -3900,7 +3901,7 @@
                      <td>Dit gaat over het gezamenlijk voorkomen van nitraat (NO3) en ammonium (HN4) zoals
                         beschreven in het Validatieprotocol PMB, Versie 0.3 d.d. 23-06-2016 dat deel uitmaakt
                         van het Handboek Monitoring Grondwaterkwaliteit KRW, provincies en RIVM (2017). De
-                        waarde is ?ja? als de concentratie NO3 &gt; 0.5 mg/l en tevens de concentratie HN4 &gt;
+                        waarde is 'ja' als de concentratie NO3 &gt; 0.5 mg/l en tevens de concentratie HN4 &gt;
                         2 mg/l. Nitraat en ammonium zijn een chemische consistentie echtpaar dat eventuele
                         fouten in de analyse of mogelijke vermenging aangeeft.
                      </td>
@@ -3965,7 +3966,7 @@
                      <th>Toelichting</th>
                      <td>Aluminium komt alleen in zure milieus in hoge concentraties voor; bij pH&gt;8,5 begint
                         de aluminium concentratie doorgaans weer op te lopen, maar dit komt in Nederlands
-                        grondwater nauwelijks voor. De waarde is ?ja? als de concentratie aluminium &gt; 2,5
+                        grondwater nauwelijks voor. De waarde is 'ja' als de concentratie aluminium &gt; 2,5
                         mg/l bij 5,5  8,5. Dit is conform rapport KWR 2015.068, Validatie grondwaterkwaliteitsdata
                         en beschrijving KRW grondwaterlichamen Zeeland, oktober 2015. Een hogere aluminiumconcentratie
                         dan de grenswaarde bij het opgegeven pH bereik kan wijzen op een onvolkomen filtratie
@@ -4033,7 +4034,7 @@
                      <td>Dit gaat overde aanwezigheid van bicarbonaat bij een lage zuurgraad, zoals beschreven
                         in het Validatieprotocol PMB, Versie 0.3 d.d. 23-06-2016 dat deel uitmaakt van het
                         Handboek Monitoring Grondwaterkwaliteit KRW, provincies en RIVM (2017). De waarde
-                        is ?ja? als de concentratie bicarbonaat &gt; 15 mg/l bij zuurgraad  50mg/l bij zuurgraad
+                        is 'ja' als de concentratie bicarbonaat &gt; 15 mg/l bij zuurgraad  50mg/l bij zuurgraad
                         &lt; 5,5. Zuurgraad (pH) en bicarbonaat (HCO3) zijn een chemische consistentie echtpaar
                         dat eventuele fouten in de analyse of mogelijke vermenging aangeeft.
                      </td>
