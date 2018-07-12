@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "Grondwatersamenstellingsonderzoek (GAR)" door 1.45.3 op June 28, 2018 at 12:22:19.
+   "Grondwatersamenstellingsonderzoek (GAR)" door 1.46.0 op July 12, 2018 at 14:22:10.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i>arjan@linkedmatter.com</i> en geef de code 
-   <i>"Conceptualmodel-GrondwatersamenstellingsonderzoekGAR-0.1-0-20180315-20180628-142220"</i> door. 
+   <i>"Conceptualmodel-GrondwatersamenstellingsonderzoekGAR-0.1-0-20180315-20180712-162211"</i> door. 
    
 </p><a class="anchor" name="global_package_Model"></a><section id="global_package_Model">
    <h3>Domein Model</h3>
@@ -528,26 +528,14 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_Model_4ResultaatVeldmetingen_bicarbonaatgehalte">bicarbonaatgehalte</a>
-                     
-                  </td>
-                  <td>De massaconcentratie van bicarbonaat in het grondwater.</td>
-                  <td>
-                     <a class="link" href="#global_class_Model_Getalswaarde41">Getalswaarde4.1</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
                      <a class="link" href="#detail_attribute_Model_4ResultaatVeldmetingen_elektrischGeleidingsvermogen">elektrisch geleidingsvermogen</a>
                      
                   </td>
-                  <td>De elektrische geleidbaarheid (ook wel EGV, EC) van het grondwater, omgerekend naar
-                     de referentietemperatuur van 25 graden.
+                  <td>Het elektrisch geleidingsvermogen (ook wel EGV, EC) van het grondwater, omgerekend
+                     naar de referentietemperatuur van 25 graden.
                   </td>
                   <td>
-                     <a class="link" href="#global_class_Brocommon_Getalswaarde5">Getalswaarde5</a>
+                     <a class="link" href="#global_class_Brocommon_Meetwaarde5">Meetwaarde5</a>
                      
                   </td>
                   <td>1</td>
@@ -559,7 +547,7 @@
                   </td>
                   <td>De stand van het grondwater ten opzichte van de bovenkant van de monitoringsbuis.</td>
                   <td>
-                     <a class="link" href="#global_class_Brocommon_Getalswaarde22">Getalswaarde2.2</a>
+                     <a class="link" href="#global_class_Brocommon_Meetwaarde22">Meetwaarde2.2</a>
                      
                   </td>
                   <td>0 .. 1</td>
@@ -571,7 +559,7 @@
                   </td>
                   <td>De temperatuur van het opgepompte grondwater.</td>
                   <td>
-                     <a class="link" href="#global_class_Model_Getalswaarde21">Getalswaarde2.1</a>
+                     <a class="link" href="#global_class_Model_Meetwaarde21">Meetwaarde2.1</a>
                      
                   </td>
                   <td>0 .. 1</td>
@@ -583,7 +571,7 @@
                   </td>
                   <td>De in situ gemeten temperatuur van het grondwater.</td>
                   <td>
-                     <a class="link" href="#global_class_Model_Getalswaarde21">Getalswaarde2.1</a>
+                     <a class="link" href="#global_class_Model_Meetwaarde21">Meetwaarde2.1</a>
                      
                   </td>
                   <td>0 .. 1</td>
@@ -595,10 +583,22 @@
                   </td>
                   <td>De ondoorzichtigheid van het ongefiltreerde grondwater.</td>
                   <td>
-                     <a class="link" href="#global_class_Brocommon_Getalswaarde3">Getalswaarde3</a>
+                     <a class="link" href="#global_class_Brocommon_Meetwaarde3">Meetwaarde3</a>
                      
                   </td>
                   <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Model_4ResultaatVeldmetingen_waterstofcarbonaatgehalte">waterstofcarbonaatgehalte</a>
+                     
+                  </td>
+                  <td>De massaconcentratie van waterstofcarbonaat in het grondwater.</td>
+                  <td>
+                     <a class="link" href="#global_class_Model_Meetwaarde41">Meetwaarde4.1</a>
+                     
+                  </td>
+                  <td>0 .. 1</td>
                </tr>
                <tr>
                   <td>
@@ -607,7 +607,7 @@
                   </td>
                   <td>De zuurgraad van het grondwater.</td>
                   <td>
-                     <a class="link" href="#global_class_Model_Getalswaarde21">Getalswaarde2.1</a>
+                     <a class="link" href="#global_class_Model_Meetwaarde21">Meetwaarde2.1</a>
                      
                   </td>
                   <td>1</td>
@@ -619,10 +619,10 @@
                   </td>
                   <td>De massaconcentratie van zuurstof in het grondwater.</td>
                   <td>
-                     <a class="link" href="#global_class_Brocommon_Getalswaarde22">Getalswaarde2.2</a>
+                     <a class="link" href="#global_class_Brocommon_Meetwaarde22">Meetwaarde2.2</a>
                      
                   </td>
-                  <td>1</td>
+                  <td>0 .. 1</td>
                </tr>
             </tbody>
          </table>
@@ -952,7 +952,10 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Afgeleide berekeningen als karakterisering of ten behoeve van input voor synthese.</td>
+                  <td>Het geheel van gegevens dat aangeeft of bepaalde deelresultaten van het onderzoek
+                     onderling voldoende samenhang vertonen om het geheel als representatief voor de samenstelling
+                     van het grondwater te kunnen beschouwen.
+                  </td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -960,11 +963,8 @@
                </tr>
                <tr>
                   <th>Toelichting</th>
-                  <td>Het betreft een verzameling afgeleide berekeningen die het grondwatersamenstellingsonderzoek
-                     karakteriseren. Deze worden door de BRO bepaald. Er zijn twee typen berekeningen 1)
-                     Verhouding gaat om een deling van twee [sets van] parameters, waarbij de uitkomst
-                     positief of negatief kan zijn. 2) Relatie betreft een toetsing van twee metingen aan
-                     vaststaande grenzen waarbij de uitkomst waar of niet waar is.
+                  <td>De gegevens van deze entiteit staan niet in een brondocument maar worden door de basisregistratie
+                     ondergrond afgeleid uit de aangeleverde gegevens.
                   </td>
                </tr>
             </tbody>
@@ -986,54 +986,42 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_Model_9Coherentiekarakteristiek_afwijkingBicarbonaatgehalte">afwijking bicarbonaatgehalte</a>
+                     <a class="link" href="#detail_attribute_Model_9Coherentiekarakteristiek_afwijkingElektrischGeleidingsvermogen">afwijking elektrisch geleidingsvermogen</a>
                      
                   </td>
-                  <td>De uitkomst van de vergelijking tussen het bicarbonaatgehalte zoals gemeten in het
-                     veld en in het lab.
+                  <td>De mate waarin het elektrisch geleidingsvermogen gemeten in het veld en het elektrisch
+                     geleidingsvermogen gemeten in het lab van elkaar verschillen.
                   </td>
                   <td>
-                     <a class="link" href="#global_class_Brocommon_Getalswaarde22">Getalswaarde2.2</a>
+                     <a class="link" href="#global_class_Brocommon_Meetwaarde22">Meetwaarde2.2</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Model_9Coherentiekarakteristiek_afwijkingWaterstofcarbonaatgehalte">afwijking waterstofcarbonaatgehalte</a>
+                     
+                  </td>
+                  <td>De mate waarin het waterstofcarbonaatgehalte gemeten in het veld en het waterstofcarbonaatgehalte
+                     gemeten in het lab van elkaar verschillen.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_Meetwaarde22">Meetwaarde2.2</a>
                      
                   </td>
                   <td>0 .. 1</td>
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_Model_9Coherentiekarakteristiek_afwijkingElektrischGeleidingsvermogen">afwijking elektrisch geleidingsvermogen</a>
-                     
-                  </td>
-                  <td>De uitkomst van de vergelijking tussen elektrische geleidbaarheid (ook wel EGV, EC)
-                     zoals gemeten in het veld en in het lab.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_Getalswaarde22">Getalswaarde2.2</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
                      <a class="link" href="#detail_attribute_Model_9Coherentiekarakteristiek_afwijkingZuurgraad">afwijking zuurgraad</a>
                      
                   </td>
-                  <td>De uitkomst van de vergelijking tussen zuurgraad zoals gemeten in het veld en in het
-                     lab.
+                  <td>De mate waarin de zuurgraad gemeten in het veld en de zuurgraad gemeten in het lab
+                     van elkaar verschillen.
                   </td>
                   <td>
-                     <a class="link" href="#global_class_Brocommon_Getalswaarde22">Getalswaarde2.2</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_Model_9Coherentiekarakteristiek_ijzerEnNitraatAanwezig">ijzer en nitraat aanwezig</a>
-                     
-                  </td>
-                  <td>Een controle op de aanwezigheid van zowel ijzer als nitraat</td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
+                     <a class="link" href="#global_class_Brocommon_Meetwaarde22">Meetwaarde2.2</a>
                      
                   </td>
                   <td>1</td>
@@ -1043,19 +1031,23 @@
                      <a class="link" href="#detail_attribute_Model_9Coherentiekarakteristiek_ionenbalans">ionenbalans</a>
                      
                   </td>
-                  <td>De uitkomst van de vergelijking van de som van kationen en anionen</td>
+                  <td>De mate waarin de som van de positief geladen ionen (kationen) en de som van negatief
+                     geladen ionen (anionen) van elkaar verschillen.
+                  </td>
                   <td>
-                     <a class="link" href="#global_class_Brocommon_Getalswaarde22">Getalswaarde2.2</a>
+                     <a class="link" href="#global_class_Brocommon_Meetwaarde22">Meetwaarde2.2</a>
                      
                   </td>
                   <td>1</td>
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_Model_9Coherentiekarakteristiek_nitraatEnAmmoniumAanwezig">nitraat en ammonium aanwezig</a>
+                     <a class="link" href="#detail_attribute_Model_9Coherentiekarakteristiek_relatieIjzerNitraat">relatie ijzer - nitraat</a>
                      
                   </td>
-                  <td>Een controle op de aanwezigheid van zowel nitraat als ammonium</td>
+                  <td>De aanduiding die aangeeft of de gehaltes van ijzer en nitraat beide boven een bepaalde
+                     grenswaarde liggen.
+                  </td>
                   <td>
                      <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
                      
@@ -1064,10 +1056,12 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_Model_9Coherentiekarakteristiek_relatieZuurgraadLabEnAluminium">relatie zuurgraad lab en aluminium</a>
+                     <a class="link" href="#detail_attribute_Model_9Coherentiekarakteristiek_relatieNitraatAmmonium">relatie nitraat - ammonium</a>
                      
                   </td>
-                  <td>Een controle op de aanwezigheid van aluminium in combinatie met de zuurgraad</td>
+                  <td>De aanduiding die aangeeft of in het laboratoriumonderzoek de gehaltes van nitraat
+                     en ammonium beide boven een bepaalde grenswaarde liggen.
+                  </td>
                   <td>
                      <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
                      
@@ -1076,10 +1070,26 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_Model_9Coherentiekarakteristiek_relatieZuurgraadLabEnBicarbonaatgehalteLab">relatie zuurgraad lab en bicarbonaatgehalte lab</a>
+                     <a class="link" href="#detail_attribute_Model_9Coherentiekarakteristiek_relatiePHAluminium">relatie pH - aluminium</a>
                      
                   </td>
-                  <td>Een controle op de aanwezigheid van bicarbonaat in combinatie met de zuurgraad</td>
+                  <td>De aanduiding die aangeeft of in het laboratoriumonderzoek het gehalte aan aluminium
+                     en de zuurgraad beide boven een bepaalde grenswaarde liggen.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Model_9Coherentiekarakteristiek_relatiePHWaterstofcarbonaat">relatie pH - waterstofcarbonaat</a>
+                     
+                  </td>
+                  <td>De aanduiding die aangeeft of in het laboratoriumonderzoek het gehalte van waterstofcarbonaat
+                     boven en de zuurgraad onder een bepaalde grenswaarde liggen.
+                  </td>
                   <td>
                      <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
                      
@@ -1125,8 +1135,8 @@
          </table>
          
       </section>
-      <a class="anchor" name="graph_EAID_251AA387_E41B_4aa0_993D_9B89632ED821"></a><a class="anchor" name="global_class_Model_Getalswaarde21"></a><section id="global_class_Model_Getalswaarde21">
-         <h5>Primitief datatype Getalswaarde2.1</h5>
+      <a class="anchor" name="graph_EAID_251AA387_E41B_4aa0_993D_9B89632ED821"></a><a class="anchor" name="global_class_Model_Meetwaarde21"></a><section id="global_class_Model_Meetwaarde21">
+         <h5>Primitief datatype Meetwaarde2.1</h5>
          
          <table>
             <colgroup width="30%"></colgroup>
@@ -1134,14 +1144,14 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>Getalswaarde2.1</td>
+                  <td>Meetwaarde2.1</td>
                </tr>
             </tbody>
          </table>
          
       </section>
-      <a class="anchor" name="graph_EAID_4E6DC25D_2C68_4e51_8E01_F3034CC60854"></a><a class="anchor" name="global_class_Model_Getalswaarde41"></a><section id="global_class_Model_Getalswaarde41">
-         <h5>Primitief datatype Getalswaarde4.1</h5>
+      <a class="anchor" name="graph_EAID_4E6DC25D_2C68_4e51_8E01_F3034CC60854"></a><a class="anchor" name="global_class_Model_Meetwaarde41"></a><section id="global_class_Model_Meetwaarde41">
+         <h5>Primitief datatype Meetwaarde4.1</h5>
          
          <table>
             <colgroup width="30%"></colgroup>
@@ -1149,7 +1159,7 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>Getalswaarde4.1</td>
+                  <td>Meetwaarde4.1</td>
                </tr>
             </tbody>
          </table>
@@ -2244,78 +2254,6 @@
       </section>
       <a class="anchor" name="detail_class_Model_4ResultaatVeldmetingen"></a><section id="detail_class_Model_4ResultaatVeldmetingen">
          <h6>Objecttype 4-Resultaat veldmetingen</h6>
-         <a class="anchor" name="detail_attribute_Model_4ResultaatVeldmetingen_bicarbonaatgehalte"></a><section id="detail_attribute_Model_4ResultaatVeldmetingen_bicarbonaatgehalte">
-            <h7>Attribuutsoort details <a href="#global_class_Model_4ResultaatVeldmetingen">4-Resultaat veldmetingen</a> bicarbonaatgehalte
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>bicarbonaatgehalte</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De massaconcentratie van bicarbonaat in het grondwater.</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>Door uiteenlopende oorzaken kan het voorkomen dat het bicarbonaatgehalte niet bepaald
-                        is. Alleen in dat geval heeft het attribuut geen waarde.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Ja</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Ja</td>
-                  </tr>
-                  <tr>
-                     <th>Regels</th>
-                     <td>Door uiteenlopende oorzaken kan het voorkomen dat het bicarbonaatgehalte niet bepaald
-                        is. Alleen in dat geval heeft het attribuut geen waarde.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Patroon</th>
-                     <td>Getal tussen  0 en 3900 in mg/l</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Getalswaarde4.1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
          <a class="anchor" name="detail_attribute_Model_4ResultaatVeldmetingen_elektrischGeleidingsvermogen"></a><section id="detail_attribute_Model_4ResultaatVeldmetingen_elektrischGeleidingsvermogen">
             <h7>Attribuutsoort details <a href="#global_class_Model_4ResultaatVeldmetingen">4-Resultaat veldmetingen</a> elektrisch geleidingsvermogen
             </h7>
@@ -2334,13 +2272,22 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De elektrische geleidbaarheid (ook wel EGV, EC) van het grondwater, omgerekend naar
-                        de referentietemperatuur van 25 graden.
+                     <td>Het elektrisch geleidingsvermogen (ook wel EGV, EC) van het grondwater, omgerekend
+                        naar de referentietemperatuur van 25 graden.
                      </td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Het elektrisch geleidingsvermogen is een van de gegevens die wat zeggen over de toestand
+                        van het grondwater. Bepaling van het gegeven in het veld is van belang om later te
+                        kunnen vaststellen of en in hoeverre er veranderingen in de toestand zijn opgetreden.
+                        De waarde van het gegeven verandert bijvoorbeeld met de temperatuur, onder invloed
+                        van zuurstof, door ontgassing en door het optreden van microbiologische activiteit
+                     </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -2374,7 +2321,7 @@
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>Getalswaarde5</td>
+                     <td>Meetwaarde5</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -2441,7 +2388,7 @@
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>Getalswaarde2.2</td>
+                     <td>Meetwaarde2.2</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -2508,7 +2455,7 @@
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>Getalswaarde2.1</td>
+                     <td>Meetwaarde2.1</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -2575,7 +2522,7 @@
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>Getalswaarde2.1</td>
+                     <td>Meetwaarde2.1</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -2641,11 +2588,89 @@
                   </tr>
                   <tr>
                      <th>Patroon</th>
-                     <td>Getal tussen 0 en 50 in NTU</td>
+                     <td>Getal tussen 0 en 60 in NTU</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>Getalswaarde3</td>
+                     <td>Meetwaarde3</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Model_4ResultaatVeldmetingen_waterstofcarbonaatgehalte"></a><section id="detail_attribute_Model_4ResultaatVeldmetingen_waterstofcarbonaatgehalte">
+            <h7>Attribuutsoort details <a href="#global_class_Model_4ResultaatVeldmetingen">4-Resultaat veldmetingen</a> waterstofcarbonaatgehalte
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>waterstofcarbonaatgehalte</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De massaconcentratie van waterstofcarbonaat in het grondwater.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Het waterstofcarbonaatgehalte is een van de gegevens die wat zeggen over de toestand
+                        van het grondwater. Bepaling van het gegeven in het veld is van belang om later te
+                        kunnen vaststellen of en in hoeverre er veranderingen in de toestand zijn opgetreden.
+                        De waarde van het gegeven verandert bijvoorbeeld met de temperatuur, onder invloed
+                        van zuurstof, door ontgassing en door het optreden van microbiologische activiteit.
+                        De bepaling kan alleen correct worden uitgevoerd wanneer de omstandigheden in het
+                        veld dat toelaten.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>Het gegeven ontbreekt bij bepaalde waarden van kader inwinning. Door uiteenlopende
+                        oorzaken kan het voorkomen dat het waterstofcarbonaatgehalte niet bepaald is. Alleen
+                        in dat geval heeft het attribuut geen waarde.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Patroon</th>
+                     <td>Getal tussen  0 en 3900 in mg/l</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Meetwaarde4.1</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -2680,6 +2705,15 @@
                      <td>BRO</td>
                   </tr>
                   <tr>
+                     <th>Toelichting</th>
+                     <td>De zuurgraad is een van de gegevens die wat zeggen over de toestand van het grondwater.
+                        Bepaling van het gegeven in het veld is van belang om later te kunnen vaststellen
+                        of en in hoeverre er veranderingen in de toestand zijn opgetreden. De waarde van het
+                        gegeven verandert bijvoorbeeld met de temperatuur, onder invloed van zuurstof, door
+                        ontgassing en door het optreden van microbiologische activiteit
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Ja</td>
                   </tr>
@@ -2711,7 +2745,7 @@
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>Getalswaarde2.1</td>
+                     <td>Meetwaarde2.1</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -2747,8 +2781,8 @@
                   </tr>
                   <tr>
                      <th>Toelichting</th>
-                     <td>Door een probleem met de meetapparatuur kan het voorkomen dat het zuurstofgehalte
-                        niet bepaald is. In dat geval heeft het attribuut geen waarde
+                     <td>Het kan voorkomen dat het zuurstofgehalte door een probleem met de meetapparatuur
+                        niet bepaald kon worden en alleen in dat geval heeft het gegeven geen waarde.
                      </td>
                   </tr>
                   <tr>
@@ -2765,7 +2799,7 @@
                   </tr>
                   <tr>
                      <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
+                     <td>0 .. 1</td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -2773,8 +2807,8 @@
                   </tr>
                   <tr>
                      <th>Regels</th>
-                     <td>Wanneer het attribuut kader inwinning van de entiteit Grondwatersamenstellingsonderzoek
-                        de waarde Monitoring verdroging heeft, ontbreekt het gegeven.
+                     <td>Het gegeven ontbreekt wanneer het attribuut kader inwinning van de entiteit Grondwatersamenstellingsonderzoek
+                        de waarde M monitoring verdroging heeft, In andere gevallen is het gegeven aanwezig.
                      </td>
                   </tr>
                   <tr>
@@ -2783,7 +2817,7 @@
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>Getalswaarde2.2</td>
+                     <td>Meetwaarde2.2</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -3341,7 +3375,7 @@
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>Getalswaarde3.3</td>
+                     <td>Meetwaarde3.3</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -3524,78 +3558,6 @@
       </section>
       <a class="anchor" name="detail_class_Model_9Coherentiekarakteristiek"></a><section id="detail_class_Model_9Coherentiekarakteristiek">
          <h6>Objecttype 9-Coherentiekarakteristiek</h6>
-         <a class="anchor" name="detail_attribute_Model_9Coherentiekarakteristiek_afwijkingBicarbonaatgehalte"></a><section id="detail_attribute_Model_9Coherentiekarakteristiek_afwijkingBicarbonaatgehalte">
-            <h7>Attribuutsoort details <a href="#global_class_Model_9Coherentiekarakteristiek">9-Coherentiekarakteristiek</a> afwijking bicarbonaatgehalte
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>afwijking bicarbonaatgehalte</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De uitkomst van de vergelijking tussen het bicarbonaatgehalte zoals gemeten in het
-                        veld en in het lab.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>Een verandering van de HCO3 kan komen door neerslagvorming, microbiële metabolisme
-                        van organische zuren, afbraak van organisch materiaal, of andere chemische veranderingen
-                        tijdens transport, verwerking en behandeling. De volgende formule is gehanteerd:((HCO3-veld
-                        - HCO3-lab) / (HCO3-veld + HCO3-lab)/2 ) * 100 [%]
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>ja</td>
-                  </tr>
-                  <tr>
-                     <th>Regels</th>
-                     <td>Het gegeven is alleen aanwezig als bicarbonaat (HCO3) zowel in het veld als in het
-                        lab is gemeten
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Getalswaarde2.2</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
          <a class="anchor" name="detail_attribute_Model_9Coherentiekarakteristiek_afwijkingElektrischGeleidingsvermogen"></a><section id="detail_attribute_Model_9Coherentiekarakteristiek_afwijkingElektrischGeleidingsvermogen">
             <h7>Attribuutsoort details <a href="#global_class_Model_9Coherentiekarakteristiek">9-Coherentiekarakteristiek</a> afwijking elektrisch geleidingsvermogen
             </h7>
@@ -3614,8 +3576,8 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De uitkomst van de vergelijking tussen elektrische geleidbaarheid (ook wel EGV, EC)
-                        zoals gemeten in het veld en in het lab.
+                     <td>De mate waarin het elektrisch geleidingsvermogen gemeten in het veld en het elektrisch
+                        geleidingsvermogen gemeten in het lab van elkaar verschillen.
                      </td>
                   </tr>
                   <tr>
@@ -3624,11 +3586,11 @@
                   </tr>
                   <tr>
                      <th>Toelichting</th>
-                     <td>Een verschil tussen de in het veld en in het lab gemeten EGV (EC) kan een indicatie
-                        zijn dat er neerslag heeft plaatsgehad tijdens transport. Dit kan een indicator zijn
-                        van onevenwichtigheden in de concentraties en verlies van bepaalde ionen. De voglende
-                        formule is gehanteerd:
-                        ((EC-veld - EC-lab) / (EC-veld + EC-lab)/2 ) * 100 [%]
+                     <td>De elektrische geleidbaarheid is een van de gegevens die wat zeggen over de toestand
+                        van het grondwater. Een verschil tussen de twee waarden geeft aan dat de samenstelling
+                        van het grondwater na bemonstering is veranderd. Het gegeven staat niet in een brondocument.
+                        De basisregistratie ondergrond berekent het gegeven op basis van de volgende formule:
+                        [(EC-veld - EC-lab) / ((EC-veld + EC-lab)/2 )] * 100 [%]
                      </td>
                   </tr>
                   <tr>
@@ -3659,7 +3621,80 @@
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>Getalswaarde2.2</td>
+                     <td>Meetwaarde2.2</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Model_9Coherentiekarakteristiek_afwijkingWaterstofcarbonaatgehalte"></a><section id="detail_attribute_Model_9Coherentiekarakteristiek_afwijkingWaterstofcarbonaatgehalte">
+            <h7>Attribuutsoort details <a href="#global_class_Model_9Coherentiekarakteristiek">9-Coherentiekarakteristiek</a> afwijking waterstofcarbonaatgehalte
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>afwijking waterstofcarbonaatgehalte</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De mate waarin het waterstofcarbonaatgehalte gemeten in het veld en het waterstofcarbonaatgehalte
+                        gemeten in het lab van elkaar verschillen.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Het waterstofcarbonaatgehalte is een van de gegevens die wat zeggen over de toestand
+                        van het grondwater. Een verschil tussen de twee waarden geeft aan dat de samenstelling
+                        van het grondwater na bemonstering is veranderd. Het gegeven staat niet in een brondocument.
+                        De basisregistratie ondergrond berekent het gegeven op basis van de volgende formule:
+                        [(HCO3-veld - HCO3-lab) / ((HCO3-veld + HCO3-lab)/2 )] * 100 [%]
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>ja</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>Het gegeven is alleen aanwezig als waterstofcarbonaat (HCO3) zowel in het veld als
+                        in het lab is gemeten
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Meetwaarde2.2</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -3687,8 +3722,8 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De uitkomst van de vergelijking tussen zuurgraad zoals gemeten in het veld en in het
-                        lab.
+                     <td>De mate waarin de zuurgraad gemeten in het veld en de zuurgraad gemeten in het lab
+                        van elkaar verschillen.
                      </td>
                   </tr>
                   <tr>
@@ -3697,10 +3732,11 @@
                   </tr>
                   <tr>
                      <th>Toelichting</th>
-                     <td>Een verandering van de pH kan komen door neerslagvorming, microbiële metabolisme van
-                        organische zuren, afbraak van organisch materiaal, of andere chemische veranderingen
-                        tijdens transport, verwerking en behandeling. De volgende formulie is gehanteerd:
-                        ((pH-veld - pH-lab) / (pH-veld + pH-lab)/2 ) * 100 [%]
+                     <td>De zuurgraad is een van de gegevens die wat zeggen over de toestand van het grondwater.
+                        Een verschil tussen de twee waarden geeft aan dat de samenstelling van het grondwater
+                        na bemonstering is veranderd. Het gegeven staat niet in een brondocument. De basisregistratie
+                        ondergrond berekent het gegeven op basis van de volgende formule: [(pH-veld - pH-lab)
+                        / ((pH-veld + pH-lab)/2 )] * 100 [%]
                      </td>
                   </tr>
                   <tr>
@@ -3731,74 +3767,7 @@
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>Getalswaarde2.2</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Model_9Coherentiekarakteristiek_ijzerEnNitraatAanwezig"></a><section id="detail_attribute_Model_9Coherentiekarakteristiek_ijzerEnNitraatAanwezig">
-            <h7>Attribuutsoort details <a href="#global_class_Model_9Coherentiekarakteristiek">9-Coherentiekarakteristiek</a> ijzer en nitraat aanwezig
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>ijzer en nitraat aanwezig</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>Een controle op de aanwezigheid van zowel ijzer als nitraat</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>Dit gaat over het gezamenlijk voorkomen van opgelost ijzer en nitraat, zoals beschreven
-                        in rapport KWR 2015.068, Validatie grondwaterkwaliteitsdata en beschrijving KRW grondwaterlichamen
-                        Zeeland, oktober 2015. De waarde is 'ja' als de concentratie opgelost ijzer &gt; 0,5
-                        mg/l en tevens de concentratie nitraat &gt; 1 mg NO3/l. Opgelost ijzer komt in deze concentraties
-                        alleen in anoxische milieus voor (als ijzer(II). Nitraatconcentraties &gt;1 mg/l duiden
-                        op (sub)oxisch milieu. Overigens kan in zure (pH &lt; 5), oxische milieus ijzer wel voorkomen
-                        in relatief hoge concentraties als ijzer(III).
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>ja</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>IndicatieJaNee</td>
+                     <td>Meetwaarde2.2</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -3826,7 +3795,9 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De uitkomst van de vergelijking van de som van kationen en anionen</td>
+                     <td>De mate waarin de som van de positief geladen ionen (kationen) en de som van negatief
+                        geladen ionen (anionen) van elkaar verschillen.
+                     </td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -3834,10 +3805,15 @@
                   </tr>
                   <tr>
                      <th>Toelichting</th>
-                     <td>De uitkomst geeft de mate van betrouwbaarheid weer van het grondwatersamenstellingsonderzoek.
-                        Alle ionen zijn in het lab bepaald. Berekend conform NEN6530. De gebruikte stoffen
-                        conform het Validatieprotocol PMB, Versie 0.3 d.d. 23-06-2016 dat deel uitmaakt van
-                        het Handboek Monitoring Grondwaterkwaliteit KRW, provincies en RIVM. (2017)
+                     <td>De uitkomst geeft de mate van samenhang weer in het laboratoriumonderzoek. Idealiter
+                        bedraagt de uitkomst 0 en dat geeft aan dat alle kationen en anionen gemeten zijn
+                        en dat alle metingen boven de bepaalbaarheids/rapportagegrens liggen. In de praktijk
+                        is dat eigenlijk nooit het geval, al is het alleen maar omdat de onderzoeksprocedure
+                        voorschrijft dat alleen bepaalde ionen in de berekening worden meegenomen. Voor de
+                        kationen zijn dat : Na, K, Mg, Ca, Al, As, Fe, Mn, Ba, Sr, Zn, NH4 en H. De anionen
+                        zijn: Cl, HCO3, SO4, NO3, NO2, F en CO3. Als het gehalte van een component beneden
+                        de rapportagegrens ligt, wordt die niet opgenomen in de ionenbalans. De berekening
+                        is conform NEN6530.
                      </td>
                   </tr>
                   <tr>
@@ -3861,8 +3837,14 @@
                      <td>ja</td>
                   </tr>
                   <tr>
+                     <th>Regels</th>
+                     <td>De ionenbalans is als volgt berekend: 100 * [(SOM kat ? SOM an) / (SOM kat + SOM an)]
+                        [%] waarbij: Ci [meq/l] = zi * Ci [mg/l] / Mi [mg/mmol] 
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Formaat</th>
-                     <td>Getalswaarde2.2</td>
+                     <td>Meetwaarde2.2</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -3872,8 +3854,8 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_Model_9Coherentiekarakteristiek_nitraatEnAmmoniumAanwezig"></a><section id="detail_attribute_Model_9Coherentiekarakteristiek_nitraatEnAmmoniumAanwezig">
-            <h7>Attribuutsoort details <a href="#global_class_Model_9Coherentiekarakteristiek">9-Coherentiekarakteristiek</a> nitraat en ammonium aanwezig
+         <a class="anchor" name="detail_attribute_Model_9Coherentiekarakteristiek_relatieIjzerNitraat"></a><section id="detail_attribute_Model_9Coherentiekarakteristiek_relatieIjzerNitraat">
+            <h7>Attribuutsoort details <a href="#global_class_Model_9Coherentiekarakteristiek">9-Coherentiekarakteristiek</a> relatie ijzer - nitraat
             </h7>
             
             <table>
@@ -3882,7 +3864,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>nitraat en ammonium aanwezig</td>
+                     <td>relatie ijzer - nitraat</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -3890,7 +3872,9 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>Een controle op de aanwezigheid van zowel nitraat als ammonium</td>
+                     <td>De aanduiding die aangeeft of de gehaltes van ijzer en nitraat beide boven een bepaalde
+                        grenswaarde liggen.
+                     </td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -3898,12 +3882,11 @@
                   </tr>
                   <tr>
                      <th>Toelichting</th>
-                     <td>Dit gaat over het gezamenlijk voorkomen van nitraat (NO3) en ammonium (HN4) zoals
-                        beschreven in het Validatieprotocol PMB, Versie 0.3 d.d. 23-06-2016 dat deel uitmaakt
-                        van het Handboek Monitoring Grondwaterkwaliteit KRW, provincies en RIVM (2017). De
-                        waarde is 'ja' als de concentratie NO3 &gt; 0.5 mg/l en tevens de concentratie HN4 &gt;
-                        2 mg/l. Nitraat en ammonium zijn een chemische consistentie echtpaar dat eventuele
-                        fouten in de analyse of mogelijke vermenging aangeeft.
+                     <td>Een gehalte aan ijzer(II) (Fe) boven 0,5 mg/l komt alleen in anoxische milieus voor.
+                        Een gehalte aan nitraat boven 1 mg/l duidt op (sub)oxisch milieu. Het voorkomen van
+                        de twee stoffen boven die grenswaarden is opmerkelijk. Het gegeven staat niet in een
+                        brondocument. De basisregistratie ondergrond berekent het gegeven op basis van de
+                        gegeven regel.
                      </td>
                   </tr>
                   <tr>
@@ -3927,71 +3910,10 @@
                      <td>ja</td>
                   </tr>
                   <tr>
-                     <th>Formaat</th>
-                     <td>IndicatieJaNee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Model_9Coherentiekarakteristiek_relatieZuurgraadLabEnAluminium"></a><section id="detail_attribute_Model_9Coherentiekarakteristiek_relatieZuurgraadLabEnAluminium">
-            <h7>Attribuutsoort details <a href="#global_class_Model_9Coherentiekarakteristiek">9-Coherentiekarakteristiek</a> relatie zuurgraad lab en aluminium
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>relatie zuurgraad lab en aluminium</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>Een controle op de aanwezigheid van aluminium in combinatie met de zuurgraad</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>Aluminium komt alleen in zure milieus in hoge concentraties voor; bij pH&gt;8,5 begint
-                        de aluminium concentratie doorgaans weer op te lopen, maar dit komt in Nederlands
-                        grondwater nauwelijks voor. De waarde is 'ja' als de concentratie aluminium &gt; 2,5
-                        mg/l bij 5,5  8,5. Dit is conform rapport KWR 2015.068, Validatie grondwaterkwaliteitsdata
-                        en beschrijving KRW grondwaterlichamen Zeeland, oktober 2015. Een hogere aluminiumconcentratie
-                        dan de grenswaarde bij het opgegeven pH bereik kan wijzen op een onvolkomen filtratie
-                        over 0,45 um (onjuiste filtratie, meer aluminium aanwezig dan verwacht).
+                     <th>Regels</th>
+                     <td>Het gegeven heeft de waarde ja wanneer opgelost ijzer (Fe) &gt; 0,5 mg/l en tevens nitraat
+                        (NO3) &gt; 1 mg/l
                      </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>ja</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -4005,8 +3927,8 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_Model_9Coherentiekarakteristiek_relatieZuurgraadLabEnBicarbonaatgehalteLab"></a><section id="detail_attribute_Model_9Coherentiekarakteristiek_relatieZuurgraadLabEnBicarbonaatgehalteLab">
-            <h7>Attribuutsoort details <a href="#global_class_Model_9Coherentiekarakteristiek">9-Coherentiekarakteristiek</a> relatie zuurgraad lab en bicarbonaatgehalte lab
+         <a class="anchor" name="detail_attribute_Model_9Coherentiekarakteristiek_relatieNitraatAmmonium"></a><section id="detail_attribute_Model_9Coherentiekarakteristiek_relatieNitraatAmmonium">
+            <h7>Attribuutsoort details <a href="#global_class_Model_9Coherentiekarakteristiek">9-Coherentiekarakteristiek</a> relatie nitraat - ammonium
             </h7>
             
             <table>
@@ -4015,7 +3937,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>relatie zuurgraad lab en bicarbonaatgehalte lab</td>
+                     <td>relatie nitraat - ammonium</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -4023,7 +3945,9 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>Een controle op de aanwezigheid van bicarbonaat in combinatie met de zuurgraad</td>
+                     <td>De aanduiding die aangeeft of in het laboratoriumonderzoek de gehaltes van nitraat
+                        en ammonium beide boven een bepaalde grenswaarde liggen.
+                     </td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -4031,12 +3955,11 @@
                   </tr>
                   <tr>
                      <th>Toelichting</th>
-                     <td>Dit gaat overde aanwezigheid van bicarbonaat bij een lage zuurgraad, zoals beschreven
-                        in het Validatieprotocol PMB, Versie 0.3 d.d. 23-06-2016 dat deel uitmaakt van het
-                        Handboek Monitoring Grondwaterkwaliteit KRW, provincies en RIVM (2017). De waarde
-                        is 'ja' als de concentratie bicarbonaat &gt; 15 mg/l bij zuurgraad  50mg/l bij zuurgraad
-                        &lt; 5,5. Zuurgraad (pH) en bicarbonaat (HCO3) zijn een chemische consistentie echtpaar
-                        dat eventuele fouten in de analyse of mogelijke vermenging aangeeft.
+                     <td>Nitraat is een indicator van (sub)oxische condities, ammonium is een indicator van
+                        anoxische condities. Indien de waarde van het gegeven ja is, vertoont het onderzoek
+                        onvoldoende samenhang wat bijvoorbeeld kan duiden op vermenging. Het gegeven staat
+                        niet in een brondocument. De basisregistratie ondergrond berekent het gegeven op basis
+                        van de gegeven regel.
                      </td>
                   </tr>
                   <tr>
@@ -4058,6 +3981,162 @@
                   <tr>
                      <th>Indicatie authentiek</th>
                      <td>ja</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>Het gegeven heeft de waarde ja wanneer het nitraatgehalte (NO3) &gt; 0,5 mg/l en tevens
+                        het ammoniumgehalte (NH4) &gt; 2 mg/l 
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>IndicatieJaNee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Model_9Coherentiekarakteristiek_relatiePHAluminium"></a><section id="detail_attribute_Model_9Coherentiekarakteristiek_relatiePHAluminium">
+            <h7>Attribuutsoort details <a href="#global_class_Model_9Coherentiekarakteristiek">9-Coherentiekarakteristiek</a> relatie pH - aluminium
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>relatie pH - aluminium</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De aanduiding die aangeeft of in het laboratoriumonderzoek het gehalte aan aluminium
+                        en de zuurgraad beide boven een bepaalde grenswaarde liggen.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Het aluminiumgehalte is zeer gevoelig voor verontreining en voor een juiste bepaling
+                        moeten zeer hoge eisen gesteld worden aan de bemonstering. Aluminium komt in Nederland
+                        normaliter alleeen in zure milieus in hoge concentraties voor. Bij pH boven 8,5 kan
+                        de concentratie ook hoog zijn, maar dat komt in het Nederlands grondwater nauwelijks
+                        voor. Indien de waarde van het gegeven ja is, vertoont het onderzoek onvoldoende samenhang
+                        en kan er bijvoorbeeld sprake zijn problemen bij de bemonstering. Het gegeven staat
+                        niet in een brondocument. De basisregistratie ondergrond berekent het gegeven op basis
+                        van de gegeven regel.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>ja</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>Het gegeven heeft de waarde ja wanneer aluminiumgehalte &gt; 2,5 mg/l en tevens 5,5 &lt;
+                        pH &lt; 8,5
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>IndicatieJaNee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Model_9Coherentiekarakteristiek_relatiePHWaterstofcarbonaat"></a><section id="detail_attribute_Model_9Coherentiekarakteristiek_relatiePHWaterstofcarbonaat">
+            <h7>Attribuutsoort details <a href="#global_class_Model_9Coherentiekarakteristiek">9-Coherentiekarakteristiek</a> relatie pH - waterstofcarbonaat
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>relatie pH - waterstofcarbonaat</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De aanduiding die aangeeft of in het laboratoriumonderzoek het gehalte van waterstofcarbonaat
+                        boven en de zuurgraad onder een bepaalde grenswaarde liggen.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Het waterstofcarbonaatgehalte wordt tot op zekere hoogte bepaald door de zuurgraad.
+                        Bij een lage zuurgraad kent het waterstofcarbonaatgealte een bepaalde bovengrens.
+                        Indien de waarde van het gegeven ja is, vertoont het labonderzoek onvoldoende samenhang
+                        en kan er bijvoorbeeld sprake zijn van vermenging.
+                        Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berekent
+                        het gegeven op basis van de gegeven regel.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>ja</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>Het gegeven heeft de waarde ja wanneer het waterstofcarbonaatgehalte (HCO3) &gt; 15 mg/l
+                        en tevens pH  50 mg/l en tevens pH &lt; 5,5
+                     </td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -5224,360 +5303,6 @@
          </section>
          
       </section>
-      <a class="anchor" name="graph_EAID_92738FBE_5066_4111_9231_C680D070D74B"></a><a class="anchor" name="global_class_Brocommon_Getalswaarde11"></a><section id="global_class_Brocommon_Getalswaarde11">
-         <h5>Gestructureerd datatype Getalswaarde1.1</h5>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>Getalswaarde1.1</td>
-               </tr>
-            </tbody>
-         </table>
-         
-         <section id="">
-            <h6>Overzicht data elementen </h6>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="50%"></colgroup>
-               <colgroup width="10%"></colgroup>
-               <colgroup width="10%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Data element</th>
-                     <th>Definitie</th>
-                     <th>Formaat</th>
-                     <th>Card</th>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a class="link" href="#detail_attribute_Brocommon_Getalswaarde11_eenheid">eenheid</a>
-                        
-                     </td>
-                     <td></td>
-                     <td>
-                        CHARACTERSTRING
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a class="link" href="#detail_attribute_Brocommon_Getalswaarde11_waarde">waarde</a>
-                        
-                     </td>
-                     <td></td>
-                     <td>
-                        <a class="link" href="#global_class_Brocommon_Decimal">Decimal</a>
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         
-      </section>
-      <a class="anchor" name="graph_EAID_9835EADF_B66D_423d_BBFE_38DA63A5615A"></a><a class="anchor" name="global_class_Brocommon_Getalswaarde22"></a><section id="global_class_Brocommon_Getalswaarde22">
-         <h5>Gestructureerd datatype Getalswaarde2.2</h5>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>Getalswaarde2.2</td>
-               </tr>
-            </tbody>
-         </table>
-         
-         <section id="">
-            <h6>Overzicht data elementen </h6>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="50%"></colgroup>
-               <colgroup width="10%"></colgroup>
-               <colgroup width="10%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Data element</th>
-                     <th>Definitie</th>
-                     <th>Formaat</th>
-                     <th>Card</th>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a class="link" href="#detail_attribute_Brocommon_Getalswaarde22_eenheid">eenheid</a>
-                        
-                     </td>
-                     <td></td>
-                     <td>
-                        CHARACTERSTRING
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a class="link" href="#detail_attribute_Brocommon_Getalswaarde22_waarde">waarde</a>
-                        
-                     </td>
-                     <td></td>
-                     <td>
-                        <a class="link" href="#global_class_Brocommon_Decimal">Decimal</a>
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         
-      </section>
-      <a class="anchor" name="graph_EAID_6A5E4C58_274A_4a27_AE85_98153CCDCE94"></a><a class="anchor" name="global_class_Brocommon_Getalswaarde3"></a><section id="global_class_Brocommon_Getalswaarde3">
-         <h5>Gestructureerd datatype Getalswaarde3</h5>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>Getalswaarde3</td>
-               </tr>
-            </tbody>
-         </table>
-         
-         <section id="">
-            <h6>Overzicht data elementen </h6>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="50%"></colgroup>
-               <colgroup width="10%"></colgroup>
-               <colgroup width="10%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Data element</th>
-                     <th>Definitie</th>
-                     <th>Formaat</th>
-                     <th>Card</th>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a class="link" href="#detail_attribute_Brocommon_Getalswaarde3_eenheid">eenheid</a>
-                        
-                     </td>
-                     <td></td>
-                     <td>
-                        CHARACTERSTRING
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a class="link" href="#detail_attribute_Brocommon_Getalswaarde3_waarde">waarde</a>
-                        
-                     </td>
-                     <td></td>
-                     <td>
-                        Integer
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         
-      </section>
-      <a class="anchor" name="graph_EAID_71A93A4F_3D77_46e8_B0D4_92576D99CD2E"></a><a class="anchor" name="global_class_Brocommon_Getalswaarde33"></a><section id="global_class_Brocommon_Getalswaarde33">
-         <h5>Gestructureerd datatype Getalswaarde3.3</h5>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>Getalswaarde3.3</td>
-               </tr>
-            </tbody>
-         </table>
-         
-         <section id="">
-            <h6>Overzicht data elementen </h6>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="50%"></colgroup>
-               <colgroup width="10%"></colgroup>
-               <colgroup width="10%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Data element</th>
-                     <th>Definitie</th>
-                     <th>Formaat</th>
-                     <th>Card</th>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a class="link" href="#detail_attribute_Brocommon_Getalswaarde33_eenheid">eenheid</a>
-                        
-                     </td>
-                     <td></td>
-                     <td>
-                        CHARACTERSTRING
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a class="link" href="#detail_attribute_Brocommon_Getalswaarde33_waarde">waarde</a>
-                        
-                     </td>
-                     <td></td>
-                     <td>
-                        <a class="link" href="#global_class_Brocommon_Decimal">Decimal</a>
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         
-      </section>
-      <a class="anchor" name="graph_EAID_7479095B_6EE5_4d9b_8116_AD17651E3269"></a><a class="anchor" name="global_class_Brocommon_Getalswaarde4"></a><section id="global_class_Brocommon_Getalswaarde4">
-         <h5>Gestructureerd datatype Getalswaarde4</h5>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>Getalswaarde4</td>
-               </tr>
-            </tbody>
-         </table>
-         
-         <section id="">
-            <h6>Overzicht data elementen </h6>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="50%"></colgroup>
-               <colgroup width="10%"></colgroup>
-               <colgroup width="10%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Data element</th>
-                     <th>Definitie</th>
-                     <th>Formaat</th>
-                     <th>Card</th>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a class="link" href="#detail_attribute_Brocommon_Getalswaarde4_eenheid">eenheid</a>
-                        
-                     </td>
-                     <td></td>
-                     <td>
-                        CHARACTERSTRING
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a class="link" href="#detail_attribute_Brocommon_Getalswaarde4_waarde">waarde</a>
-                        
-                     </td>
-                     <td></td>
-                     <td>
-                        Integer
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         
-      </section>
-      <a class="anchor" name="graph_EAID_F3E9FB3E_FE6B_43b3_B7D0_CD89BB39358F"></a><a class="anchor" name="global_class_Brocommon_Getalswaarde5"></a><section id="global_class_Brocommon_Getalswaarde5">
-         <h5>Gestructureerd datatype Getalswaarde5</h5>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>Getalswaarde5</td>
-               </tr>
-            </tbody>
-         </table>
-         
-         <section id="">
-            <h6>Overzicht data elementen </h6>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="50%"></colgroup>
-               <colgroup width="10%"></colgroup>
-               <colgroup width="10%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Data element</th>
-                     <th>Definitie</th>
-                     <th>Formaat</th>
-                     <th>Card</th>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a class="link" href="#detail_attribute_Brocommon_Getalswaarde5_eenheid">eenheid</a>
-                        
-                     </td>
-                     <td></td>
-                     <td>
-                        CHARACTERSTRING
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a class="link" href="#detail_attribute_Brocommon_Getalswaarde5_waarde">waarde</a>
-                        
-                     </td>
-                     <td></td>
-                     <td>
-                        Integer
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         
-      </section>
       <a class="anchor" name="graph_EAID_EDCB658C_B3C6_4b02_B31D_37C7A19F410A"></a><a class="anchor" name="global_class_Brocommon_KvKNummer"></a><section id="global_class_Brocommon_KvKNummer">
          <h5>Gestructureerd datatype KvK-nummer</h5>
          
@@ -5610,6 +5335,360 @@
                   <tr>
                      <td>
                         <a class="link" href="#detail_attribute_Brocommon_KvKNummer_waarde">waarde</a>
+                        
+                     </td>
+                     <td></td>
+                     <td>
+                        Integer
+                        
+                     </td>
+                     <td>1</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         
+      </section>
+      <a class="anchor" name="graph_EAID_92738FBE_5066_4111_9231_C680D070D74B"></a><a class="anchor" name="global_class_Brocommon_Meetwaarde11"></a><section id="global_class_Brocommon_Meetwaarde11">
+         <h5>Gestructureerd datatype Meetwaarde1.1</h5>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Meetwaarde1.1</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <section id="">
+            <h6>Overzicht data elementen </h6>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="50%"></colgroup>
+               <colgroup width="10%"></colgroup>
+               <colgroup width="10%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Data element</th>
+                     <th>Definitie</th>
+                     <th>Formaat</th>
+                     <th>Card</th>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a class="link" href="#detail_attribute_Brocommon_Meetwaarde11_eenheid">eenheid</a>
+                        
+                     </td>
+                     <td></td>
+                     <td>
+                        CHARACTERSTRING
+                        
+                     </td>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a class="link" href="#detail_attribute_Brocommon_Meetwaarde11_waarde">waarde</a>
+                        
+                     </td>
+                     <td></td>
+                     <td>
+                        <a class="link" href="#global_class_Brocommon_Decimal">Decimal</a>
+                        
+                     </td>
+                     <td>1</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         
+      </section>
+      <a class="anchor" name="graph_EAID_9835EADF_B66D_423d_BBFE_38DA63A5615A"></a><a class="anchor" name="global_class_Brocommon_Meetwaarde22"></a><section id="global_class_Brocommon_Meetwaarde22">
+         <h5>Gestructureerd datatype Meetwaarde2.2</h5>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Meetwaarde2.2</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <section id="">
+            <h6>Overzicht data elementen </h6>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="50%"></colgroup>
+               <colgroup width="10%"></colgroup>
+               <colgroup width="10%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Data element</th>
+                     <th>Definitie</th>
+                     <th>Formaat</th>
+                     <th>Card</th>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a class="link" href="#detail_attribute_Brocommon_Meetwaarde22_eenheid">eenheid</a>
+                        
+                     </td>
+                     <td></td>
+                     <td>
+                        CHARACTERSTRING
+                        
+                     </td>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a class="link" href="#detail_attribute_Brocommon_Meetwaarde22_waarde">waarde</a>
+                        
+                     </td>
+                     <td></td>
+                     <td>
+                        <a class="link" href="#global_class_Brocommon_Decimal">Decimal</a>
+                        
+                     </td>
+                     <td>1</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         
+      </section>
+      <a class="anchor" name="graph_EAID_6A5E4C58_274A_4a27_AE85_98153CCDCE94"></a><a class="anchor" name="global_class_Brocommon_Meetwaarde3"></a><section id="global_class_Brocommon_Meetwaarde3">
+         <h5>Gestructureerd datatype Meetwaarde3</h5>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Meetwaarde3</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <section id="">
+            <h6>Overzicht data elementen </h6>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="50%"></colgroup>
+               <colgroup width="10%"></colgroup>
+               <colgroup width="10%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Data element</th>
+                     <th>Definitie</th>
+                     <th>Formaat</th>
+                     <th>Card</th>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a class="link" href="#detail_attribute_Brocommon_Meetwaarde3_eenheid">eenheid</a>
+                        
+                     </td>
+                     <td></td>
+                     <td>
+                        CHARACTERSTRING
+                        
+                     </td>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a class="link" href="#detail_attribute_Brocommon_Meetwaarde3_waarde">waarde</a>
+                        
+                     </td>
+                     <td></td>
+                     <td>
+                        Integer
+                        
+                     </td>
+                     <td>1</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         
+      </section>
+      <a class="anchor" name="graph_EAID_71A93A4F_3D77_46e8_B0D4_92576D99CD2E"></a><a class="anchor" name="global_class_Brocommon_Meetwaarde33"></a><section id="global_class_Brocommon_Meetwaarde33">
+         <h5>Gestructureerd datatype Meetwaarde3.3</h5>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Meetwaarde3.3</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <section id="">
+            <h6>Overzicht data elementen </h6>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="50%"></colgroup>
+               <colgroup width="10%"></colgroup>
+               <colgroup width="10%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Data element</th>
+                     <th>Definitie</th>
+                     <th>Formaat</th>
+                     <th>Card</th>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a class="link" href="#detail_attribute_Brocommon_Meetwaarde33_eenheid">eenheid</a>
+                        
+                     </td>
+                     <td></td>
+                     <td>
+                        CHARACTERSTRING
+                        
+                     </td>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a class="link" href="#detail_attribute_Brocommon_Meetwaarde33_waarde">waarde</a>
+                        
+                     </td>
+                     <td></td>
+                     <td>
+                        <a class="link" href="#global_class_Brocommon_Decimal">Decimal</a>
+                        
+                     </td>
+                     <td>1</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         
+      </section>
+      <a class="anchor" name="graph_EAID_7479095B_6EE5_4d9b_8116_AD17651E3269"></a><a class="anchor" name="global_class_Brocommon_Meetwaarde4"></a><section id="global_class_Brocommon_Meetwaarde4">
+         <h5>Gestructureerd datatype Meetwaarde4</h5>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Meetwaarde4</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <section id="">
+            <h6>Overzicht data elementen </h6>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="50%"></colgroup>
+               <colgroup width="10%"></colgroup>
+               <colgroup width="10%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Data element</th>
+                     <th>Definitie</th>
+                     <th>Formaat</th>
+                     <th>Card</th>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a class="link" href="#detail_attribute_Brocommon_Meetwaarde4_eenheid">eenheid</a>
+                        
+                     </td>
+                     <td></td>
+                     <td>
+                        CHARACTERSTRING
+                        
+                     </td>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a class="link" href="#detail_attribute_Brocommon_Meetwaarde4_waarde">waarde</a>
+                        
+                     </td>
+                     <td></td>
+                     <td>
+                        Integer
+                        
+                     </td>
+                     <td>1</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         
+      </section>
+      <a class="anchor" name="graph_EAID_F3E9FB3E_FE6B_43b3_B7D0_CD89BB39358F"></a><a class="anchor" name="global_class_Brocommon_Meetwaarde5"></a><section id="global_class_Brocommon_Meetwaarde5">
+         <h5>Gestructureerd datatype Meetwaarde5</h5>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Meetwaarde5</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <section id="">
+            <h6>Overzicht data elementen </h6>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="50%"></colgroup>
+               <colgroup width="10%"></colgroup>
+               <colgroup width="10%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Data element</th>
+                     <th>Definitie</th>
+                     <th>Formaat</th>
+                     <th>Card</th>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a class="link" href="#detail_attribute_Brocommon_Meetwaarde5_eenheid">eenheid</a>
+                        
+                     </td>
+                     <td></td>
+                     <td>
+                        CHARACTERSTRING
+                        
+                     </td>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a class="link" href="#detail_attribute_Brocommon_Meetwaarde5_waarde">waarde</a>
                         
                      </td>
                      <td></td>
@@ -6909,322 +6988,322 @@
          </section>
          
       </section>
-      <a class="anchor" name="detail_class_Brocommon_Getalswaarde11"></a><section id="detail_class_Brocommon_Getalswaarde11">
-         <h6>Gestructureerd datatype Getalswaarde1.1</h6>
-         <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde11_eenheid"></a><section id="detail_attribute_Brocommon_Getalswaarde11_eenheid">
-            <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde11">Getalswaarde1.1</a> eenheid
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>eenheid</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>CHARACTERSTRING</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde11_waarde"></a><section id="detail_attribute_Brocommon_Getalswaarde11_waarde">
-            <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde11">Getalswaarde1.1</a> waarde
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>waarde</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Decimal</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         
-      </section>
-      <a class="anchor" name="detail_class_Brocommon_Getalswaarde22"></a><section id="detail_class_Brocommon_Getalswaarde22">
-         <h6>Gestructureerd datatype Getalswaarde2.2</h6>
-         <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde22_eenheid"></a><section id="detail_attribute_Brocommon_Getalswaarde22_eenheid">
-            <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde22">Getalswaarde2.2</a> eenheid
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>eenheid</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>CHARACTERSTRING</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde22_waarde"></a><section id="detail_attribute_Brocommon_Getalswaarde22_waarde">
-            <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde22">Getalswaarde2.2</a> waarde
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>waarde</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Decimal</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         
-      </section>
-      <a class="anchor" name="detail_class_Brocommon_Getalswaarde3"></a><section id="detail_class_Brocommon_Getalswaarde3">
-         <h6>Gestructureerd datatype Getalswaarde3</h6>
-         <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde3_eenheid"></a><section id="detail_attribute_Brocommon_Getalswaarde3_eenheid">
-            <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde3">Getalswaarde3</a> eenheid
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>eenheid</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>CHARACTERSTRING</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde3_waarde"></a><section id="detail_attribute_Brocommon_Getalswaarde3_waarde">
-            <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde3">Getalswaarde3</a> waarde
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>waarde</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Integer</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         
-      </section>
-      <a class="anchor" name="detail_class_Brocommon_Getalswaarde33"></a><section id="detail_class_Brocommon_Getalswaarde33">
-         <h6>Gestructureerd datatype Getalswaarde3.3</h6>
-         <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde33_eenheid"></a><section id="detail_attribute_Brocommon_Getalswaarde33_eenheid">
-            <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde33">Getalswaarde3.3</a> eenheid
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>eenheid</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>CHARACTERSTRING</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde33_waarde"></a><section id="detail_attribute_Brocommon_Getalswaarde33_waarde">
-            <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde33">Getalswaarde3.3</a> waarde
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>waarde</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Decimal</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         
-      </section>
-      <a class="anchor" name="detail_class_Brocommon_Getalswaarde4"></a><section id="detail_class_Brocommon_Getalswaarde4">
-         <h6>Gestructureerd datatype Getalswaarde4</h6>
-         <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde4_eenheid"></a><section id="detail_attribute_Brocommon_Getalswaarde4_eenheid">
-            <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde4">Getalswaarde4</a> eenheid
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>eenheid</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>CHARACTERSTRING</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde4_waarde"></a><section id="detail_attribute_Brocommon_Getalswaarde4_waarde">
-            <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde4">Getalswaarde4</a> waarde
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>waarde</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Integer</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         
-      </section>
-      <a class="anchor" name="detail_class_Brocommon_Getalswaarde5"></a><section id="detail_class_Brocommon_Getalswaarde5">
-         <h6>Gestructureerd datatype Getalswaarde5</h6>
-         <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde5_eenheid"></a><section id="detail_attribute_Brocommon_Getalswaarde5_eenheid">
-            <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde5">Getalswaarde5</a> eenheid
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>eenheid</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>CHARACTERSTRING</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Brocommon_Getalswaarde5_waarde"></a><section id="detail_attribute_Brocommon_Getalswaarde5_waarde">
-            <h7>Data element details <a href="#global_class_Brocommon_Getalswaarde5">Getalswaarde5</a> waarde
-            </h7>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>waarde</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Integer</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         
-      </section>
       <a class="anchor" name="detail_class_Brocommon_KvKNummer"></a><section id="detail_class_Brocommon_KvKNummer">
          <h6>Gestructureerd datatype KvK-nummer</h6>
          <a class="anchor" name="detail_attribute_Brocommon_KvKNummer_waarde"></a><section id="detail_attribute_Brocommon_KvKNummer_waarde">
             <h7>Data element details <a href="#global_class_Brocommon_KvKNummer">KvK-nummer</a> waarde
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>waarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Integer</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         
+      </section>
+      <a class="anchor" name="detail_class_Brocommon_Meetwaarde11"></a><section id="detail_class_Brocommon_Meetwaarde11">
+         <h6>Gestructureerd datatype Meetwaarde1.1</h6>
+         <a class="anchor" name="detail_attribute_Brocommon_Meetwaarde11_eenheid"></a><section id="detail_attribute_Brocommon_Meetwaarde11_eenheid">
+            <h7>Data element details <a href="#global_class_Brocommon_Meetwaarde11">Meetwaarde1.1</a> eenheid
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>eenheid</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>CHARACTERSTRING</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Brocommon_Meetwaarde11_waarde"></a><section id="detail_attribute_Brocommon_Meetwaarde11_waarde">
+            <h7>Data element details <a href="#global_class_Brocommon_Meetwaarde11">Meetwaarde1.1</a> waarde
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>waarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Decimal</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         
+      </section>
+      <a class="anchor" name="detail_class_Brocommon_Meetwaarde22"></a><section id="detail_class_Brocommon_Meetwaarde22">
+         <h6>Gestructureerd datatype Meetwaarde2.2</h6>
+         <a class="anchor" name="detail_attribute_Brocommon_Meetwaarde22_eenheid"></a><section id="detail_attribute_Brocommon_Meetwaarde22_eenheid">
+            <h7>Data element details <a href="#global_class_Brocommon_Meetwaarde22">Meetwaarde2.2</a> eenheid
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>eenheid</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>CHARACTERSTRING</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Brocommon_Meetwaarde22_waarde"></a><section id="detail_attribute_Brocommon_Meetwaarde22_waarde">
+            <h7>Data element details <a href="#global_class_Brocommon_Meetwaarde22">Meetwaarde2.2</a> waarde
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>waarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Decimal</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         
+      </section>
+      <a class="anchor" name="detail_class_Brocommon_Meetwaarde3"></a><section id="detail_class_Brocommon_Meetwaarde3">
+         <h6>Gestructureerd datatype Meetwaarde3</h6>
+         <a class="anchor" name="detail_attribute_Brocommon_Meetwaarde3_eenheid"></a><section id="detail_attribute_Brocommon_Meetwaarde3_eenheid">
+            <h7>Data element details <a href="#global_class_Brocommon_Meetwaarde3">Meetwaarde3</a> eenheid
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>eenheid</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>CHARACTERSTRING</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Brocommon_Meetwaarde3_waarde"></a><section id="detail_attribute_Brocommon_Meetwaarde3_waarde">
+            <h7>Data element details <a href="#global_class_Brocommon_Meetwaarde3">Meetwaarde3</a> waarde
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>waarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Integer</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         
+      </section>
+      <a class="anchor" name="detail_class_Brocommon_Meetwaarde33"></a><section id="detail_class_Brocommon_Meetwaarde33">
+         <h6>Gestructureerd datatype Meetwaarde3.3</h6>
+         <a class="anchor" name="detail_attribute_Brocommon_Meetwaarde33_eenheid"></a><section id="detail_attribute_Brocommon_Meetwaarde33_eenheid">
+            <h7>Data element details <a href="#global_class_Brocommon_Meetwaarde33">Meetwaarde3.3</a> eenheid
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>eenheid</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>CHARACTERSTRING</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Brocommon_Meetwaarde33_waarde"></a><section id="detail_attribute_Brocommon_Meetwaarde33_waarde">
+            <h7>Data element details <a href="#global_class_Brocommon_Meetwaarde33">Meetwaarde3.3</a> waarde
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>waarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Decimal</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         
+      </section>
+      <a class="anchor" name="detail_class_Brocommon_Meetwaarde4"></a><section id="detail_class_Brocommon_Meetwaarde4">
+         <h6>Gestructureerd datatype Meetwaarde4</h6>
+         <a class="anchor" name="detail_attribute_Brocommon_Meetwaarde4_eenheid"></a><section id="detail_attribute_Brocommon_Meetwaarde4_eenheid">
+            <h7>Data element details <a href="#global_class_Brocommon_Meetwaarde4">Meetwaarde4</a> eenheid
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>eenheid</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>CHARACTERSTRING</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Brocommon_Meetwaarde4_waarde"></a><section id="detail_attribute_Brocommon_Meetwaarde4_waarde">
+            <h7>Data element details <a href="#global_class_Brocommon_Meetwaarde4">Meetwaarde4</a> waarde
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>waarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Integer</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         
+      </section>
+      <a class="anchor" name="detail_class_Brocommon_Meetwaarde5"></a><section id="detail_class_Brocommon_Meetwaarde5">
+         <h6>Gestructureerd datatype Meetwaarde5</h6>
+         <a class="anchor" name="detail_attribute_Brocommon_Meetwaarde5_eenheid"></a><section id="detail_attribute_Brocommon_Meetwaarde5_eenheid">
+            <h7>Data element details <a href="#global_class_Brocommon_Meetwaarde5">Meetwaarde5</a> eenheid
+            </h7>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>eenheid</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>CHARACTERSTRING</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Brocommon_Meetwaarde5_waarde"></a><section id="detail_attribute_Brocommon_Meetwaarde5_waarde">
+            <h7>Data element details <a href="#global_class_Brocommon_Meetwaarde5">Meetwaarde5</a> waarde
             </h7>
             
             <table>
