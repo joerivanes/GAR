@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.46.0"
-      generator-date="2018-07-12T14:22:10Z">
+      generator-date="2018-07-16T08:40:22Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -3298,7 +3298,7 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>De elektrische geleidbaarheid is een van de gegevens die wat zeggen over de toestand van het grondwater. Een verschil tussen de twee waarden geeft aan dat de samenstelling van het grondwater na bemonstering is veranderd. Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berekent het gegeven op basis van de volgende formule: [(EC-veld - EC-lab) / ((EC-veld + EC-lab)/2 )] * 100 [%]</item>
+                        <item>Het elektrisch geleidingsvermogen is een van de gegevens die wat zeggen over de toestand van het grondwater. Een verschil tussen de twee waarden geeft aan dat de samenstelling van het grondwater na bemonstering is veranderd. Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berekent het gegeven op basis van de volgende formule: [(EC-veld - EC-lab) / ((EC-veld + EC-lab)/2 )] * 100 [%]</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -3499,7 +3499,7 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
                      </part>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
-                        <item>De ionenbalans is als volgt berekend: 100 * [(SOM kat ? SOM an) / (SOM kat + SOM an)] [%] waarbij: Ci [meq/l] = zi * Ci [mg/l] / Mi [mg/mmol] </item>
+                        <item>De ionenbalans is als volgt berekend: 100 * [(SOM kat - SOM an) / (SOM kat + SOM an)] [%] waarbij: Ci [meq/l] = zi * Ci [mg/l] / Mi [mg/mmol] </item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
