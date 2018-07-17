@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.46.0"
-      generator-date="2018-07-16T14:42:10Z">
+      generator-date="2018-07-17T14:28:40Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -3711,7 +3711,7 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>Het waterstofcarbonaatgehalte wordt tot op zekere hoogte bepaald door de zuurgraad. Bij een lage zuurgraad kent het waterstofcarbonaatgealte een bepaalde bovengrens. Indien de waarde van het gegeven ja is, vertoont het labonderzoek onvoldoende samenhang en kan er bijvoorbeeld sprake zijn van vermenging.
+                        <item>Het waterstofcarbonaatgehalte wordt tot op zekere hoogte bepaald door de zuurgraad. Bij een lage zuurgraad kent het waterstofcarbonaatgehalte een bepaalde bovengrens. Indien de waarde van het gegeven ja is, vertoont het labonderzoek onvoldoende samenhang en kan er bijvoorbeeld sprake zijn van vermenging.
 Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berekent het gegeven op basis van de gegeven regel.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
