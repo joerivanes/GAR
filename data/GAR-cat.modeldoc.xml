@@ -3,8 +3,8 @@
       subpath="Conceptual model/Grondwatersamenstellingsonderzoek (GAR)/20180315"
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
-      generator-version="1.46.0"
-      generator-date="2018-07-17T14:28:40Z">
+      generator-version="1.46.1"
+      generator-date="2018-07-18T09:27:37Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -3534,7 +3534,7 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>Een gehalte aan ijzer(II) (Fe) boven 0,5 mg/l komt alleen in anoxische milieus voor. Een gehalte aan nitraat boven 1 mg/l duidt op (sub)oxisch milieu. Het voorkomen van de twee stoffen boven die grenswaarden is opmerkelijk. Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berekent het gegeven op basis van de gegeven regel.</item>
+                        <item>Een gehalte aan ijzer (Fe) boven 0,5 mg/l komt alleen in anoxische milieus voor. Een gehalte aan nitraat boven 1 mg/l duidt op (sub)oxisch milieu. Het voorkomen van de twee stoffen boven die grenswaarden is opmerkelijk. Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berekent het gegeven op basis van de gegeven regel.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
