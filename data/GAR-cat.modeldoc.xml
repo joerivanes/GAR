@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.46.1"
-      generator-date="2018-07-18T09:27:37Z">
+      generator-date="2018-07-19T09:38:19Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -2556,7 +2556,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>Het kan voorkomen dat het zuurstofgehalte door een probleem met de meetapparatuur niet bepaald kon worden en alleen in dat geval heeft het gegeven geen waarde.</item>
+                        <item>Behorende bij de regels: Het kan voorkomen dat het zuurstofgehalte door een probleem met de meetapparatuur niet bepaald kon worden en alleen in dat geval heeft het gegeven geen waarde.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -2580,7 +2580,7 @@ De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de b
                      </part>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
-                        <item>Het gegeven ontbreekt wanneer het attribuut kader inwinning van de entiteit Grondwatersamenstellingsonderzoek de waarde M monitoring verdroging heeft, In andere gevallen is het gegeven aanwezig.</item>
+                        <item>Het gegeven ontbreekt wanneer het attribuut kader inwinning van de entiteit Grondwatersamenstellingsonderzoek de waarde Monitoring verdroging heeft, In andere gevallen is het gegeven aanwezig.</item>
                      </part>
                      <part type="CFG-DOC-PATROON">
                         <item>Patroon</item>
