@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.47.1"
-      generator-date="2018-09-03T06:59:19Z">
+      generator-date="2018-09-20T13:49:49Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -790,45 +790,6 @@
                      </item>
                      <item>1</item>
                   </part>
-                  <part type="COMPOSER">
-                     <item>
-                        <value>
-                           <item type="detail" idref="detail_class_Model_Toestandparameters">toestandparameters</item>
-                        </value>
-                     </item>
-                     <item>
-                        <value/>
-                     </item>
-                     <item/>
-                     <item>
-                        <value>0 .. 1</value>
-                     </item>
-                  </part>
-                  <part type="COMPOSED">
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_Model_Toestandparameters_resultaatWaarneming">resultaat waarneming</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global" idref="global_class_Model_ResultaatToestandswaarneming">Resultaat toestandswaarneming</item>
-                     </item>
-                     <item>1 .. *</item>
-                  </part>
-                  <part type="COMPOSER">
-                     <item>
-                        <value>
-                           <item type="detail" idref="detail_class_Model_Hoofdbestanddelen">hoofdbestanddelen</item>
-                        </value>
-                     </item>
-                     <item>
-                        <value/>
-                     </item>
-                     <item/>
-                     <item>
-                        <value>0 .. 1</value>
-                     </item>
-                  </part>
                </content>
             </section>
             <section type="SHORT-ASSOCIATIONS">
@@ -836,6 +797,21 @@
                   <itemtype/>
                   <itemtype type="ASSOCIATION-NAME"/>
                   <itemtype type="ASSOCIATION-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>Laboratoriumonderzoek</item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_Model_Laboratoriumonderzoek_resultaat">leidt tot: resultaat</item>
+                        </item>
+                        <item>
+                           <item type="global" idref="global_class_Model_ResultaatLaboratoriumonderzoek">Resultaat laboratoriumonderzoek</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                     </item>
+                     <item/>
+                  </part>
                   <part>
                      <item>
                         <item>
@@ -859,6 +835,21 @@
                   <itemtype type="ROLE-DEFINITION"/>
                   <part>
                      <item>
+                        <item>Laboratoriumonderzoek</item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_Model_Laboratoriumonderzoek_resultaat">leidt tot: resultaat</item>
+                        </item>
+                        <item>
+                           <item type="global" idref="global_class_Model_ResultaatLaboratoriumonderzoek">Resultaat laboratoriumonderzoek</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                     </item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item>
                         <item>
                            <item type="global"
                                  idref="global_class_Model_Grondwatersamenstellingsonderzoek">Grondwatersamenstellingsonderzoek</item>
@@ -870,6 +861,190 @@
                         </item>
                         <item>Laboratoriumonderzoek</item>
                         <item>[ 1 .. * ]</item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
+            </section>
+         </section>
+         <section name="Resultaat laboratoriumonderzoek"
+                  type="OBJECTTYPE"
+                  id="global_class_Model_ResultaatLaboratoriumonderzoek"
+                  uuid="EAID_B5DCE6BD_C7B2_4526_94F8_6DC7B84B587A">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Resultaat laboratoriumonderzoek</item>
+               </part>
+            </content>
+            <section type="SHORT-ATTRIBUTES">
+               <content>
+                  <itemtype/>
+                  <itemtype type="ATTRIBUTE-NAME"/>
+                  <itemtype type="ATTRIBUTE-DEFINITION"/>
+                  <itemtype type="ATTRIBUTE-FORMAT"/>
+                  <itemtype type="ATTRIBUTE-CARD"/>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_ResultaatLaboratoriumonderzoek_elektrischGeleidingsvermogen">elektrisch geleidingsvermogen</item>
+                     </item>
+                     <item>Het elektrisch geleidingsvermogen (ook wel EGV, EC) van het grondwatermonster, gemeten in het laboratorium.</item>
+                     <item>
+                        <item type="global" idref="global_class_Brocommon_Meetwaarde5">Meetwaarde5</item>
+                     </item>
+                     <item>0 .. 1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_ResultaatLaboratoriumonderzoek_zuurgraad">zuurgraad</item>
+                     </item>
+                     <item>De zuurgraad van het grondwatermonster.</item>
+                     <item>
+                        <item type="global" idref="global_class_Model_Meetwaarde21">Meetwaarde2.1</item>
+                     </item>
+                     <item>0 .. 1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_ResultaatLaboratoriumonderzoek_temperatuur">temperatuur</item>
+                     </item>
+                     <item>De temperatuur van het grondwatermonster.</item>
+                     <item>
+                        <item type="global" idref="global_class_Model_Meetwaarde21">Meetwaarde2.1</item>
+                     </item>
+                     <item>0 .. 1</item>
+                  </part>
+                  <part type="COMPOSER">
+                     <item>
+                        <value>
+                           <item type="detail" idref="detail_class_Model_GehalteStof">stof</item>
+                        </value>
+                     </item>
+                     <item>
+                        <value>In het laboratorum bepaalde meetwaarde voor een stof.</value>
+                     </item>
+                     <item/>
+                     <item>
+                        <value>0 .. *</value>
+                     </item>
+                  </part>
+                  <part type="COMPOSED">
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_GehalteStof_cASNummer">CAS-nummer</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global" idref="global_class_Model_Stoffenlijst">Stoffenlijst</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part type="COMPOSED">
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_GehalteStof_waarde">waarde</item>
+                     </item>
+                     <item>Het gemeten gehalte.</item>
+                     <item>
+                        <item type="global" idref="global_class_Brocommon_Decimal">Decimal</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part type="COMPOSED">
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_GehalteStof_limietsymbool">limietsymbool</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global" idref="global_class_Brocommon_Decimal">Decimal</item>
+                     </item>
+                     <item>0 .. 1</item>
+                  </part>
+                  <part type="COMPOSER">
+                     <item>
+                        <value>
+                           <item type="detail" idref="detail_class_Model_GehalteSommatie">sommatie</item>
+                        </value>
+                     </item>
+                     <item>
+                        <value/>
+                     </item>
+                     <item/>
+                     <item>
+                        <value>0 .. *</value>
+                     </item>
+                  </part>
+                  <part type="COMPOSED">
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_GehalteSommatie_aquocode">aquocode</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global" idref="global_class_Model_Sommatielijst">Sommatielijst</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part type="COMPOSED">
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_GehalteSommatie_waarde">waarde</item>
+                     </item>
+                     <item>Het gemeten gehalte.</item>
+                     <item>
+                        <item type="global" idref="global_class_Brocommon_Decimal">Decimal</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part type="COMPOSED">
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_GehalteSommatie_limietsymbool">limietsymbool</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>0 .. 1</item>
+                  </part>
+               </content>
+            </section>
+            <section type="SHORT-ASSOCIATIONS">
+               <content approach="association">
+                  <itemtype/>
+                  <itemtype type="ASSOCIATION-NAME"/>
+                  <itemtype type="ASSOCIATION-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>
+                           <item type="global" idref="global_class_Model_Laboratoriumonderzoek">Laboratoriumonderzoek</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_Model_Laboratoriumonderzoek_resultaat">leidt tot: resultaat</item>
+                        </item>
+                        <item>Resultaat laboratoriumonderzoek</item>
+                        <item>[ 1 ]</item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
+               <content approach="target">
+                  <itemtype/>
+                  <itemtype type="ROLE-NAME"/>
+                  <itemtype type="ROLE-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>
+                           <item type="global" idref="global_class_Model_Laboratoriumonderzoek">Laboratoriumonderzoek</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_Model_Laboratoriumonderzoek_resultaat">leidt tot: resultaat</item>
+                        </item>
+                        <item>Resultaat laboratoriumonderzoek</item>
+                        <item>[ 1 ]</item>
                      </item>
                      <item/>
                   </part>
@@ -1047,18 +1222,18 @@
       </section>
       <!--removed empty content-->
       <section type="OVERVIEW-REFERENCELIST">
-         <section name="Toestandsparameterlijst"
+         <section name="Stoffenlijst"
                   type="REFERENCELIST"
-                  id="global_class_Model_Toestandsparameterlijst"
+                  id="global_class_Model_Stoffenlijst"
                   uuid="EAID_FEC2B1DD_E5C2_4c90_8B71_B69ADC431AB0">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>Toestandsparameterlijst</item>
+                  <item>Stoffenlijst</item>
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>De door het laboratorium bepaalde en bronhouder gevalideerde waarde van een parameter.</item>
+                  <item>Lijst van stoffen die in een grondwatersamenstellingsonderzoek bepaald kunnen worden.</item>
                </part>
             </content>
             <section type="SHORT-REFERENCEELEMENTS">
@@ -1070,19 +1245,7 @@
                   <itemtype type="REFERENCEELEMENT-CARD"/>
                   <part>
                      <item>
-                        <item type="detail"
-                              idref="detail_attribute_Model_Toestandsparameterlijst_parameternaam">parameternaam</item>
-                     </item>
-                     <item>Naam van de parameter die in het laboratorium is gemeten.</item>
-                     <item>
-                        <item type="global">CHARACTERSTRING</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_Model_Toestandsparameterlijst_cASNummer">CAS-nummer</item>
+                        <item type="detail" idref="detail_attribute_Model_Stoffenlijst_cASNummer">CAS-nummer</item>
                      </item>
                      <item>Chemical Abstracts Service nummer van de laboratoriumparameter.</item>
                      <item>
@@ -1092,8 +1255,7 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail"
-                              idref="detail_attribute_Model_Toestandsparameterlijst_aquocode">aquocode</item>
+                        <item type="detail" idref="detail_attribute_Model_Stoffenlijst_aquocode">aquocode</item>
                      </item>
                      <item>Aquocode van de laboratoriumparameter.</item>
                      <item>
@@ -1103,8 +1265,17 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail"
-                              idref="detail_attribute_Model_Toestandsparameterlijst_categorie">categorie</item>
+                        <item type="detail" idref="detail_attribute_Model_Stoffenlijst_naam">naam</item>
+                     </item>
+                     <item>Naam van de parameter die in het laboratorium is gemeten.</item>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_Stoffenlijst_omschrijving">omschrijving</item>
                      </item>
                      <item/>
                      <item>
@@ -1114,8 +1285,61 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail"
-                              idref="detail_attribute_Model_Toestandsparameterlijst_stofgroep">stofgroep</item>
+                        <item type="detail" idref="detail_attribute_Model_Stoffenlijst_eenheid">eenheid</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+               </content>
+            </section>
+         </section>
+         <section name="Sommatielijst"
+                  type="REFERENCELIST"
+                  id="global_class_Model_Sommatielijst"
+                  uuid="EAID_9C7EC345_35EF_469a_983E_2620D61E15E0">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Sommatielijst</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Lijst van sommaties die in een grondwatersamenstellingsonderzoek bepaald kunnen worden.</item>
+               </part>
+            </content>
+            <section type="SHORT-REFERENCEELEMENTS">
+               <content>
+                  <itemtype/>
+                  <itemtype type="REFERENCEELEMENT-NAME"/>
+                  <itemtype type="REFERENCEELEMENT-DEFINITION"/>
+                  <itemtype type="REFERENCEELEMENT-FORMAT"/>
+                  <itemtype type="REFERENCEELEMENT-CARD"/>
+                  <part>
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_Sommatielijst_aquocode">aquocode</item>
+                     </item>
+                     <item>Aquocode van de laboratoriumparameter.</item>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_Sommatielijst_naam">naam</item>
+                     </item>
+                     <item>Naam van de parameter die in het laboratorium is gemeten.</item>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_Sommatielijst_omschrijving">omschrijving</item>
                      </item>
                      <item/>
                      <item>
@@ -1125,63 +1349,7 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail"
-                              idref="detail_attribute_Model_Toestandsparameterlijst_eenheid">eenheid</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global">CHARACTERSTRING</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_Model_Toestandsparameterlijst_bereikZoetMin">bereik zoet min</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global">CHARACTERSTRING</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_Model_Toestandsparameterlijst_bereikZoetMax">bereik zoet max</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global">CHARACTERSTRING</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_Model_Toestandsparameterlijst_bereikZoutMin">bereik zout min</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global">CHARACTERSTRING</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_Model_Toestandsparameterlijst_bereikZoutMax">bereik zout max</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global">CHARACTERSTRING</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_Model_Toestandsparameterlijst_monsterfractie">monsterfractie</item>
+                        <item type="detail" idref="detail_attribute_Model_Sommatielijst_eenheid">eenheid</item>
                      </item>
                      <item/>
                      <item>
@@ -2273,7 +2441,7 @@
                      </part>
                      <part type="CFG-DOC-PATROON">
                         <item>Patroon</item>
-                        <item>Getal tussen 0 en 65.000 in ?S/cm</item>
+                        <item>Getal tussen 0 en 65.000 in ï¿½S/cm</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -2773,14 +2941,241 @@
                      </part>
                   </content>
                </section>
-               <section name="Toestandparameters"
-                        type="DETAIL-COMPOSITE"
-                        id="detail_class_Model_Toestandparameters"
-                        id-global="global_class_Model_Toestandparameters">
+               <section name="leidt tot"
+                        type="DETAIL-ASSOCIATION"
+                        id="detail_association_Model_Laboratoriumonderzoek_resultaat"
+                        id-global="global_association_Model_Laboratoriumonderzoek_resultaat">
+                  <content approach="association">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>leidt tot</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd objecttype</item>
+                        <item>
+                           <item type="global" idref="global_class_Model_ResultaatLaboratoriumonderzoek">Resultaat laboratoriumonderzoek</item>
+                        </item>
+                     </part>
+                  </content>
+                  <content approach="target">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>leidt tot</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd objecttype</item>
+                        <item>
+                           <item type="global" idref="global_class_Model_ResultaatLaboratoriumonderzoek">Resultaat laboratoriumonderzoek</item>
+                        </item>
+                     </part>
+                  </content>
+               </section>
+            </section>
+            <section name="Resultaat laboratoriumonderzoek"
+                     type="OBJECTTYPE"
+                     id="detail_class_Model_ResultaatLaboratoriumonderzoek"
+                     id-global="global_class_Model_ResultaatLaboratoriumonderzoek">
+               <section name="elektrisch geleidingsvermogen"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_ResultaatLaboratoriumonderzoek_elektrischGeleidingsvermogen"
+                        id-global="global_attribute_Model_ResultaatLaboratoriumonderzoek_elektrischGeleidingsvermogen">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>Toestandparameters</item>
+                        <item>elektrisch geleidingsvermogen</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Het elektrisch geleidingsvermogen (ook wel EGV, EC) van het grondwatermonster, gemeten in het laboratorium.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>[[omgerekend naar de referentietemperatuur van ?25? graden?]]</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Door een probleem met de meetapparatuur kan het voorkomen dat het elektrisch geleidingsvermogen niet bepaald is. Alleen in dat geval heeft het attribuut geen waarde.</item>
+                     </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>Getal tussen 0 en 65.000 in ï¿½S/cm</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Meetwaarde5</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="zuurgraad"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_ResultaatLaboratoriumonderzoek_zuurgraad"
+                        id-global="global_attribute_Model_ResultaatLaboratoriumonderzoek_zuurgraad">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>zuurgraad</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De zuurgraad van het grondwatermonster.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Ja</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Door een probleem met de meetapparatuur kan het voorkomen dat de zuurgraad niet bepaald is. Alleen in dat geval heeft het attribuut geen waarde.</item>
+                     </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>Getal tussen 3 en 10</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Meetwaarde2.1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="temperatuur"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_ResultaatLaboratoriumonderzoek_temperatuur"
+                        id-global="global_attribute_Model_ResultaatLaboratoriumonderzoek_temperatuur">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>temperatuur</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De temperatuur van het grondwatermonster.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Wanneer het attribuut kader inwinning van de entiteit Grondwatersamenstellingsonderzoek de waarde Monitoring verdroging heeft, ontbreekt het gegeven. Verder is het gegeven alleen aanwezig als het gegeven temperatuur in situ ontbreekt.</item>
+                     </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>Getal tussen 4 en 30  in graden Celsius</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Meetwaarde2.1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="GehalteStof"
+                        type="DETAIL-COMPOSITE"
+                        id="detail_class_Model_GehalteStof"
+                        id-global="global_class_Model_GehalteStof">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>GehalteStof</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>In het laboratorum bepaalde meetwaarde voor een stof.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -2791,372 +3186,128 @@
                         <item>Nee</item>
                      </part>
                   </content>
-                  <section name="Resultaat toestandswaarneming"
-                           type="DETAIL-COMPOSITE"
-                           id="detail_class_Model_ResultaatToestandswaarneming"
-                           id-global="global_class_Model_ResultaatToestandswaarneming">
+                  <section name="CAS-nummer"
+                           type="DETAIL-COMPOSITE-ATTRIBUTE"
+                           id="detail_attribute_Model_GehalteStof_cASNummer"
+                           id-global="global_attribute_Model_GehalteStof_cASNummer">
                      <content>
+                        <part type="COMPOSER">
+                           <item type="global" idref="global_class_Model_GehalteStof">GehalteStof</item>
+                        </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
-                           <item>Resultaat toestandswaarneming</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>In het laboratorum uitgevoerde waarneming met ??n bepalingstechniek volgens ??n procedure. De gebruikte techniek leidt mogelijk tot meerdere parameters uit dezelfde waarneming. Parameters die ook door een andere, meer nauwkeuriger en/of betrouwbaarder labwaarneming zijn bepaald, worden achterwege gelaten in het resultaat.</item>
-                        </part>
-                        <part type="CFG-DOC-TOELICHTING">
-                           <item>Toelichting</item>
-                           <item>Alle gegevens van dit objecttype moeten verder uitgewerkt worden. In beginsel leidt ??n labwaarneming tot ??n resultaat. Sommige technieken zoals ICP-MS leiden in dezelfde waarneming tot meerdere parameterwaarden, bijvoorbeeld omdat de gebruikte bepalingstechniek een detectie-karakter heeft: "bepaal welke metalen aanwezig zijn". Daardoor ontstaat een natuurlijke ordening van parameters die is overgenomen in de ordening van het resultaat van grondwatersamenstelling analyse.
-Het gevalideerde resultaat dat aan de BRO wordt geleverd, is het resultaat van een analyseproces waarin door het detecteren van een bepaalde stof kan worden gekozen om een specifieke analyse voor die stof uit te voeren. Bijvoorbeeld wanneer Cr wordt aangetroffen in een ICP-MS, kan door de bronhouder opdracht worden gegeven tot het uitvoeren van een ICP-OES. Wanneer door de bronhouder wordt vastgesteld dat die laatste waarde de meest betrouwbare en nauwkeurige waarde is, heeft de met de ICP-MS bepaalde waarde geen toegevoegtde waarde meer en wordt deze niet geleverd aan de BRO.
-De hier bedoelde labwaarneming moet dus worden gezien als ordening van door de bronhouder aan de BRO geleverde labresultaten.</item>
+                           <item>CAS-nummer</item>
                         </part>
                         <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                            <item>Mogelijk geen waarde</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                           <item>Indicatie materiële historie</item>
                            <item>Nee</item>
                         </part>
                         <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                            <item>Indicatie formele historie</item>
                            <item>Nee</item>
                         </part>
+                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                           <item>Indicatie kardinaliteit</item>
+                           <item>1</item>
+                        </part>
+                        <part type="CFG-DOC-FORMAAT">
+                           <item>Formaat</item>
+                           <item>Stoffenlijst</item>
+                        </part>
                      </content>
-                     <section name="datum analyse"
-                              type="DETAIL-COMPOSITE-ATTRIBUTE"
-                              id="detail_attribute_Model_ResultaatToestandswaarneming_datumAnalyse"
-                              id-global="global_attribute_Model_ResultaatToestandswaarneming_datumAnalyse">
-                        <content>
-                           <part type="COMPOSER">
-                              <item type="global" idref="global_class_Model_ResultaatToestandswaarneming">Resultaat toestandswaarneming</item>
-                           </part>
-                           <part type="CFG-DOC-NAAM">
-                              <item>Naam</item>
-                              <item>datum analyse</item>
-                           </part>
-                           <part type="CFG-DOC-HERKOMST">
-                              <item>Herkomst</item>
-                              <item>BRO</item>
-                           </part>
-                           <part type="CFG-DOC-DEFINITIE">
-                              <item>Definitie</item>
-                              <item>Datum waarop de analyse van de parameter voltooid is</item>
-                           </part>
-                           <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                              <item>Herkomst definitie</item>
-                              <item>BRO</item>
-                           </part>
-                           <part type="CFG-DOC-TOELICHTING">
-                              <item>Toelichting</item>
-                              <item>Deze wordt standaard gerapporteerd, de hergebruikswaarde is beperkt; de datum waarop het monster is genomen is het belangrijkst.</item>
-                           </part>
-                           <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                              <item>Mogelijk geen waarde</item>
-                              <item>Nee</item>
-                           </part>
-                           <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                              <item>Indicatie formele historie</item>
-                              <item>Nee</item>
-                           </part>
-                           <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                              <item>Indicatie kardinaliteit</item>
-                              <item>1</item>
-                           </part>
-                           <part type="CFG-DOC-FORMAAT">
-                              <item>Formaat</item>
-                              <item>Datum</item>
-                           </part>
-                        </content>
-                     </section>
-                     <section name="type monsterfractie"
-                              type="DETAIL-COMPOSITE-ATTRIBUTE"
-                              id="detail_attribute_Model_ResultaatToestandswaarneming_typeMonsterfractie"
-                              id-global="global_attribute_Model_ResultaatToestandswaarneming_typeMonsterfractie">
-                        <content>
-                           <part type="COMPOSER">
-                              <item type="global" idref="global_class_Model_ResultaatToestandswaarneming">Resultaat toestandswaarneming</item>
-                           </part>
-                           <part type="CFG-DOC-NAAM">
-                              <item>Naam</item>
-                              <item>type monsterfractie</item>
-                           </part>
-                           <part type="CFG-DOC-HERKOMST">
-                              <item>Herkomst</item>
-                              <item>BRO</item>
-                           </part>
-                           <part type="CFG-DOC-DEFINITIE">
-                              <item>Definitie</item>
-                              <item>Typering van de monsterfractie waarin de parameter is gemeten.</item>
-                           </part>
-                           <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                              <item>Herkomst definitie</item>
-                              <item>BRO</item>
-                           </part>
-                           <part type="CFG-DOC-TOELICHTING">
-                              <item>Toelichting</item>
-                              <item>Opgelost of totaal. Evt filtratie is iets dat in het veld al uitgevoerd wordt. Uitgangspunt is dat de hoedanigheid (bv '?uitgedrukt in N') onderdeel is van de parameteromschrijving.</item>
-                           </part>
-                           <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                              <item>Mogelijk geen waarde</item>
-                              <item>Nee</item>
-                           </part>
-                           <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                              <item>Indicatie formele historie</item>
-                              <item>Nee</item>
-                           </part>
-                           <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                              <item>Indicatie kardinaliteit</item>
-                              <item>1</item>
-                           </part>
-                           <part type="CFG-DOC-FORMAAT">
-                              <item>Formaat</item>
-                              <item>TypeMonsterfractie</item>
-                           </part>
-                        </content>
-                     </section>
-                     <section name="afwijking laboratoriumprocedure"
-                              type="DETAIL-COMPOSITE-ATTRIBUTE"
-                              id="detail_attribute_Model_ResultaatToestandswaarneming_afwijkingLaboratoriumprocedure"
-                              id-global="global_attribute_Model_ResultaatToestandswaarneming_afwijkingLaboratoriumprocedure">
-                        <content>
-                           <part type="COMPOSER">
-                              <item type="global" idref="global_class_Model_ResultaatToestandswaarneming">Resultaat toestandswaarneming</item>
-                           </part>
-                           <part type="CFG-DOC-NAAM">
-                              <item>Naam</item>
-                              <item>afwijking laboratoriumprocedure</item>
-                           </part>
-                           <part type="CFG-DOC-HERKOMST">
-                              <item>Herkomst</item>
-                              <item>BRO</item>
-                           </part>
-                           <part type="CFG-DOC-DEFINITIE">
-                              <item>Definitie</item>
-                              <item>Afwijkingen van het geaccrediteerde proces.</item>
-                           </part>
-                           <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                              <item>Herkomst definitie</item>
-                              <item>BRO</item>
-                           </part>
-                           <part type="CFG-DOC-TOELICHTING">
-                              <item>Toelichting</item>
-                              <item>Allen relevante afwijkingen tbv hergebruik.</item>
-                           </part>
-                           <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                              <item>Mogelijk geen waarde</item>
-                              <item>Nee</item>
-                           </part>
-                           <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                              <item>Indicatie formele historie</item>
-                              <item>Nee</item>
-                           </part>
-                           <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                              <item>Indicatie kardinaliteit</item>
-                              <item>0 .. 1</item>
-                           </part>
-                           <part type="CFG-DOC-FORMAAT">
-                              <item>Formaat</item>
-                              <item>AfwijkingLaboratoriumprocedure</item>
-                           </part>
-                        </content>
-                     </section>
-                     <section name="omstandigheden"
-                              type="DETAIL-COMPOSITE-ATTRIBUTE"
-                              id="detail_attribute_Model_ResultaatToestandswaarneming_omstandigheden"
-                              id-global="global_attribute_Model_ResultaatToestandswaarneming_omstandigheden">
-                        <content>
-                           <part type="COMPOSER">
-                              <item type="global" idref="global_class_Model_ResultaatToestandswaarneming">Resultaat toestandswaarneming</item>
-                           </part>
-                           <part type="CFG-DOC-NAAM">
-                              <item>Naam</item>
-                              <item>omstandigheden</item>
-                           </part>
-                           <part type="CFG-DOC-HERKOMST">
-                              <item>Herkomst</item>
-                              <item>BRO</item>
-                           </part>
-                           <part type="CFG-DOC-DEFINITIE">
-                              <item>Definitie</item>
-                              <item>Overige afwijkingen.</item>
-                           </part>
-                           <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                              <item>Herkomst definitie</item>
-                              <item>BRO</item>
-                           </part>
-                           <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                              <item>Mogelijk geen waarde</item>
-                              <item>Nee</item>
-                           </part>
-                           <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                              <item>Indicatie formele historie</item>
-                              <item>Nee</item>
-                           </part>
-                           <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                              <item>Indicatie kardinaliteit</item>
-                              <item>0 .. 1</item>
-                           </part>
-                           <part type="CFG-DOC-FORMAAT">
-                              <item>Formaat</item>
-                              <item>Tekst200</item>
-                           </part>
-                        </content>
-                     </section>
-                     <section name="analysemethode"
-                              type="DETAIL-COMPOSITE-ATTRIBUTE"
-                              id="detail_attribute_Model_ResultaatToestandswaarneming_analysemethode"
-                              id-global="global_attribute_Model_ResultaatToestandswaarneming_analysemethode">
-                        <content>
-                           <part type="COMPOSER">
-                              <item type="global" idref="global_class_Model_ResultaatToestandswaarneming">Resultaat toestandswaarneming</item>
-                           </part>
-                           <part type="CFG-DOC-NAAM">
-                              <item>Naam</item>
-                              <item>analysemethode</item>
-                           </part>
-                           <part type="CFG-DOC-HERKOMST">
-                              <item>Herkomst</item>
-                              <item>BRO</item>
-                           </part>
-                           <part type="CFG-DOC-DEFINITIE">
-                              <item>Definitie</item>
-                              <item>De [geaccrediteerde ] methode waarmee een parameter geanalyseerd wordt/is</item>
-                           </part>
-                           <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                              <item>Herkomst definitie</item>
-                              <item>BRO</item>
-                           </part>
-                           <part type="CFG-DOC-TOELICHTING">
-                              <item>Toelichting</item>
-                              <item>Gaat om de methode, bv GCMS, niet om een specifiek apparaat.</item>
-                           </part>
-                           <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                              <item>Mogelijk geen waarde</item>
-                              <item>Nee</item>
-                           </part>
-                           <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                              <item>Indicatie formele historie</item>
-                              <item>Nee</item>
-                           </part>
-                           <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                              <item>Indicatie kardinaliteit</item>
-                              <item>1</item>
-                           </part>
-                           <part type="CFG-DOC-FORMAAT">
-                              <item>Formaat</item>
-                              <item>Analysemethode</item>
-                           </part>
-                        </content>
-                     </section>
-                     <section name="rapportagegrens"
-                              type="DETAIL-COMPOSITE-ATTRIBUTE"
-                              id="detail_attribute_Model_ResultaatToestandswaarneming_rapportagegrens"
-                              id-global="global_attribute_Model_ResultaatToestandswaarneming_rapportagegrens">
-                        <content>
-                           <part type="COMPOSER">
-                              <item type="global" idref="global_class_Model_ResultaatToestandswaarneming">Resultaat toestandswaarneming</item>
-                           </part>
-                           <part type="CFG-DOC-NAAM">
-                              <item>Naam</item>
-                              <item>rapportagegrens</item>
-                           </part>
-                           <part type="CFG-DOC-HERKOMST">
-                              <item>Herkomst</item>
-                              <item>BRO</item>
-                           </part>
-                           <part type="CFG-DOC-DEFINITIE">
-                              <item>Definitie</item>
-                              <item>De door het uitvoerende laboratorium met de opdrachtgever afgesproken grensconcentratie waarboven het gemeten gehalte van de component in een monster wordt gerapporteerd aan de opdrachtgever.</item>
-                           </part>
-                           <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                              <item>Herkomst definitie</item>
-                              <item>BRO</item>
-                           </part>
-                           <part type="CFG-DOC-TOELICHTING">
-                              <item>Toelichting</item>
-                              <item>Dit wordt ook wel minimumconcentratie genoemd.</item>
-                           </part>
-                           <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                              <item>Mogelijk geen waarde</item>
-                              <item>Nee</item>
-                           </part>
-                           <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                              <item>Indicatie formele historie</item>
-                              <item>Nee</item>
-                           </part>
-                           <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                              <item>Indicatie kardinaliteit</item>
-                              <item>1</item>
-                           </part>
-                           <part type="CFG-DOC-FORMAAT">
-                              <item>Formaat</item>
-                              <item>REAL</item>
-                           </part>
-                        </content>
-                     </section>
-                     <section name="laboratoriumparameter"
-                              type="DETAIL-COMPOSITE-ATTRIBUTE"
-                              id="detail_attribute_Model_ResultaatToestandswaarneming_laboratoriumparameter"
-                              id-global="global_attribute_Model_ResultaatToestandswaarneming_laboratoriumparameter">
-                        <content>
-                           <part type="COMPOSER">
-                              <item type="global" idref="global_class_Model_ResultaatToestandswaarneming">Resultaat toestandswaarneming</item>
-                           </part>
-                           <part type="CFG-DOC-NAAM">
-                              <item>Naam</item>
-                              <item>laboratoriumparameter</item>
-                           </part>
-                           <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                              <item>Indicatie kardinaliteit</item>
-                              <item>1</item>
-                           </part>
-                           <part type="CFG-DOC-FORMAAT">
-                              <item>Formaat</item>
-                              <item>Toestandsparameterlijst</item>
-                           </part>
-                        </content>
-                     </section>
-                     <section name="laboratoriumresultaat"
-                              type="DETAIL-COMPOSITE-ATTRIBUTE"
-                              id="detail_attribute_Model_ResultaatToestandswaarneming_laboratoriumresultaat"
-                              id-global="global_attribute_Model_ResultaatToestandswaarneming_laboratoriumresultaat">
-                        <content>
-                           <part type="COMPOSER">
-                              <item type="global" idref="global_class_Model_ResultaatToestandswaarneming">Resultaat toestandswaarneming</item>
-                           </part>
-                           <part type="CFG-DOC-NAAM">
-                              <item>Naam</item>
-                              <item>laboratoriumresultaat</item>
-                           </part>
-                           <part type="CFG-DOC-DEFINITIE">
-                              <item>Definitie</item>
-                              <item>De door het laboratorium bepaalde en bronhouder gevalideerde waarde van een parameter.</item>
-                           </part>
-                           <part type="CFG-DOC-TOELICHTING">
-                              <item>Toelichting</item>
-                              <item>De gemeten concentratie wordt gerapoprteerd in een bepaalde eenheid met een uniform aantal significante waarden binnen een bepaald bereik.
-NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet nog worden vastgesteld wat het juiste datatype is.</item>
-                           </part>
-                           <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                              <item>Indicatie kardinaliteit</item>
-                              <item>1</item>
-                           </part>
-                           <part type="CFG-DOC-FORMAAT">
-                              <item>Formaat</item>
-                              <item>Meetwaarde3.3</item>
-                           </part>
-                        </content>
-                     </section>
+                  </section>
+                  <section name="waarde"
+                           type="DETAIL-COMPOSITE-ATTRIBUTE"
+                           id="detail_attribute_Model_GehalteStof_waarde"
+                           id-global="global_attribute_Model_GehalteStof_waarde">
+                     <content>
+                        <part type="COMPOSER">
+                           <item type="global" idref="global_class_Model_GehalteStof">GehalteStof</item>
+                        </part>
+                        <part type="CFG-DOC-NAAM">
+                           <item>Naam</item>
+                           <item>waarde</item>
+                        </part>
+                        <part type="CFG-DOC-DEFINITIE">
+                           <item>Definitie</item>
+                           <item>Het gemeten gehalte.</item>
+                        </part>
+                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                           <item>Mogelijk geen waarde</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                           <item>Indicatie materiële historie</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                           <item>Indicatie formele historie</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                           <item>Indicatie kardinaliteit</item>
+                           <item>1</item>
+                        </part>
+                        <part type="CFG-DOC-FORMAAT">
+                           <item>Formaat</item>
+                           <item>Decimal</item>
+                        </part>
+                     </content>
+                  </section>
+                  <section name="limietsymbool"
+                           type="DETAIL-COMPOSITE-ATTRIBUTE"
+                           id="detail_attribute_Model_GehalteStof_limietsymbool"
+                           id-global="global_attribute_Model_GehalteStof_limietsymbool">
+                     <content>
+                        <part type="COMPOSER">
+                           <item type="global" idref="global_class_Model_GehalteStof">GehalteStof</item>
+                        </part>
+                        <part type="CFG-DOC-NAAM">
+                           <item>Naam</item>
+                           <item>limietsymbool</item>
+                        </part>
+                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                           <item>Mogelijk geen waarde</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                           <item>Indicatie materiële historie</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                           <item>Indicatie formele historie</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                           <item>Indicatie kardinaliteit</item>
+                           <item>0 .. 1</item>
+                        </part>
+                        <part type="CFG-DOC-FORMAAT">
+                           <item>Formaat</item>
+                           <item>Decimal</item>
+                        </part>
+                     </content>
                   </section>
                </section>
-               <section name="Hoofdbestanddelen"
+               <section name="GehalteSommatie"
                         type="DETAIL-COMPOSITE"
-                        id="detail_class_Model_Hoofdbestanddelen"
-                        id-global="global_class_Model_Hoofdbestanddelen">
+                        id="detail_class_Model_GehalteSommatie"
+                        id-global="global_class_Model_GehalteSommatie">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>Hoofdbestanddelen</item>
+                        <item>GehalteSommatie</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
                         <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
@@ -3164,6 +3315,112 @@ NOTA BENE het datatype Getalswaarde3.3 is totaal uit de lucht gegrepen, er moet 
                         <item>Nee</item>
                      </part>
                   </content>
+                  <section name="aquocode"
+                           type="DETAIL-COMPOSITE-ATTRIBUTE"
+                           id="detail_attribute_Model_GehalteSommatie_aquocode"
+                           id-global="global_attribute_Model_GehalteSommatie_aquocode">
+                     <content>
+                        <part type="COMPOSER">
+                           <item type="global" idref="global_class_Model_GehalteSommatie">GehalteSommatie</item>
+                        </part>
+                        <part type="CFG-DOC-NAAM">
+                           <item>Naam</item>
+                           <item>aquocode</item>
+                        </part>
+                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                           <item>Mogelijk geen waarde</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                           <item>Indicatie materiële historie</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                           <item>Indicatie formele historie</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                           <item>Indicatie kardinaliteit</item>
+                           <item>1</item>
+                        </part>
+                        <part type="CFG-DOC-FORMAAT">
+                           <item>Formaat</item>
+                           <item>Sommatielijst</item>
+                        </part>
+                     </content>
+                  </section>
+                  <section name="waarde"
+                           type="DETAIL-COMPOSITE-ATTRIBUTE"
+                           id="detail_attribute_Model_GehalteSommatie_waarde"
+                           id-global="global_attribute_Model_GehalteSommatie_waarde">
+                     <content>
+                        <part type="COMPOSER">
+                           <item type="global" idref="global_class_Model_GehalteSommatie">GehalteSommatie</item>
+                        </part>
+                        <part type="CFG-DOC-NAAM">
+                           <item>Naam</item>
+                           <item>waarde</item>
+                        </part>
+                        <part type="CFG-DOC-DEFINITIE">
+                           <item>Definitie</item>
+                           <item>Het gemeten gehalte.</item>
+                        </part>
+                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                           <item>Mogelijk geen waarde</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                           <item>Indicatie materiële historie</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                           <item>Indicatie formele historie</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                           <item>Indicatie kardinaliteit</item>
+                           <item>1</item>
+                        </part>
+                        <part type="CFG-DOC-FORMAAT">
+                           <item>Formaat</item>
+                           <item>Decimal</item>
+                        </part>
+                     </content>
+                  </section>
+                  <section name="limietsymbool"
+                           type="DETAIL-COMPOSITE-ATTRIBUTE"
+                           id="detail_attribute_Model_GehalteSommatie_limietsymbool"
+                           id-global="global_attribute_Model_GehalteSommatie_limietsymbool">
+                     <content>
+                        <part type="COMPOSER">
+                           <item type="global" idref="global_class_Model_GehalteSommatie">GehalteSommatie</item>
+                        </part>
+                        <part type="CFG-DOC-NAAM">
+                           <item>Naam</item>
+                           <item>limietsymbool</item>
+                        </part>
+                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                           <item>Mogelijk geen waarde</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                           <item>Indicatie materiële historie</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                           <item>Indicatie formele historie</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                           <item>Indicatie kardinaliteit</item>
+                           <item>0 .. 1</item>
+                        </part>
+                        <part type="CFG-DOC-FORMAAT">
+                           <item>Formaat</item>
+                           <item>CHARACTERSTRING</item>
+                        </part>
+                     </content>
+                  </section>
                </section>
             </section>
             <section name="Coherentiekarakteristiek"
@@ -3615,37 +3872,14 @@ Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berek
          </section>
          <!--removed empty content-->
          <section type="DETAILS-REFERENCELIST">
-            <section name="Toestandsparameterlijst"
+            <section name="Stoffenlijst"
                      type="REFERENTIELIJST"
-                     id="detail_class_Model_Toestandsparameterlijst"
-                     id-global="global_class_Model_Toestandsparameterlijst">
-               <section name="parameternaam"
-                        type="DETAIL-REFERENCEELEMENT"
-                        id="detail_attribute_Model_Toestandsparameterlijst_parameternaam"
-                        id-global="global_attribute_Model_Toestandsparameterlijst_parameternaam">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>parameternaam</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>Naam van de parameter die in het laboratorium is gemeten.</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>CHARACTERSTRING</item>
-                     </part>
-                  </content>
-               </section>
+                     id="detail_class_Model_Stoffenlijst"
+                     id-global="global_class_Model_Stoffenlijst">
                <section name="CAS-nummer"
                         type="DETAIL-REFERENCEELEMENT"
-                        id="detail_attribute_Model_Toestandsparameterlijst_cASNummer"
-                        id-global="global_attribute_Model_Toestandsparameterlijst_cASNummer">
+                        id="detail_attribute_Model_Stoffenlijst_cASNummer"
+                        id-global="global_attribute_Model_Stoffenlijst_cASNummer">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -3671,8 +3905,8 @@ Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berek
                </section>
                <section name="aquocode"
                         type="DETAIL-REFERENCEELEMENT"
-                        id="detail_attribute_Model_Toestandsparameterlijst_aquocode"
-                        id-global="global_attribute_Model_Toestandsparameterlijst_aquocode">
+                        id="detail_attribute_Model_Stoffenlijst_aquocode"
+                        id-global="global_attribute_Model_Stoffenlijst_aquocode">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -3696,14 +3930,18 @@ Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berek
                      </part>
                   </content>
                </section>
-               <section name="categorie"
+               <section name="naam"
                         type="DETAIL-REFERENCEELEMENT"
-                        id="detail_attribute_Model_Toestandsparameterlijst_categorie"
-                        id-global="global_attribute_Model_Toestandsparameterlijst_categorie">
+                        id="detail_attribute_Model_Stoffenlijst_naam"
+                        id-global="global_attribute_Model_Stoffenlijst_naam">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>categorie</item>
+                        <item>naam</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Naam van de parameter die in het laboratorium is gemeten.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -3715,14 +3953,14 @@ Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berek
                      </part>
                   </content>
                </section>
-               <section name="stofgroep"
+               <section name="omschrijving"
                         type="DETAIL-REFERENCEELEMENT"
-                        id="detail_attribute_Model_Toestandsparameterlijst_stofgroep"
-                        id-global="global_attribute_Model_Toestandsparameterlijst_stofgroep">
+                        id="detail_attribute_Model_Stoffenlijst_omschrijving"
+                        id-global="global_attribute_Model_Stoffenlijst_omschrijving">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>stofgroep</item>
+                        <item>omschrijving</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -3736,8 +3974,8 @@ Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berek
                </section>
                <section name="eenheid"
                         type="DETAIL-REFERENCEELEMENT"
-                        id="detail_attribute_Model_Toestandsparameterlijst_eenheid"
-                        id-global="global_attribute_Model_Toestandsparameterlijst_eenheid">
+                        id="detail_attribute_Model_Stoffenlijst_eenheid"
+                        id-global="global_attribute_Model_Stoffenlijst_eenheid">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -3753,14 +3991,27 @@ Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berek
                      </part>
                   </content>
                </section>
-               <section name="bereik zoet min"
+            </section>
+            <section name="Sommatielijst"
+                     type="REFERENTIELIJST"
+                     id="detail_class_Model_Sommatielijst"
+                     id-global="global_class_Model_Sommatielijst">
+               <section name="aquocode"
                         type="DETAIL-REFERENCEELEMENT"
-                        id="detail_attribute_Model_Toestandsparameterlijst_bereikZoetMin"
-                        id-global="global_attribute_Model_Toestandsparameterlijst_bereikZoetMin">
+                        id="detail_attribute_Model_Sommatielijst_aquocode"
+                        id-global="global_attribute_Model_Sommatielijst_aquocode">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>bereik zoet min</item>
+                        <item>aquocode</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Aquocode van de laboratoriumparameter.</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>De aquocode is uniek voor elke stof. Voor nieuwe opkomende stoffen kan een nieuwe aquacode worden aangevraagd.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -3772,14 +4023,18 @@ Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berek
                      </part>
                   </content>
                </section>
-               <section name="bereik zoet max"
+               <section name="naam"
                         type="DETAIL-REFERENCEELEMENT"
-                        id="detail_attribute_Model_Toestandsparameterlijst_bereikZoetMax"
-                        id-global="global_attribute_Model_Toestandsparameterlijst_bereikZoetMax">
+                        id="detail_attribute_Model_Sommatielijst_naam"
+                        id-global="global_attribute_Model_Sommatielijst_naam">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>bereik zoet max</item>
+                        <item>naam</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Naam van de parameter die in het laboratorium is gemeten.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -3791,14 +4046,14 @@ Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berek
                      </part>
                   </content>
                </section>
-               <section name="bereik zout min"
+               <section name="omschrijving"
                         type="DETAIL-REFERENCEELEMENT"
-                        id="detail_attribute_Model_Toestandsparameterlijst_bereikZoutMin"
-                        id-global="global_attribute_Model_Toestandsparameterlijst_bereikZoutMin">
+                        id="detail_attribute_Model_Sommatielijst_omschrijving"
+                        id-global="global_attribute_Model_Sommatielijst_omschrijving">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>bereik zout min</item>
+                        <item>omschrijving</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -3810,33 +4065,14 @@ Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berek
                      </part>
                   </content>
                </section>
-               <section name="bereik zout max"
+               <section name="eenheid"
                         type="DETAIL-REFERENCEELEMENT"
-                        id="detail_attribute_Model_Toestandsparameterlijst_bereikZoutMax"
-                        id-global="global_attribute_Model_Toestandsparameterlijst_bereikZoutMax">
+                        id="detail_attribute_Model_Sommatielijst_eenheid"
+                        id-global="global_attribute_Model_Sommatielijst_eenheid">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>bereik zout max</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>CHARACTERSTRING</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="monsterfractie"
-                        type="DETAIL-REFERENCEELEMENT"
-                        id="detail_attribute_Model_Toestandsparameterlijst_monsterfractie"
-                        id-global="global_attribute_Model_Toestandsparameterlijst_monsterfractie">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>monsterfractie</item>
+                        <item>eenheid</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -4570,14 +4806,14 @@ Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berek
                </content>
             </section>
          </section>
-         <section name="Co?rdinatenpaar"
+         <section name="Coï¿½rdinatenpaar"
                   type="STRUCTUREDDATATYPE"
                   id="global_class_Brocommon_CoRdinatenpaar"
                   uuid="EAID_2218085F_CCC8_4303_9CDA_08E30E69053F">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>Co?rdinatenpaar</item>
+                  <item>Coï¿½rdinatenpaar</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -4590,7 +4826,7 @@ Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berek
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_Brocommon_CoRdinatenpaar_coRdinaat1">co?rdinaat1</item>
+                              idref="detail_attribute_Brocommon_CoRdinatenpaar_coRdinaat1">coï¿½rdinaat1</item>
                      </item>
                      <item/>
                      <item>
@@ -4601,7 +4837,7 @@ Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berek
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_Brocommon_CoRdinatenpaar_coRdinaat2">co?rdinaat2</item>
+                              idref="detail_attribute_Brocommon_CoRdinatenpaar_coRdinaat2">coï¿½rdinaat2</item>
                      </item>
                      <item/>
                      <item>
@@ -5200,6 +5436,10 @@ Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berek
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
                         <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
@@ -5824,18 +6064,18 @@ Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berek
                   </content>
                </section>
             </section>
-            <section name="Co?rdinatenpaar"
+            <section name="Coï¿½rdinatenpaar"
                      type="GESTRUCTUREERD DATATYPE"
                      id="detail_class_Brocommon_CoRdinatenpaar"
                      id-global="global_class_Brocommon_CoRdinatenpaar">
-               <section name="co?rdinaat1"
+               <section name="coï¿½rdinaat1"
                         type="DETAIL-DATAELEMENT"
                         id="detail_attribute_Brocommon_CoRdinatenpaar_coRdinaat1"
                         id-global="global_attribute_Brocommon_CoRdinatenpaar_coRdinaat1">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>co?rdinaat1</item>
+                        <item>coï¿½rdinaat1</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -5847,14 +6087,14 @@ Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berek
                      </part>
                   </content>
                </section>
-               <section name="co?rdinaat2"
+               <section name="coï¿½rdinaat2"
                         type="DETAIL-DATAELEMENT"
                         id="detail_attribute_Brocommon_CoRdinatenpaar_coRdinaat2"
                         id-global="global_attribute_Brocommon_CoRdinatenpaar_coRdinaat2">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>co?rdinaat2</item>
+                        <item>coï¿½rdinaat2</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -6486,12 +6726,12 @@ Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berek
                   <part>
                      <item/>
                      <item>IMBRO</item>
-                     <item>De strikte kwaliteitseis die na be?indiging van de transitieperiode geldt voor alle objecten die nadien geregistreerd zijn.</item>
+                     <item>De strikte kwaliteitseis die na beï¿½indiging van de transitieperiode geldt voor alle objecten die nadien geregistreerd zijn.</item>
                   </part>
                   <part>
                      <item/>
                      <item>IMBRO/A</item>
-                     <item>De minder strikte kwaliteitseis die tot be?indiging van de transitieperiode gebruikt kan zijn.</item>
+                     <item>De minder strikte kwaliteitseis die tot beï¿½indiging van de transitieperiode gebruikt kan zijn.</item>
                   </part>
                </content>
             </section>
