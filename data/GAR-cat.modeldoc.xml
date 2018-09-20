@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.47.1"
-      generator-date="2018-09-20T13:49:49Z">
+      generator-date="2018-09-20T13:57:07Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -1364,28 +1364,6 @@
       <!--removed empty content-->
       <!--removed empty content-->
       <section type="OVERVIEW-PRIMITIVEDATATYPE">
-         <section name="Code"
-                  type="PRIMITIVEDATATYPE"
-                  id="global_class_Model_Code"
-                  uuid="EAID_05A6CB5E_31EF_48c0_B63D_D5D6E825A820">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>Code</item>
-               </part>
-            </content>
-         </section>
-         <section name="CASnummer"
-                  type="PRIMITIVEDATATYPE"
-                  id="global_class_Model_CASnummer"
-                  uuid="EAID_3D2F8122_4470_49fb_9FAD_2F2AE62D2F8B">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>CASnummer</item>
-               </part>
-            </content>
-         </section>
          <section name="Meetwaarde2.1"
                   type="PRIMITIVEDATATYPE"
                   id="global_class_Model_Meetwaarde21"
@@ -1451,30 +1429,6 @@
                <item id="global_class_Model_TypeSlang"
                      uuid="EAID_1A7489B9_55B3_4f76_ACA0_7B6F5A055C03"
                      idref="detail_class_Model_TypeSlang">TypeSlang</item>
-               <item/>
-            </part>
-            <part>
-               <item id="global_class_Model_TypeMonsterfractie"
-                     uuid="EAID_59F14DE2_3A01_4755_81BD_CAE7688E38F1"
-                     idref="detail_class_Model_TypeMonsterfractie">TypeMonsterfractie</item>
-               <item/>
-            </part>
-            <part>
-               <item id="global_class_Model_Analysemethode"
-                     uuid="EAID_6B5F91C3_BF93_42d1_AB47_CE089D0A9CA1"
-                     idref="detail_class_Model_Analysemethode">Analysemethode</item>
-               <item>De methode waarmee de parameter geanalyseerd is.</item>
-            </part>
-            <part>
-               <item id="global_class_Model_AfwijkingLaboratoriumprocedure"
-                     uuid="EAID_5F2B46A4_2D63_4758_8807_1990D86B52A9"
-                     idref="detail_class_Model_AfwijkingLaboratoriumprocedure">AfwijkingLaboratoriumprocedure</item>
-               <item/>
-            </part>
-            <part>
-               <item id="global_class_Model_LabParameter"
-                     uuid="EAID_97F1A772_FE0D_4360_B353_3A8A62DEDDAE"
-                     idref="detail_class_Model_LabParameter">LabParameter</item>
                <item/>
             </part>
          </content>
@@ -4352,99 +4306,6 @@ Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berek
                      <item>polypropyleen</item>
                      <item/>
                   </part>
-               </content>
-            </section>
-            <section name="TypeMonsterfractie"
-                     type="DETAIL-CODELIST"
-                     id="detail_class_Model_TypeMonsterfractie"
-                     id-global="global_class_Model_TypeMonsterfractie"
-                     uuid="EAID_59F14DE2_3A01_4755_81BD_CAE7688E38F1">
-               <content>
-                  <part>
-                     <item>Definitie</item>
-                     <item/>
-                  </part>
-               </content>
-               <content>
-                  <itemtype type="CODE"/>
-                  <itemtype type="NAME"/>
-                  <itemtype type="DEFINITION"/>
-                  <part>
-                     <item/>
-                     <item>opgelost</item>
-                     <item/>
-                  </part>
-                  <part>
-                     <item/>
-                     <item>totaal</item>
-                     <item/>
-                  </part>
-               </content>
-            </section>
-            <section name="Analysemethode"
-                     type="DETAIL-CODELIST"
-                     id="detail_class_Model_Analysemethode"
-                     id-global="global_class_Model_Analysemethode"
-                     uuid="EAID_6B5F91C3_BF93_42d1_AB47_CE089D0A9CA1">
-               <content>
-                  <part>
-                     <item>Definitie</item>
-                     <item>De methode waarmee de parameter geanalyseerd is.</item>
-                  </part>
-               </content>
-               <content>
-                  <itemtype type="CODE"/>
-                  <itemtype type="NAME"/>
-                  <itemtype type="DEFINITION"/>
-               </content>
-            </section>
-            <section name="AfwijkingLaboratoriumprocedure"
-                     type="DETAIL-CODELIST"
-                     id="detail_class_Model_AfwijkingLaboratoriumprocedure"
-                     id-global="global_class_Model_AfwijkingLaboratoriumprocedure"
-                     uuid="EAID_5F2B46A4_2D63_4758_8807_1990D86B52A9">
-               <content>
-                  <part>
-                     <item>Definitie</item>
-                     <item/>
-                  </part>
-               </content>
-               <content>
-                  <itemtype type="CODE"/>
-                  <itemtype type="NAME"/>
-                  <itemtype type="DEFINITION"/>
-                  <part>
-                     <item/>
-                     <item>...</item>
-                     <item/>
-                  </part>
-                  <part>
-                     <item/>
-                     <item>AfwijkendeFles</item>
-                     <item/>
-                  </part>
-                  <part>
-                     <item/>
-                     <item>AfwijkendeConserveringGebruikt</item>
-                     <item/>
-                  </part>
-               </content>
-            </section>
-            <section name="LabParameter"
-                     type="DETAIL-CODELIST"
-                     id="detail_class_Model_LabParameter"
-                     id-global="global_class_Model_LabParameter"
-                     uuid="EAID_97F1A772_FE0D_4360_B353_3A8A62DEDDAE">
-               <content>
-                  <part>
-                     <item>Definitie</item>
-                     <item/>
-                  </part>
-               </content>
-               <content>
-                  <itemtype type="CODE"/>
-                  <itemtype type="NAME"/>
-                  <itemtype type="DEFINITION"/>
                </content>
             </section>
          </section>
