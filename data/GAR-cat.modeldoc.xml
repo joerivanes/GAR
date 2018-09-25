@@ -3,8 +3,8 @@
       subpath="Conceptual model/Grondwatersamenstellingsonderzoek (GAR)/20180315"
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
-      generator-version="1.47.1"
-      generator-date="2018-09-20T13:57:07Z">
+      generator-version="1.47.2"
+      generator-date="2018-09-25T11:28:07Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -1251,7 +1251,7 @@
                      <item>
                         <item type="global">CHARACTERSTRING</item>
                      </item>
-                     <item>0 .. 1</item>
+                     <item>1</item>
                   </part>
                   <part>
                      <item>
@@ -3849,7 +3849,7 @@ Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berek
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
+                        <item>1</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
