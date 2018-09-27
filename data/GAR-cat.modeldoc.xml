@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.47.2"
-      generator-date="2018-09-25T11:28:07Z">
+      generator-date="2018-09-27T11:51:04Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -876,6 +876,22 @@
                   <item>Naam</item>
                   <item>Resultaat laboratoriumonderzoek</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>De tijdens het laboratoriumonderzoek gemeten parameters en hun waarden.</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-TOELICHTING">
+                  <item>Toelichting</item>
+                  <item>De drie fysische parameters zijn in het resultaat expliciet benoemd. De overige gemeten parameters worden gekozen uit ofwel een stoffenlijst, ofwel een lijst van sommaties.</item>
+               </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
                <content>
@@ -953,9 +969,21 @@
                   </part>
                   <part type="COMPOSED">
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_GehalteStof_limietsymbool">limietsymbool</item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_GehalteStof_onderRapportagegrens">onder rapportagegrens</item>
                      </item>
-                     <item/>
+                     <item>Aanduiding of de gemeten waarde onder de door het laboratorium gehanteerde rapportagegrens lag.</item>
+                     <item>
+                        <item type="global" idref="global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part type="COMPOSED">
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_GehalteStof_rapportagegrens">rapportagegrens</item>
+                     </item>
+                     <item>De door het uitvoerende laboratorium met de opdrachtgever afgesproken grensconcentratie waarboven het gemeten gehalte van de component in een monster wordt gerapporteerd aan de opdrachtgever.</item>
                      <item>
                         <item type="global" idref="global_class_Brocommon_Decimal">Decimal</item>
                      </item>
@@ -968,7 +996,7 @@
                         </value>
                      </item>
                      <item>
-                        <value/>
+                        <value>In het laboratorum bepaalde meetwaarde voor een sommatie, een som van gehaltes van een aantal parameters.</value>
                      </item>
                      <item/>
                      <item>
@@ -979,7 +1007,7 @@
                      <item>
                         <item type="detail" idref="detail_attribute_Model_GehalteSommatie_aquocode">aquocode</item>
                      </item>
-                     <item/>
+                     <item>Uit de sommatielijst te kiezen Aquocode van de laboratoriumparameter</item>
                      <item>
                         <item type="global" idref="global_class_Model_Sommatielijst">Sommatielijst</item>
                      </item>
@@ -998,11 +1026,22 @@
                   <part type="COMPOSED">
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_Model_GehalteSommatie_limietsymbool">limietsymbool</item>
+                              idref="detail_attribute_Model_GehalteSommatie_onderRapportagegrens">onder rapportagegrens</item>
                      </item>
-                     <item/>
+                     <item>Aanduiding of de gemeten waarde onder de door het laboratorium gehanteerde rapportagegrens lag.</item>
                      <item>
-                        <item type="global">CHARACTERSTRING</item>
+                        <item type="global" idref="global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part type="COMPOSED">
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_GehalteSommatie_rapportagegrens">rapportagegrens</item>
+                     </item>
+                     <item>De door het uitvoerende laboratorium met de opdrachtgever afgesproken grensconcentratie waarboven het gemeten gehalte van de component in een monster wordt gerapporteerd aan de opdrachtgever.</item>
+                     <item>
+                        <item type="global" idref="global_class_Brocommon_Decimal">Decimal</item>
                      </item>
                      <item>0 .. 1</item>
                   </part>
@@ -1231,6 +1270,10 @@
                   <item>Naam</item>
                   <item>Stoffenlijst</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
                   <item>Lijst van stoffen die in een grondwatersamenstellingsonderzoek bepaald kunnen worden.</item>
@@ -1277,7 +1320,7 @@
                      <item>
                         <item type="detail" idref="detail_attribute_Model_Stoffenlijst_omschrijving">omschrijving</item>
                      </item>
-                     <item/>
+                     <item>Nadere omschrijving van de parameter, indien nodig.</item>
                      <item>
                         <item type="global">CHARACTERSTRING</item>
                      </item>
@@ -1287,7 +1330,7 @@
                      <item>
                         <item type="detail" idref="detail_attribute_Model_Stoffenlijst_eenheid">eenheid</item>
                      </item>
-                     <item/>
+                     <item>De afgesproken eenheid waarin de parameter wordt gerapporteerd.</item>
                      <item>
                         <item type="global">CHARACTERSTRING</item>
                      </item>
@@ -3127,9 +3170,17 @@
                         <item>Naam</item>
                         <item>GehalteStof</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>In het laboratorum bepaalde meetwaarde voor een stof.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -3138,6 +3189,10 @@
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
                      </part>
                   </content>
                   <section name="CAS-nummer"
@@ -3151,6 +3206,18 @@
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
                            <item>CAS-nummer</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMST">
+                           <item>Herkomst</item>
+                           <item>BRO</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                           <item>Herkomst definitie</item>
+                           <item>BRO</item>
+                        </part>
+                        <part type="CFG-DOC-TOELICHTING">
+                           <item>Toelichting</item>
+                           <item>CAS-nummers geven een internationale unieke numerieke identificatie voor een chemische stof en worden beheerd door de Chemical Abstracts Service van de American Chemical Society.</item>
                         </part>
                         <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                            <item>Mogelijk geen waarde</item>
@@ -3167,6 +3234,10 @@
                         <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
@@ -3186,9 +3257,75 @@
                            <item>Naam</item>
                            <item>waarde</item>
                         </part>
+                        <part type="CFG-DOC-HERKOMST">
+                           <item>Herkomst</item>
+                           <item>BRO</item>
+                        </part>
                         <part type="CFG-DOC-DEFINITIE">
                            <item>Definitie</item>
                            <item>Het gemeten gehalte.</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                           <item>Herkomst definitie</item>
+                           <item>BRO</item>
+                        </part>
+                        <part type="CFG-DOC-TOELICHTING">
+                           <item>Toelichting</item>
+                           <item>Als het gemeten gehalte onder de rapportagegrens ligt, wordt het veld leeg gelaten. Het veld 'onder rapportagegrens' krijgt dan de waarde 'ja' en de gehanteerde rapportagegrens wordt ingevuld in het veld 'rapportagegrens'.</item>
+                        </part>
+                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                           <item>Mogelijk geen waarde</item>
+                           <item>Ja</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                           <item>Indicatie materiële historie</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                           <item>Indicatie formele historie</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                           <item>Indicatie kardinaliteit</item>
+                           <item>1</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
+                        </part>
+                        <part type="CFG-DOC-REGELS">
+                           <item>Regels</item>
+                           <item>Als het attribuut 'onder rapportagegrens' de waarde 'ja' heeft, heeft dit attribuut geen waarde.</item>
+                        </part>
+                        <part type="CFG-DOC-FORMAAT">
+                           <item>Formaat</item>
+                           <item>Decimal</item>
+                        </part>
+                     </content>
+                  </section>
+                  <section name="onder rapportagegrens"
+                           type="DETAIL-COMPOSITE-ATTRIBUTE"
+                           id="detail_attribute_Model_GehalteStof_onderRapportagegrens"
+                           id-global="global_attribute_Model_GehalteStof_onderRapportagegrens">
+                     <content>
+                        <part type="COMPOSER">
+                           <item type="global" idref="global_class_Model_GehalteStof">GehalteStof</item>
+                        </part>
+                        <part type="CFG-DOC-NAAM">
+                           <item>Naam</item>
+                           <item>onder rapportagegrens</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMST">
+                           <item>Herkomst</item>
+                           <item>BRO</item>
+                        </part>
+                        <part type="CFG-DOC-DEFINITIE">
+                           <item>Definitie</item>
+                           <item>Aanduiding of de gemeten waarde onder de door het laboratorium gehanteerde rapportagegrens lag.</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                           <item>Herkomst definitie</item>
+                           <item>BRO</item>
                         </part>
                         <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                            <item>Mogelijk geen waarde</item>
@@ -3206,23 +3343,47 @@
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
                         </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
+                        </part>
+                        <part type="CFG-DOC-REGELS">
+                           <item>Regels</item>
+                           <item>Als de waarde 'ja' is moet de rapportagegrens zijn ingevuld.</item>
+                        </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
-                           <item>Decimal</item>
+                           <item>IndicatieJaNee</item>
                         </part>
                      </content>
                   </section>
-                  <section name="limietsymbool"
+                  <section name="rapportagegrens"
                            type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_Model_GehalteStof_limietsymbool"
-                           id-global="global_attribute_Model_GehalteStof_limietsymbool">
+                           id="detail_attribute_Model_GehalteStof_rapportagegrens"
+                           id-global="global_attribute_Model_GehalteStof_rapportagegrens">
                      <content>
                         <part type="COMPOSER">
                            <item type="global" idref="global_class_Model_GehalteStof">GehalteStof</item>
                         </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
-                           <item>limietsymbool</item>
+                           <item>rapportagegrens</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMST">
+                           <item>Herkomst</item>
+                           <item>BRO</item>
+                        </part>
+                        <part type="CFG-DOC-DEFINITIE">
+                           <item>Definitie</item>
+                           <item>De door het uitvoerende laboratorium met de opdrachtgever afgesproken grensconcentratie waarboven het gemeten gehalte van de component in een monster wordt gerapporteerd aan de opdrachtgever.</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                           <item>Herkomst definitie</item>
+                           <item>BRO</item>
+                        </part>
+                        <part type="CFG-DOC-TOELICHTING">
+                           <item>Toelichting</item>
+                           <item>Dit wordt ook wel minimumconcentratie genoemd.</item>
                         </part>
                         <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                            <item>Mogelijk geen waarde</item>
@@ -3240,6 +3401,14 @@
                            <item>Indicatie kardinaliteit</item>
                            <item>0 .. 1</item>
                         </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
+                        </part>
+                        <part type="CFG-DOC-REGELS">
+                           <item>Regels</item>
+                           <item>Alleen gevuld als het attribuut 'onder rapportagegrens' de waarde 'ja' heeft.</item>
+                        </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>Decimal</item>
@@ -3255,6 +3424,18 @@
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>GehalteSommatie</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>In het laboratorum bepaalde meetwaarde voor een sommatie, een som van gehaltes van een aantal parameters.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -3280,6 +3461,18 @@
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
                            <item>aquocode</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMST">
+                           <item>Herkomst</item>
+                           <item>BRO</item>
+                        </part>
+                        <part type="CFG-DOC-DEFINITIE">
+                           <item>Definitie</item>
+                           <item>Uit de sommatielijst te kiezen Aquocode van de laboratoriumparameter</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                           <item>Herkomst definitie</item>
+                           <item>BRO</item>
                         </part>
                         <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                            <item>Mogelijk geen waarde</item>
@@ -3315,9 +3508,75 @@
                            <item>Naam</item>
                            <item>waarde</item>
                         </part>
+                        <part type="CFG-DOC-HERKOMST">
+                           <item>Herkomst</item>
+                           <item>BRO</item>
+                        </part>
                         <part type="CFG-DOC-DEFINITIE">
                            <item>Definitie</item>
                            <item>Het gemeten gehalte.</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                           <item>Herkomst definitie</item>
+                           <item>BRO</item>
+                        </part>
+                        <part type="CFG-DOC-TOELICHTING">
+                           <item>Toelichting</item>
+                           <item>Als het gemeten gehalte onder de rapportagegrens ligt, wordt het veld leeg gelaten. Het veld 'onder rapportagegrens' krijgt dan de waarde 'ja' en de gehanteerde rapportagegrens wordt ingevuld in het veld 'rapportagegrens'.</item>
+                        </part>
+                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                           <item>Mogelijk geen waarde</item>
+                           <item>Ja</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                           <item>Indicatie materiële historie</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                           <item>Indicatie formele historie</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                           <item>Indicatie kardinaliteit</item>
+                           <item>1</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
+                        </part>
+                        <part type="CFG-DOC-REGELS">
+                           <item>Regels</item>
+                           <item>Als het attribuut 'onder rapportagegrens' de waarde 'ja' heeft, heeft dit attribuut geen waarde.</item>
+                        </part>
+                        <part type="CFG-DOC-FORMAAT">
+                           <item>Formaat</item>
+                           <item>Decimal</item>
+                        </part>
+                     </content>
+                  </section>
+                  <section name="onder rapportagegrens"
+                           type="DETAIL-COMPOSITE-ATTRIBUTE"
+                           id="detail_attribute_Model_GehalteSommatie_onderRapportagegrens"
+                           id-global="global_attribute_Model_GehalteSommatie_onderRapportagegrens">
+                     <content>
+                        <part type="COMPOSER">
+                           <item type="global" idref="global_class_Model_GehalteSommatie">GehalteSommatie</item>
+                        </part>
+                        <part type="CFG-DOC-NAAM">
+                           <item>Naam</item>
+                           <item>onder rapportagegrens</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMST">
+                           <item>Herkomst</item>
+                           <item>BRO</item>
+                        </part>
+                        <part type="CFG-DOC-DEFINITIE">
+                           <item>Definitie</item>
+                           <item>Aanduiding of de gemeten waarde onder de door het laboratorium gehanteerde rapportagegrens lag.</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                           <item>Herkomst definitie</item>
+                           <item>BRO</item>
                         </part>
                         <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                            <item>Mogelijk geen waarde</item>
@@ -3335,23 +3594,47 @@
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
                         </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
+                        </part>
+                        <part type="CFG-DOC-REGELS">
+                           <item>Regels</item>
+                           <item>Als de waarde 'ja' is moet de rapportagegrens zijn ingevuld.</item>
+                        </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
-                           <item>Decimal</item>
+                           <item>IndicatieJaNee</item>
                         </part>
                      </content>
                   </section>
-                  <section name="limietsymbool"
+                  <section name="rapportagegrens"
                            type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_Model_GehalteSommatie_limietsymbool"
-                           id-global="global_attribute_Model_GehalteSommatie_limietsymbool">
+                           id="detail_attribute_Model_GehalteSommatie_rapportagegrens"
+                           id-global="global_attribute_Model_GehalteSommatie_rapportagegrens">
                      <content>
                         <part type="COMPOSER">
                            <item type="global" idref="global_class_Model_GehalteSommatie">GehalteSommatie</item>
                         </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
-                           <item>limietsymbool</item>
+                           <item>rapportagegrens</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMST">
+                           <item>Herkomst</item>
+                           <item>BRO</item>
+                        </part>
+                        <part type="CFG-DOC-DEFINITIE">
+                           <item>Definitie</item>
+                           <item>De door het uitvoerende laboratorium met de opdrachtgever afgesproken grensconcentratie waarboven het gemeten gehalte van de component in een monster wordt gerapporteerd aan de opdrachtgever.</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                           <item>Herkomst definitie</item>
+                           <item>BRO</item>
+                        </part>
+                        <part type="CFG-DOC-TOELICHTING">
+                           <item>Toelichting</item>
+                           <item>Dit wordt ook wel minimumconcentratie genoemd.</item>
                         </part>
                         <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                            <item>Mogelijk geen waarde</item>
@@ -3369,9 +3652,17 @@
                            <item>Indicatie kardinaliteit</item>
                            <item>0 .. 1</item>
                         </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
+                        </part>
+                        <part type="CFG-DOC-REGELS">
+                           <item>Regels</item>
+                           <item>Alleen gevuld als het attribuut 'onder rapportagegrens' de waarde 'ja' heeft.</item>
+                        </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
-                           <item>CHARACTERSTRING</item>
+                           <item>Decimal</item>
                         </part>
                      </content>
                   </section>
@@ -3839,6 +4130,10 @@ Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berek
                         <item>Naam</item>
                         <item>CAS-nummer</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>Chemical Abstracts Service nummer van de laboratoriumparameter.</item>
@@ -3850,6 +4145,10 @@ Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berek
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>2 tot 6 cijfers, 2 cijfers, 1 cijfer, gescheiden door hyphen</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -3865,6 +4164,10 @@ Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berek
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>aquocode</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
@@ -3893,6 +4196,10 @@ Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berek
                         <item>Naam</item>
                         <item>naam</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>Naam van de parameter die in het laboratorium is gemeten.</item>
@@ -3916,6 +4223,14 @@ Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berek
                         <item>Naam</item>
                         <item>omschrijving</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Nadere omschrijving van de parameter, indien nodig.</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
@@ -3934,6 +4249,14 @@ Het gegeven staat niet in een brondocument. De basisregistratie ondergrond berek
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>eenheid</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De afgesproken eenheid waarin de parameter wordt gerapporteerd.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
