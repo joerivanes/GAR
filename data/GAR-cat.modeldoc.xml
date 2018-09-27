@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.47.2"
-      generator-date="2018-09-27T11:51:04Z">
+      generator-date="2018-09-27T12:03:28Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -144,7 +144,7 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek">bestaat uit</item>
+                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek_laboratoriumonderzoek">bestaat uit: laboratoriumonderzoek</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_Laboratoriumonderzoek">Laboratoriumonderzoek</item>
@@ -174,7 +174,7 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek">bestaat uit</item>
+                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek_veldonderzoek">bestaat uit: veldonderzoek</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_Veldonderzoek">Veldonderzoek</item>
@@ -189,7 +189,7 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek">heeft</item>
+                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek_coherentiekarakteristiek">heeft: coherentiekarakteristiek</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_Coherentiekarakteristiek">Coherentiekarakteristiek</item>
@@ -219,7 +219,7 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek">bestaat uit</item>
+                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek_laboratoriumonderzoek">bestaat uit: laboratoriumonderzoek</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_Laboratoriumonderzoek">Laboratoriumonderzoek</item>
@@ -249,7 +249,7 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek">bestaat uit</item>
+                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek_veldonderzoek">bestaat uit: veldonderzoek</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_Veldonderzoek">Veldonderzoek</item>
@@ -264,7 +264,7 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek">heeft</item>
+                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek_coherentiekarakteristiek">heeft: coherentiekarakteristiek</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_Coherentiekarakteristiek">Coherentiekarakteristiek</item>
@@ -375,7 +375,7 @@
                         <item>Veldonderzoek</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_Model_Veldonderzoek">leidt tot</item>
+                           <item type="detail" idref="detail_association_Model_Veldonderzoek_resultaat">leidt tot: resultaat</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_ResultaatVeldmetingen">Resultaat veldmetingen</item>
@@ -408,7 +408,7 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek">bestaat uit</item>
+                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek_veldonderzoek">bestaat uit: veldonderzoek</item>
                         </item>
                         <item>Veldonderzoek</item>
                         <item>[ 1 ]</item>
@@ -425,7 +425,7 @@
                         <item>Veldonderzoek</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_Model_Veldonderzoek">leidt tot</item>
+                           <item type="detail" idref="detail_association_Model_Veldonderzoek_resultaat">leidt tot: resultaat</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_ResultaatVeldmetingen">Resultaat veldmetingen</item>
@@ -458,7 +458,7 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek">bestaat uit</item>
+                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek_veldonderzoek">bestaat uit: veldonderzoek</item>
                         </item>
                         <item>Veldonderzoek</item>
                         <item>[ 1 ]</item>
@@ -706,7 +706,7 @@
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_Model_Veldonderzoek">leidt tot</item>
+                           <item type="detail" idref="detail_association_Model_Veldonderzoek_resultaat">leidt tot: resultaat</item>
                         </item>
                         <item>Resultaat veldmetingen</item>
                         <item>[ 1 ]</item>
@@ -725,7 +725,7 @@
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_Model_Veldonderzoek">leidt tot</item>
+                           <item type="detail" idref="detail_association_Model_Veldonderzoek_resultaat">leidt tot: resultaat</item>
                         </item>
                         <item>Resultaat veldmetingen</item>
                         <item>[ 1 ]</item>
@@ -821,7 +821,7 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek">bestaat uit</item>
+                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek_laboratoriumonderzoek">bestaat uit: laboratoriumonderzoek</item>
                         </item>
                         <item>Laboratoriumonderzoek</item>
                         <item>[ 1 .. * ]</item>
@@ -857,7 +857,7 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek">bestaat uit</item>
+                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek_laboratoriumonderzoek">bestaat uit: laboratoriumonderzoek</item>
                         </item>
                         <item>Laboratoriumonderzoek</item>
                         <item>[ 1 .. * ]</item>
@@ -1227,7 +1227,7 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek">heeft</item>
+                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek_coherentiekarakteristiek">heeft: coherentiekarakteristiek</item>
                         </item>
                         <item>Coherentiekarakteristiek</item>
                         <item>[ 1 ]</item>
@@ -1248,7 +1248,7 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek">heeft</item>
+                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek_coherentiekarakteristiek">heeft: coherentiekarakteristiek</item>
                         </item>
                         <item>Coherentiekarakteristiek</item>
                         <item>[ 1 ]</item>
@@ -1724,8 +1724,8 @@
                </section>
                <section name="bestaat uit"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_Model_Grondwatersamenstellingsonderzoek"
-                        id-global="global_association_Model_Grondwatersamenstellingsonderzoek">
+                        id="detail_association_Model_Grondwatersamenstellingsonderzoek_laboratoriumonderzoek"
+                        id-global="global_association_Model_Grondwatersamenstellingsonderzoek_laboratoriumonderzoek">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -1749,6 +1749,10 @@
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
                         <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
@@ -1814,8 +1818,8 @@
                </section>
                <section name="bestaat uit"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_Model_Grondwatersamenstellingsonderzoek"
-                        id-global="global_association_Model_Grondwatersamenstellingsonderzoek">
+                        id="detail_association_Model_Grondwatersamenstellingsonderzoek_veldonderzoek"
+                        id-global="global_association_Model_Grondwatersamenstellingsonderzoek_veldonderzoek">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -1841,6 +1845,10 @@
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
                         <item>Nee</item>
@@ -1859,8 +1867,8 @@
                </section>
                <section name="heeft"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_Model_Grondwatersamenstellingsonderzoek"
-                        id-global="global_association_Model_Grondwatersamenstellingsonderzoek">
+                        id="detail_association_Model_Grondwatersamenstellingsonderzoek_coherentiekarakteristiek"
+                        id-global="global_association_Model_Grondwatersamenstellingsonderzoek_coherentiekarakteristiek">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -1884,6 +1892,10 @@
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
                         <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
@@ -2148,8 +2160,8 @@
                </section>
                <section name="leidt tot"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_Model_Veldonderzoek"
-                        id-global="global_association_Model_Veldonderzoek">
+                        id="detail_association_Model_Veldonderzoek_resultaat"
+                        id-global="global_association_Model_Veldonderzoek_resultaat">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2173,6 +2185,10 @@
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
                         <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
@@ -2218,6 +2234,10 @@
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
                         <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
