@@ -1,24 +1,22 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "Grondwatersamenstellingsonderzoek (GAR)" door Imvertor 1.47.2 op September 27, 2018 at 14:33:22.
+   "Grondwatersamenstellingsonderzoek (GAR)" door Imvertor 1.47.2 op October 4, 2018 at 11:47:43.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i></i> en geef de code 
-   <i>"Conceptualmodel-GrondwatersamenstellingsonderzoekGAR-0.1-0-20180315-20180927-163324"</i> door. 
+   <i>"Conceptualmodel-GrondwatersamenstellingsonderzoekGAR-0.1-0-20180315-20181004-134745"</i> door. 
    
 </p><a class="anchor" name="global_package_Model"></a><section id="global_package_Model">
    <h3>Domein Model</h3>
    <div class="imageinfo overview"><img src="data/Images/EAID_BBDCFEE2_BB5A_4b62_99F2_796C8F526D8F.png" usemap="#imagemap-EAID_BBDCFEE2_BB5A_4b62_99F2_796C8F526D8F"><map name="imagemap-EAID_BBDCFEE2_BB5A_4b62_99F2_796C8F526D8F">
-         <area shape="rect" coords="719,1170,889,1042" alt="" href="#graph_EAID_9C7EC345_35EF_469a_983E_2620D61E15E0">
          <area shape="rect" coords="559,799,815,654" alt="" href="#graph_EAID_B5DCE6BD_C7B2_4526_94F8_6DC7B84B587A">
          <area shape="rect" coords="72,426,308,207" alt="" href="#graph_EAID_1A4A86E8_DCE8_4333_9C41_64200925A079">
          <area shape="rect" coords="590,176,788,35" alt="" href="#graph_EAID_933522FF_DE42_4e2d_A209_EAAC1B0132CF">
          <area shape="rect" coords="25,760,261,655" alt="" href="#graph_EAID_161FA1ED_4217_4735_BFA8_EC93200FFA67">
-         <area shape="rect" coords="501,1170,671,1042" alt="" href="#graph_EAID_FEC2B1DD_E5C2_4c90_8B71_B69ADC431AB0">
          <area shape="rect" coords="559,587,815,455" alt="" href="#graph_EAID_438F8C26_FF54_4aff_AD7F_C6521BD69D2D">
          <area shape="rect" coords="272,821,503,654" alt="" href="#graph_EAID_842A7CA1_C8F1_4165_A1C4_90E8FA408109">
          <area shape="rect" coords="108,583,449,455" alt="" href="#graph_EAID_2F5089D1_4361_456b_8D24_ED2114330AAD">
-         <area shape="rect" coords="559,391,823,208" alt="" href="#graph_EAID_BAB5C8A8_2997_4fbe_BE80_A531990FF2FE"></map><p><b>Domeinmodel BRO GAR - overzicht</b></p>
+         <area shape="rect" coords="559,390,823,207" alt="" href="#graph_EAID_BAB5C8A8_2997_4fbe_BE80_A531990FF2FE"></map><p><b>Domeinmodel BRO GAR - overzicht</b></p>
    </div>
    <div class="imageinfo overview"><img src="data/Images/EAID_0553A643_1D42_425b_A4A0_47AD9DFE4CE7.png" usemap="#imagemap-EAID_0553A643_1D42_425b_A4A0_47AD9DFE4CE7"><map name="imagemap-EAID_0553A643_1D42_425b_A4A0_47AD9DFE4CE7">
          <area shape="rect" coords="451,257,541,172" alt="" href="#graph_EAID_104D1298_880E_4ae4_AB27_E1DF1AD62CDB">
@@ -118,6 +116,18 @@
                </tr>
                <tr>
                   <td>
+                     <a class="link" href="#detail_attribute_Model_Grondwatersamenstellingsonderzoek_grondwatermonitoringput">grondwatermonitoringput</a>
+                     
+                  </td>
+                  <td>De grondwatermonitoringput waar het grondwater is bemonsterd.</td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_Registratieobjectcode">Registratieobjectcode</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
                      <a class="link" href="#detail_attribute_Model_Grondwatersamenstellingsonderzoek_bestrijdingsmiddelenOnderzocht">bestrijdingsmiddelen onderzocht</a>
                      
                   </td>
@@ -181,7 +191,7 @@
                      [ 1 .. * ]
                      
                   </td>
-                  <td></td>
+                  <td>Gegevens over de in een laboratorium uitgevoerde metingen .</td>
                </tr>
                <tr>
                   <td>
@@ -196,7 +206,7 @@
                      [ 1 ]
                      
                   </td>
-                  <td></td>
+                  <td>De gegevens die de geschiedenis van het object in de registratie ondergrond markeren.</td>
                </tr>
                <tr>
                   <td>
@@ -211,7 +221,7 @@
                      [ 1 ]
                      
                   </td>
-                  <td></td>
+                  <td>Gegevens over het deel van het onderzoek dat betrekking heeft op het veldwerk.</td>
                </tr>
             </tbody>
          </table>
@@ -295,20 +305,6 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_Model_Veldonderzoek_uitvoerder">uitvoerder</a>
-                     
-                  </td>
-                  <td>De identificatie die de organisatie die verantwoordelijk is voor de uitvoering van
-                     het veldonderzoek, als onderneming in het Handelsregister heeft.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_KvKNummer">KvK-nummer</a>
-                     
-                  </td>
-                  <td>0 .. 1</td>
-               </tr>
-               <tr>
-                  <td>
                      <a class="link" href="#detail_attribute_Model_Veldonderzoek_bijzonderheidVeldonderzoek">bijzonderheid veldonderzoek</a>
                      
                   </td>
@@ -332,6 +328,20 @@
                      
                   </td>
                   <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Model_Veldonderzoek_uitvoerder">uitvoerder</a>
+                     
+                  </td>
+                  <td>De identificatie die de organisatie die verantwoordelijk is voor de uitvoering van
+                     het veldonderzoek, als onderneming in het Handelsregister heeft.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_Brocommon_KvKNummer">KvK-nummer</a>
+                     
+                  </td>
+                  <td>0 .. 1</td>
                </tr>
             </tbody>
          </table>
@@ -361,7 +371,9 @@
                      [ 1 ]
                      
                   </td>
-                  <td></td>
+                  <td>De uitkomsten van de metingen die in het veld aan het bemonsterde grondwater zijn
+                     uitgevoerd.
+                  </td>
                </tr>
                <tr>
                   <td>
@@ -376,7 +388,7 @@
                      [ 1 ]
                      
                   </td>
-                  <td></td>
+                  <td>Gegevens over het apparaat dat gebruikt is voor het bemonsteren van het grondwater.</td>
                </tr>
                <tr>
                   <td>
@@ -391,7 +403,7 @@
                      [ 1 ]
                      
                   </td>
-                  <td></td>
+                  <td>Gegevens over het deel van het onderzoek dat betrekking heeft op het veldwerk.</td>
                </tr>
             </tbody>
          </table>
@@ -502,7 +514,7 @@
                      [ 1 ]
                      
                   </td>
-                  <td></td>
+                  <td>Gegevens over het apparaat dat gebruikt is voor het bemonsteren van het grondwater.</td>
                </tr>
             </tbody>
          </table>
@@ -572,7 +584,7 @@
                   </td>
                   <td>De massaconcentratie van waterstofcarbonaat in het grondwater.</td>
                   <td>
-                     <a class="link" href="#global_class_Model_Meetwaarde41">Meetwaarde4.1</a>
+                     REAL
                      
                   </td>
                   <td>0 .. 1</td>
@@ -632,7 +644,7 @@
                   </td>
                   <td>De massaconcentratie van zuurstof in het grondwater.</td>
                   <td>
-                     <a class="link" href="#global_class_Brocommon_Meetwaarde22">Meetwaarde2.2</a>
+                     REAL
                      
                   </td>
                   <td>0 .. 1</td>
@@ -677,7 +689,9 @@
                      [ 1 ]
                      
                   </td>
-                  <td></td>
+                  <td>De uitkomsten van de metingen die in het veld aan het bemonsterde grondwater zijn
+                     uitgevoerd.
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -787,7 +801,9 @@
                      [ 1 ]
                      
                   </td>
-                  <td></td>
+                  <td>De uitkomsten van de metingen die in het laboratorium aan het bemonsterde grondwater
+                     zijn uitgevoerd.
+                  </td>
                </tr>
                <tr>
                   <td>
@@ -802,7 +818,7 @@
                      [ 1 .. * ]
                      
                   </td>
-                  <td></td>
+                  <td>Gegevens over de in een laboratorium uitgevoerde metingen .</td>
                </tr>
             </tbody>
          </table>
@@ -912,12 +928,12 @@
                </tr>
                <tr>
                   <td>- 
-                     <a class="link" href="#detail_attribute_Model_GehalteStof_cASNummer">CAS-nummer</a>
+                     <a class="link" href="#detail_attribute_Model_GehalteStof_aquocode">aquocode</a>
                      
                   </td>
-                  <td></td>
+                  <td>De Aquocode van de laboratoriumparameter.</td>
                   <td>
-                     <a class="link" href="#global_class_Model_Stoffenlijst">Stoffenlijst</a>
+                     CHARACTERSTRING
                      
                   </td>
                   <td>1</td>
@@ -929,10 +945,10 @@
                   </td>
                   <td>Het gemeten gehalte.</td>
                   <td>
-                     <a class="link" href="#global_class_Brocommon_Decimal">Decimal</a>
+                     REAL
                      
                   </td>
-                  <td>1</td>
+                  <td>0 .. 1</td>
                </tr>
                <tr>
                   <td>- 
@@ -951,77 +967,6 @@
                <tr>
                   <td>- 
                      <a class="link" href="#detail_attribute_Model_GehalteStof_rapportagegrens">rapportagegrens</a>
-                     
-                  </td>
-                  <td>De door het uitvoerende laboratorium met de opdrachtgever afgesproken grensconcentratie
-                     waarboven het gemeten gehalte van de component in een monster wordt gerapporteerd
-                     aan de opdrachtgever.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_Decimal">Decimal</a>
-                     
-                  </td>
-                  <td>0 .. 1</td>
-               </tr>
-               <tr>
-                  <td>
-                     
-                     <a class="link" href="#detail_class_Model_GehalteSommatie">sommatie</a>
-                     
-                     :
-                  </td>
-                  <td>
-                     In het laboratorum bepaalde meetwaarde voor een sommatie, een som van gehaltes van
-                     een aantal parameters.
-                     
-                  </td>
-                  <td></td>
-                  <td>
-                     0 .. *
-                     
-                  </td>
-               </tr>
-               <tr>
-                  <td>- 
-                     <a class="link" href="#detail_attribute_Model_GehalteSommatie_aquocode">aquocode</a>
-                     
-                  </td>
-                  <td>Uit de sommatielijst te kiezen Aquocode van de laboratoriumparameter</td>
-                  <td>
-                     <a class="link" href="#global_class_Model_Sommatielijst">Sommatielijst</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>- 
-                     <a class="link" href="#detail_attribute_Model_GehalteSommatie_waarde">waarde</a>
-                     
-                  </td>
-                  <td>Het gemeten gehalte.</td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_Decimal">Decimal</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>- 
-                     <a class="link" href="#detail_attribute_Model_GehalteSommatie_onderRapportagegrens">onder rapportagegrens</a>
-                     
-                  </td>
-                  <td>Aanduiding of de gemeten waarde onder de door het laboratorium gehanteerde rapportagegrens
-                     lag.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>- 
-                     <a class="link" href="#detail_attribute_Model_GehalteSommatie_rapportagegrens">rapportagegrens</a>
                      
                   </td>
                   <td>De door het uitvoerende laboratorium met de opdrachtgever afgesproken grensconcentratie
@@ -1062,205 +1007,13 @@
                      [ 1 ]
                      
                   </td>
-                  <td></td>
+                  <td>De uitkomsten van de metingen die in het laboratorium aan het bemonsterde grondwater
+                     zijn uitgevoerd.
+                  </td>
                </tr>
             </tbody>
          </table>
          
-         
-      </section>
-      
-   </section>
-   <section id="">
-      <h4>Referentielijsten </h4>
-      <a class="anchor" name="graph_EAID_FEC2B1DD_E5C2_4c90_8B71_B69ADC431AB0"></a><a class="anchor" name="global_class_Model_Stoffenlijst"></a><section id="global_class_Model_Stoffenlijst">
-         <h5>Referentielijst Stoffenlijst</h5>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>Stoffenlijst</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td>Lijst van stoffen die in een grondwatersamenstellingsonderzoek bepaald kunnen worden.</td>
-               </tr>
-            </tbody>
-         </table>
-         
-         <section id="">
-            <h6>Overzicht referentie elementen </h6>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="50%"></colgroup>
-               <colgroup width="10%"></colgroup>
-               <colgroup width="10%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Referentie element</th>
-                     <th>Definitie</th>
-                     <th>Formaat</th>
-                     <th>Card</th>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a class="link" href="#detail_attribute_Model_Stoffenlijst_cASNummer">CAS-nummer</a>
-                        
-                     </td>
-                     <td>Chemical Abstracts Service nummer van de laboratoriumparameter.</td>
-                     <td>
-                        CHARACTERSTRING
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a class="link" href="#detail_attribute_Model_Stoffenlijst_aquocode">aquocode</a>
-                        
-                     </td>
-                     <td>Aquocode van de laboratoriumparameter.</td>
-                     <td>
-                        CHARACTERSTRING
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a class="link" href="#detail_attribute_Model_Stoffenlijst_naam">naam</a>
-                        
-                     </td>
-                     <td>Naam van de parameter die in het laboratorium is gemeten.</td>
-                     <td>
-                        CHARACTERSTRING
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a class="link" href="#detail_attribute_Model_Stoffenlijst_omschrijving">omschrijving</a>
-                        
-                     </td>
-                     <td>Nadere omschrijving van de parameter, indien nodig.</td>
-                     <td>
-                        CHARACTERSTRING
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a class="link" href="#detail_attribute_Model_Stoffenlijst_eenheid">eenheid</a>
-                        
-                     </td>
-                     <td>De afgesproken eenheid waarin de parameter wordt gerapporteerd.</td>
-                     <td>
-                        CHARACTERSTRING
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         
-      </section>
-      <a class="anchor" name="graph_EAID_9C7EC345_35EF_469a_983E_2620D61E15E0"></a><a class="anchor" name="global_class_Model_Sommatielijst"></a><section id="global_class_Model_Sommatielijst">
-         <h5>Referentielijst Sommatielijst</h5>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>Sommatielijst</td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td>Lijst van sommaties die in een grondwatersamenstellingsonderzoek bepaald kunnen worden.</td>
-               </tr>
-            </tbody>
-         </table>
-         
-         <section id="">
-            <h6>Overzicht referentie elementen </h6>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="50%"></colgroup>
-               <colgroup width="10%"></colgroup>
-               <colgroup width="10%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Referentie element</th>
-                     <th>Definitie</th>
-                     <th>Formaat</th>
-                     <th>Card</th>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a class="link" href="#detail_attribute_Model_Sommatielijst_aquocode">aquocode</a>
-                        
-                     </td>
-                     <td>Aquocode van de laboratoriumparameter.</td>
-                     <td>
-                        CHARACTERSTRING
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a class="link" href="#detail_attribute_Model_Sommatielijst_naam">naam</a>
-                        
-                     </td>
-                     <td>Naam van de parameter die in het laboratorium is gemeten.</td>
-                     <td>
-                        CHARACTERSTRING
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a class="link" href="#detail_attribute_Model_Sommatielijst_omschrijving">omschrijving</a>
-                        
-                     </td>
-                     <td></td>
-                     <td>
-                        CHARACTERSTRING
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a class="link" href="#detail_attribute_Model_Sommatielijst_eenheid">eenheid</a>
-                        
-                     </td>
-                     <td></td>
-                     <td>
-                        CHARACTERSTRING
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
          
       </section>
       
@@ -1507,6 +1260,67 @@
             </table>
             
          </section>
+         <a class="anchor" name="detail_attribute_Model_Grondwatersamenstellingsonderzoek_grondwatermonitoringput"></a><section id="detail_attribute_Model_Grondwatersamenstellingsonderzoek_grondwatermonitoringput"><strong>Attribuutsoort details <a href="#global_class_Model_Grondwatersamenstellingsonderzoek">Grondwatersamenstellingsonderzoek</a> grondwatermonitoringput</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>grondwatermonitoringput</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De grondwatermonitoringput waar het grondwater is bemonsterd.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Omdat er nog geen informatiemodel voor het grondwatermonitoringnet is ontwikkeld,
+                        wordt in plaats van een meetpunt in een grondwatermonitoringnet nu het BRO-ID van
+                        de grondwatermonitoringput opgenomen.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Registratieobjectcode</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
          <a class="anchor" name="detail_attribute_Model_Grondwatersamenstellingsonderzoek_bestrijdingsmiddelenOnderzocht"></a><section id="detail_attribute_Model_Grondwatersamenstellingsonderzoek_bestrijdingsmiddelenOnderzocht"><strong>Attribuutsoort details <a href="#global_class_Model_Grondwatersamenstellingsonderzoek">Grondwatersamenstellingsonderzoek</a> bestrijdingsmiddelen onderzocht</strong>
             
             <table>
@@ -1621,6 +1435,18 @@
                      <td>bestaat uit</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>Gegevens over de in een laboratorium uitgevoerde metingen .</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Nee</td>
                   </tr>
@@ -1635,6 +1461,10 @@
                   <tr>
                      <th>Indicatie kardinaliteit</th>
                      <td>1 .. *</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
                   </tr>
                   <tr>
                      <th>Gerelateerd objecttype</th>
@@ -1659,6 +1489,18 @@
                      <td>heeft</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De gegevens die de geschiedenis van het object in de registratie ondergrond markeren.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Nee</td>
                   </tr>
@@ -1673,6 +1515,10 @@
                   <tr>
                      <th>Indicatie kardinaliteit</th>
                      <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
                   </tr>
                   <tr>
                      <th>Gerelateerd objecttype</th>
@@ -1697,6 +1543,18 @@
                      <td>bestaat uit</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>Gegevens over het deel van het onderzoek dat betrekking heeft op het veldwerk.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Nee</td>
                   </tr>
@@ -1711,6 +1569,10 @@
                   <tr>
                      <th>Indicatie kardinaliteit</th>
                      <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
                   </tr>
                   <tr>
                      <th>Gerelateerd objecttype</th>
@@ -1834,60 +1696,6 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_Model_Veldonderzoek_uitvoerder"></a><section id="detail_attribute_Model_Veldonderzoek_uitvoerder"><strong>Attribuutsoort details <a href="#global_class_Model_Veldonderzoek">Veldonderzoek</a> uitvoerder</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>uitvoerder</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De identificatie die de organisatie die verantwoordelijk is voor de uitvoering van
-                        het veldonderzoek, als onderneming in het Handelsregister heeft.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Regels</th>
-                     <td>De onderneming moet binnen de basisregistratie ondergrond bekend zijn als uitvoerder
-                        van grondwateronderzoek.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>KvK-nummer</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
          <a class="anchor" name="detail_attribute_Model_Veldonderzoek_bijzonderheidVeldonderzoek"></a><section id="detail_attribute_Model_Veldonderzoek_bijzonderheidVeldonderzoek"><strong>Attribuutsoort details <a href="#global_class_Model_Veldonderzoek">Veldonderzoek</a> bijzonderheid veldonderzoek</strong>
             
             <table>
@@ -2000,6 +1808,60 @@
             </table>
             
          </section>
+         <a class="anchor" name="detail_attribute_Model_Veldonderzoek_uitvoerder"></a><section id="detail_attribute_Model_Veldonderzoek_uitvoerder"><strong>Attribuutsoort details <a href="#global_class_Model_Veldonderzoek">Veldonderzoek</a> uitvoerder</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>uitvoerder</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De identificatie die de organisatie die verantwoordelijk is voor de uitvoering van
+                        het veldonderzoek, als onderneming in het Handelsregister heeft.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>De onderneming moet binnen de basisregistratie ondergrond bekend zijn als uitvoerder
+                        van grondwateronderzoek.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>KvK-nummer</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
          <a class="anchor" name="detail_association_Model_Veldonderzoek_resultaat"></a><section id="detail_association_Model_Veldonderzoek_resultaat"><strong>Relatiesoort details <a href="#global_class_Model_Veldonderzoek">Veldonderzoek</a> leidt tot</strong>
             
             
@@ -2010,6 +1872,20 @@
                   <tr>
                      <th>Naam</th>
                      <td>leidt tot</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De uitkomsten van de metingen die in het veld aan het bemonsterde grondwater zijn
+                        uitgevoerd.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -2026,6 +1902,10 @@
                   <tr>
                      <th>Indicatie kardinaliteit</th>
                      <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
                   </tr>
                   <tr>
                      <th>Gerelateerd objecttype</th>
@@ -2050,6 +1930,18 @@
                      <td>bemonsterd met</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>Gegevens over het apparaat dat gebruikt is voor het bemonsteren van het grondwater.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Nee</td>
                   </tr>
@@ -2064,6 +1956,10 @@
                   <tr>
                      <th>Indicatie kardinaliteit</th>
                      <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
                   </tr>
                   <tr>
                      <th>Gerelateerd objecttype</th>
@@ -2298,10 +2194,6 @@
                      </td>
                   </tr>
                   <tr>
-                     <th>Patroon</th>
-                     <td>Getal tussen 0 en 65.000 in ï¿½S/cm</td>
-                  </tr>
-                  <tr>
                      <th>Formaat</th>
                      <td>Meetwaarde5</td>
                   </tr>
@@ -2337,13 +2229,13 @@
                   </tr>
                   <tr>
                      <th>Toelichting</th>
-                     <td>Het waterstofcarbonaatgehalte is een van de gegevens die wat zeggen over de toestand
-                        van het grondwater. Bepaling van het gegeven in het veld is van belang om later te
-                        kunnen vaststellen of en in hoeverre er veranderingen in de toestand zijn opgetreden.
-                        De waarde van het gegeven verandert bijvoorbeeld met de temperatuur, onder invloed
-                        van zuurstof, door ontgassing en door het optreden van microbiologische activiteit.
-                        De bepaling kan alleen correct worden uitgevoerd wanneer de omstandigheden in het
-                        veld dat toelaten.
+                     <td>Het gehalte wordt uitgedrukt in wetenschappelijke notatie. Het waterstofcarbonaatgehalte
+                        is een van de gegevens die wat zeggen over de toestand van het grondwater. Bepaling
+                        van het gegeven in het veld is van belang om later te kunnen vaststellen of en in
+                        hoeverre er veranderingen in de toestand zijn opgetreden. De waarde van het gegeven
+                        verandert bijvoorbeeld met de temperatuur, onder invloed van zuurstof, door ontgassing
+                        en door het optreden van microbiologische activiteit. De bepaling kan alleen correct
+                        worden uitgevoerd wanneer de omstandigheden in het veld dat toelaten.
                      </td>
                   </tr>
                   <tr>
@@ -2370,12 +2262,8 @@
                      </td>
                   </tr>
                   <tr>
-                     <th>Patroon</th>
-                     <td>Getal tussen  0 en 3900 in mg/l</td>
-                  </tr>
-                  <tr>
                      <th>Formaat</th>
-                     <td>Meetwaarde4.1</td>
+                     <td>REAL</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -2439,10 +2327,6 @@
                      </td>
                   </tr>
                   <tr>
-                     <th>Patroon</th>
-                     <td>Getal tussen 3 en 10</td>
-                  </tr>
-                  <tr>
                      <th>Formaat</th>
                      <td>Meetwaarde2.1</td>
                   </tr>
@@ -2500,10 +2384,6 @@
                      </td>
                   </tr>
                   <tr>
-                     <th>Patroon</th>
-                     <td>Getal tussen 4 en 30  in graden Celsius</td>
-                  </tr>
-                  <tr>
                      <th>Formaat</th>
                      <td>Meetwaarde2.1</td>
                   </tr>
@@ -2559,10 +2439,6 @@
                         een filter in een monitoringsbuis is, is het gegeven aanwezig; in het andere geval
                         ontbreekt het. 
                      </td>
-                  </tr>
-                  <tr>
-                     <th>Patroon</th>
-                     <td>Getal tussen -20 en 99 in meters</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -2625,10 +2501,6 @@
                      </td>
                   </tr>
                   <tr>
-                     <th>Patroon</th>
-                     <td>Getal tussen 0 en 60 in NTU</td>
-                  </tr>
-                  <tr>
                      <th>Formaat</th>
                      <td>Meetwaarde3</td>
                   </tr>
@@ -2664,10 +2536,7 @@
                   </tr>
                   <tr>
                      <th>Toelichting</th>
-                     <td>Behorende bij de regels: Het kan voorkomen dat het zuurstofgehalte door een probleem
-                        met de meetapparatuur niet bepaald kon worden en alleen in dat geval heeft het gegeven
-                        geen waarde.
-                     </td>
+                     <td>Het gehalte wordt uitgedrukt in wetenschappelijke notatie.</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -2686,18 +2555,8 @@
                      <td>Authentiek</td>
                   </tr>
                   <tr>
-                     <th>Regels</th>
-                     <td>Het gegeven ontbreekt wanneer het attribuut kader inwinning van de entiteit Grondwatersamenstellingsonderzoek
-                        de waarde Monitoring verdroging heeft, In andere gevallen is het gegeven aanwezig.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Patroon</th>
-                     <td>Getal tussen 0 en 13 in mg/l</td>
-                  </tr>
-                  <tr>
                      <th>Formaat</th>
-                     <td>Meetwaarde2.2</td>
+                     <td>REAL</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -2751,10 +2610,6 @@
                         de waarde Monitoring verdroging heeft, ontbreekt het gegeven. Verder is het gegeven
                         alleen aanwezig als het gegeven temperatuur ontbreekt.
                      </td>
-                  </tr>
-                  <tr>
-                     <th>Patroon</th>
-                     <td>Getal tussen 4 en 30 in graden Celsius</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -2878,6 +2733,20 @@
                      <td>leidt tot</td>
                   </tr>
                   <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De uitkomsten van de metingen die in het laboratorium aan het bemonsterde grondwater
+                        zijn uitgevoerd.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Nee</td>
                   </tr>
@@ -2892,6 +2761,10 @@
                   <tr>
                      <th>Indicatie kardinaliteit</th>
                      <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
                   </tr>
                   <tr>
                      <th>Gerelateerd objecttype</th>
@@ -3119,18 +2992,22 @@
                   </tr>
                </tbody>
             </table>
-            <a class="anchor" name="detail_attribute_Model_GehalteStof_cASNummer"></a><section id="detail_attribute_Model_GehalteStof_cASNummer" class="notoc"><strong>Attribuutsoort CAS-nummer  GehalteStof</strong>
+            <a class="anchor" name="detail_attribute_Model_GehalteStof_aquocode"></a><section id="detail_attribute_Model_GehalteStof_aquocode" class="notoc"><strong>Attribuutsoort aquocode  GehalteStof</strong>
                
                <table>
                   <tbody>
                      <tr></tr>
                      <tr>
                         <th>Naam</th>
-                        <td>CAS-nummer</td>
+                        <td>aquocode</td>
                      </tr>
                      <tr>
                         <th>Herkomst</th>
                         <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Definitie</th>
+                        <td>De Aquocode van de laboratoriumparameter.</td>
                      </tr>
                      <tr>
                         <th>Herkomst definitie</th>
@@ -3138,9 +3015,8 @@
                      </tr>
                      <tr>
                         <th>Toelichting</th>
-                        <td>CAS-nummers geven een internationale unieke numerieke identificatie voor een chemische
-                           stof en worden beheerd door de Chemical Abstracts Service van de American Chemical
-                           Society.
+                        <td>Aquocodes worden beheerd in de domeintabel Parameter van het IHW. Deze tabel is te
+                           vinden op http://domeintabellen-idsw.rws.nl.
                         </td>
                      </tr>
                      <tr>
@@ -3161,11 +3037,11 @@
                      </tr>
                      <tr>
                         <th>Indicatie authentiek</th>
-                        <td>Authentiek</td>
+                        <td>Basisgegeven</td>
                      </tr>
                      <tr>
                         <th>Formaat</th>
-                        <td>Stoffenlijst</td>
+                        <td>CHARACTERSTRING</td>
                      </tr>
                   </tbody>
                </table>
@@ -3194,14 +3070,15 @@
                      </tr>
                      <tr>
                         <th>Toelichting</th>
-                        <td>Als het gemeten gehalte onder de rapportagegrens ligt, wordt het veld leeg gelaten.
-                           Het veld 'onder rapportagegrens' krijgt dan de waarde 'ja' en de gehanteerde rapportagegrens
-                           wordt ingevuld in het veld 'rapportagegrens'.
+                        <td>Het gehalte wordt uitgedrukt in wetenschappelijke notatie. Als het gemeten gehalte
+                           onder de rapportagegrens ligt, wordt het veld leeg gelaten. Het veld 'onder rapportagegrens'
+                           krijgt dan de waarde 'ja' en de gehanteerde rapportagegrens wordt ingevuld in het
+                           veld 'rapportagegrens'.
                         </td>
                      </tr>
                      <tr>
                         <th>Mogelijk geen waarde</th>
-                        <td>Ja</td>
+                        <td>Nee</td>
                      </tr>
                      <tr>
                         <th>Indicatie materiële historie</th>
@@ -3213,21 +3090,15 @@
                      </tr>
                      <tr>
                         <th>Indicatie kardinaliteit</th>
-                        <td>1</td>
+                        <td>0 .. 1</td>
                      </tr>
                      <tr>
                         <th>Indicatie authentiek</th>
                         <td>Authentiek</td>
                      </tr>
                      <tr>
-                        <th>Regels</th>
-                        <td>Als het attribuut 'onder rapportagegrens' de waarde 'ja' heeft, heeft dit attribuut
-                           geen waarde.
-                        </td>
-                     </tr>
-                     <tr>
                         <th>Formaat</th>
-                        <td>Decimal</td>
+                        <td>REAL</td>
                      </tr>
                   </tbody>
                </table>
@@ -3337,272 +3208,6 @@
                         <td>Authentiek</td>
                      </tr>
                      <tr>
-                        <th>Regels</th>
-                        <td>Alleen gevuld als het attribuut 'onder rapportagegrens' de waarde 'ja' heeft.</td>
-                     </tr>
-                     <tr>
-                        <th>Formaat</th>
-                        <td>Decimal</td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section>
-            
-         </section>
-         <a class="anchor" name="detail_class_Model_GehalteSommatie"></a><section id="detail_class_Model_GehalteSommatie"><strong>Gegevensgroeptype details <a href="#global_class_Model_ResultaatLaboratoriumonderzoek">Resultaat laboratoriumonderzoek</a> GehalteSommatie</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>GehalteSommatie</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>In het laboratorum bepaalde meetwaarde voor een sommatie, een som van gehaltes van
-                        een aantal parameters.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            <a class="anchor" name="detail_attribute_Model_GehalteSommatie_aquocode"></a><section id="detail_attribute_Model_GehalteSommatie_aquocode" class="notoc"><strong>Attribuutsoort aquocode  GehalteSommatie</strong>
-               
-               <table>
-                  <tbody>
-                     <tr></tr>
-                     <tr>
-                        <th>Naam</th>
-                        <td>aquocode</td>
-                     </tr>
-                     <tr>
-                        <th>Herkomst</th>
-                        <td>BRO</td>
-                     </tr>
-                     <tr>
-                        <th>Definitie</th>
-                        <td>Uit de sommatielijst te kiezen Aquocode van de laboratoriumparameter</td>
-                     </tr>
-                     <tr>
-                        <th>Herkomst definitie</th>
-                        <td>BRO</td>
-                     </tr>
-                     <tr>
-                        <th>Mogelijk geen waarde</th>
-                        <td>Nee</td>
-                     </tr>
-                     <tr>
-                        <th>Indicatie materiële historie</th>
-                        <td>Nee</td>
-                     </tr>
-                     <tr>
-                        <th>Indicatie formele historie</th>
-                        <td>Nee</td>
-                     </tr>
-                     <tr>
-                        <th>Indicatie kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Formaat</th>
-                        <td>Sommatielijst</td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section>
-            <a class="anchor" name="detail_attribute_Model_GehalteSommatie_waarde"></a><section id="detail_attribute_Model_GehalteSommatie_waarde" class="notoc"><strong>Attribuutsoort waarde  GehalteSommatie</strong>
-               
-               <table>
-                  <tbody>
-                     <tr></tr>
-                     <tr>
-                        <th>Naam</th>
-                        <td>waarde</td>
-                     </tr>
-                     <tr>
-                        <th>Herkomst</th>
-                        <td>BRO</td>
-                     </tr>
-                     <tr>
-                        <th>Definitie</th>
-                        <td>Het gemeten gehalte.</td>
-                     </tr>
-                     <tr>
-                        <th>Herkomst definitie</th>
-                        <td>BRO</td>
-                     </tr>
-                     <tr>
-                        <th>Toelichting</th>
-                        <td>Als het gemeten gehalte onder de rapportagegrens ligt, wordt het veld leeg gelaten.
-                           Het veld 'onder rapportagegrens' krijgt dan de waarde 'ja' en de gehanteerde rapportagegrens
-                           wordt ingevuld in het veld 'rapportagegrens'.
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Mogelijk geen waarde</th>
-                        <td>Ja</td>
-                     </tr>
-                     <tr>
-                        <th>Indicatie materiële historie</th>
-                        <td>Nee</td>
-                     </tr>
-                     <tr>
-                        <th>Indicatie formele historie</th>
-                        <td>Nee</td>
-                     </tr>
-                     <tr>
-                        <th>Indicatie kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Indicatie authentiek</th>
-                        <td>Authentiek</td>
-                     </tr>
-                     <tr>
-                        <th>Regels</th>
-                        <td>Als het attribuut 'onder rapportagegrens' de waarde 'ja' heeft, heeft dit attribuut
-                           geen waarde.
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Formaat</th>
-                        <td>Decimal</td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section>
-            <a class="anchor" name="detail_attribute_Model_GehalteSommatie_onderRapportagegrens"></a><section id="detail_attribute_Model_GehalteSommatie_onderRapportagegrens" class="notoc"><strong>Attribuutsoort onder rapportagegrens  GehalteSommatie</strong>
-               
-               <table>
-                  <tbody>
-                     <tr></tr>
-                     <tr>
-                        <th>Naam</th>
-                        <td>onder rapportagegrens</td>
-                     </tr>
-                     <tr>
-                        <th>Herkomst</th>
-                        <td>BRO</td>
-                     </tr>
-                     <tr>
-                        <th>Definitie</th>
-                        <td>Aanduiding of de gemeten waarde onder de door het laboratorium gehanteerde rapportagegrens
-                           lag.
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Herkomst definitie</th>
-                        <td>BRO</td>
-                     </tr>
-                     <tr>
-                        <th>Mogelijk geen waarde</th>
-                        <td>Nee</td>
-                     </tr>
-                     <tr>
-                        <th>Indicatie materiële historie</th>
-                        <td>Nee</td>
-                     </tr>
-                     <tr>
-                        <th>Indicatie formele historie</th>
-                        <td>Nee</td>
-                     </tr>
-                     <tr>
-                        <th>Indicatie kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Indicatie authentiek</th>
-                        <td>Authentiek</td>
-                     </tr>
-                     <tr>
-                        <th>Regels</th>
-                        <td>Als de waarde 'ja' is moet de rapportagegrens zijn ingevuld.</td>
-                     </tr>
-                     <tr>
-                        <th>Formaat</th>
-                        <td>IndicatieJaNee</td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section>
-            <a class="anchor" name="detail_attribute_Model_GehalteSommatie_rapportagegrens"></a><section id="detail_attribute_Model_GehalteSommatie_rapportagegrens" class="notoc"><strong>Attribuutsoort rapportagegrens  GehalteSommatie</strong>
-               
-               <table>
-                  <tbody>
-                     <tr></tr>
-                     <tr>
-                        <th>Naam</th>
-                        <td>rapportagegrens</td>
-                     </tr>
-                     <tr>
-                        <th>Herkomst</th>
-                        <td>BRO</td>
-                     </tr>
-                     <tr>
-                        <th>Definitie</th>
-                        <td>De door het uitvoerende laboratorium met de opdrachtgever afgesproken grensconcentratie
-                           waarboven het gemeten gehalte van de component in een monster wordt gerapporteerd
-                           aan de opdrachtgever.
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Herkomst definitie</th>
-                        <td>BRO</td>
-                     </tr>
-                     <tr>
-                        <th>Toelichting</th>
-                        <td>Dit wordt ook wel minimumconcentratie genoemd.</td>
-                     </tr>
-                     <tr>
-                        <th>Mogelijk geen waarde</th>
-                        <td>Nee</td>
-                     </tr>
-                     <tr>
-                        <th>Indicatie materiële historie</th>
-                        <td>Nee</td>
-                     </tr>
-                     <tr>
-                        <th>Indicatie formele historie</th>
-                        <td>Nee</td>
-                     </tr>
-                     <tr>
-                        <th>Indicatie kardinaliteit</th>
-                        <td>0 .. 1</td>
-                     </tr>
-                     <tr>
-                        <th>Indicatie authentiek</th>
-                        <td>Authentiek</td>
-                     </tr>
-                     <tr>
-                        <th>Regels</th>
-                        <td>Alleen gevuld als het attribuut 'onder rapportagegrens' de waarde 'ja' heeft.</td>
-                     </tr>
-                     <tr>
                         <th>Formaat</th>
                         <td>Decimal</td>
                      </tr>
@@ -3616,283 +3221,6 @@
       </section>
       
       
-      
-      <a class="anchor" name="detail_class_Model_Stoffenlijst"></a><section id="detail_class_Model_Stoffenlijst">
-         <h6>Referentielijst Stoffenlijst</h6>
-         <a class="anchor" name="detail_attribute_Model_Stoffenlijst_cASNummer"></a><section id="detail_attribute_Model_Stoffenlijst_cASNummer"><strong>Referentie element details <a href="#global_class_Model_Stoffenlijst">Stoffenlijst</a> CAS-nummer</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>CAS-nummer</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>Chemical Abstracts Service nummer van de laboratoriumparameter.</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>Alleen chemische parameters hebben een CAS-nummer. Een Chemical Abstracts Service
-                        nummer is uniek voor elke parameter. Voor bv somparameters ontbreekt het CAS-nummer.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Patroon</th>
-                     <td>2 tot 6 cijfers, 2 cijfers, 1 cijfer, gescheiden door hyphen</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>CHARACTERSTRING</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Model_Stoffenlijst_aquocode"></a><section id="detail_attribute_Model_Stoffenlijst_aquocode"><strong>Referentie element details <a href="#global_class_Model_Stoffenlijst">Stoffenlijst</a> aquocode</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>aquocode</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>Aquocode van de laboratoriumparameter.</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>De aquocode is uniek voor elke stof. Voor nieuwe opkomende stoffen kan een nieuwe
-                        aquacode worden aangevraagd.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>CHARACTERSTRING</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Model_Stoffenlijst_naam"></a><section id="detail_attribute_Model_Stoffenlijst_naam"><strong>Referentie element details <a href="#global_class_Model_Stoffenlijst">Stoffenlijst</a> naam</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>naam</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>Naam van de parameter die in het laboratorium is gemeten.</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>CHARACTERSTRING</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Model_Stoffenlijst_omschrijving"></a><section id="detail_attribute_Model_Stoffenlijst_omschrijving"><strong>Referentie element details <a href="#global_class_Model_Stoffenlijst">Stoffenlijst</a> omschrijving</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>omschrijving</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>Nadere omschrijving van de parameter, indien nodig.</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>CHARACTERSTRING</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Model_Stoffenlijst_eenheid"></a><section id="detail_attribute_Model_Stoffenlijst_eenheid"><strong>Referentie element details <a href="#global_class_Model_Stoffenlijst">Stoffenlijst</a> eenheid</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>eenheid</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De afgesproken eenheid waarin de parameter wordt gerapporteerd.</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>CHARACTERSTRING</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         
-      </section>
-      <a class="anchor" name="detail_class_Model_Sommatielijst"></a><section id="detail_class_Model_Sommatielijst">
-         <h6>Referentielijst Sommatielijst</h6>
-         <a class="anchor" name="detail_attribute_Model_Sommatielijst_aquocode"></a><section id="detail_attribute_Model_Sommatielijst_aquocode"><strong>Referentie element details <a href="#global_class_Model_Sommatielijst">Sommatielijst</a> aquocode</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>aquocode</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>Aquocode van de laboratoriumparameter.</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>De aquocode is uniek voor elke stof. Voor nieuwe opkomende stoffen kan een nieuwe
-                        aquacode worden aangevraagd.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>CHARACTERSTRING</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Model_Sommatielijst_naam"></a><section id="detail_attribute_Model_Sommatielijst_naam"><strong>Referentie element details <a href="#global_class_Model_Sommatielijst">Sommatielijst</a> naam</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>naam</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>Naam van de parameter die in het laboratorium is gemeten.</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>CHARACTERSTRING</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Model_Sommatielijst_omschrijving"></a><section id="detail_attribute_Model_Sommatielijst_omschrijving"><strong>Referentie element details <a href="#global_class_Model_Sommatielijst">Sommatielijst</a> omschrijving</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>omschrijving</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>CHARACTERSTRING</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Model_Sommatielijst_eenheid"></a><section id="detail_attribute_Model_Sommatielijst_eenheid"><strong>Referentie element details <a href="#global_class_Model_Sommatielijst">Sommatielijst</a> eenheid</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>eenheid</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>CHARACTERSTRING</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         
-      </section>
       
       
       
@@ -4568,7 +3896,7 @@
                      [ 1 ]
                      
                   </td>
-                  <td></td>
+                  <td>De gegevens die de geschiedenis van het object in de registratie ondergrond markeren.</td>
                </tr>
             </tbody>
          </table>
