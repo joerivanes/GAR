@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "Grondwatersamenstellingsonderzoek (GAR)" door Imvertor 1.47.2 op October 4, 2018 at 14:17:25.
+   "Grondwatersamenstellingsonderzoek (GAR)" door Imvertor 1.47.2 op October 8, 2018 at 07:18:44.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i></i> en geef de code 
-   <i>"Conceptualmodel-GrondwatersamenstellingsonderzoekGAR-0.1-0-20180315-20181004-161727"</i> door. 
+   <i>"Conceptualmodel-GrondwatersamenstellingsonderzoekGAR-0.1-0-20180315-20181008-091846"</i> door. 
    
 </p><a class="anchor" name="global_package_Model"></a><section id="global_package_Model">
    <h3>Domein Model</h3>
@@ -556,7 +556,7 @@
                      <a class="link" href="#global_class_Model_Meetwaarde21">Meetwaarde2.1</a>
                      
                   </td>
-                  <td>1</td>
+                  <td>0 .. 1</td>
                </tr>
                <tr>
                   <td>
@@ -592,7 +592,7 @@
                      <a class="link" href="#global_class_Brocommon_Meetwaarde3">Meetwaarde3</a>
                      
                   </td>
-                  <td>1</td>
+                  <td>0 .. 1</td>
                </tr>
                <tr>
                   <td>
@@ -808,7 +808,7 @@
                <tr>
                   <th>Toelichting</th>
                   <td>De drie fysische parameters zijn in het resultaat expliciet benoemd. De overige gemeten
-                     parameters worden gekozen uit ofwel een stoffenlijst, ofwel een lijst van sommaties.
+                     parameters worden gekozen uit een stoffenlijs.
                   </td>
                </tr>
             </tbody>
@@ -2046,7 +2046,7 @@
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
-                     <td>Ja</td>
+                     <td>Nee</td>
                   </tr>
                   <tr>
                      <th>Indicatie formele historie</th>
@@ -2059,13 +2059,6 @@
                   <tr>
                      <th>Indicatie authentiek</th>
                      <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Regels</th>
-                     <td>Het gegeven ontbreekt bij bepaalde waarden van kader inwinning. Door uiteenlopende
-                        oorzaken kan het voorkomen dat het waterstofcarbonaatgehalte niet bepaald is. Alleen
-                        in dat geval heeft het attribuut geen waarde.
-                     </td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -2107,7 +2100,7 @@
                         Bepaling van het gegeven in het veld is van belang om later te kunnen vaststellen
                         of en in hoeverre er veranderingen in de toestand zijn opgetreden. De waarde van het
                         gegeven verandert bijvoorbeeld met de temperatuur, onder invloed van zuurstof, door
-                        ontgassing en door het optreden van microbiologische activiteit
+                        ontgassing en door het optreden van microbiologische activiteit.
                      </td>
                   </tr>
                   <tr>
@@ -2120,17 +2113,11 @@
                   </tr>
                   <tr>
                      <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
+                     <td>0 .. 1</td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
                      <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Regels</th>
-                     <td>Door een probleem met de meetapparatuur kan het voorkomen dat de zuurgraad niet bepaald
-                        is. Alleen in dat geval heeft het attribuut geen waarde.
-                     </td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -2181,13 +2168,6 @@
                   <tr>
                      <th>Indicatie authentiek</th>
                      <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Regels</th>
-                     <td>Wanneer het attribuut kader inwinning van de entiteit Grondwatersamenstellingsonderzoek
-                        de waarde Monitoring verdroging heeft, ontbreekt het gegeven. Verder is het gegeven
-                        alleen aanwezig als het gegeven temperatuur in situ ontbreekt.
-                     </td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -2241,9 +2221,9 @@
                   </tr>
                   <tr>
                      <th>Regels</th>
-                     <td>Wanneer het rmeetpunt waaraan de entiteit Grondwatersamenstellingsonderzoek is gekoppeld,
+                     <td>Wanneer het meetpunt waaraan de entiteit Grondwatersamenstellingsonderzoek is gekoppeld,
                         een filter in een monitoringsbuis is, is het gegeven aanwezig; in het andere geval
-                        ontbreekt het. 
+                        ontbreekt het.
                      </td>
                   </tr>
                   <tr>
@@ -2286,7 +2266,7 @@
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
-                     <td>Ja</td>
+                     <td>Nee</td>
                   </tr>
                   <tr>
                      <th>Indicatie formele historie</th>
@@ -2294,17 +2274,11 @@
                   </tr>
                   <tr>
                      <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
+                     <td>0 .. 1</td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
                      <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Regels</th>
-                     <td>Door een probleem met de meetapparatuur kan het voorkomen dat de troebelheid niet
-                        bepaald is. Alleen in dat geval heeft het attribuut geen waarde.
-                     </td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -2346,7 +2320,7 @@
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
-                     <td>Ja</td>
+                     <td>Nee</td>
                   </tr>
                   <tr>
                      <th>Indicatie formele historie</th>
@@ -2409,13 +2383,6 @@
                   <tr>
                      <th>Indicatie authentiek</th>
                      <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Regels</th>
-                     <td>Wanneer het attribuut kader inwinning van de entiteit Grondwatersamenstellingsonderzoek
-                        de waarde Monitoring verdroging heeft, ontbreekt het gegeven. Verder is het gegeven
-                        alleen aanwezig als het gegeven temperatuur ontbreekt.
-                     </td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -2913,6 +2880,12 @@
                         <td>Authentiek</td>
                      </tr>
                      <tr>
+                        <th>Regels</th>
+                        <td>Alleen als het attribuut 'onder rapportagegrens' de waarde 'nee' heeft, is dit gegeven
+                           altijd aanwezig en gevuld.
+                        </td>
+                     </tr>
+                     <tr>
                         <th>Formaat</th>
                         <td>REAL</td>
                      </tr>
@@ -3022,6 +2995,12 @@
                      <tr>
                         <th>Indicatie authentiek</th>
                         <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Regels</th>
+                        <td>Alleen als het attribuut 'onder rapportagegrens' de waarde 'ja' heeft, is dit gegeven
+                           altijd aanwezig en gevuld.
+                        </td>
                      </tr>
                      <tr>
                         <th>Formaat</th>

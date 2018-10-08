@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.47.2"
-      generator-date="2018-10-04T14:17:25Z">
+      generator-date="2018-10-08T07:18:44Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -583,7 +583,7 @@
                      <item>
                         <item type="global" idref="global_class_Model_Meetwaarde21">Meetwaarde2.1</item>
                      </item>
-                     <item>1</item>
+                     <item>0 .. 1</item>
                   </part>
                   <part>
                      <item>
@@ -616,7 +616,7 @@
                      <item>
                         <item type="global" idref="global_class_Brocommon_Meetwaarde3">Meetwaarde3</item>
                      </item>
-                     <item>1</item>
+                     <item>0 .. 1</item>
                   </part>
                   <part>
                      <item>
@@ -838,7 +838,7 @@
                </part>
                <part type="CFG-DOC-TOELICHTING">
                   <item>Toelichting</item>
-                  <item>De drie fysische parameters zijn in het resultaat expliciet benoemd. De overige gemeten parameters worden gekozen uit ofwel een stoffenlijst, ofwel een lijst van sommaties.</item>
+                  <item>De drie fysische parameters zijn in het resultaat expliciet benoemd. De overige gemeten parameters worden gekozen uit een stoffenlijs.</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -2021,7 +2021,7 @@
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
-                        <item>Ja</item>
+                        <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
@@ -2034,10 +2034,6 @@
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-REGELS">
-                        <item>Regels</item>
-                        <item>Het gegeven ontbreekt bij bepaalde waarden van kader inwinning. Door uiteenlopende oorzaken kan het voorkomen dat het waterstofcarbonaatgehalte niet bepaald is. Alleen in dat geval heeft het attribuut geen waarde.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -2072,7 +2068,7 @@
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>De zuurgraad is een van de gegevens die wat zeggen over de toestand van het grondwater. Bepaling van het gegeven in het veld is van belang om later te kunnen vaststellen of en in hoeverre er veranderingen in de toestand zijn opgetreden. De waarde van het gegeven verandert bijvoorbeeld met de temperatuur, onder invloed van zuurstof, door ontgassing en door het optreden van microbiologische activiteit</item>
+                        <item>De zuurgraad is een van de gegevens die wat zeggen over de toestand van het grondwater. Bepaling van het gegeven in het veld is van belang om later te kunnen vaststellen of en in hoeverre er veranderingen in de toestand zijn opgetreden. De waarde van het gegeven verandert bijvoorbeeld met de temperatuur, onder invloed van zuurstof, door ontgassing en door het optreden van microbiologische activiteit.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -2084,15 +2080,11 @@
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
+                        <item>0 .. 1</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-REGELS">
-                        <item>Regels</item>
-                        <item>Door een probleem met de meetapparatuur kan het voorkomen dat de zuurgraad niet bepaald is. Alleen in dat geval heeft het attribuut geen waarde.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -2141,10 +2133,6 @@
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
-                     <part type="CFG-DOC-REGELS">
-                        <item>Regels</item>
-                        <item>Wanneer het attribuut kader inwinning van de entiteit Grondwatersamenstellingsonderzoek de waarde Monitoring verdroging heeft, ontbreekt het gegeven. Verder is het gegeven alleen aanwezig als het gegeven temperatuur in situ ontbreekt.</item>
-                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Meetwaarde2.1</item>
@@ -2190,7 +2178,7 @@
                      </part>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
-                        <item>Wanneer het rmeetpunt waaraan de entiteit Grondwatersamenstellingsonderzoek is gekoppeld, een filter in een monitoringsbuis is, is het gegeven aanwezig; in het andere geval ontbreekt het. </item>
+                        <item>Wanneer het meetpunt waaraan de entiteit Grondwatersamenstellingsonderzoek is gekoppeld, een filter in een monitoringsbuis is, is het gegeven aanwezig; in het andere geval ontbreekt het.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -2229,7 +2217,7 @@
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
-                        <item>Ja</item>
+                        <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
@@ -2237,15 +2225,11 @@
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
+                        <item>0 .. 1</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-REGELS">
-                        <item>Regels</item>
-                        <item>Door een probleem met de meetapparatuur kan het voorkomen dat de troebelheid niet bepaald is. Alleen in dat geval heeft het attribuut geen waarde.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -2284,7 +2268,7 @@
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
-                        <item>Ja</item>
+                        <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
@@ -2344,10 +2328,6 @@
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-REGELS">
-                        <item>Regels</item>
-                        <item>Wanneer het attribuut kader inwinning van de entiteit Grondwatersamenstellingsonderzoek de waarde Monitoring verdroging heeft, ontbreekt het gegeven. Verder is het gegeven alleen aanwezig als het gegeven temperatuur ontbreekt.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -2821,6 +2801,10 @@
                            <item>Indicatie authentiek</item>
                            <item>Authentiek</item>
                         </part>
+                        <part type="CFG-DOC-REGELS">
+                           <item>Regels</item>
+                           <item>Alleen als het attribuut 'onder rapportagegrens' de waarde 'nee' heeft, is dit gegeven altijd aanwezig en gevuld.</item>
+                        </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>REAL</item>
@@ -2928,6 +2912,10 @@
                         <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                            <item>Indicatie authentiek</item>
                            <item>Authentiek</item>
+                        </part>
+                        <part type="CFG-DOC-REGELS">
+                           <item>Regels</item>
+                           <item>Alleen als het attribuut 'onder rapportagegrens' de waarde 'ja' heeft, is dit gegeven altijd aanwezig en gevuld.</item>
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
