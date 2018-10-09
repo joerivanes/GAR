@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.47.2"
-      generator-date="2018-10-09T10:56:49Z">
+      generator-date="2018-10-09T11:15:25Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -189,7 +189,7 @@
                         </item>
                         <item>[ 1 .. * ]</item>
                      </item>
-                     <item>Gegevens over de in een laboratorium uitgevoerde metingen .</item>
+                     <item>De verzameling activiteiten die ten behoeve van grondwaterkwaliteitsanalyse wordt uitgevoerd in een laboratorium.</item>
                   </part>
                   <part>
                      <item>
@@ -219,7 +219,7 @@
                         </item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>Gegevens over het deel van het onderzoek dat betrekking heeft op het veldwerk.</item>
+                     <item>Het deel van het onderzoek dat betrekking heeft op het bemonsteren van het grondwater en het in het veld uitvoeren van metingen die de toestand van het grondwater en de samenstelling ervan globaal karakteriseren. </item>
                   </part>
                </content>
             </section>
@@ -395,7 +395,7 @@
                         </item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>Gegevens over het apparaat dat gebruikt is voor het bemonsteren van het grondwater.</item>
+                     <item>De specificaties van het apparaat dat gebruikt is voor het bemonsteren van het grondwater.</item>
                   </part>
                   <part>
                      <item>
@@ -411,7 +411,7 @@
                         <item>Veldonderzoek</item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>Gegevens over het deel van het onderzoek dat betrekking heeft op het veldwerk.</item>
+                     <item>Het deel van het onderzoek dat betrekking heeft op het bemonsteren van het grondwater en het in het veld uitvoeren van metingen die de toestand van het grondwater en de samenstelling ervan globaal karakteriseren. </item>
                   </part>
                </content>
             </section>
@@ -518,7 +518,7 @@
                         <item>Bemonsteringsapparaat</item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>Gegevens over het apparaat dat gebruikt is voor het bemonsteren van het grondwater.</item>
+                     <item>De specificaties van het apparaat dat gebruikt is voor het bemonsteren van het grondwater.</item>
                   </part>
                </content>
             </section>
@@ -794,7 +794,7 @@
                         </item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>De uitkomsten van de metingen die in het laboratorium aan het bemonsterde grondwater zijn uitgevoerd.</item>
+                     <item>De tijdens het laboratoriumonderzoek gemeten parameters en hun waarden.</item>
                   </part>
                   <part>
                      <item>
@@ -810,7 +810,7 @@
                         <item>Laboratoriumonderzoek</item>
                         <item>[ 1 .. * ]</item>
                      </item>
-                     <item>Gegevens over de in een laboratorium uitgevoerde metingen .</item>
+                     <item>De verzameling activiteiten die ten behoeve van grondwaterkwaliteitsanalyse wordt uitgevoerd in een laboratorium.</item>
                   </part>
                </content>
             </section>
@@ -977,7 +977,7 @@
                         <item>Resultaat laboratoriumonderzoek</item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>De uitkomsten van de metingen die in het laboratorium aan het bemonsterde grondwater zijn uitgevoerd.</item>
+                     <item>De tijdens het laboratoriumonderzoek gemeten parameters en hun waarden.</item>
                   </part>
                </content>
             </section>
@@ -1230,7 +1230,7 @@
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Gegevens over de in een laboratorium uitgevoerde metingen .</item>
+                        <item>De verzameling activiteiten die ten behoeve van grondwaterkwaliteitsanalyse wordt uitgevoerd in een laboratorium.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -1360,7 +1360,7 @@
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Gegevens over het deel van het onderzoek dat betrekking heeft op het veldwerk.</item>
+                        <item>Het deel van het onderzoek dat betrekking heeft op het bemonsteren van het grondwater en het in het veld uitvoeren van metingen die de toestand van het grondwater en de samenstelling ervan globaal karakteriseren. </item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -1750,7 +1750,7 @@
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Gegevens over het apparaat dat gebruikt is voor het bemonsteren van het grondwater.</item>
+                        <item>De specificaties van het apparaat dat gebruikt is voor het bemonsteren van het grondwater.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -2493,7 +2493,7 @@
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>De uitkomsten van de metingen die in het laboratorium aan het bemonsterde grondwater zijn uitgevoerd.</item>
+                        <item>De tijdens het laboratoriumonderzoek gemeten parameters en hun waarden.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
