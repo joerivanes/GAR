@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.47.2"
-      generator-date="2018-10-09T14:20:04Z">
+      generator-date="2018-10-09T14:28:34Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -1408,9 +1408,17 @@
                         <item>Naam</item>
                         <item>datum veldonderzoek</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De datum waarop het veldonderzoek is uitgevoerd.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
@@ -1798,6 +1806,10 @@
                         <item>Naam</item>
                         <item>type slang</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>Het type slang dat is gebruikt voor bemonsteren.</item>
@@ -2164,9 +2176,17 @@
                         <item>Naam</item>
                         <item>grondwaterstand</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De stand van het grondwater ten opzichte van de bovenkant van de monitoringsbuis.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
@@ -3740,27 +3760,6 @@ Wanneer een attribuut een domein van het type Datum heeft is het voldoende de na
                </part>
             </content>
          </section>
-         <section name="Meetwaarde"
-                  type="PRIMITIVEDATATYPE"
-                  id="global_class_Brocommon_Meetwaarde"
-                  uuid="EAID_3CA9BBEE_29F7_45d7_ADB6_EACA03A2B3AC">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>Meetwaarde</item>
-               </part>
-               <part type="CFG-DOC-DEFINITIE">
-                  <item>Definitie</item>
-                  <item>Het domein meetwaarde wordt in de basisregistratie ondergrond gebruikt voor gegevens die gemeten, berekend of anderszins bepaald zijn. Het is een getal en bij het getal hoort een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes uit het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is de eenheid dimensieloos.</item>
-               </part>
-               <part type="CFG-DOC-TOELICHTING">
-                  <item>Toelichting</item>
-                  <item>Het getal is altijd een rationaal getal, een getal met een decimaal scheidingsteken. Door het scheidingteken krijgt het een opbouw. Het aantal cijfers voor het scheidingsteken is variabel maar begrensd. Het aantal cijfers achter het scheidingsteken ligt vast.
-Gewoonlijk wordt niet alleen de opbouw van het getal benoemd, maar wordt het domein verder ingeperkt door een bereik te specificeren. Het bereik geeft de minimale en de maximale waarde aan die een attribuut kan hebben.
-Wanneer een attribuut een domein van het type meetwaarde heeft wordt de opbouw, de eenheid en indien van toepassing het bereik gegeven. De opbouw wordt aangeduid als N.N waarde. N staat voor het maximum aantal cijfers voor, resp. het aantal cijfers achter het scheidingsteken.</item>
-               </part>
-            </content>
-         </section>
          <section name="DatumTijd"
                   type="PRIMITIVEDATATYPE"
                   id="global_class_Brocommon_DatumTijd"
@@ -3804,6 +3803,27 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
                   <item>Het domein KvK-nummer geeft het identificerende gegeven van een onderneming in het Handelsregister. De opbouw is NNNNNNNN.</item>
+               </part>
+            </content>
+         </section>
+         <section name="Meetwaarde"
+                  type="PRIMITIVEDATATYPE"
+                  id="global_class_Brocommon_Meetwaarde"
+                  uuid="EAID_3CA9BBEE_29F7_45d7_ADB6_EACA03A2B3AC">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Meetwaarde</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Het domein meetwaarde wordt in de basisregistratie ondergrond gebruikt voor gegevens die gemeten, berekend of anderszins bepaald zijn. Het is een getal en bij het getal hoort een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes uit het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is de eenheid dimensieloos.</item>
+               </part>
+               <part type="CFG-DOC-TOELICHTING">
+                  <item>Toelichting</item>
+                  <item>Het getal is altijd een rationaal getal, een getal met een decimaal scheidingsteken. Door het scheidingteken krijgt het een opbouw. Het aantal cijfers voor het scheidingsteken is variabel maar begrensd. Het aantal cijfers achter het scheidingsteken ligt vast.
+Gewoonlijk wordt niet alleen de opbouw van het getal benoemd, maar wordt het domein verder ingeperkt door een bereik te specificeren. Het bereik geeft de minimale en de maximale waarde aan die een attribuut kan hebben.
+Wanneer een attribuut een domein van het type meetwaarde heeft wordt de opbouw, de eenheid en indien van toepassing het bereik gegeven. De opbouw wordt aangeduid als N.N waarde. N staat voor het maximum aantal cijfers voor, resp. het aantal cijfers achter het scheidingsteken.</item>
                </part>
             </content>
          </section>
