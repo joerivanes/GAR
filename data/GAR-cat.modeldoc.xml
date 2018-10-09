@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.47.2"
-      generator-date="2018-10-09T14:39:04Z">
+      generator-date="2018-10-09T14:51:04Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -3202,7 +3202,7 @@
                      </item>
                      <item>De identificatie die de organisatie die het object aan de basisregistratie ondergrond heeft aangeleverd, als onderneming in het Handelsregister heeft.</item>
                      <item>
-                        <item type="global" idref="global_class_Brocommon_BedrijfsIdentificatie">BedrijfsIdentificatie</item>
+                        <item type="global" idref="global_class_Brocommon_Organisatie">Organisatie</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -3347,45 +3347,6 @@
          </section>
       </section>
       <section type="OVERVIEW-STRUCTUREDDATATYPE">
-         <section name="BedrijfsIdentificatie"
-                  type="STRUCTUREDDATATYPE"
-                  id="global_class_Brocommon_BedrijfsIdentificatie"
-                  uuid="EAID_8E721D2D_DB67_4066_B3B4_58DB5B6DC695">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>BedrijfsIdentificatie</item>
-               </part>
-               <part type="CFG-DOC-HERKOMST">
-                  <item>Herkomst</item>
-                  <item>BRO</item>
-               </part>
-               <part type="CFG-DOC-DEFINITIE">
-                  <item>Definitie</item>
-                  <item>TODO</item>
-               </part>
-            </content>
-            <section type="SHORT-DATAELEMENTS">
-               <content>
-                  <itemtype/>
-                  <itemtype type="DATAELEMENT-NAME"/>
-                  <itemtype type="DATAELEMENT-DEFINITION"/>
-                  <itemtype type="DATAELEMENT-FORMAT"/>
-                  <itemtype type="DATAELEMENT-CARD"/>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_Brocommon_BedrijfsIdentificatie_waarde">waarde</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global">Integer</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-               </content>
-            </section>
-         </section>
          <section name="Duur2"
                   type="STRUCTUREDDATATYPE"
                   id="global_class_Brocommon_Duur2"
@@ -3972,7 +3933,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>BedrijfsIdentificatie</item>
+                        <item>Organisatie</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -4154,34 +4115,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
             </section>
          </section>
          <section type="DETAILS-STRUCTUREDDATATYPE">
-            <section name="BedrijfsIdentificatie"
-                     type="GESTRUCTUREERD DATATYPE"
-                     id="detail_class_Brocommon_BedrijfsIdentificatie"
-                     id-global="global_class_Brocommon_BedrijfsIdentificatie">
-               <section name="waarde"
-                        type="DETAIL-DATAELEMENT"
-                        id="detail_attribute_Brocommon_BedrijfsIdentificatie_waarde"
-                        id-global="global_attribute_Brocommon_BedrijfsIdentificatie_waarde">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>waarde</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Integer</item>
-                     </part>
-                  </content>
-               </section>
-            </section>
             <section name="Duur2"
                      type="GESTRUCTUREERD DATATYPE"
                      id="detail_class_Brocommon_Duur2"
