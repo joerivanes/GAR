@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.47.2"
-      generator-date="2018-10-09T09:13:49Z">
+      generator-date="2018-10-09T10:56:49Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -559,7 +559,7 @@
                      </item>
                      <item>Het elektrisch geleidingsvermogen (ook wel EGV, EC) van het grondwater, omgerekend naar de referentietemperatuur van 25 graden.</item>
                      <item>
-                        <item type="global" idref="global_class_Brocommon_Meetwaarde5">Meetwaarde5</item>
+                        <item type="global" idref="global_class_Brocommon_Meetwaarde">Meetwaarde</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -581,7 +581,7 @@
                      </item>
                      <item>De zuurgraad van het grondwater.</item>
                      <item>
-                        <item type="global" idref="global_class_Model_Meetwaarde21">Meetwaarde2.1</item>
+                        <item type="global" idref="global_class_Brocommon_Meetwaarde">Meetwaarde</item>
                      </item>
                      <item>0 .. 1</item>
                   </part>
@@ -592,7 +592,7 @@
                      </item>
                      <item>De temperatuur van het opgepompte grondwater.</item>
                      <item>
-                        <item type="global" idref="global_class_Model_Meetwaarde21">Meetwaarde2.1</item>
+                        <item type="global" idref="global_class_Brocommon_Meetwaarde">Meetwaarde</item>
                      </item>
                      <item>0 .. 1</item>
                   </part>
@@ -603,7 +603,7 @@
                      </item>
                      <item>De stand van het grondwater ten opzichte van de bovenkant van de monitoringsbuis.</item>
                      <item>
-                        <item type="global" idref="global_class_Brocommon_Meetwaarde22">Meetwaarde2.2</item>
+                        <item type="global" idref="global_class_Brocommon_Meetwaarde">Meetwaarde</item>
                      </item>
                      <item>0 .. 1</item>
                   </part>
@@ -614,7 +614,7 @@
                      </item>
                      <item>De ondoorzichtigheid van het ongefiltreerde grondwater.</item>
                      <item>
-                        <item type="global" idref="global_class_Brocommon_Meetwaarde3">Meetwaarde3</item>
+                        <item type="global" idref="global_class_Brocommon_Meetwaarde">Meetwaarde</item>
                      </item>
                      <item>0 .. 1</item>
                   </part>
@@ -636,7 +636,7 @@
                      </item>
                      <item>De in situ gemeten temperatuur van het grondwater.</item>
                      <item>
-                        <item type="global" idref="global_class_Model_Meetwaarde21">Meetwaarde2.1</item>
+                        <item type="global" idref="global_class_Brocommon_Meetwaarde">Meetwaarde</item>
                      </item>
                      <item>0 .. 1</item>
                   </part>
@@ -855,7 +855,7 @@
                      </item>
                      <item>Het elektrisch geleidingsvermogen (ook wel EGV, EC) van het grondwatermonster, gemeten in het laboratorium.</item>
                      <item>
-                        <item type="global" idref="global_class_Brocommon_Meetwaarde5">Meetwaarde5</item>
+                        <item type="global" idref="global_class_Brocommon_Meetwaarde">Meetwaarde</item>
                      </item>
                      <item>0 .. 1</item>
                   </part>
@@ -866,7 +866,7 @@
                      </item>
                      <item>De zuurgraad van het grondwatermonster.</item>
                      <item>
-                        <item type="global" idref="global_class_Model_Meetwaarde21">Meetwaarde2.1</item>
+                        <item type="global" idref="global_class_Brocommon_Meetwaarde">Meetwaarde</item>
                      </item>
                      <item>0 .. 1</item>
                   </part>
@@ -877,7 +877,7 @@
                      </item>
                      <item>De temperatuur van het grondwatermonster.</item>
                      <item>
-                        <item type="global" idref="global_class_Model_Meetwaarde21">Meetwaarde2.1</item>
+                        <item type="global" idref="global_class_Brocommon_Meetwaarde">Meetwaarde</item>
                      </item>
                      <item>0 .. 1</item>
                   </part>
@@ -1962,7 +1962,7 @@
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>Het elektrisch geleidingsvermogen is een van de gegevens die wat zeggen over de toestand van het grondwater. Bepaling van het gegeven in het veld is van belang om later te kunnen vaststellen of en in hoeverre er veranderingen in de toestand zijn opgetreden. De waarde van het gegeven verandert bijvoorbeeld met de temperatuur, onder invloed van zuurstof, door ontgassing en door het optreden van microbiologische activiteit</item>
+                        <item>Het elektrisch geleidingsvermogen is een van de gegevens die wat zeggen over de toestand van het grondwater. Bepaling van het gegeven in het veld is van belang om later te kunnen vaststellen of en in hoeverre er veranderingen in de toestand zijn opgetreden. De waarde van het gegeven verandert bijvoorbeeld met de temperatuur, onder invloed van zuurstof, door ontgassing en door het optreden van microbiologische activiteit.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1984,9 +1984,13 @@
                         <item>Regels</item>
                         <item>Door een probleem met de meetapparatuur kan het voorkomen dat het elektrisch geleidingsvermogen niet bepaald is. Alleen in dat geval heeft het attribuut geen waarde.</item>
                      </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>NNNNN</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Meetwaarde5</item>
+                        <item>Meetwaarde</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -2086,9 +2090,13 @@
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>NN.N</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Meetwaarde2.1</item>
+                        <item>Meetwaarde</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -2133,9 +2141,13 @@
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>NN.N</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Meetwaarde2.1</item>
+                        <item>Meetwaarde</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -2180,9 +2192,13 @@
                         <item>Regels</item>
                         <item>Wanneer het meetpunt waaraan de entiteit Grondwatersamenstellingsonderzoek is gekoppeld, een filter in een monitoringsbuis is, is het gegeven aanwezig; in het andere geval ontbreekt het.</item>
                      </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>NN.NN</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Meetwaarde2.2</item>
+                        <item>Meetwaarde</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -2231,9 +2247,13 @@
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>NNN</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Meetwaarde3</item>
+                        <item>Meetwaarde</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -2329,9 +2349,13 @@
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>NN.N</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Meetwaarde2.1</item>
+                        <item>Meetwaarde</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -2535,7 +2559,7 @@
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
-                        <item>Ja</item>
+                        <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
@@ -2549,17 +2573,13 @@
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
-                     <part type="CFG-DOC-REGELS">
-                        <item>Regels</item>
-                        <item>Door een probleem met de meetapparatuur kan het voorkomen dat het elektrisch geleidingsvermogen niet bepaald is. Alleen in dat geval heeft het attribuut geen waarde.</item>
-                     </part>
                      <part type="CFG-DOC-PATROON">
                         <item>Patroon</item>
-                        <item>Getal tussen 0 en 65.000 in ï¿½S/cm</item>
+                        <item>NNNNN</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Meetwaarde5</item>
+                        <item>Meetwaarde</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -2590,7 +2610,7 @@
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
-                        <item>Ja</item>
+                        <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
@@ -2604,17 +2624,13 @@
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
-                     <part type="CFG-DOC-REGELS">
-                        <item>Regels</item>
-                        <item>Door een probleem met de meetapparatuur kan het voorkomen dat de zuurgraad niet bepaald is. Alleen in dat geval heeft het attribuut geen waarde.</item>
-                     </part>
                      <part type="CFG-DOC-PATROON">
                         <item>Patroon</item>
-                        <item>Getal tussen 3 en 10</item>
+                        <item>NN.N</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Meetwaarde2.1</item>
+                        <item>Meetwaarde</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -2659,17 +2675,13 @@
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
-                     <part type="CFG-DOC-REGELS">
-                        <item>Regels</item>
-                        <item>Wanneer het attribuut kader inwinning van de entiteit Grondwatersamenstellingsonderzoek de waarde Monitoring verdroging heeft, ontbreekt het gegeven. Verder is het gegeven alleen aanwezig als het gegeven temperatuur in situ ontbreekt.</item>
-                     </part>
                      <part type="CFG-DOC-PATROON">
                         <item>Patroon</item>
-                        <item>Getal tussen 4 en 30  in graden Celsius</item>
+                        <item>NN.N</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Meetwaarde2.1</item>
+                        <item>Meetwaarde</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -3725,6 +3737,27 @@
                   <item>Definitie</item>
                   <item>Het domein Datum geeft een datum volgens de Gregoriaanse kalender tot op de dag nauwkeurig. De opbouw is JJJJ-MM-DD.
 Wanneer een attribuut een domein van het type Datum heeft is het voldoende de naam te geven, omdat de opbouw altijd hetzelfde is.</item>
+               </part>
+            </content>
+         </section>
+         <section name="Meetwaarde"
+                  type="PRIMITIVEDATATYPE"
+                  id="global_class_Brocommon_Meetwaarde"
+                  uuid="EAID_3CA9BBEE_29F7_45d7_ADB6_EACA03A2B3AC">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Meetwaarde</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Het domein meetwaarde wordt in de basisregistratie ondergrond gebruikt voor gegevens die gemeten, berekend of anderszins bepaald zijn. Het is een getal en bij het getal hoort een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes uit het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is de eenheid dimensieloos.</item>
+               </part>
+               <part type="CFG-DOC-TOELICHTING">
+                  <item>Toelichting</item>
+                  <item>Het getal is altijd een rationaal getal, een getal met een decimaal scheidingsteken. Door het scheidingteken krijgt het een opbouw. Het aantal cijfers voor het scheidingsteken is variabel maar begrensd. Het aantal cijfers achter het scheidingsteken ligt vast.
+Gewoonlijk wordt niet alleen de opbouw van het getal benoemd, maar wordt het domein verder ingeperkt door een bereik te specificeren. Het bereik geeft de minimale en de maximale waarde aan die een attribuut kan hebben.
+Wanneer een attribuut een domein van het type meetwaarde heeft wordt de opbouw, de eenheid en indien van toepassing het bereik gegeven. De opbouw wordt aangeduid als N.N waarde. N staat voor het maximum aantal cijfers voor, resp. het aantal cijfers achter het scheidingsteken.</item>
                </part>
             </content>
          </section>
