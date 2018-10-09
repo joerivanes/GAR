@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "Grondwatersamenstellingsonderzoek (GAR)" door Imvertor 1.47.2 op October 9, 2018 at 08:36:40.
+   "Grondwatersamenstellingsonderzoek (GAR)" door Imvertor 1.47.2 op October 9, 2018 at 09:00:52.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i></i> en geef de code 
-   <i>"Conceptualmodel-GrondwatersamenstellingsonderzoekGAR-0.1-0-20180315-20181009-103642"</i> door. 
+   <i>"Conceptualmodel-GrondwatersamenstellingsonderzoekGAR-0.1-0-20180315-20181009-110054"</i> door. 
    
 </p><a class="anchor" name="global_package_Model"></a><section id="global_package_Model">
    <h3>Domein Model</h3>
@@ -132,7 +132,13 @@
                      
                      
                   </td>
-                  <td></td>
+                  <td>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij
+                     een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland
+                     en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid
+                     van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de
+                     basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond
+                     is opgenomen.
+                  </td>
                </tr>
                <tr>
                   <td>
@@ -3291,6 +3297,16 @@
                   <th>Naam</th>
                   <td>Registratieobject</td>
                </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij
+                     een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland
+                     en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid
+                     van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de
+                     basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond
+                     is opgenomen.
+                  </td>
+               </tr>
             </tbody>
          </table>
          
@@ -3557,6 +3573,10 @@
                   <th>Naam</th>
                   <td>BedrijfsIdentificatie</td>
                </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>TODO</td>
+               </tr>
             </tbody>
          </table>
          
@@ -3603,6 +3623,10 @@
                <tr>
                   <th>Naam</th>
                   <td>Duur2</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>TODO</td>
                </tr>
             </tbody>
          </table>
@@ -4021,6 +4045,14 @@
                   <th>Naam</th>
                   <td>Aantal1</td>
                </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Een domein van het type aantal is een natuurlijk getal met een bepaalde maximale lengte.
+                     Het wordt gebruikt voor een telbare hoeveelheid. Een domein wordt volledig gespecificeerd
+                     door met de aanduiding ook de maximale lengte mee te geven. In het domeinmodel is
+                     de algemene aanduiding AantalN, waarbij N de maximale lengte aangeeft.
+                  </td>
+               </tr>
             </tbody>
          </table>
          
@@ -4035,6 +4067,14 @@
                <tr>
                   <th>Naam</th>
                   <td>Aantal2</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Een domein van het type aantal is een natuurlijk getal met een bepaalde maximale lengte.
+                     Het wordt gebruikt voor een telbare hoeveelheid. Een domein wordt volledig gespecificeerd
+                     door met de aanduiding ook de maximale lengte mee te geven. In het domeinmodel is
+                     de algemene aanduiding AantalN, waarbij N de maximale lengte aangeeft.
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -4074,6 +4114,14 @@
                   <th>Naam</th>
                   <td>Datum</td>
                </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Het domein Datum geeft een datum volgens de Gregoriaanse kalender tot op de dag nauwkeurig.
+                     De opbouw is JJJJ-MM-DD.
+                     Wanneer een attribuut een domein van het type Datum heeft is het voldoende de naam
+                     te geven, omdat de opbouw altijd hetzelfde is.
+                  </td>
+               </tr>
             </tbody>
          </table>
          
@@ -4088,6 +4136,14 @@
                <tr>
                   <th>Naam</th>
                   <td>DatumTijd</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Het domein DatumTijd geeft een tijdstip volgens de Gregoriaanse kalender tot op de
+                     seconde nauwkeurig. De opbouw is JJJJ-MM-DDTUU:MM:SS+UU:MM.
+                     Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende de
+                     naam te geven, omdat de opbouw altijd hetzelfde is.
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -4104,6 +4160,10 @@
                   <th>Naam</th>
                   <td>Decimal</td>
                </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>TODO</td>
+               </tr>
             </tbody>
          </table>
          
@@ -4118,6 +4178,12 @@
                <tr>
                   <th>Naam</th>
                   <td>KvK-nummer</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Het domein KvK-nummer geeft het identificerende gegeven van een onderneming in het
+                     Handelsregister. De opbouw is NNNNNNNN.
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -4134,6 +4200,15 @@
                   <th>Naam</th>
                   <td>Nummer1</td>
                </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Een domein van het type nummer is een opeenvolging van cijfers met een bepaalde maximale
+                     lengte. Een nummer heeft geen rekenkundige betekenis, maar heeft een betekenisvolle
+                     volgorde. Een domein van het type nummer wordt volledig gespecificeerd door met de
+                     aanduiding nummer ook de maximale lengte mee te geven. In het domeinmodel is de algemene
+                     aanduiding NummerN, waarbij N de maximale lengte aangeeft.
+                  </td>
+               </tr>
             </tbody>
          </table>
          
@@ -4148,6 +4223,17 @@
                <tr>
                   <th>Naam</th>
                   <td>Registratieobjectcode</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>De identificatie van een object in de registratie ondergrond.</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>Opbouw: BHRNNNNNNNNNNNN
+                     De basisregistratie ondergrond kent bij registratie automatisch de juiste waarde aan
+                     het object toe.
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -4194,6 +4280,17 @@
                   <th>Naam</th>
                   <td>Tekst30</td>
                </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Een domein van het type tekst bestaat uit een stuk tekst van een bepaalde maximale
+                     lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De
+                     MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie
+                     die een Latijns schrift kennen.
+                     Een domein van het type tekst wordt volledig gespecificeerd door met de aanduiding
+                     tekst ook de maximale lengte mee te geven. In het domeinmodel wordt het domein aangeduid
+                     als TekstN, waarbij N de maximale lengte aangeeft.
+                  </td>
+               </tr>
             </tbody>
          </table>
          
@@ -4235,6 +4332,17 @@
                   <th>Naam</th>
                   <td>Tekst100</td>
                </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Een domein van het type tekst bestaat uit een stuk tekst van een bepaalde maximale
+                     lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De
+                     MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie
+                     die een Latijns schrift kennen.
+                     Een domein van het type tekst wordt volledig gespecificeerd door met de aanduiding
+                     tekst ook de maximale lengte mee te geven. In het domeinmodel wordt het domein aangeduid
+                     als TekstN, waarbij N de maximale lengte aangeeft.
+                  </td>
+               </tr>
             </tbody>
          </table>
          
@@ -4249,6 +4357,17 @@
                <tr>
                   <th>Naam</th>
                   <td>Tekst200</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Een domein van het type tekst bestaat uit een stuk tekst van een bepaalde maximale
+                     lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De
+                     MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie
+                     die een Latijns schrift kennen.
+                     Een domein van het type tekst wordt volledig gespecificeerd door met de aanduiding
+                     tekst ook de maximale lengte mee te geven. In het domeinmodel wordt het domein aangeduid
+                     als TekstN, waarbij N de maximale lengte aangeeft.
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -4279,7 +4398,9 @@
             </tr>
             <tr>
                <th><a class="anchor" name="global_class_Brocommon_Registratiestatus"></a><a class="link" href="#detail_class_Brocommon_Registratiestatus">Registratiestatus</a></th>
-               <td></td>
+               <td>Keuzelijst met de actuele fase van registratie waarin het object zich bevindt. De
+                  lijst met waarden is een uitbreidbare opsomming van waarden.
+               </td>
             </tr>
          </tbody>
       </table>
@@ -4294,15 +4415,22 @@
          <tbody>
             <tr>
                <th><a class="anchor" name="global_class_Brocommon_IndicatieJaNee"></a><a class="link" href="#detail_class_Brocommon_IndicatieJaNee">IndicatieJaNee</a></th>
-               <td></td>
+               <td>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden.
+                  Uitbreiding van de keuzelijst is niet mogelijk.
+               </td>
             </tr>
             <tr>
                <th><a class="anchor" name="global_class_Brocommon_IndicatieJaNeeOnbekend"></a><a class="link" href="#detail_class_Brocommon_IndicatieJaNeeOnbekend">IndicatieJaNeeOnbekend</a></th>
-               <td></td>
+               <td>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden.
+                  Uitbreiding van de keuzelijst is niet mogelijk.
+               </td>
             </tr>
             <tr>
                <th><a class="anchor" name="global_class_Brocommon_Kwaliteitsregime"></a><a class="link" href="#detail_class_Brocommon_Kwaliteitsregime">Kwaliteitsregime</a></th>
-               <td></td>
+               <td>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden
+                  voor het duiden van de kwaliteitseis waaraan de gegevens van het object voldoen. Uitbreiding
+                  van de keuzelijst is niet mogelijk.
+               </td>
             </tr>
             <tr>
                <th><a class="anchor" name="global_class_Brocommon_RedenGeenWaarde"></a><a class="link" href="#detail_class_Brocommon_RedenGeenWaarde">RedenGeenWaarde</a></th>
@@ -5224,7 +5352,9 @@
             <tbody>
                <tr>
                   <th>Definitie</th>
-                  <td></td>
+                  <td>Keuzelijst met de actuele fase van registratie waarin het object zich bevindt. De
+                     lijst met waarden is een uitbreidbare opsomming van waarden.
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -5270,7 +5400,9 @@
             <tbody>
                <tr>
                   <th>Definitie</th>
-                  <td></td>
+                  <td>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden.
+                     Uitbreiding van de keuzelijst is niet mogelijk.
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -5309,7 +5441,9 @@
             <tbody>
                <tr>
                   <th>Definitie</th>
-                  <td></td>
+                  <td>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden.
+                     Uitbreiding van de keuzelijst is niet mogelijk.
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -5353,7 +5487,10 @@
             <tbody>
                <tr>
                   <th>Definitie</th>
-                  <td></td>
+                  <td>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden
+                     voor het duiden van de kwaliteitseis waaraan de gegevens van het object voldoen. Uitbreiding
+                     van de keuzelijst is niet mogelijk.
+                  </td>
                </tr>
             </tbody>
          </table>

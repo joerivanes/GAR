@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.47.2"
-      generator-date="2018-10-09T08:36:40Z">
+      generator-date="2018-10-09T09:00:52Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -114,7 +114,7 @@
                            <item type="global" idref="global_class_Brocommon_Registratieobject">Registratieobject</item>
                         </item>
                      </item>
-                     <item/>
+                     <item>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond is opgenomen.</item>
                   </part>
                   <part>
                      <item>
@@ -174,7 +174,7 @@
                            <item type="global" idref="global_class_Brocommon_Registratieobject">Registratieobject</item>
                         </item>
                      </item>
-                     <item/>
+                     <item>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond is opgenomen.</item>
                   </part>
                   <part>
                      <item>
@@ -3133,6 +3133,10 @@
                   <item>Naam</item>
                   <item>Registratieobject</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond is opgenomen.</item>
+               </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
                <content>
@@ -3335,6 +3339,10 @@
                   <item>Naam</item>
                   <item>BedrijfsIdentificatie</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>TODO</item>
+               </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
                <content>
@@ -3365,6 +3373,10 @@
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
                   <item>Duur2</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>TODO</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -3648,6 +3660,10 @@
                   <item>Naam</item>
                   <item>Aantal1</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Een domein van het type aantal is een natuurlijk getal met een bepaalde maximale lengte. Het wordt gebruikt voor een telbare hoeveelheid. Een domein wordt volledig gespecificeerd door met de aanduiding ook de maximale lengte mee te geven. In het domeinmodel is de algemene aanduiding AantalN, waarbij N de maximale lengte aangeeft.</item>
+               </part>
             </content>
          </section>
          <section name="Aantal2"
@@ -3658,6 +3674,10 @@
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
                   <item>Aantal2</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Een domein van het type aantal is een natuurlijk getal met een bepaalde maximale lengte. Het wordt gebruikt voor een telbare hoeveelheid. Een domein wordt volledig gespecificeerd door met de aanduiding ook de maximale lengte mee te geven. In het domeinmodel is de algemene aanduiding AantalN, waarbij N de maximale lengte aangeeft.</item>
                </part>
             </content>
          </section>
@@ -3685,6 +3705,11 @@
                   <item>Naam</item>
                   <item>Datum</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Het domein Datum geeft een datum volgens de Gregoriaanse kalender tot op de dag nauwkeurig. De opbouw is JJJJ-MM-DD.
+Wanneer een attribuut een domein van het type Datum heeft is het voldoende de naam te geven, omdat de opbouw altijd hetzelfde is.</item>
+               </part>
             </content>
          </section>
          <section name="DatumTijd"
@@ -3695,6 +3720,11 @@
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
                   <item>DatumTijd</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Het domein DatumTijd geeft een tijdstip volgens de Gregoriaanse kalender tot op de seconde nauwkeurig. De opbouw is JJJJ-MM-DDTUU:MM:SS+UU:MM.
+Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende de naam te geven, omdat de opbouw altijd hetzelfde is.</item>
                </part>
             </content>
          </section>
@@ -3707,6 +3737,10 @@
                   <item>Naam</item>
                   <item>Decimal</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>TODO</item>
+               </part>
             </content>
          </section>
          <section name="KvK-nummer"
@@ -3717,6 +3751,10 @@
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
                   <item>KvK-nummer</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Het domein KvK-nummer geeft het identificerende gegeven van een onderneming in het Handelsregister. De opbouw is NNNNNNNN.</item>
                </part>
             </content>
          </section>
@@ -3729,6 +3767,10 @@
                   <item>Naam</item>
                   <item>Nummer1</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Een domein van het type nummer is een opeenvolging van cijfers met een bepaalde maximale lengte. Een nummer heeft geen rekenkundige betekenis, maar heeft een betekenisvolle volgorde. Een domein van het type nummer wordt volledig gespecificeerd door met de aanduiding nummer ook de maximale lengte mee te geven. In het domeinmodel is de algemene aanduiding NummerN, waarbij N de maximale lengte aangeeft.</item>
+               </part>
             </content>
          </section>
          <section name="Registratieobjectcode"
@@ -3739,6 +3781,15 @@
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
                   <item>Registratieobjectcode</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>De identificatie van een object in de registratie ondergrond.</item>
+               </part>
+               <part type="CFG-DOC-TOELICHTING">
+                  <item>Toelichting</item>
+                  <item>Opbouw: BHRNNNNNNNNNNNN
+De basisregistratie ondergrond kent bij registratie automatisch de juiste waarde aan het object toe.</item>
                </part>
             </content>
          </section>
@@ -3771,6 +3822,11 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <item>Naam</item>
                   <item>Tekst30</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Een domein van het type tekst bestaat uit een stuk tekst van een bepaalde maximale lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie die een Latijns schrift kennen.
+Een domein van het type tekst wordt volledig gespecificeerd door met de aanduiding tekst ook de maximale lengte mee te geven. In het domeinmodel wordt het domein aangeduid als TekstN, waarbij N de maximale lengte aangeeft.</item>
+               </part>
             </content>
          </section>
          <section name="Tekst40"
@@ -3798,6 +3854,11 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <item>Naam</item>
                   <item>Tekst100</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Een domein van het type tekst bestaat uit een stuk tekst van een bepaalde maximale lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie die een Latijns schrift kennen.
+Een domein van het type tekst wordt volledig gespecificeerd door met de aanduiding tekst ook de maximale lengte mee te geven. In het domeinmodel wordt het domein aangeduid als TekstN, waarbij N de maximale lengte aangeeft.</item>
+               </part>
             </content>
          </section>
          <section name="Tekst200"
@@ -3808,6 +3869,11 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
                   <item>Tekst200</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Een domein van het type tekst bestaat uit een stuk tekst van een bepaalde maximale lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie die een Latijns schrift kennen.
+Een domein van het type tekst wordt volledig gespecificeerd door met de aanduiding tekst ook de maximale lengte mee te geven. In het domeinmodel wordt het domein aangeduid als TekstN, waarbij N de maximale lengte aangeeft.</item>
                </part>
             </content>
          </section>
@@ -3830,7 +3896,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                <item id="global_class_Brocommon_Registratiestatus"
                      uuid="EAID_104D1298_880E_4ae4_AB27_E1DF1AD62CDB"
                      idref="detail_class_Brocommon_Registratiestatus">Registratiestatus</item>
-               <item/>
+               <item>Keuzelijst met de actuele fase van registratie waarin het object zich bevindt. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
             </part>
          </content>
       </section>
@@ -3840,19 +3906,19 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                <item id="global_class_Brocommon_IndicatieJaNee"
                      uuid="EAID_FC106C5C_E11E_4465_AD79_F855FE7A57EB"
                      idref="detail_class_Brocommon_IndicatieJaNee">IndicatieJaNee</item>
-               <item/>
+               <item>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden. Uitbreiding van de keuzelijst is niet mogelijk.</item>
             </part>
             <part>
                <item id="global_class_Brocommon_IndicatieJaNeeOnbekend"
                      uuid="EAID_910E172F_EB8C_47ce_8BC2_8C3C50CD52C7"
                      idref="detail_class_Brocommon_IndicatieJaNeeOnbekend">IndicatieJaNeeOnbekend</item>
-               <item/>
+               <item>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden. Uitbreiding van de keuzelijst is niet mogelijk.</item>
             </part>
             <part>
                <item id="global_class_Brocommon_Kwaliteitsregime"
                      uuid="EAID_0F674ADC_D7F9_445a_BE42_A976FAD26804"
                      idref="detail_class_Brocommon_Kwaliteitsregime">Kwaliteitsregime</item>
-               <item/>
+               <item>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden voor het duiden van de kwaliteitseis waaraan de gegevens van het object voldoen. Uitbreiding van de keuzelijst is niet mogelijk.</item>
             </part>
             <part>
                <item id="global_class_Brocommon_RedenGeenWaarde"
@@ -4660,7 +4726,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Keuzelijst met de actuele fase van registratie waarin het object zich bevindt. De lijst met waarden is een uitbreidbare opsomming van waarden.</item>
                   </part>
                </content>
                <content>
@@ -4694,7 +4760,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden. Uitbreiding van de keuzelijst is niet mogelijk.</item>
                   </part>
                </content>
                <content>
@@ -4721,7 +4787,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden. Uitbreiding van de keuzelijst is niet mogelijk.</item>
                   </part>
                </content>
                <content>
@@ -4753,7 +4819,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden voor het duiden van de kwaliteitseis waaraan de gegevens van het object voldoen. Uitbreiding van de keuzelijst is niet mogelijk.</item>
                   </part>
                </content>
                <content>
