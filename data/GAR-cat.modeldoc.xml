@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.47.2"
-      generator-date="2018-10-09T09:00:52Z">
+      generator-date="2018-10-09T09:13:49Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -3133,9 +3133,17 @@
                   <item>Naam</item>
                   <item>Registratieobject</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
                   <item>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond is opgenomen.</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -3339,6 +3347,10 @@
                   <item>Naam</item>
                   <item>BedrijfsIdentificatie</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
                   <item>TODO</item>
@@ -3373,6 +3385,10 @@
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
                   <item>Duur2</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
@@ -3999,9 +4015,17 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Naam</item>
                         <item>BRO-ID</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De identificatie van een object dat in de registratie ondergrond is opgenomen.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -4089,9 +4113,17 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Naam</item>
                         <item>object-ID bronhouder</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie ondergrond.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -4124,9 +4156,17 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Naam</item>
                         <item>dataleverancier</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De identificatie die de organisatie die het object aan de basisregistratie ondergrond heeft aangeleverd, als onderneming in het Handelsregister heeft.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -4159,9 +4199,17 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Naam</item>
                         <item>kwaliteitsregime</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De aanduiding van de kwaliteitseis waaraan de gegevens van het object voldoen.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -4329,6 +4377,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Naam</item>
                         <item>waarde</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
@@ -4353,6 +4405,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Naam</item>
                         <item>waarde</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
@@ -4371,6 +4427,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>eenheid</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
