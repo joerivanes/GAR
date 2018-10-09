@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.47.2"
-      generator-date="2018-10-09T14:35:55Z">
+      generator-date="2018-10-09T14:39:04Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -987,30 +987,7 @@
       <!--removed empty content-->
       <!--removed empty content-->
       <!--removed empty content-->
-      <section type="OVERVIEW-PRIMITIVEDATATYPE">
-         <section name="Meetwaarde2.1"
-                  type="PRIMITIVEDATATYPE"
-                  id="global_class_Model_Meetwaarde21"
-                  uuid="EAID_251AA387_E41B_4aa0_993D_9B89632ED821">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>Meetwaarde2.1</item>
-               </part>
-            </content>
-         </section>
-         <section name="Meetwaarde4.1"
-                  type="PRIMITIVEDATATYPE"
-                  id="global_class_Model_Meetwaarde41"
-                  uuid="EAID_4E6DC25D_2C68_4e51_8E01_F3034CC60854">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>Meetwaarde4.1</item>
-               </part>
-            </content>
-         </section>
-      </section>
+      <!--removed empty content-->
       <section type="OVERVIEW-CODELIST">
          <content>
             <part>
