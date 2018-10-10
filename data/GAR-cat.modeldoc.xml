@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.47.2"
-      generator-date="2018-10-09T14:51:04Z">
+      generator-date="2018-10-10T11:39:40Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -933,7 +933,7 @@
                      </item>
                      <item>De door het uitvoerende laboratorium met de opdrachtgever afgesproken grensconcentratie waarboven het gemeten gehalte van de component in een monster wordt gerapporteerd aan de opdrachtgever.</item>
                      <item>
-                        <item type="global" idref="global_class_Brocommon_Decimal">Decimal</item>
+                        <item type="global">REAL</item>
                      </item>
                      <item>0 .. 1</item>
                   </part>
@@ -2928,7 +2928,7 @@
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
-                           <item>Decimal</item>
+                           <item>REAL</item>
                         </part>
                      </content>
                   </section>
@@ -3471,21 +3471,6 @@ Wanneer een attribuut een domein van het type Datum heeft is het voldoende de na
                   <item>Definitie</item>
                   <item>Het domein DatumTijd geeft een tijdstip volgens de Gregoriaanse kalender tot op de seconde nauwkeurig. De opbouw is JJJJ-MM-DDTUU:MM:SS+UU:MM.
 Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende de naam te geven, omdat de opbouw altijd hetzelfde is.</item>
-               </part>
-            </content>
-         </section>
-         <section name="Decimal"
-                  type="PRIMITIVEDATATYPE"
-                  id="global_class_Brocommon_Decimal"
-                  uuid="EAID_75BA432D_73F8_49cd_B7E3_EA1C2369C84E">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>Decimal</item>
-               </part>
-               <part type="CFG-DOC-DEFINITIE">
-                  <item>Definitie</item>
-                  <item>TODO</item>
                </part>
             </content>
          </section>
