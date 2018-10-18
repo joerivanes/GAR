@@ -71,7 +71,7 @@
       <div class="issue" data-number="8">
         <p>Er is een relatie tussen het grondwatersamenstellingsonderzoek en een meetpunt (de abstractie van de grondwaterput of bron waar het onderzoek is gedaan) in een grondwatermonitoringnet. Hoe deze relatie precies wordt gemodelleerd en gerealiseerd moet nog worden afgestemd. </p>
       </div>
-      <p>Elk grondwatersamenstellingsonderzoek wordt, volgens afspraak tussen opdrachtgever (de <em>bronhouder</em> die in de BRO voor elk registratieobject wordt vastgelegd) en opdrachtnemer(s), uitgevoerd conform bepaalde specificaties. Deze <em>onderzoeksprocedure</em> is het document dat beschrijft volgens welke afspraken, specificaties en/of criteria het onderzoek is uitgevoerd. Tenslotte worden de indicaties <em>bestrijdingsmiddelen onderzocht</em> en <em>farmaceutische stoffen onderzocht</em> vastgelegd die aangeven of deze onderzoeken zijn uitgevoerd. Deze indicaties zijn opgenomen omdat ze een globale karakterisering van de inhoud van het onderzoek geven en gebruikerswaarde hebben bij uitgifte.</p>
+      <p>Elk grondwatersamenstellingsonderzoek wordt uitgevoerd volgens afspraak tussen opdrachtgever (de <em>bronhouder</em> die in de BRO voor elk registratieobject wordt vastgelegd) en opdrachtnemer(s). Er worden bij het grondwatersamenstellingsonderzoek indicaties <em>bestrijdingsmiddelen onderzocht</em> en <em>farmaceutische stoffen onderzocht</em> vastgelegd die aangeven of deze onderzoeken zijn uitgevoerd. Deze indicaties zijn opgenomen omdat ze een globale karakterisering van de inhoud van het onderzoek geven en gebruikerswaarde hebben bij uitgifte.</p>
     </section>
     <section id="intro-veldonderzoek">
       <h3>Monstername en veldonderzoek</h3>
@@ -85,31 +85,16 @@
         <li>de naam van de monsternemer (tevens privacygevoelig!)</li>
       </ul>
       </aside>
-      <div class="issue" data-number="3">
-        <p>De mogelijke waarden van de codelijst BijzonderhedenVeldonderzoek zijn getoetst bij experts. Deze is klaar voor review. </p>
-      </div>
       <p>Het labmonster wordt veelal in meerdere flessen (deelmonsters) verpakt en getransporteerd naar het laboratorium voor onderzoek. In het veld wordt ook een aantal parameters bepaald. Een aantal van deze waarnemingen wordt in de BRO vastgelegd omdat deze hergebruikswaarde hebben: ze geven een algemene indruk over het bemonsterde grondwater, de meetwaarden worden gebruikt in bepaalde controles, of de bepaling in het veld levert een betrouwbaarder resultaat op dan een bepaling in het laboratorium. Veldwaarnemingen die worden geregistreerd in de BRO zijn bepaald aan de hand van opgepompt grondwater of op basis van in situ waarnemingen. De veldparameters die, indien gemeten, in de BRO worden opgenomen zijn <em>elektrisch geleidingsvermogen</em>, <em>bicarbonaat</em>, <em>zuurstofgehalte</em>, <em>zuurgraad</em>, <em>temperatuur</em> (al dan niet in situ), <em>grondwaterstand</em>, en <em>troebelheid</em>. Deze gegevens worden vastgelegd in de entiteit <em>Resultaat veldmetingen</em>.</p>
-      <aside class="issue" data-number="15">
-        <P>De regels voor het ontbreken van veldmetingen zijn toegevoegd.</p>
-    </aside>
       <p>Voor het meten van parameters in het veld zijn meerdere redenen. Bijvoorbeeld omdat deze waarden aangeven of het filter lang genoeg is afgepompt om een labmonster te gaan nemen: voor men begint met het nemen van labmonsters moeten de waarden voor elektrisch geleidingsvermogen en zuurgraad (nagenoeg) stabiel zijn. Ook kan na monstername de samenstelling van het monster veranderen en daarom wordt een aantal parameters meteen in het veld gemeten.</p>
       <p>Zuurstofgehalte, elektrisch geleidingsvermogen, zuurgraad en temperatuur worden, terwijl het filter wordt afgepompt, herhaaldelijk in een doorstroomcel gemeten. Nadat het filter voldoende is schoongepompt en deze waarden constant zijn geworden, worden de labmonsters genomen. De laatst gemeten waarden, die constant zijn geworden, worden opgenomen in de BRO. Ook wordt een veldmonster genomen waarin het gehalte bicarbonaat wordt bepaald. De bepaling wordt in het veld uitgevoerd omdat de bicarbonaatconcentratie door invloeden van buitenaf kan veranderen, bijvoorbeeld door ontgassing van CO<sub>2</sub> of pH-veranderingen tijdens het vervoer naar het lab.</p>
       <p>Het elektrisch geleidingsvermogen en de zuurgraad worden daarnaast ook gebruikt voor controles: als de in het laboratorium gemeten waarde afwijkt van de in het veld gemeten waarde dan kan dit duiden op onregelmatigheden in het veld, aan apparatuur, of tijdens transport, opslag of analyses.</p>
       <aside class="note">
         <p>Door de voortschrijdende techniek (bijvoorbeeld nieuwe en verbeterde sensoren) zijn er steeds meer mogelijkheden voor het doen van waarnemingen over de grondwaterkwaliteit in het veld. Hier is in dit informatiemodel geen rekening mee gehouden. De scope is vooralsnog beperkt tot wat er in het kader van KRW, LMG en PMG gemeten wordt. Deze monitoringnetten maken nog geen gebruik van sensoren.</p>
       </aside>
-      <div class="issue" data-number="11">
-        <p>De waarde van de veldparameter 'elektrisch geleidingsvermogen' is opgenomen als omgerekende waarde naar een referentietemperatuur van 25 graden, ervan uitgaande dat de meetapparatuur deze berekening uitvoert </p>
-      </div>
-      <div class="issue" data-number="14">
-        <p>Inhoudelijk is de voorgestelde lijst veldparameters bekend, het is nog niet zeker hoe deze lijst modeltechnisch wordt uitgewerkt: als attributen (zoals nu) of als codelist (wat flexibeler is).</p>
-      </div>
     </section>    
     <section id="intro-labonderzoek">
       <h3>Laboratoriumonderzoek</h3>
-      <aside class="warning">
-        <p>Aan deze paragraaf en subparagrafen wordt nog gewerkt. Deze is niet klaar voor review</p>
-      </aside>
       <p>Laboratoriumonderzoek omvat de resultaten van het onderzoek van één of meer deelmonsters op chemische en fysische parameters. Laboratoriumonderzoek wordt onder de verantwoordelijkheid van één laboratorium uitgevoerd.</p>
       <p>Het laboratoriumonderzoek is het proces dat loopt vanaf de overdracht van de labmonsters door het veldwerkbureau van de monstername aan het laboratorium, tot en met de rapportage van de onderzoeksresultaten aan de bronhouder.</p>
       <p>Alle laboratoria die onderzoeken uitvoeren die binnen de scope van de BRO vallen, zijn geaccrediteerd door de Raad voor Accreditatie. Vereist voor de accreditatie is onder andere het volgen van (inter)nationale standaarden (NEN- en/of ISO-normen). Laboratoria werken volgens strikte interne kwaliteitssystemen vastgelegd in handboeken, conform de richtlijnen van de Raad voor Accreditatie. Geaccrediteerde laboratoria zijn daarnaast verplicht om deel te nemen aan ringonderzoeken: onderzoeken waarbij de testresultaten van verschillende laboratoria worden vergeleken. De accreditatie legt op parameter(groep)niveau vast welke analysemethoden en bijbehorende procedures gehanteerd worden door het geaccrediteerde lab. Details omtrent stoffen en analysemethoden waarvoor een laboratorium geaccrediteerd is zijn publiek beschikbaar (<a href="https://www.rva.nl">www.rva.nl</a>), en worden niet opgenomen in de BRO.</p>
@@ -121,34 +106,18 @@
         <li>Fysische parameters, zoals temperatuur, elektrisch geleidingsvermogen en zuurgraad. Dit betreft eigenschappen van het monster als geheel. Ze geven niet direct informatie over de samenstelling van het monster, maar eerder een typering ervan.</li>
         <li>Chemische parameters: dit betreft het gehalte (de concentratie) van een bepaald element of bepaalde stof in het grondwater. De chemische parameters zeggen daadwerkelijk iets over de samenstelling van het monster [‘de delen van het monster die geen water zijn’].</li>
       </ul>
-      <section id="lab-afwijkingen">
-        <h4>Afwijkingen en omstandigheden</h4>
-        <p>Het is mogelijk dat tijdens monstername of veldwerk afgeweken wordt van gestelde eisen. Dit hoeft niet meteen te betekenen dat er geen monster wordt genomen, of dat er geen resultaat van het laboratoriumonderzoek wordt gerapporteerd. </p>
-        <p>Voor afwijkingen van eisen uit normen wordt in de BRO toegewerkt naar een vaste lijst van mogelijke afwijkingen. Deze afwijkingenlijst zou voldoende moeten zijn om de relevante omstandigheden te beschrijven; een vrij tekstveld is vooralsnog niet voorzien.</p>
-        <p>Afwijkingen kunnen betrekking hebben op een of meer specifieke geanalyseerde parameters, of op alle parameters die met een bepaalde analyse bepaald worden. Omstandigheden kunnen op elk niveau voorkomen.</p>
-        <div class="issue" data-number="4">
-          <p>De inhoud van de codelist AfwijkingLaboratoriumprocedure moet nog worden aangevuld op basis van input van laboratoria (disclaimerlijsten) en SIKB.</p>
-        </div>
-      </section>
       <section id="lab-grenswaarden">
         <h4>Aantoonbaarheidsgrens, bepaalbaarheidsgrens en rapportagegrens</h4>
         <p>Bij de analyse van monsters in het laboratorium spelen verschillende grenzen een rol die te maken hebben met het waarnemen van componenten in het monster. In de praktijk worden deze met verschillende termen aangeduid. De terminologie die we in deze catalogus hiervoor hanteren definieren we hier. </p>
         <p>De <em>aantoonbaarheidsgrens</em> is de door het uitvoerende laboratorium vastgestelde grensconcentratie waarboven met een bepaalde betrouwbaarheid kan worden gesteld dat de component wel of niet aanwezig is in een monster. Als synoniem worden in het werkveld vaak de termen detectielimiet en detectiegrens gebruikt. De aantoonbaarheidsgrens van een component kan sterk variëren; elke verandering in analyseopstelling of zelfs tussen monsters kunnen leiden tot een ander ruissignaal. </p>
         <p>De <em>bepaalbaarheidsgrens</em> is de door het uitvoerende laboratorium vastgestelde grensconcentratie waarboven het gemeten gehalte van de component in een monster met een bepaalde betrouwbaarheid kan worden gegeven. Als synoniem wordt vaak ook wel de term bepalingsgrens gebruikt. </p>
         <p>De <em>rapportagegrens</em> is de door het uitvoerende laboratorium met de opdrachtgever afgesproken grensconcentratie waarboven het gemeten gehalte van de component in een monster wordt gerapporteerd aan de opdrachtgever. Dit wordt ook wel minimumconcentratie genoemd. </p>
-        <p class="issue" data-number="23"></p>
+        <p>Van bovenstaande grenzen wordt alleen de <em>rapportagegrens</em> opgenomen in de BRO. </p>
+		<p class="issue" data-number="23"></p>
       </section>
     </section>
     <section data-include="https://docs.geostandaarden.nl/bro/gen/domeinmodel-gen.html" class="generic">
     </section>
-    <aside class="warning">
-      <p>In het volgende hoofdstuk wordt aan verschillende paragrafen nog gewerkt. Tot nu toe hebben we ons vooral gericht op het veldonderzoek. De volgende onderdelen zijn NIET  klaar voor review:</p>
-      <ul>
-        <li>Laboratoriumonderzoek</li>
-        <li>Resultaat laboratoriumwaarneming</li>
-        <li>Coherentiekarakteristiek</li>
-      </ul>
-    </aside>
   </section>
   <!-- hoofdstuk 4 -->
   <section id="intro-catalogus">
@@ -166,6 +135,9 @@
       <section id="datumtijd" data-include="https://docs.geostandaarden.nl/bro/gen/datumtijd.html" class="generic"></section>
     </section>
     <section id="verplichte-gegevens-waarden" data-include="https://docs.geostandaarden.nl/bro/gen/verplichte-gegevens-waarden.html" class="generic"></section>
+    <aside class="issue" data-number="19">
+    <p>Van een aantal codelijsten in het volgende hoofdstuk worden de definities niet weergegeven. De oorzaak is een technisch probleem. </p>
+  </aside>  
   </section>
   <!-- hoofdstuk 5 -->
   <section id="catalogus" data-include="data/GAR-cat.html" class="normative"></section>
