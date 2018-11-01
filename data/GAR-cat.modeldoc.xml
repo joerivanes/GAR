@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.47.6"
-      generator-date="2018-11-01T13:45:25Z">
+      generator-date="2018-11-01T13:52:19Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -141,7 +141,7 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek_bemonsteringspunt">heeft: bemonsteringspunt</item>
+                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek_bemonsteringslocatie">heeft: bemonsteringslocatie</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_AangeleverdeLocatie">Aangeleverde locatie</item>
@@ -216,7 +216,7 @@
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek_bemonsteringspunt">heeft: bemonsteringspunt</item>
+                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek_bemonsteringslocatie">heeft: bemonsteringslocatie</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_AangeleverdeLocatie">Aangeleverde locatie</item>
@@ -1257,8 +1257,8 @@
                </section>
                <section name="heeft"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_Model_Grondwatersamenstellingsonderzoek_bemonsteringspunt"
-                        id-global="global_association_Model_Grondwatersamenstellingsonderzoek_bemonsteringspunt">
+                        id="detail_association_Model_Grondwatersamenstellingsonderzoek_bemonsteringslocatie"
+                        id-global="global_association_Model_Grondwatersamenstellingsonderzoek_bemonsteringslocatie">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
