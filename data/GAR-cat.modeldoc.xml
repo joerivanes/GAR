@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.47.6"
-      generator-date="2018-11-01T13:52:19Z">
+      generator-date="2018-11-02T09:55:58Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -3204,44 +3204,11 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_Brocommon_OnvolledigeDatum_volledigeDatum">volledige datum</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global" idref="global_class_Brocommon_Datum">Datum</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_Brocommon_OnvolledigeDatum_jaarEnMaand">jaar en maand</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global" idref="global_class_Brocommon_Tekst7">Tekst7</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
                               idref="detail_attribute_Brocommon_OnvolledigeDatum_jaartal">jaartal</item>
                      </item>
                      <item/>
                      <item>
                         <item type="global" idref="global_class_Brocommon_Aantal4">Aantal4</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_Brocommon_OnvolledigeDatum_onbekend">onbekend</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global" idref="global_class_Brocommon_RedenGeenWaarde">RedenGeenWaarde</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -3280,17 +3247,6 @@
                      <item/>
                      <item>
                         <item type="global" idref="global_class_Brocommon_KvKNummer">KvK-nummer</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_Brocommon_Organisatie_europeesHandelsnummer">Europees handelsnummer</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global" idref="global_class_Brocommon_Tekst40">Tekst40</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -3930,44 +3886,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      type="KEUZE"
                      id="detail_class_Brocommon_OnvolledigeDatum"
                      id-global="global_class_Brocommon_OnvolledigeDatum">
-               <section name="volledige datum"
-                        type="DETAIL-UNIONELEMENT"
-                        id="detail_attribute_Brocommon_OnvolledigeDatum_volledigeDatum"
-                        id-global="global_attribute_Brocommon_OnvolledigeDatum_volledigeDatum">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>volledige datum</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Datum</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="jaar en maand"
-                        type="DETAIL-UNIONELEMENT"
-                        id="detail_attribute_Brocommon_OnvolledigeDatum_jaarEnMaand"
-                        id-global="global_attribute_Brocommon_OnvolledigeDatum_jaarEnMaand">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>jaar en maand</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Tekst7</item>
-                     </part>
-                  </content>
-               </section>
                <section name="jaartal"
                         type="DETAIL-UNIONELEMENT"
                         id="detail_attribute_Brocommon_OnvolledigeDatum_jaartal"
@@ -3984,25 +3902,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Aantal4</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="onbekend"
-                        type="DETAIL-UNIONELEMENT"
-                        id="detail_attribute_Brocommon_OnvolledigeDatum_onbekend"
-                        id-global="global_attribute_Brocommon_OnvolledigeDatum_onbekend">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>onbekend</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>RedenGeenWaarde</item>
                      </part>
                   </content>
                </section>
@@ -4027,25 +3926,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>KvK-nummer</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="Europees handelsnummer"
-                        type="DETAIL-UNIONELEMENT"
-                        id="detail_attribute_Brocommon_Organisatie_europeesHandelsnummer"
-                        id-global="global_attribute_Brocommon_Organisatie_europeesHandelsnummer">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>Europees handelsnummer</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Tekst40</item>
                      </part>
                   </content>
                </section>
