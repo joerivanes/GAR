@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.47.6"
-      generator-date="2018-11-02T09:57:34Z">
+      generator-date="2018-11-05T09:21:55Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -1971,6 +1971,10 @@
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
                         <item>Nee</item>
@@ -1994,6 +1998,10 @@
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>µS/cm</item>
                      </part>
                   </content>
                </section>
@@ -2077,6 +2085,10 @@
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
                         <item>Nee</item>
@@ -2128,6 +2140,10 @@
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
                         <item>Nee</item>
@@ -2151,6 +2167,10 @@
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>°C</item>
                      </part>
                   </content>
                </section>
@@ -2179,6 +2199,10 @@
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
                         <item>Nee</item>
@@ -2202,6 +2226,10 @@
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>°C</item>
                      </part>
                   </content>
                </section>
@@ -2234,6 +2262,10 @@
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
                         <item>Nee</item>
@@ -2261,6 +2293,10 @@
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>m</item>
                      </part>
                   </content>
                </section>
@@ -2293,6 +2329,10 @@
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
                         <item>Nee</item>
@@ -2316,6 +2356,10 @@
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>NTU</item>
                      </part>
                   </content>
                </section>
@@ -2568,6 +2612,10 @@
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
                         <item>Nee</item>
@@ -2591,6 +2639,10 @@
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>µS/cm</item>
                      </part>
                   </content>
                </section>
@@ -2617,6 +2669,10 @@
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
                         <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
@@ -2670,6 +2726,10 @@
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
                         <item>Nee</item>
@@ -2693,6 +2753,10 @@
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>°C</item>
                      </part>
                   </content>
                </section>
