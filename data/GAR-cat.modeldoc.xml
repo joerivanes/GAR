@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.47.6"
-      generator-date="2018-11-05T11:34:25Z">
+      generator-date="2018-11-07T10:59:13Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -589,7 +589,7 @@
                      </item>
                      <item>De massaconcentratie van waterstofcarbonaat in het grondwater.</item>
                      <item>
-                        <item type="global">REAL</item>
+                        <item type="global" idref="global_class_Brocommon_Meetwaarde">Meetwaarde</item>
                      </item>
                      <item>0 .. 1</item>
                   </part>
@@ -655,7 +655,7 @@
                      </item>
                      <item>De massaconcentratie van zuurstof in het grondwater.</item>
                      <item>
-                        <item type="global">REAL</item>
+                        <item type="global" idref="global_class_Brocommon_Meetwaarde">Meetwaarde</item>
                      </item>
                      <item>0 .. 1</item>
                   </part>
@@ -2048,7 +2048,7 @@
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>REAL</item>
+                        <item>Meetwaarde</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -2112,6 +2112,10 @@
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>1</item>
                      </part>
                   </content>
                </section>
@@ -2406,7 +2410,7 @@
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>REAL</item>
+                        <item>Meetwaarde</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
