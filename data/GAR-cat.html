@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "Grondwatersamenstellingsonderzoek (GAR)" door Imvertor 1.47.6 op November 7, 2018 at 11:01:10.
+   "Grondwatersamenstellingsonderzoek (GAR)" door Imvertor 1.47.6 op November 9, 2018 at 09:02:43.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i></i> en geef de code 
-   <i>"Conceptualmodel-GrondwatersamenstellingsonderzoekGAR-0.1-0-20181015-20181107-120112"</i> door. 
+   <i>"Conceptualmodel-GrondwatersamenstellingsonderzoekGAR-0.1-0-20181015-20181109-100245"</i> door. 
    
 </p><a class="anchor" name="global_package_Model"></a><section id="global_package_Model">
    <h3>Domein Model</h3>
@@ -131,6 +131,23 @@
                      Grondwatersamenstellingsonderzoek
                      [ 1 ]
                      
+                     <a class="link" href="#detail_association_Model_Grondwatersamenstellingsonderzoek_voorlopigMeetpuntID">voorlopig Meetpunt-ID: voorlopig Meetpunt-ID</a>
+                     
+                     
+                     <a class="link" href="#global_class_AbstractFeature">GFI_Feature</a>
+                     
+                     [ 1 ]
+                     
+                  </td>
+                  <td>De identificatie in de registratie ondergrond van het voorlopige meetpunt waar het
+                     grondwater bemonsterd is.
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     Grondwatersamenstellingsonderzoek
+                     [ 1 ]
+                     
                      <a class="link" href="#detail_association_Model_Grondwatersamenstellingsonderzoek_laboratoriumonderzoek">bestaat uit: laboratoriumonderzoek</a>
                      
                      
@@ -155,21 +172,6 @@
                      
                   </td>
                   <td>De gegevens die de geschiedenis van het object in de registratie ondergrond markeren.</td>
-               </tr>
-               <tr>
-                  <td>
-                     Grondwatersamenstellingsonderzoek
-                     [ 1 ]
-                     
-                     <a class="link" href="#detail_association_Model_Grondwatersamenstellingsonderzoek_bemonsteringslocatie">heeft: bemonsteringslocatie</a>
-                     
-                     
-                     <a class="link" href="#global_class_Model_AangeleverdeLocatie">Aangeleverde locatie</a>
-                     
-                     [ 1 ]
-                     
-                  </td>
-                  <td>De locatie waar het grondwater is bemonsterd.</td>
                </tr>
                <tr>
                   <td>
@@ -1107,6 +1109,68 @@
             </table>
             
          </section>
+         <a class="anchor" name="detail_association_Model_Grondwatersamenstellingsonderzoek_voorlopigMeetpuntID"></a><section id="detail_association_Model_Grondwatersamenstellingsonderzoek_voorlopigMeetpuntID"><strong>Relatiesoort details <a href="#global_class_Model_Grondwatersamenstellingsonderzoek">Grondwatersamenstellingsonderzoek</a> voorlopig Meetpunt-ID</strong>
+            
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>voorlopig Meetpunt-ID</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De identificatie in de registratie ondergrond van het voorlopige meetpunt waar het
+                        grondwater bemonsterd is.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Omdat er nog geen informatiemodel voor het grondwatermonitoringnet is ontwikkeld,
+                        wordt dit aangeduid als het "voorlopige" meetpunt.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Gerelateerd objecttype</th>
+                     <td>
+                        <a class="link" href="#global_class_AbstractFeature">GFI_Feature</a>
+                        
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
          <a class="anchor" name="detail_association_Model_Grondwatersamenstellingsonderzoek_laboratoriumonderzoek"></a><section id="detail_association_Model_Grondwatersamenstellingsonderzoek_laboratoriumonderzoek"><strong>Relatiesoort details <a href="#global_class_Model_Grondwatersamenstellingsonderzoek">Grondwatersamenstellingsonderzoek</a> bestaat uit</strong>
             
             
@@ -1208,60 +1272,6 @@
                      <th>Gerelateerd objecttype</th>
                      <td>
                         <a class="link" href="#global_class_Brocommon_Registratiegeschiedenis">Registratiegeschiedenis</a>
-                        
-                     </td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_association_Model_Grondwatersamenstellingsonderzoek_bemonsteringslocatie"></a><section id="detail_association_Model_Grondwatersamenstellingsonderzoek_bemonsteringslocatie"><strong>Relatiesoort details <a href="#global_class_Model_Grondwatersamenstellingsonderzoek">Grondwatersamenstellingsonderzoek</a> heeft</strong>
-            
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>heeft</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De locatie waar het grondwater is bemonsterd.</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Gerelateerd objecttype</th>
-                     <td>
-                        <a class="link" href="#global_class_Model_AangeleverdeLocatie">Aangeleverde locatie</a>
                         
                      </td>
                   </tr>
