@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.47.6"
-      generator-date="2018-11-09T09:02:43Z">
+      generator-date="2018-11-09T09:47:28Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -2038,6 +2038,10 @@
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
                         <item>Nee</item>
@@ -2057,6 +2061,10 @@
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -2400,6 +2408,10 @@
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
                         <item>Nee</item>
@@ -2419,6 +2431,10 @@
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
