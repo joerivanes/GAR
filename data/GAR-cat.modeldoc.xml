@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <book name="Grondwatersamenstellingsonderzoek (GAR)"
-      subpath="Conceptual model/Grondwatersamenstellingsonderzoek (GAR)/20181015"
+      subpath="Conceptual model/Grondwatersamenstellingsonderzoek (GAR)/20180315"
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.48.0"
-      generator-date="2018-11-15T13:24:28Z">
+      generator-date="2018-11-16T12:20:49Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -69,6 +69,17 @@
                   <part>
                      <item>
                         <item type="detail"
+                              idref="detail_attribute_Model_Grondwatersamenstellingsonderzoek_bemonsteringspunt">bemonsteringspunt</item>
+                     </item>
+                     <item>De buis in de grondwatermonitoringput waar het grondwater is bemonsterd.</item>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
                               idref="detail_attribute_Model_Grondwatersamenstellingsonderzoek_bestrijdingsmiddelenOnderzocht">bestrijdingsmiddelen onderzocht</item>
                      </item>
                      <item>De aanduiding die aangeeft of in het onderzoek bestrijdingsmiddelen zijn onderzocht.</item>
@@ -104,21 +115,6 @@
                         </item>
                      </item>
                      <item>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond is opgenomen.</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item>Grondwatersamenstellingsonderzoek</item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek_voorlopigMeetpuntID">voorlopig Meetpunt-ID: voorlopig Meetpunt-ID</item>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_AbstractFeature">GFI_Feature</item>
-                        </item>
-                        <item>[ 1 ]</item>
-                     </item>
-                     <item/>
                   </part>
                   <part>
                      <item>
@@ -179,21 +175,6 @@
                         </item>
                      </item>
                      <item>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond is opgenomen.</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item>Grondwatersamenstellingsonderzoek</item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_Model_Grondwatersamenstellingsonderzoek_voorlopigMeetpuntID">voorlopig Meetpunt-ID: voorlopig Meetpunt-ID</item>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_AbstractFeature">GFI_Feature</item>
-                        </item>
-                        <item>[ 1 ]</item>
-                     </item>
-                     <item>De identificatie in de registratie ondergrond van het voorlopige meetpunt waar het grondwater bemonsterd is.</item>
                   </part>
                   <part>
                      <item>
@@ -300,16 +281,6 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Veldonderzoek_uitvoerder">uitvoerder</item>
-                     </item>
-                     <item>De identificatie van de organisatie die verantwoordelijk is voor de uitvoering van het veldonderzoek.</item>
-                     <item>
-                        <item type="global" idref="global_class_Brocommon_KvKNummer">KvK-nummer</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
                         <item type="detail"
                               idref="detail_attribute_Model_Veldonderzoek_bijzonderheidVeldonderzoek">bijzonderheid veldonderzoek</item>
                      </item>
@@ -329,6 +300,16 @@
                         <item type="global" idref="global_class_Brocommon_Datum">Datum</item>
                      </item>
                      <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_Veldonderzoek_uitvoerder">uitvoerder</item>
+                     </item>
+                     <item>De identificatie die de organisatie die verantwoordelijk is voor de uitvoering van het veldonderzoek, als onderneming in het Handelsregister heeft.</item>
+                     <item>
+                        <item type="global" idref="global_class_Brocommon_KvKNummer">KvK-nummer</item>
+                     </item>
+                     <item>0 .. 1</item>
                   </part>
                </content>
             </section>
@@ -467,17 +448,6 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_Model_Bemonsteringsapparaat_typePompTijdensBemonstering">type pomp tijdens bemonstering</item>
-                     </item>
-                     <item>Het pomptype dat is gebruikt voor bemonsteren.</item>
-                     <item>
-                        <item type="global" idref="global_class_Model_TypePomp">TypePomp</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
                               idref="detail_attribute_Model_Bemonsteringsapparaat_typeSlang">type slang</item>
                      </item>
                      <item>Het type slang dat is gebruikt voor bemonsteren.</item>
@@ -494,6 +464,17 @@
                      <item>Indicatie of de slang nieuw is danwel een al eerder gebruikte slang.</item>
                      <item>
                         <item type="global" idref="global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_Bemonsteringsapparaat_typePompTijdensBemonstering">type pomp tijdens bemonstering</item>
+                     </item>
+                     <item>Het pomptype dat is gebruikt voor bemonsteren.</item>
+                     <item>
+                        <item type="global" idref="global_class_Model_TypePomp">TypePomp</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -580,7 +561,7 @@
                      <item>
                         <item type="global" idref="global_class_Brocommon_Meetwaarde">Meetwaarde</item>
                      </item>
-                     <item>0 .. 1</item>
+                     <item>1</item>
                   </part>
                   <part>
                      <item>
@@ -589,7 +570,7 @@
                      </item>
                      <item>De massaconcentratie van waterstofcarbonaat in het grondwater.</item>
                      <item>
-                        <item type="global" idref="global_class_Brocommon_Meetwaarde">Meetwaarde</item>
+                        <item type="global">REAL</item>
                      </item>
                      <item>0 .. 1</item>
                   </part>
@@ -610,17 +591,6 @@
                               idref="detail_attribute_Model_ResultaatVeldmetingen_temperatuur">temperatuur</item>
                      </item>
                      <item>De temperatuur van het opgepompte grondwater.</item>
-                     <item>
-                        <item type="global" idref="global_class_Brocommon_Meetwaarde">Meetwaarde</item>
-                     </item>
-                     <item>0 .. 1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_Model_ResultaatVeldmetingen_temperatuurInSitu">temperatuur in situ</item>
-                     </item>
-                     <item>De in situ gemeten temperatuur van het grondwater.</item>
                      <item>
                         <item type="global" idref="global_class_Brocommon_Meetwaarde">Meetwaarde</item>
                      </item>
@@ -654,6 +624,17 @@
                               idref="detail_attribute_Model_ResultaatVeldmetingen_zuurstofgehalte">zuurstofgehalte</item>
                      </item>
                      <item>De massaconcentratie van zuurstof in het grondwater.</item>
+                     <item>
+                        <item type="global">REAL</item>
+                     </item>
+                     <item>0 .. 1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_ResultaatVeldmetingen_temperatuurInSitu">temperatuur in situ</item>
+                     </item>
+                     <item>De in situ gemeten temperatuur van het grondwater.</item>
                      <item>
                         <item type="global" idref="global_class_Brocommon_Meetwaarde">Meetwaarde</item>
                      </item>
@@ -738,9 +719,9 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_Model_Laboratoriumonderzoek_uitvoerder">uitvoerder</item>
+                              idref="detail_attribute_Model_Laboratoriumonderzoek_verantwoordelijkLaboratorium">verantwoordelijk laboratorium</item>
                      </item>
-                     <item>De identificatie van de organisatie die verantwoordelijk is voor de uitvoering van het laboratoriumonderzoek.</item>
+                     <item>Het laboratorium dat verantwoordelijk is voor de uitgevoerde laboratoriumwaarnemingen.</item>
                      <item>
                         <item type="global" idref="global_class_Brocommon_KvKNummer">KvK-nummer</item>
                      </item>
@@ -937,13 +918,24 @@
                   <part type="COMPOSED">
                      <item>
                         <item type="detail"
+                              idref="detail_attribute_Model_GehalteStof_onderRapportagegrens">onder rapportagegrens</item>
+                     </item>
+                     <item>Aanduiding of de gemeten waarde onder de door het laboratorium gehanteerde rapportagegrens lag.</item>
+                     <item>
+                        <item type="global" idref="global_class_Brocommon_IndicatieJaNee">IndicatieJaNee</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part type="COMPOSED">
+                     <item>
+                        <item type="detail"
                               idref="detail_attribute_Model_GehalteStof_rapportagegrens">rapportagegrens</item>
                      </item>
                      <item>De door het uitvoerende laboratorium met de opdrachtgever afgesproken grensconcentratie waarboven het gemeten gehalte van de component in een monster wordt gerapporteerd aan de opdrachtgever.</item>
                      <item>
                         <item type="global">REAL</item>
                      </item>
-                     <item>1</item>
+                     <item>0 .. 1</item>
                   </part>
                </content>
             </section>
@@ -1031,6 +1023,65 @@
                      type="OBJECTTYPE"
                      id="detail_class_Model_Grondwatersamenstellingsonderzoek"
                      id-global="global_class_Model_Grondwatersamenstellingsonderzoek">
+               <section name="bemonsteringspunt"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Grondwatersamenstellingsonderzoek_bemonsteringspunt"
+                        id-global="global_attribute_Model_Grondwatersamenstellingsonderzoek_bemonsteringspunt">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>bemonsteringspunt</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De buis in de grondwatermonitoringput waar het grondwater is bemonsterd.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Omdat er nog geen informatiemodel voor het grondwatermonitoringnet is ontwikkeld, wordt in plaats van een meetpunt in een grondwatermonitoringnet nu het BRO-ID van de grondwatermonitoringput worden opgenomen plus het volgnummer van de specifieke buis in de put.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>[BRO-id]-[buisnummer]</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CHARACTERSTRING</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
                <section name="bestrijdingsmiddelen onderzocht"
                         type="DETAIL-ATTRIBUTE"
                         id="detail_attribute_Model_Grondwatersamenstellingsonderzoek_bestrijdingsmiddelenOnderzocht"
@@ -1122,75 +1173,6 @@
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="voorlopig Meetpunt-ID"
-                        type="DETAIL-ASSOCIATION"
-                        id="detail_association_Model_Grondwatersamenstellingsonderzoek_voorlopigMeetpuntID"
-                        id-global="global_association_Model_Grondwatersamenstellingsonderzoek_voorlopigMeetpuntID">
-                  <content approach="association">
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>voorlopig Meetpunt-ID</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd objecttype</item>
-                        <item>
-                           <item type="global" idref="global_class_AbstractFeature">GFI_Feature</item>
-                        </item>
-                     </part>
-                  </content>
-                  <content approach="target">
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>voorlopig Meetpunt-ID</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De identificatie in de registratie ondergrond van het voorlopige meetpunt waar het grondwater bemonsterd is.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-TOELICHTING">
-                        <item>Toelichting</item>
-                        <item>Omdat er nog geen informatiemodel voor het grondwatermonitoringnet is ontwikkeld, wordt dit aangeduid als het "voorlopige" meetpunt.</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd objecttype</item>
-                        <item>
-                           <item type="global" idref="global_class_AbstractFeature">GFI_Feature</item>
-                        </item>
                      </part>
                   </content>
                </section>
@@ -1500,61 +1482,6 @@
                      </part>
                   </content>
                </section>
-               <section name="uitvoerder"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Veldonderzoek_uitvoerder"
-                        id-global="global_attribute_Model_Veldonderzoek_uitvoerder">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>uitvoerder</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De identificatie van de organisatie die verantwoordelijk is voor de uitvoering van het veldonderzoek.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-TOELICHTING">
-                        <item>Toelichting</item>
-                        <item>Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-REGELS">
-                        <item>Regels</item>
-                        <item>De onderneming moet binnen de basisregistratie ondergrond bekend zijn als uitvoerder van grondwateronderzoek.</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>KvK-nummer</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
                <section name="bijzonderheid veldonderzoek"
                         type="DETAIL-ATTRIBUTE"
                         id="detail_attribute_Model_Veldonderzoek_bijzonderheidVeldonderzoek"
@@ -1650,6 +1577,61 @@
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Datum</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="uitvoerder"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Veldonderzoek_uitvoerder"
+                        id-global="global_attribute_Model_Veldonderzoek_uitvoerder">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>uitvoerder</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De identificatie die de organisatie die verantwoordelijk is voor de uitvoering van het veldonderzoek, als onderneming in het Handelsregister heeft.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>De onderneming moet binnen de basisregistratie ondergrond bekend zijn als uitvoerder van grondwateronderzoek.</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>KvK-nummer</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -1792,53 +1774,6 @@
                      type="OBJECTTYPE"
                      id="detail_class_Model_Bemonsteringsapparaat"
                      id-global="global_class_Model_Bemonsteringsapparaat">
-               <section name="type pomp tijdens bemonstering"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Bemonsteringsapparaat_typePompTijdensBemonstering"
-                        id-global="global_attribute_Model_Bemonsteringsapparaat_typePompTijdensBemonstering">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>type pomp tijdens bemonstering</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>Het pomptype dat is gebruikt voor bemonsteren.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>TypePomp</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
                <section name="type slang"
                         type="DETAIL-ATTRIBUTE"
                         id="detail_attribute_Model_Bemonsteringsapparaat_typeSlang"
@@ -1941,6 +1876,53 @@
                      </part>
                   </content>
                </section>
+               <section name="type pomp tijdens bemonstering"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Bemonsteringsapparaat_typePompTijdensBemonstering"
+                        id-global="global_attribute_Model_Bemonsteringsapparaat_typePompTijdensBemonstering">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>type pomp tijdens bemonstering</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Het pomptype dat is gebruikt voor bemonsteren.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>TypePomp</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
             </section>
             <section name="Resultaat veldmetingen"
                      type="OBJECTTYPE"
@@ -1973,11 +1955,7 @@
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
@@ -1985,11 +1963,15 @@
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
+                        <item>1</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Door een probleem met de meetapparatuur kan het voorkomen dat het elektrisch geleidingsvermogen niet bepaald is. Alleen in dat geval heeft het attribuut geen waarde.</item>
                      </part>
                      <part type="CFG-DOC-PATROON">
                         <item>Patroon</item>
@@ -2002,10 +1984,6 @@
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-UNITOFMEASURE">
-                        <item>Meeteenheid</item>
-                        <item>µS/cm</item>
                      </part>
                   </content>
                </section>
@@ -2038,10 +2016,6 @@
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
                      </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
                         <item>Nee</item>
@@ -2056,15 +2030,11 @@
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Meetwaarde</item>
+                        <item>REAL</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-UNITOFMEASURE">
-                        <item>Meeteenheid</item>
-                        <item>mg/l</item>
                      </part>
                   </content>
                </section>
@@ -2095,11 +2065,7 @@
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
@@ -2124,10 +2090,6 @@
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-UNITOFMEASURE">
-                        <item>Meeteenheid</item>
-                        <item>1</item>
                      </part>
                   </content>
                </section>
@@ -2156,10 +2118,6 @@
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
                      </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
                         <item>Nee</item>
@@ -2183,69 +2141,6 @@
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-UNITOFMEASURE">
-                        <item>Meeteenheid</item>
-                        <item>°C</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="temperatuur in situ"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_ResultaatVeldmetingen_temperatuurInSitu"
-                        id-global="global_attribute_Model_ResultaatVeldmetingen_temperatuurInSitu">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>temperatuur in situ</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De in situ gemeten temperatuur van het grondwater.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-PATROON">
-                        <item>Patroon</item>
-                        <item>NN.N</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Meetwaarde</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-UNITOFMEASURE">
-                        <item>Meeteenheid</item>
-                        <item>°C</item>
                      </part>
                   </content>
                </section>
@@ -2278,10 +2173,6 @@
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
                      </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
                         <item>Nee</item>
@@ -2309,10 +2200,6 @@
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-UNITOFMEASURE">
-                        <item>Meeteenheid</item>
-                        <item>m</item>
                      </part>
                   </content>
                </section>
@@ -2345,10 +2232,6 @@
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
                      </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
                         <item>Nee</item>
@@ -2372,10 +2255,6 @@
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-UNITOFMEASURE">
-                        <item>Meeteenheid</item>
-                        <item>NTU</item>
                      </part>
                   </content>
                </section>
@@ -2408,10 +2287,6 @@
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
                      </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
                         <item>Nee</item>
@@ -2426,15 +2301,62 @@
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Meetwaarde</item>
+                        <item>REAL</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
                      </part>
-                     <part type="CFG-DOC-UNITOFMEASURE">
-                        <item>Meeteenheid</item>
-                        <item>mg/l</item>
+                  </content>
+               </section>
+               <section name="temperatuur in situ"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_ResultaatVeldmetingen_temperatuurInSitu"
+                        id-global="global_attribute_Model_ResultaatVeldmetingen_temperatuurInSitu">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>temperatuur in situ</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De in situ gemeten temperatuur van het grondwater.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>NN.N</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Meetwaarde</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
                      </part>
                   </content>
                </section>
@@ -2443,14 +2365,14 @@
                      type="OBJECTTYPE"
                      id="detail_class_Model_Laboratoriumonderzoek"
                      id-global="global_class_Model_Laboratoriumonderzoek">
-               <section name="uitvoerder"
+               <section name="verantwoordelijk laboratorium"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Laboratoriumonderzoek_uitvoerder"
-                        id-global="global_attribute_Model_Laboratoriumonderzoek_uitvoerder">
+                        id="detail_attribute_Model_Laboratoriumonderzoek_verantwoordelijkLaboratorium"
+                        id-global="global_attribute_Model_Laboratoriumonderzoek_verantwoordelijkLaboratorium">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>uitvoerder</item>
+                        <item>verantwoordelijk laboratorium</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -2458,7 +2380,7 @@
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>De identificatie van de organisatie die verantwoordelijk is voor de uitvoering van het laboratoriumonderzoek.</item>
+                        <item>Het laboratorium dat verantwoordelijk is voor de uitgevoerde laboratoriumwaarnemingen.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -2636,10 +2558,6 @@
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
                      </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
                         <item>Nee</item>
@@ -2663,10 +2581,6 @@
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-UNITOFMEASURE">
-                        <item>Meeteenheid</item>
-                        <item>µS/cm</item>
                      </part>
                   </content>
                </section>
@@ -2693,10 +2607,6 @@
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
                         <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
@@ -2750,10 +2660,6 @@
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
                      </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
                         <item>Nee</item>
@@ -2777,10 +2683,6 @@
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-UNITOFMEASURE">
-                        <item>Meeteenheid</item>
-                        <item>°C</item>
                      </part>
                   </content>
                </section>
@@ -2886,7 +2788,7 @@
                         </part>
                         <part type="CFG-DOC-TOELICHTING">
                            <item>Toelichting</item>
-                           <item>Het gehalte wordt uitgedrukt in wetenschappelijke notatie. Als het gemeten gehalte onder de rapportagegrens ligt, mag het veld leeg gelaten worden.</item>
+                           <item>Het gehalte wordt uitgedrukt in wetenschappelijke notatie. Als het gemeten gehalte onder de rapportagegrens ligt, wordt het veld leeg gelaten. Het veld 'onder rapportagegrens' krijgt dan de waarde 'ja' en de gehanteerde rapportagegrens wordt ingevuld in het veld 'rapportagegrens'.</item>
                         </part>
                         <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                            <item>Mogelijk geen waarde</item>
@@ -2910,11 +2812,65 @@
                         </part>
                         <part type="CFG-DOC-REGELS">
                            <item>Regels</item>
-                           <item>Als het gemeten gehalte boven de rapportagegrens ligt, is dit gegeven altijd aanwezig en gevuld.</item>
+                           <item>Alleen als het attribuut 'onder rapportagegrens' de waarde 'nee' heeft, is dit gegeven altijd aanwezig en gevuld.</item>
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>REAL</item>
+                        </part>
+                     </content>
+                  </section>
+                  <section name="onder rapportagegrens"
+                           type="DETAIL-COMPOSITE-ATTRIBUTE"
+                           id="detail_attribute_Model_GehalteStof_onderRapportagegrens"
+                           id-global="global_attribute_Model_GehalteStof_onderRapportagegrens">
+                     <content>
+                        <part type="COMPOSER">
+                           <item type="global" idref="global_class_Model_GehalteStof">GehalteStof</item>
+                        </part>
+                        <part type="CFG-DOC-NAAM">
+                           <item>Naam</item>
+                           <item>onder rapportagegrens</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMST">
+                           <item>Herkomst</item>
+                           <item>BRO</item>
+                        </part>
+                        <part type="CFG-DOC-DEFINITIE">
+                           <item>Definitie</item>
+                           <item>Aanduiding of de gemeten waarde onder de door het laboratorium gehanteerde rapportagegrens lag.</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                           <item>Herkomst definitie</item>
+                           <item>BRO</item>
+                        </part>
+                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                           <item>Mogelijk geen waarde</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                           <item>Indicatie materiële historie</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                           <item>Indicatie formele historie</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                           <item>Indicatie kardinaliteit</item>
+                           <item>1</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
+                        </part>
+                        <part type="CFG-DOC-REGELS">
+                           <item>Regels</item>
+                           <item>Als de waarde 'ja' is moet de rapportagegrens zijn ingevuld.</item>
+                        </part>
+                        <part type="CFG-DOC-FORMAAT">
+                           <item>Formaat</item>
+                           <item>IndicatieJaNee</item>
                         </part>
                      </content>
                   </section>
@@ -2960,11 +2916,15 @@
                         </part>
                         <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                            <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
+                           <item>0 .. 1</item>
                         </part>
                         <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                            <item>Indicatie authentiek</item>
                            <item>Authentiek</item>
+                        </part>
+                        <part type="CFG-DOC-REGELS">
+                           <item>Regels</item>
+                           <item>Alleen als het attribuut 'onder rapportagegrens' de waarde 'ja' heeft, is dit gegeven altijd aanwezig en gevuld.</item>
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
@@ -3292,11 +3252,44 @@
                   <part>
                      <item>
                         <item type="detail"
+                              idref="detail_attribute_Brocommon_OnvolledigeDatum_volledigeDatum">volledige datum</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global" idref="global_class_Brocommon_Datum">Datum</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Brocommon_OnvolledigeDatum_jaarEnMaand">jaar en maand</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global" idref="global_class_Brocommon_Tekst7">Tekst7</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
                               idref="detail_attribute_Brocommon_OnvolledigeDatum_jaartal">jaartal</item>
                      </item>
                      <item/>
                      <item>
                         <item type="global" idref="global_class_Brocommon_Aantal4">Aantal4</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Brocommon_OnvolledigeDatum_onbekend">onbekend</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global" idref="global_class_Brocommon_RedenGeenWaarde">RedenGeenWaarde</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -3335,6 +3328,17 @@
                      <item/>
                      <item>
                         <item type="global" idref="global_class_Brocommon_KvKNummer">KvK-nummer</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_Brocommon_Organisatie_europeesHandelsnummer">Europees handelsnummer</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global" idref="global_class_Brocommon_Tekst40">Tekst40</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -3974,6 +3978,44 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      type="KEUZE"
                      id="detail_class_Brocommon_OnvolledigeDatum"
                      id-global="global_class_Brocommon_OnvolledigeDatum">
+               <section name="volledige datum"
+                        type="DETAIL-UNIONELEMENT"
+                        id="detail_attribute_Brocommon_OnvolledigeDatum_volledigeDatum"
+                        id-global="global_attribute_Brocommon_OnvolledigeDatum_volledigeDatum">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>volledige datum</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Datum</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="jaar en maand"
+                        type="DETAIL-UNIONELEMENT"
+                        id="detail_attribute_Brocommon_OnvolledigeDatum_jaarEnMaand"
+                        id-global="global_attribute_Brocommon_OnvolledigeDatum_jaarEnMaand">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>jaar en maand</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Tekst7</item>
+                     </part>
+                  </content>
+               </section>
                <section name="jaartal"
                         type="DETAIL-UNIONELEMENT"
                         id="detail_attribute_Brocommon_OnvolledigeDatum_jaartal"
@@ -3990,6 +4032,25 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Aantal4</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="onbekend"
+                        type="DETAIL-UNIONELEMENT"
+                        id="detail_attribute_Brocommon_OnvolledigeDatum_onbekend"
+                        id-global="global_attribute_Brocommon_OnvolledigeDatum_onbekend">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>onbekend</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>RedenGeenWaarde</item>
                      </part>
                   </content>
                </section>
@@ -4014,6 +4075,25 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>KvK-nummer</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="Europees handelsnummer"
+                        type="DETAIL-UNIONELEMENT"
+                        id="detail_attribute_Brocommon_Organisatie_europeesHandelsnummer"
+                        id-global="global_attribute_Brocommon_Organisatie_europeesHandelsnummer">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Europees handelsnummer</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Tekst40</item>
                      </part>
                   </content>
                </section>
