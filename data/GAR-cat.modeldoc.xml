@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.49.1"
-      generator-date="2018-12-17T11:09:40Z">
+      generator-date="2018-12-17T11:37:34Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -1240,7 +1240,7 @@
                <item id="global_class_Model_Bepalingstechniek"
                      uuid="EAID_252793A3_4ADD_44fd_B0CF_CDE66BE8E25D"
                      idref="detail_class_Model_Bepalingstechniek">Bepalingstechniek</item>
-               <item>De lijst van mogelijke laboratoriumtechnieken die gebruikt zijn bij het bepalen van het gehalte van .chemische parameters.</item>
+               <item>De lijst van mogelijke laboratoriumtechnieken die gebruikt zijn bij het bepalen van het gehalte van chemische parameters.</item>
             </part>
             <part>
                <item id="global_class_Model_Bepalingsprocedure"
@@ -3630,7 +3630,7 @@ De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item>De lijst van mogelijke laboratoriumtechnieken die gebruikt zijn bij het bepalen van het gehalte van .chemische parameters.</item>
+                     <item>De lijst van mogelijke laboratoriumtechnieken die gebruikt zijn bij het bepalen van het gehalte van chemische parameters.</item>
                   </part>
                </content>
                <content>
