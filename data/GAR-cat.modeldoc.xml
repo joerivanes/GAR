@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.50.0"
-      generator-date="2019-01-03T08:39:22Z">
+      generator-date="2019-01-03T09:59:07Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -1360,6 +1360,10 @@ van een individuele meting van het grondwatersamenstellingsonderzoek.</item>
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
                         <item>Nee</item>
@@ -1684,6 +1688,10 @@ van een individuele meting van het grondwatersamenstellingsonderzoek.</item>
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
                         <item>Nee</item>
@@ -1739,6 +1747,10 @@ van een individuele meting van het grondwatersamenstellingsonderzoek.</item>
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
                         <item>Nee</item>
@@ -1788,6 +1800,10 @@ van een individuele meting van het grondwatersamenstellingsonderzoek.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
                         <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
@@ -1843,6 +1859,10 @@ van een individuele meting van het grondwatersamenstellingsonderzoek.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
                         <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
@@ -2027,6 +2047,10 @@ van een individuele meting van het grondwatersamenstellingsonderzoek.</item>
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
                         <item>Nee</item>
@@ -2078,6 +2102,10 @@ van een individuele meting van het grondwatersamenstellingsonderzoek.</item>
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
                         <item>Nee</item>
@@ -2127,6 +2155,10 @@ van een individuele meting van het grondwatersamenstellingsonderzoek.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
                         <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
@@ -2728,6 +2760,10 @@ Wanneer het waterstofcarbonaatgehalte is bepaald tijdens het veldonderzoek, is h
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
                         <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
@@ -4500,6 +4536,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
                         <item>Nee</item>
@@ -4543,6 +4583,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
                         <item>Indicatie formele historie</item>
                         <item>Nee</item>
@@ -4584,6 +4628,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
                         <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
