@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.49.1"
-      generator-date="2019-01-24T14:57:01Z">
+      generator-date="2019-01-24T15:03:15Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -3203,7 +3203,8 @@ van een individuele meting van het grondwatersamenstellingsonderzoek.</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van de waarde van het attribuut parameter. De aan te leveren meeteenheid is vastgelegd in de referentietabel Parameterlijst. Een dimensieloze waarde heeft een meeteenheid 1 (cijfer 1).</item>
+                        <item>De bronhouder mag bij een waarde die kleiner is dan de waarde van het attribuut rapportagegrens besluiten of hij de waarde aanlevert of niet.
+De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van de waarde van het attribuut parameter. De aan te leveren meeteenheid is vastgelegd in de referentietabel Parameterlijst. Een dimensieloze waarde heeft een meeteenheid 1 (cijfer 1).</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -3266,7 +3267,7 @@ van een individuele meting van het grondwatersamenstellingsonderzoek.</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van de waarde van het attribuut parameter. De aan te leveren meeteenheid is vastgelegd in de referentietabel Parameterlijst. Een dimensieloze waarde heeft een meeteenheid 1 (cijfer 1).</item>
+                        <item>De rapportagegrens wordt ook wel minimumconcentratie genoemd. De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van de waarde van het attribuut parameter. De aan te leveren meeteenheid is vastgelegd in de referentietabel Parameterlijst. Een dimensieloze waarde heeft een meeteenheid 1 (cijfer 1).</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
