@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.49.1"
-      generator-date="2019-01-31T13:21:52Z">
+      generator-date="2019-01-31T13:33:07Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -22,12 +22,26 @@
             </content>
          </section>
          <section type="IMAGEMAP"
-                  name="Codelijsten en datatypes - overzicht"
+                  name="Waardelijsten - overzicht"
                   id="EAID_0553A643_1D42_425b_A4A0_47AD9DFE4CE7">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>Codelijsten en datatypes - overzicht</item>
+                  <item>Waardelijsten - overzicht</item>
+               </part>
+               <part type="CFG-DOC-DESCRIPTION">
+                  <item>Omschrijving</item>
+                  <item/>
+               </part>
+            </content>
+         </section>
+         <section type="IMAGEMAP"
+                  name="Datatypen - overzicht"
+                  id="EAID_A1844355_72B0_466d_B8D4_6DD92281E08D">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Datatypen - overzicht</item>
                </part>
                <part type="CFG-DOC-DESCRIPTION">
                   <item>Omschrijving</item>
@@ -1550,7 +1564,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                <item id="global_class_Model_Beoordelingsprocedure"
                      uuid="EAID_A98650D6_3EFC_4b31_8EB8_D00857AADE12"
                      idref="detail_class_Model_Beoordelingsprocedure">Beoordelingsprocedure</item>
-               <item/>
+               <item>De ljist van protocollen en werkwijzen die kunnen worden toegepast bij de beoordeling van de kwaliteit van de meetwaarden die in het veld en/of het laboratorium gemeten zijn.</item>
             </part>
             <part>
                <item id="global_class_Model_Bemonsteringsprocedure"
@@ -4247,7 +4261,7 @@ van een individuele meting van het grondwatersamenstellingsonderzoek.</item>
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De ljist van protocollen en werkwijzen die kunnen worden toegepast bij de beoordeling van de kwaliteit van de meetwaarden die in het veld en/of het laboratorium gemeten zijn.</item>
                   </part>
                </content>
                <content>
