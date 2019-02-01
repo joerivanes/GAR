@@ -3,8 +3,8 @@
       subpath="Conceptual model/Grondwatersamenstellingsonderzoek (GAR)/20181119"
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
-      generator-version="1.49.1"
-      generator-date="2019-01-31T14:50:40Z">
+      generator-version="1.50.1"
+      generator-date="2019-02-01T12:58:04Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -117,7 +117,7 @@
                         <item type="detail"
                               idref="detail_attribute_Model_Registratieobject_dataleverancier">dataleverancier</item>
                      </item>
-                     <item>Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die het object aan de basisregistratie ondergrond heeft aangeleverd, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland..</item>
+                     <item>Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die het object aan de basisregistratie ondergrond heeft aangeleverd, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.</item>
                      <item>
                         <item type="global" idref="global_class_Model_Organisatie">Organisatie</item>
                      </item>
@@ -201,17 +201,11 @@
                   </part>
                   <part type="COMPOSER">
                      <item>
-                        <value>
-                           <item type="detail" idref="detail_class_Model_GMWBuisverwijzing">bemonsteringspunt</item>
-                        </value>
+                        <item type="detail" idref="detail_class_Model_GMWBuisverwijzing">bemonsteringspunt</item>
                      </item>
-                     <item>
-                        <value>De gegevens die nodig zijn voor een verwijzing naar een specifieke buis in een grondwatermonitoringput.</value>
-                     </item>
+                     <item>De gegevens die nodig zijn voor een verwijzing naar een specifieke buis in een grondwatermonitoringput.</item>
                      <item/>
-                     <item>
-                        <value>1</value>
-                     </item>
+                     <item>1</item>
                   </part>
                   <part type="COMPOSED">
                      <item>
@@ -711,7 +705,7 @@
                         <item type="detail"
                               idref="detail_attribute_Model_Bemonsteringsapparaat_slangHergebruikt">slang hergebruikt</item>
                      </item>
-                     <item>De aanduiding die aangeeft of de slang nieuw is danwel al eerder is gebruikt.</item>
+                     <item>De aanduiding die aangeeft of de slang nieuw is dan wel al eerder is gebruikt.</item>
                      <item>
                         <item type="global" idref="global_class_Model_IndicatieJaNee">IndicatieJaNee</item>
                      </item>
@@ -1832,7 +1826,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die het object aan de basisregistratie ondergrond heeft aangeleverd, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland..</item>
+                        <item>Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die het object aan de basisregistratie ondergrond heeft aangeleverd, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -3045,7 +3039,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>De aanduiding die aangeeft of de slang nieuw is danwel al eerder is gebruikt.</item>
+                        <item>De aanduiding die aangeeft of de slang nieuw is dan wel al eerder is gebruikt.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -3053,7 +3047,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>In de praktijk zal een slang alleen worden hergebruikt als het geen gevolgen voor het monster heeft, dat wil zeggen bij schoon grondwater.</item>
+                        <item>In de praktijk zal een slang alleen worden hergebruikt als het geen gevolgen voor het monster heeft, dat wil zeggen, bij schoon grondwater.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
