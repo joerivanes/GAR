@@ -1,6 +1,14 @@
 <?xml version="1.0"?>
 <domeintabel>
 <Waardebepalingstechniek>
+<!-- toegevoegd tbv BRO -->  
+  <ID></ID>
+  <Code>ONBEKEND</Code>
+  <Omschrijving>Het is onbekend welke techniek is gebruikt</Omschrijving>
+  <D_BEGIN></D_BEGIN>
+  <D_STATUS></D_STATUS>
+</Waardebepalingstechniek>
+<Waardebepalingstechniek>
   <ID>125</ID>
   <Code>AA</Code>
   <Omschrijving>Autoanalyser</Omschrijving>
