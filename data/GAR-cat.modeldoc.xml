@@ -3,8 +3,8 @@
       subpath="Conceptual model/Grondwatersamenstellingsonderzoek (GAR)/20181119"
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
-      generator-version="1.50.1"
-      generator-date="2019-02-05T10:18:46Z">
+      generator-version="1.49.1"
+      generator-date="2019-02-07T13:49:23Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -184,7 +184,7 @@
                      </item>
                      <item>De aanduiding die aangeeft of in het onderzoek bestrijdingsmiddelen en/of gewasbeschermingsmiddelen zijn onderzocht.</item>
                      <item>
-                        <item type="global" idref="global_class_Model_IndicatieJaNee">IndicatieJaNee</item>
+                        <item type="global" idref="global_class_Model_IndicatieJaNeeOnbekend">IndicatieJaNeeOnbekend</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -195,17 +195,23 @@
                      </item>
                      <item>De aanduiding die aangeeft of in het onderzoek farmaceutische stoffen, zoals geneesmiddelen, zijn onderzocht.</item>
                      <item>
-                        <item type="global" idref="global_class_Model_IndicatieJaNee">IndicatieJaNee</item>
+                        <item type="global" idref="global_class_Model_IndicatieJaNeeOnbekend">IndicatieJaNeeOnbekend</item>
                      </item>
                      <item>1</item>
                   </part>
                   <part type="COMPOSER">
                      <item>
-                        <item type="detail" idref="detail_class_Model_Registratiegeschiedenis">registratiegeschiedenis</item>
+                        <value>
+                           <item type="detail" idref="detail_class_Model_Registratiegeschiedenis">registratiegeschiedenis</item>
+                        </value>
                      </item>
-                     <item>De gegevens die de geschiedenis van het object in de registratie ondergrond markeren.</item>
+                     <item>
+                        <value>De gegevens die de geschiedenis van het object in de registratie ondergrond markeren.</value>
+                     </item>
                      <item/>
-                     <item>1</item>
+                     <item>
+                        <value>1</value>
+                     </item>
                   </part>
                   <part type="COMPOSED">
                      <item>
@@ -341,11 +347,17 @@
                   </part>
                   <part type="COMPOSER">
                      <item>
-                        <item type="detail" idref="detail_class_Model_GMWBuisverwijzing">bemonsteringspunt</item>
+                        <value>
+                           <item type="detail" idref="detail_class_Model_GMWBuisverwijzing">bemonsteringspunt</item>
+                        </value>
                      </item>
-                     <item>De gegevens die nodig zijn voor een verwijzing naar een specifieke buis in een grondwatermonitoringput.</item>
+                     <item>
+                        <value>De gegevens die nodig zijn voor een verwijzing naar een specifieke buis in een grondwatermonitoringput.</value>
+                     </item>
                      <item/>
-                     <item>1</item>
+                     <item>
+                        <value>1</value>
+                     </item>
                   </part>
                   <part type="COMPOSED">
                      <item>
@@ -817,7 +829,7 @@
                      </item>
                      <item>De aanduiding die aangeeft of de slang nieuw is dan wel al eerder is gebruikt.</item>
                      <item>
-                        <item type="global" idref="global_class_Model_IndicatieJaNee">IndicatieJaNee</item>
+                        <item type="global" idref="global_class_Model_IndicatieJaNeeOnbekend">IndicatieJaNeeOnbekend</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -1179,17 +1191,6 @@ van een individuele meting van het grondwatersamenstellingsonderzoek.</item>
                      </item>
                      <item>0 .. *</item>
                   </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_Model_Analyseproces_geaccrediteerd">geaccrediteerd</item>
-                     </item>
-                     <item>De aanduiding of het laboratorium geaccrediteerd is voor het uitvoeren van de bepalingsprocedure.</item>
-                     <item>
-                        <item type="global" idref="global_class_Model_IndicatieJaNee">IndicatieJaNee</item>
-                     </item>
-                     <item>1</item>
-                  </part>
                </content>
             </section>
             <section type="SHORT-ASSOCIATIONS">
@@ -1333,7 +1334,7 @@ van een individuele meting van het grondwatersamenstellingsonderzoek.</item>
                      </item>
                      <item>De aanduiding die aangeeft of het gerapporteerde gehalte een schatting is van de concentratie. Dit is het geval als de gehanteerde methode slechts een indicatie geeft voor aanwezigheid van deze component.</item>
                      <item>
-                        <item type="global" idref="global_class_Model_IndicatieJaNee">IndicatieJaNee</item>
+                        <item type="global" idref="global_class_Model_IndicatieJaNeeOnbekend">IndicatieJaNeeOnbekend</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -1344,7 +1345,7 @@ van een individuele meting van het grondwatersamenstellingsonderzoek.</item>
                      </item>
                      <item>De aanduiding die aangeeft of voor de component aan de identificatiecriteria is voldaan. Als dit niet het geval is, is er wel een indicatie voor de aanwezigheid van de component.</item>
                      <item>
-                        <item type="global" idref="global_class_Model_IndicatieJaNee">IndicatieJaNee</item>
+                        <item type="global" idref="global_class_Model_IndicatieJaNeeOnbekend">IndicatieJaNeeOnbekend</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -1436,7 +1437,7 @@ van een individuele meting van het grondwatersamenstellingsonderzoek.</item>
                      <item>
                         <item type="detail" idref="detail_attribute_Model_Parameterlijst_aquocode">aquocode</item>
                      </item>
-                     <item>Aquocode van de laboratoriumparameter.</item>
+                     <item>De Aquocode van de laboratoriumparameter.</item>
                      <item>
                         <item type="global">CHARACTERSTRING</item>
                      </item>
@@ -1446,7 +1447,7 @@ van een individuele meting van het grondwatersamenstellingsonderzoek.</item>
                      <item>
                         <item type="detail" idref="detail_attribute_Model_Parameterlijst_cASnummer">CASnummer</item>
                      </item>
-                     <item>Chemical Abstracts Service nummer van de laboratoriumparameter.</item>
+                     <item>Het Chemical Abstracts Service nummer van de laboratoriumparameter.</item>
                      <item>
                         <item type="global">CHARACTERSTRING</item>
                      </item>
@@ -2961,7 +2962,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>IndicatieJaNee</item>
+                        <item>IndicatieJaNeeOnbekend</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -3016,7 +3017,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>IndicatieJaNee</item>
+                        <item>IndicatieJaNeeOnbekend</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -3311,7 +3312,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
                         <item>Indicatie materiële historie</item>
@@ -3332,6 +3333,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
                         <item>De onderneming moet binnen de basisregistratie ondergrond als uitvoerder van grondwatersamenstellingsonderzoek bekend zijn.</item>
+                     </part>
+                     <part type="CFG-DOC-REGELS-IMBROA">
+                        <item>Regels IMBRO/A</item>
+                        <item>Voor IMBRO/A gegevens kan de uitvoerder niet bekend zijn.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -3387,6 +3392,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Voor IMBRO/A gegevens kan de bemonsteringsprocedure niet bekend zijn.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -3804,7 +3813,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>IndicatieJaNee</item>
+                        <item>IndicatieJaNeeOnbekend</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -4066,7 +4075,7 @@ van een individuele meting van het grondwatersamenstellingsonderzoek.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
                         <item>Indicatie materiële historie</item>
@@ -4087,6 +4096,10 @@ van een individuele meting van het grondwatersamenstellingsonderzoek.</item>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
                         <item>De onderneming moet binnen de basisregistratie ondergrond als uitvoerder van grondwatersamenstellingsonderzoek bekend zijn.</item>
+                     </part>
+                     <part type="CFG-DOC-REGELS-IMBROA">
+                        <item>Regels IMBRO/A</item>
+                        <item>Voor IMBRO/A gegevens kan de uitvoerder niet bekend zijn.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -4195,7 +4208,7 @@ van een individuele meting van het grondwatersamenstellingsonderzoek.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
                         <item>Indicatie materiële historie</item>
@@ -4216,6 +4229,10 @@ van een individuele meting van het grondwatersamenstellingsonderzoek.</item>
                      <part type="CFG-DOC-REGELS">
                         <item>Regels</item>
                         <item>De datum ligt niet vóór de datum veldonderzoek.</item>
+                     </part>
+                     <part type="CFG-DOC-REGELS-IMBROA">
+                        <item>Regels IMBRO/A</item>
+                        <item>Voor IMBRO/A gegevens kan de analysedatum niet bekend zijn.</item>
                      </part>
                      <part type="CFG-DOC-PATROON">
                         <item>Patroon</item>
@@ -4272,6 +4289,10 @@ van een individuele meting van het grondwatersamenstellingsonderzoek.</item>
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS-IMBROA">
+                        <item>Regels IMBRO/A</item>
+                        <item>Voor IMBRO/A mag de waarde ONBEKEND zijn.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Bepalingstechniek</item>
@@ -4323,9 +4344,9 @@ van een individuele meting van het grondwatersamenstellingsonderzoek.</item>
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
-                     <part type="CFG-DOC-REGELS">
-                        <item>Regels</item>
-                        <item>Het gegeven is aanwezig wanneer de waarde van het attribuut 'geaccrediteerd' gelijk is aan 'ja'. In andere gevallen mag het gegeven ontbreken.</item>
+                     <part type="CFG-DOC-REGELS-IMBROA">
+                        <item>Regels IMBRO/A</item>
+                        <item>Voor IMBRO/A mag de waarde ONBEKEND zijn.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -4386,57 +4407,6 @@ Wanneer er relevante bijzonderheden zijn opgetreden is het gegeven eenmaal per b
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>BijzonderheidBepalingsprocedure</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="geaccrediteerd"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Analyseproces_geaccrediteerd"
-                        id-global="global_attribute_Model_Analyseproces_geaccrediteerd">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>geaccrediteerd</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De aanduiding of het laboratorium geaccrediteerd is voor het uitvoeren van de bepalingsprocedure.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>IndicatieJaNee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -4660,7 +4630,7 @@ De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
                         <item>Indicatie materiële historie</item>
@@ -4677,6 +4647,10 @@ De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-REGELS-IMBROA">
+                        <item>Regels IMBRO/A</item>
+                        <item>Voor IMBRO/A gegevens kan de rapportagegrens niet bekend zijn.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -4735,7 +4709,7 @@ De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>IndicatieJaNee</item>
+                        <item>IndicatieJaNeeOnbekend</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -4790,7 +4764,7 @@ De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>IndicatieJaNee</item>
+                        <item>IndicatieJaNeeOnbekend</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -4872,7 +4846,7 @@ De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Aquocode van de laboratoriumparameter.</item>
+                        <item>De Aquocode van de laboratoriumparameter.</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
@@ -4903,7 +4877,7 @@ De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Chemical Abstracts Service nummer van de laboratoriumparameter.</item>
+                        <item>Het Chemical Abstracts Service nummer van de laboratoriumparameter.</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
@@ -5152,6 +5126,11 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017.</item>
                      <item>nta8017</item>
                      <item>Nederlandse technische afspraak NTA 8017, Monsterneming van grondwater ten behoeve van de monitoring van grondwaterkwaliteit, november 2016. Dit is een bijlage uit het Handboek Monitoring Grondwaterkwaliteit KRW provincies en RIVM.</item>
                   </part>
+                  <part>
+                     <item/>
+                     <item>onbekend</item>
+                     <item>Het gegeven is onbekend. Dit kan het geval zijn bij historische gegevens.</item>
+                  </part>
                </content>
             </section>
             <section name="BijzonderheidVeldonderzoek"
@@ -5241,6 +5220,11 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017.</item>
                      <item>peristaltische pomp</item>
                      <item>Deze pomp wordt ook wel slangenpomp genoemd.</item>
                   </part>
+                  <part>
+                     <item/>
+                     <item>onbekend</item>
+                     <item>Het gegeven is onbekend. Dit kan het geval zijn bij historische gegevens.</item>
+                  </part>
                </content>
             </section>
             <section name="Slangtype"
@@ -5267,6 +5251,11 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017.</item>
                      <item/>
                      <item>teflon</item>
                      <item>De slang is gemaakt van teflon oftewel Teflon (polytetrafluoretheen (PTFE)).</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>onbekend</item>
+                     <item>Het gegeven is onbekend. Dit kan het geval zijn bij historische gegevens.</item>
                   </part>
                   <part>
                      <item/>
