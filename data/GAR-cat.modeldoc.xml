@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.49.1"
-      generator-date="2019-02-07T13:49:23Z">
+      generator-date="2019-02-07T14:13:16Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -2960,6 +2960,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS-IMBROA">
+                        <item>Regels IMBRO/A</item>
+                        <item>Voor IMBRO/A gegevens kan de indicatie bestrijdingsmiddelen onderzocht niet bekend zijn.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>IndicatieJaNeeOnbekend</item>
@@ -3014,6 +3018,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-REGELS-IMBROA">
+                        <item>Regels IMBRO/A</item>
+                        <item>Voor IMBRO/A gegevens kan de indicatie farmaceutische stoffen onderzocht niet bekend zijn.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -3701,6 +3709,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS-IMBROA">
+                        <item>Regels IMBRO/A</item>
+                        <item>Voor IMBRO/A gegevens kan het pomptype niet bekend zijn.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Pomptype</item>
@@ -3756,6 +3768,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS-IMBROA">
+                        <item>Regels IMBRO/A</item>
+                        <item>Voor IMBRO/A gegevens kan het slangtype niet bekend zijn.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Slangtype</item>
@@ -3810,6 +3826,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-REGELS-IMBROA">
+                        <item>Regels IMBRO/A</item>
+                        <item>Voor IMBRO/A gegevens kan het feit of de slang hergebruikt is niet bekend zijn.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -4291,7 +4311,7 @@ van een individuele meting van het grondwatersamenstellingsonderzoek.</item>
                      </part>
                      <part type="CFG-DOC-REGELS-IMBROA">
                         <item>Regels IMBRO/A</item>
-                        <item>Voor IMBRO/A mag de waarde ONBEKEND zijn.</item>
+                        <item>Voor IMBRO/A gegevens kan de bepalingstechniek niet bekend zijn.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -4346,7 +4366,7 @@ van een individuele meting van het grondwatersamenstellingsonderzoek.</item>
                      </part>
                      <part type="CFG-DOC-REGELS-IMBROA">
                         <item>Regels IMBRO/A</item>
-                        <item>Voor IMBRO/A mag de waarde ONBEKEND zijn.</item>
+                        <item>Voor IMBRO/A gegevens kan de bepalingsprocedure niet bekend zijn.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -4707,6 +4727,10 @@ De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-REGELS-IMBROA">
+                        <item>Regels IMBRO/A</item>
+                        <item>Voor IMBRO/A gegevens kan het feit of het gehalte indicatief is niet bekend zijn.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>IndicatieJaNeeOnbekend</item>
@@ -4761,6 +4785,10 @@ De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-REGELS-IMBROA">
+                        <item>Regels IMBRO/A</item>
+                        <item>Voor IMBRO/A gegevens kan het feit of is voldaan aan identificatiecriteria niet bekend zijn.</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -5129,7 +5157,7 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017.</item>
                   <part>
                      <item/>
                      <item>onbekend</item>
-                     <item>Het gegeven is onbekend. Dit kan het geval zijn bij historische gegevens.</item>
+                     <item>Het gegeven is onbekend. Dit kan het geval zijn bij historische gegevens (IMBRO/A kwaliteitsregime).</item>
                   </part>
                </content>
             </section>
@@ -5223,7 +5251,7 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017.</item>
                   <part>
                      <item/>
                      <item>onbekend</item>
-                     <item>Het gegeven is onbekend. Dit kan het geval zijn bij historische gegevens.</item>
+                     <item>Het gegeven is onbekend. Dit kan het geval zijn bij historische gegevens (IMBRO/A kwaliteitsregime).</item>
                   </part>
                </content>
             </section>
@@ -5255,7 +5283,7 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017.</item>
                   <part>
                      <item/>
                      <item>onbekend</item>
-                     <item>Het gegeven is onbekend. Dit kan het geval zijn bij historische gegevens.</item>
+                     <item>Het gegeven is onbekend. Dit kan het geval zijn bij historische gegevens (IMBRO/A kwaliteitsregime).</item>
                   </part>
                   <part>
                      <item/>
@@ -5408,7 +5436,7 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017.</item>
                   <part>
                      <item/>
                      <item>Onbekend</item>
-                     <item>Er is geen beoordeling gedaan van de kwaliteit, of het is onbekend of er een beoordeling is gedaan.</item>
+                     <item>Er is geen beoordeling gedaan van de kwaliteit, of het is onbekend of er een beoordeling is gedaan (IMBRO/A kwaliteitsregime).</item>
                   </part>
                </content>
             </section>
