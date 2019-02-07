@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <domeintabel>
   <Waardebepalingsmethode>
+    <!-- toegevoegd tbv BRO -->
+    <ID></ID>
+    <Code>ONBEKEND</Code>
+    <Omschrijving>Het is onbekend welke methode is gehanteerd</Omschrijving>
+    <Groep>Algemeen niet-genormaliseerd</Groep>
+    <D_BEGIN></D_BEGIN>
+    <D_STATUS></D_STATUS>
+  </Waardebepalingsmethode>
+  <Waardebepalingsmethode>
     <ID>330</ID>
     <Code>AQUOKIT</Code>
     <Omschrijving>Met Aquo-kit berekend oordeel of toetsresultaat</Omschrijving>
