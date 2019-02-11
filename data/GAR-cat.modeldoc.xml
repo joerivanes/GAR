@@ -3,17 +3,17 @@
       subpath="Conceptual model/Grondwatersamenstellingsonderzoek (GAR)/20181119"
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
-      generator-version="1.49.1"
-      generator-date="2019-02-07T14:13:16Z">
+      generator-version="1.50.1"
+      generator-date="2019-02-11T14:16:52Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
-                  name="Domeinmodel BRO GAR - overzicht"
+                  name="Domeinmodel - overzicht"
                   id="EAID_BBDCFEE2_BB5A_4b62_99F2_796C8F526D8F">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>Domeinmodel BRO GAR - overzicht</item>
+                  <item>Domeinmodel - overzicht</item>
                </part>
                <part type="CFG-DOC-DESCRIPTION">
                   <item>Omschrijving</item>
@@ -201,17 +201,11 @@
                   </part>
                   <part type="COMPOSER">
                      <item>
-                        <value>
-                           <item type="detail" idref="detail_class_Model_Registratiegeschiedenis">registratiegeschiedenis</item>
-                        </value>
+                        <item type="detail" idref="detail_class_Model_Registratiegeschiedenis">registratiegeschiedenis</item>
                      </item>
-                     <item>
-                        <value>De gegevens die de geschiedenis van het object in de registratie ondergrond markeren.</value>
-                     </item>
+                     <item>De gegevens die de geschiedenis van het object in de registratie ondergrond markeren.</item>
                      <item/>
-                     <item>
-                        <value>1</value>
-                     </item>
+                     <item>1</item>
                   </part>
                   <part type="COMPOSED">
                      <item>
@@ -347,17 +341,11 @@
                   </part>
                   <part type="COMPOSER">
                      <item>
-                        <value>
-                           <item type="detail" idref="detail_class_Model_GMWBuisverwijzing">bemonsteringspunt</item>
-                        </value>
+                        <item type="detail" idref="detail_class_Model_GMWBuisverwijzing">bemonsteringspunt</item>
                      </item>
-                     <item>
-                        <value>De gegevens die nodig zijn voor een verwijzing naar een specifieke buis in een grondwatermonitoringput.</value>
-                     </item>
+                     <item>De gegevens die nodig zijn voor een verwijzing naar een specifieke buis in een grondwatermonitoringput.</item>
                      <item/>
-                     <item>
-                        <value>1</value>
-                     </item>
+                     <item>1</item>
                   </part>
                   <part type="COMPOSED">
                      <item>
@@ -5127,6 +5115,11 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017.</item>
                      <item>Oordeel deskundige</item>
                      <item>De beoordeling is gedaan door een expert, niet volgens een expliciet protocol of werkvoorschrift.</item>
                   </part>
+                  <part>
+                     <item/>
+                     <item>Onbekend</item>
+                     <item>Het is onbekend volgens welke procedure de beoordeling is gedaan (IMBRO/A kwaliteitsregime).</item>
+                  </part>
                </content>
             </section>
             <section name="Bemonsteringsprocedure"
@@ -5282,13 +5275,13 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017.</item>
                   </part>
                   <part>
                      <item/>
-                     <item>onbekend</item>
-                     <item>Het gegeven is onbekend. Dit kan het geval zijn bij historische gegevens (IMBRO/A kwaliteitsregime).</item>
+                     <item>polypropyleen</item>
+                     <item>De slang is gemaakt van polypropyleen (PP).</item>
                   </part>
                   <part>
                      <item/>
-                     <item>polypropyleen</item>
-                     <item>De slang is gemaakt van polypropyleen (PP).</item>
+                     <item>onbekend</item>
+                     <item>Het gegeven is onbekend. Dit kan het geval zijn bij historische gegevens (IMBRO/A kwaliteitsregime).</item>
                   </part>
                </content>
             </section>
@@ -5421,17 +5414,17 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017.</item>
                   <part>
                      <item/>
                      <item>Goedgekeurd</item>
-                     <item>Er is geen reden om aan de juistheid van dit gegeven te twijfelen.</item>
+                     <item>Er is geen reden om aan de juistheid van dit gegeven te twijfelen op basis is van de gehanteerde beoordelingsprocedure.</item>
                   </part>
                   <part>
                      <item/>
-                     <item>Twijfelachtig</item>
+                     <item>Onbeslist</item>
                      <item>Er zijn op basis is van de gehanteerde beoordelingsprocedure twijfels over de juistheid van dit gegeven, maar uitsluitsel kon niet gegeven worden.</item>
                   </part>
                   <part>
                      <item/>
                      <item>Afgekeurd</item>
-                     <item>Er is reden om dit gegeven als onjuist te beschouwen. De waarde kon niet geverifieerd worden.</item>
+                     <item>Er is reden om dit gegeven als onjuist te beschouwen. De waarde kon niet geverifieerd worden op basis is van de gehanteerde beoordelingsprocedure.</item>
                   </part>
                   <part>
                      <item/>
@@ -5497,7 +5490,7 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017.</item>
                   <part>
                      <item/>
                      <item>onbekend</item>
-                     <item>Onbekend</item>
+                     <item>Onbekend (IMBRO/A kwaliteitsregime).</item>
                   </part>
                </content>
             </section>
@@ -5519,12 +5512,12 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017.</item>
                   <part>
                      <item/>
                      <item>IMBRO</item>
-                     <item>De strikte kwaliteitseis die na beï¿½indiging van de transitieperiode geldt voor alle objecten die nadien geregistreerd zijn.</item>
+                     <item>De strikte kwaliteitseis die na beëindiging van de transitieperiode geldt voor alle objecten die nadien geregistreerd zijn.</item>
                   </part>
                   <part>
                      <item/>
                      <item>IMBRO/A</item>
-                     <item>De minder strikte kwaliteitseis die tot beï¿½indiging van de transitieperiode gebruikt kan zijn.</item>
+                     <item>De minder strikte kwaliteitseis die tot beëindiging van de transitieperiode gebruikt kan zijn.</item>
                   </part>
                </content>
             </section>
