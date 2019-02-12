@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.50.1"
-      generator-date="2019-02-11T14:16:52Z">
+      generator-date="2019-02-12T12:32:37Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -5146,6 +5146,11 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017.</item>
                      <item/>
                      <item>nta8017</item>
                      <item>Nederlandse technische afspraak NTA 8017, Monsterneming van grondwater ten behoeve van de monitoring van grondwaterkwaliteit, november 2016. Dit is een bijlage uit het Handboek Monitoring Grondwaterkwaliteit KRW provincies en RIVM.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>SIKBProtocol2002</item>
+                     <item>Protocol 2002, Het nemen van grondwatermonsters, versie 6.0, februari 2018. Dit protocol is onderdeel van SIKB 2000 (certificatieschema of accreditatieschema) dat van toepassing is op het nemen van grondwatermonsters bij milieuhygiënisch bodemonderzoek.</item>
                   </part>
                   <part>
                      <item/>
