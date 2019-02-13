@@ -3,8 +3,8 @@
       subpath="Conceptual model/Grondwatersamenstellingsonderzoek (GAR)/20181119"
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
-      generator-version="1.50.1"
-      generator-date="2019-02-12T12:32:37Z">
+      generator-version="1.49.1"
+      generator-date="2019-02-13T07:37:53Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -201,11 +201,17 @@
                   </part>
                   <part type="COMPOSER">
                      <item>
-                        <item type="detail" idref="detail_class_Model_Registratiegeschiedenis">registratiegeschiedenis</item>
+                        <value>
+                           <item type="detail" idref="detail_class_Model_Registratiegeschiedenis">registratiegeschiedenis</item>
+                        </value>
                      </item>
-                     <item>De gegevens die de geschiedenis van het object in de registratie ondergrond markeren.</item>
+                     <item>
+                        <value>De gegevens die de geschiedenis van het object in de registratie ondergrond markeren.</value>
+                     </item>
                      <item/>
-                     <item>1</item>
+                     <item>
+                        <value>1</value>
+                     </item>
                   </part>
                   <part type="COMPOSED">
                      <item>
@@ -341,11 +347,17 @@
                   </part>
                   <part type="COMPOSER">
                      <item>
-                        <item type="detail" idref="detail_class_Model_GMWBuisverwijzing">bemonsteringspunt</item>
+                        <value>
+                           <item type="detail" idref="detail_class_Model_GMWBuisverwijzing">bemonsteringspunt</item>
+                        </value>
                      </item>
-                     <item>De gegevens die nodig zijn voor een verwijzing naar een specifieke buis in een grondwatermonitoringput.</item>
+                     <item>
+                        <value>De gegevens die nodig zijn voor een verwijzing naar een specifieke buis in een grondwatermonitoringput.</value>
+                     </item>
                      <item/>
-                     <item>1</item>
+                     <item>
+                        <value>1</value>
+                     </item>
                   </part>
                   <part type="COMPOSED">
                      <item>
@@ -924,7 +936,7 @@
                      </item>
                      <item>De aanduiding die aangeeft of de parameter in het grondwater in de put bepaald is, dan wel in het opgepompte grondwater.</item>
                      <item>
-                        <item type="global" idref="global_class_Model_IndicatieJaNee">IndicatieJaNee</item>
+                        <item type="global" idref="global_class_Model_IndicatieJaNeeOnbekend">IndicatieJaNeeOnbekend</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -3991,7 +4003,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>IndicatieJaNee</item>
+                        <item>IndicatieJaNeeOnbekend</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
