@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.51.1"
-      generator-date="2019-02-19T18:56:27Z">
+      generator-date="2019-02-21T15:06:10Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN" name="Model" id="global_package_Model">
          <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
@@ -921,11 +921,11 @@
                      <part>
                         <item>
                            <item type="detail"
-                                 idref="detail_attribute_Model_ResultaatVeldmetingen_inSitu">in situ</item>
+                                 idref="detail_attribute_Model_ResultaatVeldmetingen_plaatsVeldmeting">plaats veldmeting</item>
                         </item>
-                        <item>De aanduiding die aangeeft of de parameter in het grondwater in de put bepaald is, dan wel in het opgepompte grondwater.</item>
+                        <item>De aanduiding die aangeeft of de parameter in het grondwater op filterdiepte bepaald is, dan wel in het opgepompte grondwater in de doorstroomcel.</item>
                         <item>
-                           <item type="global" idref="global_class_Model_IndicatieJaNeeOnbekend">IndicatieJaNeeOnbekend</item>
+                           <item type="global" idref="global_class_Model_PlaatsVeldmeting">PlaatsVeldmeting</item>
                         </item>
                         <item>1</item>
                      </part>
@@ -1706,6 +1706,18 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <item>De lijst van mogelijke soorten slangen die worden gebruikt bij het oppompen van grondwater.</item>
                </part>
                <part>
+                  <item id="global_class_Model_PlaatsVeldmeting"
+                        uuid="EAID_7F273A8C_8D46_40c2_8C88_23079EF139DC"
+                        idref="detail_class_Model_PlaatsVeldmeting">PlaatsVeldmeting</item>
+                  <item>De lijst van de mogelijke plaats waar, in het veld, de meting is gedaan.</item>
+               </part>
+               <part>
+                  <item id="global_class_Model_StatusKwaliteitscontrole"
+                        uuid="EAID_8A624512_B367_4f10_865A_A0FB2BD674E7"
+                        idref="detail_class_Model_StatusKwaliteitscontrole">StatusKwaliteitscontrole</item>
+                  <item>De lijst van de mogelijke uitkomsten van het eindoordeel van de bronhouder over de betrouwbaarheid van individuele metingen.</item>
+               </part>
+               <part>
                   <item id="global_class_Model_Bepalingstechniek"
                         uuid="EAID_252793A3_4ADD_44fd_B0CF_CDE66BE8E25D"
                         idref="detail_class_Model_Bepalingstechniek">Bepalingstechniek</item>
@@ -1722,12 +1734,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         uuid="EAID_5F2B46A4_2D63_4758_8807_1990D86B52A9"
                         idref="detail_class_Model_BijzonderheidBepalingsprocedure">BijzonderheidBepalingsprocedure</item>
                   <item>De ljist van bijzonderheden c.q. afwijkingen ten opzichte van de gehanteerde bepalingsprocedure, die zich kunnen voordoen tijdens het analyseproces.</item>
-               </part>
-               <part>
-                  <item id="global_class_Model_StatusKwaliteitscontrole"
-                        uuid="EAID_8A624512_B367_4f10_865A_A0FB2BD674E7"
-                        idref="detail_class_Model_StatusKwaliteitscontrole">StatusKwaliteitscontrole</item>
-                  <item>De lijst van de mogelijke uitkomsten van het eindoordeel van de bronhouder over de betrouwbaarheid van individuele metingen.</item>
                </part>
             </content>
          </section>
@@ -3949,14 +3955,14 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </part>
                      </content>
                   </section>
-                  <section name="in situ"
+                  <section name="plaats veldmeting"
                            type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_ResultaatVeldmetingen_inSitu"
-                           id-global="global_attribute_Model_ResultaatVeldmetingen_inSitu">
+                           id="detail_attribute_Model_ResultaatVeldmetingen_plaatsVeldmeting"
+                           id-global="global_attribute_Model_ResultaatVeldmetingen_plaatsVeldmeting">
                      <content>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
-                           <item>in situ</item>
+                           <item>plaats veldmeting</item>
                         </part>
                         <part type="CFG-DOC-HERKOMST">
                            <item>Herkomst</item>
@@ -3964,7 +3970,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </part>
                         <part type="CFG-DOC-DEFINITIE">
                            <item>Definitie</item>
-                           <item>De aanduiding die aangeeft of de parameter in het grondwater in de put bepaald is, dan wel in het opgepompte grondwater.</item>
+                           <item>De aanduiding die aangeeft of de parameter in het grondwater op filterdiepte bepaald is, dan wel in het opgepompte grondwater in de doorstroomcel.</item>
                         </part>
                         <part type="CFG-DOC-HERKOMSTDEFINITIE">
                            <item>Herkomst definitie</item>
@@ -3992,7 +3998,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
-                           <item>IndicatieJaNeeOnbekend</item>
+                           <item>PlaatsVeldmeting</item>
                         </part>
                         <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                            <item>Indicatie afleidbaar</item>
@@ -5295,6 +5301,76 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017.</item>
                </part>
             </content>
          </section>
+         <section name="PlaatsVeldmeting"
+                  type="DETAIL-CODELIST"
+                  id="detail_class_Model_PlaatsVeldmeting"
+                  id-global="global_class_Model_PlaatsVeldmeting"
+                  uuid="EAID_7F273A8C_8D46_40c2_8C88_23079EF139DC">
+            <content>
+               <part>
+                  <item>Definitie</item>
+                  <item>De lijst van de mogelijke plaats waar, in het veld, de meting is gedaan.</item>
+               </part>
+            </content>
+            <content>
+               <itemtype type="CODE"/>
+               <itemtype type="NAME"/>
+               <itemtype type="DEFINITION"/>
+               <part>
+                  <item/>
+                  <item>inDoorstroomcel</item>
+                  <item>De parameter is in het veld gemeten in de doorstroomcel, in het opgepompte grondwater.</item>
+               </part>
+               <part>
+                  <item/>
+                  <item>opFilterdiepte</item>
+                  <item>De parameter is in het veld gemeten op filterdiepte, i.e.
+onderin de peilbuis.</item>
+               </part>
+               <part>
+                  <item/>
+                  <item>onbekend</item>
+                  <item>Het gegeven is onbekend. Dit kan het geval zijn bij historische gegevens (IMBRO/A kwaliteitsregime).</item>
+               </part>
+            </content>
+         </section>
+         <section name="StatusKwaliteitscontrole"
+                  type="DETAIL-CODELIST"
+                  id="detail_class_Model_StatusKwaliteitscontrole"
+                  id-global="global_class_Model_StatusKwaliteitscontrole"
+                  uuid="EAID_8A624512_B367_4f10_865A_A0FB2BD674E7">
+            <content>
+               <part>
+                  <item>Definitie</item>
+                  <item>De lijst van de mogelijke uitkomsten van het eindoordeel van de bronhouder over de betrouwbaarheid van individuele metingen.</item>
+               </part>
+            </content>
+            <content>
+               <itemtype type="CODE"/>
+               <itemtype type="NAME"/>
+               <itemtype type="DEFINITION"/>
+               <part>
+                  <item/>
+                  <item>Goedgekeurd</item>
+                  <item>Er is geen reden om aan de juistheid van dit gegeven te twijfelen op basis is van de gehanteerde beoordelingsprocedure.</item>
+               </part>
+               <part>
+                  <item/>
+                  <item>Onbeslist</item>
+                  <item>Er zijn op basis is van de gehanteerde beoordelingsprocedure twijfels over de juistheid van dit gegeven, maar uitsluitsel kon niet gegeven worden.</item>
+               </part>
+               <part>
+                  <item/>
+                  <item>Afgekeurd</item>
+                  <item>Er is reden om dit gegeven als onjuist te beschouwen. De waarde kon niet geverifieerd worden op basis is van de gehanteerde beoordelingsprocedure.</item>
+               </part>
+               <part>
+                  <item/>
+                  <item>Onbekend</item>
+                  <item>Er is geen beoordeling gedaan van de kwaliteit, of het is onbekend of er een beoordeling is gedaan (IMBRO/A kwaliteitsregime).</item>
+               </part>
+            </content>
+         </section>
          <section name="Bepalingstechniek"
                   type="DETAIL-CODELIST"
                   id="detail_class_Model_Bepalingstechniek"
@@ -5312,452 +5388,452 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017.</item>
                <itemtype type="DEFINITION"/>
                <part>
                   <item/>
-                  <item>ONBEKEND</item>
+                  <item>Het is onbekend welke techniek is gebruikt. Dit kan het geval zijn bij historische gegevens (IMBRO/A kwaliteitsregime).</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>AA</item>
+                  <item>Autoanalyser</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>AA-FOTM</item>
+                  <item>Autoanalyser - fotometrie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>AAS</item>
+                  <item>Atomaire absorptie spectrometrie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>AAS-F</item>
+                  <item>Atomaire absorptie spectrometrie - flame</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>AAS-GF</item>
+                  <item>Atomaire absorptie spectrometrie - grafietoven</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>AAS-HG</item>
+                  <item>Atomaire absorptie spectrometrie - hydride generatie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>AAS-KD</item>
+                  <item>Atomaire absorptie spectrometrie - koude-damptechniek</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>AERO</item>
+                  <item>Aerometrie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>AES-F</item>
+                  <item>Atomaire emissie spectrometrie - vlam</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>AES-KD</item>
+                  <item>Atomaire emissie spectrometrie - koude-damptechniek</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>AF</item>
+                  <item>Atomaire fluorescentie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>AF-KD</item>
+                  <item>Atomaire fluorescentie - koude-damptechniek</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>BACT</item>
+                  <item>Bacteriologie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>CALO</item>
+                  <item>Calorimetrie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>COND</item>
+                  <item>Conductometrie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>COUL</item>
+                  <item>Coulometrie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>CUVT</item>
+                  <item>Cuvettentest</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>DA</item>
+                  <item>Discreetanalyser</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>DA-S</item>
+                  <item>Discreetanalyser - spectrometrie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>ELCH</item>
+                  <item>Electrochemie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>ELMSR</item>
+                  <item>Electromagnetische sensor</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>FL</item>
+                  <item>Fluorescentie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>FOTM</item>
+                  <item>Fotometrie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>GAMMAS</item>
+                  <item>Gammaspectrometrie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>GC</item>
+                  <item>Gaschromatografie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>GC-ECD</item>
+                  <item>Gaschromatografie - electron capture detector</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>GC-ECD/ECD</item>
+                  <item>Gaschromatografie - electron capture detector / el.capt.det.</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>GC-ECD/MS</item>
+                  <item>Gaschromatografie - electron capture detector / massaspect.</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>GC-FID</item>
+                  <item>Gaschromatografie - flame ionisation detector</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>GC-FID/ECD</item>
+                  <item>Gaschromatografie - flame ionisation detector / el.capt.det.</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>GC-FID/IR</item>
+                  <item>Gaschromatografie - flame ionisation detector / infrarood</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>GC-FPD</item>
+                  <item>Gaschromatografie - flame photometric detector</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>GC-HRMS</item>
+                  <item>Gaschromatografie - hoge resolutie massaspectrometrie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>GC-LRMS</item>
+                  <item>Gaschromatografie - lage resolutie massaspectrometrie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>GC-MS</item>
+                  <item>Gaschromatografie - massaspectrometrie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>GC-MS-HS</item>
+                  <item>Gaschromatografie - massaspectrometrie - headspace</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>GC-MS-LV-PTV</item>
+                  <item>Gaschromatografie - massaspectrometrie - groot volume - PTV</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>GC-MS-MS</item>
+                  <item>Gaschromatografie - massaspectrometrie - massaspectrometrie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>GC-MS-PT</item>
+                  <item>Gaschromatografie - massaspectrometrie - purge-and-trap</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>GC-MS-PTV</item>
+                  <item>Gaschromatografie - massaspectrometrie - PTV</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>GC-MS-TD</item>
+                  <item>Gaschromatografie - massaspectrometrie - thermal desorption</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>GC-NPD</item>
+                  <item>Gaschromatografie - stikstof-fosfor detector</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>GENEPSLCFRSE</item>
+                  <item>Genexpressie - luciferase</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>GRAV</item>
+                  <item>Gravimetrie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>HPLC</item>
+                  <item>Hoge druk vloeistofchromatografie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>HPLC-APCI-MS</item>
+                  <item>Hoge druk vloeistofchromatografie - atm.press.chem.ion. - MS</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>HPLC-DAD</item>
+                  <item>Hoge druk vloeistofchromatografie - diode array detector</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>HPLC-FL</item>
+                  <item>Hoge druk vloeistofchromatografie - fluorescentiedetector</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>HPLC-MS-ESI</item>
+                  <item>Hoge druk vloeistofchromatografie - electrospray - massasp.</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>HPLC-UV</item>
+                  <item>Hoge druk vloeistofchromatografie - UV-detector</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>HPLC-UV-FL</item>
+                  <item>Hoge druk vloeistofchromatografie - UV- en fluoresc.detector</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>IC</item>
+                  <item>Ionchromatografie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>ICP-AES</item>
+                  <item>Inductie gekoppeld plasma - atomaire emissie spectrometrie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>ICP-HRMS</item>
+                  <item>Inductie gekoppeld plasma - hoge resolutie massaspect.</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>ICP-MS</item>
+                  <item>Inductie gekoppeld plasma - massaspectrometrie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>IR</item>
+                  <item>Infrarooddetectie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>IR-FT</item>
+                  <item>Infrarood - fourier transmission</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>JODM</item>
+                  <item>Jodometrie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>LC-FL</item>
+                  <item>Vloeistofchromatografie - fluorescentie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>LC-GC-MS</item>
+                  <item>Vloeistofchromatografie - gaschromatografie - massaspect.</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>LC-MS</item>
+                  <item>Vloeistofchromatografie - massaspectrometrie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>LC-MS-MS</item>
+                  <item>Vloeistofchromatografie - massaspectrometrie - massaspect.</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>LC-TQMS</item>
+                  <item>Vloeistofchromatografie - tandem quadrupool massaspect.</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>LDO</item>
+                  <item>Luminescentie opgelost zuurstof sensor</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>LSC</item>
+                  <item>vloeistofscintillatie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>MEMBF</item>
+                  <item>Membraanfiltratie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>MICCOUL</item>
+                  <item>Microcoulometrie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>MICCOUL-PT</item>
+                  <item>Microcoulometrie - purge-and-trap</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>MICSCOP</item>
+                  <item>Microscopie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>MICTTPT</item>
+                  <item>Microtiter-plaat</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>NEFLMTE</item>
+                  <item>Nefelometrie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>ORGNLTSCH</item>
+                  <item>Organoleptisch</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>POTM</item>
+                  <item>Potentiometrie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>POTM_TITM</item>
+                  <item>Potentiometrische titratie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RADOMT-BWHH</item>
+                  <item>Radiometrie, boven water - hand-held</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RADOMT-BWHHG</item>
+                  <item>Radiometrie, boven water - hand-held met gyroscoop</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RADOMT-BWVO</item>
+                  <item>Radiometrie, boven water - vaste opstelling</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RONTGDF</item>
+                  <item>Röntgendiffractie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RONTGTM</item>
+                  <item>Röntgentransmissie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RONTGTM_GRAV</item>
+                  <item>Röntgentransmissie en gravimetrie (met zeef)</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>SEDI</item>
+                  <item>Sedigraaf</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>STER/POLMIC</item>
+                  <item>Stereo- en polarisatiemicrosopie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>THERMG</item>
+                  <item>Thermografie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>THERMM</item>
+                  <item>Thermometrie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>TITM</item>
+                  <item>Titrimetrie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>UV/VIS</item>
+                  <item>Spectrofotometrie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>VISL</item>
+                  <item>Visueel</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>VOL</item>
+                  <item>Volumetrie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>qPCR</item>
+                  <item>Kwantitatieve polymerase-kettingreactie</item>
                   <item/>
                </part>
             </content>
@@ -5779,2367 +5855,2367 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017.</item>
                <itemtype type="DEFINITION"/>
                <part>
                   <item/>
-                  <item>ONBEKEND</item>
+                  <item>Het is onbekend welke methode is gehanteerd. Dit kan het geval zijn bij historische gegevens (IMBRO/A kwaliteitsregime).</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>AQUOKIT</item>
+                  <item>Met Aquo-kit berekend oordeel of toetsresultaat</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>AUTOMATISCH</item>
+                  <item>Niet genormaliseerde automatische waardebepaling</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>BLAUWAP:2012</item>
+                  <item>Blauwalgenprotocol 2012</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>CIW</item>
+                  <item>Bepaling klasse (1-5) volgens CIW-methodiek</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>D1485.96</item>
+                  <item>DIN EN 1485:1996-11</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>D38405-26.89</item>
+                  <item>DIN 38405-26:1989-04</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>D38405-27.92</item>
+                  <item>DIN 38405-27:1992-07</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>D38406-29.99</item>
+                  <item>DIN 38406-29:1999-05</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>D38407-30.07</item>
+                  <item>DIN 38407-30:2007-12</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>D38407-42.11</item>
+                  <item>DIN 38407-42:2011-03</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>D38409-23.10</item>
+                  <item>DIN 38409-23:2010-12</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>D4030-2.08</item>
+                  <item>DIN 4030-2:2008-06</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>D51577-1.82</item>
+                  <item>DIN 51577-1:1982-11</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>DESK</item>
+                  <item>Bepaling klasse door deskundige</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>EBEO</item>
+                  <item>Bepaling waarde / EBEO-klasse (1-5) volgens EBEO-systematiek</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>EPA8270CD</item>
+                  <item>US EPA Method 8270D/8270C</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>GWPROTEU.13</item>
+                  <item>Oordeel deskundige o.b.v. protocol toetsen grondw. 2013 EU</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>GWPROTNL.13</item>
+                  <item>Oordeel deskundige o.b.v. protocol toetsen grondw. 2013 NL</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>HH-W10B:2010</item>
+                  <item>HH-10B Analyse van zoöplankton voor EBeo</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>HH-W11A:2010</item>
+                  <item>HH-11A Inventarisatie van vegetatie</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>HH-W12B:2010</item>
+                  <item>HH-12B Analyse van macrofauna</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>HH-W13A:2010</item>
+                  <item>HH-13A Bestandsopname van vis voor de KRW</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>HH-W7B:2010</item>
+                  <item>HH-7B Analyse van fytoplankton in oppervlaktewater</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>HH-W8B:2010</item>
+                  <item>HH-8B Analyse van sieralgen in opp.w. met een omkeermicrosc.</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>HH-W8C:2010</item>
+                  <item>HH-8C Analyse van sieralgen in opp.w. met staande microsc.</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>HH-W9B:2010</item>
+                  <item>HH-9B Analyse van kiezelwieren in oppervlaktewater</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I10048.91</item>
+                  <item>ISO 10048:1991 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I10260.92</item>
+                  <item>ISO 10260:1992 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I10301.97</item>
+                  <item>NEN-EN-ISO 10301:1997 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I10304-1.09</item>
+                  <item>NEN-EN-ISO 10304-1:2009 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I10304-1.95</item>
+                  <item>NEN-EN-ISO 10304-1:1995 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I10304-2.96</item>
+                  <item>NEN-EN-ISO 10304-2:1996 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I10304-3.97</item>
+                  <item>NEN-EN-ISO 10304-3:1997 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I10304-4.99</item>
+                  <item>NEN-EN-ISO 10304-4:1999 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I10359-1.92</item>
+                  <item>ISO 10359-1:1992 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I10359-2.94</item>
+                  <item>ISO 10359-2:1994 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I10382.03</item>
+                  <item>NEN-ISO 10382:2003 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I10523.08</item>
+                  <item>NEN-ISO 10523:2008 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I10523.12</item>
+                  <item>NEN-EN-ISO 10523:2012 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I10523.94</item>
+                  <item>ISO 10523:1994 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I10530.92</item>
+                  <item>ISO 10530:1992 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I10566.94</item>
+                  <item>ISO 10566:1994 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I10695.00</item>
+                  <item>NEN-EN-ISO 10695:2000 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I10704.12</item>
+                  <item>NEN-ISO 10704:2012 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I11083.06</item>
+                  <item>NEN-ISO 11083:2006 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I11083.94</item>
+                  <item>ISO 11083:1994 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I11369.97</item>
+                  <item>NEN-EN-ISO 11369:1997 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I11423-1.97</item>
+                  <item>ISO 11423-1:1997 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I11423-2.97</item>
+                  <item>ISO 11423-2:1997 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I11731-2.08</item>
+                  <item>NEN-EN-ISO 11731-2:2008 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I11731.98</item>
+                  <item>ISO 11731:1998 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I11732.05</item>
+                  <item>NEN-EN-ISO 11732:2005 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I11885.07</item>
+                  <item>ISO 11885:2007 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I11885.98</item>
+                  <item>NEN-EN-ISO 11885:1998 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I11905-1.98</item>
+                  <item>NEN-EN-ISO 11905-1:1998 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I11923.97</item>
+                  <item>ISO 11923:1997 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I11969.97</item>
+                  <item>NEN-EN-ISO 11969:1997 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I12010.14</item>
+                  <item>NEN-EN-ISO 12010:2014 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I12020.00</item>
+                  <item>NEN-EN-ISO 12020:2000 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I12846.12</item>
+                  <item>NEN-EN-ISO 12846:2012 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I13358.97</item>
+                  <item>ISO 13358:1997 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I13395.97</item>
+                  <item>NEN-EN-ISO 13395:1997 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I14402.99</item>
+                  <item>NEN-EN-ISO 14402:1999 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I14403-2.09</item>
+                  <item>NEN-EN-ISO 14403-2:2009 Ontw. en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I14403-2.12</item>
+                  <item>NEN-EN-ISO 14403-2:2012 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I14403.02</item>
+                  <item>NEN-EN-ISO 14403:2002 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I14911.99</item>
+                  <item>NEN-EN-ISO 14911:1999 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I15061.01</item>
+                  <item>NEN-EN-ISO 15061:2001 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I15089.00</item>
+                  <item>ISO 15089:2000 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I15586.03</item>
+                  <item>NEN-EN-ISO 15586:2003 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I15587-1.02</item>
+                  <item>NEN-EN-ISO 15587-1:2002 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I15587-2.02</item>
+                  <item>NEN-EN-ISO 15587-2:2002 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I15680.03</item>
+                  <item>NEN-EN-ISO 15680:2003 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I15681-1.05</item>
+                  <item>NEN-EN-ISO 15681-1:2005 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I15681-2.05</item>
+                  <item>NEN-EN-ISO 15681-2:2005 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I15682.01</item>
+                  <item>NEN-EN-ISO 15682:2001 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I15705.03</item>
+                  <item>NEN-ISO 15705:2003 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I15913.03</item>
+                  <item>NEN-EN-ISO 15913:2003 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I15923-1.13</item>
+                  <item>NEN-ISO 15923-1:2013 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I16264.02</item>
+                  <item>ISO 16264:2002 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I16264.04</item>
+                  <item>NEN-EN-ISO 16264:2004 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I16588.03</item>
+                  <item>NEN-EN-ISO 16588:2003 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I16590.00</item>
+                  <item>ISO 16590:2000 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I17294-1.06</item>
+                  <item>NEN-EN-ISO 17294-1:2006 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I17294-2.04</item>
+                  <item>NEN-EN-ISO 17294-2:2004 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I17294-2.16</item>
+                  <item>NEN-EN-ISO 17294-2:2016 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I17353.05</item>
+                  <item>NEN-EN-ISO 17353:2005 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I17380.06</item>
+                  <item>NEN-ISO 17380:2006 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I17495.03</item>
+                  <item>NEN-EN-ISO 17495:2003 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I17852.06</item>
+                  <item>ISO 17852:2006 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I17852.08</item>
+                  <item>NEN-EN-ISO 17852:2008 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I17858.07</item>
+                  <item>ISO 17858:2007 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I17993.04</item>
+                  <item>NEN-EN-ISO 17993:2004 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I18073.04</item>
+                  <item>NEN-ISO 18073:2004 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I18412.06</item>
+                  <item>NEN-EN-ISO 18412:2006 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I18856.05</item>
+                  <item>NEN-EN-ISO 18856:2005 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I18857-1.06</item>
+                  <item>NEN-EN-ISO 18857-1:2006 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I20179.05</item>
+                  <item>NEN-ISO 20179:2005 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I22032.06</item>
+                  <item>ISO 22032:2006 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I22155.05</item>
+                  <item>NEN-ISO 22155:2005 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I22478.06</item>
+                  <item>NEN-EN-ISO 22478:2006 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I22743.06</item>
+                  <item>NEN-ISO 22743:2006 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I23631.06</item>
+                  <item>NEN-EN-ISO 23631:2006 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I23913.06</item>
+                  <item>NEN-ISO 23913:2006 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I25101.09</item>
+                  <item>ISO 25101:2009 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I5663.93</item>
+                  <item>NEN-ISO 5663:1993 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I5664.04</item>
+                  <item>NEN-ISO 5664:2004 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I5666.99</item>
+                  <item>ISO 5666:1999 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I5667-1.94</item>
+                  <item>NEN-ISO 5667-1:1994 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I5667-11.09</item>
+                  <item>ISO 5667-11:2009 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I5667-11.93</item>
+                  <item>ISO 5667-11:1993 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I5667-2.93</item>
+                  <item>NEN-ISO 5667-2:1993 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I5667-3.12</item>
+                  <item>NEN-EN-ISO 5667-3:2012 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I5813.93</item>
+                  <item>NEN-ISO 5813:1993 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I5814.93</item>
+                  <item>NEN-ISO 5814:1993 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I5815-1.03</item>
+                  <item>ISO 5815-1:2003 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I5815-2.03</item>
+                  <item>ISO 5815-2:2003 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I5961.95</item>
+                  <item>NEN-EN-ISO 5961:1995 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I6058.84</item>
+                  <item>ISO 6058:1984 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I6059.05</item>
+                  <item>NEN-ISO 6059:2005 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I6060.89</item>
+                  <item>ISO 6060:1989 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I6332.04</item>
+                  <item>NEN-ISO 6332:2004 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I6333.88</item>
+                  <item>NEN-ISO 6333:1988 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I6340.93</item>
+                  <item>NEN-ISO 6340:1993 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I6439.90</item>
+                  <item>ISO 6439:1990 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I6468.97</item>
+                  <item>NEN-EN-ISO 6468:1997 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I6595.93</item>
+                  <item>NEN-EN-ISO 6595:1993 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I6703-1.84</item>
+                  <item>ISO 6703-1:1984 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I6703-2.84</item>
+                  <item>ISO 6703-2:1984 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I6703-3.84</item>
+                  <item>ISO 6703-3:1984 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I6777.93</item>
+                  <item>NEN-ISO 6777:1993 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I6778.84</item>
+                  <item>ISO 6778:1984 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I6878.04</item>
+                  <item>NEN-EN-ISO 6878:2004 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I7027.00</item>
+                  <item>NEN-EN-ISO 7027:2000 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I7027.16</item>
+                  <item>NEN-EN-ISO 7027-1:2016 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I7027.94</item>
+                  <item>NEN-ISO 7027:1994 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I7150-1.02</item>
+                  <item>NEN-ISO 7150-1:2002 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I7393-1.00</item>
+                  <item>NEN-EN-ISO 7393-1:2000 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I7393-2.00</item>
+                  <item>NEN-EN-ISO 7393-2:2000 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I7393-3.00</item>
+                  <item>NEN-EN-ISO 7393-3:2000 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I7875-1.96</item>
+                  <item>ISO 7875-1:1996 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I7875-2.84</item>
+                  <item>ISO 7875-2:1984 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I7887.12</item>
+                  <item>NEN-EN-ISO 7887:2012 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I7887.94</item>
+                  <item>NEN-EN-ISO 7887:1994 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I7888.94</item>
+                  <item>NEN-ISO 7888:1994 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I7890-3.99</item>
+                  <item>NEN-ISO 7890-3:1999 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I7899-1.98</item>
+                  <item>NEN-EN-ISO 7899-1:1998 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I7980.00</item>
+                  <item>NEN-EN-ISO 7980:2000 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I7981-1.05</item>
+                  <item>NEN-ISO 7981-1:2005 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I7981-2.05</item>
+                  <item>NEN-ISO 7981-2:2005 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I8165-1.92</item>
+                  <item>ISO 8165-1:1992 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I8165-2.99</item>
+                  <item>ISO 8165-2:1999 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I8245.99</item>
+                  <item>ISO 8245:1999 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I8288.86</item>
+                  <item>ISO 8288:1986 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I8467.95</item>
+                  <item>NEN-EN-ISO 8467:1995 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I9174.98</item>
+                  <item>ISO 9174:1998 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I9297.89</item>
+                  <item>ISO 9297:1989 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I9308-3.99</item>
+                  <item>NEN-EN-ISO 9308-3:1999 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I9377-1.00</item>
+                  <item>NEN-EN-ISO 9377-1:2000 Ontw. en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I9377-2.00</item>
+                  <item>NEN-EN-ISO 9377-2:2000 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I9377-4.99</item>
+                  <item>NEN-EN-ISO 9377-4:1999 Ontw. en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I9390.90</item>
+                  <item>ISO 9390:1990 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I9562.04</item>
+                  <item>NEN-EN-ISO 9562:2004 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I9697.92</item>
+                  <item>ISO 9697:1992 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I9698.89</item>
+                  <item>ISO 9698:1989 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I9963-1.94</item>
+                  <item>ISO 9963-1:1994 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I9963-1.96</item>
+                  <item>NEN-EN-ISO 9963-1:1996 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I9963-2.94</item>
+                  <item>ISO 9963-2:1994 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I9963-2.96</item>
+                  <item>NEN-EN-ISO 9963-2:1996 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I9964-1.93</item>
+                  <item>ISO 9964-1:1993 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I9964-2.93</item>
+                  <item>ISO 9964-2:1993 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I9964-3.93</item>
+                  <item>ISO 9964-3:1993 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>I9965.93</item>
+                  <item>ISO 9965:1993 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>KNMI5WIND.01</item>
+                  <item>KNMI Handboek Waarnemingen, Hoofdstuk 5. Wind, maart 2001</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>KRW</item>
+                  <item>Bepaling afgeleide waarde volgens KRW-methodiek</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>LEIDDPS:2012</item>
+                  <item>Leidraad voor passive sampling 2012</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>MODEL</item>
+                  <item>Waarde is bepaald/berekend volgens model</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N12260.03</item>
+                  <item>NEN-EN 12260:2003 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N1233.97</item>
+                  <item>NEN-EN 1233:1997 en,nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N12338.98</item>
+                  <item>NEN-EN 12338:1998 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N12673.99</item>
+                  <item>NEN-EN 12673:1999 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N12880.01</item>
+                  <item>NEN-EN 12880:2001 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N12918.99</item>
+                  <item>NEN-EN 12918:1999 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N13506.01</item>
+                  <item>NEN-EN 13506:2001 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N13577.07</item>
+                  <item>NEN-EN 13577:2007 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N14207.03</item>
+                  <item>NEN-EN 14207:2003 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N14486.05</item>
+                  <item>NEN-EN 14486:2005 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N1483.07</item>
+                  <item>NEN-EN 1483:2007 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N1484.97</item>
+                  <item>NEN-EN 1484:1997 en,nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N15216.07</item>
+                  <item>NEN-EN 15216:2007 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N1622.06</item>
+                  <item>NEN-EN 1622:2006 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N1899-1.98</item>
+                  <item>NEN-EN 1899-1:1998 en,nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N1899-2.98</item>
+                  <item>NEN-EN 1899-2:1998 en,nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N3106.86</item>
+                  <item>NEN 3106:1986 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5622.06</item>
+                  <item>NEN 5622: 2006 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5623.02</item>
+                  <item>NEN 5623:2002 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5627.06</item>
+                  <item>NEN 5627: 2006 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5694+C1.11</item>
+                  <item>NEN 5694:2007+C1:2011 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5707+C1.06</item>
+                  <item>NEN 5707:2003+C1:2006 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5731.94</item>
+                  <item>NEN 5731:1994 2e Ontw. nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5734.95</item>
+                  <item>NEN 5734:1995 2e Ontw. nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5734.99</item>
+                  <item>NEN 5734:1999</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5735.94</item>
+                  <item>NEN 5735:1994 2e Ontw. nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5742.00</item>
+                  <item>NEN 5742:2000 Ontw. nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5742.91</item>
+                  <item>NEN 5742:1991 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5747.90</item>
+                  <item>NEN 5747:1990 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5748.90</item>
+                  <item>NEN 5748:1990 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5750.89</item>
+                  <item>NEN 5750:1989 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5751.89</item>
+                  <item>NEN 5751:1989 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5753.06</item>
+                  <item>NEN 5753:2006 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5754.05</item>
+                  <item>NEN 5754:2005 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5757.91</item>
+                  <item>NEN 5757:1991 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5758.90</item>
+                  <item>NEN 5758:1990 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5759.90</item>
+                  <item>NEN 5759:1990 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5761.90</item>
+                  <item>NEN 5761:1990 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5762.91</item>
+                  <item>NEN 5762:1991 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5763.91</item>
+                  <item>NEN 5763:1991 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5764.89</item>
+                  <item>NEN 5764:1989 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5765.91</item>
+                  <item>NEN 5765:1991 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5767.91</item>
+                  <item>NEN 5767:1991 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5769.91</item>
+                  <item>NEN 5769:1991 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5777.94</item>
+                  <item>NEN 5777:1994 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5779.94</item>
+                  <item>NEN 5779:1994 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N5897.14</item>
+                  <item>NEN 5897:2014 Ontw. Nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6265.07</item>
+                  <item>NEN 6265:2007 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6274.95</item>
+                  <item>NEN 6274:1995 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6401.91</item>
+                  <item>NEN 6401:1991 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6402.10</item>
+                  <item>NEN 6402:2010 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6402.91</item>
+                  <item>NEN 6402:1991 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6403.98</item>
+                  <item>NEN 6403:1998 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6407.97</item>
+                  <item>NEN 6407:1997 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6408.99</item>
+                  <item>NEN 6408:1999 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6411.06</item>
+                  <item>NEN 6411:2006 Ontw. nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6411.81</item>
+                  <item>NEN 6411:1981 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6412.79</item>
+                  <item>NEN 6412:1979 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6414.07</item>
+                  <item>NEN 6414:2007 Ontw. nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6414.08</item>
+                  <item>NEN 6414:2008 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6414.88</item>
+                  <item>NEN 6414:1988 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6415.82</item>
+                  <item>NEN 6415:1982 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6420.86</item>
+                  <item>NEN 6420:1986 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6421.06</item>
+                  <item>NEN 6421:2006 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6424.88</item>
+                  <item>NEN 6424:1988 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6426.95</item>
+                  <item>NEN 6426:1995 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6427.99</item>
+                  <item>NEN 6427:1999 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6429.94</item>
+                  <item>NEN 6429:1994 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6430.94</item>
+                  <item>NEN 6430:1994 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6432.93</item>
+                  <item>NEN 6432:1993 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6433.93</item>
+                  <item>NEN 6433:1993 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6434.93</item>
+                  <item>NEN 6434:1993 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6435.97</item>
+                  <item>NEN 6435:1997 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6436.97</item>
+                  <item>NEN 6436:1997 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6437.82</item>
+                  <item>NEN 6437:1982 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6441.79</item>
+                  <item>NEN 6441:1979 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6442.79</item>
+                  <item>NEN 6442:1979 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6443.77</item>
+                  <item>NEN 6443:1977 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6444.77</item>
+                  <item>NEN 6444:1977 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6445.97</item>
+                  <item>NEN 6445:1997 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6448.81</item>
+                  <item>NEN 6448:1981 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6449.81</item>
+                  <item>NEN 6449:1981 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6451.80</item>
+                  <item>NEN 6451:1980 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6452.80</item>
+                  <item>NEN 6452:1980 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6453.80</item>
+                  <item>NEN 6453:1980 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6454.94</item>
+                  <item>NEN 6454:1994 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6455.81</item>
+                  <item>NEN 6455:1981 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6456.81</item>
+                  <item>NEN 6456:1981 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6457.94</item>
+                  <item>NEN 6457:1994 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6458.83</item>
+                  <item>NEN 6458:1983 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6460.81</item>
+                  <item>NEN 6460:1981 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6461.81</item>
+                  <item>NEN 6443:1981 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6462.82</item>
+                  <item>NEN 6462:1982 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6463.97</item>
+                  <item>NEN 6463:1997 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6465.92</item>
+                  <item>NEN 6465:1992 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6467.82</item>
+                  <item>NEN 6467:1982 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6468.94</item>
+                  <item>NEN 6468:1994 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6470.97</item>
+                  <item>NEN 6470:1997 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6471.81</item>
+                  <item>NEN 6471:1981 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6472.83</item>
+                  <item>NEN 6472:1983 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6476.81</item>
+                  <item>NEN 6476:1981 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6480.82</item>
+                  <item>NEN 6480:1982 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6481.83</item>
+                  <item>NEN 6481:1983 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6482.82</item>
+                  <item>NEN 6482:1982 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6483.82</item>
+                  <item>NEN 6483:1982 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6484.06</item>
+                  <item>NEN 6484:2006 Ontw. nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6484.07</item>
+                  <item>NEN 6484:2007 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6484.82</item>
+                  <item>NEN 6484:1982 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6485.83</item>
+                  <item>NEN 6485:1983 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6486.84</item>
+                  <item>NEN 6486:1984 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6487.97</item>
+                  <item>NEN 6487:1997 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6490.82</item>
+                  <item>NEN 6490:1982 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6493.87</item>
+                  <item>NEN 6493:1987 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6494.84</item>
+                  <item>NEN 6494:1984 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6495.84</item>
+                  <item>NEN 6495:1984 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6499.05</item>
+                  <item>NEN 6499:2005 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6499.10</item>
+                  <item>NEN 6499:2010 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6520.06</item>
+                  <item>NEN 6520:2006 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6521.91</item>
+                  <item>NEN 6521:1991 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6523.90</item>
+                  <item>NEN 6523:1990 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6524.84</item>
+                  <item>NEN 6524:1984 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6526.06</item>
+                  <item>NEN 6526:2006 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6527.00</item>
+                  <item>NEN 6527:2000 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6530.86</item>
+                  <item>NEN 6530:1986 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6531.86</item>
+                  <item>NEN 6531:1986 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6532.86</item>
+                  <item>NEN 6532:1986 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6533.90</item>
+                  <item>NEN 6533:1990 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6535.86</item>
+                  <item>NEN 6535:1986 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6536.90</item>
+                  <item>NEN 6536:1990 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6539.91</item>
+                  <item>NEN 6539:1991 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6541.91</item>
+                  <item>NEN 6541:1991 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6542.96</item>
+                  <item>NEN 6542:1996 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6544.90</item>
+                  <item>NEN 6544:1990 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6545.85</item>
+                  <item>NEN 6545:1985 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6547.86</item>
+                  <item>NEN 6547:1986 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6548.88</item>
+                  <item>NEN 6548:1988 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6549.88</item>
+                  <item>NEN 6549:1988 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6563.82</item>
+                  <item>NEN 6563:1982 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6567.85</item>
+                  <item>NEN 6567:1985 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6576.85</item>
+                  <item>NEN 6576:1985 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6577.85</item>
+                  <item>NEN 6577:1985 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6578.85</item>
+                  <item>NEN 6578:1985 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6579.85</item>
+                  <item>NEN 6579:1985 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6580.85</item>
+                  <item>NEN 6580:1985 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6581.85</item>
+                  <item>NEN 6581:1985 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6582.85</item>
+                  <item>NEN 6582:1985 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6587.90</item>
+                  <item>NEN 6587:1990 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6589.05</item>
+                  <item>NEN 6589:2005 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6591.90</item>
+                  <item>NEN 6591:1990 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6594.93</item>
+                  <item>NEN 6594:1993 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6604.07</item>
+                  <item>NEN 6604:2007 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6606.07</item>
+                  <item>NEN 6606:2007 Ontw. nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6606.09</item>
+                  <item>NEN 6606:2009 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6606.92</item>
+                  <item>NEN 6606:1992 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6608.96</item>
+                  <item>NEN 6608:1996 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6609.97</item>
+                  <item>NEN 6609:1997 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6611.97</item>
+                  <item>NEN 6611:1997 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6612.97</item>
+                  <item>NEN 6612:1997 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6619.92</item>
+                  <item>NEN 6619:1992 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6620.86</item>
+                  <item>NEN 6620:1986 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6621.88</item>
+                  <item>NEN 6621:1988 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6623.05</item>
+                  <item>NEN 6623:2005 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6633.06</item>
+                  <item>NEN 6633:2006/A1:2007 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6633.98</item>
+                  <item>NEN 6633:1998 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6634.91</item>
+                  <item>NEN 6634:1991 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6641.83</item>
+                  <item>NEN 6641:1983 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6642.92</item>
+                  <item>NEN 6642:1992 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6643.03</item>
+                  <item>NEN 6643:2003 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6644.83</item>
+                  <item>NEN 6644:1983 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6645.05</item>
+                  <item>NEN 6645:2005 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6646+C1.15</item>
+                  <item>NEN 6646+C1:2015 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6646.06</item>
+                  <item>NEN 6646:2006 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6646.15</item>
+                  <item>NEN 6646:2015 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6651.92</item>
+                  <item>NEN 6651:1992 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6652.92</item>
+                  <item>NEN 6652:1992 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6653.92</item>
+                  <item>NEN 6653:1992 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6654.92</item>
+                  <item>NEN 6654:2005 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6655.92</item>
+                  <item>NEN 6655:1992 Ontw. nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6655.97</item>
+                  <item>NEN 6655:1997 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6662.85</item>
+                  <item>NEN 6662:1985 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6663.87</item>
+                  <item>NEN 6663:1987 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6669.81</item>
+                  <item>NEN 6669:1981 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6670.03</item>
+                  <item>NEN 6670:2003 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6671.13</item>
+                  <item>NEN 6671:2013 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6671.94</item>
+                  <item>NEN 6671:1994 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6672.94</item>
+                  <item>NEN 6672:1994 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6674.81</item>
+                  <item>NEN 6674:1981 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6675.89</item>
+                  <item>NEN 6675:1989 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6676.94</item>
+                  <item>NEN 6676:1994 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6953.05</item>
+                  <item>NEN 6953:2005 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6953.17</item>
+                  <item>NEN 6953:2017 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6961.05</item>
+                  <item>NEN 6961:2005 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6961.13</item>
+                  <item>NEN 6961:2013 Ontw. Nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6963.05</item>
+                  <item>NEN 6963:2005 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6964+C1.06</item>
+                  <item>NEN 6964:2005+C1:2006 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6964.05</item>
+                  <item>NEN 6964:2005 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6965+C1.06</item>
+                  <item>NEN 6965:2005+C1:2006 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6965.05</item>
+                  <item>NEN 6965:2005 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6966+C1.06</item>
+                  <item>NEN 6966:2005+C1:2006 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6966.05</item>
+                  <item>NEN 6966:2005 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6970.08</item>
+                  <item>NEN 6970:2008 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6975.08</item>
+                  <item>NEN 6975:2008 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6978.08</item>
+                  <item>NEN 6978:2008 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N6980+C1.10</item>
+                  <item>NEN 6980:2008+C1:2010 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N7341.95</item>
+                  <item>NEN 7341:1995 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N7343.95</item>
+                  <item>NEN 7343:1995 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N7345.95</item>
+                  <item>NEN 7345:1995 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N7349.95</item>
+                  <item>NEN 7349:1995 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N872.05</item>
+                  <item>NEN-EN 872:2005 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>N903.94</item>
+                  <item>NEN-EN 903:1994 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>Notove</item>
+                  <item>Bepaling toetsoordeel (+ of -) met/volgens Notove-methodiek</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>OVAM2IB1</item>
+                  <item>OVAM afvalstoffencompendium 2/I/B.1</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>OVAM2IC2.3</item>
+                  <item>OVAM afvalstoffencompendium 2/I/C.2.3</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>OVAM2IIA3</item>
+                  <item>OVAM afvalstoffencompendium 2/II/A.3</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>OVAM2IIA6</item>
+                  <item>OVAM afvalstoffencompendium 2/II/A.6</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>OVAM3B</item>
+                  <item>OVAM afvalstoffencompendium 3/B</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>OVAM3I</item>
+                  <item>OVAM afvalstoffencompendium 3/I</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>OVAM3N</item>
+                  <item>OVAM afvalstoffencompendium 3/N</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>OVAM3R1</item>
+                  <item>OVAM afvalstoffencompendium 3/R1</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>P3210-1.16</item>
+                  <item>prestatieblad 3210-1, 23-06-2016 (droge stof)</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>P3210-2.16</item>
+                  <item>prestatieblad 3210-2, 23-06-2016 (organische stof)</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>P3210-3.16</item>
+                  <item>prestatieblad 3210-3, 23-06-2016 (korrelgroottefractie)</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>P3210-4.16</item>
+                  <item>prestatieblad 3210-4, 23-06-2016 (metalen)</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>P3210-5.16</item>
+                  <item>prestatieblad 3210-5, 23-06-2016 (PAK)</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>P3210-6.16</item>
+                  <item>prestatieblad 3210-6, 23-06-2016 (minerale olie)</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>P3210-7.16</item>
+                  <item>prestatieblad 3210-7, 23-06-2016 (PCB)</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>P3220-1.16</item>
+                  <item>prestatieblad 3220-1, 23-06-2016 (OCB)</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>P3220-2.16</item>
+                  <item>prestatieblad 3220-2, 23-06-2016 (OCB overig)</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>P3250-1.16</item>
+                  <item>prestatieblad 3250-1, 23-06-2016 (metalen)</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>P3260-1.11</item>
+                  <item>prestatieblad 3260-1, 10-2-2011 (pentachloorfenol)</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>P5637.06</item>
+                  <item>NPR 5637:2006 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>P5638.06</item>
+                  <item>NPR 5638:2006 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>P6266.14</item>
+                  <item>NPR 6266:2014 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>P6266.91</item>
+                  <item>NPR 6266:1991 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>P6400.88</item>
+                  <item>NPR 6400:1988 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>P6416.95</item>
+                  <item>NPR 6416:1995 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>P6417.97</item>
+                  <item>NPR 6417:1997 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>P6425.95</item>
+                  <item>NPR 6425:1995 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>P6537.88</item>
+                  <item>NPR 6537:1988 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>P6538.90</item>
+                  <item>NPR 6538:1990 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>P6546.88</item>
+                  <item>NPR 6546:1988 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>P6600.93</item>
+                  <item>NPR 6600:1993 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>P6616.82</item>
+                  <item>NPR 6616:1982 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>PZMJK-A</item>
+                  <item>Protocol Zwemmersjeuk 2011 - A diagnose aandoening</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>PZMJK-C</item>
+                  <item>Protocol Zwemmersjeuk 2011 - C slakken met Trichobilharzia</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>PZMJK-D</item>
+                  <item>Protocol Zwemmersjeuk 2011 - D DNA Trichobilharzia in water</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RWS-RMI.10</item>
+                  <item>RWS Standaard voor inwinning hydrol. en meteo. gegevens 2010</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RWSV-A1.002</item>
+                  <item>RWS Analysevoorschrift-A1.002</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RWSV-A1.019</item>
+                  <item>RWS Analysevoorschrift-A1.019</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RWSV-A1.032</item>
+                  <item>RWS Analysevoorschrift-A1.032</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RWSV-A1.033</item>
+                  <item>RWS Analysevoorschrift-A1.033</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RWSV-A1.035</item>
+                  <item>RWS Analysevoorschrift-A1.035</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RWSV-A1.040</item>
+                  <item>RWS Analysevoorschrift-A1.040</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RWSV-A1.072</item>
+                  <item>RWS Analysevoorschrift-A1.072</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RWSV-A1.085</item>
+                  <item>RWS Analysevoorschrift-A1.085</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RWSV-A1.086</item>
+                  <item>RWS Analysevoorschrift-A1.086</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RWSV-A3.010</item>
+                  <item>RWS Analysevoorschrift-A3.010</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RWSV-A4.411</item>
+                  <item>RWS Analysevoorschrift-A4.411</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RWSV-A5.380</item>
+                  <item>RWS Analysevoorschrift-A5.380</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RWSV-A5.390</item>
+                  <item>RWS Analysevoorschrift-A5.390</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RWSV-A5.393</item>
+                  <item>RWS Analysevoorschrift-A5.393</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RWSV-A5.398</item>
+                  <item>RWS Analysevoorschrift-A5.398</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RWSV-A5.427</item>
+                  <item>RWS Analysevoorschrift-A5.427</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RWSV-W006</item>
+                  <item>RWSV 913.00.W006</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RWSV-W007</item>
+                  <item>RWSV 913.00.W007</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RWSV-W008</item>
+                  <item>RWSV 913.00.W008</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RWSV-W009</item>
+                  <item>RWSV 913.00.W009</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>RWSV-W012</item>
+                  <item>RWSV 913.00.W012</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>T11370.00</item>
+                  <item>ISO/TS 11370:2000 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>T11905-2.97</item>
+                  <item>ISO/TR 11905-2:1997 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>T8200.02</item>
+                  <item>NTA 8200:2002 en</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>T8204.03</item>
+                  <item>NTA 8204:2003 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>Towabo</item>
+                  <item>Bepaling waterbodemklasse volgens Towabo-methodiek</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>V2946.89</item>
+                  <item>NVN 2946:1989 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>V5694.96</item>
+                  <item>NVN 5694:1996 nl (vervallen)</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>V5718.94</item>
+                  <item>NVN 5718:1994 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>V5730.91</item>
+                  <item>NVN 5730:1991 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>V5732.99</item>
+                  <item>NVN 5732:1999 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>V5770.93</item>
+                  <item>NVN 5770:1993 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>V6404.00</item>
+                  <item>NVN 6404:2000 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>V6409.97</item>
+                  <item>NVN 6409:1997 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>V6419.06</item>
+                  <item>NVN 6419:2006 Ontw. nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>V6590.90</item>
+                  <item>NVN 6590:1990 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>V6592.90</item>
+                  <item>NVN 6592:1990 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>V6678.97</item>
+                  <item>NVN 6678:1997 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>V6982.06</item>
+                  <item>NVN 6982:2006 Ontw. nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>V6983.06</item>
+                  <item>NVN 6983:2006 Ontw. nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>V6984.06</item>
+                  <item>NVN 6984:2006 Ontw. nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>V7321.97</item>
+                  <item>NVN 7321:1997 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>V7322.97</item>
+                  <item>NVN 7322:1997 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>V7324.97</item>
+                  <item>NVN 7324:1997 nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>V7350.95</item>
+                  <item>NVN 7350:1995 Ontw. Nl</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>VOORLOPIG</item>
+                  <item>Voorlopige bepaling klasse door deskundige</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>ZINTUIGLIJK</item>
+                  <item>Niet genormaliseerde zintuiglijke waardebepaling</item>
                   <item/>
                </part>
                <part>
                   <item/>
-                  <item>iWSR</item>
+                  <item>Bepaling waarde / waterindex (0-100) volgens iWSR-methodiek</item>
                   <item/>
                </part>
             </content>
@@ -8218,43 +8294,6 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017.</item>
                   <item/>
                   <item>verpakkingWijktAf</item>
                   <item>Het monster is aangeleverd in een verpakking die afwijkt van de eisen in de gebruikte bemonsteringsnorm. Dit is mogelijk van invloed op de betrouwbaarheid van de analyse.</item>
-               </part>
-            </content>
-         </section>
-         <section name="StatusKwaliteitscontrole"
-                  type="DETAIL-CODELIST"
-                  id="detail_class_Model_StatusKwaliteitscontrole"
-                  id-global="global_class_Model_StatusKwaliteitscontrole"
-                  uuid="EAID_8A624512_B367_4f10_865A_A0FB2BD674E7">
-            <content>
-               <part>
-                  <item>Definitie</item>
-                  <item>De lijst van de mogelijke uitkomsten van het eindoordeel van de bronhouder over de betrouwbaarheid van individuele metingen.</item>
-               </part>
-            </content>
-            <content>
-               <itemtype type="CODE"/>
-               <itemtype type="NAME"/>
-               <itemtype type="DEFINITION"/>
-               <part>
-                  <item/>
-                  <item>Goedgekeurd</item>
-                  <item>Er is geen reden om aan de juistheid van dit gegeven te twijfelen op basis is van de gehanteerde beoordelingsprocedure.</item>
-               </part>
-               <part>
-                  <item/>
-                  <item>Onbeslist</item>
-                  <item>Er zijn op basis is van de gehanteerde beoordelingsprocedure twijfels over de juistheid van dit gegeven, maar uitsluitsel kon niet gegeven worden.</item>
-               </part>
-               <part>
-                  <item/>
-                  <item>Afgekeurd</item>
-                  <item>Er is reden om dit gegeven als onjuist te beschouwen. De waarde kon niet geverifieerd worden op basis is van de gehanteerde beoordelingsprocedure.</item>
-               </part>
-               <part>
-                  <item/>
-                  <item>Onbekend</item>
-                  <item>Er is geen beoordeling gedaan van de kwaliteit, of het is onbekend of er een beoordeling is gedaan (IMBRO/A kwaliteitsregime).</item>
                </part>
             </content>
          </section>
