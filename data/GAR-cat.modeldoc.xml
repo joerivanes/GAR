@@ -3,8 +3,8 @@
       subpath="Conceptual model/Grondwatersamenstellingsonderzoek (GAR)/20190214"
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
-      generator-version="1.51.1"
-      generator-date="2019-02-21T18:08:52Z">
+      generator-version="1.51.3"
+      generator-date="2019-02-22T15:38:53Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN" name="Model" id="global_package_Model">
          <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
@@ -5073,22 +5073,26 @@ De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van
                </part>
             </content>
             <content>
-               <itemtype type="CODE"/>
                <itemtype type="NAME"/>
+               <itemtype type="IMBRO"/>
+               <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
                <part>
-                  <item/>
                   <item>geregistreerd</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>Het registeren van de gegevens van het object is gestart. De gegevens uit het eerste brondocument zijn in de registratie ondergrond vastgelegd. Er zijn daarna geen nieuwe gegevens geregistreerd.</item>
                </part>
                <part>
-                  <item/>
                   <item>aangevuld</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>Het registeren van de gegevens van het object heeft na de start van de registratie een vervolg gekregen. De gegevens in de registratie ondergrond zijn minimaal een keer aangevuld met nieuwe gegevens.</item>
                </part>
                <part>
-                  <item/>
                   <item>voltooid</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>Het registeren van de gegevens van het object is voltooid. Alle gegevens zijn in de registratie ondergrond vastgelegd en er kunnen geen nieuwe gegevens meer worden geregistreerd.</item>
                </part>
             </content>
@@ -5185,52 +5189,62 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017.</item>
                </part>
             </content>
             <content>
-               <itemtype type="CODE"/>
                <itemtype type="NAME"/>
+               <itemtype type="IMBRO"/>
+               <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
                <part>
-                  <item/>
                   <item>afwijkendeKleur</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>Het grondwater is niet doorzichtig, maar heeft bijvoorbeeld een roestige of venige kleur. Hierdoor kan gedurende de dag een filmlaag op de elektrodes in de meetapparatuur neerslaan. Dit kan de meting van de geleidendheid (EGV/EC) en de pH beïnvloeden.</item>
                </part>
                <part>
-                  <item/>
                   <item>afwijkendGekoeld</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>De temperatuur tijdens het transport van de monsters wijkt af van de eisen die in de gebruikte bemonsteringsnorm worden gesteld.</item>
                </part>
                <part>
-                  <item/>
                   <item>afwijkingInMeetapparatuur</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>De gebruikte meetapparatuur had een te groot verloop. De meetapparatuur wordt dagelijks in ieder geval een keer gekalibreerd. In de loop van de dag kan de meetapparatuur een groeiende afwijking gaan vertonen.</item>
                </part>
                <part>
-                  <item/>
                   <item>contaminatieDoorVerbrandingsmotor</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>De genomen monsters zijn mogelijk gecontamineerd door vluchtige verbindingen, door aanwezige verbrandingsmotoren. Dit kan gebeuren als een verbrandingsmotor wordt gebruikt tijdens het bemonsteren. Men wordt geacht benedenwinds te gaan staan van deze motor. Mocht het echter windstil zijn of de wind tijdens het bemonsteren gedraaid zijn, dan kan er toch contaminatie van het monster ontstaan.</item>
                </part>
                <part>
-                  <item/>
                   <item>filterAfwijkend</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>Tijdens monstername is een type in-line-filter gebruikt dat afwijkt van de eisen in de gebruikte bemonsteringsnorm.</item>
                </part>
                <part>
-                  <item/>
                   <item>filterBelucht</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>De peilbuis liep tijdens de monstering slecht en het filter is drooggevallen, maar er is geen lucht in het monster terechtgekomen.</item>
                </part>
                <part>
-                  <item/>
                   <item>grondwaterstandTeveelGedaald</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>De grondwaterstand is tijdens en na het voorpompen met meer dan 50cm verlaagd.</item>
                </part>
                <part>
-                  <item/>
                   <item>monsterBelucht</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>De peilbuis liep tijdens de monstering slecht en het monster is belucht.</item>
                </part>
                <part>
-                  <item/>
                   <item>temperatuurMoeilijkTeBepalen</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>De temperatuur van het grondwater was tijdens de bemonstering moeilijk te bepalen. Dat komt voor bij temperatuurmeting in de doorstroomcel, bijvoorbeeld door extreem warm weer in combinatie met een slechtlopende peilbuis.</item>
                </part>
             </content>
@@ -5325,457 +5339,548 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017.</item>
                </part>
             </content>
             <content>
-               <itemtype type="CODE"/>
                <itemtype type="NAME"/>
+               <itemtype type="IMBRO"/>
+               <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
                <part>
-                  <item/>
                   <item>ONBEKEND</item>
                   <item/>
+                  <item>✔</item>
+                  <item/>
                </part>
                <part>
-                  <item/>
                   <item>AA</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>AA-FOTM</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>AAS</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>AAS-F</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>AAS-GF</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>AAS-HG</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>AAS-KD</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>AERO</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>AES-F</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>AES-KD</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>AF</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>AF-KD</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>BACT</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>CALO</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>COND</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>COUL</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>CUVT</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>DA</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>DA-S</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>ELCH</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>ELMSR</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>FL</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>FOTM</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>GAMMAS</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>GC</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>GC-ECD</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>GC-ECD/ECD</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>GC-ECD/MS</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>GC-FID</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>GC-FID/ECD</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>GC-FID/IR</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>GC-FPD</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>GC-HRMS</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>GC-LRMS</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>GC-MS</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>GC-MS-HS</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>GC-MS-LV-PTV</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>GC-MS-MS</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>GC-MS-PT</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>GC-MS-PTV</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>GC-MS-TD</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>GC-NPD</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>GENEPSLCFRSE</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>GRAV</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>HPLC</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>HPLC-APCI-MS</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>HPLC-DAD</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>HPLC-FL</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>HPLC-MS-ESI</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>HPLC-UV</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>HPLC-UV-FL</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>IC</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>ICP-AES</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>ICP-HRMS</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>ICP-MS</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>IR</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>IR-FT</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>JODM</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>LC-FL</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>LC-GC-MS</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>LC-MS</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>LC-MS-MS</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>LC-TQMS</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>LDO</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>LSC</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>MEMBF</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>MICCOUL</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>MICCOUL-PT</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>MICSCOP</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>MICTTPT</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>NEFLMTE</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>ORGNLTSCH</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>POTM</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>POTM_TITM</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RADOMT-BWHH</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RADOMT-BWHHG</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RADOMT-BWVO</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RONTGDF</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RONTGTM</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RONTGTM_GRAV</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>SEDI</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>STER/POLMIC</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>THERMG</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>THERMM</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>TITM</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>UV/VIS</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>VISL</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>VOL</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>qPCR</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
             </content>
@@ -5792,2372 +5897,2846 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017.</item>
                </part>
             </content>
             <content>
-               <itemtype type="CODE"/>
                <itemtype type="NAME"/>
+               <itemtype type="IMBRO"/>
+               <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
                <part>
-                  <item/>
                   <item>ONBEKEND</item>
                   <item/>
+                  <item>✔</item>
+                  <item/>
                </part>
                <part>
-                  <item/>
                   <item>AQUOKIT</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>AUTOMATISCH</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>BLAUWAP:2012</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>CIW</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>D1485.96</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>D38405-26.89</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>D38405-27.92</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>D38406-29.99</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>D38407-30.07</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>D38407-42.11</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>D38409-23.10</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>D4030-2.08</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>D51577-1.82</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>DESK</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>EBEO</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>EPA8270CD</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>GWPROTEU.13</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>GWPROTNL.13</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>HH-W10B:2010</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>HH-W11A:2010</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>HH-W12B:2010</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>HH-W13A:2010</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>HH-W7B:2010</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>HH-W8B:2010</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>HH-W8C:2010</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>HH-W9B:2010</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I10048.91</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I10260.92</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I10301.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I10304-1.09</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I10304-1.95</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I10304-2.96</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I10304-3.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I10304-4.99</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I10359-1.92</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I10359-2.94</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I10382.03</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I10523.08</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I10523.12</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I10523.94</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I10530.92</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I10566.94</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I10695.00</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I10704.12</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I11083.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I11083.94</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I11369.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I11423-1.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I11423-2.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I11731-2.08</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I11731.98</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I11732.05</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I11885.07</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I11885.98</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I11905-1.98</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I11923.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I11969.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I12010.14</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I12020.00</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I12846.12</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I13358.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I13395.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I14402.99</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I14403-2.09</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I14403-2.12</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I14403.02</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I14911.99</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I15061.01</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I15089.00</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I15586.03</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I15587-1.02</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I15587-2.02</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I15680.03</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I15681-1.05</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I15681-2.05</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I15682.01</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I15705.03</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I15913.03</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I15923-1.13</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I16264.02</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I16264.04</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I16588.03</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I16590.00</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I17294-1.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I17294-2.04</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I17294-2.16</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I17353.05</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I17380.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I17495.03</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I17852.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I17852.08</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I17858.07</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I17993.04</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I18073.04</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I18412.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I18856.05</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I18857-1.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I20179.05</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I22032.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I22155.05</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I22478.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I22743.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I23631.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I23913.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I25101.09</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I5663.93</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I5664.04</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I5666.99</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I5667-1.94</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I5667-11.09</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I5667-11.93</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I5667-2.93</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I5667-3.12</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I5813.93</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I5814.93</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I5815-1.03</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I5815-2.03</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I5961.95</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I6058.84</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I6059.05</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I6060.89</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I6332.04</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I6333.88</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I6340.93</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I6439.90</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I6468.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I6595.93</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I6703-1.84</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I6703-2.84</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I6703-3.84</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I6777.93</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I6778.84</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I6878.04</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I7027.00</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I7027.16</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I7027.94</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I7150-1.02</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I7393-1.00</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I7393-2.00</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I7393-3.00</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I7875-1.96</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I7875-2.84</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I7887.12</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I7887.94</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I7888.94</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I7890-3.99</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I7899-1.98</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I7980.00</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I7981-1.05</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I7981-2.05</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I8165-1.92</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I8165-2.99</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I8245.99</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I8288.86</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I8467.95</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I9174.98</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I9297.89</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I9308-3.99</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I9377-1.00</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I9377-2.00</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I9377-4.99</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I9390.90</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I9562.04</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I9697.92</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I9698.89</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I9963-1.94</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I9963-1.96</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I9963-2.94</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I9963-2.96</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I9964-1.93</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I9964-2.93</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I9964-3.93</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>I9965.93</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>KNMI5WIND.01</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>KRW</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>LEIDDPS:2012</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>MODEL</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N12260.03</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N1233.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N12338.98</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N12673.99</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N12880.01</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N12918.99</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N13506.01</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N13577.07</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N14207.03</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N14486.05</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N1483.07</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N1484.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N15216.07</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N1622.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N1899-1.98</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N1899-2.98</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N3106.86</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5622.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5623.02</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5627.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5694+C1.11</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5707+C1.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5731.94</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5734.95</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5734.99</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5735.94</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5742.00</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5742.91</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5747.90</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5748.90</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5750.89</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5751.89</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5753.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5754.05</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5757.91</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5758.90</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5759.90</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5761.90</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5762.91</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5763.91</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5764.89</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5765.91</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5767.91</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5769.91</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5777.94</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5779.94</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N5897.14</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6265.07</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6274.95</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6401.91</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6402.10</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6402.91</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6403.98</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6407.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6408.99</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6411.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6411.81</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6412.79</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6414.07</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6414.08</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6414.88</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6415.82</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6420.86</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6421.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6424.88</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6426.95</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6427.99</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6429.94</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6430.94</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6432.93</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6433.93</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6434.93</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6435.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6436.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6437.82</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6441.79</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6442.79</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6443.77</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6444.77</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6445.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6448.81</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6449.81</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6451.80</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6452.80</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6453.80</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6454.94</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6455.81</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6456.81</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6457.94</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6458.83</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6460.81</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6461.81</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6462.82</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6463.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6465.92</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6467.82</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6468.94</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6470.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6471.81</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6472.83</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6476.81</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6480.82</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6481.83</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6482.82</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6483.82</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6484.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6484.07</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6484.82</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6485.83</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6486.84</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6487.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6490.82</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6493.87</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6494.84</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6495.84</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6499.05</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6499.10</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6520.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6521.91</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6523.90</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6524.84</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6526.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6527.00</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6530.86</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6531.86</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6532.86</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6533.90</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6535.86</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6536.90</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6539.91</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6541.91</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6542.96</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6544.90</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6545.85</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6547.86</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6548.88</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6549.88</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6563.82</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6567.85</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6576.85</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6577.85</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6578.85</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6579.85</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6580.85</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6581.85</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6582.85</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6587.90</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6589.05</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6591.90</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6594.93</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6604.07</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6606.07</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6606.09</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6606.92</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6608.96</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6609.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6611.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6612.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6619.92</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6620.86</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6621.88</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6623.05</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6633.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6633.98</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6634.91</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6641.83</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6642.92</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6643.03</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6644.83</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6645.05</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6646+C1.15</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6646.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6646.15</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6651.92</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6652.92</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6653.92</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6654.92</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6655.92</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6655.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6662.85</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6663.87</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6669.81</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6670.03</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6671.13</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6671.94</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6672.94</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6674.81</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6675.89</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6676.94</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6953.05</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6953.17</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6961.05</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6961.13</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6963.05</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6964+C1.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6964.05</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6965+C1.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6965.05</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6966+C1.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6966.05</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6970.08</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6975.08</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6978.08</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N6980+C1.10</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N7341.95</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N7343.95</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N7345.95</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N7349.95</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N872.05</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>N903.94</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>Notove</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>OVAM2IB1</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>OVAM2IC2.3</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>OVAM2IIA3</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>OVAM2IIA6</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>OVAM3B</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>OVAM3I</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>OVAM3N</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>OVAM3R1</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>P3210-1.16</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>P3210-2.16</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>P3210-3.16</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>P3210-4.16</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>P3210-5.16</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>P3210-6.16</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>P3210-7.16</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>P3220-1.16</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>P3220-2.16</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>P3250-1.16</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>P3260-1.11</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>P5637.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>P5638.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>P6266.14</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>P6266.91</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>P6400.88</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>P6416.95</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>P6417.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>P6425.95</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>P6537.88</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>P6538.90</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>P6546.88</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>P6600.93</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>P6616.82</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>PZMJK-A</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>PZMJK-C</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>PZMJK-D</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RWS-RMI.10</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RWSV-A1.002</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RWSV-A1.019</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RWSV-A1.032</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RWSV-A1.033</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RWSV-A1.035</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RWSV-A1.040</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RWSV-A1.072</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RWSV-A1.085</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RWSV-A1.086</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RWSV-A3.010</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RWSV-A4.411</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RWSV-A5.380</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RWSV-A5.390</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RWSV-A5.393</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RWSV-A5.398</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RWSV-A5.427</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RWSV-W006</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RWSV-W007</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RWSV-W008</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RWSV-W009</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>RWSV-W012</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>T11370.00</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>T11905-2.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>T8200.02</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>T8204.03</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>Towabo</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>V2946.89</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>V5694.96</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>V5718.94</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>V5730.91</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>V5732.99</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>V5770.93</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>V6404.00</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>V6409.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>V6419.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>V6590.90</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>V6592.90</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>V6678.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>V6982.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>V6983.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>V6984.06</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>V7321.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>V7322.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>V7324.97</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>V7350.95</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>VOORLOPIG</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>ZINTUIGLIJK</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
                <part>
-                  <item/>
                   <item>iWSR</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item/>
                </part>
             </content>
@@ -8174,67 +8753,80 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017.</item>
                </part>
             </content>
             <content>
-               <itemtype type="CODE"/>
                <itemtype type="NAME"/>
+               <itemtype type="IMBRO"/>
+               <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
                <part>
-                  <item/>
                   <item>conserveringTeWeinig</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>Het monster is aangeleverd met onvoldoende conserveringsmiddel. Dit is mogelijk van invloed op de betrouwbaarheid van de analyse.</item>
                </part>
                <part>
-                  <item/>
                   <item>conserveringWijktAf</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>Het monster is aangeleverd met een conserveringsmateriaal dat afwijkt van de eisen in de gebruikte bemonsteringsnorm. Dit is mogelijk van invloed op de betrouwbaarheid van de analyse.</item>
                </part>
                <part>
-                  <item/>
                   <item>houdbaarheidRuwMonsterVerlopen</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>De houdbaarheidstermijn van het monster voor de voorbewerking is overschreden. Dit is mogelijk van invloed op de betrouwbaarheid van de analyse.</item>
                </part>
                <part>
-                  <item/>
                   <item>houdbaarheidVerpakkingVerlopen</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>De houdbaarheidstermijn van de monsterverpakking is overschreden. Dit is mogelijk van invloed op de betrouwbaarheid van de analyse.</item>
                </part>
                <part>
-                  <item/>
                   <item>houdbaarheidVoorbewerktMonsterVerlopen</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>De houdbaarheidstermijn van het monster voor de analyse is overschreden. Dit is mogelijk van invloed op de betrouwbaarheid van de analyse.</item>
                </part>
                <part>
-                  <item/>
                   <item>monsterOngefiltreerd</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>Het monster is niet gefiltreerd aangeleverd. Dit is mogelijk van invloed op de betrouwbaarheid van de analyse.</item>
                </part>
                <part>
-                  <item/>
                   <item>monsterOngekoeld</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>Het monster is niet geconserveerd d.m.v. koelen. Dit is mogelijk van invloed op de betrouwbaarheid van de analyse.</item>
                </part>
                <part>
-                  <item/>
                   <item>monsterOnvoldoendeGekoeld</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>De bewaartemperatuur van de monsters is tijdens het transport overschreden. Hierdoor is de betrouwbaarheid van de analyseresultaten mogelijk beïnvloed.</item>
                </part>
                <part>
-                  <item/>
                   <item>monsterVerdund</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>Om analytische redenen is het monster verdund, hierdoor is de rapportagegrens verhoogd.</item>
                </part>
                <part>
-                  <item/>
                   <item>verpakkingNietGeheelGevuld</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>Het monster is in een niet volledig gevulde fles aangeleverd. Dit is mogelijk van invloed op de betrouwbaarheid van de analyse.</item>
                </part>
                <part>
-                  <item/>
                   <item>verpakkingOnjuistGesloten</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>Het monster is in een niet goed afgesloten verpakking aangeleverd. Dit is mogelijk van invloed op de betrouwbaarheid van de analyse.</item>
                </part>
                <part>
-                  <item/>
                   <item>verpakkingWijktAf</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>Het monster is aangeleverd in een verpakking die afwijkt van de eisen in de gebruikte bemonsteringsnorm. Dit is mogelijk van invloed op de betrouwbaarheid van de analyse.</item>
                </part>
             </content>
