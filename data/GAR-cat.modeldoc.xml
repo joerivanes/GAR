@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.51.3"
-      generator-date="2019-02-22T15:38:53Z">
+      generator-date="2019-02-22T15:56:36Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN" name="Model" id="global_package_Model">
          <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
@@ -8887,17 +8887,20 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017.</item>
                </part>
             </content>
             <content>
-               <itemtype type="CODE"/>
                <itemtype type="NAME"/>
+               <itemtype type="IMBRO"/>
+               <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
                <part>
-                  <item/>
                   <item>ja</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>Ja</item>
                </part>
                <part>
-                  <item/>
                   <item>nee</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>Nee</item>
                </part>
             </content>
@@ -8914,22 +8917,26 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017.</item>
                </part>
             </content>
             <content>
-               <itemtype type="CODE"/>
                <itemtype type="NAME"/>
+               <itemtype type="IMBRO"/>
+               <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
                <part>
-                  <item/>
                   <item>ja</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>Ja</item>
                </part>
                <part>
-                  <item/>
                   <item>nee</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>Nee</item>
                </part>
                <part>
-                  <item/>
                   <item>onbekend</item>
+                  <item/>
+                  <item>✔</item>
                   <item>Onbekend (IMBRO/A kwaliteitsregime).</item>
                </part>
             </content>
@@ -8946,17 +8953,20 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017.</item>
                </part>
             </content>
             <content>
-               <itemtype type="CODE"/>
                <itemtype type="NAME"/>
+               <itemtype type="IMBRO"/>
+               <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
                <part>
-                  <item/>
                   <item>IMBRO</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>De strikte kwaliteitseis die na beëindiging van de transitieperiode geldt voor alle objecten die nadien geregistreerd zijn.</item>
                </part>
                <part>
-                  <item/>
                   <item>IMBRO/A</item>
+                  <item>✔</item>
+                  <item>✔</item>
                   <item>De minder strikte kwaliteitseis die tot beëindiging van de transitieperiode gebruikt kan zijn.</item>
                </part>
             </content>
