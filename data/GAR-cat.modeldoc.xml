@@ -3,8 +3,8 @@
       subpath="Conceptual model/Grondwatersamenstellingsonderzoek (GAR)/20190214"
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
-      generator-version="1.51.3"
-      generator-date="2019-02-22T15:59:54Z">
+      generator-version="1.51.2"
+      generator-date="2019-02-25T11:02:58Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN" name="Model" id="global_package_Model">
          <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
@@ -921,11 +921,11 @@
                      <part>
                         <item>
                            <item type="detail"
-                                 idref="detail_attribute_Model_ResultaatVeldmetingen_inSitu">in situ</item>
+                                 idref="detail_attribute_Model_ResultaatVeldmetingen_plaatsVeldmeting">plaats veldmeting</item>
                         </item>
-                        <item>De aanduiding die aangeeft of de parameter in het grondwater in de put bepaald is, dan wel in het opgepompte grondwater.</item>
+                        <item>De aanduiding die aangeeft of de parameter in het grondwater op filterdiepte bepaald is, dan wel in het opgepompte grondwater in de doorstroomcel.</item>
                         <item>
-                           <item type="global" idref="global_class_Model_IndicatieJaNeeOnbekend">IndicatieJaNeeOnbekend</item>
+                           <item type="global" idref="global_class_Model_PlaatsVeldmeting">PlaatsVeldmeting</item>
                         </item>
                         <item>1</item>
                      </part>
@@ -1706,6 +1706,18 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <item>De lijst van mogelijke soorten slangen die worden gebruikt bij het oppompen van grondwater.</item>
                </part>
                <part>
+                  <item id="global_class_Model_PlaatsVeldmeting"
+                        uuid="EAID_7F273A8C_8D46_40c2_8C88_23079EF139DC"
+                        idref="detail_class_Model_PlaatsVeldmeting">PlaatsVeldmeting</item>
+                  <item>De lijst van de mogelijke plaats waar, in het veld, de meting is gedaan.</item>
+               </part>
+               <part>
+                  <item id="global_class_Model_StatusKwaliteitscontrole"
+                        uuid="EAID_8A624512_B367_4f10_865A_A0FB2BD674E7"
+                        idref="detail_class_Model_StatusKwaliteitscontrole">StatusKwaliteitscontrole</item>
+                  <item>De lijst van de mogelijke uitkomsten van het eindoordeel van de bronhouder over de betrouwbaarheid van individuele metingen.</item>
+               </part>
+               <part>
                   <item id="global_class_Model_Bepalingstechniek"
                         uuid="EAID_252793A3_4ADD_44fd_B0CF_CDE66BE8E25D"
                         idref="detail_class_Model_Bepalingstechniek">Bepalingstechniek</item>
@@ -1722,12 +1734,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         uuid="EAID_5F2B46A4_2D63_4758_8807_1990D86B52A9"
                         idref="detail_class_Model_BijzonderheidBepalingsprocedure">BijzonderheidBepalingsprocedure</item>
                   <item>De ljist van bijzonderheden c.q. afwijkingen ten opzichte van de gehanteerde bepalingsprocedure, die zich kunnen voordoen tijdens het analyseproces.</item>
-               </part>
-               <part>
-                  <item id="global_class_Model_StatusKwaliteitscontrole"
-                        uuid="EAID_8A624512_B367_4f10_865A_A0FB2BD674E7"
-                        idref="detail_class_Model_StatusKwaliteitscontrole">StatusKwaliteitscontrole</item>
-                  <item>De lijst van de mogelijke uitkomsten van het eindoordeel van de bronhouder over de betrouwbaarheid van individuele metingen.</item>
                </part>
             </content>
          </section>
@@ -3949,14 +3955,14 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </part>
                      </content>
                   </section>
-                  <section name="in situ"
+                  <section name="plaats veldmeting"
                            type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_ResultaatVeldmetingen_inSitu"
-                           id-global="global_attribute_Model_ResultaatVeldmetingen_inSitu">
+                           id="detail_attribute_Model_ResultaatVeldmetingen_plaatsVeldmeting"
+                           id-global="global_attribute_Model_ResultaatVeldmetingen_plaatsVeldmeting">
                      <content>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
-                           <item>in situ</item>
+                           <item>plaats veldmeting</item>
                         </part>
                         <part type="CFG-DOC-HERKOMST">
                            <item>Herkomst</item>
@@ -3964,7 +3970,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </part>
                         <part type="CFG-DOC-DEFINITIE">
                            <item>Definitie</item>
-                           <item>De aanduiding die aangeeft of de parameter in het grondwater in de put bepaald is, dan wel in het opgepompte grondwater.</item>
+                           <item>De aanduiding die aangeeft of de parameter in het grondwater op filterdiepte bepaald is, dan wel in het opgepompte grondwater in de doorstroomcel.</item>
                         </part>
                         <part type="CFG-DOC-HERKOMSTDEFINITIE">
                            <item>Herkomst definitie</item>
@@ -3992,7 +3998,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
-                           <item>IndicatieJaNeeOnbekend</item>
+                           <item>PlaatsVeldmeting</item>
                         </part>
                         <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                            <item>Indicatie afleidbaar</item>
@@ -5324,6 +5330,85 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017.</item>
                   <item/>
                   <item>✔</item>
                   <item>Het gegeven is onbekend. Dit kan het geval zijn bij historische gegevens (IMBRO/A kwaliteitsregime).</item>
+               </part>
+            </content>
+         </section>
+         <section name="PlaatsVeldmeting"
+                  type="DETAIL-CODELIST"
+                  id="detail_class_Model_PlaatsVeldmeting"
+                  id-global="global_class_Model_PlaatsVeldmeting"
+                  uuid="EAID_7F273A8C_8D46_40c2_8C88_23079EF139DC">
+            <content>
+               <part>
+                  <item>Definitie</item>
+                  <item>De lijst van de mogelijke plaats waar, in het veld, de meting is gedaan.</item>
+               </part>
+            </content>
+            <content>
+               <itemtype type="NAME"/>
+               <itemtype type="IMBRO"/>
+               <itemtype type="IMBROA"/>
+               <itemtype type="DEFINITION"/>
+               <part>
+                  <item>inDoorstroomcel</item>
+                  <item>✔</item>
+                  <item>✔</item>
+                  <item>De parameter is in het veld gemeten in de doorstroomcel, in het opgepompte grondwater.</item>
+               </part>
+               <part>
+                  <item>opFilterdiepte</item>
+                  <item>✔</item>
+                  <item>✔</item>
+                  <item>De parameter is in het veld gemeten op filterdiepte, i.e.
+onderin de peilbuis.</item>
+               </part>
+               <part>
+                  <item>onbekend</item>
+                  <item/>
+                  <item>✔</item>
+                  <item>Het gegeven is onbekend. Dit kan het geval zijn bij historische gegevens (IMBRO/A kwaliteitsregime).</item>
+               </part>
+            </content>
+         </section>
+         <section name="StatusKwaliteitscontrole"
+                  type="DETAIL-CODELIST"
+                  id="detail_class_Model_StatusKwaliteitscontrole"
+                  id-global="global_class_Model_StatusKwaliteitscontrole"
+                  uuid="EAID_8A624512_B367_4f10_865A_A0FB2BD674E7">
+            <content>
+               <part>
+                  <item>Definitie</item>
+                  <item>De lijst van de mogelijke uitkomsten van het eindoordeel van de bronhouder over de betrouwbaarheid van individuele metingen.</item>
+               </part>
+            </content>
+            <content>
+               <itemtype type="NAME"/>
+               <itemtype type="IMBRO"/>
+               <itemtype type="IMBROA"/>
+               <itemtype type="DEFINITION"/>
+               <part>
+                  <item>Goedgekeurd</item>
+                  <item>✔</item>
+                  <item>✔</item>
+                  <item>Er is geen reden om aan de juistheid van dit gegeven te twijfelen op basis is van de gehanteerde beoordelingsprocedure.</item>
+               </part>
+               <part>
+                  <item>Onbeslist</item>
+                  <item>✔</item>
+                  <item>✔</item>
+                  <item>Er zijn op basis is van de gehanteerde beoordelingsprocedure twijfels over de juistheid van dit gegeven, maar uitsluitsel kon niet gegeven worden.</item>
+               </part>
+               <part>
+                  <item>Afgekeurd</item>
+                  <item>✔</item>
+                  <item>✔</item>
+                  <item>Er is reden om dit gegeven als onjuist te beschouwen. De waarde kon niet geverifieerd worden op basis is van de gehanteerde beoordelingsprocedure.</item>
+               </part>
+               <part>
+                  <item>Onbekend</item>
+                  <item/>
+                  <item>✔</item>
+                  <item>Er is geen beoordeling gedaan van de kwaliteit, of het is onbekend of er een beoordeling is gedaan (IMBRO/A kwaliteitsregime).</item>
                </part>
             </content>
          </section>
@@ -8828,48 +8913,6 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017.</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>Het monster is aangeleverd in een verpakking die afwijkt van de eisen in de gebruikte bemonsteringsnorm. Dit is mogelijk van invloed op de betrouwbaarheid van de analyse.</item>
-               </part>
-            </content>
-         </section>
-         <section name="StatusKwaliteitscontrole"
-                  type="DETAIL-CODELIST"
-                  id="detail_class_Model_StatusKwaliteitscontrole"
-                  id-global="global_class_Model_StatusKwaliteitscontrole"
-                  uuid="EAID_8A624512_B367_4f10_865A_A0FB2BD674E7">
-            <content>
-               <part>
-                  <item>Definitie</item>
-                  <item>De lijst van de mogelijke uitkomsten van het eindoordeel van de bronhouder over de betrouwbaarheid van individuele metingen.</item>
-               </part>
-            </content>
-            <content>
-               <itemtype type="NAME"/>
-               <itemtype type="IMBRO"/>
-               <itemtype type="IMBROA"/>
-               <itemtype type="DEFINITION"/>
-               <part>
-                  <item>Goedgekeurd</item>
-                  <item>✔</item>
-                  <item>✔</item>
-                  <item>Er is geen reden om aan de juistheid van dit gegeven te twijfelen op basis is van de gehanteerde beoordelingsprocedure.</item>
-               </part>
-               <part>
-                  <item>Onbeslist</item>
-                  <item>✔</item>
-                  <item>✔</item>
-                  <item>Er zijn op basis is van de gehanteerde beoordelingsprocedure twijfels over de juistheid van dit gegeven, maar uitsluitsel kon niet gegeven worden.</item>
-               </part>
-               <part>
-                  <item>Afgekeurd</item>
-                  <item>✔</item>
-                  <item>✔</item>
-                  <item>Er is reden om dit gegeven als onjuist te beschouwen. De waarde kon niet geverifieerd worden op basis is van de gehanteerde beoordelingsprocedure.</item>
-               </part>
-               <part>
-                  <item>Onbekend</item>
-                  <item/>
-                  <item>✔</item>
-                  <item>Er is geen beoordeling gedaan van de kwaliteit, of het is onbekend of er een beoordeling is gedaan (IMBRO/A kwaliteitsregime).</item>
                </part>
             </content>
          </section>
