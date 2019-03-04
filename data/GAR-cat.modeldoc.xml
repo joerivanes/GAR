@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.51.4"
-      generator-date="2019-03-04T13:16:16Z">
+      generator-date="2019-03-04T15:16:22Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN" name="Model" id="global_package_Model">
          <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
@@ -1287,7 +1287,7 @@
                            <item type="detail"
                                  idref="detail_attribute_Model_ResultaatParameters_rapportagegrens">rapportagegrens</item>
                         </item>
-                        <item>De door het uitvoerende laboratorium met de opdrachtgever afgesproken grensconcentratie waarboven het gemeten gehalte of de waargenomen waarde van de component in een monster wordt gerapporteerd aan de opdrachtgever.</item>
+                        <item>De door het uitvoerende laboratorium met de opdrachtgever afgesproken grensconcentratie waarboven het gemeten gehalte of de waargenomen waarde van de parameter in een monster wordt gerapporteerd aan de opdrachtgever.</item>
                         <item>
                            <item type="global" idref="global_class_Model_Meetwaarde">Meetwaarde</item>
                         </item>
@@ -4488,7 +4488,7 @@ De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van
                         </part>
                         <part type="CFG-DOC-DEFINITIE">
                            <item>Definitie</item>
-                           <item>De door het uitvoerende laboratorium met de opdrachtgever afgesproken grensconcentratie waarboven het gemeten gehalte of de waargenomen waarde van de component in een monster wordt gerapporteerd aan de opdrachtgever.</item>
+                           <item>De door het uitvoerende laboratorium met de opdrachtgever afgesproken grensconcentratie waarboven het gemeten gehalte of de waargenomen waarde van de parameter in een monster wordt gerapporteerd aan de opdrachtgever.</item>
                         </part>
                         <part type="CFG-DOC-HERKOMSTDEFINITIE">
                            <item>Herkomst definitie</item>
