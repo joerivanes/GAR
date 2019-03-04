@@ -2,7 +2,7 @@
 <section id="cat" class="normative">
    <h2>Catalogus</h2>
    <p><b>Deze tekst is normatief.</b>
-      <!--Conceptualmodel-GrondwatersamenstellingsonderzoekGAR-0.1-2-20190214-20190228-165245 imvertor --></p>
+      <!--Conceptualmodel-GrondwatersamenstellingsonderzoekGAR-0.1-2-20190304-20190304-105359 imvertor --></p>
    <div class="imageinfo overview"><img src="data/Images/EAID_BBDCFEE2_BB5A_4b62_99F2_796C8F526D8F.png" usemap="#imagemap-EAID_BBDCFEE2_BB5A_4b62_99F2_796C8F526D8F"><map name="imagemap-EAID_BBDCFEE2_BB5A_4b62_99F2_796C8F526D8F">
          <area shape="rect" coords="296,963,467,835" alt="" href="#graph_EAID_FEC2B1DD_E5C2_4c90_8B71_B69ADC431AB0">
          <area shape="rect" coords="889,121,1021,58" alt="" href="#graph_EAID_F327F5A5_BFAE_4282_A78C_984A77CF8D47">
@@ -952,7 +952,8 @@
                      
                   </td>
                   <td>Het eindoordeel van de bronhouder over de betrouwbaarheid van een individuele meting
-                     van het grondwatersamenstellingsonderzoek.
+                     van het grondwatersamenstellingsonderzoek op basis van een, voor het hele onderzoek
+                     gebruikte, beoordelingsprocedure.
                   </td>
                   <td>
                      <a class="link" href="#global_class_Model_StatusKwaliteitscontrole">StatusKwaliteitscontrole</a>
@@ -1173,7 +1174,7 @@
                      <a class="link" href="#detail_attribute_Model_Analyseproces_bepalingstechniek">bepalingstechniek</a>
                      
                   </td>
-                  <td>De analysetechniek die gebruikt is bij het bepalen van het gehalte van stoffen.</td>
+                  <td>De analysetechniek die gebruikt is bij het bepalen van het gehalte van parameters.</td>
                   <td>
                      <a class="link" href="#global_class_Model_Bepalingstechniek">Bepalingstechniek</a>
                      
@@ -1345,8 +1346,8 @@
                      
                   </td>
                   <td>De aanduiding die aangeeft of het gerapporteerde gehalte een schatting is van de concentratie.
-                     Dit is het geval als de gehanteerde methode slechts een indicatie geeft voor aanwezigheid
-                     van deze component.
+                     Dit is het geval als de gehanteerde bepalingstechniek slechts een indicatie geeft
+                     voor aanwezigheid van deze parameter.
                   </td>
                   <td>
                      <a class="link" href="#global_class_Model_IndicatieJaNeeOnbekend">IndicatieJaNeeOnbekend</a>
@@ -1359,8 +1360,9 @@
                      <a class="link" href="#detail_attribute_Model_ResultaatParameters_voldaanAanIdentificaticriteria">voldaan aan identificaticriteria</a>
                      
                   </td>
-                  <td>De aanduiding die aangeeft of voor de component aan de identificatiecriteria is voldaan.
-                     Als dit niet het geval is, is er wel een indicatie voor de aanwezigheid van de component.
+                  <td>De aanduiding die aangeeft of voor de parameter aan de identificatiecriteria conform
+                     de bepalingsprocedure is voldaan. Als dit niet het geval is, is er wel een indicatie
+                     voor de aanwezigheid van de parameter.
                   </td>
                   <td>
                      <a class="link" href="#global_class_Model_IndicatieJaNeeOnbekend">IndicatieJaNeeOnbekend</a>
@@ -1374,7 +1376,8 @@
                      
                   </td>
                   <td>Het eindoordeel van de bronhouder over de betrouwbaarheid van een individuele meting
-                     van het grondwatersamenstellingsonderzoek.
+                     van het grondwatersamenstellingsonderzoek op basis van een, voor het hele onderzoek
+                     gebruikte, beoordelingsprocedure.
                   </td>
                   <td>
                      <a class="link" href="#global_class_Model_StatusKwaliteitscontrole">StatusKwaliteitscontrole</a>
@@ -4207,7 +4210,8 @@
                   <tr>
                      <th>Definitie</th>
                      <td>Het eindoordeel van de bronhouder over de betrouwbaarheid van een individuele meting
-                        van het grondwatersamenstellingsonderzoek.
+                        van het grondwatersamenstellingsonderzoek op basis van een, voor het hele onderzoek
+                        gebruikte, beoordelingsprocedure.
                      </td>
                   </tr>
                   <tr>
@@ -4485,7 +4489,7 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De analysetechniek die gebruikt is bij het bepalen van het gehalte van stoffen.</td>
+                     <td>De analysetechniek die gebruikt is bij het bepalen van het gehalte van parameters.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -4943,13 +4947,20 @@
                   <tr>
                      <th>Definitie</th>
                      <td>De aanduiding die aangeeft of het gerapporteerde gehalte een schatting is van de concentratie.
-                        Dit is het geval als de gehanteerde methode slechts een indicatie geeft voor aanwezigheid
-                        van deze component.
+                        Dit is het geval als de gehanteerde bepalingstechniek slechts een indicatie geeft
+                        voor aanwezigheid van deze parameter.
                      </td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Het komt voor dat de bepalingstechniek een waarde meet die hoger is dan de rapportagegrens
+                        maar dat deze waarde niet conform de norm is bepaald en het gerapporteerde gehalte
+                        een schatting is van de concentratie.
+                     </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -5005,8 +5016,9 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De aanduiding die aangeeft of voor de component aan de identificatiecriteria is voldaan.
-                        Als dit niet het geval is, is er wel een indicatie voor de aanwezigheid van de component.
+                     <td>De aanduiding die aangeeft of voor de parameter aan de identificatiecriteria conform
+                        de bepalingsprocedure is voldaan. Als dit niet het geval is, is er wel een indicatie
+                        voor de aanwezigheid van de parameter.
                      </td>
                   </tr>
                   <tr>
@@ -5016,10 +5028,10 @@
                   <tr>
                      <th>Toelichting</th>
                      <td>Identificatiecriteria kunnen (bv) drie componenten aanduiden die geïdentificeerd moeten
-                        worden voor een bepaalde stof. Als hiervan één ontbreekt (of met onvoldoende betrouwbaarheid
-                        kan worden bepaald) dan kan een (op zich nauwkeurig) gehalte gerapporteerd worden,
-                        alleen niet (cf de norm) met zekerheid gezegd worden dat het om de betreffende stof
-                        gaat.
+                        worden voor een bepaalde parameter. Als hiervan één ontbreekt (of met onvoldoende
+                        betrouwbaarheid kan worden bepaald) dan kan een (op zich nauwkeurig) gehalte gerapporteerd
+                        worden, alleen kan niet (conform de norm) met zekerheid gezegd worden dat het om de
+                        betreffende parameter gaat.
                      </td>
                   </tr>
                   <tr>
@@ -5079,7 +5091,8 @@
                   <tr>
                      <th>Definitie</th>
                      <td>Het eindoordeel van de bronhouder over de betrouwbaarheid van een individuele meting
-                        van het grondwatersamenstellingsonderzoek.
+                        van het grondwatersamenstellingsonderzoek op basis van een, voor het hele onderzoek
+                        gebruikte, beoordelingsprocedure.
                      </td>
                   </tr>
                   <tr>
@@ -5105,6 +5118,13 @@
                   <tr>
                      <th>Indicatie authentiek</th>
                      <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Regels IMBRO/A</th>
+                     <td>Wanneer de waarde van het gegeven gelijk is aan “nietVolledig”, is de waarde van het
+                        attribuut beoordelingsprocedure van de entiteit Grondwatersamenstellingsonderzoek
+                        niet gelijk aan “onbekend”.
+                     </td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -5387,7 +5407,7 @@
 <section id="lis" class="normative">
    <h2>Inhoud van enumeraties en codelijsten</h2>
    <p><b>Deze tekst is normatief.</b>
-      <!--Conceptualmodel-GrondwatersamenstellingsonderzoekGAR-0.1-2-20190214-20190228-165245 imvertor --></p><a class="anchor" name="graph_EAID_104D1298_880E_4ae4_AB27_E1DF1AD62CDB"></a><a class="anchor" name="detail_class_Model_Registratiestatus"></a><section id="detail_class_Model_Registratiestatus">
+      <!--Conceptualmodel-GrondwatersamenstellingsonderzoekGAR-0.1-2-20190304-20190304-105359 imvertor --></p><a class="anchor" name="graph_EAID_104D1298_880E_4ae4_AB27_E1DF1AD62CDB"></a><a class="anchor" name="detail_class_Model_Registratiestatus"></a><section id="detail_class_Model_Registratiestatus">
       <h3>Codelijst details Registratiestatus</h3>
       
       <table>
