@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.51.4"
-      generator-date="2019-03-04T09:53:58Z">
+      generator-date="2019-03-04T13:16:16Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN" name="Model" id="global_package_Model">
          <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
@@ -1307,7 +1307,7 @@
                      <part>
                         <item>
                            <item type="detail"
-                                 idref="detail_attribute_Model_ResultaatParameters_voldaanAanIdentificaticriteria">voldaan aan identificaticriteria</item>
+                                 idref="detail_attribute_Model_ResultaatParameters_voldaanAanIdentificatiecriteria">voldaan aan identificatiecriteria</item>
                         </item>
                         <item>De aanduiding die aangeeft of voor de parameter aan de identificatiecriteria conform de bepalingsprocedure is voldaan. Als dit niet het geval is, is er wel een indicatie voor de aanwezigheid van de parameter.</item>
                         <item>
@@ -1656,7 +1656,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <item id="global_class_Model_Beoordelingsprocedure"
                         uuid="EAID_A98650D6_3EFC_4b31_8EB8_D00857AADE12"
                         idref="detail_class_Model_Beoordelingsprocedure">Beoordelingsprocedure</item>
-                  <item>De ljist van protocollen en werkwijzen die kunnen worden toegepast bij de beoordeling van de kwaliteit van de meetwaarden die in het veld en/of het laboratorium gemeten zijn.</item>
+                  <item>De lijst van protocollen en werkwijzen die kunnen worden toegepast bij de beoordeling van de kwaliteit van de meetwaarden die in het veld en/of het laboratorium gemeten zijn.</item>
                </part>
                <part>
                   <item id="global_class_Model_Bemonsteringsprocedure"
@@ -2848,7 +2848,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </part>
                         <part type="CFG-DOC-TOELICHTING">
                            <item>Toelichting</item>
-                           <item>Er is geen lijst gedefinieerd met bestrijdingmiddelen. De bronhouder geeft aan of er metingen in dit kader zijn gedaan. Voor de gebruiker is het een indicatie of binnen dit onderzoek metingen zijn gedaan aan bestrijdingmiddelen en/of gewasbeschermingsmiddelen.</item>
+                           <item>Er is geen lijst gedefinieerd met bestrijdingsmiddelen. De bronhouder geeft aan of er metingen in dit kader zijn gedaan. Voor de gebruiker is het een indicatie of binnen dit onderzoek metingen zijn gedaan aan bestrijdingsmiddelen en/of gewasbeschermingsmiddelen.</item>
                         </part>
                         <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                            <item>Mogelijk geen waarde</item>
@@ -4595,14 +4595,14 @@ De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van
                         </part>
                      </content>
                   </section>
-                  <section name="voldaan aan identificaticriteria"
+                  <section name="voldaan aan identificatiecriteria"
                            type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_ResultaatParameters_voldaanAanIdentificaticriteria"
-                           id-global="global_attribute_Model_ResultaatParameters_voldaanAanIdentificaticriteria">
+                           id="detail_attribute_Model_ResultaatParameters_voldaanAanIdentificatiecriteria"
+                           id-global="global_attribute_Model_ResultaatParameters_voldaanAanIdentificatiecriteria">
                      <content>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
-                           <item>voldaan aan identificaticriteria</item>
+                           <item>voldaan aan identificatiecriteria</item>
                         </part>
                         <part type="CFG-DOC-HERKOMST">
                            <item>Herkomst</item>
@@ -4975,7 +4975,7 @@ Bijvoorbeeld de opgeloste fractie, na filtratie (nf). Bij stiksfofverbindingen w
             <content>
                <part>
                   <item>Definitie</item>
-                  <item>De ljist van protocollen en werkwijzen die kunnen worden toegepast bij de beoordeling van de kwaliteit van de meetwaarden die in het veld en/of het laboratorium gemeten zijn.</item>
+                  <item>De lijst van protocollen en werkwijzen die kunnen worden toegepast bij de beoordeling van de kwaliteit van de meetwaarden die in het veld en/of het laboratorium gemeten zijn.</item>
                </part>
             </content>
             <content>
