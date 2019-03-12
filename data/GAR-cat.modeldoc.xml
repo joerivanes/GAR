@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.52.1"
-      generator-date="2019-03-11T14:30:52Z">
+      generator-date="2019-03-12T13:14:43Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN" name="Model" id="global_package_Model">
          <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
@@ -1808,7 +1808,7 @@
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Het domein <em>KvK-nummer</em> geeft het identificerende gegeven van een onderneming in het Handelsregister. De opbouw is NNNNNNNN.</p>
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Het formaat <em>KvK-nummer</em> geeft het identificerende gegeven van een onderneming in het Handelsregister. Het patroon is NNNNNNNN.</p>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_KvKNummer">KvK-nummer</item>
@@ -1823,7 +1823,7 @@
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Het domein <em>Europees handelsnummer</em>geeft het identificerende gegeven van een onderneming in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.</p>
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Het formaat <em>Europees handelsnummer</em>geeft het identificerende gegeven van een onderneming in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.</p>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_Tekst40">Tekst40</item>
@@ -1850,8 +1850,8 @@
                      <item>
                         <p xmlns="http://www.w3.org/1999/xhtml"
                            xmlns:html="http://www.w3.org/1999/xhtml"
-                           xmlns:imvert="http://www.imvertor.org/schema/system">Het domein Datum geeft een datum volgens de Gregoriaanse kalender tot op de dag nauwkeurig. De opbouw is JJJJ-MM-DD. 
-Wanneer een attribuut een domein van het type Datum heeft is het voldoende de naam te geven, omdat de opbouw altijd hetzelfde is. </p>
+                           xmlns:imvert="http://www.imvertor.org/schema/system">Het formaat Datum geeft een datum volgens de Gregoriaanse kalender tot op de dag nauwkeurig. Het patroon is JJJJ-MM-DD. 
+Wanneer een attribuut een formaat van het type Datum heeft is het voldoende de naam te geven, omdat het patroon altijd hetzelfde is. </p>
                      </item>
                   </part>
                </content>
@@ -1870,8 +1870,8 @@ Wanneer een attribuut een domein van het type Datum heeft is het voldoende de na
                      <item>
                         <p xmlns="http://www.w3.org/1999/xhtml"
                            xmlns:html="http://www.w3.org/1999/xhtml"
-                           xmlns:imvert="http://www.imvertor.org/schema/system">Het domein DatumTijd geeft een tijdstip volgens de Gregoriaanse kalender tot op de seconde nauwkeurig. De opbouw is JJJJ-MM-DDTUU:MM:SS+UU:MM. 
-Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende de naam te geven, omdat de opbouw altijd hetzelfde is. </p>
+                           xmlns:imvert="http://www.imvertor.org/schema/system">Het formaat DatumTijd geeft een tijdstip volgens de Gregoriaanse kalender tot op de seconde nauwkeurig. Het patroon is JJJJ-MM-DDTUU:MM:SS+UU:MM. 
+Wanneer een attribuut een formaat van het type DatumTijd heeft is het voldoende de naam te geven, omdat het patroon altijd hetzelfde is. </p>
                      </item>
                   </part>
                </content>
@@ -1890,7 +1890,7 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                      <item>
                         <p xmlns="http://www.w3.org/1999/xhtml"
                            xmlns:html="http://www.w3.org/1999/xhtml"
-                           xmlns:imvert="http://www.imvertor.org/schema/system">Het domein <em>KvK-nummer</em> geeft het identificerende gegeven van een onderneming in het Handelsregister. De opbouw is NNNNNNNN.</p>
+                           xmlns:imvert="http://www.imvertor.org/schema/system">Het formaat <em>KvK-nummer</em> geeft het identificerende gegeven van een onderneming in het Handelsregister. Het patroon is NNNNNNNN.</p>
                      </item>
                   </part>
                </content>
@@ -1909,7 +1909,7 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                      <item>
                         <p xmlns="http://www.w3.org/1999/xhtml"
                            xmlns:html="http://www.w3.org/1999/xhtml"
-                           xmlns:imvert="http://www.imvertor.org/schema/system">Het domein <em>meetwaarde</em> wordt in de basisregistratie ondergrond gebruikt voor gegevens die gemeten, berekend of anderszins bepaald zijn. Het is een getal en bij het getal hoort een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes uit het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is de eenheid dimensieloos. </p>
+                           xmlns:imvert="http://www.imvertor.org/schema/system">Het formaat <em>meetwaarde</em> wordt in de basisregistratie ondergrond gebruikt voor gegevens die gemeten, berekend of anderszins bepaald zijn. Het is een getal en bij het getal hoort een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes uit het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is de eenheid dimensieloos. </p>
                      </item>
                   </part>
                   <part type="CFG-DOC-TOELICHTING">
@@ -1917,13 +1917,13 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                      <item>
                         <p xmlns="http://www.w3.org/1999/xhtml"
                            xmlns:html="http://www.w3.org/1999/xhtml"
-                           xmlns:imvert="http://www.imvertor.org/schema/system">Het getal is altijd een rationaal getal, een getal met een decimaal scheidingsteken. Door het scheidingteken krijgt het een opbouw. Het aantal cijfers voor het scheidingsteken is variabel maar begrensd. Het aantal cijfers achter het scheidingsteken ligt vast.</p>
+                           xmlns:imvert="http://www.imvertor.org/schema/system">Het getal is altijd een rationaal getal, een getal met een decimaal scheidingsteken. Door het scheidingteken krijgt het een patroon. Het aantal cijfers voor het scheidingsteken is variabel maar begrensd. Het aantal cijfers achter het scheidingsteken ligt vast.</p>
                         <p xmlns="http://www.w3.org/1999/xhtml"
                            xmlns:html="http://www.w3.org/1999/xhtml"
-                           xmlns:imvert="http://www.imvertor.org/schema/system">Gewoonlijk wordt niet alleen de opbouw van het getal benoemd, maar wordt het domein verder ingeperkt door een bereik te specificeren. Het bereik geeft de minimale en de maximale waarde aan die een attribuut kan hebben. </p>
+                           xmlns:imvert="http://www.imvertor.org/schema/system">Gewoonlijk wordt niet alleen het patroon van het getal benoemd, maar wordt het formaat verder ingeperkt door een bereik te specificeren. Het bereik van het attribuut wordt weergegeven door de minimumwaarde en de maximumwaarde. Het kan ook voorkomen dat alleen de minimumwaarde of alleen de maximumwaarde is weergegeven. </p>
                         <p xmlns="http://www.w3.org/1999/xhtml"
                            xmlns:html="http://www.w3.org/1999/xhtml"
-                           xmlns:imvert="http://www.imvertor.org/schema/system">Wanneer een attribuut een domein van het type meetwaarde heeft wordt de opbouw, de eenheid en indien van toepassing het bereik gegeven. De opbouw wordt aangeduid als N.N waarde. N staat voor het maximum aantal cijfers voor, resp. het aantal cijfers achter het scheidingsteken.</p>
+                           xmlns:imvert="http://www.imvertor.org/schema/system">Wanneer een attribuut een formaat van het type meetwaarde heeft, wordt het patroon, de eenheid en indien van toepassing de minimumwaarde en maximumwaarde gegeven. Het patroon wordt aangeduid als N.N waarde. N staat voor het maximum aantal cijfers voor, resp. het aantal cijfers achter het scheidingsteken.</p>
                      </item>
                   </part>
                </content>
@@ -1942,7 +1942,7 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                      <item>
                         <p xmlns="http://www.w3.org/1999/xhtml"
                            xmlns:html="http://www.w3.org/1999/xhtml"
-                           xmlns:imvert="http://www.imvertor.org/schema/system">Een domein van het type nummer is een opeenvolging van cijfers met een bepaalde maximale lengte. Een nummer heeft geen rekenkundige betekenis, maar heeft een betekenisvolle volgorde. Een domein van het type nummer wordt volledig gespecificeerd door met de aanduiding nummer ook de maximale lengte mee te geven. In het domeinmodel is de algemene aanduiding NummerN, waarbij N de maximale lengte aangeeft.</p>
+                           xmlns:imvert="http://www.imvertor.org/schema/system">Een formaat van het type nummer is een opeenvolging van cijfers met een bepaalde maximale lengte. Een nummer heeft geen rekenkundige betekenis, maar heeft een betekenisvolle volgorde. Een formaat van het type nummer wordt volledig gespecificeerd door met de aanduiding nummer ook de maximale lengte mee te geven. In het domeinmodel is de algemene aanduiding NummerN, waarbij N de maximale lengte aangeeft.</p>
                      </item>
                   </part>
                </content>
@@ -1969,7 +1969,7 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                      <item>
                         <p xmlns="http://www.w3.org/1999/xhtml"
                            xmlns:html="http://www.w3.org/1999/xhtml"
-                           xmlns:imvert="http://www.imvertor.org/schema/system">Opbouw: GARNNNNNNNNNNNN
+                           xmlns:imvert="http://www.imvertor.org/schema/system">Patroon: GARNNNNNNNNNNNN
 De basisregistratie ondergrond kent bij registratie automatisch de juiste waarde aan het object toe.</p>
                      </item>
                   </part>
@@ -1989,8 +1989,8 @@ De basisregistratie ondergrond kent bij registratie automatisch de juiste waarde
                      <item>
                         <p xmlns="http://www.w3.org/1999/xhtml"
                            xmlns:html="http://www.w3.org/1999/xhtml"
-                           xmlns:imvert="http://www.imvertor.org/schema/system">Een domein van het type tekst bestaat uit een stuk tekst van een bepaalde maximale lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie die een Latijns schrift kennen. 
-Een domein van het type tekst wordt volledig gespecificeerd door met de aanduiding tekst ook de maximale lengte mee te geven. In het domeinmodel wordt het domein aangeduid als TekstN, waarbij N de maximale lengte aangeeft.</p>
+                           xmlns:imvert="http://www.imvertor.org/schema/system">Een formaat van het type tekst bestaat uit een stuk tekst van een bepaalde maximale lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie die een Latijns schrift kennen. 
+Een formaat van het type tekst wordt volledig gespecificeerd door met de aanduiding tekst ook de maximale lengte mee te geven. In het domeinmodel wordt het formaat aangeduid als TekstN, waarbij N de maximale lengte aangeeft.</p>
                      </item>
                   </part>
                </content>
@@ -2009,8 +2009,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      <item>
                         <p xmlns="http://www.w3.org/1999/xhtml"
                            xmlns:html="http://www.w3.org/1999/xhtml"
-                           xmlns:imvert="http://www.imvertor.org/schema/system">Een domein van het type tekst bestaat uit een stuk tekst van een bepaalde maximale lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie die een Latijns schrift kennen. 
-Een domein van het type tekst wordt volledig gespecificeerd door met de aanduiding tekst ook de maximale lengte mee te geven. In het domeinmodel wordt het domein aangeduid als TekstN, waarbij N de maximale lengte aangeeft.</p>
+                           xmlns:imvert="http://www.imvertor.org/schema/system">Een formaat van het type tekst bestaat uit een stuk tekst van een bepaalde maximale lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie die een Latijns schrift kennen. 
+Een formaat van het type tekst wordt volledig gespecificeerd door met de aanduiding tekst ook de maximale lengte mee te geven. In het domeinmodel wordt het formaat aangeduid als TekstN, waarbij N de maximale lengte aangeeft.</p>
                      </item>
                   </part>
                </content>
@@ -2139,7 +2139,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden. Uitbreiding van de keuzelijst is niet mogelijk. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een formaat in de vorm van een keuzelijst met een limitatieve opsomming van waarden. Uitbreiding van de keuzelijst is niet mogelijk. </p>
                   </item>
                </part>
                <part>
@@ -2149,7 +2149,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden. Uitbreiding van de keuzelijst is niet mogelijk. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een formaat in de vorm van een keuzelijst met een limitatieve opsomming van waarden. Uitbreiding van de keuzelijst is niet mogelijk. </p>
                   </item>
                </part>
                <part>
@@ -2159,7 +2159,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden voor het duiden van de kwaliteitseis waaraan de gegevens van het object voldoen.  Uitbreiding van de keuzelijst is niet mogelijk.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een formaat in de vorm van een keuzelijst met een limitatieve opsomming van waarden voor het duiden van de kwaliteitseis waaraan de gegevens van het object voldoen.  Uitbreiding van de keuzelijst is niet mogelijk.</p>
                   </item>
                </part>
             </content>
@@ -5775,7 +5775,7 @@ Bijvoorbeeld de opgeloste fractie, na filtratie (nf). Bij stiksfofverbindingen w
                            <item>
                               <p xmlns="http://www.w3.org/1999/xhtml"
                                  xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">Het domein <em>KvK-nummer</em> geeft het identificerende gegeven van een onderneming in het Handelsregister. De opbouw is NNNNNNNN.</p>
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Het formaat <em>KvK-nummer</em> geeft het identificerende gegeven van een onderneming in het Handelsregister. Het patroon is NNNNNNNN.</p>
                            </item>
                         </part>
                         <part type="CFG-DOC-INDICATIEKARDINALITEIT">
@@ -5802,7 +5802,7 @@ Bijvoorbeeld de opgeloste fractie, na filtratie (nf). Bij stiksfofverbindingen w
                            <item>
                               <p xmlns="http://www.w3.org/1999/xhtml"
                                  xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">Het domein <em>Europees handelsnummer</em>geeft het identificerende gegeven van een onderneming in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.</p>
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Het formaat <em>Europees handelsnummer</em>geeft het identificerende gegeven van een onderneming in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.</p>
                            </item>
                         </part>
                         <part type="CFG-DOC-INDICATIEKARDINALITEIT">
@@ -9918,7 +9918,7 @@ onderin de peilbuis.</p>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden. Uitbreiding van de keuzelijst is niet mogelijk. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een formaat in de vorm van een keuzelijst met een limitatieve opsomming van waarden. Uitbreiding van de keuzelijst is niet mogelijk. </p>
                   </item>
                </part>
             </content>
@@ -9960,7 +9960,7 @@ onderin de peilbuis.</p>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden. Uitbreiding van de keuzelijst is niet mogelijk. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een formaat in de vorm van een keuzelijst met een limitatieve opsomming van waarden. Uitbreiding van de keuzelijst is niet mogelijk. </p>
                   </item>
                </part>
             </content>
@@ -10012,7 +10012,7 @@ onderin de peilbuis.</p>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden voor het duiden van de kwaliteitseis waaraan de gegevens van het object voldoen.  Uitbreiding van de keuzelijst is niet mogelijk.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een formaat in de vorm van een keuzelijst met een limitatieve opsomming van waarden voor het duiden van de kwaliteitseis waaraan de gegevens van het object voldoen.  Uitbreiding van de keuzelijst is niet mogelijk.</p>
                   </item>
                </part>
             </content>
