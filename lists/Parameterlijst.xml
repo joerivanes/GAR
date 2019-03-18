@@ -1,608 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <domeintabel>
     <Parameter>
-        <aquocode>O18-H2O</aquocode>
-        <CASnummer></CASnummer>
-        <omschrijving>Zuurstof-18 isotoop - water</omschrijving>
-        <eenheid>0/00  V-SMOW</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>D2-H2O</aquocode>
-        <CASnummer></CASnummer>
-        <omschrijving>Deuterium (waterstof-2 isotoop) - water</omschrijving>
-        <eenheid>0/00 V-SMOW</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>C13-TIC</aquocode>
-        <CASnummer></CASnummer>
-        <omschrijving>Koolstof-13 isotoop - totaal anorganisch koolstof (carbonaten)</omschrijving>
-        <eenheid>0/00 V-PDB</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>C14-TIC</aquocode>
-        <CASnummer></CASnummer>
-        <omschrijving>Koolstof-14 isotoop - totaal anorganisch koolstof (carbonaten)</omschrijving>
-        <eenheid>PMC</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>H3-H2O</aquocode>
-        <CASnummer></CASnummer>
-        <omschrijving>Tritium (waterstof-3 isotoop) - water</omschrijving>
-        <eenheid>TU</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>3He-He</aquocode>
-        <CASnummer></CASnummer>
-        <omschrijving>Helium-3 isotoop - heliumgas</omschrijving>
-        <eenheid>ccSTP/kg</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>cipfxcne</aquocode>
-        <CASnummer>85721-33-1</CASnummer>
-        <omschrijving> 	ciprofloxacine</omschrijving>
-        <eenheid>ug/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>pH</aquocode>
-        <CASnummer>NVT</CASnummer>
-        <omschrijving>Zuurgraad</omschrijving>
-        <eenheid>DIMSLS</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>14DOxan</aquocode>
-        <CASnummer>123-91-1</CASnummer>
-        <omschrijving>1,4-dioxaan</omschrijving>
-        <eenheid>mg/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>actntl</aquocode>
-        <CASnummer>75-05-8</CASnummer>
-        <omschrijving>acetonitril</omschrijving>
-        <eenheid>mg/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>HCO3</aquocode>
-        <CASnummer>71-52-3</CASnummer>
-        <omschrijving>alkaliteit uitgedrukt in waterstofcarbonaat</omschrijving>
-        <eenheid>mg/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>NH4</aquocode>
-        <CASnummer>14798-03-9</CASnummer>
-        <omschrijving>ammonium</omschrijving>
-        <eenheid>mg/l</eenheid>
-        <hoedanigheid>Nnf</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>Br</aquocode>
-        <CASnummer>24959-67-9</CASnummer>
-        <omschrijving>bromide</omschrijving>
-        <eenheid>mg/l</eenheid>
-        <hoedanigheid>nf</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>Ca</aquocode>
-        <CASnummer>7440-70-2</CASnummer>
-        <omschrijving>calcium</omschrijving>
-        <eenheid>mg/l</eenheid>
-        <hoedanigheid>nf</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>CO3</aquocode>
-        <CASnummer>3812-32-6</CASnummer>
-        <omschrijving>carbonaat</omschrijving>
-        <eenheid>mg/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>Cl</aquocode>
-        <CASnummer>16887-00-6</CASnummer>
-        <omschrijving>chloride</omschrijving>
-        <eenheid>mg/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>DC2yEtr</aquocode>
-        <CASnummer>60-29-7</CASnummer>
-        <omschrijving>diethylether</omschrijving>
-        <eenheid>mg/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>F</aquocode>
-        <CASnummer>16984-48-8</CASnummer>
-        <omschrijving>fluoride</omschrijving>
-        <eenheid>mg/l</eenheid>
-        <hoedanigheid>nf</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>Ptot</aquocode>
-        <CASnummer>NVT</CASnummer>
-        <omschrijving>fosfor totaal</omschrijving>
-        <eenheid>mg/l</eenheid>
-        <hoedanigheid>Pnf</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>K</aquocode>
-        <CASnummer>7440-09-7</CASnummer>
-        <omschrijving>kalium</omschrijving>
-        <eenheid>mg/l</eenheid>
-        <hoedanigheid>nf</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>Corg</aquocode>
-        <CASnummer>NVT</CASnummer>
-        <omschrijving>koolstof organisch</omschrijving>
-        <eenheid>mg/l</eenheid>
-        <hoedanigheid>Cnf</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>Mg</aquocode>
-        <CASnummer>7439-95-4</CASnummer>
-        <omschrijving>magnesium</omschrijving>
-        <eenheid>mg/l</eenheid>
-        <hoedanigheid>nf</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>Na</aquocode>
-        <CASnummer>7440-23-5</CASnummer>
-        <omschrijving>natrium</omschrijving>
-        <eenheid>mg/l</eenheid>
-        <hoedanigheid>nf</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>NO3</aquocode>
-        <CASnummer>14797-55-8</CASnummer>
-        <omschrijving>nitraat</omschrijving>
-        <eenheid>mg/l</eenheid>
-        <hoedanigheid>Nnf</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>NO2</aquocode>
-        <CASnummer>14797-65-0</CASnummer>
-        <omschrijving>nitriet</omschrijving>
-        <eenheid>mg/l</eenheid>
-        <hoedanigheid>Nnf</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PO4</aquocode>
-        <CASnummer>14265-44-2</CASnummer>
-        <omschrijving>orthofosfaat</omschrijving>
-        <eenheid>mg/l</eenheid>
-        <hoedanigheid>Pnf</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>SiO2</aquocode>
-        <CASnummer>14808-60-7</CASnummer>
-        <omschrijving>siliciumdioxide</omschrijving>
-        <eenheid>mg/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>Ntot</aquocode>
-        <CASnummer>NVT</CASnummer>
-        <omschrijving>stikstof totaal</omschrijving>
-        <eenheid>mg/l</eenheid>
-        <hoedanigheid>Nnf</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>SO4</aquocode>
-        <CASnummer>14808-79-8</CASnummer>
-        <omschrijving>sulfaat</omschrijving>
-        <eenheid>mg/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>O2</aquocode>
-        <CASnummer>7782-44-7</CASnummer>
-        <omschrijving>zuurstof</omschrijving>
-        <eenheid>mg/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>GELDHD</aquocode>
-        <CASnummer>NVT</CASnummer>
-        <omschrijving>Geleidendheid</omschrijving>
-        <eenheid>mS/m</eenheid>
-        <hoedanigheid>25oC</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCDF135</aquocode>
-        <CASnummer>39001-02-0</CASnummer>
-        <omschrijving>1,2,3,4,6,7,8,9-octachloordibenzofuraan</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCDD75</aquocode>
-        <CASnummer>3268-87-9</CASnummer>
-        <omschrijving>1,2,3,4,6,7,8,9-octachloordibenzo-p-dioxine</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCDF131</aquocode>
-        <CASnummer>67562-39-4</CASnummer>
-        <omschrijving>1,2,3,4,6,7,8-heptachloordibenzofuraan</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCDD73</aquocode>
-        <CASnummer>35822-46-9</CASnummer>
-        <omschrijving>1,2,3,4,6,7,8-heptachloordibenzo-p-dioxine</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCDF134</aquocode>
-        <CASnummer>55673-89-7</CASnummer>
-        <omschrijving>1,2,3,4,7,8,9-heptachloordibenzofuraan</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCDF118</aquocode>
-        <CASnummer>70648-26-9</CASnummer>
-        <omschrijving>1,2,3,4,7,8-hexachloordibenzofuraan</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCDD66</aquocode>
-        <CASnummer>39227-28-6</CASnummer>
-        <omschrijving>1,2,3,4,7,8-hexachloordibenzo-p-dioxine</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCDF121</aquocode>
-        <CASnummer>57117-44-9</CASnummer>
-        <omschrijving>1,2,3,6,7,8-hexachloordibenzofuraan</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCDD67</aquocode>
-        <CASnummer>57653-85-7</CASnummer>
-        <omschrijving>1,2,3,6,7,8-hexachloordibenzo-p-dioxine</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCDF124</aquocode>
-        <CASnummer>72918-21-9</CASnummer>
-        <omschrijving>1,2,3,7,8,9-hexachloordibenzofuraan</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCDD70</aquocode>
-        <CASnummer>19408-74-3</CASnummer>
-        <omschrijving>1,2,3,7,8,9-hexachloordibenzo-p-dioxine</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCDF94</aquocode>
-        <CASnummer>57117-41-6</CASnummer>
-        <omschrijving>1,2,3,7,8-pentachloordibenzofuraan</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCDD54</aquocode>
-        <CASnummer>40321-76-4</CASnummer>
-        <omschrijving>1,2,3,7,8-pentachloordibenzo-p-dioxine</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>1011tDolcarb</aquocode>
-        <CASnummer>35079-97-1</CASnummer>
-        <omschrijving>10,11-transdiol carbamazepine</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCB189</aquocode>
-        <CASnummer>39635-31-9</CASnummer>
-        <omschrijving>2,3,3',4,4',5,5 '-heptachlorobifenyl</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCB157</aquocode>
-        <CASnummer>69782-90-7</CASnummer>
-        <omschrijving>2,3,3',4,4',5'-hexachloorbifenyl</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCB156</aquocode>
-        <CASnummer>38380-08-4</CASnummer>
-        <omschrijving>2,3,3',4,4',5-hexachloorbifenyl</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCB105</aquocode>
-        <CASnummer>32598-14-4</CASnummer>
-        <omschrijving>2,3,3',4,4'-pentachloorbifenyl</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCB167</aquocode>
-        <CASnummer>52663-72-6</CASnummer>
-        <omschrijving>2,3',4,4',5,5'-hexachloorbifenyl</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCB114</aquocode>
-        <CASnummer>74472-37-0</CASnummer>
-        <omschrijving>2,3,4,4',5-pentachloorbifenyl</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCB123</aquocode>
-        <CASnummer>65510-44-3</CASnummer>
-        <omschrijving>2,3',4,4',5'-pentachloorbifenyl</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCB118</aquocode>
-        <CASnummer>31508-00-6</CASnummer>
-        <omschrijving>2,3',4,4',5-pentachloorbifenyl</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCDF130</aquocode>
-        <CASnummer>60851-34-5</CASnummer>
-        <omschrijving>2,3,4,6,7,8-hexachloordibenzofuraan</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCDF114</aquocode>
-        <CASnummer>57117-31-4</CASnummer>
-        <omschrijving>2,3,4,7,8-pentachloordibenzofuraan</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCDF83</aquocode>
-        <CASnummer>51207-31-9</CASnummer>
-        <omschrijving>2,3,7,8-tetrachloordibenzofuraan</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCDD48</aquocode>
-        <CASnummer>1746-01-6</CASnummer>
-        <omschrijving>2,3,7,8-tetrachloordibenzo-p-dioxine</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>24DDD</aquocode>
-        <CASnummer>53-19-0</CASnummer>
-        <omschrijving>2,4'-dichloordifenyldichloorethaan</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>24DDE</aquocode>
-        <CASnummer>3424-82-6</CASnummer>
-        <omschrijving>2,4'-dichloordifenyldichlooretheen</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>24DDT</aquocode>
-        <CASnummer>789-02-6</CASnummer>
-        <omschrijving>2,4'-dichloordifenyltrichloorethaan</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>2HOxibpfn</aquocode>
-        <CASnummer>51146-55-5</CASnummer>
-        <omschrijving>2-hydroxyibuprofen</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCB169</aquocode>
-        <CASnummer>32774-16-6</CASnummer>
-        <omschrijving>3,3',4,4',5,5'-hexachloorbifenyl</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCB126</aquocode>
-        <CASnummer>57465-28-8</CASnummer>
-        <omschrijving>3,3',4,4',5-pentachloorbifenyl</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCB77</aquocode>
-        <CASnummer>32598-13-3</CASnummer>
-        <omschrijving>3,3',4,4'-tetrachloorbifenyl</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>PCB81</aquocode>
-        <CASnummer>70362-50-4</CASnummer>
-        <omschrijving>3,4,4',5-tetrachlorobifenyl</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>actsfmtozl</aquocode>
-        <CASnummer>21312-10-7</CASnummer>
-        <omschrijving>acetylsulfamethoxazol</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>aedsfn</aquocode>
-        <CASnummer>959-98-8</CASnummer>
-        <omschrijving>alfa-endosulfan</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>Clafncl</aquocode>
-        <CASnummer>56-75-7</CASnummer>
-        <omschrijving>chlooramfenicol</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>clofbt</aquocode>
-        <CASnummer>637-07-0</CASnummer>
-        <omschrijving>clofibraat</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>dHCH</aquocode>
-        <CASnummer>319-86-8</CASnummer>
-        <omschrijving>delta-hexachloorcyclohexaan</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>enlpl</aquocode>
-        <CASnummer>75847-73-3</CASnummer>
-        <omschrijving>enalapril</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>endn</aquocode>
-        <CASnummer>72-20-8</CASnummer>
-        <omschrijving>endrin</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>fenfbnzr</aquocode>
-        <CASnummer>42017-89-0</CASnummer>
-        <omschrijving>fenofibrinezuur</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>guanurum</aquocode>
-        <CASnummer>141-83-3</CASnummer>
-        <omschrijving>guanylureum</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>lostan</aquocode>
-        <CASnummer>114798-26-4</CASnummer>
-        <omschrijving>losartan</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>manb</aquocode>
-        <CASnummer>12427-38-2</CASnummer>
-        <omschrijving>maneb</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>C1yazfs</aquocode>
-        <CASnummer>86-50-0</CASnummer>
-        <omschrijving>methylazinfos</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>paroetne</aquocode>
-        <CASnummer>61869-08-7</CASnummer>
-        <omschrijving>paroxetine</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>pravstne</aquocode>
-        <CASnummer>81093-37-0</CASnummer>
-        <omschrijving>pravastatine</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>temzpm</aquocode>
-        <CASnummer>846-50-4</CASnummer>
-        <omschrijving>temazepam</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>theoplne</aquocode>
-        <CASnummer>58-55-9</CASnummer>
-        <omschrijving>theophylline</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>tHpClepO</aquocode>
-        <CASnummer>28044-83-9</CASnummer>
-        <omschrijving>trans-heptachloorepoxide</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>TC4ySn</aquocode>
-        <CASnummer>36643-28-4</CASnummer>
-        <omschrijving>tributyltin (kation)</omschrijving>
-        <eenheid>ng/l</eenheid>
-        <hoedanigheid>Sn</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>TROEBHD</aquocode>
-        <CASnummer>NVT</CASnummer>
-        <omschrijving>Troebelheid</omschrijving>
-        <eenheid>NTU</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>T</aquocode>
-        <CASnummer>NVT</CASnummer>
-        <omschrijving>Temperatuur</omschrijving>
-        <eenheid>oC</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
-        <aquocode>ClO3</aquocode>
-        <CASnummer>14866-68-3</CASnummer>
-        <omschrijving>chloraat</omschrijving>
-        <eenheid>ug/l</eenheid>
-        <hoedanigheid>NVT</hoedanigheid>
-    </Parameter>
-    <Parameter>
         <aquocode>134DClFyurum</aquocode>
         <CASnummer>2327-02-8</CASnummer>
         <omschrijving>1-(3,4-dichloorfenyl)ureum</omschrijving>
@@ -659,6 +57,55 @@
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
+        <aquocode>PCDF135</aquocode>
+        <CASnummer>39001-02-0</CASnummer>
+        <omschrijving>1,2,3,4,6,7,8,9-octachloordibenzofuraan</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>PCDD75</aquocode>
+        <CASnummer>3268-87-9</CASnummer>
+        <omschrijving>1,2,3,4,6,7,8,9-octachloordibenzo-p-dioxine</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>PCDF131</aquocode>
+        <CASnummer>67562-39-4</CASnummer>
+        <omschrijving>1,2,3,4,6,7,8-heptachloordibenzofuraan</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>PCDD73</aquocode>
+        <CASnummer>35822-46-9</CASnummer>
+        <omschrijving>1,2,3,4,6,7,8-heptachloordibenzo-p-dioxine</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>PCDF134</aquocode>
+        <CASnummer>55673-89-7</CASnummer>
+        <omschrijving>1,2,3,4,7,8,9-heptachloordibenzofuraan</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>PCDF118</aquocode>
+        <CASnummer>70648-26-9</CASnummer>
+        <omschrijving>1,2,3,4,7,8-hexachloordibenzofuraan</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>PCDD66</aquocode>
+        <CASnummer>39227-28-6</CASnummer>
+        <omschrijving>1,2,3,4,7,8-hexachloordibenzo-p-dioxine</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
         <aquocode>1234T4ClBen</aquocode>
         <CASnummer>634-66-2</CASnummer>
         <omschrijving>1,2,3,4-tetrachloorbenzeen</omschrijving>
@@ -670,6 +117,48 @@
         <CASnummer>634-90-2</CASnummer>
         <omschrijving>1,2,3,5-tetrachloorbenzeen</omschrijving>
         <eenheid>ug/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>PCDF121</aquocode>
+        <CASnummer>57117-44-9</CASnummer>
+        <omschrijving>1,2,3,6,7,8-hexachloordibenzofuraan</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>PCDD67</aquocode>
+        <CASnummer>57653-85-7</CASnummer>
+        <omschrijving>1,2,3,6,7,8-hexachloordibenzo-p-dioxine</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>PCDF124</aquocode>
+        <CASnummer>72918-21-9</CASnummer>
+        <omschrijving>1,2,3,7,8,9-hexachloordibenzofuraan</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>PCDD70</aquocode>
+        <CASnummer>19408-74-3</CASnummer>
+        <omschrijving>1,2,3,7,8,9-hexachloordibenzo-p-dioxine</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>PCDF94</aquocode>
+        <CASnummer>57117-41-6</CASnummer>
+        <omschrijving>1,2,3,7,8-pentachloordibenzofuraan</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>PCDD54</aquocode>
+        <CASnummer>40321-76-4</CASnummer>
+        <omschrijving>1,2,3,7,8-pentachloordibenzo-p-dioxine</omschrijving>
+        <eenheid>ng/l</eenheid>
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
@@ -820,10 +309,24 @@
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
+        <aquocode>14DOxan</aquocode>
+        <CASnummer>123-91-1</CASnummer>
+        <omschrijving>1,4-dioxaan</omschrijving>
+        <eenheid>mg/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
         <aquocode>14xyln</aquocode>
         <CASnummer>106-42-3</CASnummer>
         <omschrijving>1,4-xyleen</omschrijving>
         <eenheid>ug/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>1011tDolcarb</aquocode>
+        <CASnummer>35079-97-1</CASnummer>
+        <omschrijving>10,11-transdiol carbamazepine</omschrijving>
+        <eenheid>ng/l</eenheid>
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
@@ -890,6 +393,62 @@
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
+        <aquocode>PCB189</aquocode>
+        <CASnummer>39635-31-9</CASnummer>
+        <omschrijving>2,3,3',4,4',5,5 '-heptachlorobifenyl</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>PCB157</aquocode>
+        <CASnummer>69782-90-7</CASnummer>
+        <omschrijving>2,3,3',4,4',5'-hexachloorbifenyl</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>PCB156</aquocode>
+        <CASnummer>38380-08-4</CASnummer>
+        <omschrijving>2,3,3',4,4',5-hexachloorbifenyl</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>PCB105</aquocode>
+        <CASnummer>32598-14-4</CASnummer>
+        <omschrijving>2,3,3',4,4'-pentachloorbifenyl</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>PCB167</aquocode>
+        <CASnummer>52663-72-6</CASnummer>
+        <omschrijving>2,3',4,4',5,5'-hexachloorbifenyl</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>PCB114</aquocode>
+        <CASnummer>74472-37-0</CASnummer>
+        <omschrijving>2,3,4,4',5-pentachloorbifenyl</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>PCB123</aquocode>
+        <CASnummer>65510-44-3</CASnummer>
+        <omschrijving>2,3',4,4',5'-pentachloorbifenyl</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>PCB118</aquocode>
+        <CASnummer>31508-00-6</CASnummer>
+        <omschrijving>2,3',4,4',5-pentachloorbifenyl</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
         <aquocode>PCB118</aquocode>
         <CASnummer>31508-00-6</CASnummer>
         <omschrijving>2,3',4,4',5-pentachloorbifenyl</omschrijving>
@@ -911,10 +470,24 @@
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
+        <aquocode>PCDF130</aquocode>
+        <CASnummer>60851-34-5</CASnummer>
+        <omschrijving>2,3,4,6,7,8-hexachloordibenzofuraan</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
         <aquocode>2346T4ClFol</aquocode>
         <CASnummer>58-90-2</CASnummer>
         <omschrijving>2,3,4,6-tetrachloorfenol</omschrijving>
         <eenheid>ug/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>PCDF114</aquocode>
+        <CASnummer>57117-31-4</CASnummer>
+        <omschrijving>2,3,4,7,8-pentachloordibenzofuraan</omschrijving>
+        <eenheid>ng/l</eenheid>
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
@@ -964,6 +537,20 @@
         <CASnummer>933-75-5</CASnummer>
         <omschrijving>2,3,6-trichloorfenol</omschrijving>
         <eenheid>ug/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>PCDF83</aquocode>
+        <CASnummer>51207-31-9</CASnummer>
+        <omschrijving>2,3,7,8-tetrachloordibenzofuraan</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>PCDD48</aquocode>
+        <CASnummer>1746-01-6</CASnummer>
+        <omschrijving>2,3,7,8-tetrachloordibenzo-p-dioxine</omschrijving>
+        <eenheid>ng/l</eenheid>
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
@@ -1027,6 +614,27 @@
         <CASnummer>554-00-7</CASnummer>
         <omschrijving>2,4-dichlooraniline</omschrijving>
         <eenheid>ug/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>24DDD</aquocode>
+        <CASnummer>53-19-0</CASnummer>
+        <omschrijving>2,4'-dichloordifenyldichloorethaan</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>24DDE</aquocode>
+        <CASnummer>3424-82-6</CASnummer>
+        <omschrijving>2,4'-dichloordifenyldichlooretheen</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>24DDT</aquocode>
+        <CASnummer>789-02-6</CASnummer>
+        <omschrijving>2,4'-dichloordifenyltrichloorethaan</omschrijving>
+        <eenheid>ng/l</eenheid>
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
@@ -1163,6 +771,13 @@
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
+        <aquocode>2HOxibpfn</aquocode>
+        <CASnummer>51146-55-5</CASnummer>
+        <omschrijving>2-hydroxyibuprofen</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
         <aquocode>MCPA</aquocode>
         <CASnummer>94-74-6</CASnummer>
         <omschrijving>2-methyl-4-chloorfenoxyazijnzuur</omschrijving>
@@ -1188,6 +803,34 @@
         <CASnummer>67-63-0</CASnummer>
         <omschrijving>2-propanol</omschrijving>
         <eenheid>ug/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>PCB169</aquocode>
+        <CASnummer>32774-16-6</CASnummer>
+        <omschrijving>3,3',4,4',5,5'-hexachloorbifenyl</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>PCB126</aquocode>
+        <CASnummer>57465-28-8</CASnummer>
+        <omschrijving>3,3',4,4',5-pentachloorbifenyl</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>PCB77</aquocode>
+        <CASnummer>32598-13-3</CASnummer>
+        <omschrijving>3,3',4,4'-tetrachloorbifenyl</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>PCB81</aquocode>
+        <CASnummer>70362-50-4</CASnummer>
+        <omschrijving>3,4,4',5-tetrachlorobifenyl</omschrijving>
+        <eenheid>ng/l</eenheid>
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
@@ -1352,6 +995,20 @@
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
+        <aquocode>actntl</aquocode>
+        <CASnummer>75-05-8</CASnummer>
+        <omschrijving>acetonitril</omschrijving>
+        <eenheid>mg/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>actsfmtozl</aquocode>
+        <CASnummer>21312-10-7</CASnummer>
+        <omschrijving>acetylsulfamethoxazol</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
         <aquocode>acnfn</aquocode>
         <CASnummer>74070-46-5</CASnummer>
         <omschrijving>aclonifen</omschrijving>
@@ -1401,6 +1058,13 @@
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
+        <aquocode>aedsfn</aquocode>
+        <CASnummer>959-98-8</CASnummer>
+        <omschrijving>alfa-endosulfan</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
         <aquocode>aHCH</aquocode>
         <CASnummer>319-84-6</CASnummer>
         <omschrijving>alfa-hexachloorcyclohexaan</omschrijving>
@@ -1412,6 +1076,13 @@
         <CASnummer>98-83-9</CASnummer>
         <omschrijving>alfa-methylstyreen</omschrijving>
         <eenheid>ug/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>HCO3</aquocode>
+        <CASnummer>71-52-3</CASnummer>
+        <omschrijving>alkaliteit uitgedrukt in waterstofcarbonaat</omschrijving>
+        <eenheid>mg/l</eenheid>
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
@@ -1476,6 +1147,13 @@
         <omschrijving>amitrol</omschrijving>
         <eenheid>ug/l</eenheid>
         <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>NH4</aquocode>
+        <CASnummer>14798-03-9</CASnummer>
+        <omschrijving>ammonium</omschrijving>
+        <eenheid>mg/l</eenheid>
+        <hoedanigheid>Nnf</hoedanigheid>
     </Parameter>
     <Parameter>
         <aquocode>Sb</aquocode>
@@ -1744,6 +1422,13 @@
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
+        <aquocode>Br</aquocode>
+        <CASnummer>24959-67-9</CASnummer>
+        <omschrijving>bromide</omschrijving>
+        <eenheid>mg/l</eenheid>
+        <hoedanigheid>nf</hoedanigheid>
+    </Parameter>
+    <Parameter>
         <aquocode>BrOxnl</aquocode>
         <CASnummer>1689-84-5</CASnummer>
         <omschrijving>broomoxynil</omschrijving>
@@ -1791,6 +1476,13 @@
         <omschrijving>caffeine</omschrijving>
         <eenheid>ug/l</eenheid>
         <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>Ca</aquocode>
+        <CASnummer>7440-70-2</CASnummer>
+        <omschrijving>calcium</omschrijving>
+        <eenheid>mg/l</eenheid>
+        <hoedanigheid>nf</hoedanigheid>
     </Parameter>
     <Parameter>
         <aquocode>captn</aquocode>
@@ -1842,6 +1534,13 @@
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
+        <aquocode>CO3</aquocode>
+        <CASnummer>3812-32-6</CASnummer>
+        <omschrijving>carbonaat</omschrijving>
+        <eenheid>mg/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
         <aquocode>carftznC2y</aquocode>
         <CASnummer>128639-02-1</CASnummer>
         <omschrijving>carfentrazon-ethyl</omschrijving>
@@ -1853,6 +1552,13 @@
         <CASnummer>55268-75-2</CASnummer>
         <omschrijving>cefuroxim</omschrijving>
         <eenheid>ug/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>Clafncl</aquocode>
+        <CASnummer>56-75-7</CASnummer>
+        <omschrijving>chlooramfenicol</omschrijving>
+        <eenheid>ng/l</eenheid>
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
@@ -1912,6 +1618,13 @@
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
+        <aquocode>ClO3</aquocode>
+        <CASnummer>14866-68-3</CASnummer>
+        <omschrijving>chloraat</omschrijving>
+        <eenheid>ug/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
         <aquocode>chloratnlpl</aquocode>
         <CASnummer>500008-45-7</CASnummer>
         <omschrijving>chlorantraniliprole</omschrijving>
@@ -1926,6 +1639,13 @@
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
+        <aquocode>Cl</aquocode>
+        <CASnummer>16887-00-6</CASnummer>
+        <omschrijving>chloride</omschrijving>
+        <eenheid>mg/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
         <aquocode>Cr</aquocode>
         <CASnummer>7440-47-3</CASnummer>
         <omschrijving>chroom</omschrijving>
@@ -1936,6 +1656,13 @@
         <aquocode>Chr</aquocode>
         <CASnummer>218-01-9</CASnummer>
         <omschrijving>chryseen</omschrijving>
+        <eenheid>ug/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>cipfxcne</aquocode>
+        <CASnummer>85721-33-1</CASnummer>
+        <omschrijving>ciprofloxacine</omschrijving>
         <eenheid>ug/l</eenheid>
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
@@ -1972,6 +1699,13 @@
         <CASnummer>18323-44-9</CASnummer>
         <omschrijving>clindamycine</omschrijving>
         <eenheid>ug/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>clofbt</aquocode>
+        <CASnummer>637-07-0</CASnummer>
+        <omschrijving>clofibraat</omschrijving>
+        <eenheid>ng/l</eenheid>
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
@@ -2087,6 +1821,13 @@
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
+        <aquocode>dHCH</aquocode>
+        <CASnummer>319-86-8</CASnummer>
+        <omschrijving>delta-hexachloorcyclohexaan</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
         <aquocode>desC2yatzne</aquocode>
         <CASnummer>6190-65-4</CASnummer>
         <omschrijving>desethylatrazine</omschrijving>
@@ -2113,6 +1854,13 @@
         <omschrijving>desmetryn</omschrijving>
         <eenheid>ug/l</eenheid>
         <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>D2O</aquocode>
+        <CASnummer>7789-20-0</CASnummer>
+        <omschrijving>deuterium oxide (zwaar water)</omschrijving>
+        <eenheid>0/00</eenheid>
+        <hoedanigheid>V-SMOW</hoedanigheid>
     </Parameter>
     <Parameter>
         <aquocode>dexmtsn</aquocode>
@@ -2203,6 +1951,13 @@
         <CASnummer>60-57-1</CASnummer>
         <omschrijving>dieldrin</omschrijving>
         <eenheid>ug/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>DC2yEtr</aquocode>
+        <CASnummer>60-29-7</CASnummer>
+        <omschrijving>diethylether</omschrijving>
+        <eenheid>mg/l</eenheid>
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
@@ -2395,6 +2150,13 @@
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
+        <aquocode>enlpl</aquocode>
+        <CASnummer>75847-73-3</CASnummer>
+        <omschrijving>enalapril</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
         <aquocode>endsfn</aquocode>
         <CASnummer>115-29-7</CASnummer>
         <omschrijving>endosulfan (som alfa- en beta-isomeer)</omschrijving>
@@ -2406,6 +2168,13 @@
         <CASnummer>1031-07-8</CASnummer>
         <omschrijving>endosulfansulfaat</omschrijving>
         <eenheid>ug/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>endn</aquocode>
+        <CASnummer>72-20-8</CASnummer>
+        <omschrijving>endrin</omschrijving>
+        <eenheid>ng/l</eenheid>
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
@@ -2528,6 +2297,13 @@
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
+        <aquocode>fenfbnzr</aquocode>
+        <CASnummer>42017-89-0</CASnummer>
+        <omschrijving>fenofibrinezuur</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
         <aquocode>Fol</aquocode>
         <CASnummer>108-95-2</CASnummer>
         <omschrijving>fenol</omschrijving>
@@ -2626,6 +2402,13 @@
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
+        <aquocode>F</aquocode>
+        <CASnummer>16984-48-8</CASnummer>
+        <omschrijving>fluoride</omschrijving>
+        <eenheid>mg/l</eenheid>
+        <hoedanigheid>nf</hoedanigheid>
+    </Parameter>
+    <Parameter>
         <aquocode>fluoxtne</aquocode>
         <CASnummer>54910-89-3</CASnummer>
         <omschrijving>fluoxetine</omschrijving>
@@ -2652,6 +2435,13 @@
         <omschrijving>foramsulfuron</omschrijving>
         <eenheid>ug/l</eenheid>
         <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>Ptot</aquocode>
+        <CASnummer>NVT</CASnummer>
+        <omschrijving>fosfor totaal</omschrijving>
+        <eenheid>mg/l</eenheid>
+        <hoedanigheid>Pnf</hoedanigheid>
     </Parameter>
     <Parameter>
         <aquocode>furzldn</aquocode>
@@ -2682,6 +2472,13 @@
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
+        <aquocode>GELDHD</aquocode>
+        <CASnummer>NVT</CASnummer>
+        <omschrijving>Geleidendheid</omschrijving>
+        <eenheid>mS/m</eenheid>
+        <hoedanigheid>25oC</hoedanigheid>
+    </Parameter>
+    <Parameter>
         <aquocode>gemfbzl</aquocode>
         <CASnummer>25812-30-0</CASnummer>
         <omschrijving>gemfibrozil</omschrijving>
@@ -2707,6 +2504,20 @@
         <CASnummer>1071-83-6</CASnummer>
         <omschrijving>glyfosaat</omschrijving>
         <eenheid>ug/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>guanurum</aquocode>
+        <CASnummer>141-83-3</CASnummer>
+        <omschrijving>guanylureum</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>He3</aquocode>
+        <CASnummer>12596-21-3</CASnummer>
+        <omschrijving>helium 3</omschrijving>
+        <eenheid>ppm</eenheid>
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
@@ -2871,6 +2682,13 @@
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
+        <aquocode>K</aquocode>
+        <CASnummer>7440-09-7</CASnummer>
+        <omschrijving>kalium</omschrijving>
+        <eenheid>mg/l</eenheid>
+        <hoedanigheid>nf</hoedanigheid>
+    </Parameter>
+    <Parameter>
         <aquocode>ketpfn</aquocode>
         <CASnummer>22071-15-4</CASnummer>
         <omschrijving>ketoprofen</omschrijving>
@@ -2883,6 +2701,27 @@
         <omschrijving>kobalt</omschrijving>
         <eenheid>ug/l</eenheid>
         <hoedanigheid>nf</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>Corg</aquocode>
+        <CASnummer>NVT</CASnummer>
+        <omschrijving>koolstof organisch</omschrijving>
+        <eenheid>mg/l</eenheid>
+        <hoedanigheid>Cnf</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>C13</aquocode>
+        <CASnummer>14762-74-4</CASnummer>
+        <omschrijving>koolstof 13</omschrijving>
+        <eenheid>0/00</eenheid>
+        <hoedanigheid>V-PDB in Canorg</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>C14</aquocode>
+        <CASnummer>14762-75-5</CASnummer>
+        <omschrijving>koolstof 14</omschrijving>
+        <eenheid>0/0</eenheid>
+        <hoedanigheid>MC</hoedanigheid>
     </Parameter>
     <Parameter>
         <aquocode>Cu</aquocode>
@@ -2955,10 +2794,31 @@
         <hoedanigheid>nf</hoedanigheid>
     </Parameter>
     <Parameter>
+        <aquocode>lostan</aquocode>
+        <CASnummer>114798-26-4</CASnummer>
+        <omschrijving>losartan</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>Mg</aquocode>
+        <CASnummer>7439-95-4</CASnummer>
+        <omschrijving>magnesium</omschrijving>
+        <eenheid>mg/l</eenheid>
+        <hoedanigheid>nf</hoedanigheid>
+    </Parameter>
+    <Parameter>
         <aquocode>malinhdzde</aquocode>
         <CASnummer>123-33-1</CASnummer>
         <omschrijving>maleinehydrazide</omschrijving>
         <eenheid>ug/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>manb</aquocode>
+        <CASnummer>12427-38-2</CASnummer>
+        <omschrijving>maneb</omschrijving>
+        <eenheid>ng/l</eenheid>
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
@@ -3081,6 +2941,13 @@
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
+        <aquocode>C1yazfs</aquocode>
+        <CASnummer>86-50-0</CASnummer>
+        <omschrijving>methylazinfos</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
         <aquocode>C1ymtclt</aquocode>
         <CASnummer>80-62-6</CASnummer>
         <omschrijving>methylmethacrylaat</omschrijving>
@@ -3200,6 +3067,13 @@
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
+        <aquocode>Na</aquocode>
+        <CASnummer>7440-23-5</CASnummer>
+        <omschrijving>natrium</omschrijving>
+        <eenheid>mg/l</eenheid>
+        <hoedanigheid>nf</hoedanigheid>
+    </Parameter>
+    <Parameter>
         <aquocode>nicsfrn</aquocode>
         <CASnummer>111991-09-4</CASnummer>
         <omschrijving>nicosulfuron</omschrijving>
@@ -3214,6 +3088,20 @@
         <hoedanigheid>nf</hoedanigheid>
     </Parameter>
     <Parameter>
+        <aquocode>NO3</aquocode>
+        <CASnummer>14797-55-8</CASnummer>
+        <omschrijving>nitraat</omschrijving>
+        <eenheid>mg/l</eenheid>
+        <hoedanigheid>Nnf</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>NO2</aquocode>
+        <CASnummer>14797-65-0</CASnummer>
+        <omschrijving>nitriet</omschrijving>
+        <eenheid>mg/l</eenheid>
+        <hoedanigheid>Nnf</hoedanigheid>
+    </Parameter>
+    <Parameter>
         <aquocode>ocresl</aquocode>
         <CASnummer>95-48-7</CASnummer>
         <omschrijving>o-cresol</omschrijving>
@@ -3226,6 +3114,13 @@
         <omschrijving>oleandomycin</omschrijving>
         <eenheid>ug/l</eenheid>
         <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>PO4</aquocode>
+        <CASnummer>14265-44-2</CASnummer>
+        <omschrijving>orthofosfaat</omschrijving>
+        <eenheid>mg/l</eenheid>
+        <hoedanigheid>Pnf</hoedanigheid>
     </Parameter>
     <Parameter>
         <aquocode>Oaclne</aquocode>
@@ -3274,6 +3169,13 @@
         <CASnummer>950-35-6</CASnummer>
         <omschrijving>paraoxon-methyl</omschrijving>
         <eenheid>ug/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>paroetne</aquocode>
+        <CASnummer>61869-08-7</CASnummer>
+        <omschrijving>paroxetine</omschrijving>
+        <eenheid>ng/l</eenheid>
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
@@ -3351,6 +3253,13 @@
         <CASnummer>23103-98-2</CASnummer>
         <omschrijving>pirimicarb</omschrijving>
         <eenheid>ug/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>pravstne</aquocode>
+        <CASnummer>81093-37-0</CASnummer>
+        <omschrijving>pravastatine</omschrijving>
+        <eenheid>ng/l</eenheid>
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
@@ -3536,6 +3445,13 @@
         <hoedanigheid>nf</hoedanigheid>
     </Parameter>
     <Parameter>
+        <aquocode>SiO2</aquocode>
+        <CASnummer>14808-60-7</CASnummer>
+        <omschrijving>siliciumdioxide</omschrijving>
+        <eenheid>mg/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
         <aquocode>simzne</aquocode>
         <CASnummer>122-34-9</CASnummer>
         <omschrijving>simazine</omschrijving>
@@ -3585,6 +3501,13 @@
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
+        <aquocode>Ntot</aquocode>
+        <CASnummer>NVT</CASnummer>
+        <omschrijving>stikstof totaal</omschrijving>
+        <eenheid>mg/l</eenheid>
+        <hoedanigheid>Nnf</hoedanigheid>
+    </Parameter>
+    <Parameter>
         <aquocode>Sr</aquocode>
         <CASnummer>7440-24-6</CASnummer>
         <omschrijving>strontium</omschrijving>
@@ -3603,6 +3526,13 @@
         <CASnummer>99105-77-8</CASnummer>
         <omschrijving>sulcotrion</omschrijving>
         <eenheid>ug/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>SO4</aquocode>
+        <CASnummer>14808-79-8</CASnummer>
+        <omschrijving>sulfaat</omschrijving>
+        <eenheid>mg/l</eenheid>
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
@@ -3690,6 +3620,20 @@
         <hoedanigheid>nf</hoedanigheid>
     </Parameter>
     <Parameter>
+        <aquocode>temzpm</aquocode>
+        <CASnummer>846-50-4</CASnummer>
+        <omschrijving>temazepam</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>T</aquocode>
+        <CASnummer>NVT</CASnummer>
+        <omschrijving>Temperatuur</omschrijving>
+        <eenheid>oC</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
         <aquocode>teplxdm</aquocode>
         <CASnummer>149979-41-9</CASnummer>
         <omschrijving>tepraloxydim</omschrijving>
@@ -3744,6 +3688,13 @@
         <omschrijving>thallium</omschrijving>
         <eenheid>ug/l</eenheid>
         <hoedanigheid>nf</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>theoplne</aquocode>
+        <CASnummer>58-55-9</CASnummer>
+        <omschrijving>theophylline</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
         <aquocode>tabdzl</aquocode>
@@ -3872,6 +3823,13 @@
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
+        <aquocode>tHpClepO</aquocode>
+        <CASnummer>28044-83-9</CASnummer>
+        <omschrijving>trans-heptachloorepoxide</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
         <aquocode>T2ClC2yPO4</aquocode>
         <CASnummer>115-96-8</CASnummer>
         <omschrijving>tri(2-chloorethyl)fosfaat</omschrijving>
@@ -3905,6 +3863,13 @@
         <omschrijving>tributylfosfaat</omschrijving>
         <eenheid>ug/l</eenheid>
         <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>TC4ySn</aquocode>
+        <CASnummer>36643-28-4</CASnummer>
+        <omschrijving>tributyltin (kation)</omschrijving>
+        <eenheid>ng/l</eenheid>
+        <hoedanigheid>Sn</hoedanigheid>
     </Parameter>
     <Parameter>
         <aquocode>TClC2e</aquocode>
@@ -4012,6 +3977,20 @@
         <hoedanigheid>NVT</hoedanigheid>
     </Parameter>
     <Parameter>
+        <aquocode>H3</aquocode>
+        <CASnummer>10028-17-8</CASnummer>
+        <omschrijving>tritium</omschrijving>
+        <eenheid>Bq/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>TROEBHD</aquocode>
+        <CASnummer>NVT</CASnummer>
+        <omschrijving>Troebelheid</omschrijving>
+        <eenheid>NTU</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
         <aquocode>tylsne</aquocode>
         <CASnummer>1401-69-0</CASnummer>
         <omschrijving>tylosine</omschrijving>
@@ -4080,5 +4059,26 @@
         <omschrijving>zirkonium</omschrijving>
         <eenheid>ug/l</eenheid>
         <hoedanigheid>nf</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>pH</aquocode>
+        <CASnummer>NVT</CASnummer>
+        <omschrijving>Zuurgraad</omschrijving>
+        <eenheid>DIMSLS</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>O2</aquocode>
+        <CASnummer>7782-44-7</CASnummer>
+        <omschrijving>zuurstof</omschrijving>
+        <eenheid>mg/l</eenheid>
+        <hoedanigheid>NVT</hoedanigheid>
+    </Parameter>
+    <Parameter>
+        <aquocode>O18-H2O</aquocode>
+        <CASnummer>14314-42-2</CASnummer>
+        <omschrijving>zuurstof18 water</omschrijving>
+        <eenheid>0/00 </eenheid>
+        <hoedanigheid>V-SMOW</hoedanigheid>
     </Parameter>
 </domeintabel>
