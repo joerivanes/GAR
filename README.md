@@ -1,14 +1,16 @@
-# Grondwatersamenstellingsonderzoek (Groundwater analysis report/GAR)
+## Grondwatersamenstellingsonderzoek (Groundwater analysis report/GAR)
 
 Repository voor het ontwikkelen van de gegevenscatalogus GAR. De werkversie van deze gegevenscatalogus is hier te bekijken: 
 
-https://broprogramma.github.io/GAR
+https://broprogramma.github.io/GAR (NTB niet gebruiken voor publieke consultatie)
 
-## WAARSCHUWING 
-Deze repository bevat op dit moment slechts een werkversie van de gegevenscatalogus GAR die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen consultatieversie, maar een document in wording waarvan de inhoud onvolledig is, incorrect kan zijn en op elk moment kan wijzigen. Hoofdstuk vijf is automatisch gegenereerd uit een UML model dat nog in ontwikkeling is.
+## Publieke Consultatie
+Van 25 maart tot 7 mei loopt de consultatie van de catalogus [“Grondwatersamenstellingsonderzoek"][1]. De catalogus wordt geconsulteerd in de vorm zoals hij in de ministeriële regeling verschijnt. Gebruik daarovoor [de hier gelinkte PDF versie catalogus][1].
 
-Niettemin zijn reacties op de inhoud welkom, bij voorkeur door het aanmaken van of reageren op [een issue in dit repository][1]. (Hiervoor heeft u een github account nodig). 
+In de [instructies voor de publieke consultatie][2] wordt uitgelegd hoe u kunt reageren.
 
-Als er een consultatieversie beschikbaar komt, zal die in deze repository gepubliceerd worden.
+Voor het goed begrijpen van de catalogus zoals hij in de ministeriële regeling verschijnt raden we u ten sterkste aan eerst het [achtergrond document][3] te lezen. U kunt niet op dit inleidend document reageren, maar het geeft wel een goede inleiding waarmee de catalogus beter begrepen kan worden.
 
-[1]: https://github.com/BROprogramma/GAR/issues
+[1]: https://github.com/BROprogramma/GAR/raw/gh-pages/Catalogus%20GAR0.9_20190325.pdf
+[2]: https://github.com/BROprogramma/GAR/blob/gh-pages/consultatie-instructie.md
+[3]: https://github.com/BROprogramma/GAR/raw/gh-pages/Catalogus%20inleiding_GAR0.9_201903021
