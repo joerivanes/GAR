@@ -13,4 +13,4 @@ Voor het goed begrijpen van de catalogus zoals hij in de ministeriële regeling 
 
 [1]: https://github.com/BROprogramma/GAR/raw/gh-pages/Catalogus%20GAR0.9_20190325.pdf
 [2]: https://github.com/BROprogramma/GAR/blob/gh-pages/consultatie-instructie.md
-[3]: https://github.com/BROprogramma/GAR/raw/gh-pages/Catalogus%20inleiding_GAR0.9_201903021
+[3]: https://github.com/BROprogramma/GAR/raw/gh-pages/Catalogus%20inleiding_GAR0.9_201903021.pdf
