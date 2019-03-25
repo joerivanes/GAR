@@ -14,7 +14,7 @@ var respecConfig = {
       url: "https://www.geonovum.nl", 
     },  
   ],
-  shortName: "bro-gar",
+  shortName: "gar",
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/GAR",
   //previousPublishDate: "2017-01-01",
