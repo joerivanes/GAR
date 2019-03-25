@@ -1,8 +1,8 @@
 var respecConfig = {
-  specStatus: "GN-WV",
+  specStatus: "GN-CV",
   specType: "IM",
   //canonicalURI: "WV",
-  //publishDate: "2018-01-01",
+  publishDate: "2019-03-25",
   maxTocLevel: 3,
   editors: [
     {
@@ -17,7 +17,7 @@ var respecConfig = {
   shortName: "gar",
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/GAR",
-  //previousPublishDate: "2017-01-01",
+  //previousPublishDate: "2019-03-25",
   //previousStatus: "GN-CV",
   //localBiblio: {
   //  "ISO19136": {
