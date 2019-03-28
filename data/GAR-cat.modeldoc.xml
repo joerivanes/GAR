@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <book name="Grondwatersamenstellingsonderzoek (GAR)"
-      subpath="Conceptual model/Grondwatersamenstellingsonderzoek (GAR)/20190304"
+      subpath="Conceptual model/Grondwatersamenstellingsonderzoek (GAR)/20190325"
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.52.2"
-      generator-date="2019-03-25T10:56:40Z">
+      generator-date="2019-03-28T10:12:49Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN" name="Model" id="global_package_Model">
          <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
@@ -5649,11 +5649,11 @@ De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van
                </part>
             </content>
             <content>
-               <itemtype type="LABEL">aquocode</itemtype>
-               <itemtype type="LABEL">cASnummer</itemtype>
-               <itemtype type="LABEL">omschrijving</itemtype>
-               <itemtype type="LABEL">eenheid</itemtype>
-               <itemtype type="LABEL">hoedanigheid</itemtype>
+               <itemtype type="LABEL" name="aquocode">aquocode</itemtype>
+               <itemtype type="LABEL" name="cASnummer">CASnummer</itemtype>
+               <itemtype type="LABEL" name="omschrijving">omschrijving</itemtype>
+               <itemtype type="LABEL" name="eenheid">eenheid</itemtype>
+               <itemtype type="LABEL" name="hoedanigheid">hoedanigheid</itemtype>
                <part>
                   <item>134DClFyurum</item>
                   <item>2327-02-8</item>
