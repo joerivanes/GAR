@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <book name="Grondwatersamenstellingsonderzoek (GAR)"
-      subpath="Conceptual model/Grondwatersamenstellingsonderzoek (GAR)/20190325"
+      subpath="Conceptual model/Grondwatersamenstellingsonderzoek (GAR)/20190328"
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
-      generator-version="1.52.2"
-      generator-date="2019-03-28T10:12:49Z">
+      generator-version="1.52.3"
+      generator-date="2019-04-03T09:43:37Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN" name="Model" id="global_package_Model">
          <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
@@ -221,7 +221,7 @@
                               xmlns:imvert="http://www.imvertor.org/schema/system">De aanduiding die aangeeft of in het onderzoek bestrijdingsmiddelen en/of gewasbeschermingsmiddelen zijn onderzocht.</p>
                         </item>
                         <item>
-                           <item type="global" idref="global_class_Model_IndicatieJaNeeOnbekend">IndicatieJaNeeOnbekend</item>
+                           <item type="global" idref="global_class_Model_IndicatieJaNee">IndicatieJaNee</item>
                         </item>
                         <item>1</item>
                      </part>
@@ -236,7 +236,7 @@
                               xmlns:imvert="http://www.imvertor.org/schema/system">De aanduiding die aangeeft of in het onderzoek farmaceutische stoffen, zoals geneesmiddelen, zijn onderzocht.</p>
                         </item>
                         <item>
-                           <item type="global" idref="global_class_Model_IndicatieJaNeeOnbekend">IndicatieJaNeeOnbekend</item>
+                           <item type="global" idref="global_class_Model_IndicatieJaNee">IndicatieJaNee</item>
                         </item>
                         <item>1</item>
                      </part>
@@ -980,7 +980,7 @@
                               xmlns:imvert="http://www.imvertor.org/schema/system">De aanduiding die aangeeft of de slang nieuw is dan wel al eerder is gebruikt. </p>
                         </item>
                         <item>
-                           <item type="global" idref="global_class_Model_IndicatieJaNeeOnbekend">IndicatieJaNeeOnbekend</item>
+                           <item type="global" idref="global_class_Model_IndicatieJaNee">IndicatieJaNee</item>
                         </item>
                         <item>1</item>
                      </part>
@@ -3464,7 +3464,7 @@ Een formaat van het type tekst wordt volledig gespecificeerd door met de aanduid
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
-                           <item>IndicatieJaNeeOnbekend</item>
+                           <item>IndicatieJaNee</item>
                         </part>
                         <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                            <item>Indicatie afleidbaar</item>
@@ -3535,7 +3535,7 @@ Een formaat van het type tekst wordt volledig gespecificeerd door met de aanduid
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
-                           <item>IndicatieJaNeeOnbekend</item>
+                           <item>IndicatieJaNee</item>
                         </part>
                         <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                            <item>Indicatie afleidbaar</item>
@@ -4377,7 +4377,7 @@ Een formaat van het type tekst wordt volledig gespecificeerd door met de aanduid
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
-                           <item>IndicatieJaNeeOnbekend</item>
+                           <item>IndicatieJaNee</item>
                         </part>
                         <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                            <item>Indicatie afleidbaar</item>
