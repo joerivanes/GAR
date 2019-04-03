@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.52.3"
-      generator-date="2019-04-03T09:49:46Z">
+      generator-date="2019-04-03T09:56:25Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN" name="Model" id="global_package_Model">
          <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
@@ -1580,7 +1580,7 @@
                               xmlns:imvert="http://www.imvertor.org/schema/system">De aanduiding die aangeeft of het gerapporteerde gehalte een schatting is van de concentratie. Dit is het geval als de gehanteerde<em>bepalingstechniek</em> slechts een indicatie geeft voor aanwezigheid van deze parameter. </p>
                         </item>
                         <item>
-                           <item type="global" idref="global_class_Model_IndicatieJaNeeOnbekend">IndicatieJaNeeOnbekend</item>
+                           <item type="global" idref="global_class_Model_IndicatieJaNee">IndicatieJaNee</item>
                         </item>
                         <item>1</item>
                      </part>
@@ -1595,7 +1595,7 @@
                               xmlns:imvert="http://www.imvertor.org/schema/system">De aanduiding die aangeeft of voor de parameter aan de identificatiecriteria conform de <em>bepalingsprocedure</em> is voldaan. Als dit niet het geval is, is er wel een indicatie voor de aanwezigheid van de parameter.</p>
                         </item>
                         <item>
-                           <item type="global" idref="global_class_Model_IndicatieJaNeeOnbekend">IndicatieJaNeeOnbekend</item>
+                           <item type="global" idref="global_class_Model_IndicatieJaNee">IndicatieJaNee</item>
                         </item>
                         <item>1</item>
                      </part>
@@ -5420,7 +5420,7 @@ De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
-                           <item>IndicatieJaNeeOnbekend</item>
+                           <item>IndicatieJaNee</item>
                         </part>
                         <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                            <item>Indicatie afleidbaar</item>
@@ -5491,7 +5491,7 @@ De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
-                           <item>IndicatieJaNeeOnbekend</item>
+                           <item>IndicatieJaNee</item>
                         </part>
                         <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                            <item>Indicatie afleidbaar</item>
