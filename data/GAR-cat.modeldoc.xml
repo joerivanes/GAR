@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.53.1"
-      generator-date="2019-06-13T14:02:37Z">
+      generator-date="2019-06-13T14:41:34Z">
    <chapter title="CHAPTER-CATALOG" type="cat"><!--removed empty content-->
       <section type="DOMAIN" name="Model" id="global_package_Model">
          <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
@@ -4611,6 +4611,10 @@ De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>1</item>
                      </part>
                      <part type="CFG-DOC-MINIMUMVALUE">
                         <item>Minimumwaarde</item>
