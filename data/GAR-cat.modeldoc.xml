@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.53.1"
-      generator-date="2019-06-13T07:44:43Z">
+      generator-date="2019-06-13T11:20:04Z">
    <chapter title="CHAPTER-CATALOG" type="cat"><!--removed empty content-->
       <section type="DOMAIN" name="Model" id="global_package_Model">
          <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
@@ -425,7 +425,7 @@
                               xmlns:imvert="http://www.imvertor.org/schema/system">Het identificerende nummer van de monitoringbuis in de grondwatermonitoringput in de basisregistratie ondergrond.</p>
                         </item>
                         <item>
-                           <item type="global" idref="global_class_xsinteger">Nummer3</item>
+                           <item type="global" idref="global_class_xsinteger">Nummer2</item>
                         </item>
                         <item>1</item>
                      </part>
@@ -1589,7 +1589,7 @@
                               xmlns:imvert="http://www.imvertor.org/schema/system">Het ID van de parameter zoals uitgegeven door het SIKB.</p>
                         </item>
                         <item>
-                           <item type="global" idref="global_class_xsinteger">Nummer3</item>
+                           <item type="global" idref="global_class_xsinteger">Nummer2</item>
                         </item>
                         <item>1</item>
                      </part>
@@ -2955,7 +2955,7 @@
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
-                           <item>Nummer3</item>
+                           <item>Nummer2</item>
                         </part>
                      </content>
                   </section>
