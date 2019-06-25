@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.53.2"
-      generator-date="2019-06-21T10:19:55Z">
+      generator-date="2019-06-25T14:26:19Z">
    <chapter title="CHAPTER-CATALOG" type="cat"><!--removed empty content-->
       <section type="DOMAIN" name="Model" id="global_package_Model">
          <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
@@ -1033,6 +1033,10 @@
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
                               xmlns:imvert="http://www.imvertor.org/schema/system">Het eindoordeel van de bronhouder over de betrouwbaarheid van een individuele meting van het grondwatersamenstellingsonderzoek op basis van een, voor het hele onderzoek gebruikte, <em>beoordelingsprocedure</em>.</p>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">--Toelichting—
+Bij gegevens met het IMBRO/A kwaliteitsregime kan het voorkomen dat de beoordelingsprocedure onbekend is of dat het niet mogelijk is de volledige procedure uit te voeren omdat daarvoor gegevens ontbreken.</p>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_StatusKwaliteitscontrole">StatusKwaliteitscontrole</item>
@@ -1461,7 +1465,7 @@
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Het gemeten gehalte of de waargenomen waarde van de parameter.</p>
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Het gemeten gehalte of de waargenomen waarde van de parameter. Wanneer het limietsymbool aanwezig is, wordt hier de grenswaarde in plaats van de gemeten waarde geregistreerd.</p>
                         </item>
                         <item>
                            <item type="global" idref="global_class_gmlMeasure">Meetwaarde</item>
@@ -1471,13 +1475,13 @@
                      <part>
                         <item>
                            <item type="detail"
-                                 idref="detail_attribute_Model_AnalyseWasResultaatParameters_limietsymbool">Limietsymbool</item>
+                                 idref="detail_attribute_Model_AnalyseWasResultaatParameters_limietsymbool">limietsymbool</item>
                         </item>
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">'&lt;' staat voor kleiner dan laagste detectiegrens of rapportagegrens
-'&gt;' staat voor groter dan hoogste detectiegrens.</p>
+                              xmlns:imvert="http://www.imvertor.org/schema/system">'&lt;' betekent dat de waarde kleiner is dan de laagste detectiegrens of rapportagegrens
+'&gt;' betekent dat de waarde groter is dan de hoogste detectiegrens.</p>
                         </item>
                         <item>
                            <item type="global" idref="global_class_xsstring">Tekst40</item>
@@ -1492,7 +1496,7 @@
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De door het uitvoerende laboratorium met de opdrachtgever afgesproken kleinste waarde van het gemeten gehalte of de waargenomen waarde van de parameter in een monster die wordt gerapporteerd aan de opdrachtgever.</p>
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De door het uitvoerende laboratorium met de opdrachtgever afgesproken kleinste waarde van het gemeten gehalte of de waargenomen waarde van de parameter in een monster, die wordt gerapporteerd aan de opdrachtgever.</p>
                         </item>
                         <item>
                            <item type="global" idref="global_class_gmlMeasure">Meetwaarde</item>
@@ -1508,6 +1512,10 @@
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
                               xmlns:imvert="http://www.imvertor.org/schema/system">Het eindoordeel van de bronhouder over de betrouwbaarheid van een individuele meting van het grondwatersamenstellingsonderzoek op basis van een, voor het hele onderzoek gebruikte, <em>beoordelingsprocedure</em>.</p>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">--Toelichting—
+Bij gegevens met het IMBRO/A kwaliteitsregime kan het voorkomen dat de beoordelingsprocedure onbekend is of dat het niet mogelijk is de volledige procedure uit te voeren omdat daarvoor gegevens ontbreken.</p>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_StatusKwaliteitscontrole">StatusKwaliteitscontrole</item>
@@ -3847,6 +3855,10 @@
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
                               xmlns:imvert="http://www.imvertor.org/schema/system">Het eindoordeel van de bronhouder over de betrouwbaarheid van een individuele meting van het grondwatersamenstellingsonderzoek op basis van een, voor het hele onderzoek gebruikte, <em>beoordelingsprocedure</em>.</p>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">--Toelichting—
+Bij gegevens met het IMBRO/A kwaliteitsregime kan het voorkomen dat de beoordelingsprocedure onbekend is of dat het niet mogelijk is de volledige procedure uit te voeren omdat daarvoor gegevens ontbreken.</p>
                         </item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
@@ -3872,14 +3884,6 @@
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-REGELS-IMBROA">
-                        <item>Regels IMBRO/A</item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Wanneer de waarde van het gegeven gelijk is aan “nietVolledig”, is de waarde van het attribuut <em>beoordelingsprocedure</em>van de entiteit <em>Grondwatersamenstellingsonderzoek</em>niet gelijk aan “onbekend”.</p>
-                        </item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -4485,7 +4489,7 @@ Wanneer er relevante bijzonderheden zijn opgetreden is het gegeven eenmaal per b
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Het gemeten gehalte of de waargenomen waarde van de parameter.</p>
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Het gemeten gehalte of de waargenomen waarde van de parameter. Wanneer het limietsymbool aanwezig is, wordt hier de grenswaarde in plaats van de gemeten waarde geregistreerd.</p>
                         </item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
@@ -4497,7 +4501,7 @@ Wanneer er relevante bijzonderheden zijn opgetreden is het gegeven eenmaal per b
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De bronhouder mag bij een waarde die kleiner is dan de waarde van het attribuut <em>rapportagegrens</em> besluiten of hij de waarde aanlevert of niet. 
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De bronhouder mag bij een gemeten waarde die kleiner is dan de waarde van het attribuut <em>rapportagegrens</em> besluiten of hij de gemeten waarde aanlevert of niet. Wanneer de bronhouder de gemeten waarde niet aanlevert, wordt in dit attribuut de rapportagegrens geregistreerd.
 De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van de waarde van het attribuut <em>parameter</em>. De aan te leveren meeteenheid is vastgelegd in de referentietabel <em>Parameterlijst</em>. Een dimensieloze waarde heeft een meeteenheid 1 (cijfer 1).</p>
                         </item>
                      </part>
@@ -4521,14 +4525,6 @@ De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
-                     <part type="CFG-DOC-REGELS">
-                        <item>Regels</item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut groter is dan de waarde van het attribuut <em>rapportagegrens</em>. In andere gevallen mag het gegeven ontbreken.</p>
-                        </item>
-                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Meetwaarde</item>
@@ -4543,14 +4539,14 @@ De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van
                      </part>
                   </content>
                </section>
-               <section name="Limietsymbool"
+               <section name="limietsymbool"
                         type="DETAIL-ATTRIBUTE"
                         id="detail_attribute_Model_AnalyseWasResultaatParameters_limietsymbool"
                         id-global="global_attribute_Model_AnalyseWasResultaatParameters_limietsymbool">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>Limietsymbool</item>
+                        <item>limietsymbool</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -4561,8 +4557,8 @@ De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">'&lt;' staat voor kleiner dan laagste detectiegrens of rapportagegrens
-'&gt;' staat voor groter dan hoogste detectiegrens.</p>
+                              xmlns:imvert="http://www.imvertor.org/schema/system">'&lt;' betekent dat de waarde kleiner is dan de laagste detectiegrens of rapportagegrens
+'&gt;' betekent dat de waarde groter is dan de hoogste detectiegrens.</p>
                         </item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
@@ -4574,7 +4570,7 @@ De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is alleen aanwezig wanneer het gemeten gehalte ofwel lager is dan de kleinste waarde van het gemeten gehalte dat wordt gerapporteerd aan de opdrachtgever, ofwel hoger is dan de hoogste waarde waarde die nog met een bepaalde nauwkeurigheid kan worden vastgesteld en gerapporteerd wordt aan de opdrachtgever.</p>
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is alleen aanwezig wanneer het gemeten gehalte ofwel lager is dan de kleinste waarde van het gehalte dat wordt gerapporteerd aan de opdrachtgever, ofwel hoger is dan de hoogste waarde die nog met een bepaalde nauwkeurigheid kan worden vastgesteld en wordt gerapporteerd aan de opdrachtgever.</p>
                         </item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
@@ -4603,7 +4599,7 @@ De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
                               xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag ontbreken.
-Wanneer het gegevens aanwezig is, moet het de waarde: &lt; of de waarde &gt; hebben.</p>
+Wanneer het gegeven aanwezig is, moet het de waarde: &lt; of de waarde &gt; hebben.</p>
                         </item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
@@ -4634,7 +4630,7 @@ Wanneer het gegevens aanwezig is, moet het de waarde: &lt; of de waarde &gt; heb
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De door het uitvoerende laboratorium met de opdrachtgever afgesproken kleinste waarde van het gemeten gehalte of de waargenomen waarde van de parameter in een monster die wordt gerapporteerd aan de opdrachtgever.</p>
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De door het uitvoerende laboratorium met de opdrachtgever afgesproken kleinste waarde van het gemeten gehalte of de waargenomen waarde van de parameter in een monster, die wordt gerapporteerd aan de opdrachtgever.</p>
                         </item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
@@ -4646,8 +4642,8 @@ Wanneer het gegevens aanwezig is, moet het de waarde: &lt; of de waarde &gt; heb
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Afhankelijk van de aspraak tussen de opdrachtnemer en de opdrachtgever kan de rapportagegrens gelijk zijn aan de detectiegrens.
-Waarden boven deze grenswaarde worden gerapporteerd. Bij een gemeten gehalte onder deze grenswaarde wordt de grenswaarde gerapporteerd. 
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Afhankelijk van de afspraak tussen de opdrachtnemer en de opdrachtgever kan de rapportagegrens gelijk zijn aan de detectiegrens. In andere gevallen is de detectiegrens lager dan de rapportagegrens.
+Waarden boven de rapportagegrens worden gerapporteerd aan de opdrachtgever. Bij een gemeten gehalte onder deze grenswaarde wordt de grenswaarde gerapporteerd aan de opdrachtgever. 
 De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van de waarde van het attribuut <em>parameter</em>. De aan te leveren meeteenheid is vastgelegd in de referentietabel <em>Parameterlijst</em>. Een dimensieloze waarde heeft een meeteenheid 1 (cijfer 1).</p>
                         </item>
                      </part>
@@ -4670,14 +4666,6 @@ De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-REGELS-IMBROA">
-                        <item>Regels IMBRO/A</item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Voor IMBRO/A gegevens kan de rapportagegrens niet bekend zijn.</p>
-                        </item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -4708,6 +4696,10 @@ De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
                               xmlns:imvert="http://www.imvertor.org/schema/system">Het eindoordeel van de bronhouder over de betrouwbaarheid van een individuele meting van het grondwatersamenstellingsonderzoek op basis van een, voor het hele onderzoek gebruikte, <em>beoordelingsprocedure</em>.</p>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">--Toelichting—
+Bij gegevens met het IMBRO/A kwaliteitsregime kan het voorkomen dat de beoordelingsprocedure onbekend is of dat het niet mogelijk is de volledige procedure uit te voeren omdat daarvoor gegevens ontbreken.</p>
                         </item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
@@ -4733,14 +4725,6 @@ De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-REGELS-IMBROA">
-                        <item>Regels IMBRO/A</item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Wanneer de waarde van het gegeven gelijk is aan “nietVolledig”, is de waarde van het attribuut <em>beoordelingsprocedure</em>van de entiteit <em>Grondwatersamenstellingsonderzoek</em>niet gelijk aan “onbekend”.</p>
-                        </item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -9752,6 +9736,9 @@ onderin de peilbuis.</p>
                         xmlns:html="http://www.w3.org/1999/xhtml"
                         xmlns:imvert="http://www.imvertor.org/schema/system">Er is geen reden om aan de juistheid van dit gegeven te twijfelen op basis is van de gehanteerde <em>beoordelingsprocedure.</em>
                               </p>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Bij IMBRO/A gegevens kan het voorkomen dat de <em>beoordelingsprocedure</em> onbekend is of dat het niet mogelijk is de volledige procedure uit te voeren omdat daarvoor gegevens ontbreken. Desondanks is er geen reden om aan de juistheid van dit gegeven te twijfelen.</p>
                   </item>
                </part>
                <part>
@@ -9761,7 +9748,11 @@ onderin de peilbuis.</p>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Er zijn op basis is van de gehanteerde <em>beoordelingsprocedure</em> twijfels over de juistheid van dit gegeven, maar uitsluitsel kon niet gegeven worden.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Er zijn twijfels over de juistheid van dit gegeven, maar uitsluitsel kon niet gegeven worden op basis is van de gehanteerde <em>beoordelingsprocedure</em>.</p>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De beoordeling kan bij IMBRO/A gegevens tot stand gekomen zijn aan de hand van een niet volledig uitgevoerde <em>beoordelingsprocedure</em>omdat daarvoor gegevens ontbreken, of aan de hand van een onbekende <em>beoordelingsprocedure.</em>
+                              </p>
                   </item>
                </part>
                <part>
@@ -9773,6 +9764,10 @@ onderin de peilbuis.</p>
                         xmlns:html="http://www.w3.org/1999/xhtml"
                         xmlns:imvert="http://www.imvertor.org/schema/system">Er is reden om dit gegeven als onjuist te beschouwen. De waarde kon niet geverifieerd worden op basis van de gehanteerde <em>beoordelingsprocedure.</em>
                               </p>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De beoordeling kan bij IMBRO/A gegevens tot stand gekomen zijn aan de hand van een niet volledig uitgevoerde <em>beoordelingsprocedure</em>omdat daarvoor gegevens ontbreken, of aan de hand van een onbekende <em>beoordelingsprocedure.</em>
+                              </p>
                   </item>
                </part>
                <part>
@@ -9783,16 +9778,6 @@ onderin de peilbuis.</p>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
                         xmlns:imvert="http://www.imvertor.org/schema/system">Er is geen beoordeling gedaan van de kwaliteit, of het is onbekend of er een beoordeling is gedaan (IMBRO/A kwaliteitsregime). </p>
-                  </item>
-               </part>
-               <part>
-                  <item>nietVolledig</item>
-                  <item/>
-                  <item>✔</item>
-                  <item>
-                     <p xmlns="http://www.w3.org/1999/xhtml"
-                        xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Er kon geen volledige beoordeling van de kwaliteit worden gedaan omdat daarvoor gegevens ontbreken. (IMBRO/A kwaliteitsregime). </p>
                   </item>
                </part>
             </content>
