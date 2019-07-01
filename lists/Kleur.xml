@@ -2,6 +2,7 @@
 <domeintabel>
 <Kleur>
   <ID>1</ID>
+  <Code>wit</Code>
   <Omschrijving>wit</Omschrijving>
   <Waarde>wit</Waarde>
   <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
@@ -9,6 +10,7 @@
 </Kleur>
 <Kleur>
   <ID>2</ID>
+  <Code>grijs</Code>
   <Omschrijving>grijs</Omschrijving>
   <Waarde>grijs</Waarde>
   <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
@@ -16,6 +18,7 @@
 </Kleur>
 <Kleur>
   <ID>3</ID>
+  <Code>zwart</Code>
   <Omschrijving>zwart</Omschrijving>
   <Waarde>zwart</Waarde>
   <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
@@ -23,6 +26,7 @@
 </Kleur>
 <Kleur>
   <ID>4</ID>
+  <Code>rood</Code>
   <Omschrijving>rood</Omschrijving>
   <Waarde>rood</Waarde>
   <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
@@ -30,6 +34,7 @@
 </Kleur>
 <Kleur>
   <ID>5</ID>
+  <Code>oranje</Code>
   <Omschrijving>oranje</Omschrijving>
   <Waarde>oranje</Waarde>
   <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
@@ -37,6 +42,7 @@
 </Kleur>
 <Kleur>
   <ID>6</ID>
+  <Code>geel</Code>
   <Omschrijving>geel</Omschrijving>
   <Waarde>geel</Waarde>
   <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
@@ -44,6 +50,7 @@
 </Kleur>
 <Kleur>
   <ID>7</ID>
+  <Code>groen</Code>
   <Omschrijving>groen</Omschrijving>
   <Waarde>groen</Waarde>
   <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
@@ -51,6 +58,7 @@
 </Kleur>
 <Kleur>
   <ID>8</ID>
+  <Code>blauw</Code>
   <Omschrijving>blauw</Omschrijving>
   <Waarde>blauw</Waarde>
   <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
@@ -58,6 +66,7 @@
 </Kleur>
 <Kleur>
   <ID>9</ID>
+  <Code>paars</Code>
   <Omschrijving>paars</Omschrijving>
   <Waarde>paars</Waarde>
   <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
@@ -65,6 +74,7 @@
 </Kleur>
 <Kleur>
   <ID>10</ID>
+  <Code>bruin</Code>
   <Omschrijving>bruin</Omschrijving>
   <Waarde>bruin</Waarde>
   <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
@@ -72,6 +82,7 @@
 </Kleur>
 <Kleur>
   <ID>11</ID>
+  <Code>roestbruin</Code>
   <Omschrijving>roestbruin</Omschrijving>
   <Waarde>roestbruin</Waarde>
   <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
@@ -79,6 +90,7 @@
 </Kleur>
 <Kleur>
   <ID>12</ID>
+  <Code>beige</Code>
   <Omschrijving>beige</Omschrijving>
   <Waarde>beige</Waarde>
   <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
@@ -86,6 +98,7 @@
 </Kleur>
 <Kleur>
   <ID>13</ID>
+  <Code>creme</Code>
   <Omschrijving>creme</Omschrijving>
   <Waarde>creme</Waarde>
   <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
@@ -93,6 +106,7 @@
 </Kleur>
 <Kleur>
   <ID>14</ID>
+  <Code>kleurloos</Code>
   <Omschrijving>kleurloos</Omschrijving>
   <Waarde>kleurloos</Waarde>
   <D_BEGIN>2018-05-02T00:00:00+02:00</D_BEGIN>
