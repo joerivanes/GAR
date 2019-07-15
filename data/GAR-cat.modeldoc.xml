@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.53.2"
-      generator-date="2019-07-11T09:42:10Z">
+      generator-date="2019-07-15T06:53:56Z">
    <chapter title="CHAPTER-CATALOG" type="cat"><!--removed empty content-->
       <section type="DOMAIN" name="Model" id="global_package_Model">
          <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
@@ -1448,7 +1448,7 @@ Codelijst kleursterkte van SIKB overnemen</p>
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De aanduiding die aangeeft of de slang nieuw is dan wel al eerder is gebruikt.</p>
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De aanduiding die aangeeft of de slang die gebruikt wordt voor het oppompen van het grondwater nieuw is dan wel al eerder is gebruikt.</p>
                         </item>
                         <item>
                            <item type="global" idref="global_class_IndicationYesNoEnumeration">IndicatieJaNee</item>
@@ -4382,8 +4382,10 @@ Het ID is het identificerend gegeven van de parameter en staat in de referentiel
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van de waarde van het attribuut <em>parameter</em>. De aan te leveren meeteenheid is vastgelegd in de referentietabel <em>Parameterlijst</em>. Alleen een veelvoud of een deel van de eenheid mag voorkomen. De prefix, het voorvoegsel van de eenheid in de parameterlijst mag dus afwijken. Staat er bijvoorbeeld ug/l in de parameterlijst, dan is mg/l ook toegestaan. 
-Een dimensieloze waarde heeft een meeteenheid 1 (cijfer 1).</p>
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van de waarde van het attribuut <em>parameter</em>. De aan te leveren meeteenheid is vastgelegd in de referentietabel <em>Parameterlijst</em>. Alleen een veelvoud of een deel van de eenheid mag voorkomen. De prefix, het voorvoegsel van de eenheid in de parameterlijst mag dus afwijken. Staat er bijvoorbeeld ug/l in de parameterlijst, dan is mg/l ook toegestaan of als mS/m in de parameterlijst staat, is uS/cm ook toegestaan.</p>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Een dimensieloze waarde heeft een meeteenheid 1 (cijfer 1).</p>
                         </item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
@@ -4405,6 +4407,14 @@ Een dimensieloze waarde heeft een meeteenheid 1 (cijfer 1).</p>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De meeteenheid bij het attribuut mag afwijken van de eenheid van de betreffende parameter in de parameterlijst wanneer alleen de prefix van de eenheid afwijkt.</p>
+                        </item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -5126,7 +5136,7 @@ Codelijst kleursterkte van SIKB overnemen</p>
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De aanduiding die aangeeft of de slang nieuw is dan wel al eerder is gebruikt.</p>
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De aanduiding die aangeeft of de slang die gebruikt wordt voor het oppompen van het grondwater nieuw is dan wel al eerder is gebruikt.</p>
                         </item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
@@ -5771,8 +5781,10 @@ Codelijst kleursterkte van SIKB overnemen</p>
                               xmlns:imvert="http://www.imvertor.org/schema/system">De bronhouder mag bij een gemeten waarde die kleiner is dan de waarde van het attribuut <em>rapportagegrens</em> besluiten of hij de gemeten waarde aanlevert of niet. Wanneer de bronhouder de gemeten waarde niet aanlevert, wordt in dit attribuut de rapportagegrens geregistreerd.</p>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van de waarde van het attribuut <em>parameter</em>. De aan te leveren meeteenheid is vastgelegd in de referentietabel <em>Parameterlijst</em>. Alleen een veelvoud of een deel van de eenheid mag voorkomen. De prefix, het voorvoegsel van de eenheid in de parameterlijst mag dus afwijken. Staat er bijvoorbeeld ug/l in de parameterlijst, dan is mg/l ook toegestaan. 
-Een dimensieloze waarde heeft een meeteenheid 1 (cijfer 1).</p>
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De analysemeetwaarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van de waarde van het attribuut <em>parameter</em>. De aan te leveren meeteenheid is vastgelegd in de referentietabel <em>Parameterlijst</em>. Alleen een veelvoud of een deel van de eenheid mag voorkomen. De prefix, het voorvoegsel van de eenheid in de parameterlijst mag dus afwijken. Staat er bijvoorbeeld ug/l in de parameterlijst, dan is mg/l ook toegestaan of als mS/m in de parameterlijst staat, is uS/cm ook toegestaan.</p>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Een dimensieloze waarde heeft een meeteenheid 1 (cijfer 1).</p>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
                               xmlns:imvert="http://www.imvertor.org/schema/system">Voor IMBRO/A gegevens kan het voorkomen dat de waarde van het gegeven ontbreekt. In dat geval is er wel een limietsymbool aanwezig dat aangeeft dat er gemeten is en dat de gemeten waarde lager (of hoger) is dan de grenswaarde.</p>
@@ -5803,7 +5815,7 @@ Een dimensieloze waarde heeft een meeteenheid 1 (cijfer 1).</p>
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De meeteenheid bij het attribuut mag afwijken van de eenheid van de betreffende parameter in de parameterlijst wanneer alleen de prefix afwijkt. Bijvoorbeeld: mS/m staat in de parameterlijst, uS/cm is ook toegestaan.</p>
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De meeteenheid bij het attribuut mag afwijken van de eenheid van de betreffende parameter in de parameterlijst wanneer alleen de prefix van de eenheid afwijkt.</p>
                         </item>
                      </part>
                      <part type="CFG-DOC-REGELS-IMBROA">
@@ -5811,7 +5823,7 @@ Een dimensieloze waarde heeft een meeteenheid 1 (cijfer 1).</p>
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van het attribuut mag ontbreken wanneer het limietsymbool aanwezig is.</p>
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van het attribuut mag ontbreken wanneer het attribuut limietsymbool aanwezig is.</p>
                         </item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
@@ -5858,7 +5870,7 @@ Een dimensieloze waarde heeft een meeteenheid 1 (cijfer 1).</p>
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is alleen aanwezig wanneer het gemeten gehalte ofwel lager is dan de kleinste waarde van het gehalte dat wordt gerapporteerd aan de opdrachtgever, ofwel groter is dan de hoogste waarde die nog met een bepaalde nauwkeurigheid kan worden vastgesteld en wordt gerapporteerd aan de opdrachtgever.</p>
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is alleen aanwezig wanneer het gemeten gehalte ofwel lager is dan de kleinste waarde dat wordt gerapporteerd aan de opdrachtgever, ofwel groter is dan de hoogste waarde die nog met een bepaalde nauwkeurigheid kan worden vastgesteld en wordt gerapporteerd aan de opdrachtgever.</p>
                         </item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
@@ -5922,8 +5934,10 @@ Een dimensieloze waarde heeft een meeteenheid 1 (cijfer 1).</p>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
                               xmlns:imvert="http://www.imvertor.org/schema/system">Afhankelijk van de afspraak tussen de opdrachtnemer en de opdrachtgever kan de rapportagegrens gelijk zijn aan de detectiegrens. In andere gevallen is de rapportagegrens hoger dan de detectiegrens.
-Waarden boven de rapportagegrens worden gerapporteerd aan de opdrachtgever. Bij een gemeten gehalte onder deze grenswaarde wordt de grenswaarde gerapporteerd aan de opdrachtgever. 
-De rapportagegrens wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van de waarde van het attribuut <em>parameter</em>. De aan te leveren meeteenheid is bepaald in de referentietabel <em>Parameterlijst</em>. Alleen de prefix van de eenheid mag afwijken van de eenheid die vermeld staat in de parameterlijst, staat er bijvoorbeeld ug/l in de parameterlijst, dan is mg/l ook toegestaan. 
+Waarden boven de rapportagegrens worden gerapporteerd aan de opdrachtgever. Bij een gemeten gehalte onder deze grenswaarde wordt de grenswaarde gerapporteerd aan de opdrachtgever. </p>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De rapportagegrens  wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van de waarde van het attribuut <em>parameter</em>. De aan te leveren meeteenheid is vastgelegd in de referentietabel <em>Parameterlijst</em>. Alleen een veelvoud of een deel van de eenheid mag voorkomen. De prefix, het voorvoegsel van de eenheid in de parameterlijst mag dus afwijken. Staat er bijvoorbeeld ug/l in de parameterlijst, dan is mg/l ook toegestaan of als mS/m in de parameterlijst staat, is uS/cm ook toegestaan.
 Een dimensieloze waarde heeft een meeteenheid 1 (cijfer 1).</p>
                         </item>
                      </part>
@@ -10897,16 +10911,14 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017. Bijlage 3, Validatieprot
                <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
                <part>
-                  <item>kogelkleppomp</item>
-                  <item>✔</item>
-                  <item>✔</item>
-                  <item/>
-               </part>
-               <part>
                   <item>onderwaterpomp</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Deze pomp wordt ook wel dompelpomp genoemd.</p>
+                  </item>
                </part>
                <part>
                   <item>peristaltischePomp</item>
@@ -10916,6 +10928,22 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017. Bijlage 3, Validatieprot
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
                         xmlns:imvert="http://www.imvertor.org/schema/system">Deze pomp wordt ook wel slangenpomp genoemd.</p>
+                  </item>
+               </part>
+               <part>
+                  <item>vacuümpomp</item>
+                  <item>✔</item>
+                  <item>✔</item>
+                  <item/>
+               </part>
+               <part>
+                  <item>anders</item>
+                  <item>✔</item>
+                  <item>✔</item>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een ander pomptype zoals dat is beschreven in de bemonsteringsprocedure.</p>
                   </item>
                </part>
                <part>
