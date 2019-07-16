@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.53.2"
-      generator-date="2019-07-15T14:08:49Z">
+      generator-date="2019-07-16T07:07:55Z">
    <chapter title="CHAPTER-CATALOG" type="cat"><!--removed empty content-->
       <section type="DOMAIN" name="Model" id="global_package_Model">
          <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
@@ -860,7 +860,7 @@ veldonderzoek is uitgevoerd en het grondwatermonster is genomen.</p>
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van het<em>veldonderzoek</em>, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.</p>
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van het <em>veldonderzoek</em>, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.</p>
                         </item>
                         <item>
                            <item type="global" idref="global_class_OrganizationType">Organisatie</item>
@@ -1075,11 +1075,6 @@ veldonderzoek is uitgevoerd en het grondwatermonster is genomen.</p>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
                               xmlns:imvert="http://www.imvertor.org/schema/system">Het type pomp dat is gebruikt voor het bemonsteren van het grondwater. </p>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">--Regels—
-De waarde van het attribuut mag niet gelijk zijn aan vacuümpomp wanneer de waarde van het attribuut bemonsteringsprocedure van de entiteit Veldonderzoek gelijk is aan NEN5744v2011-A1v2013, aan NTA8017v2016 of aan SIKBProtocol2002.
-De waarde van het attribuut mag niet gelijk zijn aan anders wanneer de waarde van het attribuut bemonsteringsprocedure van de entiteit Veldonderzoek gelijk is aan NEN5744v2011-A1v2013, aan NTA8017v2016 of aan SIKBProtocol2002.</p>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_Pomptype">Pomptype</item>
@@ -1205,10 +1200,6 @@ De waarde van het attribuut mag niet gelijk zijn aan anders wanneer de waarde va
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
                               xmlns:imvert="http://www.imvertor.org/schema/system">Het eindoordeel van de bronhouder over de betrouwbaarheid van een individuele meting van het grondwatersamenstellingsonderzoek op basis van een, voor het hele onderzoek gebruikte, <em>beoordelingsprocedure</em>.</p>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">--Toelichting—
-Bij gegevens met het IMBRO/A kwaliteitsregime kan het voorkomen dat de beoordelingsprocedure onbekend is of dat het niet mogelijk is de volledige procedure uit te voeren omdat daarvoor gegevens ontbreken.</p>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_StatusKwaliteitscontrole">StatusKwaliteitscontrole</item>
@@ -2146,7 +2137,7 @@ Bij gegevens met het IMBRO/A kwaliteitsregime kan het voorkomen dat de beoordeli
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst van soorten pompen die kunnen worden gebruikt bij het oppompen van grondwater.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst van mogelijke pompen die gebruikt kunnen worden voor het bemonsteren van het grondwater. </p>
                   </item>
                </part>
                <part>
@@ -2176,7 +2167,7 @@ Bij gegevens met het IMBRO/A kwaliteitsregime kan het voorkomen dat de beoordeli
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst van de mogelijke kleuren die zijn waargenomen in het grondwatermonster.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst van de mogelijke hoofd- en bijkleuren die zijn waargenomen in het grondwatermonster.</p>
                   </item>
                </part>
                <part>
@@ -2186,7 +2177,7 @@ Bij gegevens met het IMBRO/A kwaliteitsregime kan het voorkomen dat de beoordeli
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De sterkte van de kleuren die zijn waargenomen in het grondwatermonster.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Lijst van de mogelijke sterkte van de kleur die is waargenomen in het grondwatermonster.</p>
                   </item>
                </part>
                <part>
@@ -3885,7 +3876,7 @@ Het tijdstip kan van belang zijn, bijvoorbeeld bij monitoringbuizen die onder in
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van het<em>veldonderzoek</em>, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.</p>
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van het <em>veldonderzoek</em>, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.</p>
                         </item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
@@ -4252,11 +4243,6 @@ Het tijdstip kan van belang zijn, bijvoorbeeld bij monitoringbuizen die onder in
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
                               xmlns:imvert="http://www.imvertor.org/schema/system">Het type pomp dat is gebruikt voor het bemonsteren van het grondwater. </p>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">--Regels—
-De waarde van het attribuut mag niet gelijk zijn aan vacuümpomp wanneer de waarde van het attribuut bemonsteringsprocedure van de entiteit Veldonderzoek gelijk is aan NEN5744v2011-A1v2013, aan NTA8017v2016 of aan SIKBProtocol2002.
-De waarde van het attribuut mag niet gelijk zijn aan anders wanneer de waarde van het attribuut bemonsteringsprocedure van de entiteit Veldonderzoek gelijk is aan NEN5744v2011-A1v2013, aan NTA8017v2016 of aan SIKBProtocol2002.</p>
                         </item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
@@ -4282,6 +4268,17 @@ De waarde van het attribuut mag niet gelijk zijn aan anders wanneer de waarde va
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van het attribuut mag niet gelijk zijn aan vacuümpomp wanneer de waarde van het attribuut bemonsteringsprocedure van de entiteit Veldonderzoek gelijk is aan NEN5744v2011-A1v2013, aan NTA8017v2016 of aan SIKBProtocol2002.</p>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van het attribuut mag niet gelijk zijn aan anders wanneer de waarde van het attribuut bemonsteringsprocedure van de entiteit Veldonderzoek gelijk is aan NEN5744v2011-A1v2013, aan NTA8017v2016 of aan SIKBProtocol2002.</p>
+                        </item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -4459,15 +4456,19 @@ Het ID is het identificerend gegeven van de parameter en staat in de referentiel
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
                               xmlns:imvert="http://www.imvertor.org/schema/system">Het eindoordeel van de bronhouder over de betrouwbaarheid van een individuele meting van het grondwatersamenstellingsonderzoek op basis van een, voor het hele onderzoek gebruikte, <em>beoordelingsprocedure</em>.</p>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">--Toelichting—
-Bij gegevens met het IMBRO/A kwaliteitsregime kan het voorkomen dat de beoordelingsprocedure onbekend is of dat het niet mogelijk is de volledige procedure uit te voeren omdat daarvoor gegevens ontbreken.</p>
                         </item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Bij gegevens met het IMBRO/A kwaliteitsregime kan het voorkomen dat de beoordelingsprocedure onbekend is of dat het niet mogelijk is de volledige procedure uit te voeren omdat daarvoor gegevens ontbreken.</p>
+                        </item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -10900,6 +10901,17 @@ Deze norm is ingetrokken en vervangen door NEN 5744, 2011.</p>
                   </item>
                </part>
                <part>
+                  <item>NEN5745v1997</item>
+                  <item/>
+                  <item>✔</item>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Nederlandse norm NEN 5745 Bodem - Monsterneming van grondwater ten behoeve van de bepaling van vluchtige verbindingen, 1997
+Deze norm is ingetrokken en vervangen door NEN 5744, 2011.</p>
+                  </item>
+               </part>
+               <part>
                   <item>NTA8017v2008</item>
                   <item/>
                   <item>✔</item>
@@ -10933,7 +10945,7 @@ Deze norm is ingetrokken en vervangen door NTA 8017, 2016.</p>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst van soorten pompen die kunnen worden gebruikt bij het oppompen van grondwater.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst van mogelijke pompen die gebruikt kunnen worden voor het bemonsteren van het grondwater. </p>
                   </item>
                </part>
             </content>
@@ -11120,7 +11132,7 @@ Deze norm is ingetrokken en vervangen door NTA 8017, 2016.</p>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst van de mogelijke kleuren die zijn waargenomen in het grondwatermonster.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst van de mogelijke hoofd- en bijkleuren die zijn waargenomen in het grondwatermonster.</p>
                   </item>
                </part>
             </content>
@@ -11226,7 +11238,7 @@ Deze norm is ingetrokken en vervangen door NTA 8017, 2016.</p>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De sterkte van de kleuren die zijn waargenomen in het grondwatermonster.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Lijst van de mogelijke sterkte van de kleur die is waargenomen in het grondwatermonster.</p>
                   </item>
                </part>
             </content>
