@@ -2,7 +2,7 @@
 <section id="cat" class="normative" level="1">
    <h2>Catalogus</h2>
    <p><b>Deze tekst is normatief.</b>
-      <!--Conceptualmodel-GrondwatersamenstellingsonderzoekGAR-0.9.1-2-20190328-20190716-102653 imvertor 1.53.2--></p>
+      <!--Conceptualmodel-GrondwatersamenstellingsonderzoekGAR-0.9.1-2-20190328-20190716-120647 imvertor 1.53.2--></p>
    <div class="imageinfo overview"><img src="data/Images/EAID_BBDCFEE2_BB5A_4b62_99F2_796C8F526D8F.png" usemap="#imagemap-EAID_BBDCFEE2_BB5A_4b62_99F2_796C8F526D8F"><map name="imagemap-EAID_BBDCFEE2_BB5A_4b62_99F2_796C8F526D8F">
          <area shape="rect" coords="25,876,333,657" alt="" href="#graph_EAID_D2FEBBF9_3FD7_46ca_BE79_E41A66C40AE0">
          <area shape="rect" coords="963,368,1161,279" alt="" href="#graph_EAID_011FAD14_41B1_4602_8F25_0AD94DBE2504">
@@ -2049,8 +2049,8 @@
                   <th>Definitie</th>
                   <td>
                      
-                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Lijst van stoffen en andere eigenschappen die in een grondwatersamenstellingsonderzoek
-                        bepaald kunnen worden.
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De lijst met stoffen en andere eigenschappen die in een grondwatersamenstellingsonderzoek
+                        bepaald worden.
                      </p>
                      
                   </td>
@@ -2082,9 +2082,13 @@
                         
                         <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het ID van de parameter zoals uitgegeven door het SIKB.</p>
                         
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Dit is een persistent, identificerend volgnummer binnen de referentielijst. Voor nieuwe
+                           stoffen kan een nieuwe aquocode met een nieuw ID worden aangevraagd.
+                        </p>
+                        
                      </td>
                      <td>
-                        <a class="link" href="#global_class_xsinteger">Nummer2</a>
+                        <a class="link" href="#global_class_xsinteger">Nummer</a>
                         
                      </td>
                      <td>1</td>
@@ -2097,6 +2101,11 @@
                      <td>
                         
                         <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De Aquocode van de laboratoriumparameter.</p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De aquocode is een codering voor een stof die afgeleid is van de naam van de stof.
+                           Voor nieuwe stoffen kan een nieuwe aquocode worden aangevraagd waarbij ook een nieuw
+                           ID wordt aangemaakt.
+                        </p>
                         
                      </td>
                      <td>
@@ -2113,6 +2122,10 @@
                      <td>
                         
                         <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het Chemical Abstracts Service nummer van de laboratoriumparameter.</p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Alleen chemische parameters hebben een CAS-nummer. Een Chemical Abstracts Service
+                           nummer is uniek voor elke parameter. Voor bv somparameters ontbreekt het CAS-nummer.
+                        </p>
                         
                      </td>
                      <td>
@@ -2149,6 +2162,10 @@
                            van de gemeten waarde. 
                         </p>
                         
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Alleen de prefix, het voorvoegsel van de eenheid mag worden aangepast. Wanneer bijvoorbeeld
+                           ug/l in de parameterlijst staat, is mg/l ook toegestaan.
+                        </p>
+                        
                      </td>
                      <td>
                         CHARACTERSTRING
@@ -2164,6 +2181,13 @@
                      <td>
                         
                         <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De afgesproken hoedanigheid waarin de parameter wordt gerapporteerd.</p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De hoedanigheid is een nadere duiding van de eenheid, behorend bij een meetwaarde,
+                           bijvoorbeeld ten opzicht van 25 graden Celcius. De hoedanigheid kan ook de fractie
+                           van de parameter aangeven waarop de meetwaarde betrekking heeft, bijvoorbeeld de opgeloste
+                           fractie (bijv. na filtratie): nf. Bij stiksfofverbindingen wordt bijvoorbeeld aangegeven
+                           dat de waarde wordt uitgedrukt in stikstof in opgeloste fractie (Nnf).
+                        </p>
                         
                      </td>
                      <td>
@@ -6420,7 +6444,7 @@
 <section id="lis" class="normative" level="1">
    <h2>Inhoud van waardenlijsten</h2>
    <p><b>Deze tekst is normatief.</b>
-      <!--Conceptualmodel-GrondwatersamenstellingsonderzoekGAR-0.9.1-2-20190328-20190716-102653 imvertor 1.53.2--></p><a class="anchor" name="graph_EAID_FEC2B1DD_E5C2_4c90_8B71_B69ADC431AB0"></a><a class="anchor" name="detail_class_Model_Parameterlijst"></a><section id="detail_class_Model_Parameterlijst" level="3">
+      <!--Conceptualmodel-GrondwatersamenstellingsonderzoekGAR-0.9.1-2-20190328-20190716-120647 imvertor 1.53.2--></p><a class="anchor" name="graph_EAID_FEC2B1DD_E5C2_4c90_8B71_B69ADC431AB0"></a><a class="anchor" name="detail_class_Model_Parameterlijst"></a><section id="detail_class_Model_Parameterlijst" level="3">
       <h3>Referentielijst inhoud Parameterlijst</h3>
       
       <table>
@@ -6431,8 +6455,8 @@
                <td>Definitie</td>
                <td>
                   
-                  <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Lijst van stoffen en andere eigenschappen die in een grondwatersamenstellingsonderzoek
-                     bepaald kunnen worden.
+                  <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De lijst met stoffen en andere eigenschappen die in een grondwatersamenstellingsonderzoek
+                     bepaald worden.
                   </p>
                   
                </td>
