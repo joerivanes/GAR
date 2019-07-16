@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.53.2"
-      generator-date="2019-07-16T07:07:55Z">
+      generator-date="2019-07-16T08:26:52Z">
    <chapter title="CHAPTER-CATALOG" type="cat"><!--removed empty content-->
       <section type="DOMAIN" name="Model" id="global_package_Model">
          <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
@@ -2117,7 +2117,7 @@ Bij gegevens met het IMBRO/A kwaliteitsregime kan het voorkomen dat de beoordeli
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst van protocollen en werkwijzen die kunnen worden toegepast bij de beoordeling van de kwaliteit van de meetwaarden die in het veld en/of het laboratorium gemeten zijn.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst met protocollen en werkwijzen die worden toegepast bij de beoordeling van de kwaliteit van de meetwaarden die in het veld en/of het laboratorium gemeten zijn.</p>
                   </item>
                </part>
                <part>
@@ -2127,7 +2127,7 @@ Bij gegevens met het IMBRO/A kwaliteitsregime kan het voorkomen dat de beoordeli
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Lijst van mogelijke procedures die gehanteerd worden bij de uitvoering van de bemonstering van grondwater.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst met procedures die gehanteerd worden bij de uitvoering van de bemonstering van grondwater.</p>
                   </item>
                </part>
                <part>
@@ -2137,7 +2137,7 @@ Bij gegevens met het IMBRO/A kwaliteitsregime kan het voorkomen dat de beoordeli
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst van mogelijke pompen die gebruikt kunnen worden voor het bemonsteren van het grondwater. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst van pompen die gebruikt worden voor het bemonsteren van het grondwater. </p>
                   </item>
                </part>
                <part>
@@ -2147,7 +2147,7 @@ Bij gegevens met het IMBRO/A kwaliteitsregime kan het voorkomen dat de beoordeli
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst van de mogelijke uitkomsten van het eindoordeel van de bronhouder over de betrouwbaarheid van individuele metingen.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst met de mogelijke uitkomsten van het eindoordeel van de bronhouder over de betrouwbaarheid van individuele metingen.</p>
                   </item>
                </part>
                <part>
@@ -2157,7 +2157,7 @@ Bij gegevens met het IMBRO/A kwaliteitsregime kan het voorkomen dat de beoordeli
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Symbool dat aangeeft of de gemeten waarde kleiner dan of groter dan de rapportagegrens is.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het symbool dat aangeeft of de gemeten waarde kleiner dan de laagste rapportagegrens of groter dan de hoogste rapportagegrens is.</p>
                   </item>
                </part>
                <part>
@@ -2167,7 +2167,7 @@ Bij gegevens met het IMBRO/A kwaliteitsregime kan het voorkomen dat de beoordeli
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst van de mogelijke hoofd- en bijkleuren die zijn waargenomen in het grondwatermonster.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst met hoofd- en bijkleuren die zijn waargenomen in het grondwatermonster.</p>
                   </item>
                </part>
                <part>
@@ -2177,7 +2177,7 @@ Bij gegevens met het IMBRO/A kwaliteitsregime kan het voorkomen dat de beoordeli
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Lijst van de mogelijke sterkte van de kleur die is waargenomen in het grondwatermonster.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst met de kleursterktes die zijn waargenomen in het grondwatermonster.</p>
                   </item>
                </part>
                <part>
@@ -2187,7 +2187,7 @@ Bij gegevens met het IMBRO/A kwaliteitsregime kan het voorkomen dat de beoordeli
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst van mogelijke laboratoriumtechnieken die gebruikt zijn bij het bepalen van het gehalte van chemische parameters.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst met laboratoriumtechnieken die gebruikt zijn bij het bepalen van het gehalte van chemische parameters. De inhoud van deze lijst is gebaseerd op de Aquo tabel Waardebepalingstechniek.</p>
                   </item>
                </part>
                <part>
@@ -2197,7 +2197,7 @@ Bij gegevens met het IMBRO/A kwaliteitsregime kan het voorkomen dat de beoordeli
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst van mogelijke normen en voorschriften die beschrijven hoe het <em>laboratoriumonderzoek</em> is uitgevoerd.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst met normen en voorschriften die beschrijven hoe het <em>laboratoriumonderzoek</em> is uitgevoerd. De inhoud van deze lijst is gebaseerd op de Aquo tabel "Waardebepalingsmethode".</p>
                   </item>
                </part>
             </content>
@@ -4274,10 +4274,10 @@ Het tijdstip kan van belang zijn, bijvoorbeeld bij monitoringbuizen die onder in
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van het attribuut mag niet gelijk zijn aan vacuümpomp wanneer de waarde van het attribuut bemonsteringsprocedure van de entiteit Veldonderzoek gelijk is aan NEN5744v2011-A1v2013, aan NTA8017v2016 of aan SIKBProtocol2002.</p>
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van het attribuut mag niet gelijk zijn aan vacuümpomp wanneer de waarde van het attribuut bemonsteringsprocedure van de entiteit Veldonderzoek gelijk is aan NEN5744v2011-A1v2013, aan NTA8017v2016 of aan SIKBProtocol2002vanafV4.</p>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van het attribuut mag niet gelijk zijn aan anders wanneer de waarde van het attribuut bemonsteringsprocedure van de entiteit Veldonderzoek gelijk is aan NEN5744v2011-A1v2013, aan NTA8017v2016 of aan SIKBProtocol2002.</p>
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van het attribuut mag niet gelijk zijn aan anders wanneer de waarde van het attribuut bemonsteringsprocedure van de entiteit Veldonderzoek gelijk is aan NEN5744v2011-A1v2013, aan NTA8017v2016 of aan SIKBProtocol2002vanafV4.</p>
                         </item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
@@ -10796,7 +10796,7 @@ Bij gegevens met het IMBRO/A kwaliteitsregime kan het voorkomen dat de beoordeli
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst van protocollen en werkwijzen die kunnen worden toegepast bij de beoordeling van de kwaliteit van de meetwaarden die in het veld en/of het laboratorium gemeten zijn.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst met protocollen en werkwijzen die worden toegepast bij de beoordeling van de kwaliteit van de meetwaarden die in het veld en/of het laboratorium gemeten zijn.</p>
                   </item>
                </part>
             </content>
@@ -10850,7 +10850,7 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017. Bijlage 3, Validatieprot
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Lijst van mogelijke procedures die gehanteerd worden bij de uitvoering van de bemonstering van grondwater.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst met procedures die gehanteerd worden bij de uitvoering van de bemonstering van grondwater.</p>
                   </item>
                </part>
             </content>
@@ -10880,13 +10880,13 @@ Vastgesteld door Platform Meetnetbeheerders 06/04/2017. Bijlage 3, Validatieprot
                   </item>
                </part>
                <part>
-                  <item>SIKBProtocol2002</item>
+                  <item>SIKBProtocol2002vanafV4</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Protocol 2002, Het nemen van grondwatermonsters, versie 6.0, februari 2018. Dit protocol is onderdeel van SIKB 2000 (certificatieschema of accreditatieschema) dat van toepassing is op het nemen van grondwatermonsters bij milieuhygiënisch bodemonderzoek.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Protocol 2002, Het nemen van grondwatermonsters. Versie 4 en opvolgende versies die geen relevante wijzigingen voor (de gegevens van) het grondwatersamenstellingsonderzoek bevatten. Dit protocol is onderdeel van SIKB 2000 (certificatieschema of accreditatieschema) dat van toepassing is op het nemen van grondwatermonsters bij milieuhygiënisch bodemonderzoek.</p>
                   </item>
                </part>
                <part>
@@ -10945,7 +10945,7 @@ Deze norm is ingetrokken en vervangen door NTA 8017, 2016.</p>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst van mogelijke pompen die gebruikt kunnen worden voor het bemonsteren van het grondwater. </p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst van pompen die gebruikt worden voor het bemonsteren van het grondwater. </p>
                   </item>
                </part>
             </content>
@@ -11013,7 +11013,7 @@ Deze norm is ingetrokken en vervangen door NTA 8017, 2016.</p>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst van de mogelijke uitkomsten van het eindoordeel van de bronhouder over de betrouwbaarheid van individuele metingen.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst met de mogelijke uitkomsten van het eindoordeel van de bronhouder over de betrouwbaarheid van individuele metingen.</p>
                   </item>
                </part>
             </content>
@@ -11088,7 +11088,7 @@ Deze norm is ingetrokken en vervangen door NTA 8017, 2016.</p>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Symbool dat aangeeft of de gemeten waarde kleiner dan of groter dan de rapportagegrens is.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het symbool dat aangeeft of de gemeten waarde kleiner dan de laagste rapportagegrens of groter dan de hoogste rapportagegrens is.</p>
                   </item>
                </part>
             </content>
@@ -11132,7 +11132,7 @@ Deze norm is ingetrokken en vervangen door NTA 8017, 2016.</p>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst van de mogelijke hoofd- en bijkleuren die zijn waargenomen in het grondwatermonster.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst met hoofd- en bijkleuren die zijn waargenomen in het grondwatermonster.</p>
                   </item>
                </part>
             </content>
@@ -11238,7 +11238,7 @@ Deze norm is ingetrokken en vervangen door NTA 8017, 2016.</p>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Lijst van de mogelijke sterkte van de kleur die is waargenomen in het grondwatermonster.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst met de kleursterktes die zijn waargenomen in het grondwatermonster.</p>
                   </item>
                </part>
             </content>
@@ -11290,7 +11290,7 @@ Deze norm is ingetrokken en vervangen door NTA 8017, 2016.</p>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst van mogelijke laboratoriumtechnieken die gebruikt zijn bij het bepalen van het gehalte van chemische parameters.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst met laboratoriumtechnieken die gebruikt zijn bij het bepalen van het gehalte van chemische parameters. De inhoud van deze lijst is gebaseerd op de Aquo tabel Waardebepalingstechniek.</p>
                   </item>
                </part>
             </content>
@@ -11852,7 +11852,7 @@ Deze norm is ingetrokken en vervangen door NTA 8017, 2016.</p>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst van mogelijke normen en voorschriften die beschrijven hoe het <em>laboratoriumonderzoek</em> is uitgevoerd.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De lijst met normen en voorschriften die beschrijven hoe het <em>laboratoriumonderzoek</em> is uitgevoerd. De inhoud van deze lijst is gebaseerd op de Aquo tabel "Waardebepalingsmethode".</p>
                   </item>
                </part>
             </content>
