@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.53.2"
-      generator-date="2019-07-19T14:32:46Z">
+      generator-date="2019-07-23T07:46:37Z">
    <chapter title="CHAPTER-CATALOG" type="cat"><!--removed empty content-->
       <section type="DOMAIN" name="Model" id="global_package_Model">
          <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
@@ -2072,10 +2072,7 @@ veldonderzoek is uitgevoerd en het grondwatermonster is genomen.</p>
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De eenheid waarin de parameter geregistreerd moet worden. Ook een veelvoud of een deel van deze eenheid mag gebruikt worden in het geval dit beter aansluit bij de hoogte van de gemeten waarde. </p>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Alleen de prefix, het voorvoegsel van de eenheid mag worden aangepast. Wanneer bijvoorbeeld ug/l in de parameterlijst staat, is mg/l ook toegestaan.</p>
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De eenheid waarin de parameter geregistreerd moet worden. De prefix, het voorvoegsel van de eenheid, mag worden aangepast als dit beter aansluit bij de hoogte van de gemeten waarde. Wanneer bijvoorbeeld ug/l in de parameterlijst staat, is mg/l ook toegestaan.</p>
                         </item>
                         <item>
                            <item type="global">CHARACTERSTRING</item>
@@ -4398,7 +4395,7 @@ Het ID is het identificerend gegeven van de parameter en staat in de referentiel
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De waarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van de waarde van het attribuut <em>parameter</em>. De aan te leveren meeteenheid is vastgelegd in de referentietabel <em>Parameterlijst</em>. Alleen een veelvoud of een deel van de eenheid mag voorkomen. De prefix, het voorvoegsel van de eenheid in de parameterlijst mag dus afwijken. Staat er bijvoorbeeld ug/l in de parameterlijst, dan is mg/l ook toegestaan of als mS/m in de parameterlijst staat, is uS/cm ook toegestaan.</p>
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De veldmeetwaarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van de waarde van het attribuut <em>parameter</em>. De aan te leveren meeteenheid is vastgelegd in de referentietabel <em>Parameterlijst</em>. Alleen de prefix, het voorvoegsel van de eenheid in de parameterlijst mag afwijken. Staat er bijvoorbeeld ug/l in de parameterlijst, dan is mg/l ook toegestaan of als mS/m in de parameterlijst staat, is uS/cm ook toegestaan.</p>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
                               xmlns:imvert="http://www.imvertor.org/schema/system">Een dimensieloze waarde heeft een meeteenheid 1 (cijfer 1).</p>
@@ -5800,7 +5797,7 @@ Bij historische gegevens kan het voorkomen dat de analysedatum niet bekend is.</
                               xmlns:imvert="http://www.imvertor.org/schema/system">De bronhouder mag bij een gemeten waarde die kleiner is dan de waarde van het attribuut <em>rapportagegrens</em> besluiten of hij de gemeten waarde aanlevert of niet. Wanneer de bronhouder de gemeten waarde niet aanlevert, wordt in dit attribuut de rapportagegrens geregistreerd.</p>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De analysemeetwaarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van de waarde van het attribuut <em>parameter</em>. De aan te leveren meeteenheid is vastgelegd in de referentietabel <em>Parameterlijst</em>. Alleen een veelvoud of een deel van de eenheid mag voorkomen. De prefix, het voorvoegsel van de eenheid in de parameterlijst mag dus afwijken. Staat er bijvoorbeeld ug/l in de parameterlijst, dan is mg/l ook toegestaan of als mS/m in de parameterlijst staat, is uS/cm ook toegestaan.</p>
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De analysemeetwaarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van de waarde van het attribuut parameter. De aan te leveren meeteenheid is vastgelegd in de referentietabel Parameterlijst. Alleen de prefix, het voorvoegsel van de eenheid in de parameterlijst mag afwijken. Staat er bijvoorbeeld ug/l in de parameterlijst, dan is mg/l ook toegestaan of als mS/m in de parameterlijst staat, is uS/cm ook toegestaan.</p>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
                               xmlns:imvert="http://www.imvertor.org/schema/system">Een dimensieloze waarde heeft een meeteenheid 1 (cijfer 1).</p>
@@ -11116,7 +11113,7 @@ Deze norm is ingetrokken en vervangen door NTA 8017, 2016.</p>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De gemeten waarde is kleiner dan de laagste detectiegrens of rapportagegrens welke is ingevuld bij het attribuut <em>waarde.</em>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De gemeten waarde is kleiner dan de laagste rapportagegrens welke is ingevuld bij het attribuut <em>waarde.</em>
                               </p>
                   </item>
                </part>
@@ -11127,7 +11124,7 @@ Deze norm is ingetrokken en vervangen door NTA 8017, 2016.</p>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De gemeten waarde is groter dan de hoogste detectiegrens welke is ingevuld bij het attribuut <em>waarde.</em>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De gemeten waarde is groter dan de hoogste rapportagrgrens welke is ingevuld bij het attribuut <em>waarde.</em>
                               </p>
                   </item>
                </part>
