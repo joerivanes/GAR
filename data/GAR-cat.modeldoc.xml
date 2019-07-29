@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_CFC4BA14_3264_48fb_B87F_4E5FC217663B"
       generator-version="1.53.2"
-      generator-date="2019-07-29T10:53:40Z">
+      generator-date="2019-07-29T11:03:04Z">
    <chapter title="CHAPTER-CATALOG" type="cat"><!--removed empty content-->
       <section type="DOMAIN" name="Model" id="global_package_Model">
          <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
@@ -15,34 +15,6 @@
                   <part type="CFG-DOC-NAAM">
                      <item>Naam</item>
                      <item>Domeinmodel - overzicht</item>
-                  </part>
-                  <part type="CFG-DOC-DESCRIPTION">
-                     <item>Omschrijving</item>
-                     <item/>
-                  </part>
-               </content>
-            </section>
-            <section type="IMAGEMAP"
-                     name="Waardelijsten - overzicht"
-                     id="EAID_0553A643_1D42_425b_A4A0_47AD9DFE4CE7">
-               <content>
-                  <part type="CFG-DOC-NAAM">
-                     <item>Naam</item>
-                     <item>Waardelijsten - overzicht</item>
-                  </part>
-                  <part type="CFG-DOC-DESCRIPTION">
-                     <item>Omschrijving</item>
-                     <item/>
-                  </part>
-               </content>
-            </section>
-            <section type="IMAGEMAP"
-                     name="Datatypen - overzicht"
-                     id="EAID_A1844355_72B0_466d_B8D4_6DD92281E08D">
-               <content>
-                  <part type="CFG-DOC-NAAM">
-                     <item>Naam</item>
-                     <item>Datatypen - overzicht</item>
                   </part>
                   <part type="CFG-DOC-DESCRIPTION">
                      <item>Omschrijving</item>
