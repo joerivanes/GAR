@@ -1,7 +1,7 @@
 <section id="cat" class="normative" level="1">
    <h2>Gegevensdefinitie</h2>
    <p><b>Deze tekst is normatief.</b>
-      <!--Conceptualmodel-GrondwatersamenstellingsonderzoekGAR-0.9.1-2-20190328-20190729-163649 imvertor 1.53.4--></p>
+      <!--Conceptualmodel-GrondwatersamenstellingsonderzoekGAR-0.9.1-2-20190328-20190730-092941 imvertor 1.53.4--></p>
    <section id="" level="3">
       <h3>Het domeinmodel </h3>
       <div class="imageinfo overview"><img src="data/Images/EAID_BBDCFEE2_BB5A_4b62_99F2_796C8F526D8F.png" usemap="#imagemap-EAID_BBDCFEE2_BB5A_4b62_99F2_796C8F526D8F"><map name="imagemap-EAID_BBDCFEE2_BB5A_4b62_99F2_796C8F526D8F">
@@ -97,7 +97,7 @@
                </tr>
                <tr>
                   <th>Kardinaliteit</th>
-                  <td>1</td>
+                  <td></td>
                </tr>
                <tr>
                   <th>Indicatie authentiek</th>
@@ -163,7 +163,7 @@
                </tr>
                <tr>
                   <th>Kardinaliteit</th>
-                  <td>1</td>
+                  <td></td>
                </tr>
                <tr>
                   <th>Indicatie authentiek</th>
@@ -239,7 +239,7 @@
                </tr>
                <tr>
                   <th>Kardinaliteit</th>
-                  <td>1</td>
+                  <td></td>
                </tr>
                <tr>
                   <th>Indicatie authentiek</th>
@@ -307,7 +307,7 @@
                </tr>
                <tr>
                   <th>Kardinaliteit</th>
-                  <td>1</td>
+                  <td></td>
                </tr>
                <tr>
                   <th>Indicatie authentiek</th>
@@ -381,7 +381,7 @@
                </tr>
                <tr>
                   <th>Kardinaliteit</th>
-                  <td>1</td>
+                  <td></td>
                </tr>
                <tr>
                   <th>Indicatie authentiek</th>
@@ -446,10 +446,24 @@
                   <th>Relaties met andere entiteiten</th>
                   <td>
                      Omschrijving van de relaties: 
-                     <br>Grondwatersamenstellingsonderzoek
+                     <br>Grondwatersamenstellingsonderzoek is specialisatie van
                      <a class="link" href="#global_class_Model_Registratieobject">Registratieobject</a>
                      <br>Grondwatersamenstellingsonderzoek
-                     <a class="link" href="#global_class_Model_Registratieobject">Registratieobject</a>
+                     gemeten ten behoeve van: grondwatermonitoringnet
+                     1-*
+                     <a class="link" href="#global_class_Model_Grondwatermonitoringnet">Grondwatermonitoringnet</a>
+                     <br>Grondwatersamenstellingsonderzoek
+                     bestaat uit: laboratoriumonderzoek
+                     0, 1 of meer
+                     <a class="link" href="#global_class_Model_Laboratoriumonderzoek">Laboratoriumonderzoek</a>
+                     <br>Grondwatersamenstellingsonderzoek
+                     gemeten in: monitoringpunt
+                     1
+                     <a class="link" href="#global_class_Model_GMWMonitoringbuis">GMW-monitoringbuis</a>
+                     <br>Grondwatersamenstellingsonderzoek
+                     bestaat uit: veldonderzoek
+                     1
+                     <a class="link" href="#global_class_Model_Veldonderzoek">Veldonderzoek</a>
                      <br></td>
                </tr>
             </tbody>
@@ -488,7 +502,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -554,11 +568,7 @@
                      <a class="link" href="#global_class_Model_Grondwatersamenstellingsonderzoek">Grondwatersamenstellingsonderzoek</a>
                      
                      gemeten ten behoeve van: grondwatermonitoringnet
-                     [ 1 .. * ]Grondwatermonitoringnet<br>
-                     <a class="link" href="#global_class_Model_Grondwatersamenstellingsonderzoek">Grondwatersamenstellingsonderzoek</a>
-                     
-                     gemeten ten behoeve van: grondwatermonitoringnet
-                     [ 1 .. * ]Grondwatermonitoringnet<br></td>
+                     1-*Grondwatermonitoringnet<br></td>
                </tr>
             </tbody>
          </table><a class="anchor" name="detail_attribute_Model_Grondwatermonitoringnet_bROID"></a><section id="detail_attribute_Model_Grondwatermonitoringnet_bROID" level="5">
@@ -595,7 +605,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -662,11 +672,7 @@
                      <a class="link" href="#global_class_Model_Grondwatersamenstellingsonderzoek">Grondwatersamenstellingsonderzoek</a>
                      
                      gemeten in: monitoringpunt
-                     [ 1 ]GMW-monitoringbuis<br>
-                     <a class="link" href="#global_class_Model_Grondwatersamenstellingsonderzoek">Grondwatersamenstellingsonderzoek</a>
-                     
-                     gemeten in: monitoringpunt
-                     [ 1 ]GMW-monitoringbuis<br></td>
+                     1GMW-monitoringbuis<br></td>
                </tr>
             </tbody>
          </table><a class="anchor" name="detail_attribute_Model_GMWMonitoringbuis_bROID"></a><section id="detail_attribute_Model_GMWMonitoringbuis_bROID" level="5">
@@ -703,7 +709,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -759,7 +765,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -826,13 +832,21 @@
                      Omschrijving van de relaties: 
                      <br>Veldonderzoek
                      leidt tot: veldmeting
-                     [ 0 .. * ]
+                     0, 1 of meer
                      <a class="link" href="#global_class_Model_Veldmeting">Veldmeting</a>
                      <br>Veldonderzoek
-                     leidt tot: veldmeting
-                     [ 0 .. * ]
-                     <a class="link" href="#global_class_Model_Veldmeting">Veldmeting</a>
-                     <br></td>
+                     bemonsterd met: bemonsteringsapparaat
+                     1
+                     <a class="link" href="#global_class_Model_Bemonsteringsapparaat">Bemonsteringsapparaat</a>
+                     <br>Veldonderzoek
+                     leidt tot: veldwaarneming
+                     1
+                     <a class="link" href="#global_class_Model_Veldwaarneming">Veldwaarneming</a>
+                     <br>
+                     <a class="link" href="#global_class_Model_Grondwatersamenstellingsonderzoek">Grondwatersamenstellingsonderzoek</a>
+                     
+                     bestaat uit: veldonderzoek
+                     1Veldonderzoek<br></td>
                </tr>
             </tbody>
          </table><a class="anchor" name="detail_attribute_Model_Veldonderzoek_tijdstipVeldonderzoek"></a><section id="detail_attribute_Model_Veldonderzoek_tijdstipVeldonderzoek" level="5">
@@ -870,7 +884,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -942,7 +956,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -1024,7 +1038,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -1093,11 +1107,7 @@
                      <a class="link" href="#global_class_Model_Veldonderzoek">Veldonderzoek</a>
                      
                      bemonsterd met: bemonsteringsapparaat
-                     [ 1 ]Bemonsteringsapparaat<br>
-                     <a class="link" href="#global_class_Model_Veldonderzoek">Veldonderzoek</a>
-                     
-                     bemonsterd met: bemonsteringsapparaat
-                     [ 1 ]Bemonsteringsapparaat<br></td>
+                     1Bemonsteringsapparaat<br></td>
                </tr>
             </tbody>
          </table><a class="anchor" name="detail_attribute_Model_Bemonsteringsapparaat_pomptype"></a><section id="detail_attribute_Model_Bemonsteringsapparaat_pomptype" level="5">
@@ -1133,7 +1143,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -1203,11 +1213,7 @@
                      <a class="link" href="#global_class_Model_Veldonderzoek">Veldonderzoek</a>
                      
                      leidt tot: veldmeting
-                     [ 0 .. * ]Veldmeting<br>
-                     <a class="link" href="#global_class_Model_Veldonderzoek">Veldonderzoek</a>
-                     
-                     leidt tot: veldmeting
-                     [ 0 .. * ]Veldmeting<br></td>
+                     0, 1 of meerVeldmeting<br></td>
                </tr>
             </tbody>
          </table><a class="anchor" name="detail_attribute_Model_Veldmeting_parameter"></a><section id="detail_attribute_Model_Veldmeting_parameter" level="5">
@@ -1243,7 +1249,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -1312,7 +1318,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -1393,7 +1399,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -1460,11 +1466,7 @@
                      <a class="link" href="#global_class_Model_Veldonderzoek">Veldonderzoek</a>
                      
                      leidt tot: veldwaarneming
-                     [ 1 ]Veldwaarneming<br>
-                     <a class="link" href="#global_class_Model_Veldonderzoek">Veldonderzoek</a>
-                     
-                     leidt tot: veldwaarneming
-                     [ 1 ]Veldwaarneming<br></td>
+                     1Veldwaarneming<br></td>
                </tr>
             </tbody>
          </table><a class="anchor" name="detail_attribute_Model_Veldwaarneming_hoofdkleur"></a><section id="detail_attribute_Model_Veldwaarneming_hoofdkleur" level="5">
@@ -1500,7 +1502,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>0 .. 1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -1554,7 +1556,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>0 .. 1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -1608,7 +1610,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>0 .. 1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -1664,7 +1666,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -1720,7 +1722,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -1786,7 +1788,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -1854,7 +1856,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -1908,7 +1910,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -1974,7 +1976,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -2028,7 +2030,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -2092,7 +2094,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -2160,7 +2162,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -2238,13 +2240,13 @@
                      Omschrijving van de relaties: 
                      <br>Laboratoriumonderzoek
                      heeft: analyseproces
-                     [ 1 .. * ]
+                     1-*
                      <a class="link" href="#global_class_Model_Analyseproces">Analyseproces</a>
-                     <br>Laboratoriumonderzoek
-                     heeft: analyseproces
-                     [ 1 .. * ]
-                     <a class="link" href="#global_class_Model_Analyseproces">Analyseproces</a>
-                     <br></td>
+                     <br>
+                     <a class="link" href="#global_class_Model_Grondwatersamenstellingsonderzoek">Grondwatersamenstellingsonderzoek</a>
+                     
+                     bestaat uit: laboratoriumonderzoek
+                     0, 1 of meerLaboratoriumonderzoek<br></td>
                </tr>
             </tbody>
          </table><a class="anchor" name="detail_attribute_Model_Laboratoriumonderzoek_uitvoerderLaboratoriumonderzoek"></a><section id="detail_attribute_Model_Laboratoriumonderzoek_uitvoerderLaboratoriumonderzoek" level="5">
@@ -2283,7 +2285,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -2365,13 +2367,13 @@
                      Omschrijving van de relaties: 
                      <br>Analyseproces
                      leidt tot: resultaat parameters
-                     [ 1 .. * ]
+                     1-*
                      <a class="link" href="#global_class_Model_Analyse">Analyse</a>
-                     <br>Analyseproces
-                     leidt tot: resultaat parameters
-                     [ 1 .. * ]
-                     <a class="link" href="#global_class_Model_Analyse">Analyse</a>
-                     <br></td>
+                     <br>
+                     <a class="link" href="#global_class_Model_Laboratoriumonderzoek">Laboratoriumonderzoek</a>
+                     
+                     heeft: analyseproces
+                     1-*Analyseproces<br></td>
                </tr>
             </tbody>
          </table><a class="anchor" name="detail_attribute_Model_Analyseproces_analysedatum"></a><section id="detail_attribute_Model_Analyseproces_analysedatum" level="5">
@@ -2407,7 +2409,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -2489,7 +2491,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -2543,7 +2545,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -2601,11 +2603,7 @@
                      <a class="link" href="#global_class_Model_Analyseproces">Analyseproces</a>
                      
                      leidt tot: resultaat parameters
-                     [ 1 .. * ]Analyse<br>
-                     <a class="link" href="#global_class_Model_Analyseproces">Analyseproces</a>
-                     
-                     leidt tot: resultaat parameters
-                     [ 1 .. * ]Analyse<br></td>
+                     1-*Analyse<br></td>
                </tr>
             </tbody>
          </table><a class="anchor" name="detail_attribute_Model_Analyse_parameter"></a><section id="detail_attribute_Model_Analyse_parameter" level="5">
@@ -2641,7 +2639,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -2710,7 +2708,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -2811,7 +2809,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>0 .. 1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -2877,7 +2875,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>0 .. 1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -2967,7 +2965,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td></td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
