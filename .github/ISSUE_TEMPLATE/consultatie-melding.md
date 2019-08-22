@@ -1,7 +1,7 @@
 ---
 name: Consultatie melding
 about: Meld een fout in de standaard of een wens over de standaard naar aanleiding
-  van de openbare consultatie of een review sessie..
+  van de openbare consultatie of een review sessie.
 title: ''
 labels: ''
 assignees: ''

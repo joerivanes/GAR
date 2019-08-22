@@ -1,6 +1,6 @@
 ---
 name: Implementatie melding
-about: Meld een fout of wens naar aanleiding van de implementatie van de standaard
+about: Meld een fout of wens naar aanleiding van de implementatie van de standaard.
 title: ''
 labels: ''
 assignees: ''
