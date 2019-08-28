@@ -15,134 +15,309 @@
   <section id='abstract'>
     <p>Samenvatting van informatiemodel.</p>
   </section>
-  <section id='sotd'>
-    <p>Dit is een experimenteel document waarvan de inhoud onvolledig is, incorrect kan zijn en op elk moment kan wijzigen.
-      Het is slechts geproduceerd om tooling voor BRO standaarden te testen. Hoofdstuk vijf is automatisch gegenereerd uit
-      een UML model dat nog in ontwikkeling is.
-    </p>
-  </section>
+  <section id='sotd'></section>
   <!-- hoofdstuk 1 -->
   <section id='inleiding'>
     <h2>Inleiding</h2>
-    <section id='doel-en-doelgroep' class='generic' data-include='https://docs.geostandaarden.nl/bro/gen/doel-en-doelgroep.html'></section>
-    <section id='samenhang-met-andere-documentatie' class='generic' data-include='https://docs.geostandaarden.nl/bro/gen/samenhang-met-andere-documentatie.html'></section>
-    <section id="inleiding-specifiek">
-      <p>Deze documenten hangen samen zoals hieronder afgebeeld.</p>
-      <p>TODO afbeelding opnemen</p>
-      <figure id='image001'>
-        <img src='media/fig1.svg' width="600" />
-        <figcaption>Samenhang tussen documentatie</figcaption>
-      </figure>
-      <p>Naast deze documenten is er een document dat het systeem van de BRO als geheel beschrijft met als titel <em>BRO-architectuur</em>. In dat document wordt het ontwerp en de algemene werking van de BRO beschreven. Het document BRO-architectuur is alleen nog in een eerste en prille versie beschikbaar.</p>
+    <section id='doel-en-doelgroep' class='generic' data-include='https://docs.geostandaarden.nl/bro/gen/doel-en-doelgroep.html'>
+    </section>
+    <section id='samenhang-met-andere-documentatie' class='generic' data-include='https://docs.geostandaarden.nl/bro/gen/samenhang-met-andere-documentatie.html'>
     </section>
     <section id="leeswijzer">
-      <h3>Leeswijzer</h3>
-      <p>TODO Hier komt tekst ...</p>
+    <h3>Leeswijzer</h3>
+      <p>De volgende hoofdstukken van dit document geven achtereenvolgens een algemene inleiding in kenmerken en begrippen uit de basisregistratie ondergrond, een inleiding in het grondwaterdomein en specifiek in het grondwatersamenstellingsonderzoek, een uitleg over de catalogus en tenslotte de catalogus zelf met daarin definities van objecten, attributen en codelijsten.</p>
+      <p>In de tekst van <a href ="#grondwatersamenstellingsonderzoek">hoofdstuk 3</a> zijn termen <em>cursief</em> weergegeven als het termen zijn die in <a href="#cat">de gegevensdefinitie</a> zijn gedefinieerd </p>
     </section>
   </section>
+  
   <!-- hoofdstuk 2 -->
-  <section id='algemene-kenmerken-en-begrippen' data-include='https://docs.geostandaarden.nl/bro/gen/algemene-kenmerken-en-begrippen.html'
+    <section id='algemene-kenmerken-en-begrippen' data-include='https://docs.geostandaarden.nl/bro/gen/algemene-kenmerken-en-begrippen.html'
     class='generic'></section>
+
   <!-- hoofdstuk 3 -->
-  <section id='grondwatersamenstellingsonderzoek'>
-    <h2>Grondwatersamenstellingsonderzoek</h2>
-    <p>Het grondwater wordt in Nederland in de gaten gehouden. Daarbij wordt niet alleen gekeken naar de grondwaterstand, maar ook naar de kwaliteit van het grondwater. Er kan immers van alles in het grondwater terechtkomen via de regen, bemesting van weilanden, onkruidbestrijding, enzovoort. De samenstelling van het grondwater wordt daarom structureel in de gaten gehouden door de provincies en het RIVM. Zij doen periodiek grondwatersamenstellingsonderzoek en hebben daarvoor grondwatermonitoringnetten en meetplannen. </p>
-    <aside class="issue" data-number="17">
-    <p>De scope van het registratieobject Grondwatersamenstellingsonderzoek is nog niet definitief vastgesteld. De scope is vooralsnog beperkt tot wat er in het kader van Kaderrichtlijn Water, het Landelijk Meetnet Grondwaterkwaliteit, het Provinciaal Meetnet Grondwaterkwaliteit of de monitoring van verdroging gemeten wordt. </p>
-  </aside>
-    <section id="intro-GAR">
-      <h3>Het onderzoek</h3>
-      <p>Een <em>grondwatersamenstellingsonderzoek</em> is een activiteit gericht op het onderzoeken van de samenstelling / kwaliteit van een grondwatermonster uit een bepaald meetpunt, op basis van een opdracht door een bronhouder. Een deel van het onderzoek wordt in het veld verricht en het overige deel in één of meerdere laboratoria. Het resultaat van zo'n onderzoek wordt geregistreerd in de Basisregistratie Ondergrond.</p>
-      <p>Zo’n onderzoek gaat als volgt in zijn werk: </p>
-      <ol>
-        <li>Bij een grondwatermonitoringput of een natuurlijke bron, die geabstraheerd is als een meetpunt in een grondwatermonitoringnet, wordt water afgenomen door het op te pompen. </li>
-        <li>Op dit veldmonster worden ter plekke veldanalyses gedaan. Hierbij wordt een klein aantal parameters meteen gemeten. Dit zijn gegevens die van belang zijn bij / ondersteunend zijn voor de verdere analyse. Het resultaat van de veldanalyses wordt opgeslagen.</li>
-        <li>Vervolgens wordt een labmonster genomen voor het doen van verdere analyses in het laboratorium. In de praktijk worden er vaak meer dan één verschillende soorten flessen met water gevuld, omdat verschillende analyses, die in het lab zullen worden uitgevoerd, vragen om verschillende behandeling van het labmonster. Het water moet bijvoorbeeld al dan niet eerst gefilterd worden, de fles moet wel of niet gekoeld worden, van glas danwel kunststof zijn, en moet een bepaalde hoeveelheid bevatten. </li>
-        <li>Deze deelmonsters worden naar een of meer laboratoria verstuurd alwaar de laboratoriumanalyse gedaan wordt. Ook het resultaat van de labanalyse wordt uiteraard opgeslagen. 
-        </li>
-        <li>Op basis van de analyseresultaten worden afgeleide berekeningen gedaan, die weer kunnen dienen ter controle van de resultaten. </li>
-      </ol>
-      <p>Informatie uit deze periodieke grondwatersamenstellingsonderzoeken wordt in de BRO opgeslagen als het registratieobject Grondwatersamenstellingsonderzoek. Dit registratieobject omvat de definitieve meetwaarden van een op grondwaterkwaliteit gericht onderzoek dat aan een grondwatermonster uit een bepaald meetpunt is verricht. Daarbij is een uitgangspunt dat een grondwatersamenstellingsonderzoek één bronhouder heeft, maar wel uitgevoerd kan zijn ten behoeve van meerdere grondwatermonitoringnetten die van verschillende bronhouders kunnen zijn. En daarnaast is een uitgangspunt dat alle gegevens van het grondwatersamenstellingsonderzoek tegelijk worden aangeleverd aan de LV-BRO. De resultaten van het veldonderzoek-deel en het laboratoriumonderzoek-deel binnen één grondwatersamenstellingsonderzoek worden dus samen aangeleverd. </p>
-      <div class="issue" data-number="12">
-        <p>De modellering van de samenhang van een grondwatersamenstellingsonderzoek met meerdere grondwatermonitoringnetten is nog niet uitgewerkt.</p>
-      </div>
-      <p>Informatie over <em>grondwatermonitoringput</em> is als apart BRO registratieobject gedefinieerd en is beschreven in de <a href="https://bro.pleio.nl/file/view/55288182/catalogus-grondwatermonitoringput">Catalogus Grondwatermonitoringput</a>.</p>
-      <p>Het <em>grondwatermonitoringnet</em> waarin putten en bronnen als abstract meetpunt zijn opgenomen, is ook een apart registratieobject dat op dit moment wordt gedefinieerd. Hiervoor is nog geen catalogus beschikbaar.</p>
-      <div class="issue" data-number="8">
-        <p>Er is een relatie tussen het grondwatersamenstellingsonderzoek en een meetpunt (de abstractie van de grondwaterput of bron waar het onderzoek is gedaan) in een grondwatermonitoringnet. Hoe deze relatie precies wordt gemodelleerd en gerealiseerd moet nog worden afgestemd. </p>
-      </div>
-      <p>Elk grondwatersamenstellingsonderzoek wordt uitgevoerd volgens afspraak tussen opdrachtgever (de <em>bronhouder</em> die in de BRO voor elk registratieobject wordt vastgelegd) en opdrachtnemer(s). Er worden bij het grondwatersamenstellingsonderzoek indicaties <em>bestrijdingsmiddelen onderzocht</em> en <em>farmaceutische stoffen onderzocht</em> vastgelegd die aangeven of deze onderzoeken zijn uitgevoerd. Deze indicaties zijn opgenomen omdat ze een globale karakterisering van de inhoud van het onderzoek geven en gebruikerswaarde hebben bij uitgifte.</p>
-    </section>
-    <section id="intro-veldonderzoek">
-      <h3>Monstername en veldonderzoek</h3>
-      <p>Monstername is het proces dat loopt vanaf het oppompen van grondwater tot aanlevering van de labmonsters aan het laboratorium. Het nemen van monsters gebeurt op een bepaalde datum die wordt vastgelegd in de BRO, de <em>datum veldonderzoek</em>, en volgens een bepaalde <em>bemonsteringsprocedure</em> waarin de eisen en voorgeschreven werkwijze ten aanzien van bemonstering zijn vastgelegd. Ook deze gehanteerde norm plus eventuele <em>bijzonderheden veldonderzoek</em> worden in de BRO vastgelegd in de entiteit <em>Veldonderzoek</em>.</p>
-      <p>Gegevens over het <em>type pomp</em> en het <em>type slang</em> dat tijdens de bemonstering wordt gebruikt, worden in de BRO vastgelegd in de entiteit <em>Bemonsteringsapparaat</em>.</p>
-      <aside class="note">
-        <p>In het proces van monstername ontstaan meer gegevens dan de set die opgenomen wordt in de BRO. De overige gegevens zijn weggelaten omdat die voor interne processen wellicht relevant zijn, maar geen hoge hergebruikswaarde hebben. Dit geldt bijvoorbeeld voor:</p>
-       <ul>
-        <li>details over het oppompen van het grondwater</li>
-        <li>de barcode van de fles</li>
-        <li>de naam van de monsternemer (tevens privacygevoelig!)</li>
-      </ul>
-      </aside>
-      <p>Het labmonster wordt veelal in meerdere flessen (deelmonsters) verpakt en getransporteerd naar het laboratorium voor onderzoek. In het veld wordt ook een aantal parameters bepaald. Een aantal van deze waarnemingen wordt in de BRO vastgelegd omdat deze hergebruikswaarde hebben: ze geven een algemene indruk over het bemonsterde grondwater, de meetwaarden worden gebruikt in bepaalde controles, of de bepaling in het veld levert een betrouwbaarder resultaat op dan een bepaling in het laboratorium. Veldwaarnemingen die worden geregistreerd in de BRO zijn bepaald aan de hand van opgepompt grondwater of op basis van in situ waarnemingen. De veldparameters die, indien gemeten, in de BRO worden opgenomen zijn <em>elektrisch geleidingsvermogen</em>, <em>bicarbonaat</em>, <em>zuurstofgehalte</em>, <em>zuurgraad</em>, <em>temperatuur</em> (al dan niet in situ), <em>grondwaterstand</em>, en <em>troebelheid</em>. Deze gegevens worden vastgelegd in de entiteit <em>Resultaat veldmetingen</em>.</p>
-      <p>Voor het meten van parameters in het veld zijn meerdere redenen. Bijvoorbeeld omdat deze waarden aangeven of het filter lang genoeg is afgepompt om een labmonster te gaan nemen: voor men begint met het nemen van labmonsters moeten de waarden voor elektrisch geleidingsvermogen en zuurgraad (nagenoeg) stabiel zijn. Ook kan na monstername de samenstelling van het monster veranderen en daarom wordt een aantal parameters meteen in het veld gemeten.</p>
-      <p>Zuurstofgehalte, elektrisch geleidingsvermogen, zuurgraad en temperatuur worden, terwijl het filter wordt afgepompt, herhaaldelijk in een doorstroomcel gemeten. Nadat het filter voldoende is schoongepompt en deze waarden constant zijn geworden, worden de labmonsters genomen. De laatst gemeten waarden, die constant zijn geworden, worden opgenomen in de BRO. Ook wordt een veldmonster genomen waarin het gehalte bicarbonaat wordt bepaald. De bepaling wordt in het veld uitgevoerd omdat de bicarbonaatconcentratie door invloeden van buitenaf kan veranderen, bijvoorbeeld door ontgassing van CO<sub>2</sub> of pH-veranderingen tijdens het vervoer naar het lab.</p>
-      <p>Het elektrisch geleidingsvermogen en de zuurgraad worden daarnaast ook gebruikt voor controles: als de in het laboratorium gemeten waarde afwijkt van de in het veld gemeten waarde dan kan dit duiden op onregelmatigheden in het veld, aan apparatuur, of tijdens transport, opslag of analyses.</p>
-      <aside class="note">
-        <p>Door de voortschrijdende techniek (bijvoorbeeld nieuwe en verbeterde sensoren) zijn er steeds meer mogelijkheden voor het doen van waarnemingen over de grondwaterkwaliteit in het veld. Hier is in dit informatiemodel geen rekening mee gehouden. De scope is vooralsnog beperkt tot wat er in het kader van KRW, LMG en PMG gemeten wordt. Deze monitoringnetten maken nog geen gebruik van sensoren.</p>
-      </aside>
-    </section>    
-    <section id="intro-labonderzoek">
-      <h3>Laboratoriumonderzoek</h3>
-      <p>Laboratoriumonderzoek omvat de resultaten van het onderzoek van één of meer deelmonsters op chemische en fysische parameters. Laboratoriumonderzoek wordt onder de verantwoordelijkheid van één laboratorium uitgevoerd.</p>
-      <p>Het laboratoriumonderzoek is het proces dat loopt vanaf de overdracht van de labmonsters door het veldwerkbureau van de monstername aan het laboratorium, tot en met de rapportage van de onderzoeksresultaten aan de bronhouder.</p>
-      <p>Alle laboratoria die onderzoeken uitvoeren die binnen de scope van de BRO vallen, zijn geaccrediteerd door de Raad voor Accreditatie. Vereist voor de accreditatie is onder andere het volgen van (inter)nationale standaarden (NEN- en/of ISO-normen). Laboratoria werken volgens strikte interne kwaliteitssystemen vastgelegd in handboeken, conform de richtlijnen van de Raad voor Accreditatie. Geaccrediteerde laboratoria zijn daarnaast verplicht om deel te nemen aan ringonderzoeken: onderzoeken waarbij de testresultaten van verschillende laboratoria worden vergeleken. De accreditatie legt op parameter(groep)niveau vast welke analysemethoden en bijbehorende procedures gehanteerd worden door het geaccrediteerde lab. Details omtrent stoffen en analysemethoden waarvoor een laboratorium geaccrediteerd is zijn publiek beschikbaar (<a href="https://www.rva.nl">www.rva.nl</a>), en worden niet opgenomen in de BRO.</p>
-      <div class="issue" data-number="9">
-        <p>Er zijn ook parameters die niet onder accreditatie vallen. Wellicht moeten we ten behoeve van deze gevallen in de BRO wel expliciet informatie vastleggen over normen, analysemethoden en procedures.</p>
-      </div>
-      <p>Een <em>parameter</em> is een eigenschap van het aangeleverde monster dat onderzocht wordt. Er zijn twee soorten parameters:</p>
-      <ul>
-        <li>Fysische parameters, zoals temperatuur, elektrisch geleidingsvermogen en zuurgraad. Dit betreft eigenschappen van het monster als geheel. Ze geven niet direct informatie over de samenstelling van het monster, maar eerder een typering ervan.</li>
-        <li>Chemische parameters: dit betreft het gehalte (de concentratie) van een bepaald element of bepaalde stof in het grondwater. De chemische parameters zeggen daadwerkelijk iets over de samenstelling van het monster [‘de delen van het monster die geen water zijn’].</li>
-      </ul>
-      <section id="lab-grenswaarden">
-        <h4>Aantoonbaarheidsgrens, bepaalbaarheidsgrens en rapportagegrens</h4>
-        <p>Bij de analyse van monsters in het laboratorium spelen verschillende grenzen een rol die te maken hebben met het waarnemen van componenten in het monster. In de praktijk worden deze met verschillende termen aangeduid. De terminologie die we in deze catalogus hiervoor hanteren definieren we hier. </p>
-        <p>De <em>aantoonbaarheidsgrens</em> is de door het uitvoerende laboratorium vastgestelde grensconcentratie waarboven met een bepaalde betrouwbaarheid kan worden gesteld dat de component wel of niet aanwezig is in een monster. Als synoniem worden in het werkveld vaak de termen detectielimiet en detectiegrens gebruikt. De aantoonbaarheidsgrens van een component kan sterk variëren; elke verandering in analyseopstelling of zelfs tussen monsters kunnen leiden tot een ander ruissignaal. </p>
-        <p>De <em>bepaalbaarheidsgrens</em> is de door het uitvoerende laboratorium vastgestelde grensconcentratie waarboven het gemeten gehalte van de component in een monster met een bepaalde betrouwbaarheid kan worden gegeven. Als synoniem wordt vaak ook wel de term bepalingsgrens gebruikt. </p>
-        <p>De <em>rapportagegrens</em> is de door het uitvoerende laboratorium met de opdrachtgever afgesproken grensconcentratie waarboven het gemeten gehalte van de component in een monster wordt gerapporteerd aan de opdrachtgever. Dit wordt ook wel minimumconcentratie genoemd. </p>
-        <p>Van de bovenstaande grenzen wordt alleen de <em>rapportagegrens</em> opgenomen in de BRO. </p>
-      <div class="issue" data-number="23">
-        <p>Alleen de rapportagegrens is opgenomen in het model.</p>
-      </div>
+    <section id='grondwatersamenstellingsonderzoek'>
+      <h2>Grondwatersamenstellingsonderzoek</h2>
+      <section id="intro-monitoring">
+        <h3>Grondwatermonitoring</h3>
+        <p>Grondwater is een belangrijke bestaansbron. Het grondwater wordt daarom in Nederland in de gaten gehouden en beheerd. Het beheer van het grondwater richt zich op de hoeveelheid bruikbaar grondwater en de kwaliteit ervan. Om dit beheer goed te kunnen uitvoeren, wordt in Nederland de toestand van het grondwater over langere tijd gevolgd. Dat heet grondwatermonitoring. Er wordt daarbij gekeken naar de grondwaterstand (kwantiteit), en naar de samenstelling van het grondwater (kwaliteit). Hiervoor worden grondwaterstandonderzoeken en grondwatersamenstellingsonderzoeken uitgevoerd.</p>
+        <p>In het domein grondwatermonitoring van de basisregistratie ondergrond staan de grondwatermonitoringnetten centraal die zijn ingesteld om het grondwater in Nederland te kunnen beheren. Het doel waarvoor een monitoringnet is ingesteld, het <em>monitoringdoel</em>, beperkt zich in veel gevallen tot kwantiteit of kwaliteit, maar het komt ook voor dat onderzoek aan zowel de kwantiteit als de kwaliteit wordt gedaan binnen hetzelfde grondwatermonitoringnet.</p>
+        <p>Grondwatermonitoring houdt in dat de toestand van het grondwater in een bepaald gebied, of eigenlijk in een bepaald deel van de ondergrond, over langere tijd gevolgd wordt. De grootte van het gebied en de diepte van monitoring verschillen per grondwatermonitoringnet. Ook de duur van monitoring wisselt sterk.</p>
+        <p>In het <a href="https://zoek.officielebekendmakingen.nl/stb-2017-421.html" TARGET="_blank">Besluit basisregistratie ondergrond</a> is omschreven welke vormen van monitoring onder deze basisregistratie vallen. Het belangrijkste criterium is het type organisatie dat verantwoordelijk is voor het beheer van het grondwater: de grondwatermonitoring moet door of in opdracht van een bestuursorgaan, de bronhouder, worden uitgevoerd. Verder is er een beperking aan de tijdschaal gesteld. Wanneer een monitoringnet is ingesteld om de toestand van het grondwater over een periode van ten minste één jaar te volgen, dan valt het altijd onder de basisregistratie ondergrond. Voor monitoringnetten met een kortere duur maakt het bestuursorgaan zelf de afweging of de gegevens in de basisregistratie moeten worden opgenomen. De periode van een jaar is lang genoeg voor het uitfilteren van de effecten van kleinschalige en kortdurende invloeden, zodat de informatie die in de basisregistratie wordt vastgelegd blijvende gebruikswaarde heeft. Aan de ruimtelijke schaal van monitoring zijn voor de basisregistratie ondergrond geen grenzen gesteld anders dan geldt voor de gehele basisregistratie ondergrond namelijk dat het gegevens bevat over de ondergrond van Nederland en zijn Exclusieve Economische Zone (EEZ). De EEZ is het gebied op de Noordzee waar Nederland economische rechten heeft.</p>
+  	    <p>In de <a href="https://zoek.officielebekendmakingen.nl/kst-33839-3.html" TARGET="_blank">Regels omtrent de basisregistratie ondergrond</a> en het <a href="https://zoek.officielebekendmakingen.nl/stb-2017-421.html" TARGET="_blank">Besluit basisregistratie ondergrond</a> staat dat de basisregistratie ondergrond vooralsnog geen milieukwaliteitinformatie bevat. Voor het grondwatermonitoringdomein zijn monitoringnetten rondom milieuhygiënische projecten, waarin het met name gaat om het monitoren van de verontreiniging van de bodem en het grondwater, daarmee voorlopig buiten scope geplaatst. Op 18 december 2018 is in de Tweede Kamer een <a href="https://zoek.officielebekendmakingen.nl/kst-34864-19" TARGET="_blank">motie (Kamerstuk 34864-19)</a> aangenomen waarin de regering wordt verzocht ‘om informatie over bodemverontreiniging in de basisregistratie ondergrond  op te nemen’. Op het moment van publiceren van deze catalogus is nog niet bekend wat de gevolgen van deze motie zullen zijn voor de scope van het registratieobject Grondwatersamenstellingsonderzoek.</p>
+        <p>De bestuursorganen die langdurig het grondwater (laten) monitoren op grondwaterkwaliteit, omdat zij daarin een wettelijke taak hebben zijn RIVM, Rijkswaterstaat, provincies, waterschappen, gemeentes en bestuurlijke samenwerkingsverbanden. Daarnaast zijn er private organisaties die vanuit vergunningsplicht het grondwater langdurig monitoren op grondwaterkwaliteit,  in opdracht van bevoegd gezag. Dit zijn bijvoorbeeld drinkwaterbedrijven, grondwateronttrekkende industrie, (ondiepe)bodemenergie-exploitanten (bedrijven, ziekenhuizen, overige instellingen) en natuurterreinbeheerorganisaties. Deze organisaties doen periodiek grondwatersamenstellingsonderzoek en hebben daarvoor grondwatermonitoringnetten. Het bestuursorgaan dat optreedt als bevoegd gezag kan het registreren van deze gegevens als voorwaarde opnemen in de beschikking van de betreffende vergunningsaanvragen.</p>
+      	<p>De volledige scopeafbakening is beschreven in het Scopedocument grondwatersamenstellingsonderzoek GAR.</p>      
+      </section>
+
+      <section id="intro-Grondwaterdomein">
+        <h3>Domein grondwatermonitoring in de basisregistratie ondergrond</h3>
+        <p>Het domein grondwatermonitoring in de basisregistratie ondergrond omvat de volgende vier registratieobjecten:</p>
+        <ul>
+          <li>Grondwatermonitoringnet;</li>
+          <li>Grondwatermonitoringput;</li>
+          <li>Grondwatersamenstellingsonderzoek (grondwaterkwaliteit);</li>
+          <li>Grondwaterstandonderzoek (grondwaterkwantiteit).</li>
+        </ul>
+        <p>In de voorliggende catalogus gaat het over het registratieobject Grondwatersamenstellingsonderzoek.</p>
+        <p>In de technische landelijke voorziening van de basisregistratie ondergrond worden Engelstalige benamingen gehanteerd voor de registratieobjecten. Omwille van de aansluiting hiermee worden voor de registratieobjecten Engelstalige afkortingen gebruikt. In deze catalogus worden alleen Engelstalige afkortingen en de Nederlandstalige termen gebruiken.</p>
+         <ul>
+          <li>Grondwatermonitoringnet wordt afgekort tot GMN (Groundwater Monitoring Network);</li>
+          <li>Grondwatermonitoringput wordt afgekort tot GMW (Groundwater Monitoring Well);</li>
+          <li>Grondwatersamenstellingsonderzoek wordt afgekort tot GAR (Groundwater Analysis Report);</li>
+          <li>Grondwaterstandonderzoek wordt afgekort tot GLD (Groundwater Level Dossier).</li>
+        </ul>
+        <figure id='image003'>
+          <img src="./media/Grondwaterdomein_20190711.jpg" alt="Grondwaterdomein" width="600"/>
+          <figcaption>De samenhang tussen de vier registratieobjecten binnen het domein grondwatermonitoring.</figcaption>
+        </figure>
+        <p>Een grondwatermonitoringput betreft de putconstructie die gebruikt wordt om standen en/of de samenstelling van het grondwater te meten. Gewoonlijk bestaat een put uit een samenstel van buizen dat aan het oppervlak wordt beschermd tegen invloeden van buitenaf. Via de buizen wordt het grondwater dat zich op een bepaalde diepte bevindt ontsloten. Het deel van de buis waardoor het grondwater binnen kan komen is het filter. Elke buis heeft één filter. Een filter fungeert als meetpunt in de basisregistratie ondergrond.</p>
+        <p>Informatie over grondwatermonitoringput is beschreven in de <a href="https://www.basisregistratieondergrond.nl/documenten/publicaties/2017/06/27/catalogus-grondwatermonitoringput" TARGET="_blank">Catalogus Grondwatermonitoringput</a>. Naast putten kunnen ook bronnen gebruikt worden in grondwaterkwaliteitsmonitoring. Een bron is een locatie waar het grondwater uittreedt aan het maaiveld. Op dit moment voorziet de basisregistratie het registreren van bronnen niet. Voorzien wordt dat de gegevensdefinitie van de grondwatermonitoringput aangepast wordt, zodat het mogelijk wordt om bronnen te registreren.</p>
+        <p>Binnen het grondwaterdomein in de basisregistratie ondergrond kent alleen de grondwatermonitoringput een fysieke locatie. De drie andere registratieobjecten zijn aan het registratieobject grondwatermonitoringput gekoppeld en hebben daarmee indirect een locatie. Bij grondwaterstandonderzoeken en grondwatersamenstellingsonderzoeken ligt de verwijzing vast naar het filter in de grondwatermonitoringput waarin het onderzoek is uitgevoerd. Daarnaast ligt bij grondwaterstandonderzoeken en grondwatersamenstellingsonderzoeken de verwijzing vast naar één of meerdere grondwatermonitoringnetten ten behoeve waarvan het onderzoek is uitgevoerd.</p>
+  	    <p>Een grondwatermonitoringnet is een verzameling locaties waar periodiek onderzoek aan het grondwater op een bepaalde diepte wordt gedaan om de toestand van het grondwater vanuit een perspectief te kunnen bepalen en de eventuele veranderingen erin te kunnen volgen. Het grondwatermonitoringnet faciliteert daardoor de groepering van onderzoeksgegevens door bronhouder op basis van het doel van monitoring. Het registratieobject vergroot daarmee de hergebruikswaarde voor afnemers van de gegevens van de basisregistratie ondergrond.</p>
+        <p>Een grondwatermonitoringnet valt onder de verantwoordelijkheid van één bronhouder en heeft een vastgesteld monitoringdoel. In de praktijk komt het voor dat een grondwatersamenstellingsonderzoek ten behoeve van meer dan één doel wordt uitgevoerd. Een bronhouder kan bijvoorbeeld omwille van de efficiëntie besluiten om één grondwatersamenstellingsonderzoek te laten doen, en de resultaten ervan zowel voor de Kaderrichtlijn Waterverplichtingen als voor een eigen provinciaal monitoringdoel te gebruiken. Omdat er voor afzonderlijke monitoringdoelen verschillende grondwatermonitoringnetten zijn, betekent dit voor de basisregistratie ondergrond dat een grondwatersamenstellingsonderzoek kan toebehoren aan één of meerdere grondwatermonitoringnetten.</p>
+  	    <p>Een grondwatersamenstellingsonderzoek kan ook worden uitgevoerd ten behoeve van meerdere doelen van verschillende bestuursorganen. In dat geval is één van deze bestuursorganen de bronhouder van het grondwatersamenstellingsonderzoek. Deze bronhouder levert het grondwatersamenstellingsonderzoek aan de basisregistratie ondergrond aan, inclusief de koppeling aan alle grondwatermonitoringnetten waarvoor het onderzoek is uitgevoerd. De bronhouder is daarmee dus ook verantwoordelijk voor de koppeling van het grondwatersamenstellingsonderzoek aan een grondwatermonitoringnet van een ander bestuursorgaan.</p>
+  	    <p>Voor het registratieobject Grondwaterstandonderzoek is de gegevensstandaard nog niet opgesteld.</p>
+      </section>
+      <section id="Het_GAR">
+        <h3>Het grondwatersamenstellingsonderzoek</h3>
+        <section id="inleiding_GAR">
+          <h4>Inleiding</h4>
+          <p>Een <em>grondwatersamenstellingsonderzoek</em> is een monitoringactiviteit gericht op het onderzoeken van de samenstelling van een grondwatermonster uit een bepaald meetpunt in de ondergrond. In plaats van samenstelling van het grondwater wordt ook wel gesproken over kwaliteit van het grondwater. In deze catalogus doelen we met beide op hetzelfde. Een meetpunt wordt gevormd door een <em>filter</em> van een monitoringbuis in een <em>grondwatermonitoringput</em> (zie 3.2). Een grondwatersamenstellingsonderzoek wordt uitgevoerd door of in opdracht van een opdracht door een bronhouder en wordt gedaan in het kader van een of meerdere monitoringdoelen.</p>
+          <p>Een grondwatersamenstellingsonderzoek wordt uitgevoerd in meerdere delen. Het eerste deel van het onderzoek wordt in het veld verricht. Het tweede deel vindt plaats in het laboratorium. In enkele gevallen vindt er geen laboratoriumonderzoek plaats en bestaat het grondwatersamenstellingsonderzoek uit uitsluitend veldmetingen. Het kan ook voorkomen dat het laboratoriumonderzoek wordt uitgevoerd in meer dan één laboratorium. De resultaten van de verschillende delen van het onderzoek worden samen geregistreerd in de basisregistratie ondergrond.</p>
+          <p>In tegenstelling tot de relatief snel variërende stand van het grondwater (grondwaterstanden veranderen binnen een dag), verandert de samenstelling van het grondwater relatief langzaam. Dit komt doordat grondwater zich langzaam verplaatst door de ondergrond. Grondwatersamenstellingsonderzoeken worden daarom doorgaans maar één keer of hooguit een paar keer per jaar uitgevoerd op een locatie. In de meetpunten in het landelijke monitoringnet en in de meetpunten in de provinciale monitoringnetten wordt er bijvoorbeeld jaarlijks één grondwatersamenstellingsonderzoek uitgevoerd. Als er lokaal reden is om de grondwaterkwaliteit beter in de gaten te houden, omdat daar bijvoorbeeld drinkwater onttrokken wordt of er activiteiten plaatsvinden die invloed kunnen hebben op de grondwaterkwaliteit, kan er besloten worden om de meetfrequentie te verhogen.</p>
+        </section>
+        <section id="Het_proces">
+          <h4>Het proces</h4>
+          <p>Een grondwatersamenstellingsonderzoek wordt uitgevoerd aan de hand van verschillende protocollen. Zowel bij het veldonderzoekdeel als bij het laboratoriumdeel als bij de beoordeling wordt gewerkt volgens vastgestelde voorschriften, normen en richtlijnen.</p>
+          <p>Het verloop van het proces is schematisch weergegeven in de onderstaande figuur en daaronder beschreven. De figuur geeft het volledige proces, van vaststellen van de doelstelling tot en met registratie in de basisregistratie ondergrond. De eerste drie stappen van het proces zijn kort beschreven in hoofdstuk 1 en 2 van deze toelichting en uitgebreider in het Scopedocument grondwatersamenstellingsonderzoek GAR. Een handboek voor inname beschrijft het proces dat bij inname van gegevens in de basisregistratie ondergrond wordt doorlopen. In deze catalogus beschrijven we alleen de onderdelen veldonderzoek, labonderzoek en controleren en beoordelen.</p>
+          <figure id='image004'>
+            <img src="./media/grondwaterprocesschema.png" alt="grondwater processchema" width="600"/>
+            <figcaption>Het proces van de monitoring van grondwaterkwaliteit: het grondwatersamenstellingsonderzoek.</figcaption>
+          </figure>	      
+	        <ol>
+            <li>Veldonderzoek is het proces dat loopt vanaf het oppompen van grondwater tot de aanlevering van de laboratoriummonsters aan het laboratorium. Tijdens het veldonderzoek wordt door gespecialiseerde medewerker, bij een grondwatermonitoringput, in een filter water afgenomen door het op te pompen.
+              <ul>
+	              <li>Op het opgepompte water worden ter plekke veldanalyses gedaan. Hierbij wordt een klein aantal parameters, ofwel eigenschappen van het grondwatermonster, meteen gemeten. Dit zijn gegevens die op zichzelf al gebruikswaarde hebben en die tevens ondersteunend zijn voor de verdere laboratoriumanalyse en het beoordelen van de resultaten van het grondwatersamenstellingsonderzoek als geheel.</li>
+                <li>Vervolgens worden een of meerdere laboratoriummonsters genomen van het grondwater voor het doen van verdere analyses in het laboratorium. In de praktijk worden er vaak meer en verschillende soorten flessen met grondwater gevuld omdat in het laboratorium verschillende analyses zullen worden uitgevoerd die vragen om specifieke behandeling van het monster. Het water moet bijvoorbeeld al dan niet eerst gefiltreerd worden, de fles moet van glas dan wel kunststof zijn, de fles moet wel of niet volledig gevuld zijn en er moet wel of geen bepaalde conserveringsstof in zitten.</li>
+              </ul></li>
+            <li>Het laboratoriumonderzoek is het proces dat start bij de overdracht van de laboratoriummonsters door de uitvoerder van het veldonderzoek of een koerier aan het laboratorium of aan meerdere laboratoria. Met behulp van verschillende analyseprocessen wordt de waarde bepaald van de verschillende parameters. Het proces eindigt bij de rapportage van de onderzoeksresultaten aan de bronhouder.</li>
+            <li>De veld- en laboratoriumanalyseresultaten worden, na ontvangst door de bronhouder, door de bronhouder en/of een adviesbureau gecontroleerd en beoordeeld. De beoordeling leidt tot een kwaliteitsstatus per parameter. Deze kwaliteitsstatus geeft aan wat het eindoordeel van de bronhouder is over de kwaliteit van de gemeten waarde van de parameter. Het protocol dat gebruikt wordt bij het beoordelen bevat richtlijnen voor zowel het uitvoeren van de controles als een onderbouwing van de mogelijke uitkomsten van de kwaliteitsstatus.</li>
+          </ol>
+        </section>
+      </section>
+      <section id="Entiteiten">
+        <h3>Belangrijkste entiteiten</h3>
+        <p>In deze paragraaf wordt een beschrijvende toelichting geven op de gegevensinhoud. De expliciete definities zijn te vinden in de tabellen van de gegevensdefinitie. Als eerst wordt de hoofdentiteit beschreven, daarna de entiteiten van het veldonderzoek en de entiteiten van het laboratoriumonderzoek. Het resultaat van de beoordeling, de kwaliteitsstatus van de gegevens, is onderdeel van zowel het veldonderzoek als het laboratoriumonderzoek.</p>
+        <section id="Entiteit_GAR">
+          <h4>Grondwatersamenstellingsonderzoek</h4>
+          <p>Informatie uit de periodieke grondwatersamenstellingsonderzoeken wordt in de basisregistratie ondergrond geregistreerd als het registratieobject Grondwatersamenstellingsonderzoek. Dit registratieobject omvat de, van een beoordelingsresultaat voorziene, definitieve meetwaarden van een op grondwaterkwaliteit gericht onderzoek dat aan een grondwatermonster uit een bepaald meetpunt is verricht. Daarbij is een uitgangspunt dat een grondwatersamenstellingsonderzoek één bronhouder heeft, maar wel uitgevoerd kan zijn ten behoeve van meerdere grondwatermonitoringnetten die van één of meerdere bronhouders kunnen zijn. Daarnaast is een uitgangspunt dat alle gegevens van het grondwatersamenstellingsonderzoek tegelijk worden aangeleverd aan de basisregistratie ondergrond. De resultaten van het veldonderzoekdeel en het laboratoriumonderzoekdeel binnen één grondwatersamenstellingsonderzoek worden dus samen aangeleverd.</p>
+          <p>Een grondwatersamenstellingsonderzoek kan ten behoeve van meer dan één monitoringdoel uitgevoerd worden. Dit betekent dat een onderzoek in het kader van meerdere grondwatermonitoringnetten tegelijk uitgevoerd kan zijn. In het registratieobject Grondwatermonitoringnet worden het doel van de monitoring (monitoringdoel) geregistreerd en het wettelijk kader waar dit doel uit volgt (kader aanlevering). In het registratieobject grondwatersamenstellingsonderzoek wordt het monitoringdoel en het wettelijk kader waar dit doel uit volgt niet geregistreerd. Met de verwijzing van het grondwatersamenstellingsonderzoek naar één of meer grondwatermonitoringnetten (zie 3.2) is het doel en het wettelijk kader van het grondwatersamenstellingsonderzoek indirect geregistreerd. De verwijzing naar het monitoringnet wordt gemaakt op basis van het BRO-ID van het monitoringnet.</p>
+          <p>Bij een grondwatersamenstellingsonderzoek ligt de verwijzing vast naar de grondwatermonitoringbuis waarin het onderzoek is uitgevoerd (zie <a href="#Het_proces"></a>). De verwijzing wordt gemaakt op basis van het BRO-ID van de grondwatermonitoringput in combinatie met het buisnummer van de buis waarin de bemonstering heeft plaatsgehad. De diepte van het filter in de monitoringsbuis geeft de diepte aan waarop het monster is genomen. Deze diepte  is van invloed op de waarde van onderzochte parameters. De diepte is geregistreerd via de verwijzing naar de monitoringbuis.</p>
+          <p>De veld- en laboratoriumanalyseresultaten van een grondwatersamenstellingsonderzoek worden door de bronhouder en/of een derde partij in opdracht van een bronhouder gecontroleerd en beoordeeld. Bij het beoordelen van gegevens wordt gekeken naar de resultaten van het grondwatersamenstellingsonderzoek als geheel. Bijvoorbeeld wordt de consistentie beoordeeld tussen de chemische veld- en laboratoriumresultaten met behulp van verschilende chemische relaties. Daarnaast worden meetresultaten beoordeeld binnen de tijdreeks, indien aanwezig, van het betreffende filter. De beoordeling vindt plaats aan de hand van een <em>beoordelingsprocedure</em>. Dit is een protocol of werkvoorschrift dat is toegepast bij het beoordelen van de kwaliteit van de meetwaarden die in het veld en/of in het laboratorium gemeten zijn. De procedure beschrijft hoe de beoordeling wordt gedaan en op welke manier de beoordeling leidt tot het eindoordeel over de betrouwbaarheid van een individuele meting.</p>
+          <p>Elk grondwatersamenstellingsonderzoek wordt uitgevoerd volgens afspraak tussen opdrachtgever (de <em>bronhouder</em> die in de basisregistratie ondergrond voor elk registratieobject wordt geregistreerd) en opdrachtnemer(s). Bij elk grondwatersamenstellingsonderzoek wordt een hoeveelheid parameters, ofwel eigenschappen van het grondwatermonster, gemeten. Het resultaat van deze metingen wordt geregistreerd in de basisregistratie ondergrond.</p>
+        </section>
+        <section id="identificatie-parameters">
+          <h4>Identificatie van parameters</h4>
+          <p>Zowel in het veldonderzoek als in het laboratoriumonderzoek worden parameters, eigenschappen, van het grondwater bepaald. Bij de registratie van de meetresultaten van het veldonderzoek en het laboratoriumonderzoek wordt gebruik gemaakt van de Parameterlijst (zie <a href="#detail_class_Model_Parameterlijst"></a> voor de definities en de inhoud van de lijst). Elke <em>parameter</em> in deze lijst wordt geïdentificeerd door het <em>ID</em> van de parameter.</p>
+          <p>In de Parameterlijst is voor elke parameter naast het ID ook vastgelegd: de <em>Aquocode</em>, het <em>CASnummer</em> (indien van toepassing), een <em>omschrijving</em>, de <em>eenheid</em> en de <em>hoedanigheid</em> waarin de parameter wordt geregistreerd.</p>
+          <p>Het ID wordt gebruikt om de parameter aan te duiden, dit is het uniek identificerend gegeven. De Aquocode maakt onderdeel uit van de Aquo-standaard. Dit is een open standaard en uniforme taal voor de uitwisseling van gegevens binnen de watersector.</p>
+          <p>Het CASnummer is een internationaal gebruikte, unieke, numerieke code voor chemische elementen, componenten en polymeren. Er zijn alleen CASnummers voor chemische verbindingen, niet voor parameters die de toestand van het grondwater beschrijven zoals zuurgraad, troebelheid, geleidendheid (elektrisch geleidingsvermogen) of temperatuur. Ook zijn er geen CASnummers voor som-parameters zoals stikstof-totaal of de som van trichloorfenol-isomeren.</p>
+          <p>De Aquocode, het CASnummer (indien van toepassing) en de omschrijving vormen de toelichting op de parameter, deze gegevens zorgen ervoor dat alle gebruikers er zeker van zijn om welke eigenschap of stof het gaat.</p>
+          <p>Om verschillende grondwatersamenstellingsonderzoeken met elkaar te kunnen vergelijken is de eenheid door de basisregistratie ondergrond voorgeschreven. Alleen een veelvoud of een deel van de voorgeschreven eenheid kan voorkomen. Wanneer bijvoorbeeld µg/l in de parameterlijst staat is mg/l ook toegestaan als dit beter aansluit bij de hoogte van de gemeten waarde. De prefix, het voorvoegsel van de eenheid mag dus worden aangepast ten opzichte van wat is gedefinieerd in de parameterlijst.</p>
+          <p>De hoedanigheid geeft aan hoe de eenheid wordt uitgedrukt, bijvoorbeeld ‘uitgedrukt in stikstof, opgeloste fractie’, of geeft een nadere duiding van de eenheid, bijvoorbeeld ‘ten opzichte van Vienna-Pee Dee Belemnite’. </p>
+        </section>
+        <section id="intro-veldonderzoek">
+          <h4>Veldonderzoek en monstername</h4>
+          <p>Tijdens het <em>veldonderzoek</em> wordt in het veld een aantal waarnemingen gedaan en een aantal metingen uitgevoerd die belangrijk zijn om in het veld uit te voeren en het resultaat ervan te registreren. Tevens worden monsters genomen voor analyse in het laboratorium. De <em>uitvoerder veldonderzoek</em> is de partij die voor de bronhouder verantwoordelijk is voor het uitvoeren van het veldonderzoek.</p>
+          <p>Het veldonderzoek gebeurt op een bepaald tijdstip, op een bepaalde datum, het <em>tijdstip veldonderzoek</em>, en volgens een bepaalde <em>bemonsteringsprocedure</em> waarin de eisen en voorgeschreven werkwijze ten aanzien van bemonstering zijn vastgelegd.</p>
+          <p>Gegevens over het <em>Bemonsteringsapparaat</em> zijn relevant voor de beoordeling van de kwaliteit van het monster. Het <em>pomptype</em> is kenmerkend voor het bemonsteringsapparaat en wordt daarom vastgelegd in de basisregistratie ondergrond.</p>
+          <p>Tijdens het veldonderzoek wordt een aantal parameters gemeten en er worden waarnemingen gedaan. Een parameter is een eigenschap van het grondwater. Een aantal van de metingen die in het veld worden gedaan, wordt in de basisregistratie ondergrond geregistreerd bij <em>Veldmeting</em>. Deze gegevens hebben hergebruikswaarde: ze geven een algemene indruk over het bemonsterde grondwater, de meetwaarden worden gebruikt in bepaalde controles, of de bepaling in het veld levert een betrouwbaarder resultaat op dan een bepaling in het laboratorium. Voor het meten van parameters in het veld zijn meerdere redenen:</p>
+          <ul>
+            <li>Na de monstername kan de samenstelling van het monster veranderen: <BR>Het gehalte waterstofcarbonaat wordt bijvoorbeeld in het veld gemeten omdat het waterstofcarbonaatgehalte zeer gevoelig is voor invloeden van buitenaf. Het gehalte kan veranderen door bijvoorbeeld ontgassing, door temperatuurverandering, pH-verandering, onder invloed van zuurstof en door het optreden van microbiële activiteit.</li>
+            <li>Parameters zijn ondersteunend voor verdere analyse: <BR>Het elektrisch geleidingsvermogen en de zuurgraad worden gebruikt voor controles: als de in het laboratorium gemeten waarde afwijkt van de in het veld gemeten waarde dan kan dit duiden op onregelmatigheden in het veld, aan apparatuur, of tijdens transport, opslag of analyses.</li>
+            <li>Parameters zeggen wat over de omstandigheden van de meting: <BR>Bijvoorbeeld omdat deze waarden aangeven of het filter lang genoeg is afgepompt om een laboratoriummonster te gaan nemen. Zuurstofgehalte, elektrisch geleidingsvermogen, zuurgraad en temperatuur worden, terwijl het filter wordt afgepompt, herhaaldelijk gemeten. Nadat het filter voldoende is schoon gepompt en deze waarden constant zijn geworden, worden de laboratoriummonsters genomen. De laatst gemeten, constante waarden van het zuurstofgehalte, elektrisch geleidingsvermogen, zuurgraad en temperatuur worden geregistreerd in de basisregistratie ondergrond.</li>
+          </ul>
+          <p>Het resultaat van de metingen in het veld wordt geregistreerd bij <em>Veldmeting</em>. Zoals in <a href="#identificatie-parameters"></a> toegelicht wordt elke <em>parameter</em> geïdentificeerd door het <em>ID</em> van de parameter. De gemeten <em>waarde</em> van een veldmeting wordt geregistreerd in de basisregistratie ondergrond bij <em>veldmeetwaarde</em>. De <em>veldmeetwaarde</em> heeft het formaat Meetwaarde. Bij de meetwaarde hoort een meeteenheid. De meeteenheid is afhankelijk van de parameter. De aan te leveren meeteenheid is vastgelegd in de Parameterlijst. Ook een veelvoud of een deel van de in de parameterlijst voorgeschreven eenheid kan aangeleverd worden. De prefix, het voorvoegsel van de eenheid mag dus worden aangepast.</p>
+          <p>Gewoonlijk wordt bij Meetwaarde het patroon van het getal voorgeschreven: het aantal cijfers voor en achter het decimaal scheidingsteken ligt vast. Samen met de meeteenheid geeft het patroon de nauwkeurigheid van de meetwaarde weer. Bij de veldmeetwaarde van de analysemeetwaarde kan er geen vast patroon worden gegeven omdat het waarden van verschillende parameters kan betreffen die elk een ander patroon en eventueel een andere meeteenheid hebben. Dit betekent dat bij de resultaten van het veldonderzoek en het laboratoriumonderzoek de nauwkeurigheid (het aantal significante cijfers) niet gedefinieerd wordt door de basisregistratie ondergrond. Bij aanlevering aan de basisregistratie ondergrond vindt geen controle plaats op het patroon. De bronhouder heeft de verantwoordelijkheid het getal in de juiste nauwkeurigheid aan te leveren. Dat wil zeggen met het juiste aantal significante cijfers, het aantal cijfers dat betekenis heeft voor de nauwkeurigheid van de meting. De bronhouder kan hierbij gebruik maken van de mogelijkheid de prefix van de eenheid aan te passen aan de hoogte van de gemeten waarde.</p>
+          <p>Bij elke individuele meting van een parameter in het grondwatersamenstellingsonderzoek geeft de bronhouder (of een derde partij in opdracht van een bronhouder) een eindoordeel over de betrouwbaarheid van de meting. Dit eindoordeel wordt gevormd aan de hand van een, voor het hele grondwatersamenstellingsonderzoek gebruikte beoordelingsprocedure. Het eindoordeel wordt geregistreerd in de <em>status kwaliteitscontrole</em>. Het is een oordeel over de kwaliteit van de meting van de parameter, geen oordeel over het grondwatermonster als geheel.</p>
+          <p>Het resultaat van de waarnemingen in het veld wordt geregistreerd bij Veldwaarneming. Hier worden verschillende waarnemingen vastgelegd die belangrijk kunnen zijn voor hergebruik. De kleur van het grondwater wordt gedefinieerd in drie attributen te weten de hoofdkleur, de bijkleur en de kleursterkte. Daarnaast wordt aan de hand van de onderstaande attributen vastgelegd of er bepaalde bijzonderheden zijn geconstateerd die relevant zijn voor het beoordelen of hergebruiken van de resultaten van het onderzoek. Deze attributen worden met ja of met nee gevuld indien dit bekend is. Het attribuut ontbreekt als niet bekend is of het ja of nee is.</p>
+          <ul>
+            <li>De aanduiding die aangeeft of de temperatuur van het monster tijdens het transport is afgeweken van de eisen die in de gebruikte bemonsteringsnorm worden gesteld: afwijkend gekoeld.</li>
+            <li>De aanduiding die aangeeft of de gebruikte meetapparatuur een te grote, groeiende afwijking had: afwijking in meetapparatuur.</li>
+            <li>De aanduiding die aangeeft of er mogelijk contaminatie door vluchtige verbindingen opgetreden is door een aanwezige verbrandingsmotor: contaminatie door verbrandingsmotor.</li>
+            <li>De aanduiding die aangeeft of tijdens de monstername een type inline-filter gebruikt is dat afwijkt van de eisen die in de gebruikte bemonsteringsnorm worden gesteld: filter afwijkend.</li>
+            <li>De aanduiding die aangeeft of het filter tijdens de bemonstering drooggegevallen is doordat de pijlbuis slecht liep. Er is geen lucht in het monster terechtgekomen: filter belucht.</li>
+            <li>De aanduiding die aangeeft of de grondwaterstand tijdens en na het voorpompen met meer dan 50 centimeter verlaagd is: grondwaterstand teveel gedaald.</li>
+            <li>De aanduiding die aangeeft of het monster belucht is doordat de peilbuis tijdens de bemonstering slecht liep: monster belucht.</li>
+            <li>De aanduiding die aangeeft of de slang die bij het oppompen is van het grondwater is gebruikt is hergebruikt: slang hergebruikt.</li>
+            <li>De aanduiding die aangeeft of de temperatuur van het grondwater tijdens de bemonstering moeilijk te bepalen was door zeer warm weer in combinatie met een slechtlopende peilbuis: temperatuur moeilijk te bepalen.</li>
+          </ul>          
+        </section>
+        <section id="intro-labonderzoek">
+          <h4>Laboratoriumonderzoek</h4>
+          <p>Een <em>laboratoriumonderzoek</em> van een grondwatersamenstellingsonderzoek wordt door een of meerdere laboratoria verricht. Alle laboratoria die onderzoeken uitvoeren die binnen de scope van de basisregistratie ondergrond vallen, zijn geaccrediteerd door de Raad voor Accreditatie. Vereist voor de accreditatie is onder andere het volgen van (inter)nationale standaarden (NEN- en/of ISO-normen). Laboratoria werken volgens strikte interne kwaliteitssystemen vastgelegd in handboeken, conform de richtlijnen van de Raad voor Accreditatie. Geaccrediteerde laboratoria zijn daarnaast verplicht om deel te nemen aan ringonderzoeken: onderzoeken waarbij de testresultaten van verschillende laboratoria worden vergeleken. De accreditatie legt op parameter(groep)niveau vast welke bepalingstechnieken en bijbehorende procedures gehanteerd worden door het geaccrediteerde lab. Laboratoria zijn vaak niet voor alle parameters of parametergroepen geaccrediteerd. Met name parameters die zij niet regelmatig meten kunnen accreditaties missen. Wanneer de bronhouder ervoor kiest om alle parameters volgens een geaccrediteerde procedure te laten meten, kan het in enkele gevallen voorkomen dat het laboratoriumonderzoek door meer dan een laboratorium uitgevoerd wordt. Op de website van de Raad van Accreditatie (<a href="https://www.rva.nl">www.rva.nl</a>) is per laboratorium informatie te vinden over hun huidige accreditatie.</p>
+          <p>Het laboratoriumonderzoek omvat de resultaten van het onderzoek van één of meer deelmonsters, waarbij doorgaans veel verschillende parameters worden bepaald. Elk laboratoriumonderzoek wordt onder de verantwoordelijkheid van één laboratorium, de <em>uitvoerder laboratoriumonderzoek</em>, uitgevoerd.</p>
+          <p>In het laboratorium worden een of meer analyseprocessen uitgevoerd. Een <em>analyseproces</em> bevat de kenmerken van de in het laboratorium uitgevoerde activiteiten ten behoeve van de bepaling van de waarde van parameters in het grondwatermonster. Van het analyseproces worden de <em>analysedatum</em>, de <em>bepalingstechniek</em>, de <em>bepalingsprocedure</em> en <em>bijzonderheid bepalingsprocedure</em> geregistreerd in de Basisregistratie Ondergrond.</p>
+          <p>De datum waarop een bepalingstechniek wordt uitgevoerd, wordt geregistreerd met de analysedatum. Wanneer de bepalingstechniek zich uitstrekt over meer dagen, wordt de datum geregistreerd waarop de bepalingstechniek is afgerond.</p>
+          <p>Een parameter kan vaak met verschillende bepalingstechnieken gemeten worden. De <em>waardebepalingstechniek</em> is van invloed op de gemeten waarde en de nauwkeurigheid van de gemeten waarde. Met één waardebepalingstechniek worden meestal meerdere parameters gemeten. Verschillende laboratoria kunnen voor dezelfde waardebepalingstechniek een verschillende norm of voorschrift hanteren. Daarom wordt de door het laboratorium gebruikte norm of voorschrift geregistreerd, de <em>waardebepalingsprocedure</em>. In sommige gevallen wordt een procedure gebruikt die niet is gecertificeerd of geaccrediteerd. Dit doet zich bijvoorbeeld voor bij de analyse van stoffen waarop recentelijk voor het eerst analyses plaatsvinden. In deze gevallen wordt een eigen methode gebruikt. Dit wordt als niet genormaliseerde automatische waardebepaling aangeduid.</p>
+          <p>Het analyseproces leidt tot meetresultaten van een of meer parameters. Deze worden geregistreerd in <em>Analyse</em>. Middels het <em>ID</em> wordt de <em>parameter</em> geïdentificeerd (zie <a href="#identificatie-parameters"></a>). </p>
+          <p>Het gemeten gehalte van de parameter wordt geregistreerd in het attribuut <em>analysemeetwaarde</em>. In sommige gevallen wordt in het attribuut analysemeetwaarde niet de gemeten waarde geregistreerd maar de rapportagegrens: De door het uitvoerende laboratorium met de opdrachtgever afgesproken grensconcentratie waarboven het gemeten gehalte of de waargenomen waarde van de parameter in een monster wordt gerapporteerd aan de opdrachtgever. Een gemeten waarde kan ook hoger zijn dan de hoogste grenswaarde die nog wordt gerapporteerd aan de opdrachtgever. In dit geval zal het laboratorium het monster verdunnen. Het kan voorkomen dat dit niet meer mogelijk is. In dat geval wordt in het attribuut analysemeetwaarde niet de gemeten waarde geregistreerd maar de hoogste nog gerapporteerde grenswaarde.</p>
+          <p>Wanneer het attribuut analysemeetwaarde een grenswaarde bevat is er een <em>limietsymbool</em> aanwezig. Het limietsymbool geeft aan dat het, in het grondwater aanwezige gehalte kleiner of groter is dan de grensconcentratie die geregistreerd is bij analysemeetwaarde.</p>
+          <p>De <em>rapportagegrens</em> is de door het uitvoerende laboratorium met de opdrachtgever afgesproken, kleinste waarde van een concentratie van een component die door een laboratorium standaard wordt gerapporteerd aan de opdrachtgever. In sommige gevallen hebben de opdrachtnemer en de opdrachtgever de afspraak gemaakt dat de rapportagegrens gelijk is aan de detectiegrens, ofwel aantoonbaarheidsgrens. Dit is de grens waarboven kan worden vastgesteld of de parameter wel of niet aanwezig is. In andere gevallen is de detectiegrens lager dan de rapportagegrens. De rapportagegrens is voor hergebruik een belangrijk gegeven en wordt geregistreerd indien hij bekend is bij de bronhouder. Deze grens is mede afhankelijk van de bepalingstechniek en de eventuele bewerking van het grondwatermonster.</p>
+          <p>Wanneer het gemeten gehalte lager is dan de rapportagegrens, mag de bronhouder de rapportagegrens in het attribuut analysemeetwaarde registreren. In dit geval wordt eveneens het limietsymbool geregistreerd. De bronhouder mag bij een, door een laboratorium toch gerapporteerd gemeten gehalte dat lager is dan de rapportagegrens, besluiten of hij deze gemeten waarde registreert bij het attribuut analysemeetwaarde in de basisregistratie ondergrond of niet. Andere soorten grenzen, zoals de detectielimiet: de grens waarboven kan worden vastgesteld of de parameter wel of niet aanwezig is, of de bepaalbaarheidsgrens, die iets zegt over wanneer het gehalte van een parameter betrouwbaar kan worden vastgesteld, worden niet geregistreerd in de basisregistratie ondergrond.</p>
+          <p>De <em>analysemeetwaarde</em> en de <em>rapportagegrens</em> hebben het formaat Meetwaarde. Gewoonlijk wordt bij Meetwaarde het patroon van het getal voorgeschreven: het aantal cijfers voor en achter het decimaal scheidingsteken ligt vast. Net als bij de veldmeetwaarde kan er bij de analysemeetwaarde en de rapportagegrens van de in het laboratorium gemeten parameters geen vast patroon worden gegeven. Net als bij de resultaten van de veldmetingen heeft de bronhouder de verantwoordelijkheid het getal in de juiste nauwkeurigheid (het aantal significante cijfers) aan te leveren. In de door laboratoria gebruikte bepalingsprocedure is vaak vastgelegd hoe er afgerond moet worden. De bronhouder kan hierbij gebruik maken van de mogelijkheid de prefix van de eenheid aan te passen aan de hoogte van de gemeten waarde.</p>
+          <p>Net als bij Veldmeting, wordt bij Analyse bij elke individuele meting door de bronhouder (of een derde partij in opdracht van een bronhouder) een eindoordeel over de betrouwbaarheid van de meting aangegeven. Dit eindoordeel wordt gevormd aan de hand van een, voor het hele grondwatersamenstellingsonderzoek gebruikte beoordelingsprocedure. Het eindoordeel wordt geregistreerd in de <em>status kwaliteitscontrole</em>.</p>
+        </section>
+      </section>
+      <section id="GW-samenhang">
+        <h3>Samenhang en consistentie tussen verschillende registratieobjecten in het Grondwaterdomein</h3>
+        <p>De verschillende registratieobjecten in het grondwaterdomein en hun gegevens hebben samenhang. Zie de beschrijving hiervan in paragraaf ‘Domein grondwatermonitoring in de  basisregistratie ondergrond’. Op basis van de samenhang wordt er consistentie verwacht tussen de gegevens in verschillende registratieobjecten in het grondwaterdomein. Het is de verantwoordelijkheid van de bronhouder om deze consistentie te waarborgen. De basisregistratie ondergrond dwingt dit grotendeels niet af.</p>
+        <p>De basisregistratie ondergrond dwingt alleen af dat gegevens in andere registratieobjecten waarnaar verwezen wordt, ook daadwerkelijk geregistreerd zijn. Dit geldt voor de volgende verwijzingen (zie ook het plaatje in paragraaf ‘Domein grondwatermonitoring in de basisregistratie ondergrond’):</p>
+        <ul>
+          <li>Vanuit Grondwatermonitoringnet, Grondwatersamenstellingsonderzoek en Grondwaterstandonderzoek naar een buis in een grondwatermonitoringput.</li>
+          <li>Vanuit Grondwatersamenstellingsonderzoek en Grondwaterstandonderzoek naar Grondwatermonitoringnet.</li>
+        </ul>
+        <p>Daarnaast wordt op de volgende punten consistentie verwacht:</p>
+        <ul>
+          <li>De periode waarin een buis in een grondwatermonitoringput als meetpunt onderdeel is van een grondwatermonitoringnet, valt binnen de periode waarin de betreffende grondwatermonitoringput en de betreffende buis in de put bestaan in de werkelijkheid.</li>
+          <li>De verzameling meetpunten binnen een grondwatermonitoringnet is consistent met de grondwatersamenstellingsonderzoeken en grondwaterstandonderzoeken die in het kader van het monitoringnet zijn uitgevoerd. Dat wil zeggen: ten tijde van het uitvoeren van het onderzoek is het filter in de put waarin het onderzoek plaats vindt, een meetpunt in elk grondwatermonitoringnet waaraan het betreffende onderzoek gekoppeld is.</li>
+        </ul>
+        <p>Ook met betrekking tot kwaliteitsregime geldt een specifieke samenhang tussen gegevens van verschillende registratieobjecten.</p>
+        <ul>
+          <li>Aan een grondwatermonitoringnet dat onder kwaliteitsregime IMBRO/A in de basisregistratie is geregistreerd kunnen alleen onderzoeksgegevens (grondwatersamenstellingsonderzoeken en/of grondwaterstandonderzoeken) gekoppeld worden die ook onder kwaliteitsregime IMBRO/A vallen. Van grondwatersamenstellingsonderzoeken en grondwaterstandonderzoeken onder kwaliteitsregime IMBRO moet bekend zijn in welk (wettelijk) kader ze zijn uitgevoerd. Daarom kunnen ze alleen gekoppeld worden aan grondwatermonitoringnetten die onder kwaliteitsregime IMBRO zijn geregistreerd. Grondwatersamenstellingsonderzoeken en grondwaterstandonderzoeken onder kwaliteitsregime IMBRO/A kunnen zowel gekoppeld worden aan grondwatermonitoringnetten onder kwaliteitsregime IMBRO als onder IMBRO/A.</li>
+          <li>Voor de verwijzingen naar grondwatermonitoringput vanuit andere registratieobjecten gelden geen restricties. Het maakt niet uit of de grondwatermonitoringput waarnaar verwezen wordt kwaliteitsregime IMBRO of IMBRO/A heeft.</li>
+        </ul>
+      </section>
+      <section id="inspire">
+        <h3>INSPIRE</h3>
+        <p>Het doel van de Europese kaderrichtlijn <a href="https://inspire.ec.europa.eu/">INSPIRE</a> is het harmoniseren en openbaar maken van ruimtelijke gegevens van overheidsorganisaties ten behoeve van het milieubeleid. Het registratieobject Grondwatersamenstellingsonderzoek valt onder het INSPIRE-thema Human health and safety, en om die reden moeten de gegevens in het registratieobject geschikt gemaakt worden voor uitwisseling volgens de INSPIRE-standaard. Dit wordt voor dit registratieobject geïmplementeerd middels een mapping van het gegevensmodel van het registratieobject Grondwatersamenstellingsonderzoek op het gegevensmodel van het INSPIRE-thema. De inhoud van deze mapping is geen onderdeel van deze catalogus.</p>
       </section>
     </section>
-    <section data-include="https://docs.geostandaarden.nl/bro/gen/domeinmodel-gen.html" class="generic">
-    </section>
-  </section>
-  <!-- hoofdstuk 4 -->
-  <section id="intro-catalogus">
-    <h2>Introductie van de catalogus</h2>
-    <section id="intro-cat-inleiding" data-include="https://docs.geostandaarden.nl/bro/gen/intro-cat-inleiding.html" class="generic"></section>
-    <section id="type-domeinen">
-      <h3>Type domeinen</h3>
+    <!-- hoofdstuk 4 -->
+    <section id="intro-gegevensdefinitie">
+     <h2>Introductie van de gegevensdefinitie</h2>
+     <section id="intro-cat-inleiding" data-include="https://docs.geostandaarden.nl/bro/gen/intro-cat-inleiding.html" class="generic"></section>
+     <section data-include="https://docs.geostandaarden.nl/bro/gen/domeinmodel-gen.html" class="generic"></section>
+     <section id="type-formaten">
+      <h3>Formaten in de gegevensdefinitie</h3>
       <!-- hier alleen de domeinuitleg includeren voor domeinen die in het registratieobject gebruikt worden -->
-      <p>Een domein beschrijft welke waarden een attribuut mag hebben. Domeinen zijn van een bepaald type en de typen die in de registratie ondergrond worden gebruikt worden hieronder toegelicht.</p>
+      <p>Een formaat beschrijft welke waarden een attribuut mag hebben. Formaten zijn van een bepaald type. De typen die in de gegevensdefinitie gebruikt zijn, worden hieronder toegelicht.</p>
       <section id="enumeratie" data-include="https://docs.geostandaarden.nl/bro/gen/enumeratie.html" class="generic"></section>
       <section id="codelijst" data-include="https://docs.geostandaarden.nl/bro/gen/codelijst.html" class="generic"></section>
-      <section id="tekst" data-include="https://docs.geostandaarden.nl/bro/gen/tekst.html" class="generic"></section>     
+      <section id="tekst" data-include="https://docs.geostandaarden.nl/bro/gen/tekst.html" class="generic"></section>
       <section id="code" data-include="https://docs.geostandaarden.nl/bro/gen/code.html" class="generic"></section>
       <section id="meetwaarde" data-include="https://docs.geostandaarden.nl/bro/gen/meetwaarde.html" class="generic"></section>
       <section id="datumtijd" data-include="https://docs.geostandaarden.nl/bro/gen/datumtijd.html" class="generic"></section>
+      <section id="organisatie" data-include="https://docs.geostandaarden.nl/bro/gen/organisatie.html" class="generic"></section>    
     </section>
     <section id="verplichte-gegevens-waarden" data-include="https://docs.geostandaarden.nl/bro/gen/verplichte-gegevens-waarden.html" class="generic"></section>
-    <aside class="issue" data-number="19">
-    <p>Van een aantal codelijsten in het volgende hoofdstuk worden de definities niet weergegeven. De oorzaak is een technisch probleem. </p>
-  </aside>  
-  </section>
-  <!-- hoofdstuk 5 -->
-  <section id="catalogus" data-include="data/GAR-cat.html" class="normative"></section>
+    </section>
+  <!-- hoofdstuk 5 en 6 -->
+  <div data-include="data/GAR-cat.html" data-include-replace=true></div>
+  <!-- hoofdstuk 6
+  <section id="lists" data-include="data/GAR-lists.html" class="normative"></section>-->
+  <!-- experimenteel: include referentielijst 
+  <section id="referentielijst" data-include="lists/Parameterlijst.html" data-include-replace=true></section>
+  -->
+<!-- Appendix -->
+  <section id="toelichting-eenheden-hoedanigheden" class="appendix">
+    <h2>Bijlage: Toelichting eenheden en hoedanigheden</h2> 
+	  <p>In onderstaande tabel staat de betekenis van de eenheden zoals ze voorkomen in de parameterlijst.</p>
+	  <table style="width:100%">
+	  <tr>
+		  <th WIDTH="90">code</th>
+		  <th>omschrijving</th>
+	  </tr>
+	  <tr>
+      <td>Cel</td>
+      <td>graden Celsius</td>
+    </tr>
+    <tr>
+      <td>mg/l</td>
+      <td>milligram per liter</td>
+    </tr>
+    <tr>
+      <td>ug/l</td>
+      <td>microgram per liter, µg/l</td>
+    </tr>
+    <tr>
+      <td>mS/m</td>
+      <td>milliSiemens per meter</td>
+    </tr>
+    <tr>
+      <td>mV</td>
+      <td>millivolt</td>
+    </tr>	
+    <tr>
+      <td>[NTU]</td>
+      <td>Nephelometric Turbidity Unit</td>
+    </tr>
+    <tr>
+      <td>%</td>
+      <td>procent, 10<SUP>-2</SUP></td>
+    </tr>
+    <tr>
+      <td>10^-3</td>
+      <td>parts per thousand, promille, 10<SUP>-3</SUP></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>dimensieloos, DIMSLS</td>
+    </tr>
+    </table>
+    
+    <p>In onderstaande tabel staat de betekenis van de hoedanigheden zoals ze voorkomen in de parameterlijst.</p>
+    <table style="width:100%">
+      <tr>
+        <th WIDTH="90">code</th>
+        <th>omschrijving</th>
+      </tr>
+      <tr>
+        <td>Cnf</td>
+        <td>uitgedrukt in koolstof / opgeloste fractie</td>
+      </tr>
+      <tr>
+        <td>CS2</td>
+        <td>uitgedrukt in koolstofdisulfide</td>
+      </tr>
+      <tr>
+        <td>MC</td>
+        <td>ten opzichte van modern carbon (recent organisch materiaal). In combinatie met de eenheid %, wordt dit PMC (percent modern carbon)</td>
+      </tr>
+      <tr>
+        <td>nf</td>
+        <td>opgeloste fractie (bijv. na filtratie)</td>
+      </tr>
+      <tr>
+        <td>Nnf</td>
+        <td>uitgedrukt in stikstof / opgeloste fractie</td>
+      </tr>
+      <tr>
+        <td>NVT</td>
+        <td>niet van toepassing</td>
+      </tr>
+      <tr>
+        <td>Pnf</td>
+        <td>uitgedrukt in fosfor / opgeloste fractie</td>
+      </tr>
+      <tr>
+        <td>TU</td>
+        <td>uitgedrukt in Tritium units (TU) waarbij  1 TU = 1 3H atoom per 10^18 H atomen</td>
+      </tr>
+      <tr>
+        <td>V-PDB</td>
+        <td>ten opzichte van Vienna-Pee Dee Belemnite</td>
+      </tr>
+      <tr>
+        <td>V-SMOW</td>
+        <td>ten opzichte van Vienna-Standard Mean Ocean Water</td>
+      </tr>
+      <tr>
+        <td>25oC</td>
+        <td>ten opzichte van 25 graden Celsius</td>
+      </tr>
+    </table>
+	 
+   </section>	
 </body>
 
 </html>
