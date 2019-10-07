@@ -3,7 +3,7 @@
     <Parameter>
         <ID>2818</ID>
         <aquocode>134DClFyurum</aquocode>
-        <CASnummer>155998</CASnummer>
+        <CASnummer>2327-02-8</CASnummer>
         <omschrijving>1-(3,4-dichloorfenyl)ureum</omschrijving>
         <eenheid>ug/l</eenheid>
         <hoedanigheid>NVT</hoedanigheid>
@@ -1723,7 +1723,7 @@
     <Parameter>
         <ID>5256</ID>
         <aquocode>carbdx</aquocode>
-        <CASnummer>1791337</CASnummer>
+        <CASnummer>6804-07-5</CASnummer>
         <omschrijving>carbadox</omschrijving>
         <eenheid>ug/l</eenheid>
         <hoedanigheid>NVT</hoedanigheid>
@@ -3075,7 +3075,7 @@
     <Parameter>
         <ID>920</ID>
         <aquocode>K</aquocode>
-        <CASnummer>2023695</CASnummer>
+        <CASnummer>7440-09-7</CASnummer>
         <omschrijving>kalium</omschrijving>
         <eenheid>mg/l</eenheid>
         <hoedanigheid>nf</hoedanigheid>
@@ -3147,7 +3147,7 @@
     <Parameter>
         <ID>1898</ID>
         <aquocode>lencl</aquocode>
-        <CASnummer>96639</CASnummer>
+        <CASnummer>2164-08-1</CASnummer>
         <omschrijving>lenacil</omschrijving>
         <eenheid>ug/l</eenheid>
         <hoedanigheid>NVT</hoedanigheid>
@@ -3691,7 +3691,7 @@
     <Parameter>
         <ID>2488</ID>
         <aquocode>poxflne</aquocode>
-        <CASnummer>1677687</CASnummer>
+        <CASnummer>6493-05-6</CASnummer>
         <omschrijving>pentoxifylline</omschrijving>
         <eenheid>ug/l</eenheid>
         <hoedanigheid>NVT</hoedanigheid>
