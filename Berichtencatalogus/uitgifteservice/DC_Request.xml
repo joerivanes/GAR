@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dispatchCharacteristicsRequest 
+  xmlns="http://www.broservices.nl/xsd/dsgar/0.5" 
+  xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+  xmlns:gml="http://www.opengis.net/gml/3.2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.broservices.nl/xsd/dsgar/0.5 ../../XSD/dsgar-messages.xsd"
+    >
+  <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de uitgifteservice.
+       Het is niet gevalideert door de uitgifteservice en is vaktechnisch/inhoudelijk niet voorbeeldig.
+  -->
+  <brocom:requestReference>uitgifte-24</brocom:requestReference>
+  <criteria>
+    <brocom:area>
+      <brocom:boundingBox srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+        <gml:lowerCorner>52.1 5.0</gml:lowerCorner>
+        <gml:upperCorner>52.3 5.2</gml:upperCorner>
+      </brocom:boundingBox>
+    </brocom:area>
+    <groundwaterMonitoringNet>GMN123456789012</groundwaterMonitoringNet>
+  </criteria>
+</dispatchCharacteristicsRequest>

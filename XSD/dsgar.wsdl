@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="dsgar"
+    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+    xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+    xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:msg="http://www.broservices.nl/xsd/dsgar/0.5"
+    xmlns:tns="http://www.broservices.nl/wsdl/dsgar/0.1"
+    targetNamespace="http://www.broservices.nl/wsdl/dsgar/0.1">
+
+    <wsdl:documentation>
+        This  WSDL defines the webservice for the GAR intake webservice (GroundwaterQualityMeasurementReports)
+        in the context of the baseregistry subsurface (Basisregistratie Ondergrond).
+        This is version 0.1.0
+        Changes compared to Version:0.1.0:
+        - 
+    </wsdl:documentation>
+
+    <wsdl:types>
+        <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/dsgar/0.1" targetNamespace="http://www.broservices.nl/wsdl/dsgar/0.1">
+            <!--
+            <xsd:import namespace="http://www.broservices.nl/xsd/dsgar/0.5" schemaLocation="https://schema.broservices.nl/xsd/dsgar/0.9/dsgar-messages.xsd" />
+            -->
+            <xsd:import namespace="http://www.broservices.nl/xsd/dsgar/0.5" schemaLocation="dsgar-messages.xsd" />
+        </xsd:schema>
+    </wsdl:types>
+
+    <wsdl:message name="dispatchDataRequest">
+        <wsdl:part element="msg:dispatchDataRequest" name="request" />
+    </wsdl:message>
+
+    <wsdl:message name="dispatchDataResponse">
+        <wsdl:part element="msg:dispatchDataResponse" name="response" />
+    </wsdl:message>
+
+    <wsdl:message name="parseSoapFault">
+        <wsdl:part element="msg:parseFault" name="parseFault" />
+    </wsdl:message>
+
+    <wsdl:portType name="dsgar">
+        <wsdl:operation name="dispatchData">
+            <wsdl:input message="tns:dispatchDataRequest" wsam:Action="http://www.broservices.nl/wus/dsgar/dispatchDataRequest" />
+            <wsdl:output message="tns:dispatchDataResponse" wsam:Action="http://www.broservices.nl/wus/dsgar/dispatchDataResponse" />
+            <wsdl:fault message="tns:parseSoapFault" name="parsefault" wsam:Action="http://www.broservices.nl/wus/dsgar/parseSoapFault" />
+        </wsdl:operation>
+    </wsdl:portType>
+
+    <wsdl:binding name="dsgar_SOAP" type="tns:dsgar">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+        <wsdl:operation name="dispatchData">
+            <soap:operation soapAction="" style="document" />
+            <wsdl:input>
+                <soap:body use="literal" />
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal" />
+            </wsdl:output>
+            <wsdl:fault name="parsefault">
+                <soap:fault use="literal" name="parsefault" />
+            </wsdl:fault>
+        </wsdl:operation>
+    </wsdl:binding>
+
+    <wsdl:service name="dsgar">
+        <wsdl:port name="dsgar_SOAP" binding="tns:dsgar_SOAP">
+            <soap:address location="RgarACE_WITH_ACTUAL_URL" />
+        </wsdl:port>
+    </wsdl:service>
+
+</wsdl:definitions>

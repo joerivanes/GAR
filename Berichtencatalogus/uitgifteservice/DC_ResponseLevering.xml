@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dispatchCharacteristicsResponse
+  xmlns="http://www.broservices.nl/xsd/dsgar/0.5" 
+  xmlns:garcom="http://www.broservices.nl/xsd/garcommon/0.5"
+  xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+  xmlns:gml="http://www.opengis.net/gml/3.2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.broservices.nl/xsd/dsgar/0.5 ../../XSD/dsgar-messages.xsd"
+  >
+  <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de uitgifteservice.
+       Het is niet gevalideert door de uitgifteervice en is vaktechnisch/inhoudelijk niet voorbeeldig.
+  -->
+  <brocom:responseType>dispatch</brocom:responseType>
+  <brocom:requestReference>uitgifte-24</brocom:requestReference>
+  <!--Optional:
+  <brocom:rejectionTime>2019-10-17T07:48:04+02:00</brocom:rejectionTime>
+  -->
+  <!--Optional:-->
+  <brocom:dispatchTime>2019-10-17T07:48:04+02:00</brocom:dispatchTime>
+  <!--Optional:
+  <brocom:rejectionReason>Er zijn één of meer fouten geconstateerd in de kenmerken verzameling.</brocom:rejectionReason>
+  -->
+  <!--0 or more repetitions:
+  <brocom:criterionError>
+    <brocom:sequenceNumber>1</brocom:sequenceNumber>
+    <brocom:specification>{DispatchCharacteristicsRequest.criteria.area.boundingBox.crs} = RD waarde heeft geen correct formaat: moet zijn [ETRS89].</brocom:specification>
+  </brocom:criterionError>
+  -->
+  <!--Optional:-->
+  <numberOfDocuments>2</numberOfDocuments>
+  <!--0 or more repetitions:-->
+  <dispatchDocument>
+    <GAR_C gml:id="id_0001">
+      <brocom:broId>GAR123456789012</brocom:broId>
+      <brocom:deregistered>nee</brocom:deregistered>
+      <!--Optional:-->
+      <brocom:deliveryAccountableParty>27376655</brocom:deliveryAccountableParty>
+      <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>
+      <!--Optional:-->
+      <brocom:objectRegistrationTime>2019-06-27T10:28:00+02:00</brocom:objectRegistrationTime>
+      <!--Optional: -->
+      <brocom:latestCorrectionTime>2019-11-06T07:52:19+01:00</brocom:latestCorrectionTime>
+      <brocom:underReview>nee</brocom:underReview>
+      <!--Optional: -->
+      <brocom:standardizedLocation srsName="urn:ogc:def:crs:EPSG::4258" gml:id="SEQ_0002">
+        <gml:pos>52.287820210 5.090415500</gml:pos>
+      </brocom:standardizedLocation>
+      <!--Optional:
+      <brocom:deliveredLocation gml:id="SEQ_0002">
+        <gml:pos>52.287820210 5.090415500</gml:pos>
+      </brocom:deliveredLocation>
+      -->
+      <!--1 or more repetitions:-->
+      <groundwaterMonitoringNet>GMN123456789012</groundwaterMonitoringNet>
+      <groundwaterMonitoringNet>GMN123456789013</groundwaterMonitoringNet>
+      <groundwaterMonitoringWell>GMW123456789012</groundwaterMonitoringWell>
+      <tubeNumber>3</tubeNumber>
+      <samplingDateTime>2018-10-23T16:59:32</samplingDateTime>
+      <analysisDate>
+        <!--You have a CHOICE of the next 4 items at this level-->
+        <!--
+        <brocom:date>2018-10-25</brocom:date>
+        <brocom:yearMonth>2018-10</brocom:yearMonth>
+        <brocom:year>2018</brocom:year>
+        <brocom:voidReason>onbekend</brocom:voidReason>
+        -->
+        <brocom:date>2018-10-25</brocom:date>
+      </analysisDate>
+      <numberOfParametersLaboratoryAnalysis>15</numberOfParametersLaboratoryAnalysis>
+      <numberOfParametersFieldResearch>3</numberOfParametersFieldResearch>
+    </GAR_C>
+  </dispatchDocument>
+  <dispatchDocument>
+    <brocom:BRO_DO gml:id="id_0002">
+      <brocom:broId>GAR210987654321</brocom:broId>
+      <brocom:deregistered>ja</brocom:deregistered>
+      <brocom:deregistrationTime>2019-06-27T10:13:00+02:00</brocom:deregistrationTime>
+    </brocom:BRO_DO>
+  </dispatchDocument>
+</dispatchCharacteristicsResponse>

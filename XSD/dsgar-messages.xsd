@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:dsgar="http://www.broservices.nl/xsd/dsgar/0.5"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+           xmlns:garcom="http://www.broservices.nl/xsd/garcommon/0.5"
+           xmlns:om="http://www.opengis.net/om/2.0"
+           xmlns:gml="http://www.opengis.net/gml/3.2"
+           xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
+           targetNamespace="http://www.broservices.nl/xsd/dsgar/0.5"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="0.5.0">
+
+   <xs:annotation>
+      <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
+         <gmlsf:ComplianceLevel>0</gmlsf:ComplianceLevel>
+      </xs:appinfo>
+   </xs:annotation>
+
+    <!--
+   <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+   <xs:import namespace="http://www.broservices.nl/xsd/garcommon/0.5" schemaLocation="https://schema.broservices.nl/xsd/garcommon/0.9/garcommon.xsd"/>
+   <xs:import namespace="http://www.opengis.net/om/2.0" schemaLocation="https://schema.broservices.nl/profile/om/1.0/om-profile.xsd"/>
+   <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
+    -->
+   <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
+   <xs:import namespace="http://www.broservices.nl/xsd/garcommon/0.5" schemaLocation="garcommon.xsd"/>
+   <xs:import namespace="http://www.opengis.net/om/2.0" schemaLocation="om-profile.xsd"/>
+   <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="gml-profile.xsd"/>
+
+   <xs:element name="dispatchDataRequest" type="brocom:DispatchDataRequestType" />
+   <xs:element name="parseFault" type="brocom:ParseFaultType" />
+
+   <xs:element name="dispatchCharacteristicsRequest" type="dsgar:DispatchCharacteristicsRequestType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het bericht dispatchCharacteristicsRequest is een specialisatie van AbstractDispatchCharacteristicsRequest in de package brocommon, waaraan het een registratieobject afhankelijk element criteria toevoegt.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="DispatchCharacteristicsRequestType">
+      <xs:complexContent>
+         <xs:extension base="brocom:AbstractDispatchCharacteristicsRequestType">
+            <xs:sequence>
+               <xs:element minOccurs="1"
+                           maxOccurs="1"
+                           name="criteria"
+                           nillable="false"
+                           type="dsgar:GAR_CriteriaSetType">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De afzonderlijke kenmerken waaraan de registratieobjecten moeten voldoen.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+
+   <xs:element name="dispatchCharacteristicsResponse" type="dsgar:DispatchCharacteristicsResponseType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het bericht DispatchCharacteristicsResponse is een specialisatie van DispatchResponse in de package brocommon, waaraan het een element numberOfDocuments en een optionele lijst met dispatchDocuments toevoegt.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="DispatchCharacteristicsResponseType">
+      <xs:complexContent>
+         <xs:extension base="brocom:DispatchResponseType">
+            <xs:sequence>
+               <xs:element name="numberOfDocuments"
+                           type="xs:integer"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aantal registratieobjecten dat voldoet aan de criteria (kenmerkenverzameling) van het dispatchRequest (uitgifteverzoek) en waarvan per registratieobject de characteristics (kengegevens) zijn opgenomen als dispatchDocument (uitgiftedocument).
+Explanation: De kardinaliteit van de lijst met dispatchDocuments is onbegrensd (maxOccurs=”unbounded”), maar het BRO-systeem beperkt de lijst softwarematig tot maximaal 2000 uitgiftedocumenten.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0"
+                           maxOccurs="unbounded"
+                           name="dispatchDocument"
+                           nillable="false"
+                           type="brocom:AbstractRegistrationObjectPropertyType">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst met dispatchDocuments bevat de kengegevens van een registratieobjecten die voldoen aan de criteria (kenmerkenverzameling) van het dispatchRequest (uitgifteverzoek).
+Explanation: Het datatype AbstractRegistrationObject is de gemeenschappelijke vader van de volgende twee alternatieven dat per document uitgegeven kan worden: Als het kind de naamBRO_DO heeft dan bevat het kind de kengegevens van een geotechnisch booronderzoek dat voldoet aan de criteria in het request en dat uit registratie is genomen. Als het kind de naamBHR_GT_C heeft dan bevat het kind de kengegevens van een geotechnisch booronderzoek dat voldoet aan de criteria in het request en dat niet uit registratie is genomen. Merk op dat de naam van het alternatief opgenomen is als kind-element van het element dispatchDocument, met daarin als kleinkind-elementen de kengegevens volgens het gekozen alternatief. Daarmee is eenduidig bekend welk alternatief gekozen is voordat de feitelijke elementen van dat alternatief aan bod komen.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+
+   <xs:element name="dispatchDataResponse" type="dsgar:DispatchDataResponseType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het bericht DispatchDataResponse is een specialisatie van de abstract klasse DispatchResponse uit de package brocommon, waaraan het een dispatchDocument toevoegt. Met dit bericht worden, als response op een DispatchDataRequest, de gegevens over een specifiek grondwatersamenstellingsonderzoek registratieobject verzonden naar de aanvrager.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="DispatchDataResponseType">
+      <xs:complexContent>
+         <xs:extension base="brocom:DispatchResponseType">
+            <xs:sequence>
+               <xs:element minOccurs="0"
+                           maxOccurs="1"
+                           name="dispatchDocument"
+                           nillable="false"
+                           type="brocom:AbstractRegistrationObjectPropertyType">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het element dispatchDocument bevat de gegevens van een grondwatersamenstellingsonderzoek registratieobject. Vanwege het polymorfe karakter is het type of een BRODO uit de package brocom of een GARO of een GARODP uit de package dsgar. Deze drie types hebben allen als gemeenschappelijke vader het type AbstractRegistrationObject uit de package brocom.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+
+   <xs:element name="GAR_C"
+               type="dsgar:GAR_CType"
+               substitutionGroup="brocom:AbstractCharacteristics">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het uitgiftedocument dat de kengegevens bevat van een grondwatersamenstellingsonderzoek dat niet uit registratie is genomen.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="GAR_CType">
+      <xs:complexContent>
+         <xs:extension base="brocom:AbstractCharacteristicsType">
+            <xs:sequence>
+               <xs:element name="groundwaterMonitoringNet"
+                           type="brocom:RegistrationObjectCodeType"
+                           minOccurs="1"
+                           maxOccurs="unbounded">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst met BRO-IDs van de grondwatermonitoringnetten in het kader waarvan het grondwatersamenstellingsonderzoek is uitgevoerd.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="groundwaterMonitoringWell"
+                           type="brocom:RegistrationObjectCodeType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De BRO-ID van de grondwatermonitoringput waarin het grondwatersamenstellingsonderzoek is uitgevoerd.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="tubeNumber" type="xs:integer" minOccurs="1" maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het buisnummer van de buis in de grondwatermonitoringput waarin het grondwatersamenstellingsonderzoek is uitgevoerd.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="samplingDateTime"
+                           type="xs:dateTime"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum en het tijdstip waarop het veldonderzoek is uitgevoerd en het grondwatermonster is genomen.
+Explanation: Deze datum met het tijdstip is voor gebruikers de belangrijkste datum, omdat dit de datum is waarop meetwaarden betrekking hebben. Ook voor het laboratoriumonderzoek is deze datum belangrijk omdat tussen de bemonsteringsdatum en laboratoriumanalyse slechts een beperkte periode mag liggen. Het tijdstip kan van belang zijn, bijvoorbeeld bij monitoringbuizen die onder invloed staan van eb en vloed of omdat een monitoringbuis soms meer keer per dag bemonsterd wordt.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="analysisDate"
+                           type="brocom:PartialDateType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop de analyse wordt uitgevoerd.
+Explanation: Wanneer de analyse, de bepalingstechniek, zich uitstrekt over meer dagen, wordt de datum vastgelegd waarop de bepalingstechniek is afgerond. Bij historische gegevens kan het voorkomen dat de analysedatum niet bekend is.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="numberOfParametersLaboratoryAnalysis"
+                           type="xs:integer"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aantal parameters dat voorkomt in het Resultaat parameters dat valt onder het Laboratoriumonderzoek van het grondwatersamenstellingsonderzoek.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="numberOfParametersFieldResearch"
+                           type="xs:integer"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aantal parameters dat voorkomt in het Resultaat veldmetingen van het grondwatersamenstellingsonderzoek.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="GAR_CPropertyType">
+      <xs:sequence minOccurs="1">
+         <xs:element ref="dsgar:GAR_C"/>
+      </xs:sequence>
+   </xs:complexType>
+
+   <xs:element name="GAR_O"
+               type="dsgar:GAR_OType"
+               substitutionGroup="brocom:RegistrationObject">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gegevens over een grondwatersamenstellingsonderzoek registratieobject in de basisregistratie ondergrond, dat niet uit registratie is genomen en welke verstrekt worden aan een aanvrager die niet bronhouder noch dataleverancier van het registratieobject is.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="GAR_OType">
+      <xs:complexContent>
+         <xs:extension base="brocom:RegistrationObjectType">
+            <xs:sequence>
+               <xs:element minOccurs="1"
+                           maxOccurs="1"
+                           name="registrationHistory"
+                           nillable="false"
+                           type="brocom:RegistrationHistoryType">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gegevens die de geschiedenis van het object in de registratie ondergrond markeren.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="qualityControlMethod"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="garcom:QualityControlMethodType">
+                  <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>QualityControlMethod</CodeListName>
+                        <CodeListURI/>
+                     </xs:appinfo>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het protocol of werkvoorschrift dat is toegepast bij de beoordeling van de kwaliteit van de meetwaarden die in het veld en/of het laboratorium gemeten zijn.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="1"
+                           maxOccurs="unbounded"
+                           name="groundwaterMonitoringNet"
+                           nillable="false"
+                           type="garcom:GroundwaterMonitoringNetPropertyType"/>
+               <xs:element minOccurs="1"
+                           maxOccurs="1"
+                           name="monitoringPoint"
+                           nillable="false"
+                           type="garcom:GMW_MonitoringTubePropertyType"/>
+               <xs:element minOccurs="1"
+                           maxOccurs="1"
+                           name="standardizedLocation"
+                           nillable="false"
+                           type="brocom:StandardizedLocationType"/>
+               <xs:element minOccurs="1"
+                           maxOccurs="unbounded"
+                           name="observation"
+                           nillable="false"
+                           type="om:OM_ObservationPropertyType"/>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="GAR_OPropertyType">
+      <xs:sequence minOccurs="1">
+         <xs:element ref="dsgar:GAR_O"/>
+      </xs:sequence>
+   </xs:complexType>
+
+   <xs:element name="GAR_O_DP"
+               type="dsgar:GAR_O_DPType"
+               substitutionGroup="dsgar:GAR_O">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gegevens over een grondwatersamenstellingsonderzoek registratieobject in de basisregistratie ondergrond, dat niet uit registratie is genomen en welke verstrekt worden aan een aanvrager die tevens bronhouder en/of dataleverancier van het registratieobject is.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="GAR_O_DPType">
+      <xs:complexContent>
+         <xs:extension base="dsgar:GAR_OType"/>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="GAR_O_DPPropertyType">
+      <xs:sequence minOccurs="1">
+         <xs:element ref="dsgar:GAR_O_DP"/>
+      </xs:sequence>
+   </xs:complexType>
+
+   <xs:complexType name="GAR_CriteriaSetType">
+      <xs:complexContent>
+         <xs:extension base="brocom:CriteriaSetType">
+            <xs:sequence>
+               <xs:element name="groundwaterMonitoringNet"
+                           type="brocom:RegistrationObjectCodeType"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De BRO-ID van het grondwatermonitoringnet in het kader waarvan het grondwatersamenstellingsonderzoek is uitgevoerd.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="groundwaterMonitoringWell"
+                           type="brocom:RegistrationObjectCodeType"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De BRO-ID van de grondwatermonitoringput waarin het grondwatersamenstellingsonderzoek is uitgevoerd.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="tubeNumber" type="xs:integer" minOccurs="0" maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het buisnummer van de buis in de grondwatermonitoringput waarin het grondwatersamenstellingsonderzoek is uitgevoerd.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0"
+                           maxOccurs="1"
+                           name="fieldResearchPeriod"
+                           nillable="false"
+                           type="brocom:DatePeriodType">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het datuminterval waarbinnen het tijdstip veldonderzoek van het grondwatersamenstellingsonderzoek ligt.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0"
+                           maxOccurs="1"
+                           name="analysisPeriod"
+                           nillable="false"
+                           type="brocom:DatePeriodType">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het datuminterval waarbinnen de analysedatum van het grondwatersamenstellingsonderzoek ligt.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+</xs:schema>
