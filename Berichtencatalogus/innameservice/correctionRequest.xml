@@ -102,7 +102,7 @@
         </om:OM_Observation>
       </observation>
       <!-- Veldwaardneming.afwijkend gekoeld:
-        result: xsi:type="brocom:IndicationYesNoUnknownEnumeration" is een vaste waarde voor de overige attributen van de entiteit Veldwaarneming, want die hebben een waarde uit een enumeratie.
+        result: xsi:type="brocom:IndicationYesNoUnknownType" is een vaste waarde voor de overige attributen van de entiteit Veldwaarneming, want die hebben een waarde uit een enumeratie.
                 de waarde van result is de waarde van het opgenomen attribuut (ja, nee, onbekend).
        -->
       <observation>
@@ -113,7 +113,7 @@
           <om:procedure xlink:href="#id_0004"/>
           <om:observedProperty xlink:href="urn:bro:gar:abnormalityInCooling"/>
           <om:featureOfInterest xsi:nil="true"/>
-          <om:result xsi:type="brocom:IndicationYesNoUnknownEnumeration">ja</om:result>
+          <om:result xsi:type="brocom:IndicationYesNoUnknownType">ja</om:result>
         </om:OM_Observation>
       </observation>
       <!-- Veldwaardneming.afwijking in meetapparatuur -->
@@ -125,7 +125,7 @@
           <om:procedure xlink:href="#id_0004"/>
           <om:observedProperty xlink:href="urn:bro:gar:abnormalityInDevice"/>
           <om:featureOfInterest xsi:nil="true"/>
-          <om:result xsi:type="brocom:IndicationYesNoUnknownEnumeration">nee</om:result>
+          <om:result xsi:type="brocom:IndicationYesNoUnknownType">nee</om:result>
         </om:OM_Observation>
       </observation>
       <!-- Veldwaardneming.contaminatie door verbrandingsmotor -->
@@ -137,7 +137,7 @@
           <om:procedure xlink:href="#id_0004"/>
           <om:observedProperty xlink:href="urn:bro:gar:pollutedByEngine"/>
           <om:featureOfInterest xsi:nil="true"/>
-          <om:result xsi:type="brocom:IndicationYesNoUnknownEnumeration">onbekend</om:result>
+          <om:result xsi:type="brocom:IndicationYesNoUnknownType">onbekend</om:result>
         </om:OM_Observation>
       </observation>
       <!-- Veldwaardneming.filter belucht -->
@@ -149,7 +149,7 @@
           <om:procedure xlink:href="#id_0004"/>
           <om:observedProperty xlink:href="urn:bro:gar:filterAerated"/>
           <om:featureOfInterest xsi:nil="true"/>
-          <om:result xsi:type="brocom:IndicationYesNoUnknownEnumeration">ja</om:result>
+          <om:result xsi:type="brocom:IndicationYesNoUnknownType">ja</om:result>
         </om:OM_Observation>
       </observation>
       <!-- Veldwaardneming.grondwaterstand teveel gedaald -->
@@ -161,7 +161,7 @@
           <om:procedure xlink:href="#id_0004"/>
           <om:observedProperty xlink:href="urn:bro:gar:groundWaterLevelDroppedTooMuch"/>
           <om:featureOfInterest xsi:nil="true"/>
-          <om:result xsi:type="brocom:IndicationYesNoUnknownEnumeration">nee</om:result>
+          <om:result xsi:type="brocom:IndicationYesNoUnknownType">nee</om:result>
         </om:OM_Observation>
       </observation>
       <!-- Veldwaardneming.inline filter afwijkend -->
@@ -173,7 +173,7 @@
           <om:procedure xlink:href="#id_0004"/>
           <om:observedProperty xlink:href="urn:bro:gar:abnormalFilter"/>
           <om:featureOfInterest xsi:nil="true"/>
-          <om:result xsi:type="brocom:IndicationYesNoUnknownEnumeration">onbekend</om:result>
+          <om:result xsi:type="brocom:IndicationYesNoUnknownType">onbekend</om:result>
         </om:OM_Observation>
       </observation>
       <!-- Veldwaardneming.monster belucht -->
@@ -185,7 +185,7 @@
           <om:procedure xlink:href="#id_0004"/>
           <om:observedProperty xlink:href="urn:bro:gar:sampleAerated"/>
           <om:featureOfInterest xsi:nil="true"/>
-          <om:result xsi:type="brocom:IndicationYesNoUnknownEnumeration">ja</om:result>
+          <om:result xsi:type="brocom:IndicationYesNoUnknownType">ja</om:result>
         </om:OM_Observation>
       </observation>
       <!-- Veldwaardneming.slang hergebruikt -->
@@ -197,7 +197,7 @@
           <om:procedure xlink:href="#id_0004"/>
           <om:observedProperty xlink:href="urn:bro:gar:hoseReused"/>
           <om:featureOfInterest xsi:nil="true"/>
-          <om:result xsi:type="brocom:IndicationYesNoUnknownEnumeration">nee</om:result>
+          <om:result xsi:type="brocom:IndicationYesNoUnknownType">nee</om:result>
         </om:OM_Observation>
       </observation>
       <!-- Veldwaardneming.temperatuur moeilijk te bepalen -->
@@ -209,7 +209,7 @@
           <om:procedure xlink:href="#id_0004"/>
           <om:observedProperty xlink:href="urn:bro:gar:temperatureDifficultToMeasure"/>
           <om:featureOfInterest xsi:nil="true"/>
-          <om:result xsi:type="brocom:IndicationYesNoUnknownEnumeration">onbekend</om:result>
+          <om:result xsi:type="brocom:IndicationYesNoUnknownType">onbekend</om:result>
         </om:OM_Observation>
       </observation>
 
@@ -219,7 +219,7 @@
 
         parameter: name/value/waarde = urn:bro:gar:qualityControlStatus/urn:bro:gar:QualityControlStatus/goedgekeurd conform attribuut van entiteit Veldmeting. 
 
-        observedProperty: in xlink:href="urn:bro:gar:ParameterList#1496" is het deel urn:bro:gar:parameter# een vaste waarde
+        observedProperty: in xlink:href="urn:bro:gar:ParameterList#1496" is het deel urn:bro:gar:ParameterList# een vaste waarde
                           en komt 1496 overeen met de waarde in kolom ID in de referentielijst Parameterlijst conform de gemeten parameter.
 
         result: xsi:type="gml:MeasureType" vaste waarde voor alle attributen van Veldmeting, want dat zijn allemaal meetwaarden.
@@ -294,10 +294,10 @@
                    Bij een gelijkluidende combinatie van waarden mag een xlink:href naar het in-line opgenomen voorkomen worden opgenomen.
 
         parameter: name/value/waarde = urn:bro:gar:qualityControlStatus/urn:bro:gar:QualityControlStatus/goedgekeurd conform attribuut status kwaliteitscontrole van entiteit Analyse.
-        parameter(optioneel): name/value = urn:bro:gar:LimitSymbol/LT conform attribuut limietsymbool van entiteit Analyse.
+        parameter(optioneel): name/value = urn:bro:gar:limitSymbol/LT conform attribuut limietsymbool van entiteit Analyse.
         parameter(optioneel): name/value/waarde = urn:bro:gar:reportingLimit/uom="mg/l"/2 conform attribuut rapportagegrens van entiteit Analyse.
 
-        observedProperty: in xlink:href="urn:bro:gar:parameter#1270" is het deel urn:bro:gar:parameter# een vaste waarde
+        observedProperty: in xlink:href="urn:bro:gar:ParameterList#1270" is het deel urn:bro:gar:ParameterList# een vaste waarde
                           en komt 1270 overeen met de waarde in kolom ID in de referentielijst Parameterlijst conform de gemeten parameter.
 
         featureOfInterest: vast waarde.
@@ -355,7 +355,7 @@
           </om:parameter>
           <om:parameter>
              <om:NamedValue>
-              <om:name xlink:href="urn:bro:gar:LimitSymbol"/>
+              <om:name xlink:href="urn:bro:gar:limitSymbol"/>
               <om:value>LT</om:value>
             </om:NamedValue>
           </om:parameter>

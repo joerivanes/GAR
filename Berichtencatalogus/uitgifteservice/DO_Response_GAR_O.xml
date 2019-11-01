@@ -108,7 +108,7 @@
           <om:procedure xlink:href="#id_0004"/>
           <om:observedProperty xlink:href="urn:bro:gar:abnormalityInCooling"/>
           <om:featureOfInterest xsi:nil="true"/>
-          <om:result xsi:type="brocom:IndicationYesNoUnknownEnumeration">ja</om:result>
+          <om:result xsi:type="brocom:IndicationYesNoUnknownType">ja</om:result>
         </om:OM_Observation>
       </dsgar:observation>
       <!-- Veldwaardneming.afwijking in meetapparatuur -->
@@ -120,7 +120,7 @@
           <om:procedure xlink:href="#id_0004"/>
           <om:observedProperty xlink:href="urn:bro:gar:abnormalityInDevice"/>
           <om:featureOfInterest xsi:nil="true"/>
-          <om:result xsi:type="brocom:IndicationYesNoUnknownEnumeration">nee</om:result>
+          <om:result xsi:type="brocom:IndicationYesNoUnknownType">nee</om:result>
         </om:OM_Observation>
       </dsgar:observation>
       <!-- Veldwaardneming.contaminatie door verbrandingsmotor -->
@@ -132,7 +132,7 @@
           <om:procedure xlink:href="#id_0004"/>
           <om:observedProperty xlink:href="urn:bro:gar:pollutedByEngine"/>
           <om:featureOfInterest xsi:nil="true"/>
-          <om:result xsi:type="brocom:IndicationYesNoUnknownEnumeration">onbekend</om:result>
+          <om:result xsi:type="brocom:IndicationYesNoUnknownType">onbekend</om:result>
         </om:OM_Observation>
       </dsgar:observation>
       <!-- Veldwaardneming.filter belucht -->
@@ -144,7 +144,7 @@
           <om:procedure xlink:href="#id_0004"/>
           <om:observedProperty xlink:href="urn:bro:gar:filterAerated"/>
           <om:featureOfInterest xsi:nil="true"/>
-          <om:result xsi:type="brocom:IndicationYesNoUnknownEnumeration">ja</om:result>
+          <om:result xsi:type="brocom:IndicationYesNoUnknownType">ja</om:result>
         </om:OM_Observation>
       </dsgar:observation>
       <!-- Veldwaardneming.grondwaterstand teveel gedaald -->
@@ -156,7 +156,7 @@
           <om:procedure xlink:href="#id_0004"/>
           <om:observedProperty xlink:href="urn:bro:gar:groundWaterLevelDroppedTooMuch"/>
           <om:featureOfInterest xsi:nil="true"/>
-          <om:result xsi:type="brocom:IndicationYesNoUnknownEnumeration">nee</om:result>
+          <om:result xsi:type="brocom:IndicationYesNoUnknownType">nee</om:result>
         </om:OM_Observation>
       </dsgar:observation>
       <!-- Veldwaardneming.inline filter afwijkend -->
@@ -168,7 +168,7 @@
           <om:procedure xlink:href="#id_0004"/>
           <om:observedProperty xlink:href="urn:bro:gar:abnormalFilter"/>
           <om:featureOfInterest xsi:nil="true"/>
-          <om:result xsi:type="brocom:IndicationYesNoUnknownEnumeration">onbekend</om:result>
+          <om:result xsi:type="brocom:IndicationYesNoUnknownType">onbekend</om:result>
         </om:OM_Observation>
       </dsgar:observation>
       <!-- Veldwaardneming.monster belucht -->
@@ -180,7 +180,7 @@
           <om:procedure xlink:href="#id_0004"/>
           <om:observedProperty xlink:href="urn:bro:gar:sampleAerated"/>
           <om:featureOfInterest xsi:nil="true"/>
-          <om:result xsi:type="brocom:IndicationYesNoUnknownEnumeration">ja</om:result>
+          <om:result xsi:type="brocom:IndicationYesNoUnknownType">ja</om:result>
         </om:OM_Observation>
       </dsgar:observation>
       <!-- Veldwaardneming.slang hergebruikt -->
@@ -192,7 +192,7 @@
           <om:procedure xlink:href="#id_0004"/>
           <om:observedProperty xlink:href="urn:bro:gar:hoseReused"/>
           <om:featureOfInterest xsi:nil="true"/>
-          <om:result xsi:type="brocom:IndicationYesNoUnknownEnumeration">nee</om:result>
+          <om:result xsi:type="brocom:IndicationYesNoUnknownType">nee</om:result>
         </om:OM_Observation>
       </dsgar:observation>
       <!-- Veldwaardneming.temperatuur moeilijk te bepalen -->
@@ -204,7 +204,7 @@
           <om:procedure xlink:href="#id_0004"/>
           <om:observedProperty xlink:href="urn:bro:gar:temperatureDifficultToMeasure"/>
           <om:featureOfInterest xsi:nil="true"/>
-          <om:result xsi:type="brocom:IndicationYesNoUnknownEnumeration">onbekend</om:result>
+          <om:result xsi:type="brocom:IndicationYesNoUnknownType">onbekend</om:result>
         </om:OM_Observation>
       </dsgar:observation>
 
@@ -314,7 +314,7 @@
           </om:parameter>
           <om:parameter>
              <om:NamedValue>
-              <om:name xlink:href="urn:bro:gar:LimitSymbol"/>
+              <om:name xlink:href="urn:bro:gar:limitSymbol"/>
               <om:value>LT</om:value>
             </om:NamedValue>
           </om:parameter>
