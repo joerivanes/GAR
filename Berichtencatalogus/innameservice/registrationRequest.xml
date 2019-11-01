@@ -6,7 +6,7 @@
     xmlns:gml="http://www.opengis.net/gml/3.2"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.broservices.nl/xsd/isgar/0.5 ../../XSD/isgar-messages.xsd"
+    xsi:schemaLocation="http://www.broservices.nl/xsd/isgar/0.5 https://schema.broservices.nl/xsd/isgar/0.9/isgar-messages.xsd"
     >
   <brocom:requestReference>levering-23</brocom:requestReference>
   <brocom:deliveryAccountableParty>52754834</brocom:deliveryAccountableParty>
@@ -344,7 +344,7 @@
               <om:value uom="mg/l">2</om:value>
             </om:NamedValue>
           </om:parameter>
-          <om:observedProperty xlink:href="urn:bro:gar:parameter#1270"/>
+          <om:observedProperty xlink:href="urn:bro:gar:ParameterList#1270"/>
           <om:featureOfInterest xsi:nil="true"/>
           <om:result xsi:type="gml:MeasureType" uom="mg/l">5</om:result>
         </om:OM_Observation>
@@ -374,7 +374,7 @@
               <om:value xsi:type="gml:MeasureType" uom="ug/l">0.1</om:value>
             </om:NamedValue>
           </om:parameter>
-          <om:observedProperty xlink:href="urn:bro:gar:parameter#441"/>
+          <om:observedProperty xlink:href="urn:bro:gar:ParameterList#441"/>
           <om:featureOfInterest xsi:nil="true"/>
           <om:result xsi:type="gml:MeasureType" uom="ug/l">0.1</om:result>
         </om:OM_Observation>
@@ -410,7 +410,7 @@
               <om:value codeSpace="urn:bro:gar:QualityControlStatus">onbeslist</om:value>
             </om:NamedValue>
           </om:parameter>
-          <om:observedProperty xlink:href="urn:bro:gar:parameter#1522"/>
+          <om:observedProperty xlink:href="urn:bro:gar:ParameterList#1522"/>
           <om:featureOfInterest xsi:nil="true"/>
           <om:result xsi:type="gml:MeasureType" uom="Cel">12.2</om:result>
         </om:OM_Observation>

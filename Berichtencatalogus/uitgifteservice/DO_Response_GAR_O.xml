@@ -7,7 +7,7 @@
     xmlns:gml="http://www.opengis.net/gml/3.2"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.broservices.nl/xsd/dsgar/0.5 ../../XSD/dsgar-messages.xsd"
+    xsi:schemaLocation="http://www.broservices.nl/xsd/dsgar/0.5 https://schema.broservices.nl/xsd/dsgar/0.9/dsgar-messages.xsd"
   >
   <brocom:responseType>dispatch</brocom:responseType>
   <brocom:requestReference>do15</brocom:requestReference>
@@ -294,7 +294,7 @@
               <om:value uom="mg/l">2</om:value>
             </om:NamedValue>
           </om:parameter>
-          <om:observedProperty xlink:href="urn:bro:gar:parameter#1270"/>
+          <om:observedProperty xlink:href="urn:bro:gar:ParameterList#1270"/>
           <om:featureOfInterest xsi:nil="true"/>
           <om:result xsi:type="gml:MeasureType" uom="mg/l">5</om:result>
         </om:OM_Observation>
@@ -324,7 +324,7 @@
               <om:value xsi:type="gml:MeasureType" uom="ug/l">0.1</om:value>
             </om:NamedValue>
           </om:parameter>
-          <om:observedProperty xlink:href="urn:bro:gar:parameter#441"/>
+          <om:observedProperty xlink:href="urn:bro:gar:ParameterList#441"/>
           <om:featureOfInterest xsi:nil="true"/>
           <om:result xsi:type="gml:MeasureType" uom="ug/l">NaN</om:result>
         </om:OM_Observation>
@@ -353,7 +353,7 @@
               <om:value codeSpace="urn:bro:gar:QualityControlStatus">onbeslist</om:value>
             </om:NamedValue>
           </om:parameter>
-          <om:observedProperty xlink:href="urn:bro:gar:parameter#1522"/>
+          <om:observedProperty xlink:href="urn:bro:gar:ParameterList#1522"/>
           <om:featureOfInterest xsi:nil="true"/>
           <om:result xsi:type="gml:MeasureType" uom="Cel">12.2</om:result>
         </om:OM_Observation>
