@@ -7,13 +7,13 @@
     xmlns:gml="http://www.opengis.net/gml/3.2"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.broservices.nl/xsd/dsgar/0.5 https://schema.broservices.nl/xsd/dsgar/0.9/dsgar-messages.xsd"
+    xsi:schemaLocation="http://www.broservices.nl/xsd/dsgar/0.5 ../../XSD/dsgar-messages.xsd"
   >
   <brocom:responseType>dispatch</brocom:responseType>
   <brocom:requestReference>do15</brocom:requestReference>
   <brocom:dispatchTime>2019-12-17T07:53:04+01:00</brocom:dispatchTime>
   <dsgar:dispatchDocument>
-    <dsgar:GAR_O gml:id="ff_1234">
+    <dsgar:GAR_O gml:id="id_0001">
       <brocom:broId>GAR123456789012</brocom:broId>
       <brocom:deliveryAccountableParty>52754834</brocom:deliveryAccountableParty>
       <!--Optional: wordt alleen uitgeleverd als de aanvrager tevens bronhouder en/of dataleverancier is van het registratieobject
@@ -45,12 +45,6 @@
           <garcom:tubeNumber>3</garcom:tubeNumber>
         </garcom:GMW_MonitoringTube>
       </dsgar:monitoringPoint>
-      <dsgar:standardizedLocation>
-        <brocom:location gml:id="BRO_0002" srsName="urn:ogc:def:crs:EPSG::4258">
-          <gml:pos>52.287820410 5.090415660</gml:pos>
-        </brocom:location>
-        <brocom:coordinateTransformation codeSpace="urn:bro:CoordinateTransformation">RDNAPTRANS2008</brocom:coordinateTransformation>
-      </dsgar:standardizedLocation>
       <!--1 or more repetitions:-->
       <dsgar:observation>
         <om:OM_Observation gml:id="id_0002">

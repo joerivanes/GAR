@@ -6,7 +6,7 @@
     xmlns:gml="http://www.opengis.net/gml/3.2"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.broservices.nl/xsd/isgar/0.5 https://schema.broservices.nl/xsd/isgar/0.9/isgar-messages.xsd"
+    xsi:schemaLocation="http://www.broservices.nl/xsd/isgar/0.5 ../../XSD/isgar-messages.xsd"
     >
   <brocom:requestReference>levering-24</brocom:requestReference>
   <brocom:deliveryAccountableParty>52754834</brocom:deliveryAccountableParty>
